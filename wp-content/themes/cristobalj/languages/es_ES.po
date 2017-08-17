@@ -8,80 +8,94 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2015-04-19 22:13+0100\n"
+"Last-Translator: \n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Poedit 1.6.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es\n"
 
 #: 404.php:15
 msgid "Oops! That page can&rsquo;t be found."
-msgstr ""
+msgstr "¡Vaya, lo sentimos! No hemos logrado encontrar la página."
 
 #: 404.php:19
-msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
 msgstr ""
+"Parece que no pudimos dar con el contenido en esta localización. Si lo "
+"desea, contáctenos o realice una búsqueda en el site."
 
 #: 404.php:27
 msgid "Most Used Categories"
-msgstr ""
+msgstr "Categorías más usadas"
 
 #. translators: %1$s: smiley
-
 #: 404.php:44
 msgid "Try looking in the monthly archives. %1$s"
-msgstr ""
+msgstr "Intente buscar en el archivo por mes. %1$s"
 
 #: comments.php:28
 msgctxt "comments title"
 msgid "One thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Un comentario en &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s comentarios en &ldquo;%2$s&rdquo;"
 
 #: comments.php:35 comments.php:52
 msgid "Comment navigation"
-msgstr ""
+msgstr "Navegación de comentarios"
 
 #: comments.php:36 comments.php:53
 msgid "&larr; Older Comments"
-msgstr ""
+msgstr "Comentarios anteriores"
 
 #: comments.php:37 comments.php:54
 msgid "Newer Comments &rarr;"
-msgstr ""
+msgstr "Comentarios posteriores"
 
 #: comments.php:64
 msgid "Comments are closed."
-msgstr ""
+msgstr "Los comentarios están cerrados."
 
 #: content-none.php:13
 msgid "Nothing Found"
-msgstr ""
+msgstr "No encontramos nada aquí..."
 
 #: content-none.php:19
-msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr ""
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Listo para publicar tu primer post? <a href=\"%1$s\">Empieza aquí</a>."
 
 #: content-none.php:23
-msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
 msgstr ""
+"Mil disculpas, pero no encontramos resultados para estos términos de "
+"búsqueda. Por favor, inténtelo de nuevo con distintas palabras clave."
 
 #: content-none.php:28
-msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
 msgstr ""
+"Parece que no podemos encontrar los contenidos solicitados. Quizás una "
+"búsqueda pueda ayudar."
 
 #: content-page.php:18 content-single.php:20 content.php:29
 msgid "Pages:"
-msgstr ""
+msgstr "Páginas"
 
 #: content-page.php:25 inc/template-tags.php:126
 msgid "Edit"
-msgstr ""
+msgstr "Editar"
 
 #. translators: %s: Name of current post
-
 #: content.php:22
 msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
-msgstr ""
+msgstr "Siga leyendo %s <span class=\"meta-nav\">&rarr;</span>"
 
 #: footer.php:15
 msgid "http://wordpress.org/"
@@ -89,53 +103,53 @@ msgstr ""
 
 #: footer.php:15
 msgid "Proudly powered by %s"
-msgstr ""
+msgstr "Poderoseado por... %s"
 
 #: footer.php:17
 msgid "Theme: %1$s by %2$s."
-msgstr ""
+msgstr "Plantilla: %1$s por %2$s."
 
 #: functions.php:53 header.php:31
 msgid "Primary Menu"
-msgstr ""
+msgstr "Menú Principal"
 
 #: functions.php:88
 msgid "Sidebar"
-msgstr ""
+msgstr "Barra lateral"
 
 #: header.php:22
 msgid "Skip to content"
-msgstr ""
+msgstr "Saltar al contenido"
 
 #: inc/extras.php:64
 msgid "Page %s"
-msgstr ""
+msgstr "Páginas %s"
 
 #: inc/template-tags.php:23
 msgid "Posts navigation"
-msgstr ""
+msgstr "Navegación de entradas"
 
 #: inc/template-tags.php:27
 msgid "Older posts"
-msgstr ""
+msgstr "Entradas antiguas"
 
 #: inc/template-tags.php:31
 msgid "Newer posts"
-msgstr ""
+msgstr "Entradas nuevas"
 
 #: inc/template-tags.php:56
 msgid "Post navigation"
-msgstr ""
+msgstr "Navegación de entradas"
 
 #: inc/template-tags.php:86
 msgctxt "post date"
 msgid "Posted on %s"
-msgstr ""
+msgstr "Publicado el %s"
 
 #: inc/template-tags.php:91
 msgctxt "post author"
 msgid "by %s"
-msgstr ""
+msgstr "por %s"
 
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:108 inc/template-tags.php:114
@@ -144,39 +158,39 @@ msgstr ""
 
 #: inc/template-tags.php:110
 msgid "Posted in %1$s"
-msgstr ""
+msgstr "Clasificado en %1$s"
 
 #: inc/template-tags.php:116
 msgid "Tagged %1$s"
-msgstr ""
+msgstr "Etiquetado como %1$s"
 
 #: inc/template-tags.php:122
 msgid "Leave a comment"
-msgstr ""
+msgstr "Dejar un comentario"
 
 #: inc/template-tags.php:122
 msgid "1 Comment"
-msgstr ""
+msgstr "1 Comentario"
 
 #: inc/template-tags.php:122
 msgid "% Comments"
-msgstr ""
+msgstr "% Comentarios"
 
 #: inc/template-tags.php:143
 msgid "Category: %s"
-msgstr ""
+msgstr "Categoría: %s"
 
 #: inc/template-tags.php:145
 msgid "Tag: %s"
-msgstr ""
+msgstr "Etiqueta: %s"
 
 #: inc/template-tags.php:147
 msgid "Author: %s"
-msgstr ""
+msgstr "Autor: %s"
 
 #: inc/template-tags.php:149
 msgid "Year: %s"
-msgstr ""
+msgstr "Año: %s"
 
 #: inc/template-tags.php:149
 msgctxt "yearly archives date format"
@@ -185,7 +199,7 @@ msgstr ""
 
 #: inc/template-tags.php:151
 msgid "Month: %s"
-msgstr ""
+msgstr "Mes: %s"
 
 #: inc/template-tags.php:151
 msgctxt "monthly archives date format"
@@ -194,7 +208,7 @@ msgstr ""
 
 #: inc/template-tags.php:153
 msgid "Day: %s"
-msgstr ""
+msgstr "Día: %s"
 
 #: inc/template-tags.php:153
 msgctxt "daily archives date format"
@@ -248,21 +262,21 @@ msgstr ""
 
 #: inc/template-tags.php:173
 msgid "Archives: %s"
-msgstr ""
+msgstr "Archivos: %S"
 
 #. translators: 1: Taxonomy singular name, 2: Current taxonomy term
-
 #: inc/template-tags.php:177
 msgid "%1$s: %2$s"
 msgstr ""
 
 #: inc/template-tags.php:179
 msgid "Archives"
-msgstr ""
+msgstr "Archivos"
 
 #: search.php:16
 msgid "Search Results for: %s"
-msgstr ""
+msgstr "Resultados de Búsqueda para: %s"
+
 #. Theme Name of the plugin/theme
 msgid "_s"
 msgstr ""
@@ -272,7 +286,11 @@ msgid "http://underscores.me/"
 msgstr ""
 
 #. Description of the plugin/theme
-msgid "Hi. I'm a starter theme called <code>_s</code>, or <em>underscores</em>, if you like. I'm a theme meant for hacking so don't use me as a <em>Parent Theme</em>. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for."
+msgid ""
+"Hi. I'm a starter theme called <code>_s</code>, or <em>underscores</em>, if "
+"you like. I'm a theme meant for hacking so don't use me as a <em>Parent "
+"Theme</em>. Instead try turning me into the next, most awesome, WordPress "
+"theme out there. That's what I'm here for."
 msgstr ""
 
 #. Author of the plugin/theme
