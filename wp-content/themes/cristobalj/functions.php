@@ -1,10 +1,7 @@
 <?php
 /**
- * CristobalJ functions and definitions
+ * Cristobal theme functions and definitions
  *
- * @link https://developer.wordpress.org/themes/basics/theme-functions/
- *
- * @package CristobalJ
  */
 
 if ( ! function_exists( 'cristobalj_setup' ) ) :
@@ -71,7 +68,6 @@ if ( ! function_exists( 'cristobalj_setup' ) ) :
 		/**
 		 * Add support for core custom logo.
 		 *
-		 * @link https://codex.wordpress.org/Theme_Logo
 		 */
 		add_theme_support( 'custom-logo', array(
 			'height'      => 250,
@@ -119,9 +115,9 @@ add_action( 'widgets_init', 'cristobalj_widgets_init' );
 function cristobalj_scripts() {
 	wp_enqueue_style( 'cristobalj-style', get_stylesheet_uri() );
 
-	wp_enqueue_script( 'cristobalj-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+	wp_enqueue_script( 'cristobalj-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20170818', true );
 
-	wp_enqueue_script( 'cristobalj-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
+	wp_enqueue_script( 'cristobalj-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20170818', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );

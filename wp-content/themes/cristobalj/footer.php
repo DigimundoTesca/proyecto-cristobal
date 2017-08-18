@@ -4,9 +4,6 @@
  *
  * Contains the closing of the #content div and all content after.
  *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
- * @package CristobalJ
  */
 
 ?>
@@ -22,7 +19,7 @@
 			<span class="sep"> | </span>
 			<?php
 				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'cristobalj' ), 'cristobalj', '<a href="http://underscores.me/">Underscores.me</a>' );
+				printf( esc_html__( 'Theme: %1$s by %2$s.', 'cristobalj' ), 'Cristobal Theme', '<a href="http://digimundo.com.mx/" target="_blank">Digimundo México</a>' );
 			?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
