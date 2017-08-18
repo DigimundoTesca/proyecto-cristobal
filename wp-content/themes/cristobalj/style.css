@@ -1,4 +1,4 @@
-/*
+
 Theme Name: CristobalJ
 Theme URI: http://digimundo.com.mx/
 Author: Digimundo
@@ -31,6 +31,7 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 # Media
 	## Captions
 	## Galleries
+#Theme styles
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
@@ -128,6 +129,7 @@ html {
 }
 
 body {
+	margin: 10px 5px;
 	background: #fff; /* Fallback for when there is no custom background color defined. */
 }
 
@@ -284,6 +286,8 @@ textarea {
 --------------------------------------------------------------*/
 a {
 	color: royalblue;
+	list-style: none;
+	text-decoration: none;
 }
 
 a:visited {
@@ -325,6 +329,8 @@ a:active {
 .main-navigation li {
 	float: left;
 	position: relative;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 .main-navigation a {
@@ -668,4 +674,59 @@ object {
 
 .gallery-caption {
 	display: block;
+}
+
+
+/*--------------------------------------------------------------
+## Theme styles
+--------------------------------------------------------------*/
+/*Mobile styles - Celular*/
+.site-title a{
+	color: #000000;
+	list-style: none;
+	text-decoration: none;
+}
+
+.site-title a:visited {
+	color: #000000;
+}
+
+.site-title a:hover,
+.site-title a:focus,
+.site-title a:active {
+	color: #000000;
+}
+
+.site-title {
+	font-size: 18pt;
+	line-height: 20pt;
+	font-weight: 600;
+	font-family: 'Adobe Caslon Pro';
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+/*Mobile styles - Tablet*/
+@media screen and (min-width: 768px) {
+	.site-title {
+		font-size: 45pt;
+		line-height: 50pt;
+	}
+}
+
+
+
+
+
+
+
+/*Desktop styles*/
+
+/*Mobile styles - Tablet*/
+@media screen and (min-width: 1200px) {
+
 }
