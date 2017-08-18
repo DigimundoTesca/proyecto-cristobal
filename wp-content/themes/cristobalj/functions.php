@@ -114,6 +114,7 @@ add_action( 'widgets_init', 'cristobalj_widgets_init' );
  */
 function cristobalj_scripts() {
 	wp_enqueue_style( 'cristobalj-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'fonts-style', get_template_directory_uri().'/fonts/stylesheet.css' );
 	wp_enqueue_style( 'normalize', 'https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css', true );
 	wp_enqueue_style( 'fontawesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css', true );
 	wp_enqueue_script( 'prefixfree', 'https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js', true );
