@@ -683,9 +683,9 @@ object {
 /*Mobile styles - Celular*/
 .site-branding {
 	width: 100%;
-	display: inline-flex;
+	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 }
 /* Menu Button */
@@ -762,11 +762,8 @@ object {
 	background: #373a47;
 	padding: 2.5em 1.5em 0;
 	font-size: 1.15em;
-	-webkit-transform: translate3d(-320px,0,0);
-	transform: translate3d(-320px,0,0);
-	-webkit-transition: -webkit-transform 0.4s;
+	transform: translate3d(-500px,0,0);
 	transition: transform 0.4s;
-	-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
 	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
 }
 
@@ -827,12 +824,11 @@ object {
 
 /* Shown menu */
 .show-menu .menu-wrap {
-	-webkit-transform: translate3d(0,0,0);
-	transform: translate3d(0,0,0);
-	-webkit-transition: -webkit-transform 0.8s;
+	transform: translate3d(3px,3px,3px);
 	transition: transform 0.8s;
-	-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
 	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+	left: 0;
+	top: 0;
 }
 
 .show-menu .icon-list,
@@ -922,8 +918,6 @@ object {
 
 
 
-
-
 /*Mobile styles - Tablet*/
 @media screen and (min-width: 768px) {
 	/*Styles for title text*/
@@ -973,8 +967,6 @@ object {
 
 
 /*Desktop styles*/
-
-/*Mobile styles - Tablet*/
 @media screen and (min-width: 1200px) {
 
 }
