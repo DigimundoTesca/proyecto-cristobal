@@ -24,7 +24,7 @@
 			<div class="site-branding">
 				<div class="container"> 
 					<div class="menu-wrap">
-						<nav class="menu">
+						<nav id="menu" class="menu">
 								<?php
 								wp_nav_menu( array(
 									'theme_location' => 'menu-1',

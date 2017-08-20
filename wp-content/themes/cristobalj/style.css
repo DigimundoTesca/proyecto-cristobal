@@ -680,6 +680,9 @@ object {
 /*--------------------------------------------------------------
 ## Theme styles
 --------------------------------------------------------------*/
+body {
+	margin: 5%;
+}
 /*Mobile styles - Celular*/
 .site-branding {
 	width: 100%;
@@ -858,7 +861,6 @@ object {
 /*styles for custom menu*/
 .menu ul {
 	margin: 0;
-	margin-left: 25%;
 	padding: 0;
 }
 .menu ul li {
@@ -868,6 +870,41 @@ object {
 .menu li a {
 	text-decoration: none;
 	color: #FFFFFF;
+}
+#menu li:hover {
+	background-color: #818493;
+}
+#menu li {
+	min-height: 35px;
+	width: 100%;
+	text-indent: 25%;
+	display: flex;
+	align-items: center;
+}
+/*Adding fontawesome icons*/
+#menu div ul li a:before {
+	font-family: 'FontAwesome';
+	font-size: inherit;
+	content: '\f015   ';
+	-webkit-font-smoothing:antialiased;
+}
+#menu div ul li:nth-child(1) a::before{
+	content: '\f015   ';
+}
+#menu div ul li:nth-child(2) a::before {
+	content: '\f0b1   ';
+}
+#menu div ul li:nth-child(3) a::before {
+	content: '\f02d   ';
+}
+#menu div ul li:nth-child(4) a::before {
+	content: '\f073   ';
+}
+#menu div ul li:nth-child(5) a::before {
+	content: '\f2b5   ';
+}
+#menu div ul li:nth-child(6) a::before {
+	content: '\f003   ';
 }
 /*Styles for mobile brand logo*/
 .brand-logo {
