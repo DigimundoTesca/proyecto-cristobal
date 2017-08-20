@@ -964,11 +964,16 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-#banner::before,
+#banner::before {
+	content: '';
+	width: 100%;
+	background-image: linear-gradient(to right,#FFF 5%,transparent 70%);
+	opacity: ; 
+}
 #banner1::before {
 	content: '';
 	width: 100%;
-	background-image: linear-gradient(to right,#FFF 5%,transparent);
+	background-image: linear-gradient(to right,#FFF 25%,transparent 60%);
 	opacity: ; 
 }
 .bannermobile {
@@ -980,7 +985,12 @@ body {
 	min-height: 300px;
 }
 .bannercontainer {
-	position: absolute;
+	font-family: 'Gotham Rounded';
+	display: none;
+}
+.mobilecontainer {
+	font-family: 'Gotham Rounded';
+	display: initial;
 }
 
 
@@ -1031,6 +1041,15 @@ body {
 	}
 	.bannerbig {
 		display: flex;
+	}
+	.bannercontainer {
+		position: absolute;
+		display: initial;
+		top: 30%;
+		width: 35%;
+	}
+	.mobilecontainer {
+		display: none;
 	}
 }
 
