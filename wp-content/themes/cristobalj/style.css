@@ -992,6 +992,16 @@ body {
 	font-family: 'Gotham Rounded';
 	display: initial;
 }
+/*Banner text´s styles*/
+h2.bannertitle {
+	font-size: 20px;
+}
+p.quote {
+	font-size: 15px;
+}
+label.es_shortcode_form_email {
+    font-size: 15px;
+}
 
 
 
@@ -1071,5 +1081,20 @@ body {
 
 /*Desktop styles*/
 @media screen and (min-width: 1200px) {
-
+	/*Styles for main menu navigation*/
+	.main-navigation a {
+		font-size: 25pt;
+		margin: 0 13px;
+	}
+	/*Styles for banner*/
+	.bannerbig {
+		min-height: 450px;
+	}
+	.bannercontainer {
+		position: absolute;
+		display: initial;
+		top: 40%;
+		width: 35%;
+		font-size: calc(10px + 13px);
+	}
 }
