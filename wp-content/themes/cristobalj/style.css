@@ -892,18 +892,21 @@ body {
 	content: '\f015   ';
 }
 #menu div ul li:nth-child(2) a::before {
-	content: '\f0b1   ';
+	content: '\f073   ';
 }
 #menu div ul li:nth-child(3) a::before {
 	content: '\f02d   ';
 }
 #menu div ul li:nth-child(4) a::before {
-	content: '\f073   ';
+	content: '\f2bd    ';
 }
 #menu div ul li:nth-child(5) a::before {
-	content: '\f2b5   ';
+	content: '\f0ac   ';
 }
 #menu div ul li:nth-child(6) a::before {
+	content: '\f06e    ';
+}
+#menu div ul li:nth-child(7) a::before {
 	content: '\f003   ';
 }
 /*Styles for mobile brand logo*/
