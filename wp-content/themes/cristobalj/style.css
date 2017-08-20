@@ -955,6 +955,33 @@ body {
 .main-navigation {
 	display: none;
 }
+/*Styles for Main-banner*/
+#banner,
+#banner1 {
+	background-color: #FFF;
+	background-image: url("images/cristobal.jpg");
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#banner::before,
+#banner1::before {
+	content: '';
+	width: 100%;
+	background-image: linear-gradient(to right,#FFF 5%,transparent);
+	opacity: ; 
+}
+.bannermobile {
+	display: flex;
+	min-height: 150px;
+}
+.bannerbig {
+	display: none;
+	min-height: 300px;
+}
+.bannercontainer {
+	position: absolute;
+}
 
 
 
@@ -997,6 +1024,13 @@ body {
 	.menu li a {
 		text-decoration: none;
 		color: #000000;
+	}
+	/*Styles for Main-banner*/
+	.bannermobile {
+		display: none;
+	}
+	.bannerbig {
+		display: flex;
 	}
 }
 
