@@ -997,35 +997,45 @@ body {
 
 /*Mobile styles - Tablet*/
 @media screen and (min-width: 768px) {
+	/*Styles for Branding*/
+	.site-branding {
+		justify-content: normal;
+	}
 	/*Styles for title text*/
 	.site-title a{
-		color: #FFFFFF;
+		color: #000000;
 		list-style: none;
 		text-decoration: none;
 	}
 
 	.site-title a:visited {
-		color: #FFFFFF;
+		color: #000000;
 	}
 
 	.site-title a:hover,
 	.site-title a:focus,
 	.site-title a:active {
-		color: #FFFFFF;
+		color: #000000;
 	}
 	.site-title {
-		font-size: 25pt;
+		font-size: 20pt;
 		line-height: 40pt;
-		margin-left: 30px;
+		margin-left: 25px;
 		padding: 3px;
-		background-color: #000000;
 	}
 	.title-caps {
-		font-size: 35pt;
+		font-size: 30pt;
 	}
 	/*show default nav bar and hide hamburguer menu*/
+	/*Styles for main menu navigation*/
 	.main-navigation {
-		display: initial;
+		display: flex;
+		justify-content: space-around;
+		background-color: #a156e0;
+	}
+	.main-navigation a {
+		font-size: 15pt;
+		margin: 0 6px;
 	}
 	.container,
 	.brand-logo {
@@ -1033,7 +1043,7 @@ body {
 	}
 	.menu li a {
 		text-decoration: none;
-		color: #000000;
+		color: #FFF;
 	}
 	/*Styles for Main-banner*/
 	.bannermobile {
