@@ -1,25 +1,31 @@
-# Copyright (C) 2015 Automattic
-# This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: _s 1.0.0\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
-"POT-Creation-Date: 2015-01-06 02:24:02+00:00\n"
+"Project-Id-Version: CristobalJ\n"
+"POT-Creation-Date: 2017-08-20 13:33-0500\n"
+"PO-Revision-Date: 2017-08-20 13:35-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2015-04-19 22:13+0100\n"
-"Last-Translator: \n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"X-Generator: Poedit 1.6.4\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Language: es\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: 404.php:15
+#: 404.php:14
 msgid "Oops! That page can&rsquo;t be found."
 msgstr "¡Vaya, lo sentimos! No hemos logrado encontrar la página."
 
-#: 404.php:19
+#: 404.php:18
 msgid ""
 "It looks like nothing was found at this location. Maybe try one of the links "
 "below or a search?"
@@ -33,42 +39,152 @@ msgstr "Categorías más usadas"
 
 #. translators: %1$s: smiley
 #: 404.php:44
+#, php-format
 msgid "Try looking in the monthly archives. %1$s"
 msgstr "Intente buscar en el archivo por mes. %1$s"
 
-#: comments.php:28
+#. translators: 1: title.
+#: comments.php:31
+#, fuzzy, php-format
+#| msgctxt "comments title"
+#| msgid "One thought on &ldquo;%2$s&rdquo;"
+#| msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Un comentario en &ldquo;%2$s&rdquo;"
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:37
+#, fuzzy, php-format
+#| msgctxt "comments title"
+#| msgid "One thought on &ldquo;%2$s&rdquo;"
+#| msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgctxt "comments title"
-msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] "Un comentario en &ldquo;%2$s&rdquo;"
 msgstr[1] "%1$s comentarios en &ldquo;%2$s&rdquo;"
 
-#: comments.php:35 comments.php:52
-msgid "Comment navigation"
-msgstr "Navegación de comentarios"
-
-#: comments.php:36 comments.php:53
-msgid "&larr; Older Comments"
-msgstr "Comentarios anteriores"
-
-#: comments.php:37 comments.php:54
-msgid "Newer Comments &rarr;"
-msgstr "Comentarios posteriores"
-
-#: comments.php:64
+#: comments.php:60
 msgid "Comments are closed."
 msgstr "Los comentarios están cerrados."
 
-#: content-none.php:13
+#: footer.php:15
+msgid "https://wordpress.org/"
+msgstr ""
+
+#. translators: %s: CMS name, i.e. WordPress.
+#: footer.php:17
+#, php-format
+msgid "Proudly powered by %s"
+msgstr "Poderoseado por... %s"
+
+#. translators: 1: Theme name, 2: Theme author.
+#: footer.php:22
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr "Plantilla: %1$s por %2$s."
+
+#: functions.php:44
+#, fuzzy
+#| msgid "Primary Menu"
+msgid "Primary"
+msgstr "Menú Principal"
+
+#: functions.php:101
+msgid "Sidebar"
+msgstr "Barra lateral"
+
+#: functions.php:103
+msgid "Add widgets here."
+msgstr "Agrega widgets aquí"
+
+#: header.php:21
+msgid "Skip to content"
+msgstr "Saltar al contenido"
+
+#: header.php:61
+msgid "Primary Menu"
+msgstr "Menú Principal"
+
+#. translators: %s: post date.
+#: inc/template-tags.php:29
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Publicado el %s"
+
+#. translators: %s: post author.
+#: inc/template-tags.php:35
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr "por %s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:52
+msgid ", "
+msgstr ","
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:55
+#, php-format
+msgid "Posted in %1$s"
+msgstr "Clasificado en %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:59
+msgctxt "list item separator"
+msgid ", "
+msgstr ","
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:62
+#, php-format
+msgid "Tagged %1$s"
+msgstr "Etiquetado como %1$s"
+
+#. translators: %s: post title
+#: inc/template-tags.php:72
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Deja un comentario<span class=\"screen-reader-text\"> en %s</span>"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:89 template-parts/content-page.php:32
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Editar <span class=\"screen-reader-text\">%s</span>"
+
+#: page-accueil.php:14 page-accueil.php:26 page-inicio.php:14
+#: page-inicio.php:26 page-iniziazione.php:14 page-iniziazione.php:26
+msgid "Welcome!"
+msgstr "Bienvenido!"
+
+#: page-accueil.php:16 page-accueil.php:28 page-inicio.php:16
+#: page-inicio.php:28 page-iniziazione.php:16 page-iniziazione.php:28
+msgid "\"Here you can put a phrase from Cristobal that welcomes people\""
+msgstr ""
+"\"Aquí se puede poner una frase de Cristobal que da la bienvenida a la gente"
+"\""
+
+#. translators: %s: search query.
+#: search.php:18
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Resultados de Búsqueda para: %s"
+
+#: template-parts/content-none.php:11
 msgid "Nothing Found"
 msgstr "No encontramos nada aquí..."
 
-#: content-none.php:19
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:22
+#, php-format
 msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr "Listo para publicar tu primer post? <a href=\"%1$s\">Empieza aquí</a>."
 
-#: content-none.php:23
+#: template-parts/content-none.php:35
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
 "different keywords."
@@ -76,7 +192,7 @@ msgstr ""
 "Mil disculpas, pero no encontramos resultados para estos términos de "
 "búsqueda. Por favor, inténtelo de nuevo con distintas palabras clave."
 
-#: content-none.php:28
+#: template-parts/content-none.php:41
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
@@ -84,219 +200,90 @@ msgstr ""
 "Parece que no podemos encontrar los contenidos solicitados. Quizás una "
 "búsqueda pueda ayudar."
 
-#: content-page.php:18 content-single.php:20 content.php:29
+#: template-parts/content-page.php:19 template-parts/content.php:42
 msgid "Pages:"
 msgstr "Páginas"
 
-#: content-page.php:25 inc/template-tags.php:126
-msgid "Edit"
-msgstr "Editar"
-
-#. translators: %s: Name of current post
-#: content.php:22
-msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:31
+#, fuzzy, php-format
+#| msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr "Siga leyendo %s <span class=\"meta-nav\">&rarr;</span>"
 
-#: footer.php:15
-msgid "http://wordpress.org/"
-msgstr ""
-
-#: footer.php:15
-msgid "Proudly powered by %s"
-msgstr "Poderoseado por... %s"
-
-#: footer.php:17
-msgid "Theme: %1$s by %2$s."
-msgstr "Plantilla: %1$s por %2$s."
-
-#: functions.php:53 header.php:31
-msgid "Primary Menu"
-msgstr "Menú Principal"
-
-#: functions.php:88
-msgid "Sidebar"
-msgstr "Barra lateral"
-
-#: header.php:22
-msgid "Skip to content"
-msgstr "Saltar al contenido"
-
-#: inc/extras.php:64
-msgid "Page %s"
-msgstr "Páginas %s"
-
-#: inc/template-tags.php:23
-msgid "Posts navigation"
-msgstr "Navegación de entradas"
-
-#: inc/template-tags.php:27
-msgid "Older posts"
-msgstr "Entradas antiguas"
-
-#: inc/template-tags.php:31
-msgid "Newer posts"
-msgstr "Entradas nuevas"
-
-#: inc/template-tags.php:56
-msgid "Post navigation"
-msgstr "Navegación de entradas"
-
-#: inc/template-tags.php:86
-msgctxt "post date"
-msgid "Posted on %s"
-msgstr "Publicado el %s"
-
-#: inc/template-tags.php:91
-msgctxt "post author"
-msgid "by %s"
-msgstr "por %s"
-
-#. translators: used between list items, there is a space after the comma
-#: inc/template-tags.php:108 inc/template-tags.php:114
-msgid ", "
-msgstr ""
-
-#: inc/template-tags.php:110
-msgid "Posted in %1$s"
-msgstr "Clasificado en %1$s"
-
-#: inc/template-tags.php:116
-msgid "Tagged %1$s"
-msgstr "Etiquetado como %1$s"
-
-#: inc/template-tags.php:122
-msgid "Leave a comment"
-msgstr "Dejar un comentario"
-
-#: inc/template-tags.php:122
-msgid "1 Comment"
-msgstr "1 Comentario"
-
-#: inc/template-tags.php:122
-msgid "% Comments"
-msgstr "% Comentarios"
-
-#: inc/template-tags.php:143
-msgid "Category: %s"
-msgstr "Categoría: %s"
-
-#: inc/template-tags.php:145
-msgid "Tag: %s"
-msgstr "Etiqueta: %s"
-
-#: inc/template-tags.php:147
-msgid "Author: %s"
-msgstr "Autor: %s"
-
-#: inc/template-tags.php:149
-msgid "Year: %s"
-msgstr "Año: %s"
-
-#: inc/template-tags.php:149
-msgctxt "yearly archives date format"
-msgid "Y"
-msgstr ""
-
-#: inc/template-tags.php:151
-msgid "Month: %s"
-msgstr "Mes: %s"
-
-#: inc/template-tags.php:151
-msgctxt "monthly archives date format"
-msgid "F Y"
-msgstr ""
-
-#: inc/template-tags.php:153
-msgid "Day: %s"
-msgstr "Día: %s"
-
-#: inc/template-tags.php:153
-msgctxt "daily archives date format"
-msgid "F j, Y"
-msgstr ""
-
-#: inc/template-tags.php:155
-msgctxt "post format archive title"
-msgid "Asides"
-msgstr ""
-
-#: inc/template-tags.php:157
-msgctxt "post format archive title"
-msgid "Galleries"
-msgstr ""
-
-#: inc/template-tags.php:159
-msgctxt "post format archive title"
-msgid "Images"
-msgstr ""
-
-#: inc/template-tags.php:161
-msgctxt "post format archive title"
-msgid "Videos"
-msgstr ""
-
-#: inc/template-tags.php:163
-msgctxt "post format archive title"
-msgid "Quotes"
-msgstr ""
-
-#: inc/template-tags.php:165
-msgctxt "post format archive title"
-msgid "Links"
-msgstr ""
-
-#: inc/template-tags.php:167
-msgctxt "post format archive title"
-msgid "Statuses"
-msgstr ""
-
-#: inc/template-tags.php:169
-msgctxt "post format archive title"
-msgid "Audio"
-msgstr ""
-
-#: inc/template-tags.php:171
-msgctxt "post format archive title"
-msgid "Chats"
-msgstr ""
-
-#: inc/template-tags.php:173
-msgid "Archives: %s"
-msgstr "Archivos: %S"
-
-#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
-#: inc/template-tags.php:177
-msgid "%1$s: %2$s"
-msgstr ""
-
-#: inc/template-tags.php:179
-msgid "Archives"
-msgstr "Archivos"
-
-#: search.php:16
-msgid "Search Results for: %s"
-msgstr "Resultados de Búsqueda para: %s"
-
 #. Theme Name of the plugin/theme
-msgid "_s"
+msgid "CristobalJ"
 msgstr ""
 
 #. Theme URI of the plugin/theme
-msgid "http://underscores.me/"
+#. Author URI of the plugin/theme
+msgid "http://digimundo.com.mx/"
 msgstr ""
 
 #. Description of the plugin/theme
-msgid ""
-"Hi. I'm a starter theme called <code>_s</code>, or <em>underscores</em>, if "
-"you like. I'm a theme meant for hacking so don't use me as a <em>Parent "
-"Theme</em>. Instead try turning me into the next, most awesome, WordPress "
-"theme out there. That's what I'm here for."
-msgstr ""
+msgid "Description"
+msgstr "Descripción"
 
 #. Author of the plugin/theme
-msgid "Automattic"
-msgstr ""
+msgid "Digimundo"
+msgstr "Digimundo"
 
-#. Author URI of the plugin/theme
-msgid "http://automattic.com/"
-msgstr ""
+#~ msgid "Comment navigation"
+#~ msgstr "Navegación de comentarios"
+
+#~ msgid "&larr; Older Comments"
+#~ msgstr "Comentarios anteriores"
+
+#~ msgid "Newer Comments &rarr;"
+#~ msgstr "Comentarios posteriores"
+
+#~ msgid "Edit"
+#~ msgstr "Editar"
+
+#~ msgid "Page %s"
+#~ msgstr "Páginas %s"
+
+#~ msgid "Posts navigation"
+#~ msgstr "Navegación de entradas"
+
+#~ msgid "Older posts"
+#~ msgstr "Entradas antiguas"
+
+#~ msgid "Newer posts"
+#~ msgstr "Entradas nuevas"
+
+#~ msgid "Post navigation"
+#~ msgstr "Navegación de entradas"
+
+#~ msgid "Leave a comment"
+#~ msgstr "Dejar un comentario"
+
+#~ msgid "1 Comment"
+#~ msgstr "1 Comentario"
+
+#~ msgid "% Comments"
+#~ msgstr "% Comentarios"
+
+#~ msgid "Category: %s"
+#~ msgstr "Categoría: %s"
+
+#~ msgid "Tag: %s"
+#~ msgstr "Etiqueta: %s"
+
+#~ msgid "Author: %s"
+#~ msgstr "Autor: %s"
+
+#~ msgid "Year: %s"
+#~ msgstr "Año: %s"
+
+#~ msgid "Month: %s"
+#~ msgstr "Mes: %s"
+
+#~ msgid "Day: %s"
+#~ msgstr "Día: %s"
+
+#~ msgid "Archives: %s"
+#~ msgstr "Archivos: %S"
+
+#~ msgid "Archives"
+#~ msgstr "Archivos"
