@@ -1,18 +1,24 @@
-
 jQuery(document).ready(function(){
 
-  // Show and hidde mobile menu
+  // Translate 'submit' for newsletter form
   let buttonsubmit = document.getElementsByClassName('es_textbox_button es_submit_button');
+  let submit = document.getElementsByClassName('es_textbox_button es_submit_button');
   let i = 0;
   for (; i < buttonsubmit.length; i++) {
     if (window.location.pathname == '/Cristobal/') {
-      document.getElementsByClassName('es_textbox_button es_submit_button')[0].value = 'suscribirse';
+      for (j = 0; j < buttonsubmit.length; j++) {
+        document.getElementsByClassName('es_textbox_button es_submit_button')[j].value = 'suscribirse';
+      }
     }
     else if (window.location.pathname == '/Cristobal/it/') {
-      document.getElementsByClassName('es_textbox_button es_submit_button')[0].value = 'abbonarsi';
+      for (j = 0; j < buttonsubmit.length; j++) {
+        document.getElementsByClassName('es_textbox_button es_submit_button')[j].value = 'abbonarsi';
+      }
     }
     else if (window.location.pathname == '/Cristobal/fr/') {
-      document.getElementsByClassName('es_textbox_button es_submit_button')[0].value = "S'abonner";
+      for (j = 0; j < buttonsubmit.length; j++) {
+        document.getElementsByClassName('es_textbox_button es_submit_button')[j].value = "S'abonner";
+      }
     }
   }
   

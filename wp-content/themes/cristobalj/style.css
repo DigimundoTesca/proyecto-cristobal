@@ -1,4 +1,4 @@
-
+/*
 Theme Name: CristobalJ
 Theme URI: http://digimundo.com.mx/
 Author: Digimundo
@@ -329,8 +329,6 @@ a:active {
 .main-navigation li {
 	float: left;
 	position: relative;
-	padding-left: 5px;
-	padding-right: 5px;
 }
 
 .main-navigation a {
@@ -362,6 +360,8 @@ a:active {
 
 .main-navigation li:hover > a,
 .main-navigation li.focus > a {
+	background-color: #ba75f4;
+	cursor: pointer;
 }
 
 .main-navigation ul ul :hover > a,
@@ -967,13 +967,13 @@ body {
 #banner::before {
 	content: '';
 	width: 100%;
-	background-image: linear-gradient(to right,#FFF 5%,transparent 70%);
+	background-image: linear-gradient(to right,#FFF 5%,transparent 100%);
 	opacity: ; 
 }
 #banner1::before {
 	content: '';
 	width: 100%;
-	background-image: linear-gradient(to right,#FFF 25%,transparent 60%);
+	background-image: linear-gradient(to right,#FFF 5%,transparent 100%);
 	opacity: ; 
 }
 .bannermobile {
@@ -993,6 +993,9 @@ body {
 	display: initial;
 }
 /*Banner text´s styles*/
+.mobilecontainer .bannertext {
+	text-align: center;
+}
 h2.bannertitle {
 	font-size: 20px;
 }
@@ -1000,17 +1003,30 @@ p.quote {
 	font-size: 15px;
 }
 label.es_shortcode_form_email {
-    font-size: 15px;
+	font-size: 15px;
+}
+.es_button {
+	text-align: center;
+	max-width: 450px;
+}
+.bannerbig .es_button {
+	text-align: center;
+	max-width: 300px;
 }
 #es_txt_button_pg {
 	text-transform: uppercase;
 	background-color: #a156e0;
+	color: #FFF;
+	font-weight: bold;
 }
 
 
 
 /*Mobile styles - Tablet*/
 @media screen and (min-width: 768px) {
+	body {
+		margin: 2.5%;
+	}
 	/*Styles for Branding*/
 	.site-branding {
 		justify-content: normal;
@@ -1058,6 +1074,7 @@ label.es_shortcode_form_email {
 	.menu li a {
 		text-decoration: none;
 		color: #FFF;
+		padding: 5px;
 	}
 	/*Styles for Main-banner*/
 	.bannermobile {
@@ -1069,11 +1086,25 @@ label.es_shortcode_form_email {
 	.bannercontainer {
 		position: absolute;
 		display: initial;
-		top: 30%;
-		width: 35%;
+		max-width: 350px;
+		margin-left: 30px;
 	}
 	.mobilecontainer {
 		display: none;
+	}
+	/*Banner text´s styles*/
+	h2.bannertitle {
+		font-size: 30px;
+	}
+	p.quote {
+		font-size: 17px;
+		margin: 10px 0;
+	}
+	label.es_shortcode_form_email {
+		font-size: 17px;
+	}
+	#es_txt_button_pg {
+		font-size: 14px;
 	}
 }
 
@@ -1097,7 +1128,35 @@ label.es_shortcode_form_email {
 	.bannercontainer {
 		position: absolute;
 		display: initial;
-		top: 40%;
+		width: 35%;
+		font-size: calc(10px + 13px);
+	}
+	/*Banner text´s styles*/
+	h2.bannertitle {
+		font-size: 40px;
+	}
+	p.quote {
+		font-size: 23px;
+		margin: 20px 0;
+	}
+	label.es_shortcode_form_email {
+		font-size: 23px;
+	}
+	#es_txt_button_pg {
+		font-size: 18px;
+		width: 200px;
+	}
+}
+
+@media screen and (min-width: 1300px) {
+	/*Styles for main menu*/
+	.main-navigation li {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.bannercontainer {
+		position: absolute;
+		display: initial;
 		width: 35%;
 		font-size: calc(10px + 13px);
 	}
