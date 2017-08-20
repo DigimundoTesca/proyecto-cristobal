@@ -1002,6 +1002,10 @@ p.quote {
 label.es_shortcode_form_email {
     font-size: 15px;
 }
+#es_txt_button_pg {
+	text-transform: uppercase;
+	background-color: #a156e0;
+}
 
 
 
