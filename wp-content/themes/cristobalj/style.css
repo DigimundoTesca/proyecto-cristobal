@@ -979,6 +979,7 @@ body {
 .bannermobile {
 	display: flex;
 	min-height: 150px;
+	border-top: 4px solid #a156e0;
 }
 .bannerbig {
 	display: none;
