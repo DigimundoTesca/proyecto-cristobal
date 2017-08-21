@@ -58,6 +58,15 @@
 				<aside id="langbar" class="widget-area">
 					<?php dynamic_sidebar( 'langbar-1' ); ?>
 				</aside><!-- #secondary -->
+				<div id="social">
+					<nav>
+						<ul>
+							<li><a href="" title="" class="fa fa-instagram" aria-hidden="true"></a></li>
+							<li><a href="" title="" class="fa fa-facebook-square" aria-hidden="true"></a></li>
+							<li><a href="" title="" class="fa fa-twitter" aria-hidden="true"></a></li>
+						</ul>
+					</nav>
+				</div>
 
 				<img class="brand-logo" src="<?php echo get_template_directory_uri() ?>./images/comm.png" alt="Community logo">
 			</div><!-- .site-branding -->
