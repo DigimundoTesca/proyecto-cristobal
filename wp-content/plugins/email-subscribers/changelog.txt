@@ -4,6 +4,25 @@ Author		: Icegram
 Author URI	: https://www.icegram.com/
 License		: GPLv3
 
+************************************************************Version 3.3.5************************************************************
+
+* New: UI & structure for Help & Info page
+* Fix: Some users were getting error - Cannot modify header information – headers already sent - when publishing/accessing a post
+* Fix: Unable to select Opt In type from Settings
+* Fix: In-built translations were not loading
+* Fix: CSS getting included in all admin pages
+* Fix: Missing </span> tag on Help & Info menu
+* Fix: Enable to translate 'Add Subscription Form' FAQ on Help & Info page
+* Update: Improvement in logic to get post author name for keyword ###POSTAUTHOR###
+* Update: Improved default content for welcome email
+* Update: Do not include ###GROUP### name by default in welcome email. Admin can add ###GROUP### name manually using keyword (New users only)
+* Update: Text improvement at few places
+* Update: POT file
+* Tweak: Show Cron menu before User Roles menu in Email Subscribers -> Settings for better accessibility
+* Tweak: Use email dashicon instead of mail image for Email Subscribers menu
+* Tweak: Use search dashicon instead of preview image for Reports menu
+* Tweak: Use no dashicon instead of delete image for Reports menu
+
 ************************************************************Version 3.3.4************************************************************
 
 * New: Keyword ###POSTAUTHOR### to display Post Author name in Post Notification emails

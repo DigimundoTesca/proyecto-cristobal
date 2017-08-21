@@ -400,7 +400,7 @@ if (isset($_POST['frm_es_display']) && $_POST['frm_es_display'] == 'yes') {
 									<td>
 										<div>
 											<span class="edit">
-												<a title="Edit" href="<?php echo ES_ADMINURL; ?>?page=es-view-subscribers&amp;ac=edit&amp;did=<?php echo $data['es_email_id']; ?>">
+												<a href="<?php echo ES_ADMINURL; ?>?page=es-view-subscribers&amp;ac=edit&amp;did=<?php echo $data['es_email_id']; ?>">
 													<?php echo __( 'Edit', ES_TDOMAIN ); ?>
 												</a> |
 											</span>

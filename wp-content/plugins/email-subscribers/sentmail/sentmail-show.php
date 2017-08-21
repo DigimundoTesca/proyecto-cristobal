@@ -143,7 +143,7 @@ if (isset($_POST['frm_es_display']) && $_POST['frm_es_display'] == 'yes') {
 								</td>
 								<td>
 									<a title="Mail Preview" href="<?php echo ES_ADMINURL; ?>?page=es-sentmail&amp;ac=preview&amp;did=<?php echo $data['es_sent_id']; ?>&amp;pagenum=<?php echo $pagenum; ?>">
-										<img alt="Delete" src="<?php echo ES_URL; ?>images/preview.gif" />
+										<span class="dashicons dashicons-search"></span>
 									</a>
 								</td>
 								<td><?php echo $data['es_sent_source']; ?></td>
@@ -170,7 +170,7 @@ if (isset($_POST['frm_es_display']) && $_POST['frm_es_display'] == 'yes') {
 								<td><?php echo $data['es_sent_count']; ?></td>
 								<td>
 									<a title="Delete Record" onClick="javascript:_es_delete('<?php echo $data['es_sent_id']; ?>')" href="javascript:void(0);">
-									<img alt="Delete" src="<?php echo ES_URL; ?>images/delete.gif" /></a>
+									<span class="dashicons dashicons-no"></span>
 								</td>
 							</tr>
 							<?php

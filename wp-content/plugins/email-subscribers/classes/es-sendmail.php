@@ -325,13 +325,11 @@ class es_cls_sendmail {
 					$post_link = "<a href='".$post_link."' target='_blank'>".$post_link."</a>";
 				}
 
-				// setting up the post manually to use get_the_author() function below
-				setup_postdata($post);
+				// To get post author name for ###POSTAUTHOR###
+				$post_author_id = $post->post_author;
+				$post_author = get_the_author_meta( 'display_name' , $post_author_id );
 
-				// To get post author name for ###POSTAUTHOR### 
-				$author = get_the_author();
-
-				$content = str_replace('###POSTAUTHOR###', the_author(), $content);
+				$content = str_replace('###POSTAUTHOR###', $post_author, $content);
 				$content = str_replace('###POSTTITLE###', $post_title, $content);
 				$content = str_replace('###POSTLINK###', $post_link, $content);
 				$content = str_replace('###POSTIMAGE###', $post_thumbnail_link, $content);
@@ -512,18 +510,18 @@ class es_cls_sendmail {
 		if( $type == "newsletter" || $type == "notification" ) {
 			$count = $count - 1;
 			es_cls_sentmail::es_sentmail_ups($sendguid, $subject);
-			if($adminmail != "") {
+			if( $adminmail != "" ) {
 
 				$subject = get_option('ig_es_sentreport_subject', 'nosubjectexists');
 				if ( $subject == "" || $subject == "nosubjectexists") {
 					$subject = es_cls_common::es_sent_report_subject();
 				}
 
-				if($mailsenttype == "Cron") {
+				if( $mailsenttype == "Cron" ) {
 					$subject = $subject . " - Cron Email scheduled";
 				}
 
-				if($htmlmail) {
+				if( $htmlmail ) {
 					$reportmail = get_option('ig_es_sentreport', 'nooptionexists');
 					if ( $reportmail == "" || $reportmail == "nooptionexists") {
 						$reportmail = es_cls_common::es_sent_report_html();

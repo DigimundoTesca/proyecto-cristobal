@@ -352,14 +352,15 @@ class es_cls_dbquery {
 		global $wpdb;
 
 		$args = array(
-			'post_type' => 'post', 
+			'post_type' 	=> 'post', 
 			'post_status'   => 'publish',
-			'fields'			=> 'ids',
+			'fields'		=> 'ids',
 			'date_query'    => array(
-				'after'   => '- 30 days'
-			)
+									'after'   => '- 30 days'
+							)
 		);
 		$query = new WP_Query( $args );
+
 		$posts = $query->posts;
 		$avg_post = (round((count($posts)/4)) > 1 ) ? round((count($posts)/4)) : 1 ;
 
@@ -374,13 +375,16 @@ class es_cls_dbquery {
 		$total_subscribers = es_cls_dbquery::es_view_subscriber_count(0);
 		$active_subscribers = es_cls_dbquery::es_active_subscribers();
 
+		$opt_in_type = get_option( 'ig_es_optintype', 'Double Opt In' );
+
 		$es_survey_res['post_notification'] = (!empty($es_query_res[0]['post_notification'])) ? $es_query_res[0]['post_notification'] : 0;
 		$es_survey_res['newsletter'] = (!empty($es_query_res[0]['newsletter'])) ? $es_query_res[0]['newsletter'] : 0;
 		$es_survey_res['cron'] = (!empty($es_query_res[0]['cron'])) ? $es_query_res[0]['cron'] : 0;
 		$es_survey_res['immediately'] = (!empty($es_query_res[0]['immediately'])) ? $es_query_res[0]['immediately'] : 0;
 		$es_survey_res['es_active_subscribers']	= $active_subscribers;	
 		$es_survey_res['es_total_subscribers'] = $total_subscribers;
-		$es_survey_res['es_avg_post_cnt'] = $avg_post;				
+		$es_survey_res['es_avg_post_cnt'] = $avg_post;
+		$es_survey_res['es_opt_in_type'] = $opt_in_type;		
 
 		return $es_survey_res;
 	}

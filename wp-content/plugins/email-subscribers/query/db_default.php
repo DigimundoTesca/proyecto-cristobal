@@ -35,7 +35,7 @@ class es_cls_default {
 			$default['ig_es_admin_new_sub_content'] = "Hi Admin,\r\n\r\nCongratulations! You have a new subscriber.\r\n\r\nName : ###NAME###\r\nEmail: ###EMAIL###\r\nGroup: ###GROUP###\r\n\r\nHave a nice day :)\r\n".$blogname;
 			$default['ig_es_welcomeemail'] = "YES";
 			$default['ig_es_welcomesubject'] = $blogname . " - Welcome!";
-			$default['ig_es_welcomecontent'] = "Hi ###NAME###,\r\n\r\nThank you for subscribing to us.\r\n\r\nYou are subscribed in group - ###GROUP###.\r\n\r\nBest,\r\n".$blogname."\r\n\r\nGot subscribed to ".$blogname." by mistake?. Click <a href='###LINK###'>here</a> to unsubscribe.";
+			$default['ig_es_welcomecontent'] = "Hi ###NAME###,\r\n\r\nThank you for subscribing to ".$blogname.".\r\n\r\nWe are glad to have you onboard.\r\n\r\nBest,\r\n".$blogname."\r\n\r\nGot subscribed to ".$blogname." by mistake? Click <a href='###LINK###'>here</a> to unsubscribe.";
 			$default['ig_es_optintype'] = "Double Opt In";
 			$default['ig_es_confirmsubject'] = $blogname . " - Please confirm your subscription";
 			$default['ig_es_confirmcontent'] = "Hi ###NAME###,\r\n\r\nWe have received a subscription request from this email address. Please confirm it by <a href='###LINK###'>clicking here</a>.\r\n\r\nIf you still cannot subscribe, please copy this link and paste it in your browser :\r\n###LINK### \r\n\r\nThank You\r\n".$blogname;

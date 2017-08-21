@@ -28,7 +28,7 @@ get_header(); ?>
           <p class="quote"><?php printf(__('"Here you can put a phrase from Cristobal that welcomes people"','cristobalj')) ?></p>
         </div>
         <div class="newscontainer">
-          <?php es_subbox( $namefield = "NO", $desc = "", $group = "" ); ?>
+          <?php es_subbox( $namefield = "NO", $desc = "", $group = "Maingroup" ); ?>
         </div>
       </div>
     </div>

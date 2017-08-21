@@ -22,8 +22,8 @@ if ( ! class_exists( 'ES_Settings' ) ) {
 			$tabs = array(
 				'admin'				  => __( 'Admin', ES_TDOMAIN ),
 				'signup-confirmation' => __( 'Signup Confirmation', ES_TDOMAIN ),
-				'roles' 			  => __( 'User Roles', ES_TDOMAIN ),
 				'cron'	 			  => __( 'Cron', ES_TDOMAIN ),
+				'roles' 			  => __( 'User Roles', ES_TDOMAIN ),
 			);
 
 			return apply_filters( 'es_settings_tabs', $tabs );
@@ -109,8 +109,8 @@ if ( ! class_exists( 'ES_Settings' ) ) {
 				</th>
 				<td>
 					<select name="es_c_optinoption" id="es_c_optinoption">
-						<option value='Double Opt In' <?php if($this->form['ig_es_optintype'] == 'Double Opt In') { echo 'selected' ; } ?>><?php echo __( 'Double Opt-In', ES_TDOMAIN ); ?></option>
-						<option value='Single Opt In' <?php if($this->form['ig_es_optintype'] == 'Single Opt In') { echo 'selected' ; } ?>><?php echo __( 'Single Opt-In', ES_TDOMAIN ); ?></option>
+						<option value='Double Opt In' <?php if($this->form['ig_es_optintype'] == 'Double Opt In') { echo 'selected' ; } ?>><?php echo __( 'Double Opt In', ES_TDOMAIN ); ?></option>
+						<option value='Single Opt In' <?php if($this->form['ig_es_optintype'] == 'Single Opt In') { echo 'selected' ; } ?>><?php echo __( 'Single Opt In', ES_TDOMAIN ); ?></option>
 					</select>
 				</td>
 			</tr>
@@ -386,10 +386,10 @@ if ( ! class_exists( 'ES_Settings' ) ) {
 				<td colspan=2>
 					<div class="tool-box">
 						<h3><?php echo __( 'What is Cron (auto emails) and how to setup Cron Job?', ES_TDOMAIN ); ?></h3>
-						<li><?php echo __( '<a target="_blank" href="https://www.icegram.com/documentation/es-how-to-schedule-cron-emails/">What is Cron?</a>', ES_TDOMAIN ); ?></li>
-						<li><?php echo __( '<a target="_blank" href="https://www.icegram.com/documentation/es-how-to-schedule-cron-emails-in-parallels-plesk/">Setup cron job in Plesk</a>', ES_TDOMAIN ); ?></li>
-						<li><?php echo __( '<a target="_blank" href="https://www.icegram.com/documentation/es-how-to-schedule-cron-emails-in-cpanel/">Setup cron job in cPanal</a>', ES_TDOMAIN ); ?></li>
-						<li><?php echo __( '<a target="_blank" href="https://www.icegram.com/documentation/es-what-to-do-if-hosting-doesnt-support-cron-jobs/">Hosting does not support cron jobs?</a>', ES_TDOMAIN ); ?></li><br>
+						<li><?php echo __( '<a target="_blank" href="https://www.icegram.com/documentation/es-how-to-schedule-cron-emails/?utm_source=es&utm_medium=in_app&utm_campaign=view_docs_help_page">What is Cron?</a>', ES_TDOMAIN ); ?></li>
+						<li><?php echo __( '<a target="_blank" href="https://www.icegram.com/documentation/es-how-to-schedule-cron-emails-in-cpanel/?utm_source=es&utm_medium=in_app&utm_campaign=view_docs_help_page">Setup cron job in cPanel</a>', ES_TDOMAIN ); ?></li>
+						<li><?php echo __( '<a target="_blank" href="https://www.icegram.com/documentation/es-how-to-schedule-cron-emails-in-parallels-plesk/?utm_source=es&utm_medium=in_app&utm_campaign=view_docs_help_page">Setup cron job in Plesk</a>', ES_TDOMAIN ); ?></li>
+						<li><?php echo __( '<a target="_blank" href="https://www.icegram.com/documentation/es-what-to-do-if-hosting-doesnt-support-cron-jobs/?utm_source=es&utm_medium=in_app&utm_campaign=view_docs_help_page">Hosting does not support cron jobs?</a>', ES_TDOMAIN ); ?></li><br>
 					</div>
 				</td>
 			</tr>

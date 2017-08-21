@@ -140,7 +140,7 @@ class es_cls_registerhook {
 		}
 
 		add_menu_page( __( 'Email Subscribers', 'email-subscribers' ),
-			__( 'Email Subscribers', 'email-subscribers' ), 'admin_dashboard', 'email-subscribers', array( 'es_cls_registerhook', 'es_admin_option'), ES_URL.'images/mail.png', 51 );
+			__( 'Email Subscribers', 'email-subscribers' ), 'admin_dashboard', 'email-subscribers', array( 'es_cls_registerhook', 'es_admin_option'), 'dashicons-email', 51 );
 
 		add_submenu_page('email-subscribers', __( 'Subscribers', ES_TDOMAIN ),
 			__( 'Subscribers', ES_TDOMAIN ), $es_roles_subscriber, 'es-view-subscribers', array( 'es_cls_intermediate', 'es_subscribers' ));
@@ -161,7 +161,7 @@ class es_cls_registerhook {
 			__( 'Reports', ES_TDOMAIN ), $es_roles_sentmail, 'es-sentmail', array( 'es_cls_intermediate', 'es_sentmail' ));
 
 		add_submenu_page('email-subscribers', __( 'Help & Info', ES_TDOMAIN ),
-			__( '<span style="color:#f18500;font-weight:bolder;">Help & Info', ES_TDOMAIN ), 'edit_posts', 'es-general-information', array( 'es_cls_intermediate', 'es_information' ));
+			__( '<span style="color:#f18500;font-weight:bolder;">Help & Info</span>', ES_TDOMAIN ), 'edit_posts', 'es-general-information', array( 'es_cls_intermediate', 'es_information' ));
 	}
 
 	public static function es_load_scripts() {
@@ -495,6 +495,11 @@ class es_cls_registerhook {
 
 	// Function to show any notices in admin section
 	public static function es_add_admin_notices() {
+
+		$screen = get_current_screen();
+		if( stripos($screen->id, 'email-subscribers' ) === false ) return;
+		if( get_option('es_survey_done') == 1 ) return;
+
 		?>
 		<style type="text/css">
 			a.es-admin-btn {
@@ -515,7 +520,6 @@ class es_cls_registerhook {
 				margin-left: 20px;
 				font-weight: 400;
 			}
-
 			a.es-admin-btn:hover {
 				color: #FFF;
 				background-color: #363b3f;
@@ -569,6 +573,14 @@ class es_cls_registerhook {
 				background: #a7c53c !important;
 				box-shadow: none;
 				padding: 0 3.6em;
+			}
+			.es-heading {
+				font-size: 1.218em;
+				padding-bottom: 0.5em;
+				padding-top: 0.5em;
+				display: block;
+				font-weight: bold;
+				color: #ffd3a2;
 			}
 			.es-button.secondary {
 				color: #545454!important;
@@ -660,10 +672,10 @@ class es_cls_registerhook {
 				line-height: 0;
 				height: 0;
 			}
-			
 			.es-survey-next {
 			   text-decoration: none;
 			   color: #fff;
+			   margin-top: -1em!important;
 			}
 		</style>
 		<script type="text/javascript">
@@ -671,11 +683,6 @@ class es_cls_registerhook {
 				jQuery('.es-list-item:nth-child(2)').show();
 				jQuery('.es-list-item:nth-child(2)').addClass('current');
 				jQuery('.es-form-container').on('click', '.es-survey-next', function(){
-					var count = jQuery('.es-count-update').text();
-					if(count < 5){
-						count = parseInt(count) + 1;
-					}
-					jQuery('.es-count-update').text(count);
 					jQuery('.es-list-item.current').hide();
 					jQuery('.es-list-item.current').next().show().addClass('current');
 					jQuery('.es-list-item.current').prev('.es-list-item').hide();
@@ -690,13 +697,11 @@ class es_cls_registerhook {
 
 		<?php
 
-		// 13th June 17
+		// 13th June 17 - 0.1
 		// updated on 5th July 17 - 0.2
 		// updated on 26th July 17 - 0.2
+		// updated on 19th Aug 17 - 0.3
 		$es_data = es_cls_dbquery::es_survey_res();
-		$screen = get_current_screen(); 
-		if( stripos($screen->id, 'email-subscribers' ) === false ) return;	
-		if( get_option('es_survey_done') == 1 ) return;
 
 		// Check days passed from this update (v3.3.4)
 		$timezone_format = _x('Y-m-d', 'timezone date format');
@@ -705,46 +710,55 @@ class es_cls_registerhook {
 
 		if ( $es_update_date === false ) {
 			$es_update_date = $es_current_date;
-			add_option('ig_es_update_v_3_3_4_date',$es_update_date);
+			add_option( 'ig_es_update_v_3_3_4_date',$es_update_date );
 		}
 
 		$date_diff = floor( ( strtotime($es_current_date) - strtotime($es_update_date) ) / (3600 * 24) );
-		if($date_diff < 10) return;
+		if($date_diff < 30) return;
 
 		?>
 
 		<div class="es-form-container wrap">
 			<div class="es-form-wrapper">
 				<div class="es-form-headline">
-					<div class="es-mainheadline"><?php _e('Email Subscribers', ES_TDOMAIN); ?> <u><?php _e('is getting even better!', ES_TDOMAIN); ?></u></div>
-					<div class="es-subheadline"><?php _e('But I need you to', ES_TDOMAIN); ?> <strong><?php _e('help me prioritize', ES_TDOMAIN); ?></strong>! <?php _e('Please send your response today.', ES_TDOMAIN); ?></div>
+					<div class="es-mainheadline"><?php echo __( 'Email Subscribers', ES_TDOMAIN ); ?> <u><?php echo __( 'is getting even better!', ES_TDOMAIN ); ?></u></div>
+					<div class="es-subheadline"><?php echo __( 'But I need you to', ES_TDOMAIN ); ?> <strong><?php echo __( 'help me prioritize', ES_TDOMAIN ); ?></strong>! <?php echo __( 'Please send your response today.', ES_TDOMAIN ); ?></div>
 				</div>
 				<form name="es-survey-form" action="#" method="POST" accept-charset="utf-8">
 					<div class="es-container-1 es-clearfix">	
 						<div class="es-form-field es-left">
 							<div class="es-profile">
 								<div class="es-profile-info">
-									<div style="font-size: 1.218em;padding-bottom: 0.5em;display: block;font-weight: bold;color: #ffd3a2;"><?php echo __("Here's how you use ES:",ES_TDOMAIN); ?></div>
+									<div class="es-heading"><?php echo __( "Here's how you use ES:",ES_TDOMAIN ); ?></div>
 									<ul style="margin: 0 0.5em;">
 										<li class="es-profile-txt">
 											<?php 
-												if($es_data['post_notification'] > $es_data['newsletter']){
-													_e('Used Post Notifications more often than Newsletter', ES_TDOMAIN);
+												if( $es_data['post_notification'] > $es_data['newsletter'] ) {
+													echo __( 'Post Notifications more often than Newsletter', ES_TDOMAIN );
 												} else if($es_data['newsletter'] > $es_data['post_notification']){
-													_e('Used Newsletter more often than Post Notifications', ES_TDOMAIN);
+													echo __( 'Newsletter more often than Post Notifications', ES_TDOMAIN );
 												} else{
-													_e('Used Post Notification &amp; Newsletter equally', ES_TDOMAIN);
+													echo __( 'Post Notification &amp; Newsletter equally', ES_TDOMAIN );
 												}
 											?>
 										</li>
-										<li class="es-profile-txt"> <?php echo __('Have ',ES_TDOMAIN) .$es_data['es_active_subscribers'] . __(' Active Subscribers', ES_TDOMAIN); ?></li>
-										<li class="es-profile-txt"> <?php echo __('Post ',ES_TDOMAIN) .$es_data['es_avg_post_cnt'] . __(' blog per week', ES_TDOMAIN); ?></li>
+										<li class="es-profile-txt"> <?php echo __('Have ',ES_TDOMAIN ) .$es_data['es_active_subscribers'] . __(' Active Subscribers', ES_TDOMAIN); ?></li>
+										<li class="es-profile-txt"> <?php echo __('Post ',ES_TDOMAIN ) .$es_data['es_avg_post_cnt'] . __(' blog per week', ES_TDOMAIN); ?></li>
 										<li class="es-profile-txt">
 											<?php 
-												if($es_data['cron'] > $es_data['immediately']){
-													_e('Send emails via Cron', ES_TDOMAIN);
+												if( $es_data['cron'] > $es_data['immediately'] ) {
+													echo __( 'Send emails via Cron', ES_TDOMAIN );
 												} else {
-													_e('Send emails Immediately', ES_TDOMAIN);
+													echo __( 'Send emails Immediately', ES_TDOMAIN );
+												}
+											?>
+										</li>
+										<li class="es-profile-txt">
+											<?php 
+												if ( $es_data['es_opt_in_type'] == 'Double Opt In' ) {
+													echo __( 'Using Double Opt In', ES_TDOMAIN );
+												} else {
+													echo __( 'Using Single Opt In', ES_TDOMAIN );
 												}
 											?>
 										</li>
@@ -755,50 +769,51 @@ class es_cls_registerhook {
 										<input type="hidden" name="es_data[data][es_active_subscribers]" value="<?php echo $es_data['es_active_subscribers']; ?>">
 										<input type="hidden" name="es_data[data][es_total_subscribers]" value="<?php echo $es_data['es_total_subscribers']; ?>">
 										<input type="hidden" name="es_data[data][es_avg_post_cnt]" value="<?php echo $es_data['es_avg_post_cnt']; ?>">
-										<input type="hidden" name="es_data[es-survey-version]" value="0.2">
+										<input type="hidden" name="es_data[data][es_opt_in_type]" value="<?php echo $es_data['es_opt_in_type']; ?>">
+										<input type="hidden" name="es_data[es-survey-version]" value="0.3">
 									</ul>
 								</div>
 							</div>
 						</div>
 						<div class="es-form-field es-right">
-							<div style="font-size: 1.218em;padding-bottom: 0.5em;display: block;font-weight: bold;color: #ffd3a2;"><?php echo __( 'How soon do you want these new features?', ES_TDOMAIN ); ?></div>
+							<div class="es-heading"><?php echo __( 'How soon do you want these new features?', ES_TDOMAIN ); ?></div>
 							<div class="es-right-info">
 								<div class="es-left">
-									<ul style="margin-top:0;"><span class="es-counter"><span class="es-count-update">1</span> of 5</span>
-										<li class="es-list-item"><?php _e('Beautiful Email Designs', ES_TDOMAIN); ?><br>
-											<label title="days"><input checked="" type="radio" name="es_data[design_tmpl]" value="0"><?php _e('Right now!', ES_TDOMAIN); ?></label>
-											<label title="days"><input type="radio" name="es_data[design_tmpl]" value="1"><?php _e('Soon', ES_TDOMAIN); ?></label>
-											<label title="days"><input type="radio" name="es_data[design_tmpl]" value="2"><?php _e('Later', ES_TDOMAIN); ?></label>
+									<ul style="margin-top:0;"><span class="es-counter">
+										<li class="es-list-item"><?php echo __( 'Beautiful Email Designs', ES_TDOMAIN ); ?><br>
+											<label title="days"><input checked="" type="radio" name="es_data[design_tmpl]" value="0"><?php echo __( 'Right now!', ES_TDOMAIN ); ?></label>
+											<label title="days"><input type="radio" name="es_data[design_tmpl]" value="1"><?php echo __( 'Soon', ES_TDOMAIN ); ?></label>
+											<label title="days"><input type="radio" name="es_data[design_tmpl]" value="2"><?php echo __( 'Later', ES_TDOMAIN ); ?></label>
 										</li>
-										<li class="es-list-item"><?php _e('Spam Check, Scheduling... (Better Email Delivery)', ES_TDOMAIN); ?><br>
-											<label><input type="radio" name="es_data[email_control]" value="0"><?php _e('Right now!', ES_TDOMAIN); ?></label>
-											<label><input checked="" type="radio" name="es_data[email_control]" value="1"><?php _e('Soon', ES_TDOMAIN); ?></label>
-											<label><input type="radio" name="es_data[email_control]" value="2"><?php _e('Later', ES_TDOMAIN); ?></label>
+										<li class="es-list-item"><?php echo __( 'Spam Check, Scheduling... (Better Email Delivery)', ES_TDOMAIN); ?><br>
+											<label title="days"><input type="radio" name="es_data[email_control]" value="0"><?php echo __( 'Right now!', ES_TDOMAIN ); ?></label>
+											<label title="days"><input checked="" type="radio" name="es_data[email_control]" value="1"><?php echo __( 'Soon', ES_TDOMAIN ); ?></label>
+											<label title="days"><input type="radio" name="es_data[email_control]" value="2"><?php echo __( 'Later', ES_TDOMAIN ); ?></label>
 										</li>
-										<li class="es-list-item"><?php _e('Discard Fake / Bouncing Emails', ES_TDOMAIN); ?><br>
-											<label><input type="radio" name="es_data[cleanup]" value="0"><?php _e('Right now!', ES_TDOMAIN); ?></label>
-											<label><input checked="" type="radio" name="es_data[cleanup]" value="1"><?php _e('Soon', ES_TDOMAIN); ?></label>
-											<label><input type="radio" name="es_data[cleanup]" value="2"><?php _e('Later', ES_TDOMAIN); ?></label>
+										<li class="es-list-item"><?php echo __( 'Discard Fake / Bouncing Emails', ES_TDOMAIN); ?><br>
+											<label title="days"><input type="radio" name="es_data[cleanup]" value="0"><?php echo __( 'Right now!', ES_TDOMAIN ); ?></label>
+											<label title="days"><input checked="" type="radio" name="es_data[cleanup]" value="1"><?php echo __( 'Soon', ES_TDOMAIN ); ?></label>
+											<label title="days"><input type="radio" name="es_data[cleanup]" value="2"><?php echo __( 'Later', ES_TDOMAIN ); ?></label>
 										</li>
-										<li class="es-list-item"><?php _e('Advanced Reporting', ES_TDOMAIN); ?><br>
-											<label><input type="radio" name="es_data[report]" value="0"><?php _e('Right now!', ES_TDOMAIN); ?></label>
-											<label><input type="radio" name="es_data[report]" value="1"><?php _e('Soon', ES_TDOMAIN); ?></label>
-											<label><input checked="" type="radio" name="es_data[report]" value="2"><?php _e('Later', ES_TDOMAIN); ?></label>
+										<li class="es-list-item"><?php echo __( 'Advanced Reporting', ES_TDOMAIN ); ?><br>
+											<label title="days"><input type="radio" name="es_data[report]" value="0"><?php echo __( 'Right now!', ES_TDOMAIN ); ?></label>
+											<label title="days"><input type="radio" name="es_data[report]" value="1"><?php echo __( 'Soon', ES_TDOMAIN ); ?></label>
+											<label title="days"><input checked="" type="radio" name="es_data[report]" value="2"><?php echo __( 'Later', ES_TDOMAIN ); ?></label>
 										</li>
 										<li class="es-list-item">
 											<div>
-												<input style="width: 70%;vertical-align: middle;display: inline-block;" placeholder="Enter your email to get early access" type="email" name="es_data[email]">
+												<input style="width: 70%;vertical-align: middle;display: inline-block;" placeholder="Enter your email to get early access" type="email" name="es_data[email]" value="<?php echo get_option( 'admin_email' ); ?>">
 												<div class="" style="display: inline-block;margin-left: 0.4em;width: 23%;vertical-align: middle;">
 													<input data-val="yes" type="submit" id="es-yes" value="Alright, Send It All" class="es-button button primary">
 												</div>
 												<div class="es-loader-wrapper"><img src="<?php echo ES_URL ?>images/spinner-2x.gif"></div>
-												<a id="es-no" data-val="no" class="">Nah, I don't like improvements</a>
+												<a id="es-no" data-val="no" class=""><?php echo __( 'Nah, I don\'t like improvements', ES_TDOMAIN ); ?></a>
 											</div>
 										</li>
 									</ul>
 								</div>
 								<div class="es-right">
-									<a href="#" class="es-survey-next button primary">Next</a>
+									<a href="#" class="es-survey-next button primary"><?php echo __( 'Next', ES_TDOMAIN ); ?> </a>
 								</div>
 							</div>
 						</div>
@@ -807,9 +822,9 @@ class es_cls_registerhook {
 				<div class="es-rocket"><img src="<?php echo ES_URL?>images/es-growth-rocket.png"/></div>
 			</div>
 			<div class="es-msg-wrap">
-				<div class="es-logo-wrapper"><img style="width:5%;" src="<?php echo ES_URL ?>images/icon-128x128.png"></div>
-				<div class="es-msg-text es-yes"><?php _e('Thank you!', ES_TDOMAIN); ?></div>
-				<div class="es-msg-text es-no"><?php _e('No issues, have a nice day!', ES_TDOMAIN); ?></div>
+				<div class="es-logo-wrapper"><img style="width:5%;" src="<?php echo ES_URL ?>images/es-logo-128x128.png"></div>
+				<div class="es-msg-text es-yes"><?php echo __( 'Thank you!', ES_TDOMAIN ); ?></div>
+				<div class="es-msg-text es-no"><?php echo __( 'No issues, have a nice day!', ES_TDOMAIN ); ?></div>
 			</div>
 		</div>
 
@@ -886,7 +901,7 @@ class es_cls_registerhook {
 		$response = wp_remote_request( $url, $options );
 		if ( wp_remote_retrieve_response_code( $response ) == 200 ) {
 			$data = json_decode($response['body'], true);
-			if ( $data != 'error' ) {
+			if ( empty($data['error']) ) {
 				if(!empty($data) && !empty($data['success'])){
 					update_option('es_survey_done', true);
 				}

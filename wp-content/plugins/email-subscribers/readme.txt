@@ -4,8 +4,8 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Author URI: https://www.icegram.com/
 Tags: email marketing, email newsletter form, email signup, email widget, newsletter, newsletter signup, subscribe, subscription form, bulk emails, signup form, list builder, lead generation
 Requires at least: 3.4
-Tested up to: 4.8
-Stable tag: 3.3.4
+Tested up to: 4.8.1
+Stable tag: 3.3.5
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.htmlss
 
@@ -64,7 +64,7 @@ Email subscribers lets you collect leads from anyplace on your website. You can 
 
 *   **Widget option**
 
-Go to WordPress Dashboard -> Appearance -> Widgets. Drag and drop the Email Subscribers widget to your desired location.
+Go to Appearance -> Widgets. Drag and drop the Email Subscribers widget to your desired location.
 
 *   **Add directly in the theme**
 
@@ -129,9 +129,9 @@ For example: Subscribe either to pop music or to rock music.
 
 **Get more form styles by using Rainmaker**
 
-Email subscribers easily integrates with another light weight plugin called [Rainmaker](https://wordpress.org/plugins/icegram-rainmaker/stats/). This plugin provides you **multiple, beautiful form design templates**. It also **lets you redirect the user to another url as soon as they subscribe to your form**.
+Email subscribers easily integrates with another light weight plugin called [Rainmaker](https://wordpress.org/plugins/icegram-rainmaker/). This plugin provides you **multiple, beautiful form design templates**. It also **lets you redirect the user to another url as soon as they subscribe to your form**.
 
-Using Rainmaker, you can extend the core features of Email subscribers making the forms even more useful and templates even more elegant.
+Using Rainmaker, you can extend the core features of Email Subscribers making the forms even more useful and styles even more elegant.
 
 **Help Fellow WordPressers by Writing a Review**
 
@@ -170,8 +170,6 @@ You too can contribute to translations and make it 100% complete. Contribute fro
 4. [News Announcement Scroll](https://wordpress.org/plugins/news-announcement-scroll/)
 5. [Temporary Login Without Password](https://wordpress.org/plugins/temporary-login-without-password/)
 
-**Check out our paid plugins from here - [Icegram.com](https://www.icegram.com/)**
-
 == Installation ==
 
 Option 1:
@@ -182,14 +180,6 @@ Option 1:
 4. After installation, click on Activate Plugin link to activate the plugin.
 
 Option 2:
-
-1. Download the plugin email-subscribers.zip
-2. Unpack the email-subscribers.zip file and extract the email-subscribers folder
-3. Upload the plugin folder to your /wp-content/plugins/ directory
-4. Go to WordPress dashboard, click on Plugins from the menu
-5. Locate the Email Subscribers plugin and click on Activate link to activate the plugin.
-
-Option 3:
 
 1. Download the plugin email-subscribers.zip
 2. Go to WordPress Dashboard. Locate Plugins -> Add New
@@ -320,6 +310,25 @@ Use our free plugin [Email Subscribers - Group Selector](https://wordpress.org/p
 11. Admin page - Delivery Report of emails i.e. email sent, opened, viewed status, viewed date
 
 == Changelog ==
+
+= 3.3.5 (21.08.2017) =
+
+* New: UI & structure for Help & Info page
+* Fix: Some users were getting error - Cannot modify header information – headers already sent - when publishing/accessing a post
+* Fix: Unable to select Opt In type from Settings
+* Fix: In-built translations were not loading
+* Fix: CSS getting included in all admin pages
+* Fix: Missing </span> tag on Help & Info menu
+* Fix: Enable to translate 'Add Subscription Form' FAQ on Help & Info page
+* Update: Improvement in logic to get post author name for keyword ###POSTAUTHOR###
+* Update: Improved default content for welcome email
+* Update: Do not include ###GROUP### name by default in welcome email. Admin can add ###GROUP### name manually using keyword (New users only)
+* Update: Text improvement at few places
+* Update: POT file
+* Tweak: Show Cron menu before User Roles menu in Email Subscribers -> Settings for better accessibility
+* Tweak: Use email dashicon instead of mail image for Email Subscribers menu
+* Tweak: Use search dashicon instead of preview image for Reports menu
+* Tweak: Use no dashicon instead of delete image for Reports menu
 
 = 3.3.4 (26.07.2017) =
 
@@ -609,6 +618,25 @@ Use our free plugin [Email Subscribers - Group Selector](https://wordpress.org/p
 For the changelog of earlier versions, please refer to the separate [changelog.txt](https://plugins.svn.wordpress.org/email-subscribers/trunk/changelog.txt) file.
 
 == Upgrade Notice ==
+
+= 3.3.5 (21.08.2017) =
+
+* New: UI & structure for Help & Info page
+* Fix: Some users were getting error - Cannot modify header information – headers already sent - when publishing/accessing a post
+* Fix: Unable to select Opt In type from Settings
+* Fix: In-built translations were not loading
+* Fix: CSS getting included in all admin pages
+* Fix: Missing </span> tag on Help & Info menu
+* Fix: Enable to translate 'Add Subscription Form' FAQ on Help & Info page
+* Update: Improvement in logic to get post author name for keyword ###POSTAUTHOR###
+* Update: Improved default content for welcome email
+* Update: Do not include ###GROUP### name by default in welcome email. Admin can add ###GROUP### name manually using keyword (New users only)
+* Update: Text improvement at few places
+* Update: POT file
+* Tweak: Show Cron menu before User Roles menu in Email Subscribers -> Settings for better accessibility
+* Tweak: Use email dashicon instead of mail image for Email Subscribers menu
+* Tweak: Use search dashicon instead of preview image for Reports menu
+* Tweak: Use no dashicon instead of delete image for Reports menu
 
 = 3.3.4 (26.07.2017) =
 
