@@ -54,6 +54,11 @@
 				<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
 				<?php
 				endif; ?>
+
+				<aside id="langbar" class="widget-area">
+					<?php dynamic_sidebar( 'langbar-1' ); ?>
+				</aside><!-- #secondary -->
+
 				<img class="brand-logo" src="<?php echo get_template_directory_uri() ?>./images/comm.png" alt="Community logo">
 			</div><!-- .site-branding -->
 

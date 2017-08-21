@@ -919,6 +919,10 @@ body {
 .site-description {
 	display: none;
 }
+/*Hide language menu*/
+#langbar {
+	display: none;
+}
 /*Styles for title text*/
 
 .site-title {
@@ -1056,17 +1060,32 @@ label.es_shortcode_form_email {
 	}
 	.title-caps {
 		font-size: 30pt;
-	}
-	/*show default nav bar and hide hamburguer menu*/
-	/*Styles for main menu navigation*/
-	.main-navigation {
-		display: flex;
-		justify-content: space-around;
-		background-color: #a156e0;
-	}
-	.main-navigation a {
-		font-size: 15pt;
-		margin: 0 6px;
+		}/*Hide language menu*/
+		#langbar {
+			display: flex;
+		}
+		#langbar section {
+			margin: 0;
+		}
+		#langbar ul {
+			margin: 0;
+		}
+		#langbar ul li {
+			display: inline-flex;
+		}
+		#langbar a {
+			text-decoration: none;
+		}
+		/*show default nav bar and hide hamburguer menu*/
+		/*Styles for main menu navigation*/
+		.main-navigation {
+			display: flex;
+			justify-content: space-around;
+			background-color: #a156e0;
+		}
+		.main-navigation a {
+			font-size: 15pt;
+			margin: 0 6px;
 	}
 	.container,
 	.brand-logo {

@@ -109,6 +109,20 @@ function cristobalj_widgets_init() {
 }
 add_action( 'widgets_init', 'cristobalj_widgets_init' );
 
+
+function language_settings() {
+	register_sidebar( array(
+		'name'          => esc_html__( 'LanBar', 'cristobalj' ),
+		'id'            => 'langbar-1',
+		'description'   => esc_html__( 'Add widgets here.', 'cristobalj' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widgettitle">',
+		'after_title'   => '</h2>',
+	) );
+}
+add_action( 'widgets_init', 'language_settings' );
+
 /**
  * Enqueue scripts and styles.
  */
