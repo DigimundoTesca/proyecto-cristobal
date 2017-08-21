@@ -1023,18 +1023,22 @@ label.es_shortcode_form_email span {
 	font-weight: bold;
 }
 .es_button {
+	display: inline;
 	text-align: center;
-	max-width: 450px;
 }
 .bannerbig .es_button {
 	text-align: center;
-	max-width: 300px;
+	max-width: auto;
 }
 #es_txt_button_pg {
 	text-transform: uppercase;
 	background-color: #a156e0;
 	color: #FFF;
 	font-weight: bold;
+	line-height: inherit;
+}
+.es_textbox {
+	display: inline;
 }
 
 
@@ -1143,11 +1147,16 @@ label.es_shortcode_form_email span {
 		.bannercontainer {
 			position: absolute;
 			display: initial;
-			max-width: 350px;
+			width: 45%;
+			height: 300px;
 			margin-left: 30px;
 		}
 		.mobilecontainer {
 			display: none;
+		}
+		.newscontainer {
+			bottom: 10px;
+			position: absolute;
 		}
 		/*Banner text´s styles*/
 		h2.bannertitle {
@@ -1158,7 +1167,9 @@ label.es_shortcode_form_email span {
 			margin: 10px 0;
 		}
 		#es_txt_button_pg {
-			font-size: 14px;
+			font-size: 12px;
+			line-height: inherit;
+			margin-left: 10px;
 		}
 	}
 
@@ -1183,7 +1194,7 @@ label.es_shortcode_form_email span {
 			position: absolute;
 			display: initial;
 			width: 35%;
-			font-size: calc(10px + 13px);
+			height: 450px;
 		}
 		/*Banner text´s styles*/
 		h2.bannertitle {
@@ -1194,8 +1205,12 @@ label.es_shortcode_form_email span {
 			margin: 20px 0;
 		}
 		#es_txt_button_pg {
-			font-size: 18px;
-			width: 200px;
+			width: auto;
+			margin-left: 10px;
+		}
+		.newscontainer {
+			bottom: 20px;
+			position: absolute;
 		}
 		/*Social menu*/
 		#social li {
@@ -1213,6 +1228,5 @@ label.es_shortcode_form_email span {
 			position: absolute;
 			display: initial;
 			width: 35%;
-			font-size: calc(10px + 13px);
 		}
 	}

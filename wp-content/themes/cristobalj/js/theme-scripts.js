@@ -36,25 +36,21 @@ jQuery(document).ready(function(){
     {
       coll[i].className += ' metahover';
     }
-    document.getElementById('site-navigation').addEventListener('mouseover', function(){
-        changeColor(coll,'#000');
-        coll.className='metahover';
-      });
   }
   else if (window.location.pathname == '/Cristobal/it/metamundo/') {
     document.getElementById('site-navigation').style.backgroundColor = "#e13634";
+    for(i, len=coll.length; i<len; i++)
+    {
+      coll[i].className += ' metahover';
+    }
   }
   else if (window.location.pathname == '/Cristobal/fr/metamundo/') {
     document.getElementById('site-navigation').style.backgroundColor = "#e13634";
+    for(i, len=coll.length; i<len; i++)
+    {
+      coll[i].className += ' metahover';
+    }
   }
-
-  function changeColor(coll, color){
-
-    // for(var i=0, len=coll.length; i<len; i++)
-    // {
-    //   coll[i].style["background-color"] = color;
-    // }
-}
 
 
 });
