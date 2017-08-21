@@ -61,9 +61,9 @@
 				<div id="social">
 					<nav>
 						<ul>
-							<li><a href="" title="" class="fa fa-instagram" aria-hidden="true"></a></li>
-							<li><a href="" title="" class="fa fa-facebook-square" aria-hidden="true"></a></li>
-							<li><a href="" title="" class="fa fa-twitter" aria-hidden="true"></a></li>
+							<li><a href="" target="_blank" title="" class="fa fa-instagram" aria-hidden="true"></a></li>
+							<li><a href="" target="_blank" title="" class="fa fa-facebook-square" aria-hidden="true"></a></li>
+							<li><a href="" target="_blank" title="" class="fa fa-twitter" aria-hidden="true"></a></li>
 						</ul>
 					</nav>
 				</div>
