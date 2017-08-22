@@ -1044,37 +1044,57 @@ label.es_shortcode_form_email span {
 }
 /*Bio page slider styles*/
 .rslides {
-  position: relative;
-  list-style: none;
-  overflow: hidden;
-  width: 100%;
-  max-height: 150px; 
-  padding: 0;
-  margin: 0;
-  }
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	width: 100%;
+	max-height: 150px; 
+	padding: 0;
+	margin: 0;
+}
 
 .rslides li {
-  -webkit-backface-visibility: hidden;
-  position: absolute;
-  display: none;
-  width: 100%;
-  left: 0;
-  top: 0;
-  }
+	-webkit-backface-visibility: hidden;
+	position: absolute;
+	display: none;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
 
 .rslides li:first-child {
-  position: relative;
-  display: block;
-  float: left;
-  }
+	position: relative;
+	display: block;
+	float: left;
+}
 
 .rslides img {
-  display: block;
-  height: auto;
-  float: left;
-  width: 100%;
-  border: 0;
-  }
+	display: block;
+	height: auto;
+	float: left;
+	width: 100%;
+	border: 0;
+}
+/*Styles for main container text*/
+#mainContainer {
+	font-family: 'Gotham Rounded';
+	font-weight: normal;
+}
+#mainContainer h3 {
+	font-size: 23pt;
+	margin: 0;
+	padding: 0;
+	margin-top: 20px;
+	font-weight: bold;
+}
+#mainContainer p {
+	margin: 0;
+	line-height: 23pt;
+}
+#mainContainer.biog p:first-of-type {
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
 
 
 
@@ -1213,12 +1233,12 @@ label.es_shortcode_form_email span {
 		}
 	}
 
-@media screen and (min-width: 1024px) {
-	/*Bio page slider styles*/
+	@media screen and (min-width: 1024px) {
+		/*Bio page slider styles*/
 		.rslides {
 			max-height: 500px;
 		}
-}
+	}
 
 
 

@@ -12,7 +12,7 @@ get_header(); ?>
       <li><img src="<?php echo get_template_directory_uri(); ?> /images/bio3.jpg" alt=""></li>
     </ul>
     <?php while (have_posts()): the_post(); ?>
-      <div id="mainContainer">
+      <div id="mainContainer" class="biog">
         <?php the_content(); ?>
       </div>
     <?php endwhile ?>
