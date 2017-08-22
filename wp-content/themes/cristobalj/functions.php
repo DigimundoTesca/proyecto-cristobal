@@ -133,6 +133,7 @@ function cristobalj_scripts() {
 	wp_enqueue_script( 'prefixfree', 'https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js', true );
 	wp_enqueue_script( 'mainjs', get_template_directory_uri() . '/js/main.js', array(), '', true );
 	wp_enqueue_script( 'classie', get_template_directory_uri() . '/js/classie.js', array(), '', true );
+	wp_enqueue_script( 'slide', get_template_directory_uri() . '/js/responsiveslides.min.js', array(), '', true );
 	wp_enqueue_script( 'theme', get_template_directory_uri() . '/js/theme-scripts.js', array(), '', true );
 	
   wp_enqueue_script('jquery');

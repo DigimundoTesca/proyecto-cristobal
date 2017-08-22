@@ -129,6 +129,7 @@ html {
 }
 
 body {
+	-webkit-font-smoothing:antialiased;
 	margin: 10px 5px;
 	background: #fff; /* Fallback for when there is no custom background color defined. */
 }
@@ -1040,6 +1041,39 @@ label.es_shortcode_form_email span {
 .es_textbox {
 	display: inline;
 }
+/*Bio page slider styles*/
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  max-height: 150px; 
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
 
 
 
@@ -1172,9 +1206,18 @@ label.es_shortcode_form_email span {
 			line-height: inherit;
 			margin-left: 10px;
 		}
+		/*Bio page slider styles*/
+		.rslides {
+			max-height: 350px;
+		}
 	}
 
-
+@media screen and (min-width: 1024px) {
+	/*Bio page slider styles*/
+		.rslides {
+			max-height: 500px;
+		}
+}
 
 
 
@@ -1209,6 +1252,10 @@ label.es_shortcode_form_email span {
 		/*Social menu*/
 		#social li {
 			font-size: 20pt;
+		}
+		/*Bio page slider styles*/
+		.rslides {
+			max-height: 600px;
 		}
 	}
 
