@@ -995,7 +995,7 @@ body {
 }
 .bannerbig {
 	display: none;
-	min-height: 300px;
+	min-height: 400px;
 }
 .bannercontainer {
 	font-family: 'Gotham Rounded';
@@ -1114,6 +1114,9 @@ label.es_shortcode_form_email span {
 		#langbar a {
 			color: #000;
 		}
+		#social a:hover {
+			color: #a156e0 !important;
+		}
 		#langbar li:first-child a::after {
 			content: '  |  '
 		}
@@ -1146,17 +1149,15 @@ label.es_shortcode_form_email span {
 		}
 		.bannercontainer {
 			position: absolute;
-			display: initial;
+			display: inline-flex;
+			flex-direction: column;
+			justify-content: space-around;
 			width: 45%;
-			height: 300px;
+			height: 400px;
 			margin-left: 30px;
 		}
 		.mobilecontainer {
 			display: none;
-		}
-		.newscontainer {
-			bottom: 10px;
-			position: absolute;
 		}
 		/*Banner text´s styles*/
 		h2.bannertitle {
@@ -1188,13 +1189,10 @@ label.es_shortcode_form_email span {
 		}
 		/*Styles for banner*/
 		.bannerbig {
-			min-height: 450px;
+			min-height: 500px;
 		}
 		.bannercontainer {
-			position: absolute;
-			display: initial;
-			width: 35%;
-			height: 450px;
+			height: 500px;
 		}
 		/*Banner text´s styles*/
 		h2.bannertitle {
@@ -1207,10 +1205,6 @@ label.es_shortcode_form_email span {
 		#es_txt_button_pg {
 			width: auto;
 			margin-left: 10px;
-		}
-		.newscontainer {
-			bottom: 20px;
-			position: absolute;
 		}
 		/*Social menu*/
 		#social li {
@@ -1225,8 +1219,6 @@ label.es_shortcode_form_email span {
 			padding-right: 5px;
 		}
 		.bannercontainer {
-			position: absolute;
-			display: initial;
 			width: 35%;
 		}
 	}
