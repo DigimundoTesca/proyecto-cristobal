@@ -362,15 +362,8 @@ a:active {
 
 .main-navigation li:hover > a,
 .main-navigation li.focus > a {
-	background-color: #175d39;
 	cursor: pointer;
 }
-.metahover:hover > a,
-.metahover.focus > a {
-	background-color: #ff706e !important;
-	cursor: pointer;
-}
-
 .main-navigation ul ul :hover > a,
 .main-navigation ul ul .focus > a {
 }
@@ -1189,13 +1182,28 @@ label.es_shortcode_form_email span {
 			font-size: 15pt;
 			margin: 0 6px;
 		}
+		.main-navigation a:hover {
+			background-color: #175d39;
+		}
 		.main-navigation li:last-child {
 			float: right;
 			background-color: #002983;
 		}
 		.main-navigation li:last-child a:hover {
 			width: inherit;
-			background-color: #154FCF !important;
+			background-color: #154FCF;
+		}
+
+		.metahover:hover > a,
+		.metahover.focus > a {
+			background-color: #ff706e;
+			cursor: pointer;
+		}
+		.metahover:last-of-type {
+			background-color: #910580 !important;
+		}
+		.metahover:last-of-type a:hover {
+			background-color: #fff !important;
 		}
 		.container,
 		.brand-logo {
