@@ -28,24 +28,24 @@ jQuery(document).ready(function(){
     }
   }
 
-  // Change color for metamundo page
+  // Change menu color for metamundo page
   var coll = document.getElementsByClassName('menu-item');
   if (window.location.pathname == '/Cristobal/metamundo/') {
-    document.getElementById('site-navigation').style.backgroundColor = "#e13634";
+    document.getElementById('site-navigation').style.backgroundColor = "#be0211";
     for(i, len=coll.length; i<len; i++)
     {
       coll[i].className += ' metahover';
     }
   }
   else if (window.location.pathname == '/Cristobal/it/metamundo/') {
-    document.getElementById('site-navigation').style.backgroundColor = "#e13634";
+    document.getElementById('site-navigation').style.backgroundColor = "#be0211";
     for(i, len=coll.length; i<len; i++)
     {
       coll[i].className += ' metahover';
     }
   }
   else if (window.location.pathname == '/Cristobal/fr/metamundo/') {
-    document.getElementById('site-navigation').style.backgroundColor = "#e13634";
+    document.getElementById('site-navigation').style.backgroundColor = "#be0211";
     for(i, len=coll.length; i<len; i++)
     {
       coll[i].className += ' metahover';
