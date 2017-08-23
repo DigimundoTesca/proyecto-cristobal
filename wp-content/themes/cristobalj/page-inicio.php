@@ -26,6 +26,7 @@ get_header(); ?>
             <?php printf(__('Welcome!','cristobalj')) ?>
           </h2>
           <p class="quote"><?php printf(__('"Here you can put a phrase from Cristobal that welcomes people"','cristobalj')) ?></p>
+          <p class="name">Cristóbal Jodorowsky</p>
         </div>
         <div class="newscontainer">
           <?php es_subbox( $namefield = "NO", $desc = "", $group = "Maingroup" ); ?>

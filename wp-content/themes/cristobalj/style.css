@@ -1027,7 +1027,7 @@ label.es_shortcode_form_email span {
 }
 #es_txt_button_pg {
 	text-transform: uppercase;
-	background-color: #a156e0;
+	background-color: #002983;
 	color: #FFF;
 	font-weight: bold;
 	line-height: inherit;
@@ -1124,188 +1124,196 @@ label.es_shortcode_form_email span {
 	}
 	.title-caps {
 		font-size: 30pt;
-		}/*Hide language menu*/
-		#langbar {
-			display: flex;
-			position: absolute;
-			right: 20%;
-		}
-		#langbar section {
-			margin: 0;
-		}
-		#langbar ul {
-			margin: 0;
-		}
-		#langbar ul li {
-			display: inline-flex;
-		}
-		#langbar a {
-			text-decoration: none;
-		}
-		#social {
-			display: inline-flex;
-			right: 5%;
-			position: absolute;
-		}
-		#social ul {
-			display: inline-block;
-			list-style: none;
-			margin: 0;
-			padding: 0;
-		}
-		#social li {
-			display: inline-flex;
-			font-size: 17pt;
-			margin: 0 5px;
-		}
-		#social a,
-		#langbar a {
-			color: #000;
-		}
-		#social a:hover {
-			color: #a156e0 !important;
-		}
-		#langbar li:first-child a::after {
-			content: '  |  '
-		}
-		/*show default nav bar and hide hamburguer menu*/
-		/*Styles for main menu navigation*/
-		.menu-menu-1-container {
-			width: 100%;
-		}
-		.main-navigation {
-			display: flex;
-			justify-content: space-around;
-			background-color: #92b541;
-		}
-		.main-navigation a {
-			font-size: 15pt;
-			margin: 0 6px;
-		}
-		.main-navigation a:hover {
-			background-color: #175d39;
-		}
-		.main-navigation li:last-child {
-			float: right;
-			background-color: #002983;
-		}
-		.main-navigation li:last-child a:hover {
-			width: inherit;
-			background-color: #154FCF;
-		}
-
-		.metahover:hover > a,
-		.metahover.focus > a {
-			background-color: #ff706e;
-			cursor: pointer;
-		}
-		.metahover:last-of-type {
-			background-color: #910580 !important;
-		}
-		.metahover:last-of-type a:hover {
-			background-color: #fff !important;
-		}
-		.container,
-		.brand-logo {
-			display: none;
-		}
-		.menu li a {
-			text-decoration: none;
-			color: #FFF;
-			padding: 5px;
-		}
-		/*Styles for Main-banner*/
-		.bannermobile {
-			display: none;
-		}
-		.bannerbig {
-			display: flex;
-		}
-		.bannercontainer {
-			position: absolute;
-			display: inline-flex;
-			flex-direction: column;
-			justify-content: space-around;
-			width: 45%;
-			height: 400px;
-			margin-left: 30px;
-		}
-		.mobilecontainer {
-			display: none;
-		}
-		/*Banner text´s styles*/
-		h2.bannertitle {
-			font-size: 30px;
-		}
-		p.quote {
-			font-size: 17px;
-			margin: 10px 0;
-		}
-		#es_txt_button_pg {
-			font-size: 12px;
-			line-height: inherit;
-			margin-left: 10px;
-		}
-		/*Bio page slider styles*/
-		.rslides {
-			max-height: 350px;
-		}
 	}
-
-	@media screen and (min-width: 1024px) {
-		/*Bio page slider styles*/
-		.rslides {
-			max-height: 500px;
-		}
+	/*Hide language menu*/
+	#langbar {
+		display: flex;
+		position: absolute;
+		right: 20%;
 	}
-
-
-
-
-
-	/*Desktop styles*/
-	@media screen and (min-width: 1200px) {
-		/*Styles for main menu navigation*/
-		.main-navigation a {
-			font-size: 25pt;
-			margin: 0 13px;
-		}
-		/*Styles for banner*/
-		.bannerbig {
-			min-height: 500px;
-		}
-		.bannercontainer {
-			height: 500px;
-		}
-		/*Banner text´s styles*/
-		h2.bannertitle {
-			font-size: 40px;
-		}
-		p.quote {
-			font-size: 23px;
-			margin: 20px 0;
-		}
-		#es_txt_button_pg {
-			width: auto;
-			margin-left: 10px;
-		}
-		/*Social menu*/
-		#social li {
-			font-size: 20pt;
-		}
-		/*Bio page slider styles*/
-		.rslides {
-			max-height: 600px;
-		}
+	#langbar section {
+		margin: 0;
 	}
-
-	@media screen and (min-width: 1300px) {
-		/*Styles for main menu*/
-		.main-navigation li {
-			padding-left: 5px;
-			padding-right: 5px;
-		}
-		.bannercontainer {
-			width: 35%;
-		}
+	#langbar ul {
+		margin: 0;
 	}
+	#langbar ul li {
+		display: inline-flex;
+	}
+	#langbar a {
+		text-decoration: none;
+	}
+	#social {
+		display: inline-flex;
+		right: 5%;
+		position: absolute;
+	}
+	#social ul {
+		display: inline-block;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	#social li {
+		display: inline-flex;
+		font-size: 17pt;
+		margin: 0 5px;
+	}
+	#social a,
+	#langbar a {
+		color: #000;
+	}
+	#social a:hover {
+		color: #154FCF !important;
+	}
+	#langbar li:first-child a::after {
+		content: '  |  '
+	}
+	/*show default nav bar and hide hamburguer menu*/
+	/*Styles for main menu navigation*/
+	.menu-menu-1-container {
+		width: 100%;
+	}
+	.main-navigation {
+		display: flex;
+		justify-content: space-around;
+		background-color: #92b541;
+	}
+	.main-navigation a {
+		font-size: 15pt;
+		margin: 0 6px;
+	}
+	.main-navigation a:hover,
+	.main-navigation a:active,
+	.main-navigation a:focus {
+		background-color: #175d39;
+	}
+	.main-navigation li:last-child {
+		float: right;
+		background-color: #002983;
+	}
+	.main-navigation li:last-child a:hover {
+		width: inherit;
+		background-color: #154FCF;
+	}
+	.metahover:hover > a,
+	.metahover.focus > a {
+		background-color: #ff706e;
+		cursor: pointer;
+	}
+	.metahover:last-of-type {
+		background-color: #910580 !important;
+	}
+	.metahover:last-of-type a:hover {
+		background-color: #DD1EC6 !important;
+	}
+	.container,
+	.brand-logo {
+		display: none;
+	}
+	.menu li a {
+		text-decoration: none;
+		color: #FFF;
+		padding: 5px 10px;
+	}
+	/*Styles for Main-banner*/
+	.bannermobile {
+		display: none;
+	}
+	.bannerbig {
+		display: flex;
+	}
+	.bannercontainer {
+		position: absolute;
+		display: inline-flex;
+		flex-direction: column;
+		justify-content: space-around;
+		width: 45%;
+		height: 400px;
+		margin-left: 30px;
+	}
+	.mobilecontainer {
+		display: none;
+	}
+	/*Banner text´s styles*/
+	h2.bannertitle {
+		font-size: 30px;
+	}
+	p.quote {
+		font-size: 17px;
+		margin: 10px 0;
+		width: 70%;
+		text-align: center;
+	}
+	p.name {
+		width: 70%;
+		text-align: center;
+	}
+	#es_txt_button_pg {
+		font-size: 12px;
+		line-height: inherit;
+		margin-left: 10px;
+	}
+	/*Bio page slider styles*/
+	.rslides {
+		max-height: 350px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	/*Bio page slider styles*/
+	.rslides {
+		max-height: 500px;
+	}
+}
+
+
+
+
+
+/*Desktop styles*/
+@media screen and (min-width: 1200px) {
+	/*Styles for main menu navigation*/
+	.main-navigation a {
+		font-size: 25pt;
+		margin: 0 13px;
+	}
+	/*Styles for banner*/
+	.bannerbig {
+		min-height: 500px;
+	}
+	.bannercontainer {
+		height: 500px;
+	}
+	/*Banner text´s styles*/
+	h2.bannertitle {
+		font-size: 40px;
+	}
+	p.quote {
+		font-size: 23px;
+		margin: 20px 0;
+	}
+	#es_txt_button_pg {
+		width: auto;
+		margin-left: 10px;
+	}
+	/*Social menu*/
+	#social li {
+		font-size: 20pt;
+	}
+	/*Bio page slider styles*/
+	.rslides {
+		max-height: 600px;
+	}
+}
+
+@media screen and (min-width: 1300px) {
+	/*Styles for main menu*/
+	.main-navigation li {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.bannercontainer {
+		width: 35%;
+	}
+}
