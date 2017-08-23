@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CristobalJ\n"
-"POT-Creation-Date: 2017-08-20 13:33-0500\n"
-"PO-Revision-Date: 2017-08-20 13:35-0500\n"
+"POT-Creation-Date: 2017-08-23 12:14-0500\n"
+"PO-Revision-Date: 2017-08-23 12:14-0500\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -75,8 +75,8 @@ msgstr ""
 #. translators: %s: CMS name, i.e. WordPress.
 #: footer.php:17
 #, php-format
-msgid "Proudly powered by %s"
-msgstr "Poderoseado por... %s"
+msgid "Copyright &copy; %s"
+msgstr ""
 
 #. translators: 1: Theme name, 2: Theme author.
 #: footer.php:22
@@ -94,15 +94,19 @@ msgstr "Menú Principal"
 msgid "Sidebar"
 msgstr "Barra lateral"
 
-#: functions.php:103
+#: functions.php:103 functions.php:117
 msgid "Add widgets here."
 msgstr "Agrega widgets aquí"
 
-#: header.php:21
+#: functions.php:115
+msgid "LanBar"
+msgstr ""
+
+#: header.php:38
 msgid "Skip to content"
 msgstr "Saltar al contenido"
 
-#: header.php:61
+#: header.php:92
 msgid "Primary Menu"
 msgstr "Menú Principal"
 
@@ -167,6 +171,15 @@ msgstr ""
 "\"Aquí se puede poner una frase de Cristobal que da la bienvenida a la gente"
 "\""
 
+#. translators: 1: Theme name, 2: Theme author.
+#: page-biografia.php:19
+msgid "The history "
+msgstr "La historia"
+
+#: page-biografia.php:20
+msgid "<span class=\"biocolor\" > of Cristobal</span>"
+msgstr "<span class=\"biocolor\" > de Cristóbal</span>"
+
 #. translators: %s: search query.
 #: search.php:18
 #, php-format
@@ -227,6 +240,9 @@ msgstr "Descripción"
 #. Author of the plugin/theme
 msgid "Digimundo"
 msgstr "Digimundo"
+
+#~ msgid "Proudly powered by %s"
+#~ msgstr "Poderoseado por... %s"
 
 #~ msgid "Comment navigation"
 #~ msgstr "Navegación de comentarios"
