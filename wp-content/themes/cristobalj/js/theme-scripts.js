@@ -52,13 +52,61 @@ jQuery(document).ready(function(){
     }
   }
 
-  (function($) {
-    $(".rslides").responsiveSlides({
-      auto: true,
-      speed: 500,
-      timeout: 4000, 
-    });
-  })(jQuery);
+  // Change menu color for biography page
+  var coll = document.getElementsByClassName('menu-item');
+  if (window.location.pathname == '/Cristobal/biografia/') {
+    document.getElementById('site-navigation').style.backgroundColor = "#d39b00";
+    for(i, len=coll.length; i<len; i++)
+    {
+      coll[i].className += ' biohover';
+    }
+  }
+  else if (window.location.pathname == '/Cristobal/it/biografia/') {
+    document.getElementById('site-navigation').style.backgroundColor = "#d39b00";
+    for(i, len=coll.length; i<len; i++)
+    {
+      coll[i].className += ' biohover';
+    }
+  }
+  else if (window.location.pathname == '/Cristobal/fr/biographie/') {
+    document.getElementById('site-navigation').style.backgroundColor = "#d39b00";
+    for(i, len=coll.length; i<len; i++)
+    {
+      coll[i].className += ' biohover';
+    }
+  }
+
+  // Change menu color for know-more page
+  var coll = document.getElementsByClassName('menu-item');
+  if (window.location.pathname == '/Cristobal/saber-mas/') {
+    document.getElementById('site-navigation').style.backgroundColor = "#37b4ee";
+    for(i, len=coll.length; i<len; i++)
+    {
+      coll[i].className += ' morehover';
+    }
+  }
+  else if (window.location.pathname == '/Cristobal/it/ulteriori-informazioni/') {
+    document.getElementById('site-navigation').style.backgroundColor = "#37b4ee";
+    for(i, len=coll.length; i<len; i++)
+    {
+      coll[i].className += ' morehover';
+    }
+  }
+  else if (window.location.pathname == '/Cristobal/fr/savoir-plus/') {
+    document.getElementById('site-navigation').style.backgroundColor = "#37b4ee";
+    for(i, len=coll.length; i<len; i++)
+    {
+      coll[i].className += ' morehover';
+    }
+  }
+
+(function($) {
+  $(".rslides").responsiveSlides({
+    auto: true,
+    speed: 500,
+    timeout: 4000, 
+  });
+})(jQuery);
 
 
 });

@@ -1195,6 +1195,8 @@ label.es_shortcode_form_email span {
 	.main-navigation li:last-child a:hover {
 		width: inherit;
 		background-color: #154FCF;
+		color: #FFFFFF !important;
+		font-weight: normal !important;
 	}
 	.metahover:hover > a,
 	.metahover.focus > a {
@@ -1206,6 +1208,18 @@ label.es_shortcode_form_email span {
 	}
 	.metahover:last-of-type a:hover {
 		background-color: #DD1EC6 !important;
+	}
+	.biohover:hover > a,
+	.biohover.focus > a {
+		background-color: #be0211;
+		cursor: pointer;
+	}
+	.morehover:hover > a,
+	.morehover.focus > a {
+		background-color: #f5e901;
+		color: #000000;
+		font-weight: bold;
+		cursor: pointer;
 	}
 	.container,
 	.brand-logo {
