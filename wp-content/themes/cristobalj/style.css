@@ -1096,6 +1096,38 @@ label.es_shortcode_form_email span {
 .button.webgl-viewer-navbar-button.webgl-viewer-navbar-button-prev {
 	width: auto;
 }
+/*Styles for agenda and banner on index page*/
+#mainpage {
+	display: flex;
+	flex-direction: column-reverse;
+	flex-wrap: wrap;
+	width: 100%;
+}
+#mainpage > * {
+	display: block;
+}
+#mainbannercontainer {
+	min-width: 300px;
+	max-width: 400px;
+	width: 30%;
+	margin: 0 auto;
+}
+#datesContainer {
+	min-width: 300px;
+	max-width: 1000px;
+	width: 60%;
+	margin: 0 auto;
+}
+.mainbannercontent {
+	min-width: 280px;
+	min-height: 280px;
+	max-width: 400px;
+	width: inherit;
+	height: inherit;
+	background-color: red;
+	margin: 10px 0;
+}
+
 
 
 
@@ -1284,6 +1316,16 @@ label.es_shortcode_form_email span {
 	#iframe_container {
 		width: 100%;
 		height: 450px;
+	}
+	/*Styles for agenda and banner on index page*/
+	#mainpage {
+		flex-direction: column-reverse;
+	}
+	#mainbannercontainer {
+		width: 100%;
+		margin: 0;
+		display: flex;
+		flex-wrap: wrap;
 	}
 }
 
