@@ -858,6 +858,40 @@ body {
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
+/*Styles for footer circles*/
+#circles {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	justify-content: space-around;
+}
+#circles .circlecontent {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: 10px 0;
+}
+#circles .circlecontent .circle {
+	font-family: 'Gotham Rounded';
+	display: inline-flex;
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	border: 5px solid blue;
+	text-transform: uppercase;
+	color: red;
+	font-size: 17px;
+	font-weight: bold;
+	justify-content: center;
+	align-items: center;
+}
+#circles .circlecontent .text {
+	font-family: 'Gotham Rounded Book';
+	margin-left: 20px;
+	width: 200px;
+	font-size: 25px;
+}
 /*styles for custom menu*/
 .menu ul {
 	margin: 0;
@@ -1133,6 +1167,15 @@ label.es_shortcode_form_email span {
 	body {
 		margin: 2.5%;
 	}
+	#circles .circlecontent .circle {
+		width: 100px;
+		height: 100px;
+	}
+	#circles .circlecontent .text {
+		margin-left: 30px;
+		width: 400px;
+		font-size: 30px;
+	}
 	/*Styles for Branding*/
 	.site-branding {
 		justify-content: normal;
@@ -1346,6 +1389,19 @@ label.es_shortcode_form_email span {
 
 /*Desktop styles*/
 @media screen and (min-width: 1200px) {
+	#circles {
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	#circles .circlecontent .circle {
+		width: 100px;
+		height: 100px;
+	}
+	#circles .circlecontent .text {
+		margin-left: 15px;
+		width: 200px;
+		font-size: 25px;
+	}
 	/*Styles for main menu navigation*/
 	.main-navigation a {
 		font-size: 25pt;
