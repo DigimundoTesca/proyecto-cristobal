@@ -1394,6 +1394,7 @@ label.es_shortcode_form_email span {
 		justify-content: space-around;
 	}
 	#circles .circlecontent .circle {
+		font-size: 25px;
 		width: 100px;
 		height: 100px;
 	}

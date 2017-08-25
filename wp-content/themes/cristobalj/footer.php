@@ -13,15 +13,15 @@
 	<footer id="colophon" class="site-footer">
 		<div class="circlecontainer" id="circles">
 			<div class="circlecontent">
-				<div class="circle">ver</div>
+				<a href="" title=""><div class="circle">ver</div></a>
 				<div class="text">Los videos más vistos del mes.</div>
 			</div>
 			<div class="circlecontent">
-				<div class="circle">oir</div>
+				<a href="" title=""><div class="circle">oir</div></a>
 				<div class="text">Los videos más vistos del mes</div>
 			</div>
 			<div class="circlecontent">
-				<div class="circle">leer</div>
+				<a href="" title=""><div class="circle">leer</div></a>
 				<div class="text">Artículos e inspiraciones semanales.</div>
 			</div>
 		</div>
