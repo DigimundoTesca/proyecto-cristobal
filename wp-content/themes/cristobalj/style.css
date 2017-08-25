@@ -1107,25 +1107,22 @@ label.es_shortcode_form_email span {
 	display: block;
 }
 #mainbannercontainer {
-	min-width: 300px;
-	max-width: 400px;
-	width: 30%;
-	margin: 0 auto;
+	display: inline-flex;
+	margin: 0 10px;
+	flex-wrap: wrap;
+	flex-direction: row;
 }
 #datesContainer {
 	min-width: 300px;
 	max-width: 1000px;
-	width: 60%;
+	width: 400px;
 	margin: 0 auto;
 }
 .mainbannercontent {
-	min-width: 280px;
-	min-height: 280px;
-	max-width: 400px;
-	width: inherit;
-	height: inherit;
+	width: 230px;
+	height: 230px;
 	background-color: red;
-	margin: 10px 0;
+	margin: 10px auto;
 }
 
 
@@ -1319,13 +1316,20 @@ label.es_shortcode_form_email span {
 	}
 	/*Styles for agenda and banner on index page*/
 	#mainpage {
-		flex-direction: column-reverse;
+		flex-direction: row;
 	}
 	#mainbannercontainer {
-		width: 100%;
+		width: 250px;
+		margin: 0 auto;
 		margin: 0;
 		display: flex;
 		flex-wrap: wrap;
+	}
+	#datesContainer {
+		min-width: 300px;
+		max-width: 1000px;
+		width: 60%;
+		margin: 0 10px;
 	}
 }
 
@@ -1382,6 +1386,16 @@ label.es_shortcode_form_email span {
 		width: 80%;
 		height: 600px;
 		margin: 0 10%;
+	}
+	#mainbannercontainer {
+		width: 450px;
+	}
+	.mainbannercontent {
+		width: 350px;
+		height: 350px;
+	}
+	#datesContainer {
+		width: 650px;
 	}
 }
 
