@@ -11,6 +11,20 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer">
+		<div class="circlecontainer" id="circles">
+			<div class="circlecontent">
+				<div class="circle"></div>
+				<div class="text"></div>
+			</div>
+			<div class="circlecontent">
+				<div class="circle"></div>
+				<div class="text"></div>
+			</div>
+			<div class="circlecontent">
+				<div class="circle"></div>
+				<div class="text"></div>
+			</div>
+		</div>
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'cristobalj' ) ); ?>"><?php
 				/* translators: %s: CMS name, i.e. WordPress. */
