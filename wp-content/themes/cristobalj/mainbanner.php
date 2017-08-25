@@ -8,7 +8,7 @@ Template Name: mainbanner
     <a href="" title="">
       <div class="metmundo">
         <h3>
-          <?php printf(__('Live the experience','cristobalj')) ?>
+          <?php printf(__('Live the experience!','cristobalj')) ?>
         </h3>
         <img src="<?php echo get_stylesheet_directory_uri(); ?>./images/metalogo.png" alt="">
       </div>
@@ -22,7 +22,7 @@ Template Name: mainbanner
         </h3>
         <img src="<?php echo get_stylesheet_directory_uri(); ?>./images/book.png" alt="">
         <p>
-          <?php printf(__('Free download.','cristobalj')) ?>
+          <?php printf(__('Free download','cristobalj')) ?>
         </p>
       </div>
     </a>

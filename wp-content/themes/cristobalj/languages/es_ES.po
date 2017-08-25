@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CristobalJ\n"
-"POT-Creation-Date: 2017-08-25 00:36-0500\n"
-"PO-Revision-Date: 2017-08-25 00:36-0500\n"
+"POT-Creation-Date: 2017-08-25 10:47-0500\n"
+"PO-Revision-Date: 2017-08-25 10:54-0500\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -45,19 +45,13 @@ msgstr "Intente buscar en el archivo por mes. %1$s"
 
 #. translators: 1: title.
 #: comments.php:31
-#, fuzzy, php-format
-#| msgctxt "comments title"
-#| msgid "One thought on &ldquo;%2$s&rdquo;"
-#| msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+#, php-format
 msgid "One thought on &ldquo;%1$s&rdquo;"
-msgstr "Un comentario en &ldquo;%2$s&rdquo;"
+msgstr "Un comentario en &ldquo;%1$s&rdquo;"
 
 #. translators: 1: comment count number, 2: title.
 #: comments.php:37
-#, fuzzy, php-format
-#| msgctxt "comments title"
-#| msgid "One thought on &ldquo;%2$s&rdquo;"
-#| msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+#, php-format
 msgctxt "comments title"
 msgid "%1$s thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
@@ -74,7 +68,7 @@ msgstr "Ver"
 
 #: footer.php:17 footer.php:21
 msgid "The most watched videos of the month."
-msgstr "Los videos más vistos del mes"
+msgstr "Los videos más vistos del mes."
 
 #: footer.php:20
 msgid "Hear"
@@ -89,24 +83,16 @@ msgid "Weekly articles and inspirations."
 msgstr "Artículos e inspiraciones semanales."
 
 #: footer.php:29
-msgid "https://wordpress.org/"
-msgstr ""
-
-#. translators: %s: CMS name, i.e. WordPress.
-#: footer.php:31
-#, php-format
-msgid "Copyright &copy; %s"
-msgstr ""
+msgid "Copyright &copy; Cristobal Jodorowsky"
+msgstr "Copyright &copy; Cristobal Jodorowsky"
 
 #. translators: 1: Theme name, 2: Theme author.
-#: footer.php:36
+#: footer.php:34
 #, php-format
 msgid "Theme: %1$s by %2$s."
-msgstr "Plantilla: %1$s por %2$s."
+msgstr "Tema: %1$s por %2$s."
 
 #: functions.php:44
-#, fuzzy
-#| msgid "Primary Menu"
 msgid "Primary"
 msgstr "Menú Principal"
 
@@ -116,7 +102,7 @@ msgstr "Barra lateral"
 
 #: functions.php:103 functions.php:117
 msgid "Add widgets here."
-msgstr "Agrega widgets aquí"
+msgstr "Agrega widgets aquí."
 
 #: functions.php:115
 msgid "LanBar"
@@ -147,7 +133,7 @@ msgstr "por %s"
 #. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:52
 msgid ", "
-msgstr ","
+msgstr ", "
 
 #. translators: 1: list of categories.
 #: inc/template-tags.php:55
@@ -159,7 +145,7 @@ msgstr "Clasificado en %1$s"
 #: inc/template-tags.php:59
 msgctxt "list item separator"
 msgid ", "
-msgstr ","
+msgstr ", "
 
 #. translators: 1: list of tags.
 #: inc/template-tags.php:62
@@ -180,7 +166,7 @@ msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr "Editar <span class=\"screen-reader-text\">%s</span>"
 
 #: mainbanner.php:11
-msgid "Live the experience"
+msgid "Live the experience!"
 msgstr "Vive la experiencia !"
 
 #: mainbanner.php:21
@@ -188,7 +174,7 @@ msgid "We give you"
 msgstr "Te obsequiamos"
 
 #: mainbanner.php:25
-msgid "Free download."
+msgid "Free download"
 msgstr "Descarga gratis"
 
 #: mainbanner.php:34
@@ -214,7 +200,7 @@ msgstr ""
 #. translators: 1: Theme name, 2: Theme author.
 #: page-biografia.php:19
 msgid "The history "
-msgstr "La historia"
+msgstr "La historia "
 
 #: page-biografia.php:20
 msgid "<span class=\"biocolor\" > of Cristobal</span>"
@@ -255,12 +241,11 @@ msgstr ""
 
 #: template-parts/content-page.php:19 template-parts/content.php:42
 msgid "Pages:"
-msgstr "Páginas"
+msgstr "Páginas:"
 
 #. translators: %s: Name of current post. Only visible to screen readers
 #: template-parts/content.php:31
-#, fuzzy, php-format
-#| msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+#, php-format
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr "Siga leyendo %s <span class=\"meta-nav\">&rarr;</span>"
 
