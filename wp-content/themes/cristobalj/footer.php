@@ -13,16 +13,16 @@
 	<footer id="colophon" class="site-footer">
 		<div class="circlecontainer" id="circles">
 			<div class="circlecontent">
-				<a href="" title=""><div class="circle">ver</div></a>
-				<div class="text">Los videos más vistos del mes.</div>
+				<a href="" title=""><div class="circle"><?php printf(__('Watch','cristobalj')) ?></div></a>
+				<div class="text"><?php printf(__('The most watched videos of the month.','cristobalj')) ?></div>
 			</div>
 			<div class="circlecontent">
-				<a href="" title=""><div class="circle">oir</div></a>
-				<div class="text">Los videos más vistos del mes</div>
+				<a href="" title=""><div class="circle"><?php printf(__('Hear','cristobalj')) ?></div></a>
+				<div class="text"><?php printf(__('The most watched videos of the month.','cristobalj')) ?></div>
 			</div>
 			<div class="circlecontent">
-				<a href="" title=""><div class="circle">leer</div></a>
-				<div class="text">Artículos e inspiraciones semanales.</div>
+				<a href="" title=""><div class="circle"><?php printf(__('Read','cristobalj')) ?></div></a>
+				<div class="text"><?php printf(__('Weekly articles and inspirations.','cristobalj')) ?></div>
 			</div>
 		</div>
 		<div class="site-info">
