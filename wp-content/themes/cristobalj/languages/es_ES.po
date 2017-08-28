@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CristobalJ\n"
-"POT-Creation-Date: 2017-08-25 10:47-0500\n"
-"PO-Revision-Date: 2017-08-25 10:54-0500\n"
+"POT-Creation-Date: 2017-08-28 08:49-0500\n"
+"PO-Revision-Date: 2017-08-28 08:51-0500\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -82,12 +82,14 @@ msgstr "Leer"
 msgid "Weekly articles and inspirations."
 msgstr "Artículos e inspiraciones semanales."
 
-#: footer.php:29
-msgid "Copyright &copy; Cristobal Jodorowsky"
-msgstr "Copyright &copy; Cristobal Jodorowsky"
+#. translators: %s: CMS name, i.e. WordPress.
+#: footer.php:31
+#, php-format
+msgid "Copyright &copy; %s"
+msgstr "Copyright &copy; %s"
 
 #. translators: 1: Theme name, 2: Theme author.
-#: footer.php:34
+#: footer.php:36
 #, php-format
 msgid "Theme: %1$s by %2$s."
 msgstr "Tema: %1$s por %2$s."
@@ -165,33 +167,35 @@ msgstr "Deja un comentario<span class=\"screen-reader-text\"> en %s</span>"
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr "Editar <span class=\"screen-reader-text\">%s</span>"
 
-#: mainbanner.php:11
+#: mainbanner.php:11 secondarybanner.php:11
 msgid "Live the experience!"
 msgstr "Vive la experiencia !"
 
-#: mainbanner.php:21
+#: mainbanner.php:21 secondarybanner.php:21
 msgid "We give you"
 msgstr "Te obsequiamos"
 
-#: mainbanner.php:25
+#: mainbanner.php:25 secondarybanner.php:25
 msgid "Free download"
 msgstr "Descarga gratis"
 
-#: mainbanner.php:34
+#: mainbanner.php:34 secondarybanner.php:34
 msgid "Cristobal"
 msgstr "Cristóbal"
 
-#: mainbanner.php:37
+#: mainbanner.php:37 secondarybanner.php:37
 msgid "on Mind Hackers"
 msgstr "en Mind Hackers"
 
 #: page-accueil.php:14 page-accueil.php:26 page-inicio.php:14
 #: page-inicio.php:26 page-iniziazione.php:14 page-iniziazione.php:26
+#: page-metamundo.php:13 page-metamundo.php:22
 msgid "Welcome!"
 msgstr "Bienvenido!"
 
 #: page-accueil.php:16 page-accueil.php:28 page-inicio.php:16
 #: page-inicio.php:28 page-iniziazione.php:16 page-iniziazione.php:28
+#: page-metamundo.php:24
 msgid "\"Here you can put a phrase from Cristobal that welcomes people\""
 msgstr ""
 "\"Aquí se puede poner una frase de Cristobal que da la bienvenida a la gente"
@@ -205,6 +209,23 @@ msgstr "La historia "
 #: page-biografia.php:20
 msgid "<span class=\"biocolor\" > of Cristobal</span>"
 msgstr "<span class=\"biocolor\" > de Cristóbal</span>"
+
+#: page-metamundo.php:15
+msgid ""
+"To our school of personal development and expansion of being. <br> A space "
+"for everyone"
+msgstr ""
+"a nuestra escuela de desarrollo personal y expansión del ser. <br>Un espacio "
+"para tod@s"
+
+#. translators: 1: Theme name, 2: Theme author.
+#: page-saber-mas.php:19
+msgid "My life on "
+msgstr "Mi vida en "
+
+#: page-saber-mas.php:20
+msgid "<span class=\"morecolor\" > the Psicoteatro</span>"
+msgstr "<span class=\"morecolor\" > el Psicoteatro</span>"
 
 #. translators: %s: search query.
 #: search.php:18

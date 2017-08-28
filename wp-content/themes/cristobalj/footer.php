@@ -21,7 +21,7 @@
 				<div class="text"><?php printf(__('The most watched videos of the month.','cristobalj')) ?></div>
 			</div>
 			<div class="circlecontent">
-				<a href="" title=""><div class="circle"><?php printf(__('Read','cristobalj')) ?></div></a>
+				<a href="<?php echo get_permalink( get_option( 'page_for_posts' ) ); ?>" title=""><div class="circle"><?php printf(__('Read','cristobalj')) ?></div></a>
 				<div class="text"><?php printf(__('Weekly articles and inspirations.','cristobalj')) ?></div>
 			</div>
 		</div>

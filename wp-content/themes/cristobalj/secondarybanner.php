@@ -1,9 +1,9 @@
 <?php
 /*
-Template Name: mainbanner
+Template Name: secondarybanner
 */
 ?>
-<div id="mainbannercontainer">
+<div id="secondarybannercontainer">
   <div class="mainbannercontent">
     <a href="" title="">
       <div class="metmundo">

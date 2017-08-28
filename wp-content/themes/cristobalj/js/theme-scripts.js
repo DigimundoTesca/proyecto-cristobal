@@ -101,6 +101,9 @@ jQuery(document).ready(function(){
   }
 
 (function($) {
+  // Moving image of know more banner
+  $('#knowmore').addClass('animated zoomIn');
+  // Slider on biography page
   $(".rslides").responsiveSlides({
     auto: true,
     speed: 500,

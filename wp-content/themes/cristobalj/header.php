@@ -26,6 +26,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="icon/apple-touch-icon-152x152.png" />
   <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon-180x180.png" />
   <!-- Settings -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <meta name="description" content="<?php bloginfo(description); ?>" />
   <meta name="keywords" content="Cristobal Jodorowsky, metamundo, psicochamanismo, metagenealogia,agenda" />
   <meta name="author" content="Digimundo Technologies" />

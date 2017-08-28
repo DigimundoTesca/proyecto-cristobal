@@ -1002,6 +1002,23 @@ body {
 .main-navigation {
 	display: none;
 }
+/*Styles for Metamundo-banner*/
+#metabanner1 {
+	background-color: #FFF;
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-bottom: 3px solid #7D7D7D;
+	height: 300px;
+}
+p.metaquote {
+	font-weight: 200;
+	font-size: 22px !important;
+	text-align: justify !important;
+}
+img#metabannerbig {
+	width: 40%;
+}
 /*Styles for Main-banner*/
 #banner,
 #banner1 {
@@ -1132,6 +1149,7 @@ label.es_shortcode_form_email span {
 #iframe_container {
 	width: 100%;
 	height: 300px;
+	border: 3px solid #d39b01;
 }
 .button.webgl-viewer-navbar-button.webgl-viewer-navbar-button-prev {
 	width: auto;
@@ -1246,6 +1264,54 @@ label.es_shortcode_form_email span {
 	text-align: center;
 	color: #FFFFFF;
 	margin: 0;
+}
+#kmorebannercontainer {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+#knowmore {
+	width: 100%;
+	height: auto;
+	max-width: 500px;
+	margin: auto;
+	margin-top: 20px;
+}
+#secondarybannercontainer {
+	display: inline-flex;
+	margin: 0;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+}
+.biotitle, .moretitle {
+	font-weight: 200 !important;
+}
+.biocolor {
+	color: #d39b01;
+	font-weight: bold;
+}
+/*Styles for know more page*/
+.moretitle {
+	margin-left: 3% !important;
+}
+.moretitle .morecolor {
+	color: #37b4ee;
+}
+.morecolor {
+	font-weight: bold;
+}
+.morevideo {
+	width: 100%;
+	height: 300px;
+	border-top: 5px solid #37b4ee;
+}
+#mainContainer.more p {
+	margin: 3%;
+	word-spacing: 10px;
+	line-height: 30px;
 }
 
 
@@ -1388,6 +1454,7 @@ label.es_shortcode_form_email span {
 		color: #000000;
 		font-weight: bold;
 		cursor: pointer;
+		padding: 5px;
 	}
 	.container,
 	.brand-logo {
@@ -1396,7 +1463,7 @@ label.es_shortcode_form_email span {
 	.menu li a {
 		text-decoration: none;
 		color: #FFF;
-		padding: 5px 10px;
+		padding: 0;
 	}
 	/*Styles for Main-banner*/
 	.bannermobile {
@@ -1416,6 +1483,31 @@ label.es_shortcode_form_email span {
 	}
 	.mobilecontainer {
 		display: none;
+	}
+	#metabanner {
+		display: none;
+	}
+	/*Styles for Metamundo banner big*/
+	.metabannerbig {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+	.metacontainer {
+		position: relative;
+		margin: 0;
+		width: 50%;
+		height: auto !important;
+	}
+	.metabannertext {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.metabannertext h2 {
+		margin-bottom: 0;
 	}
 	/*Banner text´s styles*/
 	h2.bannertitle {
@@ -1535,12 +1627,21 @@ label.es_shortcode_form_email span {
 		color: #FFFFFF;
 		margin: 0;
 	}
+	.morevideo {
+		height: 500px;
+		border-top: 7px solid #37b4ee;
+	}
 }
 
 @media screen and (min-width: 1024px) {
 	/*Bio page slider styles*/
 	.rslides {
 		max-height: 500px;
+	}
+	.menu li a {
+		text-decoration: none;
+		color: #FFF;
+		padding: 5px 10px;
 	}
 }
 
@@ -1566,8 +1667,13 @@ label.es_shortcode_form_email span {
 	}
 	/*Styles for main menu navigation*/
 	.main-navigation a {
-		font-size: 25pt;
+		font-size: 23pt;
 		margin: 0 13px;
+	}
+	.menu li a {
+		text-decoration: none;
+		color: #FFF;
+		padding: 0;
 	}
 	/*Styles for banner*/
 	.bannerbig {
@@ -1620,6 +1726,19 @@ label.es_shortcode_form_email span {
 	#mainpage {
 		flex-direction: row;
 	}
+	#knowmore {
+		max-width: 800px;
+	}
+	.morevideo {
+		width: 80%;
+		height: 600px;
+		margin: 0 10%;
+		margin-bottom: 50px;
+		border-top: 10px solid #37b4ee;
+	}
+	#metabanner1 {
+		height: 400px;
+	}
 }
 
 @media screen and (min-width: 1300px) {
@@ -1630,6 +1749,15 @@ label.es_shortcode_form_email span {
 	}
 	.bannercontainer {
 		width: 35%;
+	}
+	.main-navigation a {
+		font-size: 25pt;
+		margin: 0 13px;
+	}
+	.menu li a {
+		text-decoration: none;
+		color: #FFF;
+		padding: 5px;
 	}
 	#datesContainer {
 		width: 60%;
