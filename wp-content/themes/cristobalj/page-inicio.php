@@ -39,7 +39,8 @@ get_header(); ?>
       <div id="datesContainer">
         <h3>
           <?php
-          printf( __( 'Agenda 2017', 'cristobalj' ));
+          printf( __( 'Agenda 20', 'cristobalj' ));
+          echo the_time('y');
           ?>
         </h3>
         <h4>
