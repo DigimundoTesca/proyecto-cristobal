@@ -1175,7 +1175,22 @@ label.es_shortcode_form_email span {
 	min-width: 300px;
 	width: 100%;
 	margin: 0 auto;
-	background-color: red;
+	background-color: #eeebe5;
+	font-family: 'Gotham Rounded';
+}
+#datesContainer h3 {
+	font-size: 30px;
+	font-weight: bold;
+	color: #FFF;
+	padding-left: 10px;
+	margin: 0;
+	background-color: #d39b00;
+}
+#datesContainer h4 {
+	font-size: 20px;
+	font-weight: normal;
+	padding-left: 10px;
+	margin: 0;
 }
 .mainbannercontent {
 	width: 230px;
@@ -1313,6 +1328,27 @@ label.es_shortcode_form_email span {
 	word-spacing: 10px;
 	line-height: 30px;
 }
+/*Styles for events on main page*/
+.css-events-list {
+	margin: 0 20px;
+}
+.css-events-list h2 {
+	background-color: #175d39;
+	color: #FFF;
+	padding: 0 20px;
+	width: fit-content;
+	border-radius: 50px;
+}
+.events-table tbody tr {
+	border-bottom: 2px solid #000;
+}
+.events-table tbody tr:last-child {
+	border-bottom: none;
+}
+.events-table tbody tr td {
+	padding: 20px 0 !important;
+}
+
 
 
 
@@ -1738,6 +1774,11 @@ label.es_shortcode_form_email span {
 	}
 	#metabanner1 {
 		height: 400px;
+	}
+	/*Single event image Styles*/
+	.singeventimg {
+		float: right;
+		margin-right: 50px !important;
 	}
 }
 

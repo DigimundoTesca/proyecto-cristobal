@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CristobalJ\n"
-"POT-Creation-Date: 2017-08-28 08:49-0500\n"
-"PO-Revision-Date: 2017-08-28 08:51-0500\n"
+"POT-Creation-Date: 2017-08-29 15:26-0500\n"
+"PO-Revision-Date: 2017-08-29 15:27-0500\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -110,11 +110,11 @@ msgstr "Agrega widgets aquí."
 msgid "LanBar"
 msgstr ""
 
-#: header.php:38
+#: header.php:39
 msgid "Skip to content"
 msgstr "Saltar al contenido"
 
-#: header.php:92
+#: header.php:93
 msgid "Primary Menu"
 msgstr "Menú Principal"
 
@@ -189,28 +189,35 @@ msgstr "en Mind Hackers"
 
 #: page-accueil.php:14 page-accueil.php:26 page-inicio.php:14
 #: page-inicio.php:26 page-iniziazione.php:14 page-iniziazione.php:26
-#: page-metamundo.php:13 page-metamundo.php:22
+#: page-metamundo.php:13 page-metamundo.php:23
 msgid "Welcome!"
 msgstr "Bienvenido!"
 
 #: page-accueil.php:16 page-accueil.php:28 page-inicio.php:16
 #: page-inicio.php:28 page-iniziazione.php:16 page-iniziazione.php:28
-#: page-metamundo.php:24
 msgid "\"Here you can put a phrase from Cristobal that welcomes people\""
 msgstr ""
 "\"Aquí se puede poner una frase de Cristobal que da la bienvenida a la gente"
 "\""
 
 #. translators: 1: Theme name, 2: Theme author.
-#: page-biografia.php:19
+#: page-biografia.php:18 page-biographie.php:18
 msgid "The history "
 msgstr "La historia "
 
-#: page-biografia.php:20
+#: page-biografia.php:19 page-biographie.php:19
 msgid "<span class=\"biocolor\" > of Cristobal</span>"
 msgstr "<span class=\"biocolor\" > de Cristóbal</span>"
 
-#: page-metamundo.php:15
+#: page-inicio.php:42
+msgid "Agenda 2017"
+msgstr "Agenda 2017"
+
+#: page-inicio.php:47
+msgid "Know my activities this year"
+msgstr "Conoce mis actividades de este año."
+
+#: page-metamundo.php:15 page-metamundo.php:25
 msgid ""
 "To our school of personal development and expansion of being. <br> A space "
 "for everyone"
@@ -219,11 +226,13 @@ msgstr ""
 "para tod@s"
 
 #. translators: 1: Theme name, 2: Theme author.
-#: page-saber-mas.php:19
+#: page-saber-mas.php:19 page-savoir-plus.php:19
+#: page-ulteriori-informazioni.php:19
 msgid "My life on "
 msgstr "Mi vida en "
 
-#: page-saber-mas.php:20
+#: page-saber-mas.php:20 page-savoir-plus.php:20
+#: page-ulteriori-informazioni.php:20
 msgid "<span class=\"morecolor\" > the Psicoteatro</span>"
 msgstr "<span class=\"morecolor\" > el Psicoteatro</span>"
 

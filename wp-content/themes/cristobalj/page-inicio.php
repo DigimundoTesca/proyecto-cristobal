@@ -34,13 +34,24 @@ get_header(); ?>
       </div>
     </div>
 
-
     <div class="mainpage" id="mainpage">
       <?php get_template_part( 'mainbanner' );  ?>
       <div id="datesContainer">
-      hola
+        <h3>
+          <?php
+          printf( __( 'Agenda 2017', 'cristobalj' ));
+          ?>
+        </h3>
+        <h4>
+          <?php
+          printf( __( 'Know my activities this year', 'cristobalj' ));
+          ?>
+        </h4>
+        <?php while (have_posts()): the_post(); ?>
+          <?php the_content(); ?>
+        <?php endwhile ?>
       </div>
-    </div>
+    </div> 
 
 
   </main><!-- #main -->
