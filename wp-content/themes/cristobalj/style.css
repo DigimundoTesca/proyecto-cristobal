@@ -683,6 +683,9 @@ object {
 body {
 	margin: 5%;
 }
+span {
+	font-weight: bold;
+}
 /*Mobile styles - Celular*/
 .site-branding {
 	width: 100%;
@@ -1339,14 +1342,29 @@ label.es_shortcode_form_email span {
 	width: fit-content;
 	border-radius: 50px;
 }
-.events-table tbody tr {
-	border-bottom: 2px solid #000;
+.events-container {
+	padding: 10px 0;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	border-bottom: 1px solid #000;
 }
-.events-table tbody tr:last-child {
+.events-container:last-child {
 	border-bottom: none;
 }
-.events-table tbody tr td {
-	padding: 20px 0 !important;
+.events-container > * {
+	display: inline-block;
+}
+.events-container .event-button {
+	border: 1px	solid #000;
+	width: 200px;
+	text-align: center;
+}
+.events-container .date-addres {
+	min-width: 280px;
+	font-size: 18px;
 }
 
 
@@ -1666,6 +1684,9 @@ label.es_shortcode_form_email span {
 	.morevideo {
 		height: 500px;
 		border-top: 7px solid #37b4ee;
+	}
+	.events-container .event-button {
+		float: right;
 	}
 }
 
