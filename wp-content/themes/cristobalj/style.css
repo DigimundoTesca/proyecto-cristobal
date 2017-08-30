@@ -1022,6 +1022,9 @@ p.metaquote {
 img#metabannerbig {
 	width: 40%;
 }
+#metabanner1 {
+	display: none;
+}
 /*Styles for Main-banner*/
 #banner,
 #banner1 {
@@ -1351,9 +1354,6 @@ label.es_shortcode_form_email span {
 	align-items: center;
 	border-bottom: 1px solid #000;
 }
-.events-container:last-child {
-	border-bottom: none;
-}
 .events-container > * {
 	display: inline-block;
 }
@@ -1540,6 +1540,9 @@ label.es_shortcode_form_email span {
 	}
 	#metabanner {
 		display: none;
+	}
+	#metabanner1 {
+		display: flex;
 	}
 	/*Styles for Metamundo banner big*/
 	.metabannerbig {
