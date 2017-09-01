@@ -1366,6 +1366,20 @@ label.es_shortcode_form_email span {
 	min-width: 280px;
 	font-size: 18px;
 }
+.entry-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-top: 30px;
+	background-color: #eeebe5;
+}
+.entry-content p {
+	font-size: 20px;
+}
+.entry-content p strong {
+	font-size: 25px;
+}
 
 
 
@@ -1798,11 +1812,6 @@ label.es_shortcode_form_email span {
 	}
 	#metabanner1 {
 		height: 400px;
-	}
-	/*Single event image Styles*/
-	.singeventimg {
-		float: right;
-		margin-right: 50px !important;
 	}
 }
 
