@@ -7,7 +7,7 @@ get_header(); ?>
 <div id="primary" class="content-area">
   <main id="main" class="site-main">
     <div id="kmorebannercontainer">
-      <img id="knowmore" src="<?php echo get_template_directory_uri(); ?> /images/kmore.jpg" alt="banner know more">
+      <img id="knowmore" src="<?php echo get_template_directory_uri(); ?>/images/kmore.jpg" alt="banner know more">
     </div>
 
 

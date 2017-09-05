@@ -86,7 +86,7 @@
 					</nav>
 				</div>
 
-				<img class="brand-logo" src="<?php echo get_template_directory_uri() ?>./images/comm.png" alt="Community logo">
+				<img class="brand-logo" src="<?php echo get_template_directory_uri() ?>/images/comm.png" alt="Community logo">
 			</div><!-- .site-branding -->
 
 			<nav id="site-navigation" class="main-navigation">
