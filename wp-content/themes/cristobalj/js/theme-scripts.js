@@ -125,15 +125,31 @@ jQuery(document).ready(function(){
   }
 
   (function($) {
-  // Moving image of know more banner
-  $('#knowmore').addClass('animated zoomIn');
-  // Slider on biography page
-  $(".rslides").responsiveSlides({
-    auto: true,
-    speed: 500,
-    timeout: 1000, 
-  });
-})(jQuery);
+    // Moving image of know more banner
+    $('#knowmore').addClass('animated zoomIn');
+    // Slider on biography page
+    $(".rslides").responsiveSlides({
+      auto: true,
+      speed: 500,
+      timeout: 2500, 
+    });
+    // Sliders on knowmore page
+    $("#chamanslides").responsiveSlides({
+      auto: true,
+      speed: 500,
+      timeout: 2500, 
+    });
+    $("#magicslides").responsiveSlides({
+      auto: true,
+      speed: 500,
+      timeout: 2500, 
+    });
+    $("#theaterslides").responsiveSlides({
+      auto: true,
+      speed: 500,
+      timeout: 2500, 
+    });
+  })(jQuery);
 
 
 });

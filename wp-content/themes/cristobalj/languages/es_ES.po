@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CristobalJ\n"
-"POT-Creation-Date: 2017-08-29 15:26-0500\n"
-"PO-Revision-Date: 2017-08-29 15:27-0500\n"
+"POT-Creation-Date: 2017-09-06 12:16-0500\n"
+"PO-Revision-Date: 2017-09-06 12:19-0500\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -200,22 +200,22 @@ msgstr ""
 "\"Aquí se puede poner una frase de Cristobal que da la bienvenida a la gente"
 "\""
 
+#: page-accueil.php:42 page-inicio.php:42 page-iniziazione.php:42
+msgid "Agenda 20"
+msgstr "Agenda 20"
+
+#: page-accueil.php:48 page-inicio.php:48 page-iniziazione.php:48
+msgid "Know my activities this year"
+msgstr "Conoce mis actividades de este año."
+
 #. translators: 1: Theme name, 2: Theme author.
-#: page-biografia.php:18 page-biographie.php:18
+#: page-biografia.php:44 page-biographie.php:44
 msgid "The history "
 msgstr "La historia "
 
-#: page-biografia.php:19 page-biographie.php:19
+#: page-biografia.php:45 page-biographie.php:45
 msgid "<span class=\"biocolor\" > of Cristobal</span>"
 msgstr "<span class=\"biocolor\" > de Cristóbal</span>"
-
-#: page-inicio.php:42
-msgid "Agenda 2017"
-msgstr "Agenda 2017"
-
-#: page-inicio.php:47
-msgid "Know my activities this year"
-msgstr "Conoce mis actividades de este año."
 
 #: page-metamundo.php:15 page-metamundo.php:25
 msgid ""
@@ -226,15 +226,109 @@ msgstr ""
 "para tod@s"
 
 #. translators: 1: Theme name, 2: Theme author.
-#: page-saber-mas.php:19 page-savoir-plus.php:19
-#: page-ulteriori-informazioni.php:19
+#: page-saber-mas.php:17 page-saber-mas.php:28 page-saber-mas.php:48
+#: page-savoir-plus.php:19 page-ulteriori-informazioni.php:19
 msgid "My life on "
 msgstr "Mi vida en "
 
-#: page-saber-mas.php:20 page-savoir-plus.php:20
+#: page-saber-mas.php:18 page-savoir-plus.php:20
 #: page-ulteriori-informazioni.php:20
 msgid "<span class=\"morecolor\" > the Psicoteatro</span>"
 msgstr "<span class=\"morecolor\" > el Psicoteatro</span>"
+
+#: page-saber-mas.php:21
+msgid ""
+"<p>The PsicoTeatro is an open and free space, but also very respectful and "
+"safe. A place and a time where you learn things that are very important for "
+"yourself and for others, as well as the ideal place to play and express "
+"yourself without any specific objective. It is an experience: a living "
+"centered on the here and now. But it is also pure perception and feeling. "
+"Occasion to lie down and just focus on how you feel and chance to create "
+"without brakes, build an I that you like more or draw new realities. A "
+"session where it is forbidden to judge and where no one is wrong. It comes "
+"to try, to experiment, to discover, to enjoy and with it, working with "
+"oneself, to grow !!<br> It is an opportunity to forget the problems, because "
+"they are also solved when you invest and work in your well-being, in the "
+"development of the skills, in learning of yourself, in the relationship with "
+"your emotions, in integrating all the parts of your person, in short, when "
+"you allow yourself WALK TO YOUR HAPPINESS.</p>"
+msgstr ""
+"<p>El Psicoteatro es un espacio abierto y libre, pero también muy respetuoso "
+"y seguro. Un lugar y un tiempo donde aprender cosas muy importantes para ti "
+"mismo y para los demás, así como el sitio ideal para jugar y expresarse sin "
+"ningún objetivo concreto. Es una experiencia: un vivir centrados en el aquí "
+"y el ahora. Pero también es percepción y sensación puras. Ocasión para "
+"tumbarse y sólo centrarte en cómo te sientes y ocasión para crear sin "
+"frenos, construir un “yo” que te guste más o dibujar nuevas realidades. Una "
+"sesión donde está prohibido juzgar y donde nadie se equivoca. Se viene a "
+"probar, experimentar, descubrir, disfrutar y con ello, trabajando con uno "
+"mismo, ¡¡crecer!! <br>Es una oportunidad para olvidarse de los problemas, "
+"porque también se solucionan cuando inviertes y trabajas en tu bienestar, en "
+"el desarrollo de las habilidades, en aprender de ti mismo, en la relación "
+"con tus emociones, en integrar todas las partes de tu persona, en "
+"definitiva, cuando te permites CAMINAR HACIA TU FELICIDAD.</p>"
+
+#: page-saber-mas.php:29
+msgid "<span class=\"morecolor\" > the Psicochamanismo</span>"
+msgstr "<span class=\"morecolor\" > el Psico-Chamanismo</span>"
+
+#: page-saber-mas.php:32
+msgid ""
+"<p>At an archaic level, the human being responds to an innate instinct of "
+"family conservation. He is scheduled to fight for the survival of his clan. "
+"For the archaic brain an idea, an emotional structure, a prohibition, an "
+"order or a belief, may be the metaphor of an ancestor. That is why it is so "
+"difficult for us to shed all those aspects that prevent us from growing, "
+"since this could represent the murder of a member (or of all) our species. "
+"This is how we keep alive ideas, memories, phantasms, morals, behavioral "
+"structures, and ideologies that come from the genealogical lineage.</p>"
+msgstr ""
+"<p>A un nivel arcaico, el ser humano responde a un innato instinto de "
+"conservación familiar. Está programado para luchar por la supervivencia de "
+"su clan. Para el cerebro arcaico una idea, una estructura emocional, una "
+"prohibición, una orden o una creencia, pueden ser la metáfora de un "
+"ancestro. Por eso nos cuesta tanto despojarnos de todos esos aspectos que "
+"nos impiden crecer, ya que ello podría representar el asesinato de un "
+"miembro (o de toda)nuestra especie. Es así como mantenemos en vida ideas, "
+"recuerdos, fantasmas, morales, estructuras de comportamiento, e ideologías "
+"que proceden del linaje genealógico.</p>"
+
+#: page-saber-mas.php:49
+msgid "<span class=\"morecolor\" > the Psicomagia</span>"
+msgstr "<span class=\"morecolor\" > la Psicomagia</span>"
+
+#: page-saber-mas.php:52
+msgid ""
+"<p>Psychomagia is a form of ultra advanced therapy. It is a response to "
+"psychoanalysis. Psychomagia proposes to cure something by acts that speak "
+"directly to the unconscious. I use all the shamanic tradition of witchcraft "
+"and Mexican healers, but without superstition. A psychomagic act is like "
+"giving a loving kick in the ass to reality. This impulse you give her, "
+"surprisingly, makes her leave the inertia and begin to dance.</p>"
+msgstr ""
+"<p>La psicomagia es una forma de terapia ultra avanzada. Es una respuesta al "
+"psicoanálisis. La psicomagia propone curar algo mediante actos que hablan "
+"directamente al inconsciente. Uso toda la tradición chamánica de brujería y "
+"curanderas mexicanas, pero sin superstición. Un acto psicomágico es como "
+"darle una amorosa patada en el culo a la realidad. Este impulso que le das, "
+"sorpresivo, la hace salir de la inercia y ponerse a danzar..</p>"
+
+#: page-saber-mas.php:85
+msgid "<span class=\"morecolor\" >Workshops</span>"
+msgstr "<span class=\"morecolor\" >Talleres</span>"
+
+#: page-saber-mas.php:88
+msgid ""
+"<p>A Living Experience guided by Cristobal Jodorowsky, where he participates "
+"will learn more about his personal neurosis, family unconscious contracts, "
+"ego projections and geneological knots, as well as the consequences that all "
+"these factors cause in his current affective life.</p>"
+msgstr ""
+"<p>Una experiencia Vivencial guiada por Cristobal Jodorowsky, donde e "
+"participante aprenderá más sobre su neurosis personal, contratos "
+"inconscientes familiares, proyecciones del ego y nudos genealoógicos, así "
+"como las consecuencias que todos estos factores provocan en su vida afectiva "
+"actual.</p>"
 
 #. translators: %s: search query.
 #: search.php:18
@@ -295,6 +389,54 @@ msgstr "Descripción"
 #. Author of the plugin/theme
 msgid "Digimundo"
 msgstr "Digimundo"
+
+#~ msgid ""
+#~ "<p>He is a psychoanalyst, a psychologist, a poet, a painter, a writer, a "
+#~ "filmmaker, a theatrical creator and, above all, a human being with a vast "
+#~ "therapeutic, artistic and spiritual path behind him. He has studied "
+#~ "psychotherapy and energy therapies in Paris. From childhood he received "
+#~ "lessons from healers, spiritualists and shamans like the famous Mexican "
+#~ "healer Pachita, in a vital journey where he accompanied the most "
+#~ "unprecedented beings. He has trained with healers in Mexico, Chile, Peru, "
+#~ "Colombia, Venezuela, Indonesia, the Philippines, and India, expanding the "
+#~ "therapeutic techniques of psycho-mechanism and creating the "
+#~ "psychorritual, where ancestral knowledge is united with today's thinking. "
+#~ "For more than thirty years he worked as an assistant to his father, "
+#~ "Alejandro Jodorowsky, with whom he has done an intense work of "
+#~ "genealogical healing. With him he learned the reading of the Tarot and "
+#~ "the techniques of the initiatory massage, it was also the one who "
+#~ "transmitted to him the psychomagia and the psicochamanismo. Cristóbal was "
+#~ "trained in the school of Mimodrama of Marcel Marceau, in the technique of "
+#~ "Stanislavski, and in workshops of the Theater Laboratory of Grotowski. "
+#~ "His histrionic formation continued in the Acteur Studio of John Strasberg "
+#~ "in Paris. He was the main actor in the Theater of the Silence, in "
+#~ "Aurillac, France, during five years. Also it developed like dancer of "
+#~ "contemporary dance in the French Company L'Estampe. He played 'Fénix', "
+#~ "the protagonist in the cult film 'Santa Sangre' (1985), by Alejandro "
+#~ "Jodorowsky.</p>"
+#~ msgstr ""
+#~ "<p>Es un psicoanalista, un psicólogo, un poeta, un pintor, un escritor, "
+#~ "un cineasta, un creador teatral y, sobre todo, un ser humano con una gran "
+#~ "trayectoria terapéutica, artística y espiritual detrás de él. Ha "
+#~ "estudiado psicoterapia y terapias energéticas en París. Desde su infancia "
+#~ "recibió lecciones de curanderos, espiritualistas y chamanes como el "
+#~ "famoso cura mexicano Pachita, en un viaje vital donde acompañó a los "
+#~ "seres más sin precedentes. Ha entrenado con curanderos en México, Chile, "
+#~ "Perú, Colombia, Venezuela, Indonesia, Filipinas e India, ampliando las "
+#~ "técnicas terapéuticas del psico-mecanismo y creando el psicorri- tual, "
+#~ "donde el conocimiento ancestral se une al pensamiento de hoy. Durante más "
+#~ "de treinta años trabajó como asistente de su padre, Alejandro Jodorowsky, "
+#~ "con quien ha realizado un intenso trabajo de sanación genealógica. Con él "
+#~ "aprendió la lectura del Tarot y las técnicas del masaje iniciático, fue "
+#~ "también quien le transmitió la psicomagia y el psicochamanismo. Cristóbal "
+#~ "fue entrenado en la escuela de Mimodrama de Marcel Marceau, en la técnica "
+#~ "de Stanislavski, y en talleres del Laboratorio de Teatro de Grotowski. Su "
+#~ "formación histriónica continuó en el Acteur Studio de John Strasberg en "
+#~ "París. Fue el actor principal en el Teatro del Silencio, en Aurillac, "
+#~ "Francia, durante cinco años. También se desarrolló como bailarina de "
+#~ "danza contemporánea en la compañía francesa L'Estampe. Jugó 'Fénix', el "
+#~ "protagonista de la película de culto 'Santa Sangre' (1985), de Alejandro "
+#~ "Jodorowsky.</p>"
 
 #~ msgid "Proudly powered by %s"
 #~ msgstr "Poderoseado por... %s"

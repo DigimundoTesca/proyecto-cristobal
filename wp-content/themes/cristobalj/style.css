@@ -1316,7 +1316,7 @@ label.es_shortcode_form_email span {
 }
 /*Styles for know more page*/
 .moretitle {
-	margin-left: 3% !important;
+	margin-top: 30px;
 }
 .moretitle .morecolor {
 	color: #37b4ee;
@@ -1330,7 +1330,7 @@ label.es_shortcode_form_email span {
 	border-top: 5px solid #37b4ee;
 }
 #mainContainer.more p {
-	margin: 3%;
+	margin: 3% 0;
 	word-spacing: 10px;
 	line-height: 30px;
 }
@@ -1711,6 +1711,7 @@ label.es_shortcode_form_email span {
 	/*Bio page slider styles*/
 	.rslides {
 		max-height: 500px;
+		margin-bottom: 50px;
 	}
 	.menu li a {
 		text-decoration: none;
@@ -1802,6 +1803,9 @@ label.es_shortcode_form_email span {
 	}
 	#knowmore {
 		max-width: 800px;
+	}
+	.more {
+		margin: 0 3%;
 	}
 	.morevideo {
 		width: 80%;
