@@ -125,7 +125,7 @@ jQuery(document).ready(function(){
   }
 
   (function($) {
-    // Moving image of know more banner
+    // Moving images for banners
     $('#knowmore').addClass('animated zoomIn');
     // Slider on biography page
     $(".rslides").responsiveSlides({
@@ -150,6 +150,21 @@ jQuery(document).ready(function(){
       timeout: 2500, 
     });
   })(jQuery);
+
+  // Change books header color
+  var booktitle = document.getElementsByClassName('booktitle');
+  let the_color=['#175d39','#d39b00'];
+  let c= 0;
+  let length1 = booktitle.length;
+    for(c; c<length1; c++)
+    {
+      if (c%2 === 0) {
+        booktitle[c].style.backgroundColor = the_color[2];
+      }
+      else {
+        booktitle[c].style.backgroundColor = the_color[1];
+      }
+    }
 
 
 });

@@ -445,8 +445,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 			</p>
 		</div>
 	</div>
-	
-
 </div>
-<div style="height:10px;"></div>
-<p class="description"><?php echo ES_OFFICIAL; ?></p>

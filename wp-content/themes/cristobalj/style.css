@@ -1372,7 +1372,6 @@ label.es_shortcode_form_email span {
 	align-items: center;
 	justify-content: center;
 	padding-top: 30px;
-	background-color: #eeebe5;
 }
 .entry-content p {
 	font-size: 20px;
@@ -1380,6 +1379,43 @@ label.es_shortcode_form_email span {
 .entry-content p strong {
 	font-size: 25px;
 }
+/*Styles for books CPT*/
+h3.booktitle {
+	background-color: #175d39;
+	color: #FFFFFF;
+	text-align: center;
+}
+.bookimg {
+	width: 280px;
+	height: auto;
+	overflow: hidden;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+.bookimg img {
+	height: 100%;
+}
+.bookdescription {
+	display: flex;
+	flex-direction: column;
+}
+.post_button {
+	border: 1px solid #175d39;
+	width: fit-content;
+	padding: 3px 10px;
+	margin-top: 20px;
+}
+.post_button:visited,
+.post_button:hover,
+.post_button:focus,
+.post_button:active {
+	color: #175d39;
+}
+
+
 
 
 
@@ -1469,7 +1505,7 @@ label.es_shortcode_form_email span {
 		color: #154FCF !important;
 	}
 	#langbar li:first-child a::after {
-		content: '  |  '
+		content: '  /  '
 	}
 	/*show default nav bar and hide hamburguer menu*/
 	/*Styles for main menu navigation*/
@@ -1705,6 +1741,37 @@ label.es_shortcode_form_email span {
 	.events-container .event-button {
 		float: right;
 	}
+	/*Styles for books CPT*/
+	h3.booktitle {
+		background-color: #175d39;
+		color: #FFFFFF;
+		text-align: right;
+		padding-right: 30px !important;
+	}
+	.bookcontainer {
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-around;
+		margin-top: 15px;
+	}
+	.bookimg {
+		overflow: hidden;
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.bookimg img {
+		height: 100%;
+	}
+	.bookdescription {
+		width: 65%;
+		min-width: 480px !important;
+		max-width: 600px;
+	}
 }
 
 @media screen and (min-width: 1024px) {
@@ -1816,6 +1883,11 @@ label.es_shortcode_form_email span {
 	}
 	#metabanner1 {
 		height: 400px;
+	}
+	/*Books CPT styles*/
+	.mainProjectContainer {
+		width: 80%;
+		margin: 0 auto;
 	}
 }
 

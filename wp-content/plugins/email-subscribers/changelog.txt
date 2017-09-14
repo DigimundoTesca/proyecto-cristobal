@@ -4,6 +4,28 @@ Author		: Icegram
 Author URI	: https://www.icegram.com/
 License		: GPLv3
 
+************************************************************Version 3.3.7************************************************************
+
+* Fix: Keywords ###NAME### and ###EMAIL### not showing correct details while sending post notifications emails (in HTML type only)
+
+************************************************************Version 3.3.6************************************************************
+
+* New: Allow emails with special characters to get subscribed
+* New: Show groups in dropdown while creating subscribe form via widget
+* New: Show Preview button above the WordPress editor at the time of editing a composed Newletter / Post Notification
+* Fix: Extra line breaks (`<br>` tags) removed when sending HTML emails
+* Fix: Remove hardcoded ENGINE while creating default tables for new users
+* Fix: Remove hardcoded Collation while creating default tables for new users
+* Update: Only one line break while auto inserting unsubscribe link in the emails
+* Update: Improvements in logic to create default tables on first activation
+* Update: Email preview page after an email is composed or sent
+* Update: Show Preview in new column on Compose screen with a search dashicon
+* Update: Footer text
+* Update: POT file
+* Update: Translation for French (fr_FR) language updated (Thanks to Serge)
+* Update: Translation for German (de_DE) language updated (Thanks to Markus Buschmann)
+* Update: Translation for Norwegian (nb_NO) language added (Thanks to Helge Rosseboe)
+
 ************************************************************Version 3.3.5************************************************************
 
 * New: UI & structure for Help & Info page
@@ -11,7 +33,7 @@ License		: GPLv3
 * Fix: Unable to select Opt In type from Settings
 * Fix: In-built translations were not loading
 * Fix: CSS getting included in all admin pages
-* Fix: Missing </span> tag on Help & Info menu
+* Fix: Missing `</span>` tag on Help & Info menu
 * Fix: Enable to translate 'Add Subscription Form' FAQ on Help & Info page
 * Update: Improvement in logic to get post author name for keyword ###POSTAUTHOR###
 * Update: Improved default content for welcome email

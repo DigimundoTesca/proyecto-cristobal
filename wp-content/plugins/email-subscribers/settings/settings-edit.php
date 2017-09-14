@@ -68,9 +68,6 @@ if ( ! class_exists( 'ES_Settings' ) ) {
 				</p>
 				<?php wp_nonce_field('es_form_edit'); ?>
 			</form>
-			<div style="height:10px;"></div>
-				<p class="description"><?php echo ES_OFFICIAL; ?></p>
-			</div>
 			<?php
 		}
 

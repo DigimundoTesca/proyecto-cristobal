@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CristobalJ\n"
-"POT-Creation-Date: 2017-09-06 12:16-0500\n"
-"PO-Revision-Date: 2017-09-06 12:19-0500\n"
+"POT-Creation-Date: 2017-09-14 10:58-0500\n"
+"PO-Revision-Date: 2017-09-14 11:00-0500\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -110,6 +110,71 @@ msgstr "Agrega widgets aquí."
 msgid "LanBar"
 msgstr ""
 
+#: functions.php:159
+msgctxt "blog"
+msgid "Books"
+msgstr "Libros"
+
+#: functions.php:160
+msgctxt "post type singular name"
+msgid "Book"
+msgstr "Libro"
+
+#: functions.php:161
+msgctxt "admin menu"
+msgid "Books"
+msgstr "Libros"
+
+#: functions.php:162
+msgctxt "add new on admin bar"
+msgid "Books"
+msgstr "Libros"
+
+#: functions.php:163
+msgctxt "book"
+msgid "Add New"
+msgstr "Agregar nuevo"
+
+#: functions.php:164
+msgid "Add New Project"
+msgstr "Agregar nuevo proyecto"
+
+#: functions.php:165
+msgid "New Project"
+msgstr "Nuevo proyecto"
+
+#: functions.php:166
+msgid "Edit Books"
+msgstr "Editar libros"
+
+#: functions.php:167
+msgid "View Books"
+msgstr "Ver libros"
+
+#: functions.php:168
+msgid "All Books"
+msgstr "Todos los libros"
+
+#: functions.php:169
+msgid "Search Books"
+msgstr "Buscar libros"
+
+#: functions.php:170
+msgid "Parent Books:"
+msgstr "Libros relacionados:"
+
+#: functions.php:171
+msgid "No Projects found."
+msgstr "No se encontraron proyectos."
+
+#: functions.php:172
+msgid "No Projects found in Trash."
+msgstr "No se encontraron proyectos en la basura."
+
+#: functions.php:177
+msgid "Description."
+msgstr "Descripción."
+
 #: header.php:39
 msgid "Skip to content"
 msgstr "Saltar al contenido"
@@ -209,11 +274,11 @@ msgid "Know my activities this year"
 msgstr "Conoce mis actividades de este año."
 
 #. translators: 1: Theme name, 2: Theme author.
-#: page-biografia.php:44 page-biographie.php:44
+#: page-biografia.php:28 page-biographie.php:28
 msgid "The history "
 msgstr "La historia "
 
-#: page-biografia.php:45 page-biographie.php:45
+#: page-biografia.php:29 page-biographie.php:29
 msgid "<span class=\"biocolor\" > of Cristobal</span>"
 msgstr "<span class=\"biocolor\" > de Cristóbal</span>"
 
@@ -225,18 +290,20 @@ msgstr ""
 "a nuestra escuela de desarrollo personal y expansión del ser. <br>Un espacio "
 "para tod@s"
 
-#. translators: 1: Theme name, 2: Theme author.
 #: page-saber-mas.php:17 page-saber-mas.php:28 page-saber-mas.php:48
-#: page-savoir-plus.php:19 page-ulteriori-informazioni.php:19
+#: page-savoir-plus.php:17 page-savoir-plus.php:28 page-savoir-plus.php:48
+#: page-ulteriori-informazioni.php:17 page-ulteriori-informazioni.php:28
+#: page-ulteriori-informazioni.php:48
 msgid "My life on "
 msgstr "Mi vida en "
 
-#: page-saber-mas.php:18 page-savoir-plus.php:20
-#: page-ulteriori-informazioni.php:20
+#: page-saber-mas.php:18 page-savoir-plus.php:18
+#: page-ulteriori-informazioni.php:18
 msgid "<span class=\"morecolor\" > the Psicoteatro</span>"
 msgstr "<span class=\"morecolor\" > el Psicoteatro</span>"
 
-#: page-saber-mas.php:21
+#: page-saber-mas.php:21 page-savoir-plus.php:21
+#: page-ulteriori-informazioni.php:21
 msgid ""
 "<p>The PsicoTeatro is an open and free space, but also very respectful and "
 "safe. A place and a time where you learn things that are very important for "
@@ -268,11 +335,13 @@ msgstr ""
 "con tus emociones, en integrar todas las partes de tu persona, en "
 "definitiva, cuando te permites CAMINAR HACIA TU FELICIDAD.</p>"
 
-#: page-saber-mas.php:29
+#: page-saber-mas.php:29 page-savoir-plus.php:29
+#: page-ulteriori-informazioni.php:29
 msgid "<span class=\"morecolor\" > the Psicochamanismo</span>"
 msgstr "<span class=\"morecolor\" > el Psico-Chamanismo</span>"
 
-#: page-saber-mas.php:32
+#: page-saber-mas.php:32 page-savoir-plus.php:32
+#: page-ulteriori-informazioni.php:32
 msgid ""
 "<p>At an archaic level, the human being responds to an innate instinct of "
 "family conservation. He is scheduled to fight for the survival of his clan. "
@@ -293,11 +362,13 @@ msgstr ""
 "recuerdos, fantasmas, morales, estructuras de comportamiento, e ideologías "
 "que proceden del linaje genealógico.</p>"
 
-#: page-saber-mas.php:49
+#: page-saber-mas.php:49 page-savoir-plus.php:49
+#: page-ulteriori-informazioni.php:49
 msgid "<span class=\"morecolor\" > the Psicomagia</span>"
 msgstr "<span class=\"morecolor\" > la Psicomagia</span>"
 
-#: page-saber-mas.php:52
+#: page-saber-mas.php:52 page-savoir-plus.php:52
+#: page-ulteriori-informazioni.php:52
 msgid ""
 "<p>Psychomagia is a form of ultra advanced therapy. It is a response to "
 "psychoanalysis. Psychomagia proposes to cure something by acts that speak "
@@ -313,11 +384,13 @@ msgstr ""
 "darle una amorosa patada en el culo a la realidad. Este impulso que le das, "
 "sorpresivo, la hace salir de la inercia y ponerse a danzar..</p>"
 
-#: page-saber-mas.php:85
+#: page-saber-mas.php:85 page-savoir-plus.php:85
+#: page-ulteriori-informazioni.php:85
 msgid "<span class=\"morecolor\" >Workshops</span>"
 msgstr "<span class=\"morecolor\" >Talleres</span>"
 
-#: page-saber-mas.php:88
+#: page-saber-mas.php:88 page-savoir-plus.php:88
+#: page-ulteriori-informazioni.php:88
 msgid ""
 "<p>A Living Experience guided by Cristobal Jodorowsky, where he participates "
 "will learn more about his personal neurosis, family unconscious contracts, "

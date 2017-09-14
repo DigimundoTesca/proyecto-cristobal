@@ -134,7 +134,7 @@ function cristobalj_scripts() {
 	wp_enqueue_script( 'mainjs', get_template_directory_uri() . '/js/main.js', array(), '', true );
 	wp_enqueue_script( 'classie', get_template_directory_uri() . '/js/classie.js', array(), '', true );
 	wp_enqueue_script( 'slide', get_template_directory_uri() . '/js/responsiveslides.min.js', array(), '', true );
-	wp_enqueue_script( 'theme', get_template_directory_uri() . '/js/theme-scripts.js', array(), '', true );
+	wp_enqueue_script( 'themejs', get_template_directory_uri() . '/js/theme-scripts.js', array(), '', true );
 	
   wp_enqueue_script('jquery');
 	
@@ -151,6 +151,50 @@ function cristobalj_scripts() {
 add_action( 'wp_enqueue_scripts', 'cristobalj_scripts' );
 
 /**
+ * Custom post type for books.
+ */
+ add_action( 'init', 'book_projects' );
+function book_projects() {
+  $labels = array(
+    'name'               => _x( 'Books', 'blog' ),
+    'singular_name'      => _x( 'Book', 'post type singular name', 'blog' ),
+    'menu_name'          => _x( 'Books', 'admin menu', 'blog' ),
+    'name_admin_bar'     => _x( 'Books', 'add new on admin bar', 'blog' ),
+    'add_new'            => _x( 'Add New', 'book', 'blog' ),
+    'add_new_item'       => __( 'Add New Project', 'blog' ),
+    'new_item'           => __( 'New Project', 'blog' ),
+    'edit_item'          => __( 'Edit Books', 'blog' ),
+    'view_item'          => __( 'View Books', 'blog' ),
+    'all_items'          => __( 'All Books', 'blog' ),
+    'search_items'       => __( 'Search Books', 'blog' ),
+    'parent_item_colon'  => __( 'Parent Books:', 'blog' ),
+    'not_found'          => __( 'No Projects found.', 'blog' ),
+    'not_found_in_trash' => __( 'No Projects found in Trash.', 'blog' )
+  );
+
+  $args = array(
+    'labels'             => $labels,
+    'description'        => __( 'Description.', 'blog' ),
+    'public'             => true,
+    'publicly_queryable' => true,
+    'show_ui'            => true,
+    'show_in_menu'       => true,
+    'query_var'          => true,
+    'rewrite'            => array( 'slug' => 'booksblog' ),
+    'capability_type'    => 'post',
+    'has_archive'        => true,
+    'hierarchical'       => false,
+    'menu_position'      => 6,
+    'supports'           => array( 'title', 'editor', 'thumbnail' ),
+    'taxonomies'          => array( 'category' ),
+  );
+
+  register_post_type( 'booksblog', $args );
+}
+
+
+
+ /**
  * Implement the Custom Header feature.
  */
 require get_template_directory() . '/inc/custom-header.php';

@@ -97,11 +97,17 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<input name="es_templ_heading" type="text" id="es_templ_heading" value="<?php echo esc_html(stripslashes($form['es_templ_heading'])); ?>" size="80" maxlength="225" />
 			<p><?php echo __( 'Available Keyword: ###POSTTITLE### (For Post Notification only)', ES_TDOMAIN ); ?></p>
 
-			<label for="tag-link"><?php echo __( 'Enter Content for your Email', ES_TDOMAIN ); ?></label>
-			<?php $settings_body = array( 'textarea_rows' => 25 ); ?>
-			<?php wp_editor(stripslashes($form['es_templ_body']), "es_templ_body", $settings_body);?>
+			<label for="tag-link"><?php echo __( 'Enter Content for your Email', ES_TDOMAIN ); ?>
+				<a style="float:right;" class="button-primary" href="<?php echo ES_ADMINURL; ?>?page=es-compose&amp;ac=preview&amp;did=<?php echo $form['es_templ_id']; ?>" target="_blank">
+					<?php echo __( 'Preview', ES_TDOMAIN ); ?>
+				</a>
+			</label>
+			<div style="margin-top:1em;">
+				<?php $settings_body = array( 'textarea_rows' => 25 ); ?>
+				<?php wp_editor(stripslashes($form['es_templ_body']), "es_templ_body", $settings_body);?>
+			</div>
 			<p>
-				<?php echo sprintf(__( '%s: ###NAME###, ###EMAIL###, ###DATE###, ###POSTTITLE###, ###POSTLINK###, ###POSTIMAGE###, ###POSTDESC###, ###POSTAUTHOR###, ###POSTLINK-WITHTITLE###, ###POSTLINK-ONLY###, ###POSTFULL### (For Post Notification only)', ES_TDOMAIN ), '<a href="https://www.icegram.com/documentation/es-what-are-the-available-keywords-in-the-post-notifications/" target="_blank">' . __( 'Available Keywords', ES_TDOMAIN ) . '</a>' ); ?><br />
+				<?php echo sprintf(__( '%s: ###NAME###, ###EMAIL###, ###DATE###, ###POSTTITLE###, ###POSTLINK###, ###POSTIMAGE###, ###POSTDESC###, ###POSTAUTHOR###, ###POSTLINK-WITHTITLE###, ###POSTLINK-ONLY###, ###POSTFULL### (For Post Notification only)', ES_TDOMAIN ), '<a href="https://www.icegram.com/documentation/es-what-are-the-available-keywords-in-the-post-notifications/?utm_source=es&utm_medium=in_app&utm_campaign=view_docs_help_page" target="_blank">' . __( 'Available Keywords', ES_TDOMAIN ) . '</a>' ); ?><br />
 			</p>
 
 			<div class="template_status" style="display:none;">
@@ -119,5 +125,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<?php wp_nonce_field('es_form_edit'); ?>
 		</form>
 	</div>
-	<p class="description"><?php echo ES_OFFICIAL; ?></p>
 </div>

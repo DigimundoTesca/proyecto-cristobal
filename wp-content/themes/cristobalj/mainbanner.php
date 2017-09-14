@@ -5,7 +5,7 @@ Template Name: mainbanner
 ?>
 <div id="mainbannercontainer">
   <div class="mainbannercontent">
-    <a href="<?php echo esc_url( get_permalink( get_page_by_title( 'Metamundo' ) ) ); ?>" title="">
+    <a href="<?php echo esc_url( get_permalink( get_page_by_title( 'Metamundo' ) ) ); ?>" title="Metamundo">
       <div class="metmundo">
         <h3>
           <?php printf(__('Live the experience!','cristobalj')) ?>

@@ -1,11 +1,11 @@
 === Email Subscribers & Newsletters ===
-Contributors: icegram, storeapps, niravmehta, Mansi Shah, akash123dhawade, ravioza
+Contributors: icegram, storeapps, niravmehta, Mansi Shah, akash123dhawade, ravioza, sandhyam, Tarun.Parswani
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CPTHCDC382KVA
 Author URI: https://www.icegram.com/
 Tags: email marketing, email newsletter form, email signup, email widget, newsletter, newsletter signup, subscribe, subscription form, bulk emails, signup form, list builder, lead generation
 Requires at least: 3.4
 Tested up to: 4.8.1
-Stable tag: 3.3.5
+Stable tag: 3.3.7
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.htmlss
 
@@ -311,6 +311,28 @@ Use our free plugin [Email Subscribers - Group Selector](https://wordpress.org/p
 
 == Changelog ==
 
+= 3.3.7 (08.09.2017) =
+
+* Fix: Keywords ###NAME### and ###EMAIL### not showing correct details while sending post notifications emails (in HTML type only)
+
+= 3.3.6 (07.09.2017) =
+
+* New: Allow emails with special characters to get subscribed
+* New: Show groups in dropdown while creating subscribe form via widget
+* New: Show Preview button above the WordPress editor at the time of editing a composed Newletter / Post Notification
+* Fix: Extra line breaks (`<br>` tags) removed when sending HTML emails
+* Fix: Remove hardcoded ENGINE while creating default tables for new users
+* Fix: Remove hardcoded Collation while creating default tables for new users
+* Update: Only one line break while auto inserting unsubscribe link in the emails
+* Update: Improvements in logic to create default tables on first activation
+* Update: Email preview page after an email is composed or sent
+* Update: Show Preview in new column on Compose screen with a search dashicon
+* Update: Footer text
+* Update: POT file
+* Update: Translation for French (fr_FR) language updated (Thanks to Serge)
+* Update: Translation for German (de_DE) language updated (Thanks to Markus Buschmann)
+* Update: Translation for Norwegian (nb_NO) language added (Thanks to Helge Rosseboe)
+
 = 3.3.5 (21.08.2017) =
 
 * New: UI & structure for Help & Info page
@@ -318,7 +340,7 @@ Use our free plugin [Email Subscribers - Group Selector](https://wordpress.org/p
 * Fix: Unable to select Opt In type from Settings
 * Fix: In-built translations were not loading
 * Fix: CSS getting included in all admin pages
-* Fix: Missing </span> tag on Help & Info menu
+* Fix: Missing `</span>` tag on Help & Info menu
 * Fix: Enable to translate 'Add Subscription Form' FAQ on Help & Info page
 * Update: Improvement in logic to get post author name for keyword ###POSTAUTHOR###
 * Update: Improved default content for welcome email
@@ -619,6 +641,28 @@ For the changelog of earlier versions, please refer to the separate [changelog.t
 
 == Upgrade Notice ==
 
+= 3.3.7 (08.09.2017) =
+
+* Fix: Keywords ###NAME### and ###EMAIL### not showing correct details while sending post notifications emails (in HTML type only)
+
+= 3.3.6 (07.09.2017) =
+
+* New: Allow emails with special characters to get subscribed
+* New: Show groups in dropdown while creating subscribe form via widget
+* New: Show Preview button above the WordPress editor at the time of editing a composed Newletter / Post Notification
+* Fix: Extra line breaks (`<br>` tags) removed when sending HTML emails
+* Fix: Remove hardcoded ENGINE while creating default tables for new users
+* Fix: Remove hardcoded Collation while creating default tables for new users
+* Update: Only one line break while auto inserting unsubscribe link in the emails
+* Update: Improvements in logic to create default tables on first activation
+* Update: Email preview page after an email is composed or sent
+* Update: Show Preview in new column on Compose screen with a search dashicon
+* Update: Footer text
+* Update: POT file
+* Update: Translation for French (fr_FR) language updated (Thanks to Serge)
+* Update: Translation for German (de_DE) language updated (Thanks to Markus Buschmann)
+* Update: Translation for Norwegian (nb_NO) language added (Thanks to Helge Rosseboe)
+
 = 3.3.5 (21.08.2017) =
 
 * New: UI & structure for Help & Info page
@@ -626,7 +670,7 @@ For the changelog of earlier versions, please refer to the separate [changelog.t
 * Fix: Unable to select Opt In type from Settings
 * Fix: In-built translations were not loading
 * Fix: CSS getting included in all admin pages
-* Fix: Missing </span> tag on Help & Info menu
+* Fix: Missing `</span>` tag on Help & Info menu
 * Fix: Enable to translate 'Add Subscription Form' FAQ on Help & Info page
 * Update: Improvement in logic to get post author name for keyword ###POSTAUTHOR###
 * Update: Improved default content for welcome email

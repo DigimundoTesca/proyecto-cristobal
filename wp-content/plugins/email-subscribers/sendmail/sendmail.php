@@ -198,6 +198,4 @@ if ($es_error_found == TRUE && isset($es_errors[0]) == TRUE) {
 		<?php wp_nonce_field('es_form_submit'); ?>
 		<input type="button" class="button-primary" onclick="_es_redirect()" value="<?php echo __( 'Reset', ES_TDOMAIN ); ?>" />
 	</form>
-	<div style="padding-top:10px;"></div>
-	<p class="description"><?php echo ES_OFFICIAL; ?></p>
 </div>

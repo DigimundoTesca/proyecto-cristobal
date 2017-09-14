@@ -91,6 +91,4 @@ $cnt_comment_author = $wpdb->get_var( "SELECT count(DISTINCT comment_author_emai
 			</table>
 		</form>
 	</div>
-	<div style="height:10px;"></div>
-	<p class="description"><?php echo ES_OFFICIAL; ?></p>
 </div>

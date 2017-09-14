@@ -11,44 +11,92 @@ class es_cls_registerhook {
 
 		add_option('email-subscribers', "2.9");
 
-		// Plugin tables
-		$array_tables_to_plugin = array('es_emaillist','es_sentdetails','es_deliverreport');
-		$errors = array();
+		// Creating default tables
+		global $wpdb;
 
-		// loading the sql file, load it and separate the queries
-		$sql_file = ES_DIR.'sql'.DS.'es-createdb.sql';
-		$prefix = $wpdb->prefix;
-		$handle = fopen($sql_file, 'r');
-		$query = fread($handle, filesize($sql_file));
-		fclose($handle);
-		$query = str_replace('CREATE TABLE IF NOT EXISTS ','CREATE TABLE IF NOT EXISTS '.$prefix, $query);
-		$queries = explode('-- SQLQUERY ---', $query);
+		$charset_collate = '';
+		$charset_collate = $wpdb->get_charset_collate();
 
-		// run the queries one by one
-		$has_errors = false;
-		foreach($queries as $qry) {
-			$wpdb->query($qry);
-		}
+		$es_default_tables = "CREATE TABLE {$wpdb->prefix}es_emaillist (
+									es_email_id INT unsigned NOT NULL AUTO_INCREMENT,
+									es_email_name VARCHAR(255) NOT NULL,
+									es_email_mail VARCHAR(255) NOT NULL,
+									es_email_status VARCHAR(25) NOT NULL default 'Unconfirmed',
+									es_email_created datetime NOT NULL default '0000-00-00 00:00:00',
+									es_email_viewcount VARCHAR(100) NOT NULL,
+									es_email_group VARCHAR(255) NOT NULL default 'Public',
+									es_email_guid VARCHAR(255) NOT NULL,
+									PRIMARY KEY  (es_email_id)
+									) $charset_collate;
+								CREATE TABLE {$wpdb->prefix}es_templatetable (
+									es_templ_id INT unsigned NOT NULL AUTO_INCREMENT,
+									es_templ_heading VARCHAR(255) NOT NULL,
+									es_templ_body TEXT NULL,
+									es_templ_status VARCHAR(25) NOT NULL default 'Published',
+									es_email_type VARCHAR(100) NOT NULL default 'Newsletter',
+									es_templ_slug VARCHAR(255) NULL,
+									PRIMARY KEY  (es_templ_id)
+								) $charset_collate;
+								CREATE TABLE {$wpdb->prefix}es_notification (
+									es_note_id INT unsigned NOT NULL AUTO_INCREMENT,
+									es_note_cat TEXT NULL,
+									es_note_group VARCHAR(255) NOT NULL,
+									es_note_templ INT unsigned NOT NULL,
+									es_note_status VARCHAR(10) NOT NULL default 'Enable',
+									PRIMARY KEY  (es_note_id)
+								) $charset_collate;
+								CREATE TABLE {$wpdb->prefix}es_sentdetails (
+									es_sent_id INT unsigned NOT NULL AUTO_INCREMENT,
+									es_sent_guid VARCHAR(255) NOT NULL,
+									es_sent_qstring VARCHAR(255) NOT NULL,
+									es_sent_source VARCHAR(255) NOT NULL,
+									es_sent_starttime datetime NOT NULL default '0000-00-00 00:00:00',
+									es_sent_endtime datetime NOT NULL default '0000-00-00 00:00:00',
+									es_sent_count INT unsigned NOT NULL,
+									es_sent_preview TEXT NULL,
+									es_sent_status VARCHAR(25) NOT NULL default 'Sent',
+									es_sent_type VARCHAR(25) NOT NULL default 'Immediately',
+									es_sent_subject VARCHAR(255) NOT NULL,
+									PRIMARY KEY  (es_sent_id)
+								) $charset_collate;
+								CREATE TABLE {$wpdb->prefix}es_deliverreport (
+									es_deliver_id INT unsigned NOT NULL AUTO_INCREMENT,
+									es_deliver_sentguid VARCHAR(255) NOT NULL,
+									es_deliver_emailid INT unsigned NOT NULL,
+									es_deliver_emailmail VARCHAR(255) NOT NULL,
+									es_deliver_sentdate datetime NOT NULL default '0000-00-00 00:00:00',
+									es_deliver_status VARCHAR(25) NOT NULL,
+									es_deliver_viewdate datetime NOT NULL default '0000-00-00 00:00:00',
+									es_deliver_sentstatus VARCHAR(25) NOT NULL default 'Sent',
+									es_deliver_senttype VARCHAR(25) NOT NULL default 'Immediately',
+									PRIMARY KEY  (es_deliver_id)
+								) $charset_collate;
+							";
 
-		// list the tables that haven't been created
-		$missingtables = array();
-		foreach($array_tables_to_plugin as $table_name) {
-			if(strtoupper($wpdb->get_var("SHOW TABLES like  '". $prefix.$table_name . "'")) != strtoupper($prefix.$table_name)) {
-				$missingtables[] = $prefix.$table_name;
+		require_once( ABSPATH . 'wp-admin/includes/upgrade.php' );
+		dbDelta( $es_default_tables );
+
+		$es_default_table_names = array( 'es_emaillist', 'es_templatetable', 'es_notification', 'es_sentdetails', 'es_deliverreport' );
+
+		$es_has_errors = false;
+		$es_missing_tables = array();
+		foreach($es_default_table_names as $table_name) {
+			if(strtoupper($wpdb->get_var("SHOW TABLES like  '". $wpdb->prefix.$table_name . "'")) != strtoupper($wpdb->prefix.$table_name)) {
+				$es_missing_tables[] = $wpdb->prefix.$table_name;
 			}
 		}
 
-		// add error in to array variable
-		if($missingtables) {
-			$errors[] = __('These tables could not be created on installation ' . implode(', ',$missingtables), 'email-subscribers');
-			$has_errors = true;
+		if($es_missing_tables) {
+			$errors[] = __( 'These tables could not be created on installation ' . implode(', ',$es_missing_tables), 'email-subscribers' );
+			$es_has_errors = true;
 		}
 
 		// if error call wp_die()
-		if($has_errors) {
+		if($es_has_errors) {
 			wp_die( __( $errors[0] , 'email-subscribers' ) );
 			return false;
 		} else {
+			// Inserting dummy data on first activation
 			es_cls_default::es_pluginconfig_default();
 			es_cls_default::es_subscriber_default();
 			es_cls_default::es_template_default();
@@ -79,39 +127,20 @@ class es_cls_registerhook {
 	}
 
 	public static function es_synctables() {
-		$es_c_email_subscribers_ver = get_option('email-subscribers');
+		$es_c_email_subscribers_ver = get_option( "email-subscribers" );
 
-		if($es_c_email_subscribers_ver != "2.9") {
-
-			global $wpdb;
-
-			// loading the sql file, load it and separate the queries
-			$sql_file = ES_DIR.'sql'.DS.'es-createdb.sql';
-			$prefix = $wpdb->prefix;
-			$handle = fopen($sql_file, 'r');
-			$query = fread($handle, filesize($sql_file));
-			fclose($handle);
-			$query=str_replace('CREATE TABLE IF NOT EXISTS ','CREATE TABLE '.$prefix, $query);
-			$query=str_replace('ENGINE=MyISAM /*!40100 DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci*/','', $query);
-			$queries=explode('-- SQLQUERY ---', $query);
-
-			// includes db upgrade file
-			require_once( ABSPATH . 'wp-admin/includes/upgrade.php' );
-
-			// run the queries one by one
-			foreach($queries as $sSql) {
-				dbDelta( $sSql );
-			}
+		if( $es_c_email_subscribers_ver != "2.9" ) {
 
 			$guid = es_cls_common::es_generate_guid(60);
 			$home_url = home_url('/');
 			$blogname = get_option('blogname');
 			$cronurl = $home_url . "?es=cron&guid=". $guid;
 
-			add_option('ig_es_cronurl', $cronurl);
-			add_option('ig_es_cron_mailcount', "50");
-			add_option('ig_es_cron_adminmail', "Hi Admin,\r\n\r\nCron URL has been triggered successfully on ###DATE### for the email ###SUBJECT###. And it sent email to ###COUNT### recipient(s).\r\n\r\nBest,\r\n".$blogname."");
-			update_option('email-subscribers', "2.9" );
+			add_option( "ig_es_cronurl", $cronurl );
+			add_option( "ig_es_cron_mailcount", "50" );
+			add_option( "ig_es_cron_adminmail", "Hi Admin,\r\n\r\nCron URL has been triggered successfully on ###DATE### for the email ###SUBJECT###. And it sent email to ###COUNT### recipient(s).\r\n\r\nBest,\r\n".$blogname."" );
+
+			update_option( "email-subscribers", "2.9" );
 		}
 	}
 
@@ -345,6 +374,35 @@ class es_cls_registerhook {
 		if ( $email_subscribers_current_db_version == '3.2.7' ) {
 			es_cls_registerhook::es_upgrade_database_for_3_3();
 		}
+
+		if ( $email_subscribers_current_db_version == '3.3' ) {
+			es_cls_registerhook::es_upgrade_database_for_3_3_6();
+		}
+	}
+
+	/**
+	 * To alter templatable for extra slug column - to support new template designs
+	 * ES version 3.3.6 onwards
+	 */
+	public static function es_upgrade_database_for_3_3_6() {
+
+		global $wpdb;
+
+		// To check if column es_templ_slug exists or not
+		$es_template_col = "SHOW COLUMNS FROM {$wpdb->prefix}es_templatetable LIKE 'es_templ_slug' ";
+		$results_template_col = $wpdb->get_results($es_template_col, 'ARRAY_A');
+		$template_num_rows = $wpdb->num_rows;
+
+		// If column doesn't exists, then insert it
+		if ( $template_num_rows != '1' ) {
+			// Template table
+			$wpdb->query( "ALTER TABLE {$wpdb->prefix}es_templatetable
+							ADD COLUMN `es_templ_slug` VARCHAR(255) NULL
+							AFTER `es_email_type` " );
+		}
+
+		update_option( 'current_sa_email_subscribers_db_version', '3.3.6' );
+
 	}
 
 	/**
@@ -700,7 +758,7 @@ class es_cls_registerhook {
 		// 13th June 17 - 0.1
 		// updated on 5th July 17 - 0.2
 		// updated on 26th July 17 - 0.2
-		// updated on 19th Aug 17 - 0.3
+		// updated on 21st Aug 17 - 0.3
 		$es_data = es_cls_dbquery::es_survey_res();
 
 		// Check days passed from this update (v3.3.4)
@@ -912,6 +970,47 @@ class es_cls_registerhook {
 		exit();
 	}
 
+
+	public static function es_footer_text($es_rating_text) {
+
+		if ( isset($_GET['page']) && ( $_GET['page'] == 'es-view-subscribers' || $_GET['page'] == 'es-compose' || $_GET['page'] == 'es-notification' || $_GET['page'] == 'es-sendemail' || $_GET['page'] == 'es-settings' || $_GET['page'] == 'es-sentmail' || $_GET['page'] == 'es-general-information' ) ) {
+			$es_rating_text = __( 'If you like <strong>Email Subscribers</strong>, please consider leaving us a <a target="_blank" href="https://wordpress.org/support/plugin/email-subscribers/reviews/?filter=5#new-post">&#9733;&#9733;&#9733;&#9733;&#9733;</a> rating. A huge thank you from Icegram in advance!', ES_TDOMAIN );
+		}
+
+		return $es_rating_text;
+	}
+
+	public static function es_update_footer_text($es_text) {
+
+		$social_link = '<style type="text/css">
+								div.ig_es_social_links > iframe {
+									max-height: 1.5em;
+									vertical-align: middle;
+									padding: 5px 2px 0px 0px;
+								}
+								iframe[id^="twitter-widget"] {
+									max-width: 15em;
+								}
+								iframe#fb_like_ig {
+									max-width: 6em;
+								}
+								span > iframe {
+									vertical-align: middle;
+								}
+							</style>';
+			$social_link .= '<a href="https://twitter.com/icegram" class="twitter-follow-button" data-show-count="true" data-dnt="true" data-show-screen-name="false">Follow</a>';
+			$social_link .= "<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>";
+			$social_link .= '<iframe id="fb_like_ig" src="http://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2Ficegram%2F236428693214953&width=100&layout=button_count&action=like&show_faces=false&share=false&height=41"></iframe>';
+
+		if ( isset($_GET['page']) && ( $_GET['page'] == 'es-view-subscribers' || $_GET['page'] == 'es-compose' || $_GET['page'] == 'es-notification' || $_GET['page'] == 'es-sendemail' || $_GET['page'] == 'es-settings' || $_GET['page'] == 'es-sentmail' || $_GET['page'] == 'es-general-information' ) ) {
+			$es_text = __( '<div id="ig_es_social_links" class="ig_es_social_links" style="float:right;">'.
+						$social_link. ''.
+					'</div>', ES_TDOMAIN );
+		}
+
+		return $es_text;
+	}
+
 }
 
 function es_sync_registereduser( $user_id ) {
@@ -1048,7 +1147,22 @@ class es_widget_register extends WP_Widget {
 		</p>
 		<p>
 			<label for="<?php echo $this->get_field_id('es_group'); ?>"><?php echo __( 'Subscriber Group', ES_TDOMAIN ); ?></label>
-			<input class="widefat" id="<?php echo $this->get_field_id('es_group'); ?>" name="<?php echo $this->get_field_name('es_group'); ?>" type="text" value="<?php echo $es_group; ?>" />
+			<select class="widefat" name="<?php echo $this->get_field_name('es_group'); ?>" id="<?php echo $this->get_field_id('es_group'); ?>">
+				<?php
+					$groups = array();
+					$groups = es_cls_dbquery::es_view_subscriber_group();
+					if(count($groups) > 0) {
+						$i = 1;
+						foreach ($groups as $group) {
+							?>
+							<option value="<?php echo esc_html(stripslashes($group["es_email_group"])); ?>" <?php if(stripslashes($es_group) == $group["es_email_group"]) { echo 'selected="selected"' ; } ?>>
+								<?php echo stripslashes($group["es_email_group"]); ?>
+							</option>
+							<?php
+						}
+					}
+				?>
+			</select>
 		</p>
 		<?php
 	}

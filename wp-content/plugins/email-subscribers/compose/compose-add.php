@@ -90,7 +90,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<?php $settings_body = array( 'textarea_rows' => 25 ); ?>
 			<?php wp_editor("", "es_templ_body", $settings_body);?>
 			<p>
-				<?php echo sprintf(__( '%s: ###NAME###, ###EMAIL###, ###DATE###, ###POSTTITLE###, ###POSTLINK###, ###POSTIMAGE###, ###POSTDESC###, ###POSTAUTHOR###, ###POSTLINK-WITHTITLE###, ###POSTLINK-ONLY###, ###POSTFULL### (For Post Notification only)', ES_TDOMAIN ), '<a href="https://www.icegram.com/documentation/es-what-are-the-available-keywords-in-the-post-notifications/" target="_blank">' . __( 'Available Keywords', ES_TDOMAIN ) . '</a>' ); ?><br />
+				<?php echo sprintf(__( '%s: ###NAME###, ###EMAIL###, ###DATE###, ###POSTTITLE###, ###POSTLINK###, ###POSTIMAGE###, ###POSTDESC###, ###POSTAUTHOR###, ###POSTLINK-WITHTITLE###, ###POSTLINK-ONLY###, ###POSTFULL### (For Post Notification only)', ES_TDOMAIN ), '<a href="https://www.icegram.com/documentation/es-what-are-the-available-keywords-in-the-post-notifications/?utm_source=es&utm_medium=in_app&utm_campaign=view_docs_help_page" target="_blank">' . __( 'Available Keywords', ES_TDOMAIN ) . '</a>' ); ?><br />
 			</p>
 
 			<div class="template_status" style="display:none;">
@@ -107,5 +107,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<?php wp_nonce_field('es_form_add'); ?>
 		</form>
 	</div>
-	<p class="description"><?php echo ES_OFFICIAL; ?></p>
 </div>
