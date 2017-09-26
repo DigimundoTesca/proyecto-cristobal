@@ -1074,6 +1074,7 @@ img#metabannerbig {
 }
 h2.bannertitle {
 	font-size: 20px;
+	letter-spacing: 4px;
 }
 p.quote {
 	font-size: 15px;
@@ -1602,8 +1603,9 @@ h3.booktitle {
 		flex-direction: column;
 		justify-content: space-around;
 		width: 45%;
+		max-width: 400px;
 		height: 400px;
-		margin-left: 30px;
+		margin-left: 25px;
 	}
 	.mobilecontainer {
 		display: none;
@@ -1638,16 +1640,15 @@ h3.booktitle {
 	}
 	/*Banner text´s styles*/
 	h2.bannertitle {
-		font-size: 30px;
+		font-size: 40px;
 	}
 	p.quote {
 		font-size: 17px;
 		margin: 10px 0;
-		width: 70%;
-		text-align: center;
+		text-align: left;
 	}
 	p.name {
-		width: 70%;
+		max-width: 300px;
 		text-align: center;
 	}
 	#es_txt_button_pg {
@@ -1806,6 +1807,9 @@ h3.booktitle {
 	#mainbannercontainer {
 		width: min-content;
 	}
+	.bannercontainer {
+		max-width: 350px;
+	}
 	#datesContainer {
 		max-width: 600px;
 		margin-bottom: 0px;
@@ -1878,6 +1882,7 @@ h3.booktitle {
 	}
 	p.quote {
 		font-size: 23px;
+		font-family: 'Gotham-Light';
 		margin: 20px 0;
 	}
 	#es_txt_button_pg {
