@@ -1179,14 +1179,16 @@ label.es_shortcode_form_email span {
 	display: inline-flex;
 	margin: 0 10px;
 	flex-wrap: wrap;
-	flex-direction: row;
+	flex-direction: column;
 }
 #datesContainer {
-	min-width: 300px;
+	min-width: 250px;
 	width: 100%;
 	margin: 0 auto;
 	background-color: #eeebe5;
 	font-family: 'Gotham Rounded';
+	overflow-y: scroll;
+	margin-bottom: 30px;
 }
 #datesContainer h3 {
 	font-size: 30px;
@@ -1206,6 +1208,14 @@ label.es_shortcode_form_email span {
 	width: 230px;
 	height: 230px;
 	margin: 10px auto;
+}
+.mainbannercontent:first-child {
+	margin-top: 0;
+	padding-top: 0;
+}
+.mainbannercontent:last-child {
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
 .mainbannercontent .metmundo {
 	border: 2px solid #be0211;
@@ -1780,6 +1790,18 @@ h3.booktitle {
 }
 
 @media screen and (min-width: 1024px) {
+	/*Main page styles*/
+	#mainpage {
+		flex-direction: row;
+		flex-wrap: nowrap;
+	}
+	#mainbannercontainer {
+		width: min-content;
+	}
+	#datesContainer {
+		max-width: 600px;
+		margin-bottom: 0px;
+	}
 	/*Bio page slider styles*/
 	.rslides {
 		max-height: 500px;
@@ -1868,10 +1890,12 @@ h3.booktitle {
 		width: 350px;
 		height: 350px;
 	}
+	/*Main page styles*/
+	#mainbannercontainer {
+		width: min-content;
+	}
 	#datesContainer {
-		min-width: 670px;
-		max-width: 1000px;
-		width: 55%;
+		max-width: inherit;
 	}
 	#mainpage {
 		flex-direction: row;
@@ -1916,8 +1940,5 @@ h3.booktitle {
 		text-decoration: none;
 		color: #FFF;
 		padding: 5px;
-	}
-	#datesContainer {
-		width: 60%;
 	}
 }
