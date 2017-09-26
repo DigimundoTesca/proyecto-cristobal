@@ -686,6 +686,10 @@ body {
 span {
 	font-weight: bold;
 }
+#page {
+	max-width: 500px;
+	margin: 0 auto;
+}
 /*Mobile styles - Celular*/
 .site-branding {
 	width: 100%;
@@ -1426,6 +1430,9 @@ h3.booktitle {
 	body {
 		margin: 2.5%;
 	}
+	#page {
+		max-width: 1000px;
+	}
 	#circles .circlecontent .circle {
 		width: 100px;
 		height: 100px;
@@ -1437,7 +1444,7 @@ h3.booktitle {
 	}
 	/*Styles for Branding*/
 	.site-branding {
-		justify-content: normal;
+		justify-content: space-between;
 	}
 	/*Styles for title text*/
 	.site-title a{
@@ -1466,8 +1473,7 @@ h3.booktitle {
 	/*Hide language menu*/
 	#langbar {
 		display: flex;
-		position: absolute;
-		right: 20%;
+		position: relative;
 	}
 	#langbar section {
 		margin: 0;
@@ -1483,8 +1489,7 @@ h3.booktitle {
 	}
 	#social {
 		display: inline-flex;
-		right: 5%;
-		position: absolute;
+		position: relative;
 	}
 	#social ul {
 		display: inline-block;
@@ -1793,6 +1798,9 @@ h3.booktitle {
 
 /*Desktop styles*/
 @media screen and (min-width: 1200px) {
+	#page {
+		max-width: 1300px;
+	}
 	#circles {
 		flex-direction: row;
 		justify-content: space-around;
@@ -1911,11 +1919,5 @@ h3.booktitle {
 	}
 	#datesContainer {
 		width: 60%;
-	}
-}
-
-@media screen and (min-width: 1500px) {
-	#datesContainer {
-		width: 65%;
 	}
 }
