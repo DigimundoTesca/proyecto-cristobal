@@ -1078,6 +1078,7 @@ h2.bannertitle {
 }
 p.quote {
 	font-size: 15px;
+	font-family: 'Gotham-Light';
 }
 label.es_shortcode_form_email {
 	font-size: 12px;
@@ -1192,6 +1193,7 @@ label.es_shortcode_form_email span {
 	font-family: 'Gotham Rounded';
 	overflow-y: scroll;
 	margin-bottom: 30px;
+	max-height: 1000px;
 }
 #datesContainer h3 {
 	font-size: 30px;
@@ -1812,6 +1814,7 @@ h3.booktitle {
 	}
 	#datesContainer {
 		max-width: 600px;
+		max-height: inherit;
 		margin-bottom: 0px;
 	}
 	/*Bio page slider styles*/
@@ -1882,7 +1885,6 @@ h3.booktitle {
 	}
 	p.quote {
 		font-size: 23px;
-		font-family: 'Gotham-Light';
 		margin: 20px 0;
 	}
 	#es_txt_button_pg {
