@@ -1325,6 +1325,7 @@ label.es_shortcode_form_email span {
   flex-wrap: wrap;
   flex-direction: row;
   width: 100%;
+  align-items: baseline;
 }
 .biotitle, .moretitle {
   font-weight: 200 !important;

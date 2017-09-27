@@ -29,7 +29,7 @@ get_header(); ?>
                 </div>
                 <div class="bookdescription">
                   <?php the_excerpt(); ?>
-                  <a href="<?php the_permalink(); ?>" class="post_button">Leer más</a>
+                  <a href="<?php the_permalink(); ?>" class="post_button"><?php printf(__('Buy','cristobalj')) ?></a>
                 </div>
               </div>
             </div>
