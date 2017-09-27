@@ -17,7 +17,9 @@
 
     if ( 'booksblog' === get_post_type() ) : ?>
     <div class="entry-meta">
-      <?php cristobalj_posted_on(); ?>
+      <div class="bookcontainer">
+                <div class="bookimg"><?php the_post_thumbnail(); ?>
+                </div>
     </div><!-- .entry-meta -->
     <?php
     endif; ?>
