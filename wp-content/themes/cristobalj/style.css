@@ -1295,7 +1295,7 @@ label.es_shortcode_form_email span {
 .mainbannercontent .mindHack img {
   width: 160px;
   align-self: center;
-  margin-top: 20px;
+  margin: auto;
 }
 .mainbannercontent .mindHack p {
   position: relative;
@@ -1605,7 +1605,7 @@ h3.booktitle {
     flex-direction: column;
     justify-content: space-around;
     width: 45%;
-    max-width: 400px;
+    max-width: 320px;
     height: 400px;
     margin-left: 25px;
   }
@@ -1671,8 +1671,8 @@ h3.booktitle {
   }
   /*Styles for agenda and banner on index page*/
   .mainbannercontent {
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     margin: 10px auto;
   }
   .mainbannercontent .metmundo {
@@ -1682,7 +1682,7 @@ h3.booktitle {
   .mainbannercontent .metmundo h3 {
     font-family: 'Gotham Rounded';
     font-weight: bold;
-    font-size: 30px;
+    font-size: 23px;
     text-align: center;
     background-color: #be0211;
     color: #FFFFFF;
@@ -1703,7 +1703,7 @@ h3.booktitle {
   .mainbannercontent .gift h3 {
     font-family: 'Gotham Rounded';
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     background-color: #175d39;
     color: #FFFFFF;
@@ -1711,8 +1711,7 @@ h3.booktitle {
     margin: 0;
   }
   .mainbannercontent .gift img {
-    width: 250px;
-    margin-top: 10px;
+    margin-top: 5px;
     align-self: center;
   }
   .mainbannercontent .gift p {
@@ -1726,7 +1725,6 @@ h3.booktitle {
     text-align: center;
     color: #FFFFFF;
     margin: 0;
-    margin-top: 5px;
   }
   .mainbannercontent .mindHack {
     border: 2px solid #000000;
@@ -1739,7 +1737,7 @@ h3.booktitle {
   .mainbannercontent .mindHack h3 {
     font-family: 'Gotham Rounded';
     font-weight: bold;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     background-color: #000000;
     color: #FFFFFF;
@@ -1747,9 +1745,8 @@ h3.booktitle {
     margin: 0;
   }
   .mainbannercontent .mindHack img {
-    width: 250px;
     align-self: center;
-    margin-top: 40px;
+    width: 200px;
   }
   .mainbannercontent .mindHack p {
     position: relative;
@@ -1811,11 +1808,7 @@ h3.booktitle {
   #mainbannercontainer {
     width: min-content;
   }
-  .bannercontainer {
-    max-width: 350px;
-  }
   #datesContainer {
-    max-width: 600px;
     max-height: inherit;
     margin-bottom: 0px;
   }
@@ -1880,8 +1873,6 @@ h3.booktitle {
   }
   .bannercontainer {
     height: 500px;
-    width: 450px;
-    max-width: none;
   }
   /*Banner text´s styles*/
   h2.bannertitle {
@@ -1914,14 +1905,6 @@ h3.booktitle {
   }
   #mainbannercontainer {
     width: 450px;
-  }
-  .mainbannercontent {
-    width: 350px;
-    height: 350px;
-  }
-  /*Main page styles*/
-  #mainbannercontainer {
-    width: min-content;
   }
   #datesContainer {
     width: 100%;
