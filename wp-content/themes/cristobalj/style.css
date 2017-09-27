@@ -1795,6 +1795,10 @@ h3.booktitle {
     min-width: 480px !important;
     max-width: 600px;
   }
+  .books-description {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 
 

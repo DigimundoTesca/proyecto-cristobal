@@ -25,7 +25,7 @@
       endif; ?>
     </header><!-- .entry-header -->
 
-    <div class="entry-content">
+    <div class="entry-content books-description">
       <?php
       the_content( sprintf(
         wp_kses(
