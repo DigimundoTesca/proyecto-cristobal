@@ -18,15 +18,15 @@
     if ( 'booksblog' === get_post_type() ) : ?>
     <div class="entry-meta">
       <div class="bookcontainer">
-                <div class="bookimg"><?php the_post_thumbnail(); ?>
-                </div>
-    </div><!-- .entry-meta -->
-    <?php
-    endif; ?>
-  </header><!-- .entry-header -->
+        <div class="bookimg"><?php the_post_thumbnail(); ?>
+        </div>
+      </div><!-- .entry-meta -->
+      <?php
+      endif; ?>
+    </header><!-- .entry-header -->
 
-  <div class="entry-content">
-    <?php
+    <div class="entry-content">
+      <?php
       the_content( sprintf(
         wp_kses(
           /* translators: %s: Name of current post. Only visible to screen readers */
@@ -44,10 +44,10 @@
         'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'cristobalj' ),
         'after'  => '</div>',
       ) );
-    ?>
-  </div><!-- .entry-content -->
+      ?>
+    </div><!-- .entry-content -->
 
-  <footer class="entry-footer">
-    <?php cristobalj_entry_footer(); ?>
-  </footer><!-- .entry-footer -->
-</article><!-- #post-<?php the_ID(); ?> -->
+    <footer class="entry-footer">
+      <?php cristobalj_entry_footer(); ?>
+    </footer><!-- .entry-footer -->
+  </article><!-- #post-<?php the_ID(); ?> -->
