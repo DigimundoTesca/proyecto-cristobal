@@ -18,7 +18,7 @@
     if ( 'booksblog' === get_post_type() ) : ?>
     <div class="entry-meta">
       <div class="bookcontainer">
-        <div class="bookimg"><?php the_post_thumbnail(); ?>
+        <div class="bookimg single-book"><?php the_post_thumbnail(); ?>
         </div>
       </div><!-- .entry-meta -->
       <?php

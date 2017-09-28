@@ -1420,6 +1420,9 @@ h3.booktitle {
   width: auto;
   transform: rotate(-20deg) rotateX(50deg);
 }
+.single-book img {
+  transform: none;
+}
 .bookdescription {
   display: flex;
   flex-direction: column;
