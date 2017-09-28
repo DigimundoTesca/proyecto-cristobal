@@ -1408,15 +1408,17 @@ h3.booktitle {
 .bookimg {
   width: 280px;
   height: auto;
-  overflow: hidden;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  perspective: 1000px;
 }
 .bookimg img {
   height: 100%;
+  width: auto;
+  transform: rotate(-20deg) rotateX(50deg);
 }
 .bookdescription {
   display: flex;
@@ -1781,14 +1783,13 @@ h3.booktitle {
     margin-top: 15px;
   }
   .bookimg {
-    overflow: hidden;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .bookimg img {
-    height: 100%;
+    height: 330px;
   }
   .bookdescription {
     width: 65%;
