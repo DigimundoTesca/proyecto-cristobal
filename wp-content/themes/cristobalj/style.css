@@ -1152,7 +1152,7 @@ label.es_shortcode_form_email span {
 }
 #mainContainer p {
   margin: 0;
-  line-height: 23pt;
+  text-align: left;
 }
 #mainContainer.biog p:first-of-type {
   margin-top: 20px;
@@ -1351,8 +1351,7 @@ label.es_shortcode_form_email span {
 }
 #mainContainer.more p {
   margin: 3% 0;
-  word-spacing: 10px;
-  line-height: 30px;
+  word-spacing: 5px;
 }
 /*Styles for events on main page*/
 .css-events-list {
@@ -1418,7 +1417,7 @@ h3.booktitle {
 .bookimg img {
   height: 100%;
   width: auto;
-  transform: rotate(-20deg) rotateX(50deg);
+  transform: rotate(-20deg) rotateX(40deg);
 }
 .single-book img {
   transform: none;
