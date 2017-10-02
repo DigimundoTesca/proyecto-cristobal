@@ -1371,11 +1371,13 @@ label.es_shortcode_form_email span {
   border-radius: 50px;
 }
 .events-container {
+  width: 95%;
+  margin: 0 auto;
   padding: 10px 0;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #000;
 }
@@ -1390,10 +1392,12 @@ label.es_shortcode_form_email span {
 }
 .buttons-container a {
   font-family: 'GothamRounded-Book';
+  font-size: 14px;
 }
 .events-container .event-button {
   border: 1px solid #000;
   width: 200px;
+  color: #000;
   text-align: center;
 }
 .events-container .event-buy {
@@ -1853,6 +1857,12 @@ h3.booktitle {
   #datesContainer {
     max-height: inherit;
     margin-bottom: 0px;
+  }
+  .events-container .date-addres {
+    font-size: 20px;
+  }
+  .events-container .date-addres span {
+    font-size: 25px;
   }
   /*Bio page slider styles*/
   .rslides {
