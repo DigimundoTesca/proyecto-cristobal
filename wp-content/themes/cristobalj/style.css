@@ -1432,6 +1432,9 @@ h3.booktitle {
   color: #FFFFFF;
   text-align: center;
 }
+.mainProjectContainer:last-of-type {
+  margin-bottom: 50px;
+}
 .bookimg {
   width: 280px;
   height: auto;
@@ -1445,7 +1448,7 @@ h3.booktitle {
 .bookimg img {
   height: 100%;
   width: auto;
-  transform: rotate(-20deg) rotateX(40deg);
+  transform: rotate(-15deg) rotateX(30deg);
 }
 .single-book img {
   transform: none;
@@ -1860,7 +1863,6 @@ h3.booktitle {
     margin: 0 auto;
     font-size: 50px;
     line-height: 60px;
-    margin-bottom: 50px;
   }
   #datesContainer {
     max-height: inherit;
@@ -2003,6 +2005,7 @@ h3.booktitle {
   .mainProjectContainer {
     width: 80%;
     margin: 0 auto;
+    margin-top: 50px;
   }
 }
 
