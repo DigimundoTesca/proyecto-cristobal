@@ -1042,14 +1042,12 @@ img#metabannerbig {
 #banner::before {
   content: '';
   width: 100%;
-  background-image: linear-gradient(to right,#FFF 5%,transparent 100%);
-  opacity: ; 
+  background-image: linear-gradient(to right,#FFF 20%,transparent 80%);
 }
 #banner1::before {
   content: '';
   width: 100%;
-  background-image: linear-gradient(to right,#FFF 5%,transparent 100%);
-  opacity: ; 
+  background-image: linear-gradient(to right,#FFF 20%,transparent 80%);
 }
 .bannermobile {
   display: flex;
