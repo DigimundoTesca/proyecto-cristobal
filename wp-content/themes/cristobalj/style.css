@@ -1718,6 +1718,8 @@ h3.booktitle {
   .mainbannercontent {
     width: 250px;
     height: 250px;
+    margin-bottom: 10px;
+    margin-top: 10px;
   }
   .mainbannercontent .metmundo {
     border: 2px solid #be0211;
@@ -1974,15 +1976,17 @@ h3.booktitle {
     margin-bottom: 50px;
   }
   #mainbannercontainer {
-    width: 450px;
+    width: initial;
+    margin: 0;
   }
   #datesContainer {
     width: 100%;
-    max-width: 1000px;
-    margin-right: 0;
+    max-width: 890px;
+    margin: 0;
   }
   #mainpage {
     flex-direction: row;
+    justify-content: space-around;
   }
   #knowmore {
     max-width: 800px;
