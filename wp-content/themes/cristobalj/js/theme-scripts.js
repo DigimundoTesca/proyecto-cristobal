@@ -124,6 +124,18 @@ jQuery(document).ready(function(){
     }
   }
 
+  // Moddify footer width
+  (function($) {
+    let datewidth = document.getElementById('datesContainer').offsetWidth;
+    let circlewidth = document.getElementById('circles');
+
+    circlewidth.style.width = datewidth + 'px';
+    console.log('width ready '+ datewidth);
+
+  })(jQuery);
+
+
+
   (function($) {
     // Moving images for banners
     $('#knowmore').addClass('animated zoomIn');
@@ -156,15 +168,15 @@ jQuery(document).ready(function(){
   let the_color=['#175d39','#d39b00'];
   let c= 0;
   let length1 = booktitle.length;
-    for(c; c<length1; c++)
-    {
-      if (c%2 === 0) {
-        booktitle[c].style.backgroundColor = the_color[2];
-      }
-      else {
-        booktitle[c].style.backgroundColor = the_color[1];
-      }
+  for(c; c<length1; c++)
+  {
+    if (c%2 === 0) {
+      booktitle[c].style.backgroundColor = the_color[2];
     }
+    else {
+      booktitle[c].style.backgroundColor = the_color[1];
+    }
+  }
 
 
 });

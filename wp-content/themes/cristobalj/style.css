@@ -1485,18 +1485,21 @@ h3.booktitle {
     color: #000000;
   }
   .site-title {
-    font-size: 20pt;
-    line-height: 40pt;
+    font-size: 25px;
+    line-height: 40px;
     margin-left: 25px;
     padding: 3px;
+    padding-bottom: 15px;
+    word-spacing: 10px;
   }
   .title-caps {
-    font-size: 30pt;
+    font-size: 35px;
   }
   /*Hide language menu*/
   #langbar {
     display: flex;
-    position: relative;
+    position: absolute;
+    left: calc(100% - 350px);
   }
   #langbar section {
     margin: 0;
@@ -1960,5 +1963,10 @@ h3.booktitle {
     text-decoration: none;
     color: #FFF;
     padding: 5px;
+  }
+  /*Hide language menu*/
+  #langbar {
+    position: relative;
+    left: 0;
   }
 }
