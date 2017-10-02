@@ -1391,16 +1391,17 @@ label.es_shortcode_form_email span {
   justify-content: space-between;
 }
 .buttons-container a {
-  font-family: 'GothamRounded-Book';
   font-size: 14px;
 }
 .events-container .event-button {
+  font-family: 'GothamRounded-Book';
   border: 1px solid #000;
   width: 200px;
   color: #000;
   text-align: center;
 }
 .events-container .event-buy {
+  font-family: 'GothamRounded-Bold';
   border: 1px solid #92b541;
   background-color: #92b541;
   color: #FFF;
