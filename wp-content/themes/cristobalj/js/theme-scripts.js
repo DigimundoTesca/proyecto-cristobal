@@ -33,11 +33,13 @@ jQuery(document).ready(function(){
 
   // Add text to more information buttons on agenda 
   let eventbutton = document.getElementsByClassName('event-button');
+  let eventbuy = document.getElementsByClassName('event-buy');
   let k = 0;
   for (; k < eventbutton.length; k++) {
     if (window.location.pathname == '/Cristobal/') {
       for (l = 0; l < eventbutton.length; l++) {
         document.getElementsByClassName('event-button')[l].innerHTML = 'Más información';
+        document.getElementsByClassName('event-buy')[l].innerHTML = 'Compra tu ticket';
       }
     }
     else if (window.location.pathname == '/Cristobal/it/') {

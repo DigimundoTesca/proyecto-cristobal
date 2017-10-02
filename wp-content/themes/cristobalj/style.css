@@ -1382,8 +1382,21 @@ label.es_shortcode_form_email span {
 .events-container > * {
   display: inline-block;
 }
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 70px;
+  justify-content: space-between;
+}
 .events-container .event-button {
   border: 1px solid #000;
+  width: 200px;
+  text-align: center;
+}
+.events-container .event-buy {
+  border: 1px solid #92b541;
+  background-color: #92b541;
+  color: #FFF;
   width: 200px;
   text-align: center;
 }
