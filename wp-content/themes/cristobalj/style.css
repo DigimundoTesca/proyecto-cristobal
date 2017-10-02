@@ -1388,6 +1388,9 @@ label.es_shortcode_form_email span {
   min-height: 70px;
   justify-content: space-between;
 }
+.buttons-container a {
+  font-family: 'GothamRounded-Book';
+}
 .events-container .event-button {
   border: 1px solid #000;
   width: 200px;
