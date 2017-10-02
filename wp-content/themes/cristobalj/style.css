@@ -2031,6 +2031,6 @@ h3.booktitle {
   /*Hide language menu*/
   #langbar {
     position: relative;
-    left: 0;
+    left: 250px;
   }
 }
