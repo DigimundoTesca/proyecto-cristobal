@@ -1076,14 +1076,22 @@ h2.bannertitle {
 }
 p.quote {
   font-size: 15px;
-  font-family: 'Gotham-Light';
+  font-family: 'Gotham-Book';
+}
+p.name {
+  font-weight: bold;
+  font-family: 'Gotham-Book';
 }
 label.es_shortcode_form_email {
   font-size: 12px;
 }
+label.es_shortcode_form_email {
+  font-family: 'Gotham-Light';
+}
 label.es_shortcode_form_email span {
   font-size: 15px;
   font-weight: bold;
+  font-family: 'Gotham-Medium';
 }
 .es_button {
   display: inline;
