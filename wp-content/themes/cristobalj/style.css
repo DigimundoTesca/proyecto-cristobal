@@ -1916,6 +1916,9 @@ h3.booktitle {
     width: auto;
     margin-left: 10px;
   }
+  #datesContainer h3 {
+    font-size: 48px;
+  }
   /*Social menu*/
   #social li {
     font-size: 20pt;
