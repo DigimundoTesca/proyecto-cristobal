@@ -130,21 +130,19 @@ jQuery(document).ready(function(){
     let circlewidth = document.getElementById('circles');
 
     circlewidth.style.width = datewidth + 'px';
-    console.log('width ready '+ datewidth);
     $(window).resize(function(){
       let datewidth = document.getElementById('datesContainer').offsetWidth;
       let circlewidth = document.getElementById('circles');
 
       circlewidth.style.width = datewidth + 'px';
-      console.log('width ready '+ datewidth);
     });
 
   })(jQuery);
 
 
 
+  // Moving images for banners
   (function($) {
-    // Moving images for banners
     $('#knowmore').addClass('animated zoomIn');
     // Slider on biography page
     $(".rslides").responsiveSlides({

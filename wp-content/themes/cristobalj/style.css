@@ -1462,13 +1462,13 @@ h3.booktitle {
     align-self: flex-end;
   }
   #circles .circlecontent .circle {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
   }
   #circles .circlecontent .text {
     margin-left: 30px;
     width: 400px;
-    font-size: 30px;
+    font-size: 25px;
   }
   /*Styles for Branding*/
   .site-branding {
@@ -1843,10 +1843,13 @@ h3.booktitle {
     flex-direction: row;
     flex-wrap: nowrap;
   }
+  #circles .circlecontent {
+    width: 30%;
+  }
   #circles .circlecontent .text {
     margin-left: 30px;
     width: 200px;
-    font-size: 30px;
+    font-size: 20px;
   }
 }
 
@@ -1871,7 +1874,7 @@ h3.booktitle {
   #circles .circlecontent .text {
     margin-left: 15px;
     width: 200px;
-    font-size: 25px;
+    font-size: 20px;
   }
   /*Styles for main menu navigation*/
   .main-navigation a {
