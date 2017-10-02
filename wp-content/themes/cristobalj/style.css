@@ -1450,11 +1450,16 @@ h3.booktitle {
   body {
     margin: 2.5%;
   }
+  #colophon {
+    display: flex;
+    flex-direction: column;
+  }
   #page {
     max-width: 1000px;
   }
   #circles {
     flex-direction: column;
+    align-self: flex-end;
   }
   #circles .circlecontent .circle {
     width: 100px;
