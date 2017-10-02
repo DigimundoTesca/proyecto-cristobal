@@ -128,17 +128,18 @@ jQuery(document).ready(function(){
 
   // Moddify footer width
   (function($) {
-    let datewidth = document.getElementById('datesContainer').offsetWidth;
-    let circlewidth = document.getElementById('circles');
-
-    circlewidth.style.width = datewidth + 'px';
-    $(window).resize(function(){
+    if(document.getElementById('datesContainer')){ 
       let datewidth = document.getElementById('datesContainer').offsetWidth;
       let circlewidth = document.getElementById('circles');
 
       circlewidth.style.width = datewidth + 'px';
-    });
+      $(window).resize(function(){
+        let datewidth = document.getElementById('datesContainer').offsetWidth;
+        let circlewidth = document.getElementById('circles');
 
+        circlewidth.style.width = datewidth + 'px';
+      });
+    }
   })(jQuery);
 
 
