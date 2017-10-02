@@ -1150,7 +1150,7 @@ label.es_shortcode_form_email span {
   font-weight: normal;
 }
 #mainContainer h3 {
-  font-size: 23pt;
+  font-size: 23px;
   margin: 0;
   padding: 0;
   margin-top: 20px;
@@ -1218,7 +1218,6 @@ label.es_shortcode_form_email span {
 .mainbannercontent {
   width: 230px;
   height: 230px;
-  margin: 10px auto;
 }
 .mainbannercontent:first-child {
   margin-top: 0;
@@ -1328,10 +1327,12 @@ label.es_shortcode_form_email span {
 #secondarybannercontainer {
   display: inline-flex;
   margin: 0;
+  margin-bottom: 50px;
   flex-wrap: wrap;
   flex-direction: row;
   width: 100%;
   align-items: baseline;
+  justify-content: space-evenly;
 }
 .biotitle, .moretitle {
   font-weight: 200 !important;
@@ -1714,7 +1715,6 @@ h3.booktitle {
   .mainbannercontent {
     width: 250px;
     height: 250px;
-    margin: 10px auto;
   }
   .mainbannercontent .metmundo {
     border: 2px solid #be0211;
@@ -1855,6 +1855,13 @@ h3.booktitle {
   #mainbannercontainer {
     width: min-content;
   }
+  #mainContainer h3 {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 50px;
+  }
   #datesContainer {
     max-height: inherit;
     margin-bottom: 0px;
@@ -1962,6 +1969,7 @@ h3.booktitle {
     width: 80%;
     height: 600px;
     margin: 0 10%;
+    margin-bottom: 50px;
   }
   #mainbannercontainer {
     width: 450px;
