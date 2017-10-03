@@ -1316,6 +1316,7 @@ label.es_shortcode_form_email span {
   width: 100%;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 #knowmore {
   width: 100%;
@@ -1323,6 +1324,13 @@ label.es_shortcode_form_email span {
   max-width: 500px;
   margin: auto;
   margin-top: 20px;
+  background-color: red;
+}
+.mobilekmore {
+  display: block;
+}
+.bigkmore {
+  display: none;
 }
 #secondarybannercontainer {
   display: inline-flex;
@@ -1480,6 +1488,113 @@ h3.booktitle {
 @media screen and (min-width: 768px) {
   body {
     margin: 2.5%;
+  }
+  /*Div selector for change images on Know more section banner*/
+  .mobilekmore {
+    display: none;
+  }
+  .bigkmore {
+    display: block;
+  }
+  .imgChange1{
+    width: 180px;
+    height: 30px;
+    background-color: rgba(0,0,0,0.2);  
+    position: absolute;
+    top: 19px;
+    left: 250px;
+    z-index: 10;
+  }
+  .imgChange2{
+    width: 100px;
+    height: 40px;
+    background-color: rgba(0,0,0,0.2);  
+    position: absolute;
+  }
+  .imgChange3{
+    width: 100px;
+    height: 40px;
+    background-color: rgba(0,0,0,0.2);  
+    position: absolute;
+  }
+  .imgChange4{
+    width: 100px;
+    height: 40px;
+    background-color: rgba(0,0,0,0.2);  
+    position: absolute;
+  }
+  .imgChange5{
+    width: 100px;
+    height: 40px;
+    background-color: rgba(0,0,0,0.2);  
+    position: absolute;
+  }
+  .imgChange6{
+    width: 100px;
+    height: 40px;
+    background-color: rgba(0,0,0,0.2);  
+    position: absolute;
+  }
+  .imgChange7{
+    width: 100px;
+    height: 40px;
+    background-color: rgba(0,0,0,0.2);  
+    position: absolute;
+  }
+  .imgChange8{
+    width: 100px;
+    height: 40px;
+    background-color: rgba(0,0,0,0.2);  
+    position: absolute;
+  }
+  .imgChange9{
+    width: 100px;
+    height: 40px;
+    background-color: rgba(0,0,0,0.2);  
+    position: absolute;
+  }
+  .imgChange10{
+    width: 100px;
+    height: 40px;
+    background-color: rgba(0,0,0,0.2);  
+    position: absolute;
+  }
+  .imgChange11{
+    width: 100px;
+    height: 40px;
+    background-color: rgba(0,0,0,0.2);  
+    position: absolute;
+  }
+  .imgChange12{
+    width: 100px;
+    height: 40px;
+    background-color: rgba(0,0,0,0.2);  
+    position: absolute;
+  }
+  .imgChange13{
+    width: 100px;
+    height: 40px;
+    background-color: rgba(0,0,0,0.2);  
+    position: absolute;
+  }
+  .imgChange14{
+    width: 100px;
+    height: 40px;
+    background-color: rgba(0,0,0,0.2);  
+    position: absolute;
+  }
+  .imgChange15{
+    width: 100px;
+    height: 40px;
+    background-color: rgba(0,0,0,0.2);  
+    position: absolute;
+  }
+  .imgChange16{
+
+    width: 100px;
+    height: 40px;
+    background-color: rgba(0,0,0,0.2);
+    position: absolute;
   }
   #colophon {
     display: flex;

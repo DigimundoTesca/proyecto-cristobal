@@ -146,7 +146,8 @@ jQuery(document).ready(function(){
 
   // Moving images for banners
   (function($) {
-    $('#knowmore').addClass('animated zoomIn');
+    $('.mobilekmore').addClass('animated zoomIn');
+    $('.bigkmore').addClass('animated zoomIn');
     // Slider on biography page
     $(".rslides").responsiveSlides({
       auto: true,
@@ -185,6 +186,15 @@ jQuery(document).ready(function(){
       booktitle[c].style.backgroundColor = the_color[1];
     }
   }
+
+
+  // Change images on Know more banner
+    (function($) {
+  $('#imgChange1').hover(function() {
+    document.getElementById('#bigmorebanner').style.backgroundImage = '../images/cristobal/10.jpg';
+    console.log('Image changed');
+  });
+  })(jQuery);
 
 
 });
