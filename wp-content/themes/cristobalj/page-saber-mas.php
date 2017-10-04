@@ -8,7 +8,7 @@ get_header(); ?>
   <main id="main" class="site-main">
     <div id="kmorebannercontainer">
       <img id="knowmore" class="mobilekmore" src="<?php echo get_template_directory_uri(); ?>/images/kmore.jpg" alt="banner know more">
-      <div class="bigkmoreContainer">
+      <div id="bigkmoreContainer" class="bigkmoreContainer">
         <img id="knowmore bigmorebanner" class="bigkmore" src="<?php echo get_template_directory_uri(); ?>/images/another.png" alt="banner know more">
         <a href="#" class="imgChange1 textBig">Psicoteatro</a>
         <a href="#" class="imgChange2 textSmall">BIO</a>

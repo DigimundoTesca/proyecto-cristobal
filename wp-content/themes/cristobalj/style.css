@@ -1520,6 +1520,17 @@ h3.booktitle {
     background-size: cover;
     background-position: center center;
   }
+  .textBig {
+    font-family: 'GothamRounded-Bold';
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+  .textSmall {
+    font-family: 'GothamRounded-Light';
+    font-size: 18px;
+    text-transform: uppercase;
+  }
   .imgChange1{
     width: auto;
     height: 30px; 
@@ -1532,20 +1543,18 @@ h3.booktitle {
     height: auto; 
     position: absolute;
     right: 100px;
-    top: 40px;
+    top: 45px;
   }
   .imgChange3{
     width: 100px;
-    height: 40px;
     position: absolute;
     top: 80px;
     right: -50px;
   }
   .imgChange4{
     width: 100px;
-    height: 40px;
     position: absolute;
-    top: 140px;
+    top: 150px;
     right: -70px;
   }
   .imgChange5{
@@ -1554,75 +1563,65 @@ h3.booktitle {
     right: -100px;
   }
   .imgChange6{
-    width: 100px;
-    height: 40px; 
+    width: 100px; 
     position: absolute;
     top: 280px;
     right: -75px;
   }
   .imgChange7{
     width: 100px;
-    height: 40px;
     position: absolute;
     right: -50px;
     top: 340px;
   }
   .imgChange8{
     width: 100px;
-    height: 40px;
     position: absolute;
     top: 385px;
     right: 20px;
   }
   .imgChange9{
-    height: 40px;
     position: absolute;
     top: 420px;
   }
   .imgChange10{
     width: 100px;
-    height: 40px;
     position: absolute;
     top: 385px;
     left: 70px;
   }
   .imgChange11{
-    width: 100px;
-    height: 40px;  
+    width: 100px;  
     position: absolute;
     top: 340px;
-    left: -20px;
+    left: -30px;
   }
   .imgChange12{
     width: 100px;
-    height: 40px;
     position: absolute;
     top: 285px;
-    left: -40px;
+    left: -65px;
   }
   .imgChange13{
     position: absolute;
-    left: -45px;
+    left: -55px;
   }
   .imgChange14{
     width: 100px;
-    height: 40px;
     position: absolute;
-    top: 140px;
-    left: -25px;
+    top: 150px;
+    left: -40px;
   }
   .imgChange15{
-    width: 100px;
-    height: 40px; 
+    width: 100px; 
     position: absolute;
     top: 80px;
-    left: -10px;
+    left: -30px;
   }
   .imgChange16{
     width: 100px;
-    height: 40px;
     position: absolute;
-    top: 40px;
+    top: 45px;
     left: 60px;
   }
   #colophon {

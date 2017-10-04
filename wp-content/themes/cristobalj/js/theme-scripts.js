@@ -30,7 +30,6 @@ jQuery(document).ready(function(){
       }
     }
   }
-
   // Add text to more information buttons on agenda 
   let eventbutton = document.getElementsByClassName('event-button');
   let eventbuy = document.getElementsByClassName('event-buy');
@@ -190,6 +189,10 @@ jQuery(document).ready(function(){
 
   // Change images on Know more banner
   (function($) {
+    // Prevent know more 'a' tags to redirect
+    $("#bigkmoreContainer a").click(function(event){
+      event.preventDefault();
+    });
     var templateUrl = object_name.templateUrl;
     $('.imgChange1').mouseover(function() {
       $('.bigkmoreContainer img').css('background-image', 'url('+templateUrl+'/images/cristobal/12.jpg)');
