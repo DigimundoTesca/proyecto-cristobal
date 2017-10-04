@@ -8,23 +8,25 @@ get_header(); ?>
   <main id="main" class="site-main">
     <div id="kmorebannercontainer">
       <img id="knowmore" class="mobilekmore" src="<?php echo get_template_directory_uri(); ?>/images/kmore.jpg" alt="banner know more">
-      <img id="knowmore bigmorebanner" class="bigkmore" src="<?php echo get_template_directory_uri(); ?>/images/morebck.png" alt="banner know more">
-      <div class="imgChange1"></div>
-      <div class="imgChange2"></div>
-      <div class="imgChange3"></div>
-      <div class="imgChange4"></div>
-      <div class="imgChange5"></div>
-      <div class="imgChange6"></div>
-      <div class="imgChange7"></div>
-      <div class="imgChange8"></div>
-      <div class="imgChange9"></div>
-      <div class="imgChange10"></div>
-      <div class="imgChange11"></div>
-      <div class="imgChange12"></div>
-      <div class="imgChange13"></div>
-      <div class="imgChange14"></div>
-      <div class="imgChange15"></div>
-      <div class="imgChange16"></div>
+      <div class="bigkmoreContainer">
+        <img id="knowmore bigmorebanner" class="bigkmore" src="<?php echo get_template_directory_uri(); ?>/images/another.png" alt="banner know more">
+        <div class="imgChange1"></div>
+        <div class="imgChange2"></div>
+        <div class="imgChange3"></div>
+        <div class="imgChange4"></div>
+        <div class="imgChange5"></div>
+        <div class="imgChange6"></div>
+        <div class="imgChange7"></div>
+        <div class="imgChange8"></div>
+        <div class="imgChange9"></div>
+        <div class="imgChange10"></div>
+        <div class="imgChange11"></div>
+        <div class="imgChange12"></div>
+        <div class="imgChange13"></div>
+        <div class="imgChange14"></div>
+        <div class="imgChange15"></div>
+        <div class="imgChange16"></div>
+      </div>
     </div>
 
 

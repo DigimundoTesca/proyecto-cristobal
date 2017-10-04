@@ -1324,12 +1324,11 @@ label.es_shortcode_form_email span {
   max-width: 500px;
   margin: auto;
   margin-top: 20px;
-  background-color: red;
 }
 .mobilekmore {
   display: block;
 }
-.bigkmore {
+.bigkmoreContainer {
   display: none;
 }
 #secondarybannercontainer {
@@ -1490,11 +1489,32 @@ h3.booktitle {
     margin: 2.5%;
   }
   /*Div selector for change images on Know more section banner*/
+  #kmorebannercontainer {
+    display: flex;
+    flex-direction: row;
+    height: 450px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
   .mobilekmore {
     display: none;
   }
-  .bigkmore {
-    display: block;
+  .bigkmoreContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: auto;
+    margin: auto;
+  }
+  .bigkmoreContainer img {
+    height: 85%;
+    width: auto;
+    background-image: url(images/cristobal/2.jpg);
+    background-size: cover;
+    background-position: center center;
   }
   .imgChange1{
     width: 180px;

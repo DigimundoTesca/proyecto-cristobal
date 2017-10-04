@@ -147,7 +147,7 @@ jQuery(document).ready(function(){
   // Moving images for banners
   (function($) {
     $('.mobilekmore').addClass('animated zoomIn');
-    $('.bigkmore').addClass('animated zoomIn');
+    $('.bigkmoreContainer').addClass('animated zoomIn');
     // Slider on biography page
     $(".rslides").responsiveSlides({
       auto: true,
@@ -189,9 +189,10 @@ jQuery(document).ready(function(){
 
 
   // Change images on Know more banner
-    (function($) {
-  $('#imgChange1').hover(function() {
-    document.getElementById('#bigmorebanner').style.backgroundImage = '../images/cristobal/10.jpg';
+  (function($) {
+    $('#imgChange1').mousedown(function() {
+    // $('#bigmorebanner').css('background', 'url('../images/cristobal/2.jpg')');
+    document.getElementById('#bigmorebanner').style.backgroundImage = '../images/cristobal/2.jpg';
     console.log('Image changed');
   });
   })(jQuery);
