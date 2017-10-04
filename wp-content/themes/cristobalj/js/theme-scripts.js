@@ -30,14 +30,15 @@ jQuery(document).ready(function(){
       }
     }
   }
-
   // Add text to more information buttons on agenda 
   let eventbutton = document.getElementsByClassName('event-button');
+  let eventbuy = document.getElementsByClassName('event-buy');
   let k = 0;
   for (; k < eventbutton.length; k++) {
     if (window.location.pathname == '/Cristobal/') {
       for (l = 0; l < eventbutton.length; l++) {
         document.getElementsByClassName('event-button')[l].innerHTML = 'Más información';
+        document.getElementsByClassName('event-buy')[l].innerHTML = 'Compra tu ticket';
       }
     }
     else if (window.location.pathname == '/Cristobal/it/') {
@@ -124,9 +125,28 @@ jQuery(document).ready(function(){
     }
   }
 
+  // Moddify footer width
   (function($) {
-    // Moving images for banners
-    $('#knowmore').addClass('animated zoomIn');
+    if(document.getElementById('datesContainer')){ 
+      let datewidth = document.getElementById('datesContainer').offsetWidth;
+      let circlewidth = document.getElementById('circles');
+
+      circlewidth.style.width = datewidth + 'px';
+      $(window).resize(function(){
+        let datewidth = document.getElementById('datesContainer').offsetWidth;
+        let circlewidth = document.getElementById('circles');
+
+        circlewidth.style.width = datewidth + 'px';
+      });
+    }
+  })(jQuery);
+
+
+
+  // Moving images for banners
+  (function($) {
+    $('.mobilekmore').addClass('animated zoomIn');
+    $('.bigkmoreContainer').addClass('animated zoomIn');
     // Slider on biography page
     $(".rslides").responsiveSlides({
       auto: true,
@@ -156,15 +176,73 @@ jQuery(document).ready(function(){
   let the_color=['#175d39','#d39b00'];
   let c= 0;
   let length1 = booktitle.length;
-    for(c; c<length1; c++)
-    {
-      if (c%2 === 0) {
-        booktitle[c].style.backgroundColor = the_color[2];
-      }
-      else {
-        booktitle[c].style.backgroundColor = the_color[1];
-      }
+  for(c; c<length1; c++)
+  {
+    if (c%2 === 0) {
+      booktitle[c].style.backgroundColor = the_color[2];
     }
+    else {
+      booktitle[c].style.backgroundColor = the_color[1];
+    }
+  }
+
+
+  // Change images on Know more banner
+  (function($) {
+    // Prevent know more 'a' tags to redirect
+    $("#bigkmoreContainer a").click(function(event){
+      event.preventDefault();
+    });
+    var templateUrl = object_name.templateUrl;
+    $('.imgChange1').mouseover(function() {
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUrl+'/images/cristobal/12.jpg)');
+    });
+    $('.imgChange2').mouseover(function() {
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUrl+'/images/cristobal/3.jpg)');
+    });
+    $('.imgChange3').mouseover(function() {
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUrl+'/images/cristobal/5.jpg)');
+    });
+    $('.imgChange4').mouseover(function() {
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUrl+'/images/cristobal/7.jpg)');
+    });
+    $('.imgChange5').mouseover(function() {
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUrl+'/images/cristobal/11.jpg)');
+    });
+    $('.imgChange6').mouseover(function() {
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUrl+'/images/cristobal/13.jpg)');
+    });
+    $('.imgChange7').mouseover(function() {
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUrl+'/images/cristobal/23.jpg)');
+    });
+    $('.imgChange8').mouseover(function() {
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUrl+'/images/cristobal/33.jpg)');
+    });
+    $('.imgChange9').mouseover(function() {
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUrl+'/images/cristobal/42.jpg)');
+    });
+    $('.imgChange10').mouseover(function() {
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUrl+'/images/cristobal/37.jpg)');
+    });
+    $('.imgChange11').mouseover(function() {
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUrl+'/images/cristobal/50.jpg)');
+    });
+    $('.imgChange12').mouseover(function() {
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUrl+'/images/cristobal/53.jpg)');
+    });
+    $('.imgChange13').mouseover(function() {
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUrl+'/images/cristobal/10.jpg)');
+    });
+    $('.imgChange14').mouseover(function() {
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUrl+'/images/cristobal/23.jpg)');
+    });
+    $('.imgChange15').mouseover(function() {
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUrl+'/images/cristobal/27.jpg)');
+    });
+    $('.imgChange16').mouseover(function() {
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUrl+'/images/cristobal/20.jpg)');
+    });
+  })(jQuery);
 
 
 });

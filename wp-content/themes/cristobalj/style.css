@@ -1042,14 +1042,12 @@ img#metabannerbig {
 #banner::before {
   content: '';
   width: 100%;
-  background-image: linear-gradient(to right,#FFF 5%,transparent 100%);
-  opacity: ; 
+  background-image: linear-gradient(to right,#FFF 20%,transparent 80%);
 }
 #banner1::before {
   content: '';
   width: 100%;
-  background-image: linear-gradient(to right,#FFF 5%,transparent 100%);
-  opacity: ; 
+  background-image: linear-gradient(to right,#FFF 20%,transparent 80%);
 }
 .bannermobile {
   display: flex;
@@ -1078,14 +1076,22 @@ h2.bannertitle {
 }
 p.quote {
   font-size: 15px;
-  font-family: 'Gotham-Light';
+  font-family: 'Gotham-Book';
+}
+p.name {
+  font-weight: bold;
+  font-family: 'Gotham-Book';
 }
 label.es_shortcode_form_email {
   font-size: 12px;
 }
+label.es_shortcode_form_email {
+  font-family: 'Gotham-Light';
+}
 label.es_shortcode_form_email span {
   font-size: 15px;
   font-weight: bold;
+  font-family: 'Gotham-Medium';
 }
 .es_button {
   display: inline;
@@ -1144,7 +1150,7 @@ label.es_shortcode_form_email span {
   font-weight: normal;
 }
 #mainContainer h3 {
-  font-size: 23pt;
+  font-size: 23px;
   margin: 0;
   padding: 0;
   margin-top: 20px;
@@ -1152,7 +1158,7 @@ label.es_shortcode_form_email span {
 }
 #mainContainer p {
   margin: 0;
-  line-height: 23pt;
+  text-align: left;
 }
 #mainContainer.biog p:first-of-type {
   margin-top: 20px;
@@ -1212,7 +1218,6 @@ label.es_shortcode_form_email span {
 .mainbannercontent {
   width: 230px;
   height: 230px;
-  margin: 10px auto;
 }
 .mainbannercontent:first-child {
   margin-top: 0;
@@ -1311,6 +1316,7 @@ label.es_shortcode_form_email span {
   width: 100%;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 #knowmore {
   width: 100%;
@@ -1319,13 +1325,21 @@ label.es_shortcode_form_email span {
   margin: auto;
   margin-top: 20px;
 }
+.mobilekmore {
+  display: block;
+}
+.bigkmoreContainer {
+  display: none;
+}
 #secondarybannercontainer {
   display: inline-flex;
   margin: 0;
+  margin-bottom: 50px;
   flex-wrap: wrap;
   flex-direction: row;
   width: 100%;
   align-items: baseline;
+  justify-content: space-evenly;
 }
 .biotitle, .moretitle {
   font-weight: 200 !important;
@@ -1351,8 +1365,7 @@ label.es_shortcode_form_email span {
 }
 #mainContainer.more p {
   margin: 3% 0;
-  word-spacing: 10px;
-  line-height: 30px;
+  word-spacing: 5px;
 }
 /*Styles for events on main page*/
 .css-events-list {
@@ -1366,19 +1379,40 @@ label.es_shortcode_form_email span {
   border-radius: 50px;
 }
 .events-container {
+  width: 95%;
+  margin: 0 auto;
   padding: 10px 0;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid #000;
 }
 .events-container > * {
   display: inline-block;
 }
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 70px;
+  justify-content: space-between;
+}
+.buttons-container a {
+  font-size: 14px;
+}
 .events-container .event-button {
+  font-family: 'GothamRounded-Book';
   border: 1px solid #000;
+  width: 200px;
+  color: #000;
+  text-align: center;
+}
+.events-container .event-buy {
+  font-family: 'GothamRounded-Bold';
+  border: 1px solid #92b541;
+  background-color: #92b541;
+  color: #FFF;
   width: 200px;
   text-align: center;
 }
@@ -1405,18 +1439,26 @@ h3.booktitle {
   color: #FFFFFF;
   text-align: center;
 }
+.mainProjectContainer:last-of-type {
+  margin-bottom: 50px;
+}
 .bookimg {
   width: 280px;
   height: auto;
-  overflow: hidden;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  perspective: 1000px;
 }
 .bookimg img {
   height: 100%;
+  width: auto;
+  transform: rotate(-15deg) rotateX(30deg);
+}
+.single-book img {
+  transform: none;
 }
 .bookdescription {
   display: flex;
@@ -1446,20 +1488,161 @@ h3.booktitle {
   body {
     margin: 2.5%;
   }
+  /*Div selector for change images on Know more section banner*/
+  #kmorebannercontainer {
+    display: flex;
+    flex-direction: row;
+    height: 450px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .mobilekmore {
+    display: none;
+  }
+  .bigkmoreContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 400px;
+    margin: auto;
+    position: relative;
+  }
+  .bigkmoreContainer a {
+    color: #000;
+  }
+  .bigkmoreContainer img {
+    height: 85%;
+    width: auto;
+    background-image: url(images/cristobal/12.jpg);
+    background-size: cover;
+    background-position: center center;
+  }
+  .textBig {
+    font-family: 'GothamRounded-Bold';
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+  .textSmall {
+    font-family: 'GothamRounded-Light';
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  .imgChange1{
+    width: auto;
+    height: 30px; 
+    position: absolute;
+    top: 7px;
+    z-index: 10;
+  }
+  .imgChange2{
+    width: auto;
+    height: auto; 
+    position: absolute;
+    right: 100px;
+    top: 45px;
+  }
+  .imgChange3{
+    width: 100px;
+    position: absolute;
+    top: 80px;
+    right: -50px;
+  }
+  .imgChange4{
+    width: 100px;
+    position: absolute;
+    top: 150px;
+    right: -70px;
+  }
+  .imgChange5{
+    width: 100px;
+    position: absolute;
+    right: -100px;
+  }
+  .imgChange6{
+    width: 100px; 
+    position: absolute;
+    top: 280px;
+    right: -75px;
+  }
+  .imgChange7{
+    width: 100px;
+    position: absolute;
+    right: -50px;
+    top: 340px;
+  }
+  .imgChange8{
+    width: 100px;
+    position: absolute;
+    top: 385px;
+    right: 20px;
+  }
+  .imgChange9{
+    position: absolute;
+    top: 420px;
+  }
+  .imgChange10{
+    width: 100px;
+    position: absolute;
+    top: 385px;
+    left: 70px;
+  }
+  .imgChange11{
+    width: 100px;  
+    position: absolute;
+    top: 340px;
+    left: -30px;
+  }
+  .imgChange12{
+    width: 100px;
+    position: absolute;
+    top: 285px;
+    left: -65px;
+  }
+  .imgChange13{
+    position: absolute;
+    left: -55px;
+  }
+  .imgChange14{
+    width: 100px;
+    position: absolute;
+    top: 150px;
+    left: -40px;
+  }
+  .imgChange15{
+    width: 100px; 
+    position: absolute;
+    top: 80px;
+    left: -30px;
+  }
+  .imgChange16{
+    width: 100px;
+    position: absolute;
+    top: 45px;
+    left: 60px;
+  }
+  #colophon {
+    display: flex;
+    flex-direction: column;
+  }
   #page {
     max-width: 1000px;
   }
   #circles {
     flex-direction: column;
+    align-self: flex-end;
   }
   #circles .circlecontent .circle {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
   }
   #circles .circlecontent .text {
     margin-left: 30px;
     width: 400px;
-    font-size: 30px;
+    font-size: 25px;
   }
   /*Styles for Branding*/
   .site-branding {
@@ -1481,18 +1664,21 @@ h3.booktitle {
     color: #000000;
   }
   .site-title {
-    font-size: 20pt;
-    line-height: 40pt;
+    font-size: 25px;
+    line-height: 40px;
     margin-left: 25px;
     padding: 3px;
+    padding-bottom: 15px;
+    word-spacing: 10px;
   }
   .title-caps {
-    font-size: 30pt;
+    font-size: 35px;
   }
   /*Hide language menu*/
   #langbar {
     display: flex;
-    position: relative;
+    position: absolute;
+    left: calc(100% - 350px);
   }
   #langbar section {
     margin: 0;
@@ -1608,7 +1794,7 @@ h3.booktitle {
     width: 45%;
     max-width: 320px;
     height: 400px;
-    margin-left: 25px;
+    margin-left: calc(5%);
   }
   .mobilecontainer {
     display: none;
@@ -1659,7 +1845,8 @@ h3.booktitle {
   #es_txt_button_pg {
     font-size: 12px;
     line-height: inherit;
-    margin-left: 10px;
+    margin-left: 0px;
+    margin-top: 5px;
   }
   /*Bio page slider styles*/
   .rslides {
@@ -1674,7 +1861,8 @@ h3.booktitle {
   .mainbannercontent {
     width: 250px;
     height: 250px;
-    margin: 10px auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
   }
   .mainbannercontent .metmundo {
     border: 2px solid #be0211;
@@ -1781,14 +1969,13 @@ h3.booktitle {
     margin-top: 15px;
   }
   .bookimg {
-    overflow: hidden;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .bookimg img {
-    height: 100%;
+    height: 330px;
   }
   .bookdescription {
     width: 65%;
@@ -1810,12 +1997,27 @@ h3.booktitle {
     flex-direction: row;
     flex-wrap: nowrap;
   }
+  .bannercontainer {
+    max-width: 380px;
+  }
   #mainbannercontainer {
     width: min-content;
+  }
+  #mainContainer h3 {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 50px;
+    line-height: 60px;
   }
   #datesContainer {
     max-height: inherit;
     margin-bottom: 0px;
+  }
+  .events-container .date-addres {
+    font-size: 20px;
+  }
+  .events-container .date-addres span {
+    font-size: 25px;
   }
   /*Bio page slider styles*/
   .rslides {
@@ -1832,10 +2034,13 @@ h3.booktitle {
     flex-direction: row;
     flex-wrap: nowrap;
   }
+  #circles .circlecontent {
+    width: 30%;
+  }
   #circles .circlecontent .text {
     margin-left: 30px;
     width: 200px;
-    font-size: 30px;
+    font-size: 20px;
   }
 }
 
@@ -1850,7 +2055,7 @@ h3.booktitle {
   }
   #circles {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   #circles .circlecontent .circle {
     font-size: 25px;
@@ -1860,7 +2065,7 @@ h3.booktitle {
   #circles .circlecontent .text {
     margin-left: 15px;
     width: 200px;
-    font-size: 25px;
+    font-size: 20px;
   }
   /*Styles for main menu navigation*/
   .main-navigation a {
@@ -1878,6 +2083,7 @@ h3.booktitle {
   }
   .bannercontainer {
     height: 500px;
+    margin-left: calc(10%);
   }
   /*Banner text´s styles*/
   h2.bannertitle {
@@ -1890,6 +2096,9 @@ h3.booktitle {
   #es_txt_button_pg {
     width: auto;
     margin-left: 10px;
+  }
+  #datesContainer h3 {
+    font-size: 48px;
   }
   /*Social menu*/
   #social li {
@@ -1907,17 +2116,20 @@ h3.booktitle {
     width: 80%;
     height: 600px;
     margin: 0 10%;
+    margin-bottom: 50px;
   }
   #mainbannercontainer {
-    width: 450px;
+    width: initial;
+    margin: 0;
   }
   #datesContainer {
     width: 100%;
-    max-width: 1000px;
-    margin-right: 0;
+    max-width: 890px;
+    margin: 0;
   }
   #mainpage {
     flex-direction: row;
+    justify-content: space-around;
   }
   #knowmore {
     max-width: 800px;
@@ -1940,6 +2152,7 @@ h3.booktitle {
   .mainProjectContainer {
     width: 80%;
     margin: 0 auto;
+    margin-top: 50px;
   }
 }
 
@@ -1957,5 +2170,10 @@ h3.booktitle {
     text-decoration: none;
     color: #FFF;
     padding: 5px;
+  }
+  /*Hide language menu*/
+  #langbar {
+    position: relative;
+    left: 250px;
   }
 }

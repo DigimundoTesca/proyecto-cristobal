@@ -135,25 +135,28 @@ function cristobalj_scripts() {
 	wp_enqueue_script( 'classie', get_template_directory_uri() . '/js/classie.js', array(), '', true );
 	wp_enqueue_script( 'slide', get_template_directory_uri() . '/js/responsiveslides.min.js', array(), '', true );
 	wp_enqueue_script( 'themejs', get_template_directory_uri() . '/js/theme-scripts.js', array(), '', true );
-	
+  $translation_array = array( 'templateUrl' => get_stylesheet_directory_uri() );
+//after wp_enqueue_script
+  wp_localize_script( 'themejs', 'object_name', $translation_array );
+
   wp_enqueue_script('jquery');
-	
 
-	wp_enqueue_script( 'cristobalj-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20170818', true );
-	wp_enqueue_style( 'cristobalj-style', get_stylesheet_uri() );
 
-	wp_enqueue_script( 'cristobalj-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20170818', true );
+  wp_enqueue_script( 'cristobalj-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20170818', true );
+  wp_enqueue_style( 'cristobalj-style', get_stylesheet_uri() );
 
-	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
-		wp_enqueue_script( 'comment-reply' );
-	}
+  wp_enqueue_script( 'cristobalj-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20170818', true );
+
+  if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
+    wp_enqueue_script( 'comment-reply' );
+  }
 }
 add_action( 'wp_enqueue_scripts', 'cristobalj_scripts' );
 
 /**
  * Custom post type for books.
  */
- add_action( 'init', 'book_projects' );
+add_action( 'init', 'book_projects' );
 function book_projects() {
   $labels = array(
     'name'               => _x( 'Books', 'blog' ),
@@ -197,7 +200,7 @@ function book_projects() {
  /**
  * Implement the Custom Header feature.
  */
-require get_template_directory() . '/inc/custom-header.php';
+ require get_template_directory() . '/inc/custom-header.php';
 
 /**
  * Custom template tags for this theme.
