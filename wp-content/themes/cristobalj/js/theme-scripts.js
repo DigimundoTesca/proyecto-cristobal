@@ -190,10 +190,13 @@ jQuery(document).ready(function(){
 
   // Change images on Know more banner
   (function($) {
-    $('#imgChange1').mousedown(function() {
-    // $('#bigmorebanner').css('background', 'url('../images/cristobal/2.jpg')');
-    document.getElementById('#bigmorebanner').style.backgroundImage = '../images/cristobal/2.jpg';
+    var templateUrl = object_name.templateUrl;
+    $('.imgChange1').mousedown(function() {
+    // $('.bigkmore').css('background', 'red');
+    $('.bigkmoreContainer img').css('background-image', 'url('+templateUrl+'/images/cristobal/12.jpg)');
+    // document.getElementById('#bigmorebanner').style.backgroundImage = '../images/cristobal/2.jpg';
     console.log('Image changed');
+    console.log(templateUrl);
   });
   })(jQuery);
 
