@@ -10,22 +10,22 @@ get_header(); ?>
       <img id="knowmore" class="mobilekmore" src="<?php echo get_template_directory_uri(); ?>/images/kmore.jpg" alt="banner know more">
       <div class="bigkmoreContainer">
         <img id="knowmore bigmorebanner" class="bigkmore" src="<?php echo get_template_directory_uri(); ?>/images/another.png" alt="banner know more">
-        <a href="#" class="imgChange1"></a>
-        <a href="#" class="imgChange2"></a>
-        <a href="#" class="imgChange3"></a>
-        <a href="#" class="imgChange4"></a>
-        <a href="#" class="imgChange5"></a>
-        <a href="#" class="imgChange6"></a>
-        <a href="#" class="imgChange7"></a>
-        <a href="#" class="imgChange8"></a>
-        <a href="#" class="imgChange9"></a>
-        <a href="#" class="imgChange10"></a>
-        <a href="#" class="imgChange11"></a>
-        <a href="#" class="imgChange12"></a>
-        <a href="#" class="imgChange13"></a>
-        <a href="#" class="imgChange14"></a>
-        <a href="#" class="imgChange15"></a>
-        <a href="#" class="imgChange16"></a>
+        <a href="#" class="imgChange1 textBig">Psicoteatro</a>
+        <a href="#" class="imgChange2 textSmall">BIO</a>
+        <a href="#" class="imgChange3 textBig">Psicochamanismo</a>
+        <a href="#" class="imgChange4 textSmall">Talleres</a>
+        <a href="#" class="imgChange5 textBig">Metagenealogía</a>
+        <a href="#" class="imgChange6 textSmall">Teatro</a>
+        <a href="#" class="imgChange7 textBig">Investigación</a>
+        <a href="#" class="imgChange8 textSmall">Cine</a>
+        <a href="#" class="imgChange9 textBig">Tarot</a>
+        <a href="#" class="imgChange10 textSmall">Videos</a>
+        <a href="#" class="imgChange11 textBig">Estudios</a>
+        <a href="#" class="imgChange12 textSmall">Maestros</a>
+        <a href="#" class="imgChange13 textBig">Viajes</a>
+        <a href="#" class="imgChange14 textSmall">Prensa</a>
+        <a href="#" class="imgChange15 textBig">Pinturas</a>
+        <a href="#" class="imgChange16 textSmall">Poesías</a>
       </div>
     </div>
 
