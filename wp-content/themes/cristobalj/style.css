@@ -2157,6 +2157,19 @@ h3.booktitle {
     margin: 0 auto;
     margin-top: 50px;
   }
+  .bookimg {
+    width: 280px;
+    height: 250px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    perspective: 1000px;
+  }
+  .bookimg img {
+    height: 250px;
+  }
 }
 
 @media screen and (min-width: 1300px) {
@@ -2178,5 +2191,8 @@ h3.booktitle {
   #langbar {
     position: relative;
     left: 250px;
+  }
+  .bookimg img {
+    height: 300px;
   }
 }
