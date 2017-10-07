@@ -1968,6 +1968,8 @@ h3.booktitle {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 90%;
+    max-width: 1000px;
   }
   .mainProjectContainer {
     min-height: 340px;
@@ -2168,7 +2170,6 @@ h3.booktitle {
   }
   /*Books CPT styles*/
   .mainProjectContainer {
-    width: 80%;
     margin: 0 auto;
     margin-top: 50px;
   }
