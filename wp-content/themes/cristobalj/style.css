@@ -2172,6 +2172,7 @@ h3.booktitle {
   .mainProjectContainer {
     margin: 0 auto;
     margin-top: 50px;
+    width: 100%;
   }
   .bookimg {
     width: 280px;
