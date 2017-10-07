@@ -1444,7 +1444,7 @@ h3.booktitle {
 }
 .bookimg {
   width: 280px;
-  height: auto;
+  height: 220px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -1455,7 +1455,7 @@ h3.booktitle {
 .bookimg img {
   height: 100%;
   width: auto;
-  transform: rotate(-15deg) rotateX(30deg);
+  transform: rotate(-25deg) rotateX(40deg);
 }
 .single-book img {
   transform: none;
@@ -1463,6 +1463,7 @@ h3.booktitle {
 .bookdescription {
   display: flex;
   flex-direction: column;
+  margin-top: 20px;
 }
 .post_button {
   border: 1px solid #175d39;
@@ -1975,7 +1976,9 @@ h3.booktitle {
     align-items: center;
   }
   .bookimg img {
-    height: 330px;
+    height: 280px;
+    top: -70px;
+    position: absolute;
   }
   .bookdescription {
     width: 65%;
