@@ -1148,6 +1148,7 @@ label.es_shortcode_form_email span {
 #mainContainer {
   font-family: 'Gotham Rounded';
   font-weight: normal;
+  text-align: center;
 }
 #mainContainer h3 {
   font-size: 23px;
@@ -1444,7 +1445,7 @@ h3.booktitle {
 }
 .bookimg {
   width: 280px;
-  height: auto;
+  height: 220px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -1455,14 +1456,17 @@ h3.booktitle {
 .bookimg img {
   height: 100%;
   width: auto;
-  transform: rotate(-15deg) rotateX(30deg);
+  /*transform: rotate(-25deg) rotateX(40deg);*/
 }
 .single-book img {
   transform: none;
+  position: relative !important;
+  top: 0 !important;
 }
 .bookdescription {
   display: flex;
   flex-direction: column;
+  margin-top: 20px;
 }
 .post_button {
   border: 1px solid #175d39;
@@ -1959,6 +1963,20 @@ h3.booktitle {
     text-align: right;
     padding-right: 30px !important;
   }
+  #mainProjects {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 1000px;
+  }
+  .mainProjectContainer {
+    min-height: 340px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+  }
   .bookcontainer {
     width: 100%;
     display: flex;
@@ -1975,7 +1993,9 @@ h3.booktitle {
     align-items: center;
   }
   .bookimg img {
-    height: 330px;
+    height: 280px;
+    top: -70px;
+    position: absolute;
   }
   .bookdescription {
     width: 65%;
@@ -2005,7 +2025,7 @@ h3.booktitle {
   }
   #mainContainer h3 {
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 0;
     font-size: 50px;
     line-height: 60px;
   }
@@ -2150,9 +2170,22 @@ h3.booktitle {
   }
   /*Books CPT styles*/
   .mainProjectContainer {
-    width: 80%;
     margin: 0 auto;
     margin-top: 50px;
+    width: 100%;
+  }
+  .bookimg {
+    width: 280px;
+    height: 250px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    perspective: 1000px;
+  }
+  .bookimg img {
+    height: 250px;
   }
 }
 
@@ -2175,5 +2208,8 @@ h3.booktitle {
   #langbar {
     position: relative;
     left: 250px;
+  }
+  .bookimg img {
+    height: 300px;
   }
 }
