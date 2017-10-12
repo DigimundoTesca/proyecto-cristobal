@@ -2073,6 +2073,19 @@ h3.booktitle {
     width: 200px;
     font-size: 20px;
   }
+  /*Metamundo page styles*/
+  .metabannertext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+  }
+  p.metaquote {
+    font-weight: 200;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: justify !important;
+  }
 }
 
 
