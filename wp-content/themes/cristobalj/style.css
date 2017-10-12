@@ -1016,7 +1016,6 @@ span {
   background-position: top right;
   background-repeat: no-repeat;
   background-size: cover;
-  border-bottom: 3px solid #7D7D7D;
   height: 300px;
 }
 #metabanner1welcome {
@@ -1041,7 +1040,7 @@ p.metaquote.name {
   align-self: flex-end;
 }
 img#metabannerbig {
-  width: 40%;
+  width: 50%;
 }
 #metabanner1,
 #metabanner1welcome {
@@ -1875,7 +1874,6 @@ h3.booktitle {
   .metacontainer {
     position: relative;
     margin: 0;
-    margin-left: 30px;
     width: 50%;
     height: auto !important;
   }
@@ -2181,7 +2179,6 @@ h3.booktitle {
   }
   .bannercontainer {
     height: 500px;
-    margin-left: calc(10%);
   }
   /*Banner text´s styles*/
   h2.bannertitle {
