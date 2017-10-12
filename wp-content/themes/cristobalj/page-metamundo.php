@@ -26,6 +26,29 @@ get_header(); ?>
         </div>
       </div>
     </div>
+    <!-- Welcome banner -->
+    <div class="welcome">
+      <img id="metabannerwelcome"  src="<?php echo get_template_directory_uri(); ?>/images/metabanner.jpg" alt="METAMUNDO image">
+      <div class="mobilecontainerwelcome">
+        <div class="bannertext">
+          <h2 class="bannertitle second">
+            <?php printf(__('"Here you can put a phrase from Cristobal"','cristobalj')) ?>
+          </h2>
+          <p class="quote metaquote name"><?php printf(__('Cristobal Jodorowsky','cristobalj')) ?></p>
+        </div>
+      </div>
+    </div>
+    <div id="metabanner1welcome" class="metabannerbig">
+      <img id="metabannerbig"  src="<?php echo get_template_directory_uri(); ?>/images/metabanner.jpg" alt="METAMUNDO image">
+      <div class="bannercontainer metacontainer">
+        <div class="metabannertext">
+          <h2 class="bannertitle second">
+            <?php printf(__('"Here you can put a phrase from es people"','cristobalj')) ?>
+          </h2>
+          <p class="quote metaquote name"><?php printf(__('Cristobal Jodorowsky','cristobalj')) ?></p>
+        </div>
+      </div>
+    </div>
 
 
     <div class="mainpage" id="mainpage">

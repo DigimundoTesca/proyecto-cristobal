@@ -1019,16 +1019,38 @@ span {
   border-bottom: 3px solid #7D7D7D;
   height: 300px;
 }
+#metabanner1welcome {
+  background-color: #FFF;
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: none;
+  height: inherit;
+  margin-top: 50px;
+  padding: 0 !important;
+}
 p.metaquote {
   font-weight: 200;
   font-size: 22px !important;
   text-align: justify !important;
 }
+p.metaquote.name {
+  font-weight: 200;
+  font-size: 22px !important;
+  line-height: 27px;
+  align-self: flex-end;
+}
 img#metabannerbig {
   width: 40%;
 }
-#metabanner1 {
+#metabanner1,
+#metabanner1welcome {
   display: none;
+}
+#metabanner1welcome img#metabannerbig {
+  width: 65%;
+  height: auto;
+  background-color: #FFF;
 }
 /*Styles for Main-banner*/
 #banner,
@@ -1038,6 +1060,9 @@ img#metabannerbig {
   background-position: top right;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.welcome {
+  /*display: */
 }
 #banner::before {
   content: '';
@@ -1066,6 +1091,21 @@ img#metabannerbig {
   font-family: 'Gotham Rounded';
   display: initial;
 }
+.mobilecontainerwelcome,
+#metabanner1welcome  {
+  font-family: 'Gotham Rounded';
+  background-color: #be0211;
+  color: #FFF;
+  padding: 30px 0;
+}
+.mobilecontainerwelcome h2,
+.mobilecontainerwelcome p {
+  padding: 0;
+  margin: 0;
+}
+.mobilecontainerwelcome p {
+  padding-top: 20px;
+}
 /*Banner text´s styles*/
 .mobilecontainer .bannertext {
   text-align: center;
@@ -1073,6 +1113,11 @@ img#metabannerbig {
 h2.bannertitle {
   font-size: 20px;
   letter-spacing: 4px;
+}
+h2.bannertitle.second {
+  font-size: 34px;
+  letter-spacing: 0;
+  line-height: 44px;
 }
 p.quote {
   font-size: 15px;
@@ -1801,13 +1846,16 @@ h3.booktitle {
     height: 400px;
     margin-left: calc(5%);
   }
-  .mobilecontainer {
+  .mobilecontainer,
+  .mobilecontainerwelcome {
     display: none;
   }
-  #metabanner {
+  #metabanner,
+  #metabannerwelcome {
     display: none;
   }
-  #metabanner1 {
+  #metabanner1,
+  #metabanner1welcome {
     display: flex;
     justify-content: space-around;
   }
@@ -1817,6 +1865,12 @@ h3.booktitle {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+  }
+  #metabanner1welcome .metacontainer {
+    position: relative;
+    margin: 0 20px;
+    width: 30%;
+    height: auto !important;
   }
   .metacontainer {
     position: relative;
@@ -2191,6 +2245,12 @@ h3.booktitle {
   #metabanner1 {
     height: 400px;
     justify-content: space-around;
+  }
+  #metabanner1welcome {
+    height: inherit;
+    justify-content: space-between;
+    background-color: #be0211;
+    color: #FFF;
   }
   /*Books CPT styles*/
   .mainProjectContainer {
