@@ -1060,8 +1060,9 @@ img#metabannerbig {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.welcome {
-  /*display: */
+#metabanner1welcome > *,
+.welcome > * {
+  font-family: 'GothamRounded-Medium' !important;
 }
 #banner::before {
   content: '';

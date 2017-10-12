@@ -43,7 +43,7 @@ get_header(); ?>
       <div class="bannercontainer metacontainer">
         <div class="metabannertext">
           <h2 class="bannertitle second">
-            <?php printf(__('"Here you can put a phrase from es people"','cristobalj')) ?>
+            <?php printf(__('"Here you can put a phrase from Cristobal"','cristobalj')) ?>
           </h2>
           <p class="quote metaquote name"><?php printf(__('Cristobal Jodorowsky','cristobalj')) ?></p>
         </div>
