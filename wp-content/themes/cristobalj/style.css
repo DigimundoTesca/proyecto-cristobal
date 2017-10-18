@@ -1563,15 +1563,16 @@ h3.booktitle {
   content: '\f061  ';
 }
 #certificate h4 {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   font-weight: bold;
   color: #000;
   font-size: 20px;
   margin: 10px 10px;
 }
 #certificate h4::after {
-  font-family: 'fontawesome';
-  content: '  \f0a3';
-  color: #be0211;
+  content: url("images/ribbon.png");
 }
 .blockTitle {
   font-size: 30px;
@@ -2167,11 +2168,6 @@ h3.booktitle {
     color: #000;
     font-size: 24px;
     margin: 10px 10px;
-  }
-  #certificate h4::after {
-    font-family: 'fontawesome';
-    content: '  \f0a3';
-    color: #be0211;
   }
   .blockTitle {
     font-size: 40px;
