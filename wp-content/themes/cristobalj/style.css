@@ -44,7 +44,7 @@ select,
 optgroup,
 textarea {
   color: #404040;
-  font-family: sans-serif;
+  font-family: 'Gotham Rounded';
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.5;
@@ -1062,7 +1062,8 @@ img#metabannerbig {
 }
 #metabanner1welcome > *,
 .welcome > * {
-  font-family: 'GothamRounded-Medium' !important;
+  font-family: 'Gotham Rounded';
+  font-weight: normal;
 }
 #banner::before {
   content: '';
@@ -1121,22 +1122,23 @@ h2.bannertitle.second {
 }
 p.quote {
   font-size: 15px;
-  font-family: 'Gotham-Book';
+  font-family: 'Gotham Rounded Book';
 }
 p.name {
   font-weight: bold;
-  font-family: 'Gotham-Book';
+  font-family: 'Gotham Rounded Book';
 }
 label.es_shortcode_form_email {
   font-size: 12px;
 }
 label.es_shortcode_form_email {
-  font-family: 'Gotham-Light';
+  font-family: 'Gotham Rounded';
+  font-weight: 200;
 }
 label.es_shortcode_form_email span {
   font-size: 15px;
-  font-weight: bold;
-  font-family: 'Gotham-Medium';
+  font-weight: normal;
+  font-family: 'Gotham';
 }
 .es_button {
   display: inline;
@@ -1166,7 +1168,6 @@ label.es_shortcode_form_email span {
   padding: 0;
   margin: 0;
 }
-
 .rslides li {
   -webkit-backface-visibility: hidden;
   position: absolute;
@@ -1175,13 +1176,11 @@ label.es_shortcode_form_email span {
   left: 0;
   top: 0;
 }
-
 .rslides li:first-child {
   position: relative;
   display: block;
   float: left;
 }
-
 .rslides img {
   display: block;
   height: auto;
@@ -1456,7 +1455,8 @@ label.es_shortcode_form_email span {
   text-align: center;
 }
 .events-container .event-buy {
-  font-family: 'GothamRounded-Bold';
+  font-family: 'Gotham Rounded';
+  font-weight: bold;
   border: 1px solid #92b541;
   background-color: #92b541;
   color: #FFF;
@@ -1525,6 +1525,15 @@ h3.booktitle {
 .post_button:focus,
 .post_button:active {
   color: #175d39;
+}
+/*Styles for metamundo mainpage container*/
+.titleContainer {
+  width: 100%;
+}
+.titleContainer h2 {
+  color: #be0211;
+  font-family: 'Gotham Rounded';
+  font-weight: bold;
 }
 
 

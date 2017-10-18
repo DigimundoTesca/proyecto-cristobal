@@ -52,6 +52,11 @@ get_header(); ?>
 
 
     <div class="mainpage" id="mainpage">
+      <div class="titleContainer">
+        <h2 class="bannertitle second">
+          <?php printf(__('"Here you can put a phrase from Cristobal"','cristobalj')) ?>
+        </h2>
+      </div>
     </div>
 
 
