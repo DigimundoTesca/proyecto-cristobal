@@ -1534,6 +1534,31 @@ h3.booktitle {
   color: #be0211;
   font-family: 'Gotham Rounded';
   font-weight: bold;
+  font-size: 40px;
+}
+#blocksContainer .metaBlock a,
+#blocksContainer .metaBlock a:visited,
+#blocksContainer .metaBlock a:active {
+  color: #000;
+}
+#blocksContainer .metaBlock a.active {
+  color: #be0211;
+}
+#blocksContainer ul {
+  padding: 0;
+  margin-left: 10px;
+}
+#blocksContainer .metaBlock {
+  display: inline-flex;
+  list-style: none;
+  font-size: 26px;
+}
+#blocksContainer .metaBlock a::after {
+  content: '  /  '
+}
+
+#blocksContainer .metaBlock:last-child a::after {
+  content: ''
 }
 
 

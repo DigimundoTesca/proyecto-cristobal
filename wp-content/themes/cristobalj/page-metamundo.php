@@ -53,9 +53,18 @@ get_header(); ?>
 
     <div class="mainpage" id="mainpage">
       <div class="titleContainer">
-        <h2 class="bannertitle second">
-          <?php printf(__('"Here you can put a phrase from Cristobal"','cristobalj')) ?>
+        <h2>
+          <?php printf(__('Study plan','cristobalj')) ?>
         </h2>
+        <div id="blocksContainer">
+          <ul>
+            <li class="metaBlock"><a class="active" href=""><?php printf(__('Block 1','cristobalj')) ?></a></li>
+            <li class="metaBlock"><a href=""><?php printf(__('Block 2','cristobalj')) ?></a></li>
+            <li class="metaBlock"><a href=""><?php printf(__('Block 3','cristobalj')) ?></a></li>
+            <li class="metaBlock"><a href=""><?php printf(__('Block 4','cristobalj')) ?></a></li>
+            <li class="metaBlock"><a href=""><?php printf(__('Block 5','cristobalj')) ?></a></li>
+          </ul>
+        </div>
       </div>
     </div>
 

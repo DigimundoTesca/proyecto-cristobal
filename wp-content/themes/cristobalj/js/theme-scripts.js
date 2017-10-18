@@ -245,4 +245,14 @@ jQuery(document).ready(function(){
   })(jQuery);
 
 
+  // Matamundo blocks menu handler
+  (function($) {
+    $("#blocksContainer li a").on("click", function(e) {
+        e.preventDefault();
+        $("#blocksContainer li a").removeClass("active");
+        $(this).addClass("active");
+      });
+  })(jQuery);
+
+
 });
