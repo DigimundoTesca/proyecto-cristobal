@@ -1448,7 +1448,7 @@ label.es_shortcode_form_email span {
   font-size: 14px;
 }
 .events-container .event-button {
-  font-family: 'GothamRounded-Book';
+  font-family: 'Gotham Rounded Book';
   border: 1px solid #000;
   width: 200px;
   color: #000;
@@ -1527,6 +1527,9 @@ h3.booktitle {
   color: #175d39;
 }
 /*Styles for metamundo mainpage container*/
+.metamainpage {
+  flex-direction: column !important;
+}
 .titleContainer {
   width: 100%;
 }
@@ -1534,7 +1537,7 @@ h3.booktitle {
   color: #be0211;
   font-family: 'Gotham Rounded';
   font-weight: bold;
-  font-size: 40px;
+  font-size: 30px;
 }
 #blocksContainer .metaBlock a,
 #blocksContainer .metaBlock a:visited,
@@ -1546,20 +1549,45 @@ h3.booktitle {
 }
 #blocksContainer ul {
   padding: 0;
-  margin-left: 10px;
+  margin-left: 7px;
+  margin-bottom: 7px;
 }
 #blocksContainer .metaBlock {
-  display: inline-flex;
+  display: block;
   list-style: none;
-  font-size: 26px;
+  font-size: 20px;
+  font-weight: normal;
 }
-#blocksContainer .metaBlock a::after {
-  content: '  /  '
+#blocksContainer .metaBlock a::before {
+  font-family: 'fontawesome';
+  content: '\f061  ';
+}
+#certificate h4 {
+  font-weight: bold;
+  color: #000;
+  font-size: 20px;
+  margin: 10px 10px;
+}
+#certificate h4::after {
+  font-family: 'fontawesome';
+  content: '  \f0a3';
+  color: #be0211;
+}
+.blockTitle {
+  font-size: 30px;
+  font-family: 'Gotham Rounded';
+  font-weight: bold;
+}
+.blockTitle h3 {
+  margin-bottom: 20px;
+  margin-top: 35px;
+}
+.blockTitle span {
+  color: #be0211;
+  font-family: 'Gotham Rounded Book';
+  font-weight: normal;
 }
 
-#blocksContainer .metaBlock:last-child a::after {
-  content: ''
-}
 
 
 
@@ -1798,7 +1826,7 @@ h3.booktitle {
     color: #154FCF !important;
   }
   #langbar li:first-child a::after {
-    content: '  /  '
+    content: '  /  ';
   }
   /*show default nav bar and hide hamburguer menu*/
   /*Styles for main menu navigation*/
@@ -2092,6 +2120,71 @@ h3.booktitle {
   .books-description {
     width: 80%;
     margin: 0 auto;
+  }
+  /*Styles for metamundo mainpage container*/
+  .metamainpage {
+    flex-direction: column !important;
+  }
+  .titleContainer {
+    width: 100%;
+  }
+  .titleContainer h2 {
+    color: #be0211;
+    font-family: 'Gotham Rounded';
+    font-weight: bold;
+    font-size: 40px;
+  }
+  #blocksContainer .metaBlock a,
+  #blocksContainer .metaBlock a:visited,
+  #blocksContainer .metaBlock a:active {
+    color: #000;
+  }
+  #blocksContainer .metaBlock a.active {
+    color: #be0211;
+  }
+  #blocksContainer ul {
+    padding: 0;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  #blocksContainer .metaBlock {
+    display: inline-flex;
+    list-style: none;
+    font-size: 26px;
+    font-weight: normal;
+  }
+  #blocksContainer .metaBlock a::before {
+    content: '';
+  }
+  #blocksContainer .metaBlock a::after {
+    content: '  /  ';
+  }
+  #blocksContainer .metaBlock:last-child a::after {
+    content: '';
+  }
+  #certificate h4 {
+    font-weight: bold;
+    color: #000;
+    font-size: 24px;
+    margin: 10px 10px;
+  }
+  #certificate h4::after {
+    font-family: 'fontawesome';
+    content: '  \f0a3';
+    color: #be0211;
+  }
+  .blockTitle {
+    font-size: 40px;
+    font-family: 'Gotham Rounded';
+    font-weight: bold;
+  }
+  .blockTitle span {
+    color: #be0211;
+    font-family: 'Gotham Rounded Book';
+    font-weight: normal;
+  }
+  .content {
+    font-size: 18px;
   }
 }
 
