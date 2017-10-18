@@ -1379,7 +1379,7 @@ label.es_shortcode_form_email span {
 }
 #secondarybannercontainer {
   display: inline-flex;
-  margin: 50px 10px;
+  margin: 50px 0;
   flex-wrap: wrap;
   flex-direction: row;
   width: 100%;

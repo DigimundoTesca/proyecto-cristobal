@@ -74,7 +74,7 @@ get_header(); ?>
           <h3><span><?php printf(__('Block 1. ','cristobalj')) ?></span><?php printf(__(' Evolutionary tarot','cristobalj')) ?></h3>
         </div>
         <p class="content">
-          For Carl Gustav Jung, archetypes are innate energies common to all human beings, which are transmitted through myths or appear in dreams, tales, legends, rituals and works of art. In the Tarot, archetypes can act as patterns of behavior when the individual needs to resolve an existential difficulty. The 78 arcana of the Tarot are archetypes with infinite interpretations, where each one has a multitude of aspects. However, the drawing of the letter will be only a mask. It becomes the key that, if you know how to interpret and integrate it, will activate the allied dimension of the archetype. To do this, Cristobal Jodorowsky uses the Tarot arcane as a gateway to contact universal energies per se. These doors, when activated, allow a profound change in the psyche, so that our soul may express itself in all freedom.
+          <?php printf(__('For Carl Gustav Jung, archetypes are innate energies common to all human beings, which are transmitted through myths or appear in dreams, tales, legends, rituals and works of art. In the Tarot, archetypes can act as patterns of behavior when the individual needs to resolve an existential difficulty. The 78 arcana of the Tarot are archetypes with infinite interpretations, where each one has a multitude of aspects. However, the drawing of the letter will be only a mask. It becomes the key that, if you know how to interpret and integrate it, will activate the allied dimension of the archetype. To do this, Cristobal Jodorowsky uses the Tarot arcane as a gateway to contact universal energies per se. These doors, when activated, allow a profound change in the psyche, so that our soul may express itself in all freedom.','cristobalj')) ?>
         </p>
       </div>
       <div id="block2">
@@ -82,7 +82,7 @@ get_header(); ?>
           <h3><span><?php printf(__('Block 2. ','cristobalj')) ?></span><?php printf(__(' Metagenealogy','cristobalj')) ?></h3>
         </div>
         <p class="content">
-          "Metagenealogy is a method of analysis of the genealogical tree that allows to expand the vision of its psychic dimension. This makes us understand to what extent what we think, feel, desire or live, just as our conflicts and diseases can be the result of a family, social, historical past or educational waste."
+          <?php printf(__('"Metagenealogy is a method of analysis of the genealogical tree that allows to expand the vision of its psychic dimension. This makes us understand to what extent what we think, feel, desire or live, just as our conflicts and diseases can be the result of a family, social, historical past or educational waste."','cristobalj')) ?>
         </p>
       </div>
       <div id="block3">
@@ -90,23 +90,23 @@ get_header(); ?>
           <h3><span><?php printf(__('Block 3. ','cristobalj')) ?></span><?php printf(__(' Psychomagic Therapy','cristobalj')) ?></h3>
         </div>
         <p class="content">
-          Psychomagia is a healing practice that acts through metaphor and beauty, essentially with the language of dreams. Psychomagia consists of symbolic acts that allow the realization of the unrealizable, restoring the memory to finally trigger the energy that was blocked in the consultant. By failing to consider the unconscious dimension as an enemy and losing the fear of seeing oneself, one can discover the traumas that cause suffering. However, although one knows what happens to him and why, he is not at all free from pain.
+          <?php printf(__('Psychomagia is a healing practice that acts through metaphor and beauty, essentially with the language of dreams. Psychomagia consists of symbolic acts that allow the realization of the unrealizable, restoring the memory to finally trigger the energy that was blocked in the consultant. By failing to consider the unconscious dimension as an enemy and losing the fear of seeing oneself, one can discover the traumas that cause suffering. However, although one knows what happens to him and why, he is not at all free from pain.','cristobalj')) ?>
         </p></div>
       <div id="block4">
         <div class="blockTitle">
           <h3><span><?php printf(__('Block 4. ','cristobalj')) ?></span><?php printf(__(' Psychoanalysis and Parental Healing / Initiative Massage','cristobalj')) ?></h3>
         </div>
         <p class="content">
-          At an archaic level, the human being responds to an innate instinct of family conservation. He is scheduled to fight for the survival of his clan. For the archaic brain an idea, an emotional structure, a prohibition, an order or a belief may be the metaphor of an ancestor.
-          That is why it is so difficult for us to shed all those aspects that prevent us from growing, since this could represent the murder of a member (or of all) our species. This is how we keep alive ideas, memories, phantasms, morals, behavioral structures, and ideologies that come from the genealogical lineage.
+          <?php printf(__('At an archaic level, the human being responds to an innate instinct of family conservation. He is scheduled to fight for the survival of his clan. For the archaic brain an idea, an emotional structure, a prohibition, an order or a belief may be the metaphor of an ancestor.
+          That is why it is so difficult for us to shed all those aspects that prevent us from growing, since this could represent the murder of a member (or of all) our species. This is how we keep alive ideas, memories, phantasms, morals, behavioral structures, and ideologies that come from the genealogical lineage.','cristobalj')) ?>
         </p></div>
       <div id="block5">
         <div class="blockTitle">
           <h3><span><?php printf(__('Block 5. ','cristobalj')) ?></span><?php printf(__(' The Art of Relationships of Couple, Friendship and Collaboration','cristobalj')) ?></h3>
         </div>
         <p class="content">
-          This block is intended to address in depth the science of courtship. During his study, Cristobal Jodorowsky will provide the participants with the keys to live harmonious and healthy personal relationships.<br>
-          The study of this block involves the analysis of temperaments (emotions), personality (intellect) and masculinity / femininity (instinct / reptile). It is essential to achieve in ourselves an adaptation to the structure of the nature of relationships, based on the fact that all existence is put into operation for couples to exist, and according to our vision live in harmony.
+          <?php printf(__('This block is intended to address in depth the science of courtship. During his study, Cristobal Jodorowsky will provide the participants with the keys to live harmonious and healthy personal relationships.<br>
+          The study of this block involves the analysis of temperaments (emotions), personality (intellect) and masculinity / femininity (instinct / reptile). It is essential to achieve in ourselves an adaptation to the structure of the nature of relationships, based on the fact that all existence is put into operation for couples to exist, and according to our vision live in harmony.','cristobalj')) ?>
         </p></div>
     </div>
 
