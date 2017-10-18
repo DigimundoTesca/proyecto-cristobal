@@ -7,7 +7,26 @@ get_header(); ?>
 <div id="primary" class="content-area">
   <main id="main" class="site-main">
     <div id="kmorebannercontainer">
-      <img id="knowmore" src="<?php echo get_template_directory_uri(); ?>/images/kmore.jpg" alt="banner know more">
+      <img id="knowmore" class="mobilekmore" src="<?php echo get_template_directory_uri(); ?>/images/kmore.jpg" alt="banner know more">
+      <div id="bigkmoreContainer" class="bigkmoreContainer">
+        <img id="knowmore bigmorebanner" class="bigkmore" src="<?php echo get_template_directory_uri(); ?>/images/another.png" alt="banner know more">
+        <a href="#" class="imgChange1 textBig"><?php printf( __( 'Psicoteatro', 'cristobalj' ));?></a>
+        <a href="#" class="imgChange2 textSmall"><?php printf( __( 'BIO', 'cristobalj' ));?></a>
+        <a href="#" class="imgChange3 textBig"><?php printf( __( 'Psicochamanismo', 'cristobalj' ));?></a>
+        <a href="#" class="imgChange4 textSmall"><?php printf( __( 'Workshops', 'cristobalj' ));?></a>
+        <a href="#" class="imgChange5 textBig"><?php printf( __( 'Metagenealogía', 'cristobalj' ));?></a>
+        <a href="#" class="imgChange6 textSmall"><?php printf( __( 'Theater', 'cristobalj' ));?></a>
+        <a href="#" class="imgChange7 textBig"><?php printf( __( 'Investigation', 'cristobalj' ));?></a>
+        <a href="#" class="imgChange8 textSmall"><?php printf( __( 'Cinema', 'cristobalj' ));?></a>
+        <a href="#" class="imgChange9 textBig"><?php printf( __( 'Tarot', 'cristobalj' ));?></a>
+        <a href="#" class="imgChange10 textSmall"><?php printf( __( 'Videos', 'cristobalj' ));?></a>
+        <a href="#" class="imgChange11 textBig"><?php printf( __( 'Studies', 'cristobalj' ));?></a>
+        <a href="#" class="imgChange12 textSmall"><?php printf( __( 'Teachers', 'cristobalj' ));?></a>
+        <a href="#" class="imgChange13 textBig"><?php printf( __( 'Travels', 'cristobalj' ));?></a>
+        <a href="#" class="imgChange14 textSmall"><?php printf( __( 'Press', 'cristobalj' ));?></a>
+        <a href="#" class="imgChange15 textBig"><?php printf( __( 'Paintings', 'cristobalj' ));?></a>
+        <a href="#" class="imgChange16 textSmall"><?php printf( __( 'Poetry', 'cristobalj' ));?></a>
+      </div>
     </div>
 
 

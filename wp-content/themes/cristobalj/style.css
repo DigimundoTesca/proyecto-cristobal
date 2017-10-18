@@ -1571,15 +1571,14 @@ h3.booktitle {
     background-position: center center;
   }
   .textBig {
-    font-family: 'GothamRounded-Bold';
     font-size: 24px;
     text-transform: capitalize;
     font-weight: bold;
   }
   .textSmall {
-    font-family: 'GothamRounded-Light';
     font-size: 18px;
     text-transform: uppercase;
+    font-weight: normal;
   }
   .imgChange1{
     width: auto;
@@ -1592,7 +1591,7 @@ h3.booktitle {
     width: auto;
     height: auto; 
     position: absolute;
-    right: 100px;
+    right: 95px;
     top: 45px;
   }
   .imgChange3{
@@ -1637,30 +1636,30 @@ h3.booktitle {
   .imgChange10{
     width: 100px;
     position: absolute;
-    top: 385px;
+    top: 388px;
     left: 70px;
   }
   .imgChange11{
     width: 100px;  
     position: absolute;
     top: 340px;
-    left: -30px;
+    left: -45px;
   }
   .imgChange12{
     width: 100px;
     position: absolute;
     top: 285px;
-    left: -65px;
+    left: -70px;
   }
   .imgChange13{
     position: absolute;
-    left: -55px;
+    left: -70px;
   }
   .imgChange14{
     width: 100px;
     position: absolute;
     top: 150px;
-    left: -40px;
+    left: -50px;
   }
   .imgChange15{
     width: 100px; 
