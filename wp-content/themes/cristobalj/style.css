@@ -1261,6 +1261,10 @@ label.es_shortcode_form_email span {
   padding-left: 10px;
   margin: 0;
 }
+.mainbannercontent a,
+.mainbannercontent a:hover {
+  text-decoration: none;
+}
 .mainbannercontent {
   width: 230px;
   height: 230px;
