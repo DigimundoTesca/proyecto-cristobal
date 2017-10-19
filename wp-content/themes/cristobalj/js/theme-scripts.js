@@ -291,4 +291,22 @@ jQuery(document).ready(function(){
   })(jQuery);
 
 
+  // Book download
+  (function($) {
+    document.addEventListener( 'wpcf7mailfailed ', function( event ) {
+      let buttondownload = document.getElementsByClassName('.wpcf7-submit input');
+      var downloadUrl = download_name.templateUrl;
+      alert('We are in');
+      $('buttondownload').click(function(e){
+        e.preventDefault();
+        window.location.href = downloadUrl+'/El_collar_del_tigre.pdf';
+        setTimeout(function(e){
+          document.getElementById('#downloadBook').modal('hide');
+        }, parseInt($('#downloadBook').attr('data-delay')) * 100);
+      });
+      alert('we are out');
+    });
+  })(jQuery);
+
+
 });

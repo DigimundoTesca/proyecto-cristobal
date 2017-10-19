@@ -1588,6 +1588,14 @@ h3.booktitle {
   font-family: 'Gotham Rounded Book';
   font-weight: normal;
 }
+/*Download book form styles*/
+body .monochrome-light input.wpcf7-form-control.wpcf7-submit, body .monochrome-light input.wpcf7-form-control.wpcf7-submit:not([disabled]) {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+div.wpcf7-mail-sent-ng {
+  display: none !important;
+}
 
 
 

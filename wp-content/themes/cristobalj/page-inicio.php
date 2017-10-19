@@ -36,7 +36,6 @@ get_header(); ?>
 
     <div class="mainpage" id="mainpage">
       <?php get_template_part( 'mainbanner' );  ?>
-      <?php echo do_shortcode('[contact-form-7 id="99" title="Contact form 1"]'); ?>
       <div id="datesContainer">
         <h3>
           <?php
