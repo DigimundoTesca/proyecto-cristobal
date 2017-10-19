@@ -82,8 +82,7 @@ define('BLOG_ID_CURRENT_SITE', 1);
 
 /** WordPress absolute path to the Wordpress directory. */
 if ( !defined('ABSPATH') )
-	define('ABSPATH', dirname(__FILE__) . '/');
+  define('ABSPATH', dirname(__FILE__) . '/');
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
-

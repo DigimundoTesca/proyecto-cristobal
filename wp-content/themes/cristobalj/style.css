@@ -44,7 +44,7 @@ select,
 optgroup,
 textarea {
   color: #404040;
-  font-family: sans-serif;
+  font-family: 'Gotham Rounded';
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.5;
@@ -1016,19 +1016,40 @@ span {
   background-position: top right;
   background-repeat: no-repeat;
   background-size: cover;
-  border-bottom: 3px solid #7D7D7D;
   height: 300px;
+}
+#metabanner1welcome {
+  background-color: #FFF;
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: none;
+  height: inherit;
+  margin-top: 50px;
+  padding: 0 !important;
 }
 p.metaquote {
   font-weight: 200;
   font-size: 22px !important;
   text-align: justify !important;
 }
-img#metabannerbig {
-  width: 40%;
+p.metaquote.name {
+  font-weight: 200;
+  font-size: 22px !important;
+  line-height: 27px;
+  align-self: flex-end;
 }
-#metabanner1 {
+img#metabannerbig {
+  width: 50%;
+}
+#metabanner1,
+#metabanner1welcome {
   display: none;
+}
+#metabanner1welcome img#metabannerbig {
+  width: 65%;
+  height: auto;
+  background-color: #FFF;
 }
 /*Styles for Main-banner*/
 #banner,
@@ -1038,6 +1059,11 @@ img#metabannerbig {
   background-position: top right;
   background-repeat: no-repeat;
   background-size: cover;
+}
+#metabanner1welcome > *,
+.welcome > * {
+  font-family: 'Gotham Rounded';
+  font-weight: normal;
 }
 #banner::before {
   content: '';
@@ -1066,6 +1092,21 @@ img#metabannerbig {
   font-family: 'Gotham Rounded';
   display: initial;
 }
+.mobilecontainerwelcome,
+#metabanner1welcome  {
+  font-family: 'Gotham Rounded';
+  background-color: #be0211;
+  color: #FFF;
+  padding: 30px 0;
+}
+.mobilecontainerwelcome h2,
+.mobilecontainerwelcome p {
+  padding: 0;
+  margin: 0;
+}
+.mobilecontainerwelcome p {
+  padding-top: 20px;
+}
 /*Banner text´s styles*/
 .mobilecontainer .bannertext {
   text-align: center;
@@ -1074,24 +1115,30 @@ h2.bannertitle {
   font-size: 20px;
   letter-spacing: 4px;
 }
+h2.bannertitle.second {
+  font-size: 34px;
+  letter-spacing: 0;
+  line-height: 44px;
+}
 p.quote {
   font-size: 15px;
-  font-family: 'Gotham-Book';
+  font-family: 'Gotham Rounded Book';
 }
 p.name {
   font-weight: bold;
-  font-family: 'Gotham-Book';
+  font-family: 'Gotham Rounded Book';
 }
 label.es_shortcode_form_email {
   font-size: 12px;
 }
 label.es_shortcode_form_email {
-  font-family: 'Gotham-Light';
+  font-family: 'Gotham Rounded';
+  font-weight: 200;
 }
 label.es_shortcode_form_email span {
   font-size: 15px;
-  font-weight: bold;
-  font-family: 'Gotham-Medium';
+  font-weight: normal;
+  font-family: 'Gotham';
 }
 .es_button {
   display: inline;
@@ -1121,7 +1168,6 @@ label.es_shortcode_form_email span {
   padding: 0;
   margin: 0;
 }
-
 .rslides li {
   -webkit-backface-visibility: hidden;
   position: absolute;
@@ -1130,13 +1176,11 @@ label.es_shortcode_form_email span {
   left: 0;
   top: 0;
 }
-
 .rslides li:first-child {
   position: relative;
   display: block;
   float: left;
 }
-
 .rslides img {
   display: block;
   height: auto;
@@ -1191,6 +1235,7 @@ label.es_shortcode_form_email span {
   margin-left: 0;
   flex-wrap: wrap;
   flex-direction: column;
+  align-items: center;
 }
 #datesContainer {
   min-width: 250px;
@@ -1334,13 +1379,13 @@ label.es_shortcode_form_email span {
 }
 #secondarybannercontainer {
   display: inline-flex;
-  margin: 0;
-  margin-bottom: 50px;
+  margin: 50px 0;
   flex-wrap: wrap;
   flex-direction: row;
   width: 100%;
-  align-items: baseline;
   justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
 }
 .biotitle, .moretitle {
   font-weight: 200 !important;
@@ -1403,14 +1448,15 @@ label.es_shortcode_form_email span {
   font-size: 14px;
 }
 .events-container .event-button {
-  font-family: 'GothamRounded-Book';
+  font-family: 'Gotham Rounded Book';
   border: 1px solid #000;
   width: 200px;
   color: #000;
   text-align: center;
 }
 .events-container .event-buy {
-  font-family: 'GothamRounded-Bold';
+  font-family: 'Gotham Rounded';
+  font-weight: bold;
   border: 1px solid #92b541;
   background-color: #92b541;
   color: #FFF;
@@ -1480,6 +1526,69 @@ h3.booktitle {
 .post_button:active {
   color: #175d39;
 }
+/*Styles for metamundo mainpage container*/
+.metamainpage {
+  flex-direction: column !important;
+}
+.titleContainer {
+  width: 100%;
+}
+.titleContainer h2 {
+  color: #be0211;
+  font-family: 'Gotham Rounded';
+  font-weight: bold;
+  font-size: 30px;
+}
+#blocksContainer .metaBlock a,
+#blocksContainer .metaBlock a:visited,
+#blocksContainer .metaBlock a:active {
+  color: #000;
+}
+#blocksContainer .metaBlock a.active {
+  color: #be0211;
+}
+#blocksContainer ul {
+  padding: 0;
+  margin-left: 7px;
+  margin-bottom: 7px;
+}
+#blocksContainer .metaBlock {
+  display: block;
+  list-style: none;
+  font-size: 20px;
+  font-weight: normal;
+}
+#blocksContainer .metaBlock a::before {
+  font-family: 'fontawesome';
+  content: '\f061  ';
+}
+#certificate h4 {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #000;
+  font-size: 20px;
+  margin: 10px 10px;
+}
+#certificate h4::after {
+  content: url("images/ribbon.png");
+}
+.blockTitle {
+  font-size: 30px;
+  font-family: 'Gotham Rounded';
+  font-weight: bold;
+}
+.blockTitle h3 {
+  margin-bottom: 20px;
+  margin-top: 35px;
+}
+.blockTitle span {
+  color: #be0211;
+  font-family: 'Gotham Rounded Book';
+  font-weight: normal;
+}
+
 
 
 
@@ -1525,15 +1634,14 @@ h3.booktitle {
     background-position: center center;
   }
   .textBig {
-    font-family: 'GothamRounded-Bold';
     font-size: 24px;
     text-transform: capitalize;
     font-weight: bold;
   }
   .textSmall {
-    font-family: 'GothamRounded-Light';
     font-size: 18px;
     text-transform: uppercase;
+    font-weight: normal;
   }
   .imgChange1{
     width: auto;
@@ -1546,7 +1654,7 @@ h3.booktitle {
     width: auto;
     height: auto; 
     position: absolute;
-    right: 100px;
+    right: 95px;
     top: 45px;
   }
   .imgChange3{
@@ -1591,30 +1699,30 @@ h3.booktitle {
   .imgChange10{
     width: 100px;
     position: absolute;
-    top: 385px;
+    top: 388px;
     left: 70px;
   }
   .imgChange11{
     width: 100px;  
     position: absolute;
     top: 340px;
-    left: -30px;
+    left: -45px;
   }
   .imgChange12{
     width: 100px;
     position: absolute;
     top: 285px;
-    left: -65px;
+    left: -70px;
   }
   .imgChange13{
     position: absolute;
-    left: -55px;
+    left: -70px;
   }
   .imgChange14{
     width: 100px;
     position: absolute;
     top: 150px;
-    left: -40px;
+    left: -50px;
   }
   .imgChange15{
     width: 100px; 
@@ -1719,7 +1827,7 @@ h3.booktitle {
     color: #154FCF !important;
   }
   #langbar li:first-child a::after {
-    content: '  /  '
+    content: '  /  ';
   }
   /*show default nav bar and hide hamburguer menu*/
   /*Styles for main menu navigation*/
@@ -1800,13 +1908,16 @@ h3.booktitle {
     height: 400px;
     margin-left: calc(5%);
   }
-  .mobilecontainer {
+  .mobilecontainer,
+  .mobilecontainerwelcome {
     display: none;
   }
-  #metabanner {
+  #metabanner,
+  #metabannerwelcome {
     display: none;
   }
-  #metabanner1 {
+  #metabanner1,
+  #metabanner1welcome {
     display: flex;
     justify-content: space-around;
   }
@@ -1817,10 +1928,15 @@ h3.booktitle {
     justify-content: center;
     align-items: center;
   }
+  #metabanner1welcome .metacontainer {
+    position: relative;
+    margin: 0 20px;
+    width: 30%;
+    height: auto !important;
+  }
   .metacontainer {
     position: relative;
     margin: 0;
-    margin-left: 30px;
     width: 50%;
     height: auto !important;
   }
@@ -2006,6 +2122,66 @@ h3.booktitle {
     width: 80%;
     margin: 0 auto;
   }
+  /*Styles for metamundo mainpage container*/
+  .metamainpage {
+    flex-direction: column !important;
+  }
+  .titleContainer {
+    width: 100%;
+  }
+  .titleContainer h2 {
+    color: #be0211;
+    font-family: 'Gotham Rounded';
+    font-weight: bold;
+    font-size: 40px;
+  }
+  #blocksContainer .metaBlock a,
+  #blocksContainer .metaBlock a:visited,
+  #blocksContainer .metaBlock a:active {
+    color: #000;
+  }
+  #blocksContainer .metaBlock a.active {
+    color: #be0211;
+  }
+  #blocksContainer ul {
+    padding: 0;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  #blocksContainer .metaBlock {
+    display: inline-flex;
+    list-style: none;
+    font-size: 26px;
+    font-weight: normal;
+  }
+  #blocksContainer .metaBlock a::before {
+    content: '';
+  }
+  #blocksContainer .metaBlock a::after {
+    content: '  /  ';
+  }
+  #blocksContainer .metaBlock:last-child a::after {
+    content: '';
+  }
+  #certificate h4 {
+    font-weight: bold;
+    color: #000;
+    font-size: 24px;
+    margin: 10px 10px;
+  }
+  .blockTitle {
+    font-size: 40px;
+    font-family: 'Gotham Rounded';
+    font-weight: bold;
+  }
+  .blockTitle span {
+    color: #be0211;
+    font-family: 'Gotham Rounded Book';
+    font-weight: normal;
+  }
+  .content {
+    font-size: 18px;
+  }
 }
 
 
@@ -2028,6 +2204,16 @@ h3.booktitle {
     margin: 0;
     font-size: 50px;
     line-height: 60px;
+  }
+  #secondarybannercontainer {
+    display: inline-flex;
+    margin: 0 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
   }
   #datesContainer {
     max-height: inherit;
@@ -2061,6 +2247,19 @@ h3.booktitle {
     margin-left: 30px;
     width: 200px;
     font-size: 20px;
+  }
+  /*Metamundo page styles*/
+  .metabannertext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+  }
+  p.metaquote {
+    font-weight: 200;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: justify !important;
   }
 }
 
@@ -2103,7 +2302,6 @@ h3.booktitle {
   }
   .bannercontainer {
     height: 500px;
-    margin-left: calc(10%);
   }
   /*Banner text´s styles*/
   h2.bannertitle {
@@ -2167,6 +2365,12 @@ h3.booktitle {
   #metabanner1 {
     height: 400px;
     justify-content: space-around;
+  }
+  #metabanner1welcome {
+    height: inherit;
+    justify-content: space-between;
+    background-color: #be0211;
+    color: #FFF;
   }
   /*Books CPT styles*/
   .mainProjectContainer {
