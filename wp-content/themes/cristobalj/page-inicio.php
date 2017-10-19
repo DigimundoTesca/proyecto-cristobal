@@ -75,13 +75,13 @@ get_header(); ?>
           <?php echo do_shortcode('[contact-form-7 id="99" title="Contact form 1"]'); ?></div>
         </div>
         <div class="modal-footer">
-          <a download href="<?php echo get_stylesheet_directory_uri(); ?>/El_collar_del_tigre.pdf" class="d-none downloadthis" title="Libro Tigre">
-            <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
-          </div>
+          <a download href="<?php echo get_stylesheet_directory_uri(); ?>/El_collar_del_tigre.pdf" id="downloadThis" class="d-none" title="Libro Tigre">Download</a>
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
         </div>
       </div>
     </div>
+  </div>
 
-    <?php
-    get_footer();
-    ?>
+  <?php
+  get_footer();
+  ?>

@@ -295,7 +295,8 @@ jQuery(document).ready(function(){
   (function($) {
     $('.wpcf7-submit').click(function( e ) {
       var downloadUrl = download_name.templateUrl;
-      window.location.href = downloadUrl+'/El_collar_del_tigre.pdf';
+      $('#downloadThis')[0].click();
+      // window.location.href = downloadUrl+'/El_collar_del_tigre.pdf';
       $('#downloadBook').modal('hide');
     });
   })(jQuery);
