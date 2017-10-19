@@ -15,7 +15,7 @@ Template Name: secondarybanner
     </a>
   </div>
   <div class="mainbannercontent">
-    <a download href="<?php echo get_stylesheet_directory_uri(); ?>/El_collar_del_tigre.pdf" title="Libro Tigre">
+    <a data-toggle="modal" data-target="#downloadBook">
       <div class="gift">
         <h3>
           <?php printf(__('We give you','cristobalj')) ?>
