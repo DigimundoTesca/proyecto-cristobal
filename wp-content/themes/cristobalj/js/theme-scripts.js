@@ -294,7 +294,7 @@ jQuery(document).ready(function(){
   // Book download
   (function($) {
     var wpcf7Elm = document.querySelector( '.wpcf7' );
-    wpcf7Elm.addEventListener( 'wpcf7submit', function( event ) {
+    wpcf7Elm.addEventListener( 'wpcf7mailfailed', function( event ) {
       $('#downloadThis')[0].click();
       $('#downloadBook').modal('hide');
     });
