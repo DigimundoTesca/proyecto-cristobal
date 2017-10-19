@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Email Subscribers & Newsletters 3.3.4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-26 12:00:36+00:00\n"
-"PO-Revision-Date: Thu Sep 07 2017 13:21:47 GMT+0530 (IST)\n"
+"PO-Revision-Date: Fri Sep 22 2017 16:57:19 GMT+0530 (IST)\n"
 "Last-Translator: Mansi <mansi.shah@appsmagnet.com>\n"
 "Language-Team: StoreApps <support@storeapps.org>, Icegram <hello@icegram."
 "com>\n"
@@ -22,24 +22,6 @@ msgstr ""
 "esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
 "X-Loco-Target-Locale: de_DE\n"
 "X-Poedit-SearchPath-0: .."
-
-#: ../sentmail/sentmail-preview.php:27 ../compose/compose-preview.php:27
-msgid "Preview Email"
-msgstr ""
-
-#: ../sentmail/sentmail-preview.php:31
-msgid ""
-"This is how the email you sent may look. <br>Note: Different email services "
-"(like gmail, yahoo etc) display email content differently. So there could be "
-"a slight variation on how your customer will view the email content."
-msgstr ""
-
-#: ../compose/compose-preview.php:31
-msgid ""
-"This is how your email may look. <br>Note: Different email services (like "
-"gmail, yahoo etc) display email content differently. So there could be a "
-"slight variation on how your customer will view the email content."
-msgstr ""
 
 #: ../notification/notification-add.php:33
 msgid "Please select subscribers group."
@@ -785,6 +767,21 @@ msgstr "Plugintabellen synchronisieren"
 msgid "Click to sync tables"
 msgstr "Klicken um die Plugintabellen zu synchronisieren"
 
+#: ../sentmail/sentmail-preview.php:27 ../compose/compose-preview.php:27
+msgid "Preview Email"
+msgstr "Email Vorschau"
+
+#: ../sentmail/sentmail-preview.php:31
+msgid ""
+"This is how the email you sent may look. <br>Note: Different email services "
+"(like gmail, yahoo etc) display email content differently. So there could be "
+"a slight variation on how your customer will view the email content."
+msgstr ""
+"So könnte die Email ausehen die Du gesendet hast. <br>Hinweis: Die Email "
+"kann bei unterschiedlichen Emailanbietern (z. Bsp. GMail, Yahoo, usw.) "
+"unterschiedlich dargestellt werden. Es kann also zu leichten Unterschieden "
+"darin kommen wie der Kunde den Inhalt der Email sieht."
+
 #: ../sentmail/sentmail-preview.php:62
 msgid "Back"
 msgstr "Zurück"
@@ -1399,6 +1396,17 @@ msgstr "Emailvorlage"
 #: ../compose/compose-show.php:79 ../compose/compose-show.php:87
 msgid "Actions"
 msgstr "Aktion"
+
+#: ../compose/compose-preview.php:31
+msgid ""
+"This is how your email may look. <br>Note: Different email services (like "
+"gmail, yahoo etc) display email content differently. So there could be a "
+"slight variation on how your customer will view the email content."
+msgstr ""
+"So könnte die Email ausehen. <br>Hinweis: Die Email kann bei "
+"unterschiedlichen Emailanbietern (z. Bsp. GMail, Yahoo, usw.) "
+"unterschiedlich dargestellt werden. Es kann also zu leichten Unterschieden "
+"darin kommen wie der Kunde den Inhalt der Email sieht."
 
 #: ../export/export-email-address.php:45 ../export/export-email-address.php:49
 msgid "Unexpected url submit has been detected"
