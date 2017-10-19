@@ -21,7 +21,7 @@
 			<div class="modal-body">
 				<p class="h3 text-center">Llena el siguiente formulario y descarga tu libro.</p>
 				<div class="d-flex justify-content-center">
-					<?php echo do_shortcode('[contact-form-7 id="99" title="Contact form 1"]'); ?></div>
+					<?php echo do_shortcode('[contact-form-7 id="99" title="Descarga de libro"]'); ?></div>
 				</div>
 				<div class="modal-footer">
 					<a download href="<?php echo get_stylesheet_directory_uri(); ?>/El_collar_del_tigre.pdf" id="downloadThis" class="d-none" title="Libro Tigre">Download</a>
