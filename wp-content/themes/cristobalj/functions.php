@@ -139,11 +139,8 @@ function cristobalj_scripts() {
 	wp_enqueue_script( 'slide', get_template_directory_uri() . '/js/responsiveslides.min.js', array(), '', true );
 	wp_enqueue_script( 'themejs', get_template_directory_uri() . '/js/theme-scripts.js', array(), '', true );
   $translation_array = array( 'templateUrl' => get_stylesheet_directory_uri() );
-  $download_array = array( 'templateUrl' => get_stylesheet_directory_uri() );
 //after wp_enqueue_script
   wp_localize_script( 'themejs', 'object_name', $translation_array );
-  wp_localize_script( 'themejs', 'download_name', $download_array );
-
   wp_enqueue_script('jquery');
 
 

@@ -32,6 +32,14 @@ get_header(); ?>
           <?php es_subbox( $namefield = "NO", $desc = "", $group = "Maingroup" ); ?>
         </div>
       </div>
+      <div class="buttonLink">
+        <a id="extralink" class="d-inline-flex flex-row" href="<?php echo esc_url( get_permalink( get_page_by_title( 'saber mas' ) ) ); ?>" title="Link to know more">
+          <p class="d-flex justify-content-center align-items-center"><?php printf(__('Know more','cristobalj')) ?></p>
+          <p class="arrow d-flex justify-content-center align-items-center">
+            <i class="fa fa-caret-right" aria-hidden="true"></i>
+          </p>
+        </a>
+      </div>
     </div>
 
     <div class="mainpage" id="mainpage">
@@ -58,6 +66,6 @@ get_header(); ?>
   </main><!-- #main -->
 </div><!-- #primary -->
 
-<?php
-get_footer();
-?>
+  <?php
+  get_footer();
+  ?>
