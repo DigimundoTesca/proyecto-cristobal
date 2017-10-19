@@ -287,18 +287,22 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
+  text-decoration: none !important;
   color: royalblue;
   list-style: none;
   text-decoration: none;
 }
 
 a:visited {
+  text-decoration: none !important;
   color: purple;
 }
 
 a:hover,
 a:focus,
 a:active {
+  cursor: pointer;
+  text-decoration: none !important;
   color: midnightblue;
 }
 
