@@ -1725,10 +1725,11 @@ h3.booktitle {
     left: -50px;
   }
   .imgChange15{
-    width: 100px; 
+    width: 200px; 
     position: absolute;
     top: 80px;
-    left: -30px;
+    left: -147px;
+    text-align: right;
   }
   .imgChange16{
     width: 100px;
