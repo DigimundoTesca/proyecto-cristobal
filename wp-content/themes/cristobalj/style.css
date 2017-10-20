@@ -2660,6 +2660,43 @@ div.wpcf7-mail-sent-ng {
   button.btn.btn-danger {
     font-size: 25px;
   }
+  /*Books page styles*/
+  .mainProjectContainer {
+    width: inherit;
+  }
+  #mainProjects {
+    max-width: 2300px;
+  }
+  #mainContainer h3 {
+    max-width: 2000px;
+    font-size: 60px;
+    line-height: 80px;
+  }
+  .bookcontainer {
+    max-width: 2000px;
+  }
+  .bookimg {
+    width: 580px;
+    height: 550px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    perspective: 1000px;
+  }
+  .bookimg img {
+    height: inherit;
+  }
+  .bookdescription {
+    width: 65%;
+    max-width: 900px;
+  }
+  .bookdescription p,
+  .bookdescription a {
+    text-align: justify  !important;
+    font-size: 30px;
+  }
   /*Bio page slider styles*/
   .rslides {
     max-height: 600px;
@@ -2704,24 +2741,5 @@ div.wpcf7-mail-sent-ng {
     justify-content: space-between;
     background-color: #be0211;
     color: #FFF;
-  }
-  /*Books CPT styles*/
-  .mainProjectContainer {
-    margin: 0 auto;
-    margin-top: 50px;
-    width: 100%;
-  }
-  .bookimg {
-    width: 280px;
-    height: 250px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    perspective: 1000px;
-  }
-  .bookimg img {
-    height: 250px;
   }
 }
