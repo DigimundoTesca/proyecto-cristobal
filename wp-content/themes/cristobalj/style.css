@@ -2560,6 +2560,43 @@ div.wpcf7-mail-sent-ng {
     margin-bottom: 10px;
     margin-top: 10px;
   }
+  .mainbannercontent .metmundo h3 {
+    font-size: 40px;
+    line-height: 80px;
+  }
+  .mainbannercontent .metmundo img {
+    margin: 20% 0;
+  }
+  .mainbannercontent .gift h3 {
+    font-size: 45px;
+    line-height: 90px;
+  }
+  .mainbannercontent .gift img {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 70%;
+    height: auto;
+    align-self: center;
+  }
+  .mainbannercontent .gift p {
+    font-size: 40px;
+  }
+  .mainbannercontent .mindHack {
+    background-color: #060606;
+  }
+  .mainbannercontent .mindHack h3 {
+    background-color: #060606;
+    font-size: 50px;
+    line-height: 85px;
+  }
+  .mainbannercontent .mindHack p {
+    font-size: 50px;
+  }
+  .mainbannercontent .mindHack img {
+    align-self: center;
+    width: 90%;
+  }
+  /*Dates container styles*/
   #datesContainer {
     width: 100%;
     max-width: 1800px;
