@@ -2113,6 +2113,9 @@ div.wpcf7-mail-sent-ng {
     height: 500px;
     border-top: 7px solid #37b4ee;
   }
+  .events-container{
+    margin-bottom: 30px;
+  }
   .events-container .event-button {
     float: right;
   }
