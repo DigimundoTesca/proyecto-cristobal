@@ -40,7 +40,7 @@
 
 		<header id="masthead" class="site-header">
 			<div class="site-branding">
-				<div class="container"> 
+				<div class="containerMobile"> 
 					<div class="menu-wrap">
 						<nav id="menu" class="menu">
 								<?php

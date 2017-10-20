@@ -706,7 +706,6 @@ span {
 .site-info {
   text-align: center;
 }
-/* Menu Button */
 .menu-button {
   position: relative;
   z-index: 1000;
@@ -1927,7 +1926,7 @@ div.wpcf7-mail-sent-ng {
     cursor: pointer;
     padding: 5px;
   }
-  .container,
+  .containerMobile,
   .brand-logo {
     display: none;
   }
@@ -2315,7 +2314,7 @@ div.wpcf7-mail-sent-ng {
 /*Desktop styles*/
 @media screen and (min-width: 1200px) {
   #page {
-    max-width: 1300px;
+    max-width: 1400px;
   }
   #circles {
     flex-direction: row;
@@ -2441,7 +2440,6 @@ div.wpcf7-mail-sent-ng {
 @media screen and (min-width: 1300px) {
   /*Styles for main menu*/
   .main-navigation li {
-    padding-left: 5px;
     padding-right: 5px;
   }
   .main-navigation a {
@@ -2460,5 +2458,133 @@ div.wpcf7-mail-sent-ng {
   }
   .bookimg img {
     height: 300px;
+  }
+}
+
+
+
+/*4k styles*/
+@media screen and (min-width: 2000px) {
+  #page {
+    max-width: 2500px;
+  }
+  #circles {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #circles .circlecontent .circle {
+    font-size: 25px;
+    width: 100px;
+    height: 100px;
+  }
+  #circles .circlecontent .text {
+    margin-left: 15px;
+    width: 200px;
+    font-size: 20px;
+  }
+  /*Styles for main menu navigation*/
+  .main-navigation a {
+    font-size: 23pt;
+    margin: 0 13px;
+  }
+  .menu li a {
+    text-decoration: none;
+    color: #FFF;
+    padding: 0;
+  }
+  /*Styles for banner*/
+  .bannerbig {
+    min-height: 500px;
+  }
+  .bannercontainer {
+    height: 500px;
+  }
+  /*Banner text´s styles*/
+  h2.bannertitle {
+    font-size: 40px;
+  }
+  p.quote {
+    font-size: 23px;
+    margin: 20px 0;
+  }
+  #es_txt_button_pg {
+    width: auto;
+    margin-left: 10px;
+  }
+  #datesContainer h3 {
+    font-size: 48px;
+  }
+  /*Social menu*/
+  #social li {
+    font-size: 20pt;
+  }
+  /*Bio page slider styles*/
+  .rslides {
+    max-height: 600px;
+  }
+  /*Prezi embed styles*/
+  #prezi-viewer {
+    margin: auto;
+  }
+  #iframe_container {
+    width: 80%;
+    height: 600px;
+    margin: 0 10%;
+    margin-bottom: 50px;
+  }
+  #mainbannercontainer {
+    width: initial;
+    margin: 0;
+  }
+  #datesContainer {
+    width: 100%;
+    max-width: 890px;
+    margin: 0;
+  }
+  #mainpage {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  #knowmore {
+    max-width: 800px;
+  }
+  .more {
+    margin: 0 3%;
+  }
+  .morevideo {
+    width: 80%;
+    height: 600px;
+    margin: 0 10%;
+    margin-bottom: 50px;
+    border-top: 10px solid #37b4ee;
+  }
+  #metabanner1 {
+    height: 400px;
+    justify-content: space-around;
+  }
+  #metabanner1welcome {
+    height: inherit;
+    justify-content: space-between;
+    background-color: #be0211;
+    color: #FFF;
+  }
+  /*Books CPT styles*/
+  .mainProjectContainer {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 100%;
+  }
+  .bookimg {
+    width: 280px;
+    height: 250px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    perspective: 1000px;
+  }
+  .bookimg img {
+    height: 250px;
   }
 }
