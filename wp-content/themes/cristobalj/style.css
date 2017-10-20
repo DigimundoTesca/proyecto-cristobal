@@ -2674,6 +2674,7 @@ div.wpcf7-mail-sent-ng {
   }
   .bookcontainer {
     max-width: 2000px;
+    margin: 0 auto;
   }
   .bookimg {
     width: 580px;
@@ -2697,9 +2698,26 @@ div.wpcf7-mail-sent-ng {
     text-align: justify  !important;
     font-size: 30px;
   }
+  /*Single book styles*/
+  header.entry-header {
+    width: 100%;
+    max-width: 2000px;
+    margin: 0 auto;
+  }
+  .entry-title {
+    font-size: 70px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .books-description p,
+  .entry-footer a,
+  .nav-next a,
+  .nav-previous a {
+    font-size: 35px;
+  }
   /*Bio page slider styles*/
   .rslides {
-    max-height: 600px;
+    max-height: 800px;
   }
   /*Prezi embed styles*/
   #prezi-viewer {
@@ -2707,8 +2725,8 @@ div.wpcf7-mail-sent-ng {
   }
   #iframe_container {
     width: 80%;
-    height: 600px;
-    margin: 0 10%;
+    height: 1000px;
+    margin: 0 auto;
     margin-bottom: 50px;
   }
   #mainbannercontainer {
