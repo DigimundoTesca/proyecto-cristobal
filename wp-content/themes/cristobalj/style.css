@@ -2729,6 +2729,127 @@ div.wpcf7-mail-sent-ng {
     margin: 0 auto;
     margin-bottom: 50px;
   }
+  /*Know more styles*/
+  #kmorebannercontainer {
+    height: 800px;
+    margin-top: 20px;
+  }
+  .bigkmoreContainer {
+    width: 800px;
+  }
+  .textBig {
+    font-size: 45px;
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+  .textSmall {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: normal;
+  }
+  .imgChange1{
+    width: auto;
+    height: 30px; 
+    position: absolute;
+    top: 7px;
+    z-index: 10;
+  }
+  .imgChange2{
+    width: auto;
+    height: auto; 
+    position: absolute;
+    right: 216px;
+    top: 72px;
+  }
+  .imgChange3{
+    width: 100px;
+    position: absolute;
+    top: 120px;
+    right: 42px;
+  }
+  .imgChange4{
+    width: 100px;
+    position: absolute;
+    top: 245px;
+    right: -4px;
+  }
+  .imgChange5{
+    width: 100px;
+    position: absolute;
+    right: -50px;
+  }
+  .imgChange6{
+    width: 100px; 
+    position: absolute;
+    top: 497px;
+    right: -7px;
+  }
+  .imgChange7{
+    width: 100px;
+    position: absolute;
+    right: 47px;
+    top:608px;
+  }
+  .imgChange8{
+    width: 100px;
+    position: absolute;
+    top: 680px;
+    right: 175px;
+  }
+  .imgChange9{
+    position: absolute;
+    top: 733px;
+  }
+  .imgChange10{
+    width: 100px;
+    position: absolute;
+    top: 680px;
+    left: 140px;
+  }
+  .imgChange11{
+    width: 100px;  
+    position: absolute;
+    top: 608px;
+    left: -50px;
+  }
+  .imgChange12{
+    width: 100px;
+    position: absolute;
+    top: 500px;
+    left: -77px;
+  }
+  .imgChange13{
+    position: absolute;
+    left: -83px;
+  }
+  .imgChange14{
+    width: 100px;
+    position: absolute;
+    top: 260px;
+    left: -25px;
+  }
+  .imgChange15{
+    width: 200px; 
+    position: absolute;
+    top: 124px;
+    left: -55px;
+    text-align: right;
+  }
+  .imgChange16{
+    width: 150px;
+    position: absolute;
+    top: 72px;
+    left: 117px;
+    text-align: right;
+  }
+  .moretitle {
+    text-align: left;
+    padding-left: 40px;
+  }
+  #mainContainer.more p {
+    font-size: 30px;
+    text-align: justify;
+  }
   #mainbannercontainer {
     width: initial;
     margin: 0;
@@ -2745,7 +2866,7 @@ div.wpcf7-mail-sent-ng {
   }
   .morevideo {
     width: 80%;
-    height: 600px;
+    height: 900px;
     margin: 0 10%;
     margin-bottom: 50px;
     border-top: 10px solid #37b4ee;
