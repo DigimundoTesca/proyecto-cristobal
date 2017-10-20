@@ -2487,14 +2487,12 @@ div.wpcf7-mail-sent-ng {
     justify-content: space-between;
   }
   #circles .circlecontent .circle {
-    font-size: 25px;
-    width: 100px;
-    height: 100px;
+    font-size: 40px;
+    width: 150px;
+    height: 150px;
   }
   #circles .circlecontent .text {
-    margin-left: 15px;
-    width: 200px;
-    font-size: 20px;
+    font-size: 35px;
   }
   /*Styles for main menu navigation*/
   .main-navigation a {
@@ -2602,9 +2600,65 @@ div.wpcf7-mail-sent-ng {
     max-width: 1800px;
     margin: 0;
   }
-  /*Social menu*/
-  #social li {
-    font-size: 20pt;
+  #datesContainer h3 {
+    font-size: 80px;
+    line-height: 130px;
+    padding-left: 30px;
+  }
+  #datesContainer h4 {
+    font-size: 40px;
+    line-height: 60px;
+    padding-left: 30px;
+  }
+  .css-events-list h2 {
+    padding: 10px 30px;
+    font-size: 50px;
+  }
+  .events-container{
+    margin-bottom: 30px;
+  }
+  .events-container .date-addres {
+    font-size: 40px;
+  }
+  .events-container .date-addres span {
+    font-size: 35px;
+  }
+  .events-container .event-button,
+  .events-container .event-buy {
+    width: 350px;
+    margin: 10px 0;
+  }
+  .buttons-container a {
+    font-size: 30px;
+  }
+  /*Modal form styles*/
+  .modal-lg {
+    max-width: 1300px;
+  }
+  .modal-header {
+    display: inline-flex;
+    justify-content: center;
+  }
+  .modal-title {
+    font-size: 50px;
+  }
+  .modal-body p:first-of-type {
+    font-size: 40px;
+  }
+  .modal-body label,
+  span.wpcf7-list-item {
+    font-size: 30px;
+  }
+  span.wpcf7-list-item input {
+    width: 30px;
+    height: 30px;
+  }
+  input.wpcf7-form-control.wpcf7-text {
+    font-size: 30px !important;
+  }
+  body .monochrome-light input.wpcf7-form-control.wpcf7-submit, body .monochrome-light input.wpcf7-form-control.wpcf7-submit:not([disabled]),
+  button.btn.btn-danger {
+    font-size: 25px;
   }
   /*Bio page slider styles*/
   .rslides {
