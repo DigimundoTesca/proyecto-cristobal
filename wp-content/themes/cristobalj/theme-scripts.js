@@ -5,7 +5,7 @@ jQuery(document).ready(function(){
   let submit = document.getElementsByClassName('es_textbox_button es_submit_button');
   let i = 0;
   for (; i < buttonsubmit.length; i++) {
-    if (window.location.pathname == '/Cristobal/') {
+    if (window.location.pathname == '/') {
         document.getElementById('extralink').setAttribute('href', 'saber-mas');
       for (j = 0; j < buttonsubmit.length; j++) {
         document.getElementsByClassName('es_textbox_button es_submit_button')[j].value = 'suscribirse';
@@ -14,7 +14,7 @@ jQuery(document).ready(function(){
         // document.getElementsByClassName('event-button')[j].innerHTML = 'Más información';
       }
     }
-    else if (window.location.pathname == '/Cristobal/it/') {
+    else if (window.location.pathname == '/it/') {
         document.getElementById('extralink').setAttribute('href', 'ulteriori-informazioni');
       for (j = 0; j < buttonsubmit.length; j++) {
         document.getElementsByClassName('es_textbox_button es_submit_button')[j].value = 'abbonarsi';
@@ -23,7 +23,7 @@ jQuery(document).ready(function(){
         // document.getElementsByClassName('event-button')[j].innerHTML = 'Ulteriori informazioni';
       }
     }
-    else if (window.location.pathname == '/Cristobal/fr/') {
+    else if (window.location.pathname == '/fr/') {
         document.getElementById('extralink').setAttribute('href', 'savoir-plus');
       for (j = 0; j < buttonsubmit.length; j++) {
         document.getElementsByClassName('es_textbox_button es_submit_button')[j].value = "S'abonner";
@@ -38,18 +38,18 @@ jQuery(document).ready(function(){
   let eventbuy = document.getElementsByClassName('event-buy');
   let k = 0;
   for (; k < eventbutton.length; k++) {
-    if (window.location.pathname == '/Cristobal/') {
+    if (window.location.pathname == '/') {
       for (l = 0; l < eventbutton.length; l++) {
         document.getElementsByClassName('event-button')[l].innerHTML = 'Más información';
         document.getElementsByClassName('event-buy')[l].innerHTML = 'Compra tu ticket';
       }
     }
-    else if (window.location.pathname == '/Cristobal/it/') {
+    else if (window.location.pathname == '/it/') {
       for (l = 0; l < eventbutton.length; l++) {
         document.getElementsByClassName('event-button')[l].innerHTML = 'Ulteriori informazioni';
       }
     }
-    else if (window.location.pathname == '/Cristobal/fr/') {
+    else if (window.location.pathname == '/fr/') {
       for (l = 0; l < eventbutton.length; l++) {
         document.getElementsByClassName('event-button')[l].innerHTML = "plus d'informations";
       }
@@ -58,21 +58,21 @@ jQuery(document).ready(function(){
 
   // Change menu color for metamundo page
   var coll = document.getElementsByClassName('menu-item');
-  if (window.location.pathname == '/Cristobal/metamundo/') {
+  if (window.location.pathname == '/metamundo/') {
     document.getElementById('site-navigation').style.backgroundColor = "#be0211";
     for(i, len=coll.length; i<len; i++)
     {
       coll[i].className += ' metahover';
     }
   }
-  else if (window.location.pathname == '/Cristobal/it/metamundo/') {
+  else if (window.location.pathname == '/it/metamundo/') {
     document.getElementById('site-navigation').style.backgroundColor = "#be0211";
     for(i, len=coll.length; i<len; i++)
     {
       coll[i].className += ' metahover';
     }
   }
-  else if (window.location.pathname == '/Cristobal/fr/metamundo/') {
+  else if (window.location.pathname == '/fr/metamundo/') {
     document.getElementById('site-navigation').style.backgroundColor = "#be0211";
     for(i, len=coll.length; i<len; i++)
     {
@@ -82,21 +82,21 @@ jQuery(document).ready(function(){
 
   // Change menu color for biography page
   var coll = document.getElementsByClassName('menu-item');
-  if (window.location.pathname == '/Cristobal/biografia/') {
+  if (window.location.pathname == '/biografia/') {
     document.getElementById('site-navigation').style.backgroundColor = "#d39b00";
     for(i, len=coll.length; i<len; i++)
     {
       coll[i].className += ' biohover';
     }
   }
-  else if (window.location.pathname == '/Cristobal/it/biografia/') {
+  else if (window.location.pathname == '/it/biografia/') {
     document.getElementById('site-navigation').style.backgroundColor = "#d39b00";
     for(i, len=coll.length; i<len; i++)
     {
       coll[i].className += ' biohover';
     }
   }
-  else if (window.location.pathname == '/Cristobal/fr/biographie/') {
+  else if (window.location.pathname == '/fr/biographie/') {
     document.getElementById('site-navigation').style.backgroundColor = "#d39b00";
     for(i, len=coll.length; i<len; i++)
     {
@@ -106,21 +106,21 @@ jQuery(document).ready(function(){
 
   // Change menu color for know-more page
   var coll = document.getElementsByClassName('menu-item');
-  if (window.location.pathname == '/Cristobal/saber-mas/') {
+  if (window.location.pathname == '/saber-mas/') {
     document.getElementById('site-navigation').style.backgroundColor = "#37b4ee";
     for(i, len=coll.length; i<len; i++)
     {
       coll[i].className += ' morehover';
     }
   }
-  else if (window.location.pathname == '/Cristobal/it/ulteriori-informazioni/') {
+  else if (window.location.pathname == '/it/ulteriori-informazioni/') {
     document.getElementById('site-navigation').style.backgroundColor = "#37b4ee";
     for(i, len=coll.length; i<len; i++)
     {
       coll[i].className += ' morehover';
     }
   }
-  else if (window.location.pathname == '/Cristobal/fr/savoir-plus/') {
+  else if (window.location.pathname == '/fr/savoir-plus/') {
     document.getElementById('site-navigation').style.backgroundColor = "#37b4ee";
     for(i, len=coll.length; i<len; i++)
     {
@@ -248,7 +248,7 @@ jQuery(document).ready(function(){
   })(jQuery);
 
 
-  // Metamundo blocks menu handler
+  // Matamundo blocks menu handler
   (function($) {
     $("#blocksContainer li a").on("click", function(e) {
         e.preventDefault();
@@ -309,11 +309,10 @@ jQuery(document).ready(function(){
         confirmButtonText: "¡Vamos!",
         confirmButtonClass: 'btn btn-success'
         }).then(function () {
-          // window.location.href = redirectUrl;
-          window.location.href = 'http://www.cristobal-jodorowsky.com';
+          window.location.href = redirectUrl;
         });
     });
   })(jQuery);
 
 
-}); 
+});
