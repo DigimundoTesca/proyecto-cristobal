@@ -1632,13 +1632,16 @@ div.wpcf7-mail-sent-ng {
   display: none !important;
 }
 /*Single page for book download form*/
+.downloadForm .wpcf7 {
+  margin: 0 !important;
+}
 .downloadForm .wpcf7 p {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 .downloadImage img {
-  width: 70%;
+  width: 60%;
 }
 
 

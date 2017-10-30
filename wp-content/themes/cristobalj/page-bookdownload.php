@@ -10,7 +10,7 @@ get_header(); ?>
       <?php printf(__('Download "El collar del tigre"!','cristobalj')) ?>
     </h2>
     <div class="row d-flex flex-wrap">
-      <div class="col-sm-12 col-lg-6 downloadForm">
+      <div class="col-sm-12 col-lg-6 d-flex flex-column justify-content-center downloadForm">
         <?php echo do_shortcode('[contact-form-7 title="Descarga de libro"]'); ?>
         <a download href="<?php echo get_stylesheet_directory_uri(); ?>/El_collar_del_tigre.pdf" id="downloadThis" class="d-none" title="Libro Tigre">Download</a>
       </div>

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CristobalJ\n"
-"POT-Creation-Date: 2017-10-19 17:48-0500\n"
-"PO-Revision-Date: 2017-10-19 17:48-0500\n"
+"POT-Creation-Date: 2017-10-30 11:43-0600\n"
+"PO-Revision-Date: 2017-10-30 11:43-0600\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -286,6 +286,10 @@ msgstr "La historia "
 msgid "<span class=\"biocolor\" > of Cristobal</span>"
 msgstr "<span class=\"biocolor\" > de Cristóbal</span>"
 
+#: page-bookdownload.php:10
+msgid "Download \"El collar del tigre\"!"
+msgstr "¡Descarga \"El collar del tigre\"!"
+
 #: page-libri.php:32 page-libros.php:32 page-livres.php:32
 msgid "Buy"
 msgstr "Compra"
@@ -404,16 +408,26 @@ msgid " Psychoanalysis and Parental Healing / Initiative Massage"
 msgstr ""
 
 #: page-metamundo.php:100
+#, fuzzy
+#| msgid ""
+#| "<p>At an archaic level, the human being responds to an innate instinct of "
+#| "family conservation. He is scheduled to fight for the survival of his "
+#| "clan. For the archaic brain an idea, an emotional structure, a "
+#| "prohibition, an order or a belief, may be the metaphor of an ancestor. "
+#| "That is why it is so difficult for us to shed all those aspects that "
+#| "prevent us from growing, since this could represent the murder of a "
+#| "member (or of all) our species. This is how we keep alive ideas, "
+#| "memories, phantasms, morals, behavioral structures, and ideologies that "
+#| "come from the genealogical lineage.</p>"
 msgid ""
 "At an archaic level, the human being responds to an innate instinct of "
 "family conservation. He is scheduled to fight for the survival of his clan. "
 "For the archaic brain an idea, an emotional structure, a prohibition, an "
-"order or a belief may be the metaphor of an ancestor.\n"
-"          That is why it is so difficult for us to shed all those aspects "
-"that prevent us from growing, since this could represent the murder of a "
-"member (or of all) our species. This is how we keep alive ideas, memories, "
-"phantasms, morals, behavioral structures, and ideologies that come from the "
-"genealogical lineage."
+"order or a belief may be the metaphor of an ancestor. That is why it is so "
+"difficult for us to shed all those aspects that prevent us from growing, "
+"since this could represent the murder of a member (or of all) our species. "
+"This is how we keep alive ideas, memories, phantasms, morals, behavioral "
+"structures, and ideologies that come from the genealogical lineage."
 msgstr ""
 "<p>A un nivel arcaico, el ser humano responde a un innato instinto de "
 "conservación familiar. Está programado para luchar por la supervivencia de "
@@ -425,15 +439,15 @@ msgstr ""
 "recuerdos, fantasmas, morales, estructuras de comportamiento, e ideologías "
 "que proceden del linaje genealógico.</p>"
 
-#: page-metamundo.php:105
+#: page-metamundo.php:104
 msgid "Block 5. "
 msgstr "Bloque 5. "
 
-#: page-metamundo.php:105
+#: page-metamundo.php:104
 msgid " The Art of Relationships of Couple, Friendship and Collaboration"
 msgstr ""
 
-#: page-metamundo.php:108
+#: page-metamundo.php:107
 msgid ""
 "This block is intended to address in depth the science of courtship. During "
 "his study, Cristobal Jodorowsky will provide the participants with the keys "
@@ -699,6 +713,27 @@ msgstr "Descripción"
 #. Author of the plugin/theme
 msgid "Digimundo"
 msgstr "Digimundo"
+
+#~ msgid ""
+#~ "At an archaic level, the human being responds to an innate instinct of "
+#~ "family conservation. He is scheduled to fight for the survival of his "
+#~ "clan. For the archaic brain an idea, an emotional structure, a "
+#~ "prohibition, an order or a belief may be the metaphor of an ancestor.\n"
+#~ "          That is why it is so difficult for us to shed all those aspects "
+#~ "that prevent us from growing, since this could represent the murder of a "
+#~ "member (or of all) our species. This is how we keep alive ideas, "
+#~ "memories, phantasms, morals, behavioral structures, and ideologies that "
+#~ "come from the genealogical lineage."
+#~ msgstr ""
+#~ "<p>A un nivel arcaico, el ser humano responde a un innato instinto de "
+#~ "conservación familiar. Está programado para luchar por la supervivencia "
+#~ "de su clan. Para el cerebro arcaico una idea, una estructura emocional, "
+#~ "una prohibición, una orden o una creencia, pueden ser la metáfora de un "
+#~ "ancestro. Por eso nos cuesta tanto despojarnos de todos esos aspectos que "
+#~ "nos impiden crecer, ya que ello podría representar el asesinato de un "
+#~ "miembro (o de toda)nuestra especie. Es así como mantenemos en vida ideas, "
+#~ "recuerdos, fantasmas, morales, estructuras de comportamiento, e "
+#~ "ideologías que proceden del linaje genealógico.</p>"
 
 #~ msgid ""
 #~ "<p>He is a psychoanalyst, a psychologist, a poet, a painter, a writer, a "
