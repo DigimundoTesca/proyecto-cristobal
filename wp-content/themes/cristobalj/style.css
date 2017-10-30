@@ -1631,6 +1631,15 @@ body .monochrome-light input.wpcf7-form-control.wpcf7-submit, body .monochrome-l
 div.wpcf7-mail-sent-ng {
   display: none !important;
 }
+/*Single page for book download form*/
+.downloadForm .wpcf7 p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.downloadImage img {
+  width: 70%;
+}
 
 
 
