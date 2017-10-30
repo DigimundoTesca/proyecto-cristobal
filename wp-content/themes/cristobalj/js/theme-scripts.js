@@ -248,7 +248,7 @@ jQuery(document).ready(function(){
   })(jQuery);
 
 
-  // Matamundo blocks menu handler
+  // Metamundo blocks menu handler
   (function($) {
     $("#blocksContainer li a").on("click", function(e) {
         e.preventDefault();
@@ -297,9 +297,20 @@ jQuery(document).ready(function(){
   // Book download
   (function($) {
     var wpcf7Elm = document.querySelector( '.wpcf7' );
+    var redirectUrl = object_name.redirectUrl;
     wpcf7Elm.addEventListener( 'wpcf7mailfailed', function( event ) {
       $('#downloadThis')[0].click();
       $('#downloadBook').modal('hide');
+      swal({
+        title: "Sus datos se han registrado!",
+        text: "Disfrute su libro",
+        type: "success",
+        showCancelButton: false,
+        confirmButtonText: "¡Vamos!",
+        confirmButtonClass: 'btn btn-success'
+        }).then(function () {
+          window.location.href = redirectUrl;
+        });
     });
   })(jQuery);
 

@@ -128,9 +128,11 @@ add_action( 'widgets_init', 'language_settings' );
  */
 function cristobalj_scripts() {
   wp_enqueue_style( 'fonts-style', get_template_directory_uri().'/fonts/stylesheet.css' );
+  wp_enqueue_style( 'swalcss', 'https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.11.2/sweetalert2.css', true );
   wp_enqueue_style( 'normalize', 'https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css', true );
 	wp_enqueue_style( 'bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css' );
 	wp_enqueue_style( 'fontawesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css', true );
+  wp_enqueue_script( 'swaljs', 'https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.11.2/sweetalert2.all.min.js', true );
   wp_enqueue_script( 'prefixfree', 'https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js', true );
 	wp_enqueue_script( 'pooper', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js', true );
   wp_enqueue_script( 'bootstrapjs', 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js', true );
@@ -139,8 +141,10 @@ function cristobalj_scripts() {
 	wp_enqueue_script( 'slide', get_template_directory_uri() . '/js/responsiveslides.min.js', array(), '', true );
 	wp_enqueue_script( 'themejs', get_template_directory_uri() . '/js/theme-scripts.js', array(), '', true );
   $translation_array = array( 'templateUrl' => get_stylesheet_directory_uri() );
+  $redirect_array = array( 'redirectUrl' => get_permalink( get_page_by_title( 'bookdownload' ) ) );
 //after wp_enqueue_script
   wp_localize_script( 'themejs', 'object_name', $translation_array );
+  wp_localize_script( 'themejs', 'object_name', $redirect_array );
   wp_enqueue_script('jquery');
 
 

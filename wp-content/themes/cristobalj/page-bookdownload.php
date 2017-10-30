@@ -2,7 +2,7 @@
 /**
  * Template for displaying book download form */
 
-get_header(); ?>
+get_template_part( 'header_book' );  ?>
 
 <div id="primary" class="content-area">
   <main id="main" class="site-main d-flex flex-column align-items-center bookdownloadContainer">
