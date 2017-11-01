@@ -1652,20 +1652,21 @@ div.wpcf7-mail-sent-ng {
   width: 70%;
 }
 input.wpcf7-form-control.wpcf7-number {
-  width: 45% !important;
+  width: 90% !important;
 }
 select.wpcf7-form-control.wpcf7-select {
-  width: 50% !important;
-  margin-right: 10px;
+  width: 90% !important;
+  margin-bottom: 10px;
 }
 span.wpcf7-form-control-wrap.Edad input{
-  width: 100% !important;
+  width: 90% !important;
+  margin: 0 auto;
 }
 .Ciudad {
-  width: 60% !important;
+  width: 70% !important;
 }
-.postal {
-  width: 100% !important;
+.postal span input {
+  width: 90% !important;
 }
 .downloadForm .wpcf7 {
   margin: 0 !important;
@@ -2354,6 +2355,23 @@ span.wpcf7-form-control-wrap.Edad input{
     font-size: 28px;
     line-height: 36px;
     text-align: justify !important;
+  }
+  /*Book download form styles*/
+  input.wpcf7-form-control.wpcf7-number {
+    width: 40% !important;
+  }
+  select.wpcf7-form-control.wpcf7-select {
+    width: 50% !important;
+    margin-right: 10px;
+  }
+  span.wpcf7-form-control-wrap.Edad input{
+    width: 50% !important;
+  }
+  .Ciudad {
+    width: 60% !important;
+  }
+  .postal span input {
+    width: 100% !important;
   }
 }
 
