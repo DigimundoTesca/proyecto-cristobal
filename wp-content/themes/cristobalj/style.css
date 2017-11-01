@@ -1679,6 +1679,9 @@ span.wpcf7-form-control-wrap.Edad input{
 .downloadImage img {
   width: 60%;
 }
+input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-number {
+  padding: 21px 5px 17px !important;
+}
 
 
 
@@ -2370,7 +2373,7 @@ span.wpcf7-form-control-wrap.Edad input{
   .Ciudad {
     width: 60% !important;
   }
-  .postal span input {
+  #postal span input {
     width: 100% !important;
   }
 }
