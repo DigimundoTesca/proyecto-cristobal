@@ -1624,6 +1624,18 @@ h3.booktitle {
   font-weight: normal;
 }
 /*Download book form styles*/
+.modal-body form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.modal-body form p {
+  text-align: center;
+}
+.modal-body form .bookLabel span > * {
+  width: 100%;
+}
 body .monochrome-light input.wpcf7-form-control.wpcf7-submit, body .monochrome-light input.wpcf7-form-control.wpcf7-submit:not([disabled]) {
   background-color: #28a745;
   border-color: #28a745;
@@ -1632,6 +1644,29 @@ div.wpcf7-mail-sent-ng {
   display: none !important;
 }
 /*Single page for book download form*/
+.formBookDownload {
+  widows: inherit;
+  padding: 10px 0;
+}
+.bookLabel{
+  width: 70%;
+}
+input.wpcf7-form-control.wpcf7-number {
+  width: 45% !important;
+}
+select.wpcf7-form-control.wpcf7-select {
+  width: 50% !important;
+  margin-right: 10px;
+}
+span.wpcf7-form-control-wrap.Edad input{
+  width: 100% !important;
+}
+.Ciudad {
+  width: 60% !important;
+}
+.postal {
+  width: 100% !important;
+}
 .downloadForm .wpcf7 {
   margin: 0 !important;
 }

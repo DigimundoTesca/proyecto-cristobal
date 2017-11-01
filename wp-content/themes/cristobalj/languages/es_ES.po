@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CristobalJ\n"
-"POT-Creation-Date: 2017-10-30 11:43-0600\n"
-"PO-Revision-Date: 2017-10-30 11:43-0600\n"
+"POT-Creation-Date: 2017-11-01 11:58-0600\n"
+"PO-Revision-Date: 2017-11-01 11:59-0600\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -110,68 +110,68 @@ msgstr "Agrega widgets aquí."
 msgid "LanBar"
 msgstr ""
 
-#: functions.php:164
+#: functions.php:168
 msgctxt "blog"
 msgid "Books"
 msgstr "Libros"
 
-#: functions.php:165
+#: functions.php:169
 msgctxt "post type singular name"
 msgid "Book"
 msgstr "Libro"
 
-#: functions.php:166
+#: functions.php:170
 msgctxt "admin menu"
 msgid "Books"
 msgstr "Libros"
 
-#: functions.php:167
+#: functions.php:171
 msgctxt "add new on admin bar"
 msgid "Books"
 msgstr "Libros"
 
-#: functions.php:168
+#: functions.php:172
 msgctxt "book"
 msgid "Add New"
 msgstr "Agregar nuevo"
 
-#: functions.php:169
+#: functions.php:173
 msgid "Add New Project"
 msgstr "Agregar nuevo proyecto"
 
-#: functions.php:170
+#: functions.php:174
 msgid "New Project"
 msgstr "Nuevo proyecto"
 
-#: functions.php:171
+#: functions.php:175
 msgid "Edit Books"
 msgstr "Editar libros"
 
-#: functions.php:172
+#: functions.php:176
 msgid "View Books"
 msgstr "Ver libros"
 
-#: functions.php:173
+#: functions.php:177
 msgid "All Books"
 msgstr "Todos los libros"
 
-#: functions.php:174
+#: functions.php:178
 msgid "Search Books"
 msgstr "Buscar libros"
 
-#: functions.php:175
+#: functions.php:179
 msgid "Parent Books:"
 msgstr "Libros relacionados:"
 
-#: functions.php:176
+#: functions.php:180
 msgid "No Projects found."
 msgstr "No se encontraron proyectos."
 
-#: functions.php:177
+#: functions.php:181
 msgid "No Projects found in Trash."
 msgstr "No se encontraron proyectos en la basura."
 
-#: functions.php:182
+#: functions.php:186
 msgid "Description."
 msgstr "Descripción."
 
@@ -408,17 +408,6 @@ msgid " Psychoanalysis and Parental Healing / Initiative Massage"
 msgstr ""
 
 #: page-metamundo.php:100
-#, fuzzy
-#| msgid ""
-#| "<p>At an archaic level, the human being responds to an innate instinct of "
-#| "family conservation. He is scheduled to fight for the survival of his "
-#| "clan. For the archaic brain an idea, an emotional structure, a "
-#| "prohibition, an order or a belief, may be the metaphor of an ancestor. "
-#| "That is why it is so difficult for us to shed all those aspects that "
-#| "prevent us from growing, since this could represent the murder of a "
-#| "member (or of all) our species. This is how we keep alive ideas, "
-#| "memories, phantasms, morals, behavioral structures, and ideologies that "
-#| "come from the genealogical lineage.</p>"
 msgid ""
 "At an archaic level, the human being responds to an innate instinct of "
 "family conservation. He is scheduled to fight for the survival of his clan. "
@@ -429,7 +418,7 @@ msgid ""
 "This is how we keep alive ideas, memories, phantasms, morals, behavioral "
 "structures, and ideologies that come from the genealogical lineage."
 msgstr ""
-"<p>A un nivel arcaico, el ser humano responde a un innato instinto de "
+"A un nivel arcaico, el ser humano responde a un innato instinto de "
 "conservación familiar. Está programado para luchar por la supervivencia de "
 "su clan. Para el cerebro arcaico una idea, una estructura emocional, una "
 "prohibición, una orden o una creencia, pueden ser la metáfora de un "
@@ -437,7 +426,7 @@ msgstr ""
 "nos impiden crecer, ya que ello podría representar el asesinato de un "
 "miembro (o de toda)nuestra especie. Es así como mantenemos en vida ideas, "
 "recuerdos, fantasmas, morales, estructuras de comportamiento, e ideologías "
-"que proceden del linaje genealógico.</p>"
+"que proceden del linaje genealógico."
 
 #: page-metamundo.php:104
 msgid "Block 5. "
@@ -652,6 +641,14 @@ msgstr ""
 "inconscientes familiares, proyecciones del ego y nudos genealoógicos, así "
 "como las consecuencias que todos estos factores provocan en su vida afectiva "
 "actual.</p>"
+
+#: page-thanks.php:10
+msgid "Thank you for download my book - \"El collar del tigre\""
+msgstr "¡Gracias por descargar mi libro - \"El collar del tigre\"!"
+
+#: page-thanks.php:14
+msgid "Wait for new surprises soon"
+msgstr "Espera pronto nuevas sorpresas"
 
 #. translators: %s: search query.
 #: search.php:18

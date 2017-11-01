@@ -309,8 +309,7 @@ jQuery(document).ready(function(){
         confirmButtonText: "¡Vamos!",
         confirmButtonClass: 'btn btn-success'
         }).then(function () {
-          // window.location.href = redirectUrl;
-          window.location.href = 'http://www.cristobal-jodorowsky.com';
+          window.location.href = redirectUrl;
         });
     });
   })(jQuery);
