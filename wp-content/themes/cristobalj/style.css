@@ -1648,25 +1648,32 @@ div.wpcf7-mail-sent-ng {
   widows: inherit;
   padding: 10px 0;
 }
+.bannertitle {
+  text-align: center;
+  text-transform: uppercase;
+}
 .bookLabel{
   width: 70%;
 }
 input.wpcf7-form-control.wpcf7-number {
-  width: 90% !important;
+  width: 100% !important;
 }
 select.wpcf7-form-control.wpcf7-select {
-  width: 90% !important;
+  width: 100% !important;
   margin-bottom: 10px;
 }
 span.wpcf7-form-control-wrap.Edad input{
-  width: 90% !important;
+  width: 65% !important;
   margin: 0 auto;
 }
-.Ciudad {
-  width: 70% !important;
+#Ciudad {
+  align-items: center;
 }
-.postal span input {
-  width: 90% !important;
+#Ciudad span input {
+  width: 65% !important;
+}
+#postal span input {
+  width: 65% !important;
 }
 .downloadForm .wpcf7 {
   margin: 0 !important;
@@ -2280,6 +2287,51 @@ input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-number {
   .content {
     font-size: 18px;
   }
+  /*Single page for book download form*/
+  .formBookDownload {
+    widows: inherit;
+    padding: 10px 0;
+  }
+  .bookLabel{
+    width: 70%;
+  }
+  input.wpcf7-form-control.wpcf7-number {
+    width: 100% !important;
+  }
+  select.wpcf7-form-control.wpcf7-select {
+    width: 100% !important;
+    margin-bottom: 10px;
+  }
+  span.wpcf7-form-control-wrap.Edad input{
+    width: 100% !important;
+  }
+  #genero {
+    padding-left: 30px !important;
+  }
+  #Ciudad {
+    text-align: right !important;
+    margin-right: 20px;
+  }
+  #Ciudad span input {
+    width: 50% !important;
+  }
+  #postal span input {
+    width: 100% !important;
+  }
+  .downloadForm .wpcf7 {
+    margin: 0 !important;
+  }
+  .downloadForm .wpcf7 p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .downloadImage img {
+    width: 60%;
+  }
+  input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-number {
+    padding: 21px 5px 17px !important;
+  }
 }
 
 
@@ -2359,22 +2411,54 @@ input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-number {
     line-height: 36px;
     text-align: justify !important;
   }
-  /*Book download form styles*/
+  /*Single page for book download form*/
+  .formBookDownload {
+    widows: inherit;
+    padding: 10px 0;
+  }
+  .bookLabel{
+    width: 70%;
+  }
   input.wpcf7-form-control.wpcf7-number {
-    width: 40% !important;
+    width: 100% !important;
   }
   select.wpcf7-form-control.wpcf7-select {
-    width: 50% !important;
-    margin-right: 10px;
+    width: 100% !important;
+    margin-bottom: 10px;
   }
   span.wpcf7-form-control-wrap.Edad input{
-    width: 50% !important;
-  }
-  .Ciudad {
     width: 60% !important;
   }
+  #genero {
+    padding-left: 0 !important;
+  }
+  #Ciudad {
+    text-align: right !important;
+    margin-right: 10px;
+  }
+  #Ciudad span input {
+    width: 60% !important;
+  }
+  #postal {
+    text-align: left !important;
+    margin-left: 10px;
+  }
   #postal span input {
-    width: 100% !important;
+    width: 70% !important;
+  }
+  .downloadForm .wpcf7 {
+    margin: 0 !important;
+  }
+  .downloadForm .wpcf7 p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .downloadImage img {
+    width: 60%;
+  }
+  input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-number {
+    padding: 21px 5px 17px !important;
   }
 }
 
@@ -2505,6 +2589,55 @@ input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-number {
   }
   .bookimg img {
     height: 250px;
+  }
+  /*Single page for book download form*/
+  .formBookDownload {
+    widows: inherit;
+    padding: 10px 0;
+  }
+  .bookLabel{
+    width: 70%;
+  }
+  input.wpcf7-form-control.wpcf7-number {
+    width: 100% !important;
+  }
+  select.wpcf7-form-control.wpcf7-select {
+    width: 100% !important;
+    margin-bottom: 10px;
+  }
+  span.wpcf7-form-control-wrap.Edad input{
+    width: 100% !important;
+  }
+  #genero {
+    padding-left: 30px !important;
+  }
+  #Ciudad {
+    text-align: right !important;
+    margin-right: 10px;
+  }
+  #Ciudad span input {
+    width: 60% !important;
+  }
+  #postal {
+    text-align: left !important;
+    margin-left: 10px;
+  }
+  #postal span input {
+    width: 100% !important;
+  }
+  .downloadForm .wpcf7 {
+    margin: 0 !important;
+  }
+  .downloadForm .wpcf7 p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .downloadImage img {
+    width: 60%;
+  }
+  input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-number {
+    padding: 21px 5px 17px !important;
   }
 }
 

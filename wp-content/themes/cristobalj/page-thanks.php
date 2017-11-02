@@ -10,11 +10,11 @@ get_template_part( 'header_book' );  ?>
       <?php printf(__('Thank you for download my book - "El collar del tigre"','cristobalj')) ?>
     </h2>
     <div class="row">
-      <div class="col-sm-12 col-md-6 d-flex justify-content-center align-items-center">
-        <h3><?php printf(__('Wait for new surprises soon','cristobalj')) ?></h3>
-      </div>
       <div class="col-sm-12 col-md-6 d-flex justify-content-center align-items-center downloadImage">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/books/Tigre1.jpg" alt="book image">
+      </div>
+      <div class="col-sm-12 col-md-6 d-flex justify-content-center align-items-center">
+        <h3><?php printf(__('Wait for new surprises soon','cristobalj')) ?></h3>
       </div>
     </div>
   </main><!-- #main -->
