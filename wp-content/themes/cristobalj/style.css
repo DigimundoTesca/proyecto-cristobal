@@ -1648,6 +1648,14 @@ div.wpcf7-mail-sent-ng {
   widows: inherit;
   padding: 10px 0;
 }
+#bkttlcontainer{
+  border-bottom: 3px solid #f12a3a;  
+}
+#dwnktitle {
+  font-size: 35px;
+  color: #f12a3a;
+  font-weight: bold;
+}
 .bannertitle {
   text-align: center;
   text-transform: uppercase;
@@ -1683,11 +1691,22 @@ span.wpcf7-form-control-wrap.Edad input{
   flex-direction: row;
   justify-content: center;
 }
-.downloadImage img {
-  width: 60%;
+.downloadImage {
+  background-color: #ba0211 ;
 }
-input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-number {
-  padding: 21px 5px 17px !important;
+.downloadImage img {
+  width: inherit;
+}
+body .monochrome-light input.wpcf7-form-control.wpcf7-date, body .monochrome-light input.wpcf7-form-control.wpcf7-number, body .monochrome-light input.wpcf7-form-control.wpcf7-quiz, body .monochrome-light input.wpcf7-form-control.wpcf7-text, body .monochrome-light select.wpcf7-form-control.wpcf7-select, body .monochrome-light textarea.wpcf7-form-control.wpcf7-textarea {
+  padding: 10px 10px 10px !important;
+  text-transform: lowercase;
+}
+select.wpcf7-form-control.wpcf7-select {
+  text-transform: uppercase !important;
+}
+input.wpcf7-form-control.wpcf7-submit {
+  margin-top: 20px !important;
+  margin-left: 10px !important;
 }
 
 
@@ -2326,12 +2345,8 @@ input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-number {
     flex-direction: row;
     justify-content: center;
   }
-  .downloadImage img {
-    width: 60%;
-  }
-  input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-number {
-    padding: 21px 5px 17px !important;
-  }
+  
+  
 }
 
 
@@ -2454,12 +2469,8 @@ input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-number {
     flex-direction: row;
     justify-content: center;
   }
-  .downloadImage img {
-    width: 60%;
-  }
-  input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-number {
-    padding: 21px 5px 17px !important;
-  }
+  
+  
 }
 
 
@@ -2606,7 +2617,7 @@ input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-number {
     margin-bottom: 10px;
   }
   span.wpcf7-form-control-wrap.Edad input{
-    width: 100% !important;
+    width: 90% !important;
   }
   #genero {
     padding-left: 30px !important;
@@ -2616,14 +2627,14 @@ input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-number {
     margin-right: 10px;
   }
   #Ciudad span input {
-    width: 60% !important;
+    width: 65% !important;
   }
   #postal {
     text-align: left !important;
     margin-left: 10px;
   }
   #postal span input {
-    width: 100% !important;
+    width: 90% !important;
   }
   .downloadForm .wpcf7 {
     margin: 0 !important;
@@ -2633,12 +2644,8 @@ input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-number {
     flex-direction: row;
     justify-content: center;
   }
-  .downloadImage img {
-    width: 60%;
-  }
-  input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-number {
-    padding: 21px 5px 17px !important;
-  }
+  
+  
 }
 
 @media screen and (min-width: 1300px) {
@@ -2837,17 +2844,6 @@ input.wpcf7-form-control.wpcf7-number.wpcf7-validates-as-number {
   }
   .modal-body p:first-of-type {
     font-size: 40px;
-  }
-  .modal-body label,
-  span.wpcf7-list-item {
-    font-size: 30px;
-  }
-  span.wpcf7-list-item input {
-    width: 30px;
-    height: 30px;
-  }
-  input.wpcf7-form-control.wpcf7-text {
-    font-size: 30px !important;
   }
   body .monochrome-light input.wpcf7-form-control.wpcf7-submit, body .monochrome-light input.wpcf7-form-control.wpcf7-submit:not([disabled]),
   button.btn.btn-danger {
