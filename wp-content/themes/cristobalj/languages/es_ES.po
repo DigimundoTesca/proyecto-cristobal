@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CristobalJ\n"
-"POT-Creation-Date: 2017-11-01 11:58-0600\n"
-"PO-Revision-Date: 2017-11-01 11:59-0600\n"
+"POT-Creation-Date: 2017-11-21 10:59-0600\n"
+"PO-Revision-Date: 2017-11-21 11:20-0600\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -286,7 +286,7 @@ msgstr "La historia "
 msgid "<span class=\"biocolor\" > of Cristobal</span>"
 msgstr "<span class=\"biocolor\" > de Cristóbal</span>"
 
-#: page-bookdownload.php:10
+#: page-bookdownload.php:11
 msgid "Download \"El collar del tigre\"!"
 msgstr "¡Descarga \"El collar del tigre\"!"
 
@@ -643,12 +643,12 @@ msgstr ""
 "actual.</p>"
 
 #: page-thanks.php:10
-msgid "Thank you for download my book - \"El collar del tigre\""
-msgstr "¡Gracias por descargar mi libro - \"El collar del tigre\"!"
+msgid "You have downloaded - \"El collar del tigre\""
+msgstr "¡Usted ha descargado \"El collar del tigre\"!"
 
-#: page-thanks.php:14
-msgid "Wait for new surprises soon"
-msgstr "Espera pronto nuevas sorpresas"
+#: page-thanks.php:17
+msgid "See you soon"
+msgstr "¡Hasta muy pronto!"
 
 #. translators: %s: search query.
 #: search.php:18
@@ -710,6 +710,12 @@ msgstr "Descripción"
 #. Author of the plugin/theme
 msgid "Digimundo"
 msgstr "Digimundo"
+
+#~ msgid "Thank you for download my book - \"El collar del tigre\""
+#~ msgstr "¡Gracias por descargar mi libro - \"El collar del tigre\"!"
+
+#~ msgid "Wait for new surprises soon"
+#~ msgstr "Espera pronto nuevas sorpresas"
 
 #~ msgid ""
 #~ "At an archaic level, the human being responds to an innate instinct of "
