@@ -196,54 +196,54 @@ jQuery(document).ready(function(){
     $("#bigkmoreContainer a").click(function(event){
       event.preventDefault();
     });
-    var templateUrl = object_name.templateUrl;
+    var templateUr = object_uri.templateUrl;
     $('.imgChange1').mouseover(function() {
-      $('.bigkmoreContainer img').css('background-image', 'url('+templateUrl+'/images/cristobal/12.jpg)');
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/12.jpg)');
     });
     $('.imgChange2').mouseover(function() {
-      $('.bigkmoreContainer img').css('background-image', 'url('+templateUrl+'/images/cristobal/3.jpg)');
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/3.jpg)');
     });
     $('.imgChange3').mouseover(function() {
-      $('.bigkmoreContainer img').css('background-image', 'url('+templateUrl+'/images/cristobal/5.jpg)');
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/5.jpg)');
     });
     $('.imgChange4').mouseover(function() {
-      $('.bigkmoreContainer img').css('background-image', 'url('+templateUrl+'/images/cristobal/7.jpg)');
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/7.jpg)');
     });
     $('.imgChange5').mouseover(function() {
-      $('.bigkmoreContainer img').css('background-image', 'url('+templateUrl+'/images/cristobal/11.jpg)');
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/11.jpg)');
     });
     $('.imgChange6').mouseover(function() {
-      $('.bigkmoreContainer img').css('background-image', 'url('+templateUrl+'/images/cristobal/13.jpg)');
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/13.jpg)');
     });
     $('.imgChange7').mouseover(function() {
-      $('.bigkmoreContainer img').css('background-image', 'url('+templateUrl+'/images/cristobal/23.jpg)');
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/23.jpg)');
     });
     $('.imgChange8').mouseover(function() {
-      $('.bigkmoreContainer img').css('background-image', 'url('+templateUrl+'/images/cristobal/33.jpg)');
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/33.jpg)');
     });
     $('.imgChange9').mouseover(function() {
-      $('.bigkmoreContainer img').css('background-image', 'url('+templateUrl+'/images/cristobal/42.jpg)');
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/42.jpg)');
     });
     $('.imgChange10').mouseover(function() {
-      $('.bigkmoreContainer img').css('background-image', 'url('+templateUrl+'/images/cristobal/37.jpg)');
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/37.jpg)');
     });
     $('.imgChange11').mouseover(function() {
-      $('.bigkmoreContainer img').css('background-image', 'url('+templateUrl+'/images/cristobal/50.jpg)');
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/50.jpg)');
     });
     $('.imgChange12').mouseover(function() {
-      $('.bigkmoreContainer img').css('background-image', 'url('+templateUrl+'/images/cristobal/53.jpg)');
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/53.jpg)');
     });
     $('.imgChange13').mouseover(function() {
-      $('.bigkmoreContainer img').css('background-image', 'url('+templateUrl+'/images/cristobal/10.jpg)');
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/10.jpg)');
     });
     $('.imgChange14').mouseover(function() {
-      $('.bigkmoreContainer img').css('background-image', 'url('+templateUrl+'/images/cristobal/23.jpg)');
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/23.jpg)');
     });
     $('.imgChange15').mouseover(function() {
-      $('.bigkmoreContainer img').css('background-image', 'url('+templateUrl+'/images/cristobal/27.jpg)');
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/27.jpg)');
     });
     $('.imgChange16').mouseover(function() {
-      $('.bigkmoreContainer img').css('background-image', 'url('+templateUrl+'/images/cristobal/20.jpg)');
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/20.jpg)');
     });
   })(jQuery);
 
