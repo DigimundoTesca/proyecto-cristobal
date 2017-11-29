@@ -10,7 +10,7 @@ Template Name: secondarybanner
         <h3>
           <?php printf(__('Live the experience!','cristobalj')) ?>
         </h3>
-        <p class="text-center text-dark h5 my-0">
+        <p class="text-center text-dark my-0">
           <?php printf(__('"Next generations"','cristobalj')) ?>
         </p>
         <p class="text-center text-dark mb-0">

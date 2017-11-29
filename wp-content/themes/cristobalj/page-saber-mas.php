@@ -25,7 +25,7 @@ get_header(); ?>
         <a href="#Teachers" class="imgChange12 textSmall"><?php printf( __( 'Teachers', 'cristobalj' ));?></a>
         <a href="#Travels" class="imgChange13 textBig"><?php printf( __( 'Travels', 'cristobalj' ));?></a>
         <a href="#Press" class="imgChange14 textSmall"><?php printf( __( 'Press', 'cristobalj' ));?></a>
-        <a href="#" class="imgChange15 textBig"><?php printf( __( '', 'cristobalj' ));?></a>
+        <a href="#Ngram" class="imgChange15 textBig"><?php printf( __( 'N-gram', 'cristobalj' ));?></a>
         <a href="#Art" class="imgChange16 textSmall"><?php printf( __( 'Art', 'cristobalj' ));?></a>
       </div>
       <div class="flex-column justify-content-center align-items-center" id="moreQuote">
@@ -34,7 +34,7 @@ get_header(); ?>
     </div>
 
 
-    <div id="mainContainer" class="more">
+    <div id="mainContainer" class="more mt-5">
       <h3 id="Psicoteatro" class="moretitle">
         <?php
         printf( __( 'My life on ', 'cristobalj' ));
@@ -125,9 +125,7 @@ get_header(); ?>
         ?>
       </h3>
       <?php printf(__("<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo optio repudiandae, a consequatur. Placeat labore dolorum perferendis cupiditate quam illo.</p>", 'cristobalj' )); ?>
-      <ul id="" class="">
-        <li><img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt=""></li>
-      </ul>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt="">
     </div>
     <div id="mainContainer" class="more">
       <h3 id="Therapies" class="moretitle">
@@ -136,9 +134,7 @@ get_header(); ?>
         ?>
       </h3>
       <?php printf(__("<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis doloribus nulla tempora, quas dolores mollitia iste at, ullam molestias enim!</p>", 'cristobalj' )); ?>
-      <ul id="" class="">
-        <li><img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt=""></li>
-      </ul>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt="">
     </div>
     <div id="mainContainer" class="more">
       <h3 id="Investigation" class="moretitle">
@@ -147,9 +143,7 @@ get_header(); ?>
         ?>
       </h3>
       <?php printf(__("<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex laborum sequi provident, aliquid eaque atque est dolore mollitia unde, omnis.</p>", 'cristobalj' )); ?>
-      <ul id="" class="">
-        <li><img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt=""></li>
-      </ul>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt="">
     </div>
     <div id="mainContainer" class="more">
       <h3 id="Psicomagic" class="moretitle">
@@ -158,9 +152,7 @@ get_header(); ?>
         ?>
       </h3>
       <?php printf(__("<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis reprehenderit nostrum suscipit dolorem quam sequi quibusdam dicta accusantium, facilis repellat?</p>", 'cristobalj' )); ?>
-      <ul id="" class="">
-        <li><img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt=""></li>
-      </ul>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt="">
     </div>
     <div id="mainContainer" class="more">
       <h3 id="Tarot" class="moretitle">
@@ -169,9 +161,7 @@ get_header(); ?>
         ?>
       </h3>
       <?php printf(__("<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore expedita accusantium obcaecati impedit ad, eveniet officiis debitis in illum enim.</p>", 'cristobalj' )); ?>
-      <ul id="" class="">
-        <li><img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt=""></li>
-      </ul>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt="">
     </div>
     <div id="mainContainer" class="more">
       <h3 id="Videos" class="moretitle">
@@ -180,9 +170,7 @@ get_header(); ?>
         ?>
       </h3>
       <?php printf(__("<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure quaerat minus delectus voluptatum praesentium dolorem facilis sit ea mollitia possimus!</p>", 'cristobalj' )); ?>
-      <ul id="" class="">
-        <li><img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt=""></li>
-      </ul>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt="">
     </div>
     <div id="mainContainer" class="more">
       <h3 id="Studies" class="moretitle">
@@ -191,9 +179,7 @@ get_header(); ?>
         ?>
       </h3>
       <?php printf(__("<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis architecto consectetur non provident ratione eos consequuntur a voluptas tenetur autem.</p>", 'cristobalj' )); ?>
-      <ul id="" class="">
-        <li><img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt=""></li>
-      </ul>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt="">
     </div>
     <div id="mainContainer" class="more">
       <h3 id="Teachers" class="moretitle">
@@ -202,9 +188,7 @@ get_header(); ?>
         ?>
       </h3>
       <?php printf(__("<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, totam, fugit. Laudantium aliquam odit voluptas fugiat, est consequatur animi adipisci?</p>", 'cristobalj' )); ?>
-      <ul id="" class="">
-        <li><img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt=""></li>
-      </ul>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt="">
     </div>
     <div id="mainContainer" class="more">
       <h3 id="Press" class="moretitle">
@@ -213,9 +197,7 @@ get_header(); ?>
         ?>
       </h3>
       <?php printf(__("<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta voluptates id officiis consequatur iste magnam quibusdam eos repellat qui facilis?</p>", 'cristobalj' )); ?>
-      <ul id="" class="">
-        <li><img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt=""></li>
-      </ul>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt="">
     </div>
     <div id="mainContainer" class="more">
       <h3 id="Travels" class="moretitle">
@@ -224,9 +206,7 @@ get_header(); ?>
         ?>
       </h3>
       <?php printf(__("<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam excepturi quia sequi dicta magnam obcaecati quibusdam nobis nihil inventore reiciendis.</p>", 'cristobalj' )); ?>
-      <ul id="" class="">
-        <li><img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt=""></li>
-      </ul>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt="">
     </div>
     <div id="mainContainer" class="more">
       <h3 id="Art" class="moretitle">
@@ -234,10 +214,17 @@ get_header(); ?>
         printf(__('<span class="morecolor" >Art</span>', 'cristobalj' ));
         ?>
       </h3>
-      <?php printf(__("<p>A Living Experience guided by Cristobal Jodorowsky, where he participates will learn more about his personal neurosis, family unconscious contracts, ego projections and geneological knots, as well as the consequences that all these factors cause in his current affective life.</p>", 'cristobalj' )); ?>
-      <ul id="" class="">
-        <li><img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt=""></li>
-      </ul>
+      <?php printf(__("<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam excepturi quia sequi dicta magnam obcaecati quibusdam nobis nihil inventore reiciendis.</p>", 'cristobalj' )); ?>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt="">
+    </div>
+    <div id="mainContainer" class="more">
+      <h3 id="Ngram" class="moretitle">
+        <?php
+        printf(__('<span class="morecolor" >N-gram</span>', 'cristobalj' ));
+        ?>
+      </h3>
+      <?php printf(__("<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam excepturi quia sequi dicta magnam obcaecati quibusdam nobis nihil inventore reiciendis.</p>", 'cristobalj' )); ?>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt="">
     </div>
     <?php while (have_posts()): the_post(); ?>
       <?php the_content(); ?>
