@@ -10,6 +10,9 @@ Template Name: secondarybanner
         <h3>
           <?php printf(__('Live the experience!','cristobalj')) ?>
         </h3>
+        <p class="text-center">
+          <?php printf(__('"Next generations"','cristobalj')) ?>
+        </p>
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/metalogonuevo.png" alt="">
       </div>
     </a>
@@ -34,9 +37,9 @@ Template Name: secondarybanner
           <?php printf(__('Cristobal','cristobalj')) ?>
         </h3>
         <p>
-          <?php printf(__('on Mind Hackers','cristobalj')) ?>
+          <?php printf(__('Tarot queries','cristobalj')) ?>
         </p>
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/mindhack.png" alt="">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/Tarot.jpg" alt="">
       </div>
     </a>
   </div>

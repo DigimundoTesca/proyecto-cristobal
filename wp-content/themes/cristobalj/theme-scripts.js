@@ -41,7 +41,7 @@ jQuery(document).ready(function(){
     if (window.location.pathname == '/Cristobal/') {
       for (l = 0; l < eventbutton.length; l++) {
         document.getElementsByClassName('event-button')[l].innerHTML = 'Más información';
-        document.getElementsByClassName('event-buy')[l].innerHTML = 'Compra tu ticket';
+        document.getElementsByClassName('event-buy')[l].innerHTML = 'Reserva tu lugar';
       }
     }
     else if (window.location.pathname == '/Cristobal/it/') {

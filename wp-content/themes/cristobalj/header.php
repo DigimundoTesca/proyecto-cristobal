@@ -73,15 +73,15 @@
 				<?php
 				endif; ?>
 
-				<aside id="langbar" class="widget-area">
+				<div  id="langbar" class="widget-area">
 					<?php dynamic_sidebar( 'langbar-1' ); ?>
-				</aside><!-- #secondary -->
+				</div><!-- #secondary -->
 				<div id="social">
 					<nav>
 						<ul>
-							<li><a href="" target="_blank" title="" class="fa fa-instagram" aria-hidden="true"></a></li>
-							<li><a href="" target="_blank" title="" class="fa fa-facebook-square" aria-hidden="true"></a></li>
-							<li><a href="" target="_blank" title="" class="fa fa-twitter" aria-hidden="true"></a></li>
+							<li><a href="" style="font-size: 30px;" target="_blank" title="" class="fa fa-instagram" aria-hidden="true"></a></li>
+							<li><a href="" style="font-size: 30px;" target="_blank" title="" class="fa fa-facebook-square" aria-hidden="true"></a></li>
+							<li><a href="" style="font-size: 30px;" target="_blank" title="" class="fa fa-twitter" aria-hidden="true"></a></li>
 						</ul>
 					</nav>
 				</div>
