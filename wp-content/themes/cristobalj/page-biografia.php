@@ -29,7 +29,7 @@ get_header(); ?>
           printf(__('<span class="biocolor" > of Cristobal</span>', 'cristobalj' ));
           ?>
         </h3>
-        <iframe id="iframe_container" frameborder="0" webkitallowfullscreen="0" mozallowfullscreen="0" allowfullscreen="0" src="https://prezi.com/embed/nfl9qlc6gzcf/?bgcolor=ffffff&amp;lock_to_path=1&amp;autoplay=4s&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI5dkY4SjlwSEp0U25OR25XbDJDVVhTdlpnPT0&amp;landing_sign=kERd7enWSYlUpX0svrltiiDhsybX84sCTNg1l6-iv78"></iframe>
+        <iframe id="iframe_container" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" width="550" height="400" src="https://prezi.com/embed/a9uaaiibi-8f/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI0VHhrSDJpTnEyc2pIZXFqWnlIVFA3bUJnPT0&amp;landing_sign=HtkqpC6ZbEG5NWnt2Usz46V7ji4fbfkbXz-jrRrTWRk"></iframe>
         <?php the_content(); ?>
       </div>
     <?php endwhile ?>

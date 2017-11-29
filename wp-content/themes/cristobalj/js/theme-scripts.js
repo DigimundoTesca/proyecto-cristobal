@@ -41,7 +41,7 @@ jQuery(document).ready(function(){
     if (window.location.pathname == '/Cristobal/') {
       for (l = 0; l < eventbutton.length; l++) {
         document.getElementsByClassName('event-button')[l].innerHTML = 'Más información';
-        document.getElementsByClassName('event-buy')[l].innerHTML = 'Compra tu ticket';
+        document.getElementsByClassName('event-buy')[l].innerHTML = 'Reserva tu lugar';
       }
     }
     else if (window.location.pathname == '/Cristobal/it/') {
@@ -296,22 +296,25 @@ jQuery(document).ready(function(){
 
   // Book download
   (function($) {
-    var wpcf7Elm = document.querySelector( '.wpcf7' );
-    var redirectUrl = object_name.redirectUrl;
-    wpcf7Elm.addEventListener( 'wpcf7mailfailed', function( event ) {
-      $('#downloadThis')[0].click();
-      $('#downloadBook').modal('hide');
-      swal({
-        title: "Descarga en proceso.",
-        text: "Disfrute su libro",
-        type: "success",
-        showCancelButton: false,
-        confirmButtonText: "¡Vamos!",
-        confirmButtonClass: 'btn btn-success'
+    $('#dnlBookBtn').click(function(event) {
+      var wpcf7Elm = document.querySelector( '.wpcf7' );
+      var redirectUrl = object_name.redirectUrl;
+      wpcf7Elm.addEventListener( 'wpcf7mailfailed', function( event ) {
+        $('#downloadThis')[0].click();
+        $('#downloadBook').modal('hide');
+        swal({
+          title: "Descarga en proceso.",
+          text: "Disfrute su libro",
+          type: "success",
+          showCancelButton: false,
+          confirmButtonText: "¡Vamos!",
+          confirmButtonClass: 'btn btn-success'
         }).then(function () {
           window.location.href = redirectUrl;
         });
+      });
     });
+
   })(jQuery);
 
 

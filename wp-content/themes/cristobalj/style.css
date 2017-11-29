@@ -694,6 +694,11 @@ span {
   max-width: 500px;
   margin: 0 auto;
 }
+.btn-success {
+  color: #fff !important;
+  background-color: #28a745 !important;
+  border-color: #28a745 !important;
+}
 /*Mobile styles - Celular*/
 .site-branding {
   width: 100%;
@@ -1054,6 +1059,9 @@ img#metabannerbig {
   height: auto;
   background-color: #FFF;
 }
+#generations {
+  border: 2px solid #be0211;
+}
 /*Styles for Main-banner*/
 #banner,
 #banner1 {
@@ -1322,9 +1330,6 @@ label.es_shortcode_form_email span {
   line-height: 50px;
   margin-top: 0;
 }
-.mainbannercontent .metmundo img {
-  margin: 10% 0;
-}
 .mainbannercontent .gift {
   border: 2px solid #175d39;
   background-color: #92b541;
@@ -1379,7 +1384,7 @@ label.es_shortcode_form_email span {
   margin: 0;
 }
 .mainbannercontent .mindHack img {
-  width: 160px;
+  width: 100%;
   align-self: center;
   margin: auto;
 }
@@ -1405,6 +1410,9 @@ label.es_shortcode_form_email span {
   max-width: 500px;
   margin: auto;
   margin-top: 20px;
+}
+#moreQuote {
+  display: none;
 }
 .mobilekmore {
   display: block;
@@ -1708,6 +1716,28 @@ input.wpcf7-form-control.wpcf7-submit {
   margin-top: 20px !important;
   margin-left: 10px !important;
 }
+/*Contact page styles*/
+#wpcf7-f124-p21-o1 {
+  margin-top: 0;
+}
+#wpcf7-f124-p21-o1 p {
+  margin: 0 !important;
+}
+#wpcf7-f124-p21-o1 p label {
+  width: 100%;
+}
+#wpcf7-f124-p21-o1 p input,
+#wpcf7-f124-p21-o1 p textarea {
+  background-color: #e2dfdf;
+}
+#contactBtn {
+  margin: 0 !important;
+  cursor: pointer;
+}
+#contactText {
+  border-top: 2px solid #92b541;
+  border-bottom: 2px solid #92b541;
+}
 
 
 
@@ -1741,6 +1771,7 @@ input.wpcf7-form-control.wpcf7-submit {
     height: 100%;
     width: 400px;
     margin: auto;
+    margin-left: 90px;
     position: relative;
   }
   .bigkmoreContainer a {
@@ -2119,9 +2150,6 @@ input.wpcf7-form-control.wpcf7-submit {
     line-height: 60px;
     margin-top: 0;
   }
-  .mainbannercontent .metmundo img {
-    margin: 10% 0;
-  }
   .mainbannercontent .gift {
     border: 2px solid #175d39;
     background-color: #92b541;
@@ -2173,10 +2201,6 @@ input.wpcf7-form-control.wpcf7-submit {
     color: #FFFFFF;
     line-height: 60px;
     margin: 0;
-  }
-  .mainbannercontent .mindHack img {
-    align-self: center;
-    width: 200px;
   }
   .mainbannercontent .mindHack p {
     position: relative;
@@ -2469,7 +2493,13 @@ input.wpcf7-form-control.wpcf7-submit {
     flex-direction: row;
     justify-content: center;
   }
-  
+  /*know more page styles*/
+  #moreQuote {
+    display: flex;
+    position: absolute;
+    right: 20px;
+    width: 25%;
+  }
   
 }
 
@@ -2572,6 +2602,9 @@ input.wpcf7-form-control.wpcf7-submit {
     margin-bottom: 50px;
     border-top: 10px solid #37b4ee;
   }
+  #moreQuote {
+    width: 30%;
+  }
   #metabanner1 {
     height: 400px;
     justify-content: space-around;
@@ -2670,6 +2703,9 @@ input.wpcf7-form-control.wpcf7-submit {
   .bookimg img {
     height: 300px;
   }
+  .bigkmoreContainer {
+    margin-left: 14%;
+  }
 }
 
 
@@ -2762,9 +2798,6 @@ input.wpcf7-form-control.wpcf7-submit {
     font-size: 40px;
     line-height: 80px;
   }
-  .mainbannercontent .metmundo img {
-    margin: 20% 0;
-  }
   .mainbannercontent .gift h3 {
     font-size: 45px;
     line-height: 90px;
@@ -2789,10 +2822,6 @@ input.wpcf7-form-control.wpcf7-submit {
   }
   .mainbannercontent .mindHack p {
     font-size: 50px;
-  }
-  .mainbannercontent .mindHack img {
-    align-self: center;
-    width: 90%;
   }
   /*Dates container styles*/
   #datesContainer {
@@ -3034,6 +3063,9 @@ input.wpcf7-form-control.wpcf7-submit {
   .moretitle {
     text-align: left;
     padding-left: 40px;
+  }
+  #moreQuote p {
+    font-size: 35px;
   }
   #mainContainer.more p {
     font-size: 30px;

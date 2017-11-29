@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CristobalJ\n"
-"POT-Creation-Date: 2017-11-21 10:59-0600\n"
-"PO-Revision-Date: 2017-11-21 11:20-0600\n"
+"POT-Creation-Date: 2017-11-29 13:01-0600\n"
+"PO-Revision-Date: 2017-11-29 13:04-0600\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -236,25 +236,33 @@ msgstr "Editar <span class=\"screen-reader-text\">%s</span>"
 msgid "Live the experience!"
 msgstr "Vive la experiencia !"
 
-#: mainbanner.php:21 secondarybanner.php:21
+#: mainbanner.php:14 page-metamundo.php:75 secondarybanner.php:14
+msgid "\"Next generations\""
+msgstr "\"Próximas generaciones\""
+
+#: mainbanner.php:17 secondarybanner.php:17
+msgid "Mexico febrero 2018"
+msgstr "Mexico febrero 2018"
+
+#: mainbanner.php:18 secondarybanner.php:18
+msgid "Argentina julio 2018"
+msgstr "Argentina julio 2018"
+
+#: mainbanner.php:28 secondarybanner.php:28
 msgid "We give you"
 msgstr "Te obsequiamos"
 
-#: mainbanner.php:25 secondarybanner.php:25
+#: mainbanner.php:32 secondarybanner.php:32
 msgid "Free download"
 msgstr "Descarga gratis"
 
-#: mainbanner.php:34 secondarybanner.php:34
-msgid "Cristobal"
-msgstr "Cristóbal"
-
-#: mainbanner.php:37 secondarybanner.php:37
-msgid "on Mind Hackers"
-msgstr "en Mind Hackers"
+#: mainbanner.php:41 secondarybanner.php:41
+msgid "Tarot queries"
+msgstr "Consultas de tarot"
 
 #: page-accueil.php:14 page-accueil.php:26 page-inicio.php:14
 #: page-inicio.php:26 page-iniziazione.php:14 page-iniziazione.php:26
-#: page-metamundo.php:13 page-metamundo.php:23
+#: page-metamundo.php:12 page-metamundo.php:22
 msgid "Welcome!"
 msgstr "Bienvenido!"
 
@@ -287,66 +295,93 @@ msgid "<span class=\"biocolor\" > of Cristobal</span>"
 msgstr "<span class=\"biocolor\" > de Cristóbal</span>"
 
 #: page-bookdownload.php:11
-msgid "Download \"El collar del tigre\"!"
-msgstr "¡Descarga \"El collar del tigre\"!"
+msgid "A gift for you!"
+msgstr "¡Un regalo para ti!"
+
+#: page-contacto.php:14
+msgid "Contact me!"
+msgstr "Contáctame!"
+
+#: page-contacto.php:25
+msgid "let's be in touch!"
+msgstr "Estemos conectados"
+
+#: page-contacto.php:28
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, similique "
+"nostrum fugiat voluptatibus! Quasi voluptates, deserunt unde consequuntur, "
+"eligendi, laboriosam ullam facere quidem fugit at ipsa minus sed harum omnis."
+msgstr ""
+
+#: page-downloadcompleted.php:10
+msgid "You have downloaded - \"El collar del tigre\""
+msgstr "¡Usted ha descargado \"El collar del tigre\"!"
+
+#: page-downloadcompleted.php:14
+msgid "See you soon"
+msgstr "¡Hasta muy pronto!"
 
 #: page-libri.php:32 page-libros.php:32 page-livres.php:32
 msgid "Buy"
 msgstr "Compra"
 
-#: page-metamundo.php:15 page-metamundo.php:25
-msgid ""
-"To our school of personal development and expansion of being. <br> A space "
-"for everyone"
-msgstr ""
-"a nuestra escuela de desarrollo personal y expansión del ser. <br>Un espacio "
-"para tod@s"
+#: page-metamundo.php:14 page-metamundo.php:24
+msgid "To our integrative school of expansion and development of being"
+msgstr "A nuestra escuela integrativa de expansión y desarrollo del ser"
 
-#: page-metamundo.php:35 page-metamundo.php:46
+#: page-metamundo.php:34 page-metamundo.php:45
 msgid "\"Here you can put a phrase from Cristobal\""
 msgstr "\"Aquí se puede poner una frase de Cristobal\""
 
-#: page-metamundo.php:37 page-metamundo.php:48
+#: page-metamundo.php:36 page-metamundo.php:47
 msgid "Cristobal Jodorowsky"
 msgstr "Cristóbal Jodorowsky"
 
-#: page-metamundo.php:57
+#: page-metamundo.php:56
 msgid "Study plan"
 msgstr "Plan de estudio"
 
-#: page-metamundo.php:61
+#: page-metamundo.php:60
 msgid "Block 1"
 msgstr "Bloque 1"
 
-#: page-metamundo.php:62
+#: page-metamundo.php:61
 msgid "Block 2"
 msgstr "Bloque 2"
 
-#: page-metamundo.php:63
+#: page-metamundo.php:62
 msgid "Block 3"
 msgstr "Bloque 3"
 
-#: page-metamundo.php:64
+#: page-metamundo.php:63
 msgid "Block 4"
 msgstr "Bloque 4"
 
-#: page-metamundo.php:65
+#: page-metamundo.php:64
 msgid "Block 5"
 msgstr "Bloque 5"
 
-#: page-metamundo.php:68
+#: page-metamundo.php:67
 msgid "Certification"
 msgstr "Certificación"
 
-#: page-metamundo.php:74
+#: page-metamundo.php:78
+msgid "Mexico - febrero 2018"
+msgstr "Mexico - febrero 2018"
+
+#: page-metamundo.php:81
+msgid "Argentina - julio 2018"
+msgstr "Argentina - julio 2018"
+
+#: page-metamundo.php:88
 msgid "Block 1. "
 msgstr "Bloque 1. "
 
-#: page-metamundo.php:74
+#: page-metamundo.php:88
 msgid " Evolutionary tarot"
-msgstr ""
+msgstr "Tarot evolutivo"
 
-#: page-metamundo.php:77
+#: page-metamundo.php:91
 msgid ""
 "For Carl Gustav Jung, archetypes are innate energies common to all human "
 "beings, which are transmitted through myths or appear in dreams, tales, "
@@ -362,15 +397,15 @@ msgid ""
 "in all freedom."
 msgstr ""
 
-#: page-metamundo.php:82
+#: page-metamundo.php:96
 msgid "Block 2. "
 msgstr "Bloque 2. "
 
-#: page-metamundo.php:82
+#: page-metamundo.php:96
 msgid " Metagenealogy"
 msgstr " Metagenealogía"
 
-#: page-metamundo.php:85
+#: page-metamundo.php:99
 msgid ""
 "\"Metagenealogy is a method of analysis of the genealogical tree that allows "
 "to expand the vision of its psychic dimension. This makes us understand to "
@@ -379,15 +414,15 @@ msgid ""
 "educational waste.\""
 msgstr ""
 
-#: page-metamundo.php:90
+#: page-metamundo.php:104
 msgid "Block 3. "
 msgstr "Bloque 3. "
 
-#: page-metamundo.php:90
+#: page-metamundo.php:104
 msgid " Psychomagic Therapy"
-msgstr ""
+msgstr "Terapia psicomágica"
 
-#: page-metamundo.php:93
+#: page-metamundo.php:107
 msgid ""
 "Psychomagia is a healing practice that acts through metaphor and beauty, "
 "essentially with the language of dreams. Psychomagia consists of symbolic "
@@ -399,15 +434,15 @@ msgid ""
 "pain."
 msgstr ""
 
-#: page-metamundo.php:97
+#: page-metamundo.php:111
 msgid "Block 4. "
 msgstr "Bloque 4. "
 
-#: page-metamundo.php:97
+#: page-metamundo.php:111
 msgid " Psychoanalysis and Parental Healing / Initiative Massage"
 msgstr ""
 
-#: page-metamundo.php:100
+#: page-metamundo.php:114
 msgid ""
 "At an archaic level, the human being responds to an innate instinct of "
 "family conservation. He is scheduled to fight for the survival of his clan. "
@@ -428,15 +463,15 @@ msgstr ""
 "recuerdos, fantasmas, morales, estructuras de comportamiento, e ideologías "
 "que proceden del linaje genealógico."
 
-#: page-metamundo.php:104
+#: page-metamundo.php:118
 msgid "Block 5. "
 msgstr "Bloque 5. "
 
-#: page-metamundo.php:104
+#: page-metamundo.php:118
 msgid " The Art of Relationships of Couple, Friendship and Collaboration"
 msgstr ""
 
-#: page-metamundo.php:107
+#: page-metamundo.php:121
 msgid ""
 "This block is intended to address in depth the science of courtship. During "
 "his study, Cristobal Jodorowsky will provide the participants with the keys "
@@ -449,100 +484,113 @@ msgid ""
 "vision live in harmony."
 msgstr ""
 
-#: page-saber-mas.php:13 page-savoir-plus.php:13
-#: page-ulteriori-informazioni.php:13
-msgid "Psicoteatro"
-msgstr "Psicoteatro"
+#: page-saber-mas.php:9 page-savoir-plus.php:9
+#: page-ulteriori-informazioni.php:9
+msgid "Chose a theme"
+msgstr "Escoge un tema"
 
 #: page-saber-mas.php:14 page-savoir-plus.php:14
 #: page-ulteriori-informazioni.php:14
-msgid "BIO"
-msgstr "BIO"
+msgid "Psicoteatro"
+msgstr "Psicoteatro"
 
 #: page-saber-mas.php:15 page-savoir-plus.php:15
 #: page-ulteriori-informazioni.php:15
-msgid "Psicochamanismo"
-msgstr "Psicochamanismo"
+msgid "BIO"
+msgstr "BIO"
 
 #: page-saber-mas.php:16 page-savoir-plus.php:16
 #: page-ulteriori-informazioni.php:16
-msgid "Workshops"
-msgstr "Talleres"
+msgid "Psicochamanismo"
+msgstr "Psicochamanismo"
 
 #: page-saber-mas.php:17 page-savoir-plus.php:17
 #: page-ulteriori-informazioni.php:17
-msgid "Metagenealogía"
-msgstr "Metagenealogía"
+msgid "Workshops"
+msgstr "Talleres"
 
 #: page-saber-mas.php:18 page-savoir-plus.php:18
 #: page-ulteriori-informazioni.php:18
-msgid "Theater"
-msgstr "Teatro"
+msgid "Metagenealogía"
+msgstr "Metagenealogía"
 
 #: page-saber-mas.php:19 page-savoir-plus.php:19
 #: page-ulteriori-informazioni.php:19
-msgid "Investigation"
-msgstr "Investigación"
+msgid "Therapies"
+msgstr "Terapias"
 
 #: page-saber-mas.php:20 page-savoir-plus.php:20
 #: page-ulteriori-informazioni.php:20
-msgid "Cinema"
-msgstr "Cine"
+msgid "Investigation"
+msgstr "Investigación"
 
 #: page-saber-mas.php:21 page-savoir-plus.php:21
 #: page-ulteriori-informazioni.php:21
-msgid "Tarot"
-msgstr "Tarot"
+msgid "Psicomagic"
+msgstr "Psicochamanismo"
 
 #: page-saber-mas.php:22 page-savoir-plus.php:22
 #: page-ulteriori-informazioni.php:22
-msgid "Videos"
-msgstr "Videos"
+msgid "Tarot"
+msgstr "Tarot"
 
 #: page-saber-mas.php:23 page-savoir-plus.php:23
 #: page-ulteriori-informazioni.php:23
-msgid "Studies"
-msgstr "Estudios"
+msgid "Videos"
+msgstr "Videos"
 
 #: page-saber-mas.php:24 page-savoir-plus.php:24
 #: page-ulteriori-informazioni.php:24
-msgid "Teachers"
-msgstr "Maestros"
+msgid "Studies"
+msgstr "Estudios"
 
 #: page-saber-mas.php:25 page-savoir-plus.php:25
 #: page-ulteriori-informazioni.php:25
-msgid "Travels"
-msgstr "Viajes"
+msgid "Teachers"
+msgstr "Maestros"
 
 #: page-saber-mas.php:26 page-savoir-plus.php:26
 #: page-ulteriori-informazioni.php:26
-msgid "Press"
-msgstr "Prensa"
+msgid "Travels"
+msgstr "Viajes"
 
 #: page-saber-mas.php:27 page-savoir-plus.php:27
 #: page-ulteriori-informazioni.php:27
-msgid "Paintings"
-msgstr "Pintura"
+msgid "Press"
+msgstr "Prensa"
 
 #: page-saber-mas.php:28 page-savoir-plus.php:28
 #: page-ulteriori-informazioni.php:28
-msgid "Poetry"
-msgstr "Poesía"
+msgid "N-gram"
+msgstr "N-grama"
 
-#: page-saber-mas.php:36 page-saber-mas.php:47 page-saber-mas.php:67
-#: page-savoir-plus.php:36 page-savoir-plus.php:47 page-savoir-plus.php:67
-#: page-ulteriori-informazioni.php:36 page-ulteriori-informazioni.php:47
-#: page-ulteriori-informazioni.php:67
+#: page-saber-mas.php:29 page-savoir-plus.php:29
+#: page-ulteriori-informazioni.php:29
+msgid "Art"
+msgstr "Arte"
+
+#: page-saber-mas.php:32 page-savoir-plus.php:32
+#: page-ulteriori-informazioni.php:32
+msgid ""
+"The integration of aspects and keys are fundamental for personal development"
+msgstr ""
+"La integración de aspectos y llaves son fundamentales para el desarrollo "
+"personal"
+
+#: page-saber-mas.php:40 page-saber-mas.php:51 page-saber-mas.php:71
+#: page-savoir-plus.php:40 page-savoir-plus.php:51 page-savoir-plus.php:71
+#: page-ulteriori-informazioni.php:40 page-ulteriori-informazioni.php:51
+#: page-ulteriori-informazioni.php:71
 msgid "My life on "
 msgstr "Mi vida en "
 
-#: page-saber-mas.php:37 page-savoir-plus.php:37
-#: page-ulteriori-informazioni.php:37
+#: page-saber-mas.php:41 page-savoir-plus.php:41
+#: page-ulteriori-informazioni.php:41
 msgid "<span class=\"morecolor\" > the Psicoteatro</span>"
 msgstr "<span class=\"morecolor\" > el Psicoteatro</span>"
 
-#: page-saber-mas.php:40 page-savoir-plus.php:40
-#: page-ulteriori-informazioni.php:40
+#: page-saber-mas.php:44 page-savoir-plus.php:44
+#: page-ulteriori-informazioni.php:44
 msgid ""
 "<p>The PsicoTeatro is an open and free space, but also very respectful and "
 "safe. A place and a time where you learn things that are very important for "
@@ -574,13 +622,13 @@ msgstr ""
 "con tus emociones, en integrar todas las partes de tu persona, en "
 "definitiva, cuando te permites CAMINAR HACIA TU FELICIDAD.</p>"
 
-#: page-saber-mas.php:48 page-savoir-plus.php:48
-#: page-ulteriori-informazioni.php:48
+#: page-saber-mas.php:52 page-savoir-plus.php:52
+#: page-ulteriori-informazioni.php:52
 msgid "<span class=\"morecolor\" > the Psicochamanismo</span>"
 msgstr "<span class=\"morecolor\" > el Psico-Chamanismo</span>"
 
-#: page-saber-mas.php:51 page-savoir-plus.php:51
-#: page-ulteriori-informazioni.php:51
+#: page-saber-mas.php:55 page-savoir-plus.php:55
+#: page-ulteriori-informazioni.php:55
 msgid ""
 "<p>At an archaic level, the human being responds to an innate instinct of "
 "family conservation. He is scheduled to fight for the survival of his clan. "
@@ -601,13 +649,13 @@ msgstr ""
 "recuerdos, fantasmas, morales, estructuras de comportamiento, e ideologías "
 "que proceden del linaje genealógico.</p>"
 
-#: page-saber-mas.php:68 page-savoir-plus.php:68
-#: page-ulteriori-informazioni.php:68
+#: page-saber-mas.php:72 page-savoir-plus.php:72
+#: page-ulteriori-informazioni.php:72
 msgid "<span class=\"morecolor\" > the Psicomagia</span>"
 msgstr "<span class=\"morecolor\" > la Psicomagia</span>"
 
-#: page-saber-mas.php:71 page-savoir-plus.php:71
-#: page-ulteriori-informazioni.php:71
+#: page-saber-mas.php:75 page-savoir-plus.php:75
+#: page-ulteriori-informazioni.php:75
 msgid ""
 "<p>Psychomagia is a form of ultra advanced therapy. It is a response to "
 "psychoanalysis. Psychomagia proposes to cure something by acts that speak "
@@ -623,13 +671,13 @@ msgstr ""
 "darle una amorosa patada en el culo a la realidad. Este impulso que le das, "
 "sorpresivo, la hace salir de la inercia y ponerse a danzar..</p>"
 
-#: page-saber-mas.php:104 page-savoir-plus.php:104
-#: page-ulteriori-informazioni.php:104
+#: page-saber-mas.php:108 page-savoir-plus.php:108
+#: page-ulteriori-informazioni.php:108
 msgid "<span class=\"morecolor\" >Workshops</span>"
 msgstr "<span class=\"morecolor\" >Talleres</span>"
 
-#: page-saber-mas.php:107 page-savoir-plus.php:107
-#: page-ulteriori-informazioni.php:107
+#: page-saber-mas.php:111 page-savoir-plus.php:111
+#: page-ulteriori-informazioni.php:111
 msgid ""
 "<p>A Living Experience guided by Cristobal Jodorowsky, where he participates "
 "will learn more about his personal neurosis, family unconscious contracts, "
@@ -642,13 +690,145 @@ msgstr ""
 "como las consecuencias que todos estos factores provocan en su vida afectiva "
 "actual.</p>"
 
-#: page-thanks.php:10
-msgid "You have downloaded - \"El collar del tigre\""
-msgstr "¡Usted ha descargado \"El collar del tigre\"!"
+#: page-saber-mas.php:124 page-savoir-plus.php:124
+#: page-ulteriori-informazioni.php:124
+msgid "<span class=\"morecolor\" >Metagenealogia</span>"
+msgstr "<span class=\"morecolor\" >Metagenealogía</span>"
 
-#: page-thanks.php:17
-msgid "See you soon"
-msgstr "¡Hasta muy pronto!"
+#: page-saber-mas.php:127 page-savoir-plus.php:127
+#: page-ulteriori-informazioni.php:127
+msgid ""
+"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo optio "
+"repudiandae, a consequatur. Placeat labore dolorum perferendis cupiditate "
+"quam illo.</p>"
+msgstr ""
+
+#: page-saber-mas.php:133 page-savoir-plus.php:133
+#: page-ulteriori-informazioni.php:133
+msgid "<span class=\"morecolor\" >Therapies</span>"
+msgstr "<span class=\"morecolor\" >Terapias</span>"
+
+#: page-saber-mas.php:136 page-savoir-plus.php:136
+#: page-ulteriori-informazioni.php:136
+msgid ""
+"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis "
+"doloribus nulla tempora, quas dolores mollitia iste at, ullam molestias enim!"
+"</p>"
+msgstr ""
+
+#: page-saber-mas.php:142 page-savoir-plus.php:142
+#: page-ulteriori-informazioni.php:142
+msgid "<span class=\"morecolor\" >Investigation</span>"
+msgstr "<span class=\"morecolor\" >Investigación</span>"
+
+#: page-saber-mas.php:145 page-savoir-plus.php:145
+#: page-ulteriori-informazioni.php:145
+msgid ""
+"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex laborum "
+"sequi provident, aliquid eaque atque est dolore mollitia unde, omnis.</p>"
+msgstr ""
+
+#: page-saber-mas.php:151 page-savoir-plus.php:151
+#: page-ulteriori-informazioni.php:151
+msgid "<span class=\"morecolor\" >Psicomagic</span>"
+msgstr "<span class=\"morecolor\" > Psicomágia</span>"
+
+#: page-saber-mas.php:154 page-savoir-plus.php:154
+#: page-ulteriori-informazioni.php:154
+msgid ""
+"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis "
+"reprehenderit nostrum suscipit dolorem quam sequi quibusdam dicta "
+"accusantium, facilis repellat?</p>"
+msgstr ""
+
+#: page-saber-mas.php:160 page-savoir-plus.php:160
+#: page-ulteriori-informazioni.php:160
+msgid "<span class=\"morecolor\" >Tarot</span>"
+msgstr "<span class=\"morecolor\" >Tarot</span>"
+
+#: page-saber-mas.php:163 page-savoir-plus.php:163
+#: page-ulteriori-informazioni.php:163
+msgid ""
+"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore expedita "
+"accusantium obcaecati impedit ad, eveniet officiis debitis in illum enim.</p>"
+msgstr ""
+
+#: page-saber-mas.php:169 page-savoir-plus.php:169
+#: page-ulteriori-informazioni.php:169
+msgid "<span class=\"morecolor\" >Videos</span>"
+msgstr "<span class=\"morecolor\" >Videos</span>"
+
+#: page-saber-mas.php:172 page-savoir-plus.php:172
+#: page-ulteriori-informazioni.php:172
+msgid ""
+"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure quaerat "
+"minus delectus voluptatum praesentium dolorem facilis sit ea mollitia "
+"possimus!</p>"
+msgstr ""
+
+#: page-saber-mas.php:178 page-savoir-plus.php:178
+#: page-ulteriori-informazioni.php:178
+msgid "<span class=\"morecolor\" >Studies</span>"
+msgstr "<span class=\"morecolor\" >Estudios</span>"
+
+#: page-saber-mas.php:181 page-savoir-plus.php:181
+#: page-ulteriori-informazioni.php:181
+msgid ""
+"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis "
+"architecto consectetur non provident ratione eos consequuntur a voluptas "
+"tenetur autem.</p>"
+msgstr ""
+
+#: page-saber-mas.php:187 page-savoir-plus.php:187
+#: page-ulteriori-informazioni.php:187
+msgid "<span class=\"morecolor\" >Teachers</span>"
+msgstr "<span class=\"morecolor\" >Maestros</span>"
+
+#: page-saber-mas.php:190 page-savoir-plus.php:190
+#: page-ulteriori-informazioni.php:190
+msgid ""
+"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, "
+"totam, fugit. Laudantium aliquam odit voluptas fugiat, est consequatur animi "
+"adipisci?</p>"
+msgstr ""
+
+#: page-saber-mas.php:196 page-savoir-plus.php:196
+#: page-ulteriori-informazioni.php:196
+msgid "<span class=\"morecolor\" >Press</span>"
+msgstr "<span class=\"morecolor\" >Prensa</span>"
+
+#: page-saber-mas.php:199 page-savoir-plus.php:199
+#: page-ulteriori-informazioni.php:199
+msgid ""
+"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta "
+"voluptates id officiis consequatur iste magnam quibusdam eos repellat qui "
+"facilis?</p>"
+msgstr ""
+
+#: page-saber-mas.php:205 page-savoir-plus.php:205
+#: page-ulteriori-informazioni.php:205
+msgid "<span class=\"morecolor\" >Travels</span>"
+msgstr "<span class=\"morecolor\" >Viajes</span>"
+
+#: page-saber-mas.php:208 page-saber-mas.php:217 page-saber-mas.php:226
+#: page-savoir-plus.php:208 page-savoir-plus.php:217 page-savoir-plus.php:226
+#: page-ulteriori-informazioni.php:208 page-ulteriori-informazioni.php:217
+#: page-ulteriori-informazioni.php:226
+msgid ""
+"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam "
+"excepturi quia sequi dicta magnam obcaecati quibusdam nobis nihil inventore "
+"reiciendis.</p>"
+msgstr ""
+
+#: page-saber-mas.php:214 page-savoir-plus.php:214
+#: page-ulteriori-informazioni.php:214
+msgid "<span class=\"morecolor\" >Art</span>"
+msgstr "<span class=\"morecolor\" >Arte</span>"
+
+#: page-saber-mas.php:223 page-savoir-plus.php:223
+#: page-ulteriori-informazioni.php:223
+msgid "<span class=\"morecolor\" >N-gram</span>"
+msgstr "<span class=\"morecolor\" >N-grama</span>"
 
 #. translators: %s: search query.
 #: search.php:18
@@ -710,6 +890,39 @@ msgstr "Descripción"
 #. Author of the plugin/theme
 msgid "Digimundo"
 msgstr "Digimundo"
+
+#, fuzzy
+#~| msgid "<span class=\"morecolor\" >Workshops</span>"
+#~ msgid "<span class=\"morecolor\" >Art--</span>"
+#~ msgstr "<span class=\"morecolor\" >Talleres</span>"
+
+#~ msgid "Theater"
+#~ msgstr "Teatro"
+
+#~ msgid "Cinema"
+#~ msgstr "Cine"
+
+#~ msgid "Paintings"
+#~ msgstr "Pintura"
+
+#~ msgid "Poetry"
+#~ msgstr "Poesía"
+
+#~ msgid "Cristobal"
+#~ msgstr "Cristóbal"
+
+#~ msgid "on Mind Hackers"
+#~ msgstr "en Mind Hackers"
+
+#~ msgid "Download \"El collar del tigre\"!"
+#~ msgstr "¡Descarga \"El collar del tigre\"!"
+
+#~ msgid ""
+#~ "To our school of personal development and expansion of being. <br> A "
+#~ "space for everyone"
+#~ msgstr ""
+#~ "a nuestra escuela de desarrollo personal y expansión del ser. <br>Un "
+#~ "espacio para tod@s"
 
 #~ msgid "Thank you for download my book - \"El collar del tigre\""
 #~ msgstr "¡Gracias por descargar mi libro - \"El collar del tigre\"!"
