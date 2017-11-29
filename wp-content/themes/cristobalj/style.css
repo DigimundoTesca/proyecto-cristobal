@@ -1322,9 +1322,6 @@ label.es_shortcode_form_email span {
   line-height: 50px;
   margin-top: 0;
 }
-.mainbannercontent .metmundo img {
-  margin: 10% 0;
-}
 .mainbannercontent .gift {
   border: 2px solid #175d39;
   background-color: #92b541;
@@ -1379,7 +1376,7 @@ label.es_shortcode_form_email span {
   margin: 0;
 }
 .mainbannercontent .mindHack img {
-  width: 160px;
+  width: 100%;
   align-self: center;
   margin: auto;
 }
@@ -2119,9 +2116,6 @@ input.wpcf7-form-control.wpcf7-submit {
     line-height: 60px;
     margin-top: 0;
   }
-  .mainbannercontent .metmundo img {
-    margin: 10% 0;
-  }
   .mainbannercontent .gift {
     border: 2px solid #175d39;
     background-color: #92b541;
@@ -2173,10 +2167,6 @@ input.wpcf7-form-control.wpcf7-submit {
     color: #FFFFFF;
     line-height: 60px;
     margin: 0;
-  }
-  .mainbannercontent .mindHack img {
-    align-self: center;
-    width: 200px;
   }
   .mainbannercontent .mindHack p {
     position: relative;
@@ -2762,9 +2752,6 @@ input.wpcf7-form-control.wpcf7-submit {
     font-size: 40px;
     line-height: 80px;
   }
-  .mainbannercontent .metmundo img {
-    margin: 20% 0;
-  }
   .mainbannercontent .gift h3 {
     font-size: 45px;
     line-height: 90px;
@@ -2789,10 +2776,6 @@ input.wpcf7-form-control.wpcf7-submit {
   }
   .mainbannercontent .mindHack p {
     font-size: 50px;
-  }
-  .mainbannercontent .mindHack img {
-    align-self: center;
-    width: 90%;
   }
   /*Dates container styles*/
   #datesContainer {
