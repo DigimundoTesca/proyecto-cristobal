@@ -1054,6 +1054,9 @@ img#metabannerbig {
   height: auto;
   background-color: #FFF;
 }
+#generations {
+  border: 2px solid #be0211;
+}
 /*Styles for Main-banner*/
 #banner,
 #banner1 {
