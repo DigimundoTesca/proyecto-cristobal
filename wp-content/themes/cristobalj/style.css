@@ -1406,6 +1406,9 @@ label.es_shortcode_form_email span {
   margin: auto;
   margin-top: 20px;
 }
+#moreQuote {
+  display: none;
+}
 .mobilekmore {
   display: block;
 }
@@ -1741,6 +1744,7 @@ input.wpcf7-form-control.wpcf7-submit {
     height: 100%;
     width: 400px;
     margin: auto;
+    margin-left: 90px;
     position: relative;
   }
   .bigkmoreContainer a {
@@ -2462,7 +2466,13 @@ input.wpcf7-form-control.wpcf7-submit {
     flex-direction: row;
     justify-content: center;
   }
-  
+  /*know more page styles*/
+  #moreQuote {
+    display: flex;
+    position: absolute;
+    right: 20px;
+    width: 25%;
+  }
   
 }
 
@@ -2565,6 +2575,9 @@ input.wpcf7-form-control.wpcf7-submit {
     margin-bottom: 50px;
     border-top: 10px solid #37b4ee;
   }
+  #moreQuote {
+    width: 30%;
+  }
   #metabanner1 {
     height: 400px;
     justify-content: space-around;
@@ -2662,6 +2675,9 @@ input.wpcf7-form-control.wpcf7-submit {
   }
   .bookimg img {
     height: 300px;
+  }
+  .bigkmoreContainer {
+    margin-left: 14%;
   }
 }
 
@@ -3020,6 +3036,9 @@ input.wpcf7-form-control.wpcf7-submit {
   .moretitle {
     text-align: left;
     padding-left: 40px;
+  }
+  #moreQuote p {
+    font-size: 35px;
   }
   #mainContainer.more p {
     font-size: 30px;
