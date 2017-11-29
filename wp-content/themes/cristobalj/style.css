@@ -694,6 +694,11 @@ span {
   max-width: 500px;
   margin: 0 auto;
 }
+.btn-success {
+  color: #fff !important;
+  background-color: #28a745 !important;
+  border-color: #28a745 !important;
+}
 /*Mobile styles - Celular*/
 .site-branding {
   width: 100%;
@@ -1710,6 +1715,28 @@ select.wpcf7-form-control.wpcf7-select {
 input.wpcf7-form-control.wpcf7-submit {
   margin-top: 20px !important;
   margin-left: 10px !important;
+}
+/*Contact page styles*/
+#wpcf7-f124-p21-o1 {
+  margin-top: 0;
+}
+#wpcf7-f124-p21-o1 p {
+  margin: 0 !important;
+}
+#wpcf7-f124-p21-o1 p label {
+  width: 100%;
+}
+#wpcf7-f124-p21-o1 p input,
+#wpcf7-f124-p21-o1 p textarea {
+  background-color: #e2dfdf;
+}
+#contactBtn {
+  margin: 0 !important;
+  cursor: pointer;
+}
+#contactText {
+  border-top: 2px solid #92b541;
+  border-bottom: 2px solid #92b541;
 }
 
 

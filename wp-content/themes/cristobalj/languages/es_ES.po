@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CristobalJ\n"
-"POT-Creation-Date: 2017-11-29 11:36-0600\n"
-"PO-Revision-Date: 2017-11-29 11:37-0600\n"
+"POT-Creation-Date: 2017-11-29 13:01-0600\n"
+"PO-Revision-Date: 2017-11-29 13:04-0600\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -298,6 +298,21 @@ msgstr "<span class=\"biocolor\" > de Cristóbal</span>"
 msgid "A gift for you!"
 msgstr "¡Un regalo para ti!"
 
+#: page-contacto.php:14
+msgid "Contact me!"
+msgstr "Contáctame!"
+
+#: page-contacto.php:25
+msgid "let's be in touch!"
+msgstr "Estemos conectados"
+
+#: page-contacto.php:28
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, similique "
+"nostrum fugiat voluptatibus! Quasi voluptates, deserunt unde consequuntur, "
+"eligendi, laboriosam ullam facere quidem fugit at ipsa minus sed harum omnis."
+msgstr ""
+
 #: page-downloadcompleted.php:10
 msgid "You have downloaded - \"El collar del tigre\""
 msgstr "¡Usted ha descargado \"El collar del tigre\"!"
@@ -544,7 +559,8 @@ msgstr "Viajes"
 msgid "Press"
 msgstr "Prensa"
 
-#: page-saber-mas.php:28
+#: page-saber-mas.php:28 page-savoir-plus.php:28
+#: page-ulteriori-informazioni.php:28
 msgid "N-gram"
 msgstr "N-grama"
 
@@ -660,10 +676,8 @@ msgstr ""
 msgid "<span class=\"morecolor\" >Workshops</span>"
 msgstr "<span class=\"morecolor\" >Talleres</span>"
 
-#: page-saber-mas.php:111 page-saber-mas.php:237 page-saber-mas.php:248
-#: page-savoir-plus.php:111 page-savoir-plus.php:237 page-savoir-plus.php:248
-#: page-ulteriori-informazioni.php:111 page-ulteriori-informazioni.php:237
-#: page-ulteriori-informazioni.php:248
+#: page-saber-mas.php:111 page-savoir-plus.php:111
+#: page-ulteriori-informazioni.php:111
 msgid ""
 "<p>A Living Experience guided by Cristobal Jodorowsky, where he participates "
 "will learn more about his personal neurosis, family unconscious contracts, "
@@ -689,114 +703,116 @@ msgid ""
 "quam illo.</p>"
 msgstr ""
 
-#: page-saber-mas.php:135 page-savoir-plus.php:135
-#: page-ulteriori-informazioni.php:135
+#: page-saber-mas.php:133 page-savoir-plus.php:133
+#: page-ulteriori-informazioni.php:133
 msgid "<span class=\"morecolor\" >Therapies</span>"
 msgstr "<span class=\"morecolor\" >Terapias</span>"
 
-#: page-saber-mas.php:138 page-savoir-plus.php:138
-#: page-ulteriori-informazioni.php:138
+#: page-saber-mas.php:136 page-savoir-plus.php:136
+#: page-ulteriori-informazioni.php:136
 msgid ""
 "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis "
 "doloribus nulla tempora, quas dolores mollitia iste at, ullam molestias enim!"
 "</p>"
 msgstr ""
 
-#: page-saber-mas.php:146 page-savoir-plus.php:146
-#: page-ulteriori-informazioni.php:146
+#: page-saber-mas.php:142 page-savoir-plus.php:142
+#: page-ulteriori-informazioni.php:142
 msgid "<span class=\"morecolor\" >Investigation</span>"
 msgstr "<span class=\"morecolor\" >Investigación</span>"
 
-#: page-saber-mas.php:149 page-savoir-plus.php:149
-#: page-ulteriori-informazioni.php:149
+#: page-saber-mas.php:145 page-savoir-plus.php:145
+#: page-ulteriori-informazioni.php:145
 msgid ""
 "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex laborum "
 "sequi provident, aliquid eaque atque est dolore mollitia unde, omnis.</p>"
 msgstr ""
 
-#: page-saber-mas.php:157 page-savoir-plus.php:157
-#: page-ulteriori-informazioni.php:157
+#: page-saber-mas.php:151 page-savoir-plus.php:151
+#: page-ulteriori-informazioni.php:151
 msgid "<span class=\"morecolor\" >Psicomagic</span>"
 msgstr "<span class=\"morecolor\" > Psicomágia</span>"
 
-#: page-saber-mas.php:160 page-savoir-plus.php:160
-#: page-ulteriori-informazioni.php:160
+#: page-saber-mas.php:154 page-savoir-plus.php:154
+#: page-ulteriori-informazioni.php:154
 msgid ""
 "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis "
 "reprehenderit nostrum suscipit dolorem quam sequi quibusdam dicta "
 "accusantium, facilis repellat?</p>"
 msgstr ""
 
-#: page-saber-mas.php:168 page-savoir-plus.php:168
-#: page-ulteriori-informazioni.php:168
+#: page-saber-mas.php:160 page-savoir-plus.php:160
+#: page-ulteriori-informazioni.php:160
 msgid "<span class=\"morecolor\" >Tarot</span>"
 msgstr "<span class=\"morecolor\" >Tarot</span>"
 
-#: page-saber-mas.php:171 page-savoir-plus.php:171
-#: page-ulteriori-informazioni.php:171
+#: page-saber-mas.php:163 page-savoir-plus.php:163
+#: page-ulteriori-informazioni.php:163
 msgid ""
 "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore expedita "
 "accusantium obcaecati impedit ad, eveniet officiis debitis in illum enim.</p>"
 msgstr ""
 
-#: page-saber-mas.php:179 page-savoir-plus.php:179
-#: page-ulteriori-informazioni.php:179
+#: page-saber-mas.php:169 page-savoir-plus.php:169
+#: page-ulteriori-informazioni.php:169
 msgid "<span class=\"morecolor\" >Videos</span>"
 msgstr "<span class=\"morecolor\" >Videos</span>"
 
-#: page-saber-mas.php:182 page-savoir-plus.php:182
-#: page-ulteriori-informazioni.php:182
+#: page-saber-mas.php:172 page-savoir-plus.php:172
+#: page-ulteriori-informazioni.php:172
 msgid ""
 "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure quaerat "
 "minus delectus voluptatum praesentium dolorem facilis sit ea mollitia "
 "possimus!</p>"
 msgstr ""
 
-#: page-saber-mas.php:190 page-savoir-plus.php:190
-#: page-ulteriori-informazioni.php:190
+#: page-saber-mas.php:178 page-savoir-plus.php:178
+#: page-ulteriori-informazioni.php:178
 msgid "<span class=\"morecolor\" >Studies</span>"
 msgstr "<span class=\"morecolor\" >Estudios</span>"
 
-#: page-saber-mas.php:193 page-savoir-plus.php:193
-#: page-ulteriori-informazioni.php:193
+#: page-saber-mas.php:181 page-savoir-plus.php:181
+#: page-ulteriori-informazioni.php:181
 msgid ""
 "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis "
 "architecto consectetur non provident ratione eos consequuntur a voluptas "
 "tenetur autem.</p>"
 msgstr ""
 
-#: page-saber-mas.php:201 page-savoir-plus.php:201
-#: page-ulteriori-informazioni.php:201
+#: page-saber-mas.php:187 page-savoir-plus.php:187
+#: page-ulteriori-informazioni.php:187
 msgid "<span class=\"morecolor\" >Teachers</span>"
 msgstr "<span class=\"morecolor\" >Maestros</span>"
 
-#: page-saber-mas.php:204 page-savoir-plus.php:204
-#: page-ulteriori-informazioni.php:204
+#: page-saber-mas.php:190 page-savoir-plus.php:190
+#: page-ulteriori-informazioni.php:190
 msgid ""
 "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, "
 "totam, fugit. Laudantium aliquam odit voluptas fugiat, est consequatur animi "
 "adipisci?</p>"
 msgstr ""
 
-#: page-saber-mas.php:212 page-savoir-plus.php:212
-#: page-ulteriori-informazioni.php:212
+#: page-saber-mas.php:196 page-savoir-plus.php:196
+#: page-ulteriori-informazioni.php:196
 msgid "<span class=\"morecolor\" >Press</span>"
 msgstr "<span class=\"morecolor\" >Prensa</span>"
 
-#: page-saber-mas.php:215 page-savoir-plus.php:215
-#: page-ulteriori-informazioni.php:215
+#: page-saber-mas.php:199 page-savoir-plus.php:199
+#: page-ulteriori-informazioni.php:199
 msgid ""
 "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta "
 "voluptates id officiis consequatur iste magnam quibusdam eos repellat qui "
 "facilis?</p>"
 msgstr ""
 
-#: page-saber-mas.php:223 page-savoir-plus.php:223
-#: page-ulteriori-informazioni.php:223
+#: page-saber-mas.php:205 page-savoir-plus.php:205
+#: page-ulteriori-informazioni.php:205
 msgid "<span class=\"morecolor\" >Travels</span>"
 msgstr "<span class=\"morecolor\" >Viajes</span>"
 
-#: page-saber-mas.php:226 page-savoir-plus.php:226
+#: page-saber-mas.php:208 page-saber-mas.php:217 page-saber-mas.php:226
+#: page-savoir-plus.php:208 page-savoir-plus.php:217 page-savoir-plus.php:226
+#: page-ulteriori-informazioni.php:208 page-ulteriori-informazioni.php:217
 #: page-ulteriori-informazioni.php:226
 msgid ""
 "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam "
@@ -804,20 +820,15 @@ msgid ""
 "reiciendis.</p>"
 msgstr ""
 
-#: page-saber-mas.php:234 page-savoir-plus.php:234
-#: page-ulteriori-informazioni.php:234
+#: page-saber-mas.php:214 page-savoir-plus.php:214
+#: page-ulteriori-informazioni.php:214
 msgid "<span class=\"morecolor\" >Art</span>"
 msgstr "<span class=\"morecolor\" >Arte</span>"
 
-#: page-saber-mas.php:245
+#: page-saber-mas.php:223 page-savoir-plus.php:223
+#: page-ulteriori-informazioni.php:223
 msgid "<span class=\"morecolor\" >N-gram</span>"
 msgstr "<span class=\"morecolor\" >N-grama</span>"
-
-#: page-savoir-plus.php:245 page-ulteriori-informazioni.php:245
-#, fuzzy
-#| msgid "<span class=\"morecolor\" >Workshops</span>"
-msgid "<span class=\"morecolor\" >Art--</span>"
-msgstr "<span class=\"morecolor\" >Talleres</span>"
 
 #. translators: %s: search query.
 #: search.php:18
@@ -879,6 +890,11 @@ msgstr "Descripción"
 #. Author of the plugin/theme
 msgid "Digimundo"
 msgstr "Digimundo"
+
+#, fuzzy
+#~| msgid "<span class=\"morecolor\" >Workshops</span>"
+#~ msgid "<span class=\"morecolor\" >Art--</span>"
+#~ msgstr "<span class=\"morecolor\" >Talleres</span>"
 
 #~ msgid "Theater"
 #~ msgstr "Teatro"
