@@ -8,7 +8,7 @@ get_template_part( 'header_book' );  ?>
   <main id="main" class="site-main d-flex flex-column align-items-center bookdownloadContainer">
     <div id="bkttlcontainer" class="row d-flex justify-content-center w-100 mb-5">
       <h2 id="dwnktitle" class="bannertitle py-2">
-        <?php printf(__('Download "El collar del tigre"!','cristobalj')) ?>
+        <?php printf(__('A gift for you!','cristobalj')) ?>
       </h2>
     </div>
     <div class="row d-flex flex-wrap">
