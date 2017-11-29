@@ -35,7 +35,7 @@ Template Name: secondarybanner
     </a>
   </div>
   <div class="mainbannercontent">
-    <a href="http://mindhackers.mx" target="_blank" title="Mind Hackers">
+    <a href="#" title="Tarot">
       <div class="mindHack">
         <h3>
           <?php printf(__('Tarot queries','cristobalj')) ?>
