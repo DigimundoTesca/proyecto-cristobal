@@ -11,22 +11,22 @@ get_header(); ?>
       <img id="knowmore" class="mobilekmore" src="<?php echo get_template_directory_uri(); ?>/images/kmore.jpg" alt="banner know more">
       <div id="bigkmoreContainer" class="bigkmoreContainer">
         <img id="knowmore bigmorebanner" class="bigkmore" src="<?php echo get_template_directory_uri(); ?>/images/another.png" alt="banner know more">
-        <a href="#" class="imgChange1 textBig"><?php printf( __( 'Psicoteatro', 'cristobalj' ));?></a>
-        <a href="#" class="imgChange2 textSmall"><?php printf( __( 'BIO', 'cristobalj' ));?></a>
-        <a href="#" class="imgChange3 textBig"><?php printf( __( 'Psicochamanismo', 'cristobalj' ));?></a>
-        <a href="#" class="imgChange4 textSmall"><?php printf( __( 'Workshops', 'cristobalj' ));?></a>
-        <a href="#" class="imgChange5 textBig"><?php printf( __( 'Metagenealogía', 'cristobalj' ));?></a>
-        <a href="#" class="imgChange6 textSmall"><?php printf( __( 'Therapies', 'cristobalj' ));?></a>
-        <a href="#" class="imgChange7 textBig"><?php printf( __( 'Investigation', 'cristobalj' ));?></a>
-        <a href="#" class="imgChange8 textSmall"><?php printf( __( '', 'cristobalj' ));?></a>
-        <a href="#" class="imgChange9 textBig"><?php printf( __( 'Tarot', 'cristobalj' ));?></a>
-        <a href="#" class="imgChange10 textSmall"><?php printf( __( 'Videos', 'cristobalj' ));?></a>
-        <a href="#" class="imgChange11 textBig"><?php printf( __( 'Studies', 'cristobalj' ));?></a>
-        <a href="#" class="imgChange12 textSmall"><?php printf( __( 'Teachers', 'cristobalj' ));?></a>
-        <a href="#" class="imgChange13 textBig"><?php printf( __( 'Travels', 'cristobalj' ));?></a>
-        <a href="#" class="imgChange14 textSmall"><?php printf( __( 'Press', 'cristobalj' ));?></a>
+        <a href="#Psicoteatro" class="imgChange1 textBig"><?php printf( __( 'Psicoteatro', 'cristobalj' ));?></a>
+        <a href="#BIO" class="imgChange2 textSmall"><?php printf( __( 'BIO', 'cristobalj' ));?></a>
+        <a href="#Psicochamanismo" class="imgChange3 textBig"><?php printf( __( 'Psicochamanismo', 'cristobalj' ));?></a>
+        <a href="#Workshops" class="imgChange4 textSmall"><?php printf( __( 'Workshops', 'cristobalj' ));?></a>
+        <a href="#Metagenealo" class="imgChange5 textBig"><?php printf( __( 'Metagenealogía', 'cristobalj' ));?></a>
+        <a href="#Therapies" class="imgChange6 textSmall"><?php printf( __( 'Therapies', 'cristobalj' ));?></a>
+        <a href="#Investigation" class="imgChange7 textBig"><?php printf( __( 'Investigation', 'cristobalj' ));?></a>
+        <a href="#Psicomagic" class="imgChange8 textSmall"><?php printf( __( 'Psicomagic', 'cristobalj' ));?></a>
+        <a href="#Tarot" class="imgChange9 textBig"><?php printf( __( 'Tarot', 'cristobalj' ));?></a>
+        <a href="#Videos" class="imgChange10 textSmall"><?php printf( __( 'Videos', 'cristobalj' ));?></a>
+        <a href="#Studies" class="imgChange11 textBig"><?php printf( __( 'Studies', 'cristobalj' ));?></a>
+        <a href="#Teachers" class="imgChange12 textSmall"><?php printf( __( 'Teachers', 'cristobalj' ));?></a>
+        <a href="#Travels" class="imgChange13 textBig"><?php printf( __( 'Travels', 'cristobalj' ));?></a>
+        <a href="#Press" class="imgChange14 textSmall"><?php printf( __( 'Press', 'cristobalj' ));?></a>
         <a href="#" class="imgChange15 textBig"><?php printf( __( '', 'cristobalj' ));?></a>
-        <a href="#" class="imgChange16 textSmall"><?php printf( __( 'Art', 'cristobalj' ));?></a>
+        <a href="#Art" class="imgChange16 textSmall"><?php printf( __( 'Art', 'cristobalj' ));?></a>
       </div>
       <div class="flex-column justify-content-center align-items-center" id="moreQuote">
         <p class="quote"><?php printf( __( 'The integration of aspects and keys are fundamental for personal development', 'cristobalj' ));?></p>
@@ -35,7 +35,7 @@ get_header(); ?>
 
 
     <div id="mainContainer" class="more">
-      <h3 class="moretitle">
+      <h3 id="Psicoteatro" class="moretitle">
         <?php
         printf( __( 'My life on ', 'cristobalj' ));
         printf(__('<span class="morecolor" > the Psicoteatro</span>', 'cristobalj' ));
@@ -46,7 +46,7 @@ get_header(); ?>
     <iframe class="morevideo" width="100%" src="https://www.youtube.com/embed/F8FBxAGIlpY">
     </iframe>
     <div id="mainContainer" class="more">
-      <h3 class="moretitle">
+      <h3 id="Psicochamanismo" class="moretitle">
         <?php
         printf( __( 'My life on ', 'cristobalj' ));
         printf(__('<span class="morecolor" > the Psicochamanismo</span>', 'cristobalj' ));
@@ -66,7 +66,7 @@ get_header(); ?>
       </ul>
     </div>
     <div id="mainContainer" class="more">
-      <h3 class="moretitle">
+      <h3 id="Psicomagic" class="moretitle">
         <?php
         printf( __( 'My life on ', 'cristobalj' ));
         printf(__('<span class="morecolor" > the Psicomagia</span>', 'cristobalj' ));
@@ -103,7 +103,7 @@ get_header(); ?>
       </ul>
     </div>
     <div id="mainContainer" class="more">
-      <h3 class="moretitle">
+      <h3 id="Workshops" class="moretitle">
         <?php
         printf(__('<span class="morecolor" >Workshops</span>', 'cristobalj' ));
         ?>
@@ -116,6 +116,127 @@ get_header(); ?>
         <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/26.jpg" alt=""></li>
         <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/27.jpg" alt=""></li>
         <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/28.jpg" alt=""></li>
+      </ul>
+    </div>
+    <div id="mainContainer" class="more">
+      <h3 id="Metagenealo" class="moretitle">
+        <?php
+        printf(__('<span class="morecolor" >Metagenealogia</span>', 'cristobalj' ));
+        ?>
+      </h3>
+      <?php printf(__("<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo optio repudiandae, a consequatur. Placeat labore dolorum perferendis cupiditate quam illo.</p>", 'cristobalj' )); ?>
+      <ul id="" class="">
+        <li><img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt=""></li>
+      </ul>
+    </div>
+    <div id="mainContainer" class="more">
+      <h3 id="Therapies" class="moretitle">
+        <?php
+        printf(__('<span class="morecolor" >Therapies</span>', 'cristobalj' ));
+        ?>
+      </h3>
+      <?php printf(__("<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis doloribus nulla tempora, quas dolores mollitia iste at, ullam molestias enim!</p>", 'cristobalj' )); ?>
+      <ul id="" class="">
+        <li><img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt=""></li>
+      </ul>
+    </div>
+    <div id="mainContainer" class="more">
+      <h3 id="Investigation" class="moretitle">
+        <?php
+        printf(__('<span class="morecolor" >Investigation</span>', 'cristobalj' ));
+        ?>
+      </h3>
+      <?php printf(__("<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex laborum sequi provident, aliquid eaque atque est dolore mollitia unde, omnis.</p>", 'cristobalj' )); ?>
+      <ul id="" class="">
+        <li><img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt=""></li>
+      </ul>
+    </div>
+    <div id="mainContainer" class="more">
+      <h3 id="Psicomagic" class="moretitle">
+        <?php
+        printf(__('<span class="morecolor" >Psicomagic</span>', 'cristobalj' ));
+        ?>
+      </h3>
+      <?php printf(__("<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis reprehenderit nostrum suscipit dolorem quam sequi quibusdam dicta accusantium, facilis repellat?</p>", 'cristobalj' )); ?>
+      <ul id="" class="">
+        <li><img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt=""></li>
+      </ul>
+    </div>
+    <div id="mainContainer" class="more">
+      <h3 id="Tarot" class="moretitle">
+        <?php
+        printf(__('<span class="morecolor" >Tarot</span>', 'cristobalj' ));
+        ?>
+      </h3>
+      <?php printf(__("<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore expedita accusantium obcaecati impedit ad, eveniet officiis debitis in illum enim.</p>", 'cristobalj' )); ?>
+      <ul id="" class="">
+        <li><img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt=""></li>
+      </ul>
+    </div>
+    <div id="mainContainer" class="more">
+      <h3 id="Videos" class="moretitle">
+        <?php
+        printf(__('<span class="morecolor" >Videos</span>', 'cristobalj' ));
+        ?>
+      </h3>
+      <?php printf(__("<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure quaerat minus delectus voluptatum praesentium dolorem facilis sit ea mollitia possimus!</p>", 'cristobalj' )); ?>
+      <ul id="" class="">
+        <li><img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt=""></li>
+      </ul>
+    </div>
+    <div id="mainContainer" class="more">
+      <h3 id="Studies" class="moretitle">
+        <?php
+        printf(__('<span class="morecolor" >Studies</span>', 'cristobalj' ));
+        ?>
+      </h3>
+      <?php printf(__("<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis architecto consectetur non provident ratione eos consequuntur a voluptas tenetur autem.</p>", 'cristobalj' )); ?>
+      <ul id="" class="">
+        <li><img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt=""></li>
+      </ul>
+    </div>
+    <div id="mainContainer" class="more">
+      <h3 id="Teachers" class="moretitle">
+        <?php
+        printf(__('<span class="morecolor" >Teachers</span>', 'cristobalj' ));
+        ?>
+      </h3>
+      <?php printf(__("<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, totam, fugit. Laudantium aliquam odit voluptas fugiat, est consequatur animi adipisci?</p>", 'cristobalj' )); ?>
+      <ul id="" class="">
+        <li><img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt=""></li>
+      </ul>
+    </div>
+    <div id="mainContainer" class="more">
+      <h3 id="Press" class="moretitle">
+        <?php
+        printf(__('<span class="morecolor" >Press</span>', 'cristobalj' ));
+        ?>
+      </h3>
+      <?php printf(__("<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta voluptates id officiis consequatur iste magnam quibusdam eos repellat qui facilis?</p>", 'cristobalj' )); ?>
+      <ul id="" class="">
+        <li><img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt=""></li>
+      </ul>
+    </div>
+    <div id="mainContainer" class="more">
+      <h3 id="Travels" class="moretitle">
+        <?php
+        printf(__('<span class="morecolor" >Travels</span>', 'cristobalj' ));
+        ?>
+      </h3>
+      <?php printf(__("<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam excepturi quia sequi dicta magnam obcaecati quibusdam nobis nihil inventore reiciendis.</p>", 'cristobalj' )); ?>
+      <ul id="" class="">
+        <li><img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt=""></li>
+      </ul>
+    </div>
+    <div id="mainContainer" class="more">
+      <h3 id="Art" class="moretitle">
+        <?php
+        printf(__('<span class="morecolor" >Art</span>', 'cristobalj' ));
+        ?>
+      </h3>
+      <?php printf(__("<p>A Living Experience guided by Cristobal Jodorowsky, where he participates will learn more about his personal neurosis, family unconscious contracts, ego projections and geneological knots, as well as the consequences that all these factors cause in his current affective life.</p>", 'cristobalj' )); ?>
+      <ul id="" class="">
+        <li><img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt=""></li>
       </ul>
     </div>
     <?php while (have_posts()): the_post(); ?>
