@@ -1,5 +1,5 @@
 <?php
-/** 
+/**
  * Configuración básica de WordPress.
  *
  * Este archivo contiene las siguientes configuraciones: ajustes de MySQL, prefijo de tablas,
@@ -22,7 +22,7 @@ define('DB_NAME', 'crisjodow');
 define('DB_USER', 'root');
 
 /** Tu contraseña de MySQL */
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', '');
 
 /** Host de MySQL (es muy probable que no necesites cambiarlo) */
 define('DB_HOST', 'localhost');

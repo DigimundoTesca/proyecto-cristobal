@@ -28,8 +28,11 @@ get_header(); ?>
         <a href="#Ngram" class="imgChange15 textBig"><?php printf( __( 'N-gram', 'cristobalj' ));?></a>
         <a href="#Art" class="imgChange16 textSmall"><?php printf( __( 'Art', 'cristobalj' ));?></a>
       </div>
-      <div class="flex-column justify-content-center align-items-center" id="moreQuote">
-        <p class="quote"><?php printf( __( 'The integration of aspects and keys are fundamental for personal development', 'cristobalj' ));?></p>
+      <div class="flex-column justify-content-center " id="moreQuote">
+        <p class="quote">"<?php printf( __( 'The integration of aspects and keys are fundamental for personal development', 'cristobalj' ));?>"</p>
+        <div class="text-right">
+        <label class="quote"> ― Cristobal Jodorowsky </label>
+        </div>
       </div>
     </div>
 
