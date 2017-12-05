@@ -465,29 +465,66 @@ class Mlp_Helpers {
 				break;
 		}
 
-		$output = '<div class="mlp-language-box mlp_language_box"><ul>';
+		// $output = '<div class="mlp-language-box mlp_language_box"><ul>';
+
+		// foreach ( $items as $site_id => $item ) {
+		// 	$text = $item['name'];
+
+		// 	$img = ( ! empty( $item['icon'] ) && $params['display_flag'] )
+		// 		? '<img src="' . esc_url( $item['icon'] ) . '" alt="' . esc_attr( $item['name'] ) . '"> '
+		// 		: '';
+
+		// 	if ( get_current_blog_id() === $site_id ) {
+		// 		$output .= '<li><a class="current-language-item" href="">' . $img . esc_html( $text ) . '</a></li>';
+		// 	} else {
+		// 		$output .= sprintf(
+		// 			'<li><a rel="alternate" hreflang="%1$s" href="%2$s">%3$s%4$s</a></li>',
+		// 			esc_attr( $item['http'] ),
+		// 			esc_url( $item['url'] ),
+		// 			$img,
+		// 			esc_html( $text )
+		// 		);
+		// 	}
+		// }
+
+		// $output .= '</ul></div>';
+
+		//Metodo de Jozz para hacerlo de modo Select	
+		$output = '<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+		<option value="">Select language</option>
+		';
 
 		foreach ( $items as $site_id => $item ) {
 			$text = $item['name'];
-
-			$img = ( ! empty( $item['icon'] ) && $params['display_flag'] )
-				? '<img src="' . esc_url( $item['icon'] ) . '" alt="' . esc_attr( $item['name'] ) . '"> '
-				: '';
 
 			if ( get_current_blog_id() === $site_id ) {
 				$output .= '<li><a class="current-language-item" href="">' . $img . esc_html( $text ) . '</a></li>';
 			} else {
 				$output .= sprintf(
-					'<li><a rel="alternate" hreflang="%1$s" href="%2$s">%3$s%4$s</a></li>',
+					'<option value="%2$s">%3$s%4$s</option>',
 					esc_attr( $item['http'] ),
 					esc_url( $item['url'] ),
-					$img,
+					'',
 					esc_html( $text )
 				);
 			}
 		}
 
-		$output .= '</ul></div>';
+	
+		$output .= '</select>';
+
+		/**
+		 * Filters the output of the linked elements.
+		 *
+		 * @since 2.5.0
+		 *
+		 * @param string  $output The generated HTML
+		 * @param array[] $items  The language items
+		 * @param array   $params The passed arguments (including missing defaults).
+		 */
+		$output = (string) apply_filters( 'mlp_linked_elements_html', $output, $items, $params );
+
+		return $output;
 
 		/**
 		 * Filters the output of the linked elements.
