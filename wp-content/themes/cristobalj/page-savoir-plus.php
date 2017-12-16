@@ -30,7 +30,7 @@ get_header(); ?>
       </div>
       <div class="flex-column justify-content-center align-items-center" id="moreQuote">
         <p class="quote"><?php printf( __( '"The integration of aspects and keys are fundamental for personal development"', 'cristobalj' ));?></p>
-        <p class="w-100 text-right"><?php printf( __( 'Cristobal Jodorowsky', 'cristobalj' ));?></p>
+        <p class="w-100 text-right"><?php printf( __( '- Cristobal Jodorowsky', 'cristobalj' ));?></p>
       </div>
     </div>
 
