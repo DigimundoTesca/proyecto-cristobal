@@ -295,6 +295,10 @@ class EM_Event extends EM_Object{
 					}
 				}else{
 					$event_post = $id;
+					//if we're in MS Global mode, then unless a blog id was specified, we assume the current post object belongs to the current blog
+					if( EM_MS_GLOBAL && !is_numeric($search_by) ){
+						$this->blog_id = get_current_blog_id();
+					}
 				}
 				$this->post_id = !empty($id->ID) ? $id->ID : $id;
 			}
@@ -416,6 +420,7 @@ class EM_Event extends EM_Object{
 			restore_current_blog();
 			$this->blog_id = $blog_id;
 		}elseif( EM_MS_GLOBAL ){
+			// if a blog ID wasn't defined then we'll check the main blog, in case the event was created in the past
 			$this->ms_global_switch();
 			$event_meta = get_post_meta($this->post_id);
 			$this->ms_global_switch_back();
@@ -601,7 +606,7 @@ class EM_Event extends EM_Object{
 								$this->event_attributes[$att_key] = wp_unslash($att_value);
 							}
 						}
-						if( $att_value != '' && $att_vals > 1){
+						if( $att_value == '' && $att_vals > 1){
 							$this->event_attributes[$att_key] = wp_unslash(wp_kses($event_available_attributes['values'][$att_key][0], $allowedtags));
 						}
 					}
@@ -2299,8 +2304,8 @@ class EM_Event extends EM_Object{
 						//adjust certain meta information
 						$event['event_start_date'] = $meta_fields['_event_start_date'] = date("Y-m-d", $day);
 						$meta_fields['_start_ts'] = strtotime($event['event_start_date'].' '.$event['event_start_time']);
-						if( !empty($event['recurrence_rsvp_days']) && is_numeric($event['recurrence_rsvp_days']) ){
-							$event_rsvp_days = $event['recurrence_rsvp_days'] >= 0 ? '+'. $event['recurrence_rsvp_days']: $event['recurrence_rsvp_days'];
+						if( !empty($this->recurrence_rsvp_days) && is_numeric($this->recurrence_rsvp_days) ){
+							$event_rsvp_days = $this->recurrence_rsvp_days >= 0 ? '+'. $this->recurrence_rsvp_days: $this->recurrence_rsvp_days;
 				 			$event_rsvp_date = date('Y-m-d',  strtotime($event_rsvp_days.' days', $meta_fields['_start_ts']));
 				 			$event['event_rsvp_date'] = $meta_fields['_event_rsvp_date'] = $event_rsvp_date;
 						}else{
@@ -2360,8 +2365,8 @@ class EM_Event extends EM_Object{
 			 		//do we need to change the slugs?
 			 		$post_fields['post_name'] = $event['event_slug'] = apply_filters('em_event_save_events_slug', $post_name.'-'.date($recurring_date_format, $EM_Event->start), $post_fields, $EM_Event->start, array(), $this);
 			 		//adjust certain meta information relativv
-			 		if( !empty($event['recurrence_rsvp_days']) && is_numeric($event['recurrence_rsvp_days']) ){
-			 			$event_rsvp_days = $event['recurrence_rsvp_days'] >= 0 ? '+'. $event['recurrence_rsvp_days']: $event['recurrence_rsvp_days'];
+			 		if( !empty($this->recurrence_rsvp_days) && is_numeric($this->recurrence_rsvp_days) ){
+			 			$event_rsvp_days = $this->recurrence_rsvp_days >= 0 ? '+'. $this->recurrence_rsvp_days: $this->recurrence_rsvp_days;
 			 			$event_rsvp_date = date('Y-m-d',  strtotime($event_rsvp_days.' days', $EM_Event->start));
 			 			$event['event_rsvp_date'] = $meta_fields['_event_rsvp_date'] = $event_rsvp_date;
 			 		}else{
