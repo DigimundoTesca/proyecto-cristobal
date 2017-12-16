@@ -31,6 +31,7 @@ get_header(); ?>
       <div class="flex-column justify-content-center align-items-center" id="moreQuote">
         <p class="quote"><?php printf( __( '"The integration of aspects and keys are fundamental for personal development"', 'cristobalj' ));?></p>
         <p class="w-100 text-right"><?php printf( __( 'Cristobal Jodorowsky', 'cristobalj' ));?></p>
+<<<<<<< HEAD
       </div>
     </div>
 
@@ -271,6 +272,8 @@ get_header(); ?>
       </div>
       <div class="flex-column justify-content-center align-items-center" id="moreQuote">
         <p class="quote"><?php printf( __( 'The integration of aspects and keys are fundamental for personal development', 'cristobalj' ));?></p>
+=======
+>>>>>>> develop
       </div>
     </div>
 

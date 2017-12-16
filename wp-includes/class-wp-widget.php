@@ -393,7 +393,7 @@ class WP_Widget {
 			}
 
 			$this->widget( $args, $instance );
-
+//???
 			if ( $this->is_preview() ) {
 				wp_suspend_cache_addition( $was_cache_addition_suspended );
 			}

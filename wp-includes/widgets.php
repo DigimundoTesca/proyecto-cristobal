@@ -752,7 +752,7 @@ function dynamic_sidebar( $index = 1 ) {
 	 * @param bool       $has_widgets Whether the sidebar is populated with widgets.
 	 *                                Default true.
 	 */
-	do_action( 'dynamic_sidebar_after', $index, true );
+	// do_action( 'dynamic_sidebar_after', $index, true );
 
 	/**
 	 * Filters whether a sidebar has widgets.
