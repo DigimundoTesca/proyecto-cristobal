@@ -236,6 +236,7 @@ class Mlp_Widget extends WP_Widget {
 			'display_flag'      => ! empty( $instance['widget_display_flag'] ),
 			'strict'            => ! empty( $instance['widget_toggle_view_on_translated_posts'] ),
 		) );
+		//Aqui es donde regresa el HTML mal pedo
 		if ( ! $output ) {
 			return;
 		}
@@ -256,8 +257,9 @@ class Mlp_Widget extends WP_Widget {
 		$html .= $output;
 
 		$html .= $args['after_widget'];
-
-		echo wp_kses_post( $html );
+		//aqui ya termino de armar el html
+		// echo wp_kses_post( $html ); //Funcion que filtra 
+		echo $html;
 	}
 
 	/**
