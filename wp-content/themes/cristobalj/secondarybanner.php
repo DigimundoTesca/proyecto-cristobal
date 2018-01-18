@@ -35,6 +35,16 @@ Template Name: secondarybanner
     </a>
   </div>
   <div class="mainbannercontent">
+    <a href="<?php echo esc_url( get_permalink( get_page_by_title( 'Tarot' ) ) ); ?>" title="Tarot">
+      <div class="mindHack">
+        <h3>
+          <?php printf(__('Tarot queries','cristobalj')) ?>
+        </h3>
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/Tarot.jpg" alt="">
+      </div>
+    </a>
+  </div>
+  <div class="mainbannercontent">
     <a href="#" title="Tarot">
       <div class="mindHack">
         <h3>
