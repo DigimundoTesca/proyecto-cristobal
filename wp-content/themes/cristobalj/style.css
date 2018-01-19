@@ -1365,6 +1365,24 @@ label.es_shortcode_form_email span {
   margin: 0;
   margin-top: 5px;
 }
+.mainbannercontent .mindHack.secnd {
+  border: 2px solid #003D7F;
+  background-color: #007bff;
+  height: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  width: 100%;
+}
+.mainbannercontent .mindHack.secnd h3 {
+  font-family: 'Gotham Rounded';
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  background-color: #007bff;
+  color: #FFFFFF;
+  line-height: 50px;
+  margin: 0;
+}
 .mainbannercontent .mindHack {
   border: 2px solid #000000;
   background-color: #000000;

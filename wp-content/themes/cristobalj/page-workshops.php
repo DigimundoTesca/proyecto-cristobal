@@ -52,7 +52,7 @@ get_header(); ?>
         </h3>
         <h4>
           <?php
-          printf( __( 'Know my activities this year', 'cristobalj' ));
+          printf( __( 'Know my workshops for this year', 'cristobalj' ));
           ?>
         </h4>
         <?php while (have_posts()): the_post(); ?>
