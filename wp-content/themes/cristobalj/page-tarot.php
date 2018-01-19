@@ -6,34 +6,33 @@ get_header(); ?>
 
 <div id="primary" class="content-area">
   <main id="main" class="site-main">
-    <div id="banner" class="bannermobile">
+    <div id="banner" class="bannermobile tarot">
     </div>
     <div class="mobilecontainer">
       <div class="bannertext">
         <h2 class="bannertitle">
-          <?php printf(__('Welcome!','cristobalj')) ?>
+          <?php printf(__('Tarot!','cristobalj')) ?>
         </h2>
-        <p class="quote"><?php printf(__('"Here you can put a phrase from Cristobal that welcomes people"','cristobalj')) ?></p>
+        <p class="name"><?php printf(__('"Cristobal will answer some queries"','cristobalj')) ?></p>
       </div>
       <div class="newscontainer">
         <?php es_subbox( $namefield = "NO", $desc = "", $group = "" ); ?>
       </div>
     </div>
-    <div id="banner1" class="bannerbig">
+    <div id="banner1" class="bannerbig tarot">
       <div class="bannercontainer">
         <div class="bannertext">
           <h2 class="bannertitle">
-            <?php printf(__('Welcome!','cristobalj')) ?>
+            <?php printf(__('Tarot!','cristobalj')) ?>
           </h2>
-          <p class="quote"><?php printf(__('"Here you can put a phrase from Cristobal that welcomes people"','cristobalj')) ?></p>
-          <p class="name">Cristóbal Jodorowsky</p>
+          <p class="name"><?php printf(__('"Cristobal will answer some queries"','cristobalj')) ?></p>
         </div>
       </div>
     </div>
 
     <div class="mainpage" id="mainpage">
-      <?php get_template_part( 'mainbanner' );  ?>
-      <div id="datesContainer">
+      <div class="container-fluid">
+        <?php echo do_shortcode('[contact-form-7 id="134" title="Tarot"]'); ?>
       </div>
     </div> 
 
@@ -41,6 +40,6 @@ get_header(); ?>
   </main><!-- #main -->
 </div><!-- #primary -->
 
-  <?php
-  get_footer();
-  ?>
+<?php
+get_footer();
+?>

@@ -1072,6 +1072,15 @@ img#metabannerbig {
   background-repeat: no-repeat;
   background-size: cover;
 }
+#banner.tarot,
+#banner1.tarot {
+  position: relative;
+  background-color: #FFF;
+  background-image: url("images/tarotban.jpg");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 #banner1 .buttonLink a {
   text-decoration: none;
   color: #FFF;
@@ -1756,7 +1765,55 @@ input.wpcf7-form-control.wpcf7-submit {
   border-top: 2px solid #92b541;
   border-bottom: 2px solid #92b541;
 }
+/*Tarot page styles*/
+#wpcf7-f134-o1 p {
+  margin: 0 auto;
+  width: fit-content;
+}
+#tarot-cards div {
+  background-image: url(https://i.pinimg.com/originals/2a/ff/83/2aff8375c88541bf196ea0c15e08b9be.jpg);
+  background-size: 99px;
+  cursor: pointer;
+  height: 132px;
+  width: 90px;
+  background-position: 50% 0;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
 
+}
+.muevetee{
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  -webkit-transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+  -moz-transition: 0.6s;
+  -moz-transform-style: preserve-3d;
+
+  -o-transition: 0.6s;
+  -o-transform-style: preserve-3d;
+
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.destino {
+  border: none!important
+}
+.Reintentar{
+  display: none;
+  visibility: hidden;
+
+}
+
+.mano{
+  cursor: pointer;
+}
 
 
 
