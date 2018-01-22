@@ -136,7 +136,9 @@ function cristobalj_scripts() {
   wp_enqueue_script( 'prefixfree', 'https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js', true );
 	wp_enqueue_script( 'pooper', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js', true );
   wp_enqueue_script( 'bootstrapjs', 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js', true );
-	wp_enqueue_script( 'mainjs', get_template_directory_uri() . '/js/main.js', array(), '', true );
+  wp_enqueue_script( 'mainjs', get_template_directory_uri() . '/js/main.js', array(), '', true );
+  // wp_enqueue_script( 'toolsjs', get_template_directory_uri() . '/js/mootools.js', array(), '', true );
+	wp_enqueue_script( 'textjs', get_template_directory_uri() . '/js/f.txt', array(), '', true );
 	wp_enqueue_script( 'classie', get_template_directory_uri() . '/js/classie.js', array(), '', true );
 	wp_enqueue_script( 'slide', get_template_directory_uri() . '/js/responsiveslides.min.js', array(), '', true );
 	wp_enqueue_script( 'themejs', get_template_directory_uri() . '/js/theme-scripts.js', array(), '', true );
