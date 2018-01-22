@@ -69,13 +69,12 @@
           <center><h1 style="color: white">Seleccione 4 cartas</h1></center>
 
         <div class="container">
-            <div class="row"  id="tarot-layout">
+            <div class="row"  id="tarot-layout" style="height: 500px;">
                     <div  class="col-md-3"><img id="imgRet" src="http://nkmediasolutions.com/images/Icon-arrow-left-white.png"  alt="" style="height: 15px;" class="Reintentar" > <label class="Reintentar mano" id="return" onClick="window.location.reload()" style="color:white; font-size: 24px; ">Reintentar</label></div>
                     <div  class="col-md-3"></div>
                     <div  class="col-md-3"></div>
                     <div  class="col-md-3"></div>
             </div>
-            <br><br><br><br><br><br><br><br><br>
             <div id="tarot-cards" class="row col-md-12">
                 <div id='070'></div>
                 <div id='151'></div>
@@ -127,19 +126,19 @@
         var pos = el.getPosition();
         var espacio = Math.floor(Math.random() * 8) + 5;
         var vespacio = Math.floor(Math.random() * 10);
-        pos.y = pos.y + vespacio + lin;
+        pos.y = pos.y ;
         pos.x = pos.x + despcard;
         el.setStyles({
             'position': 'absolute',
             'left': pos.x + (key * spacing),
-            'top': pos.y
+            'top': 0
         })
         el.addClass("rot5");
         el.addEvent('mouseover', function() {
-            el.tween('top', pos.y - 10);
+            el.tween('top', - 10);
         })
         el.addEvent('mouseout', function() {
-            el.tween('top', pos.y);
+            el.tween('top', 0);
         })
         el.addEvent('touchstart', function() {
             el.click();
@@ -176,7 +175,7 @@
             cardIds.push(el.id);
             elFx.start({
                 // 'top': pos.y,
-                'top': -210,
+                'top': -100,
                 'left': pos.x-42,
                 'height': [132, 400],
                 'width': [80, 220],
