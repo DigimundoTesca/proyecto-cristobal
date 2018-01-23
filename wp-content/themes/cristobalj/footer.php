@@ -85,76 +85,76 @@ window.addEvent('domready', function() {
 		});
 		colum = colum + 1;
 		if (colum > 3) colum = 1;
-// lin = (colum - 1) * 140;
-lin=0;
-var pos = el.getPosition();
-var espacio = Math.floor(Math.random() * 8) + 5;
-var vespacio = Math.floor(Math.random() * 10);
-pos.y = pos.y + vespacio + lin;
-pos.x = pos.x + despcard;
-el.setStyles({
-	'position': 'absolute',
-	'left': pos.x + (key * spacing),
-	'top': pos.y
-})
-el.addClass("rot5");
-el.addEvent('mouseover', function() {
-	el.tween('top', pos.y - 10);
-})
-el.addEvent('mouseout', function() {
-	el.tween('top', pos.y);
-})
-el.addEvent('touchstart', function() {
-	el.click();
-})
-el.addEvent('click', function() {
-	if ((selected) >= positions.length) return false;
-	el.removeEvents('mouseout');
-	el.removeEvents('mouseover');
-	el.removeEvents('click');
-	vidx = vidx + 1;
-	el.style.zIndex = vidx;
-	var progress = new Element('img', {
-		src: 'https://www.losarcanos.com/img_oracle2/' + 't' + el.id + '.jpg',
-		style: 'height:400px;width:220'
-	});
-	var pos = positions[selected].getPosition();
-	Element.Styles.backgroundSize = '@px';
-	var elFx = new Fx.Morph(el, {
-		duration: 2800,
-		transition: Fx.Transitions.Sine.easeOut,
-		onComplete: function() {
-			el.tween('opacity', 1, 0, {
-				duration: 'long'
-			});
-			el.removeClass("rot5");
-			el.addClass("muevetee");
-			progress.inject(el);
-			el.tween('opacity', 0, 1, {
-				duration: 'long'
-			});
+        // lin = (colum - 1) * 140;
+        lin=0;
+        var pos = el.getPosition();
+        var espacio = Math.floor(Math.random() * 8) + 5;
+        var vespacio = Math.floor(Math.random() * 10);
+        pos.y = pos.y ;
+        pos.x = pos.x + despcard;
+        el.setStyles({
+        	'position': 'absolute',
+        	'left': pos.x + (key * spacing),
+        	'top': 0
+        })
+        el.addClass("rot5");
+        el.addEvent('mouseover', function() {
+        	el.tween('top', - 10);
+        })
+        el.addEvent('mouseout', function() {
+        	el.tween('top', 0);
+        })
+        el.addEvent('touchstart', function() {
+        	el.click();
+        })
+        el.addEvent('click', function() {
+        	if ((selected) >= positions.length) return false;
+        	el.removeEvents('mouseout');
+        	el.removeEvents('mouseover');
+        	el.removeEvents('click');
+        	vidx = vidx + 1;
+        	el.style.zIndex = vidx;
+        	var progress = new Element('img', {
+        		src: 'https://www.losarcanos.com/img_oracle2/' + 't' + el.id + '.jpg',
+        		style: 'height:400px;width:220'
+        	});
+        	var pos = positions[selected].getPosition();
+        	Element.Styles.backgroundSize = '@px';
+        	var elFx = new Fx.Morph(el, {
+        		duration: 2800,
+        		transition: Fx.Transitions.Sine.easeout,
+        		onComplete: function() {
+        			el.tween('opacity', 1, 0, {
+        				duration: 'long'
+        			});
+        			el.removeClass("rot5");
+        			el.addClass("muevetee");
+        			progress.inject(el);
+        			el.tween('opacity', 0, 1, {
+        				duration: 'long'
+        			});
 
-		}
-	});
-	cardIds.push(el.id);
-	elFx.start({
-      // 'top': pos.y,
-      'top': -210,
-      'left': pos.x-42,
-      'height': [132, 400],
-      'width': [80, 220],
-      'background-size': [80, 160]
-    });
-	selected++;
-	if ((selected) >= positions.length) {
-		(function() {
-			document.getElementById("return").removeClass("Reintentar");
-			document.getElementById("imgRet").removeClass("Reintentar");
+        		}
+        	});
+        	cardIds.push(el.id);
+        	elFx.start({
+                // 'top': pos.y,
+                'top': -500,
+                'left': pos.x-42,
+                'height': [132, 400],
+                'width': [80, 220],
+                'background-size': [80, 160]
+              });
+        	selected++;
+        	if ((selected) >= positions.length) {
+        		(function() {
+        			document.getElementById("return").removeClass("Reintentar");
+        			document.getElementById("imgRet").removeClass("Reintentar");
 
-		}).delay(4000);
-	}
-})
-});
+        		}).delay(4000);
+        	}
+        })
+      });
 });
 
 function calculaAncho() {

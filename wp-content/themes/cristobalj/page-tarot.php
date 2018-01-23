@@ -32,6 +32,9 @@ get_header(); ?>
 
     <div class="mainpage" id="mainpage">
       <div class="container-fluid">
+        <?php if (function_exists('user_submitted_posts')) user_submitted_posts(); ?>
+
+
         <?php echo do_shortcode('[contact-form-7 id="134" title="Tarot"]'); ?>
       </div>
     </div> 
