@@ -79,6 +79,8 @@ window.addEvent('domready', function() {
 	var vidx = 100;
 	var colum = 0;
 	var lin = 0;
+  var load = document.getElementsByName("user-submitted-image[]");
+  var invisible = document.getElementById("user-submitted-image");
 	cards.each(function(el, key) {
 		el.set('tween', {
 			duration: 'short'
@@ -118,6 +120,7 @@ window.addEvent('domready', function() {
         		src: 'https://www.losarcanos.com/img_oracle2/' + 't' + el.id + '.jpg',
         		style: 'height:400px;width:220'
         	});
+          load[selected].src = 'https://www.losarcanos.com/img_oracle2/' + 't' + el.id + '.jpg';
         	var pos = positions[selected].getPosition();
         	Element.Styles.backgroundSize = '@px';
         	var elFx = new Fx.Morph(el, {
