@@ -40,7 +40,7 @@
 
 		<header id="masthead" class="site-header">
 			<div class="site-branding">
-				<div class="containerMobile"> 
+				<div class="containerMobile">
 					<div class="menu-wrap">
 						<nav id="menu" class="menu">
 								<?php
@@ -79,9 +79,9 @@
 				<div id="social">
 					<nav>
 						<ul>
-							<li><a href="" style="font-size: 30px;" target="_blank" title="" class="fa fa-instagram" aria-hidden="true"></a></li>
-							<li><a href="" style="font-size: 30px;" target="_blank" title="" class="fa fa-facebook-square" aria-hidden="true"></a></li>
-							<li><a href="" style="font-size: 30px;" target="_blank" title="" class="fa fa-twitter" aria-hidden="true"></a></li>
+							<li><a href="" style="font-size: 36px;" target="_blank" title="" class="fa fa-instagram" aria-hidden="true"></a></li>
+							<li><a href="" style="font-size: 36px;" target="_blank" title="" class="fa fa-facebook-square" aria-hidden="true"></a></li>
+							<li><a href="" style="font-size: 36px;" target="_blank" title="" class="fa fa-twitter" aria-hidden="true"></a></li>
 						</ul>
 					</nav>
 				</div>

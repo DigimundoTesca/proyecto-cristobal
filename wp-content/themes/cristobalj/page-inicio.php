@@ -13,7 +13,7 @@ get_header(); ?>
         <h2 class="bannertitle">
           <?php printf(__('Welcome!','cristobalj')) ?>
         </h2>
-        <p class="quote"><?php printf(__('"Here you can put a phrase from Cristobal that welcomes people"','cristobalj')) ?></p>
+        <p class="quote"><?php printf(__('"Thanks for visit us in www.psicomagia.es, the Cristobal Jodorowsky web. If you want register to some one of the Crsitobal Jodorowsky events, please, head hover to the section "Events" and select the event that wish in the date that prefer to asist. Act followed  make click en "+info" and proceed to fill in the contact form. ¡Welcome to aboard!. If you are organizator and interest you performing events/workshops with Cristobal in your country, please write to:"','cristobalj')) ?></p>
       </div>
       <div class="newscontainer">
         <?php es_subbox( $namefield = "NO", $desc = "", $group = "" ); ?>
@@ -59,7 +59,7 @@ get_header(); ?>
           <?php the_content(); ?>
         <?php endwhile ?>
       </div>
-    </div> 
+    </div>
 
 
   </main><!-- #main -->

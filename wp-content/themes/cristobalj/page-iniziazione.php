@@ -59,7 +59,7 @@ get_header(); ?>
           <?php the_content(); ?>
         <?php endwhile ?>
       </div>
-    </div> 
+    </div>
 
 
   </main><!-- #main -->

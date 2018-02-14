@@ -1,4 +1,4 @@
-<?php 
+<?php
 /**
  * Template for displaying Biography page */
 
@@ -7,17 +7,13 @@ get_header(); ?>
 <div id="primary" class="content-area">
   <main id="main" class="site-main">
     <ul class="rslides">
-      <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/2.jpg" alt=""></li>
-      <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/3.jpg" alt=""></li>
       <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/6.jpg" alt=""></li>
       <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/11.jpg" alt=""></li>
-      <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/12.jpg" alt=""></li>
+      <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/28.jpg" alt=""></li>
       <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/13.jpg" alt=""></li>
-      <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/23.jpg" alt=""></li>
+      <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/1.jpg" alt=""></li>
       <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/24.jpg" alt=""></li>
       <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/25.jpg" alt=""></li>
-      <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/42.jpg" alt=""></li>
-      <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/45.jpg" alt=""></li>
       <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/46.jpg" alt=""></li>
     </ul>
     <?php while (have_posts()): the_post(); ?>
