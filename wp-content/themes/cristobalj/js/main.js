@@ -11,10 +11,6 @@
     initEvents();
   }
 
-  /*Clean form*/
-  function limpiarFormulario() {
-    document.getElementById("wpcf7-f124-p21-o1").reset();
-  }
   function initEvents() {
     openbtn.addEventListener( 'click', toggleMenu );
     if( closebtn ) {
