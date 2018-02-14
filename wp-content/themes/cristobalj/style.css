@@ -1480,6 +1480,7 @@ label.es_shortcode_form_email span {
   border-top: 5px solid #37b4ee;
 }
 #mainContainer.more p {
+  text-align : justify;
   margin: 3% 0;
   word-spacing: 5px;
 }
@@ -3186,11 +3187,10 @@ input.wpcf7-form-control.wpcf7-submit {
     font-size: 35px;
   }
 }
-
 #tarot-cards div {
   background-image: url('images/Tarot-Cards/img002.jpg');
   background-size: 99px;
-  border: 1px solid #000;
+  border: 3px solid #967996;
   cursor: pointer;
   height: 132px;
   width: 90px;
@@ -3200,9 +3200,6 @@ input.wpcf7-form-control.wpcf7-submit {
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
-  }
-  #tarot-cards div:after{
-    background-color: rgba(0,0,0,0.5);
   }
 
 .muevetee{

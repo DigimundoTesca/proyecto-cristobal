@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: _s\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
-"POT-Creation-Date: 2018-02-14 01:37-0600\n"
-"PO-Revision-Date: 2018-02-14 01:37-0600\n"
+"POT-Creation-Date: 2016-05-26 12:23+0200\n"
+"PO-Revision-Date: 2016-05-26 12:24+0200\n"
 "Last-Translator: FX Bénard <fx@fxbenard.com>\n"
 "Language-Team: fxbenard | FxB <fx@fxbenard.com>\n"
 "Language: fr_FR\n"
@@ -15,14 +15,14 @@ msgstr ""
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 1.8.7\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: 404.php:14
+#: 404.php:17
 msgid "Oops! That page can&rsquo;t be found."
 msgstr "Aïe ! Cette page est introuvable."
 
-#: 404.php:18
+#: 404.php:21
 msgid ""
 "It looks like nothing was found at this location. Maybe try one of the links "
 "below or a search?"
@@ -30,1013 +30,132 @@ msgstr ""
 "Il semble que rien n'a été trouvé à cet endroit. Essayer peut-être un des "
 "liens ci-dessous ou une recherche ?"
 
-#: 404.php:27
+#: 404.php:33
 msgid "Most Used Categories"
 msgstr "Catégories les plus utilisées"
 
-#: 404.php:44
+#. translators: %1$s: smiley
+#: 404.php:51
 #, php-format
 msgid "Try looking in the monthly archives. %1$s"
 msgstr "Essayez de voir du côté des archives mensuelles. %1$s"
 
 #: comments.php:31
-#, fuzzy, php-format
-#| msgctxt "comments title"
-#| msgid "One thought on &ldquo;%2$s&rdquo;"
-#| msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgid "One thought on &ldquo;%1$s&rdquo;"
-msgstr "Une réflexion au sujet de &ldquo;%2$s&rdquo;"
-
-#: comments.php:37
-#, fuzzy, php-format
-#| msgctxt "comments title"
-#| msgid "One thought on &ldquo;%2$s&rdquo;"
-#| msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+#, php-format
 msgctxt "comments title"
-msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid "One thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] "Une réflexion au sujet de &ldquo;%2$s&rdquo;"
 msgstr[1] "%1$s réflexions au sujet de &ldquo;%2$s&rdquo;"
 
-#: comments.php:60
+#: comments.php:40 comments.php:61
+msgid "Comment navigation"
+msgstr "Navigation des commentaires"
+
+#: comments.php:43 comments.php:64
+msgid "Older Comments"
+msgstr "Commentaires plus anciens"
+
+#: comments.php:44 comments.php:65
+msgid "Newer Comments"
+msgstr "Commentaires plus récents"
+
+#: comments.php:78
 msgid "Comments are closed."
 msgstr "Les commentaires sont fermés."
 
-#: footer.php:39
-msgid "Watch"
-msgstr ""
+#: footer.php:18
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
 
-#: footer.php:40 footer.php:44
-msgid "The most watched videos of the month."
-msgstr ""
+#: footer.php:18
+#, php-format
+msgid "Proudly powered by %s"
+msgstr "Fièrement propulsé par %s"
 
-#: footer.php:43
-msgid "Hear"
-msgstr ""
-
-#: footer.php:47
-msgid "Read"
-msgstr ""
-
-#: footer.php:48
-msgid "Weekly articles and inspirations."
-msgstr ""
-
-#: footer.php:54
-#, fuzzy, php-format
-#| msgid "Copyright (c) %1$s"
-msgid "Copyright &copy; %s"
-msgstr "Copyright (c) %1$s"
-
-#: footer.php:59
+#: footer.php:20
 #, php-format
 msgid "Theme: %1$s by %2$s."
 msgstr "Thème : %1$s par %2$s."
 
-#: functions.php:44
+#: functions.php:47
 msgid "Primary"
 msgstr "Principal"
 
-#: functions.php:101
+#: functions.php:102
 msgid "Sidebar"
 msgstr "Colonne latérale"
 
-#: functions.php:103 functions.php:117
-msgid "Add widgets here."
-msgstr ""
-
-#: functions.php:115
-msgid "LanBar"
-msgstr ""
-
-#: functions.php:170
-#, fuzzy
-#| msgid "Bookmarks"
-msgctxt "blog"
-msgid "Books"
-msgstr "Favoris"
-
-#: functions.php:171
-#, fuzzy
-#| msgid "Bookmarks"
-msgctxt "post type singular name"
-msgid "Book"
-msgstr "Favoris"
-
-#: functions.php:172
-#, fuzzy
-#| msgid "Bookmarks"
-msgctxt "admin menu"
-msgid "Books"
-msgstr "Favoris"
-
-#: functions.php:173
-#, fuzzy
-#| msgid "Bookmarks"
-msgctxt "add new on admin bar"
-msgid "Books"
-msgstr "Favoris"
-
-#: functions.php:174
-#, fuzzy
-#| msgid "Add Review"
-msgctxt "book"
-msgid "Add New"
-msgstr "Ajouter Avis"
-
-#: functions.php:175
-msgid "Add New Project"
-msgstr ""
-
-#: functions.php:176
-#, fuzzy
-#| msgid "New Topic"
-msgid "New Project"
-msgstr "Nouveau sujet"
-
-#: functions.php:177
-#, fuzzy
-#| msgid "Edit %s"
-msgid "Edit Books"
-msgstr "Modifier %s"
-
-#: functions.php:178
-msgid "View Books"
-msgstr ""
-
-#: functions.php:179
-msgid "All Books"
-msgstr ""
-
-#: functions.php:180
-#, fuzzy
-#| msgctxt "assistive text"
-#| msgid "Search"
-msgid "Search Books"
-msgstr "Chercher"
-
-#: functions.php:181
-msgid "Parent Books:"
-msgstr ""
-
-#: functions.php:182
-#, fuzzy
-#| msgid "No other topics found!"
-msgid "No Projects found."
-msgstr "Aucun autre sujet trouvé&nbsp;!"
-
-#: functions.php:183
-msgid "No Projects found in Trash."
-msgstr ""
-
-#: functions.php:188
-#, fuzzy
-#| msgid "Description"
-msgid "Description."
-msgstr "Description"
-
-#: header.php:39
+#: header.php:25
 msgid "Skip to content"
 msgstr "Aller au contenu"
 
-#: header.php:93
+#: header.php:45
 msgid "Primary Menu"
 msgstr "Menu principal"
 
-#: inc/template-tags.php:52
+#: inc/template-tags.php:28
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Publié le : %s"
+
+#: inc/template-tags.php:33
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr "par %s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:50 inc/template-tags.php:56
 msgid ", "
 msgstr ", "
 
-#: inc/template-tags.php:55
+#: inc/template-tags.php:52
 #, php-format
 msgid "Posted in %1$s"
 msgstr "Publié dans %1$s"
 
-#: inc/template-tags.php:62
+#: inc/template-tags.php:58
 #, php-format
 msgid "Tagged %1$s"
 msgstr "Tagué avec %1$s"
 
-#: inc/template-tags.php:72
+#: inc/template-tags.php:64
+msgid "Leave a comment"
+msgstr "Laisser un commentaire"
+
+#: inc/template-tags.php:64
+msgid "1 Comment"
+msgstr "1 commentaire"
+
+#: inc/template-tags.php:64
+msgid "% Comments"
+msgstr "% commentaires"
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:71 template-parts/content-page.php:33
 #, php-format
-msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
-msgstr ""
+msgid "Edit %s"
+msgstr "Modifier %s"
 
-#: inc/template-tags.php:89 template-parts/content-page.php:32
-#, fuzzy, php-format
-#| msgid "%s <span class=\"says\">says:</span>"
-msgid "Edit <span class=\"screen-reader-text\">%s</span>"
-msgstr "%s <span class=\"says\">dit&nbsp;:</span>"
-
-#: mainbanner.php:11 secondarybanner.php:11
-msgid "Live the experience!"
-msgstr ""
-
-#: mainbanner.php:14 page-metamundo.php:75 secondarybanner.php:14
-msgid "\"Next generations\""
-msgstr ""
-
-#: mainbanner.php:17 secondarybanner.php:17
-msgid "Mexico febrero 2018"
-msgstr ""
-
-#: mainbanner.php:18 secondarybanner.php:18
-msgid "Argentina julio 2018"
-msgstr ""
-
-#: mainbanner.php:28
-msgid "Tarot app"
-msgstr ""
-
-#: mainbanner.php:38 secondarybanner.php:38
-msgid "We give you"
-msgstr ""
-
-#: mainbanner.php:42 secondarybanner.php:42
-msgid "Free download"
-msgstr ""
-
-#: mainbanner.php:51 secondarybanner.php:28 secondarybanner.php:51
-msgid "Tarot queries"
-msgstr ""
-
-#: page-accueil.php:14 page-accueil.php:26 page-inicio.php:14
-#: page-inicio.php:26 page-iniziazione.php:14 page-iniziazione.php:26
-#: page-metamundo.php:12 page-metamundo.php:22 page-workshops.php:14
-#: page-workshops.php:26
-msgid "Welcome!"
-msgstr ""
-
-#: page-accueil.php:16 page-inicio.php:28 page-iniziazione.php:16
-#: page-iniziazione.php:28 page-workshops.php:16 page-workshops.php:28
-msgid "\"Here you can put a phrase from Cristobal that welcomes people\""
-msgstr ""
-
-#: page-accueil.php:28 page-inicio.php:16
-msgid ""
-"\"Thanks for visit us in www.psicomagia.es, the Cristobal Jodorowsky web. If "
-"you want register to some one of the Crsitobal Jodorowsky events, please, "
-"head hover to the section \"Events\" and select the event that wish in the "
-"date that prefer to asist. Act followed  make click en \"+info\" and proceed "
-"to fill in the contact form. ¡Welcome to aboard!. If you are organizator and "
-"interest you performing events/workshops with Cristobal in your country, "
-"please write to:\""
-msgstr ""
-
-#: page-accueil.php:37 page-inicio.php:37 page-iniziazione.php:37
-#: page-workshops.php:37
-msgid "Know more"
-msgstr ""
-
-#: page-accueil.php:50 page-inicio.php:50 page-iniziazione.php:50
-msgid "Agenda 2018"
-msgstr ""
-
-#: page-accueil.php:55 page-inicio.php:55 page-iniziazione.php:55
-msgid "Know my activities this year"
-msgstr ""
-
-#: page-biografia.php:24 page-biographie.php:28
-msgid "The history "
-msgstr ""
-
-#: page-biografia.php:25 page-biographie.php:29
-#, fuzzy
-#| msgid "%s <span class=\"says\">says:</span>"
-msgid "<span class=\"biocolor\" > of Cristobal</span>"
-msgstr "%s <span class=\"says\">dit&nbsp;:</span>"
-
-#: page-bookdownload.php:11
-msgid "A gift for you!"
-msgstr ""
-
-#: page-contacto.php:14
-#, fuzzy
-#| msgid "Contact Info"
-msgid "Contact me!"
-msgstr "Informations de contact"
-
-#: page-contacto.php:25
-msgid "let's be in touch!"
-msgstr ""
-
-#: page-contacto.php:28
-msgid ""
-"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, similique "
-"nostrum fugiat voluptatibus! Quasi voluptates, deserunt unde consequuntur, "
-"eligendi, laboriosam ullam facere quidem fugit at ipsa minus sed harum omnis."
-msgstr ""
-
-#: page-downloadcompleted.php:10
-msgid "You have downloaded - \"El collar del tigre\""
-msgstr ""
-
-#: page-downloadcompleted.php:14
-msgid "See you soon"
-msgstr ""
-
-#: page-libri.php:32 page-libros.php:32 page-livres.php:32
-msgid "Buy"
-msgstr ""
-
-#: page-metamundo.php:14 page-metamundo.php:24
-msgid "To our integrative school of expansion and development of being"
-msgstr ""
-
-#: page-metamundo.php:34 page-metamundo.php:45
-msgid "\"Here you can put a phrase from Cristobal\""
-msgstr ""
-
-#: page-metamundo.php:36 page-metamundo.php:47
-msgid "Cristobal Jodorowsky"
-msgstr ""
-
-#: page-metamundo.php:56
-msgid "Study plan"
-msgstr ""
-
-#: page-metamundo.php:60
-msgid "Block 1"
-msgstr ""
-
-#: page-metamundo.php:61
-msgid "Block 2"
-msgstr ""
-
-#: page-metamundo.php:62
-msgid "Block 3"
-msgstr ""
-
-#: page-metamundo.php:63
-msgid "Block 4"
-msgstr ""
-
-#: page-metamundo.php:64
-msgid "Block 5"
-msgstr ""
-
-#: page-metamundo.php:67
-#, fuzzy
-#| msgid "Destination"
-msgid "Certification"
-msgstr "Destination"
-
-#: page-metamundo.php:78
-msgid "Mexico - febrero 2018"
-msgstr ""
-
-#: page-metamundo.php:81
-msgid "Argentina - julio 2018"
-msgstr ""
-
-#: page-metamundo.php:88
-msgid "Block 1. "
-msgstr ""
-
-#: page-metamundo.php:88
-msgid " Evolutionary tarot"
-msgstr ""
-
-#: page-metamundo.php:91
-msgid ""
-"For Carl Gustav Jung, archetypes are innate energies common to all human "
-"beings, which are transmitted through myths or appear in dreams, tales, "
-"legends, rituals and works of art. In the Tarot, archetypes can act as "
-"patterns of behavior when the individual needs to resolve an existential "
-"difficulty. The 78 arcana of the Tarot are archetypes with infinite "
-"interpretations, where each one has a multitude of aspects. However, the "
-"drawing of the letter will be only a mask. It becomes the key that, if you "
-"know how to interpret and integrate it, will activate the allied dimension "
-"of the archetype. To do this, Cristobal Jodorowsky uses the Tarot arcane as "
-"a gateway to contact universal energies per se. These doors, when activated, "
-"allow a profound change in the psyche, so that our soul may express itself "
-"in all freedom."
-msgstr ""
-
-#: page-metamundo.php:96
-msgid "Block 2. "
-msgstr ""
-
-#: page-metamundo.php:96
-msgid " Metagenealogy"
-msgstr ""
-
-#: page-metamundo.php:99
-msgid ""
-"\"Metagenealogy is a method of analysis of the genealogical tree that allows "
-"to expand the vision of its psychic dimension. This makes us understand to "
-"what extent what we think, feel, desire or live, just as our conflicts and "
-"diseases can be the result of a family, social, historical past or "
-"educational waste.\""
-msgstr ""
-
-#: page-metamundo.php:104
-msgid "Block 3. "
-msgstr ""
-
-#: page-metamundo.php:104
-msgid " Psychomagic Therapy"
-msgstr ""
-
-#: page-metamundo.php:107
-msgid ""
-"Psychomagia is a healing practice that acts through metaphor and beauty, "
-"essentially with the language of dreams. Psychomagia consists of symbolic "
-"acts that allow the realization of the unrealizable, restoring the memory to "
-"finally trigger the energy that was blocked in the consultant. By failing to "
-"consider the unconscious dimension as an enemy and losing the fear of seeing "
-"oneself, one can discover the traumas that cause suffering. However, "
-"although one knows what happens to him and why, he is not at all free from "
-"pain."
-msgstr ""
-
-#: page-metamundo.php:111
-msgid "Block 4. "
-msgstr ""
-
-#: page-metamundo.php:111
-msgid " Psychoanalysis and Parental Healing / Initiative Massage"
-msgstr ""
-
-#: page-metamundo.php:114
-msgid ""
-"At an archaic level, the human being responds to an innate instinct of "
-"family conservation. He is scheduled to fight for the survival of his clan. "
-"For the archaic brain an idea, an emotional structure, a prohibition, an "
-"order or a belief may be the metaphor of an ancestor. That is why it is so "
-"difficult for us to shed all those aspects that prevent us from growing, "
-"since this could represent the murder of a member (or of all) our species. "
-"This is how we keep alive ideas, memories, phantasms, morals, behavioral "
-"structures, and ideologies that come from the genealogical lineage."
-msgstr ""
-
-#: page-metamundo.php:118
-msgid "Block 5. "
-msgstr ""
-
-#: page-metamundo.php:118
-msgid " The Art of Relationships of Couple, Friendship and Collaboration"
-msgstr ""
-
-#: page-metamundo.php:121
-msgid ""
-"This block is intended to address in depth the science of courtship. During "
-"his study, Cristobal Jodorowsky will provide the participants with the keys "
-"to live harmonious and healthy personal relationships.<br>\n"
-"          The study of this block involves the analysis of temperaments "
-"(emotions), personality (intellect) and masculinity / femininity (instinct / "
-"reptile). It is essential to achieve in ourselves an adaptation to the "
-"structure of the nature of relationships, based on the fact that all "
-"existence is put into operation for couples to exist, and according to our "
-"vision live in harmony."
-msgstr ""
-
-#: page-saber-mas.php:9 page-savoir-plus.php:9
-#: page-ulteriori-informazioni.php:9
-msgid "Chose a theme"
-msgstr ""
-
-#: page-saber-mas.php:14 page-savoir-plus.php:14
-#: page-ulteriori-informazioni.php:14
-msgid "Psicoteatro"
-msgstr ""
-
-#: page-saber-mas.php:15 page-savoir-plus.php:15
-#: page-ulteriori-informazioni.php:15
-msgid "BIO"
-msgstr ""
-
-#: page-saber-mas.php:16 page-savoir-plus.php:16
-#: page-ulteriori-informazioni.php:16
-msgid "Psicochamanismo"
-msgstr ""
-
-#: page-saber-mas.php:17 page-savoir-plus.php:17
-#: page-ulteriori-informazioni.php:17
-msgid "Workshops"
-msgstr ""
-
-#: page-saber-mas.php:18 page-savoir-plus.php:18
-#: page-ulteriori-informazioni.php:18
-msgid "Metagenealogía"
-msgstr ""
-
-#: page-saber-mas.php:19 page-savoir-plus.php:19
-#: page-ulteriori-informazioni.php:19
-msgid "Therapies"
-msgstr ""
-
-#: page-saber-mas.php:20 page-savoir-plus.php:20
-#: page-ulteriori-informazioni.php:20
-#, fuzzy
-#| msgid "Destination"
-msgid "Investigation"
-msgstr "Destination"
-
-#: page-saber-mas.php:21 page-savoir-plus.php:21
-#: page-ulteriori-informazioni.php:21
-msgid "Psicomagic"
-msgstr ""
-
-#: page-saber-mas.php:22 page-savoir-plus.php:22
-#: page-ulteriori-informazioni.php:22
-msgid "Tarot"
-msgstr ""
-
-#: page-saber-mas.php:23 page-savoir-plus.php:23
-#: page-ulteriori-informazioni.php:23
-#, fuzzy
-#| msgctxt "post format archive title"
-#| msgid "Videos"
-msgid "Videos"
-msgstr "Vidéos"
-
-#: page-saber-mas.php:24 page-savoir-plus.php:24
-#: page-ulteriori-informazioni.php:24
-msgid "Studies"
-msgstr ""
-
-#: page-saber-mas.php:25 page-savoir-plus.php:25
-#: page-ulteriori-informazioni.php:25
-msgid "Teachers"
-msgstr ""
-
-#: page-saber-mas.php:26 page-savoir-plus.php:26
-#: page-ulteriori-informazioni.php:26
-msgid "Travels"
-msgstr ""
-
-#: page-saber-mas.php:27 page-savoir-plus.php:27
-#: page-ulteriori-informazioni.php:27
-#, fuzzy
-#| msgid "WordPress"
-msgid "Press"
-msgstr "WordPress"
-
-#: page-saber-mas.php:28 page-savoir-plus.php:28
-#: page-ulteriori-informazioni.php:28
-msgid "N-gram"
-msgstr ""
-
-#: page-saber-mas.php:29 page-savoir-plus.php:29
-#: page-ulteriori-informazioni.php:29
-msgid "Art"
-msgstr ""
-
-#: page-saber-mas.php:32 page-savoir-plus.php:32
-#: page-ulteriori-informazioni.php:32
-msgid ""
-"\"The integration of aspects and keys are fundamental for personal "
-"development\""
-msgstr ""
-
-#: page-saber-mas.php:33 page-savoir-plus.php:33
-#: page-ulteriori-informazioni.php:33
-msgid "- Cristobal Jodorowsky"
-msgstr ""
-
-#: page-saber-mas.php:41 page-saber-mas.php:52 page-saber-mas.php:72
-#: page-savoir-plus.php:41 page-savoir-plus.php:52 page-savoir-plus.php:72
-#: page-ulteriori-informazioni.php:41 page-ulteriori-informazioni.php:52
-#: page-ulteriori-informazioni.php:72
-msgid "My life on "
-msgstr ""
-
-#: page-saber-mas.php:42 page-savoir-plus.php:42
-#: page-ulteriori-informazioni.php:42
-msgid "<span class=\"morecolor\" > the Psicoteatro</span>"
-msgstr ""
-
-#: page-saber-mas.php:45 page-savoir-plus.php:45
-#: page-ulteriori-informazioni.php:45
-msgid ""
-"<p>The PsicoTeatro is an open and free space, but also very respectful and "
-"safe. A place and a time where you learn things that are very important for "
-"yourself and for others, as well as the ideal place to play and express "
-"yourself without any specific objective. It is an experience: a living "
-"centered on the here and now. But it is also pure perception and feeling. "
-"Occasion to lie down and just focus on how you feel and chance to create "
-"without brakes, build an I that you like more or draw new realities. A "
-"session where it is forbidden to judge and where no one is wrong. It comes "
-"to try, to experiment, to discover, to enjoy and with it, working with "
-"oneself, to grow !!<br> It is an opportunity to forget the problems, because "
-"they are also solved when you invest and work in your well-being, in the "
-"development of the skills, in learning of yourself, in the relationship with "
-"your emotions, in integrating all the parts of your person, in short, when "
-"you allow yourself WALK TO YOUR HAPPINESS.</p>"
-msgstr ""
-
-#: page-saber-mas.php:53 page-savoir-plus.php:53
-#: page-ulteriori-informazioni.php:53
-msgid "<span class=\"morecolor\" > the Psicochamanismo</span>"
-msgstr ""
-
-#: page-saber-mas.php:56 page-savoir-plus.php:56
-#: page-ulteriori-informazioni.php:56
-msgid ""
-"<p>At an archaic level, the human being responds to an innate instinct of "
-"family conservation. He is scheduled to fight for the survival of his clan. "
-"For the archaic brain an idea, an emotional structure, a prohibition, an "
-"order or a belief, may be the metaphor of an ancestor. That is why it is so "
-"difficult for us to shed all those aspects that prevent us from growing, "
-"since this could represent the murder of a member (or of all) our species. "
-"This is how we keep alive ideas, memories, phantasms, morals, behavioral "
-"structures, and ideologies that come from the genealogical lineage.</p>"
-msgstr ""
-
-#: page-saber-mas.php:73 page-savoir-plus.php:73
-#: page-ulteriori-informazioni.php:73
-msgid "<span class=\"morecolor\" > the Psicomagia</span>"
-msgstr ""
-
-#: page-saber-mas.php:76 page-savoir-plus.php:76
-#: page-ulteriori-informazioni.php:76
-msgid ""
-"<p>Psychomagia is a form of ultra advanced therapy. It is a response to "
-"psychoanalysis. Psychomagia proposes to cure something by acts that speak "
-"directly to the unconscious. I use all the shamanic tradition of witchcraft "
-"and Mexican healers, but without superstition. A psychomagic act is like "
-"giving a loving kick in the ass to reality. This impulse you give her, "
-"surprisingly, makes her leave the inertia and begin to dance.</p>"
-msgstr ""
-
-#: page-saber-mas.php:109 page-savoir-plus.php:125
-#: page-ulteriori-informazioni.php:125
-#, fuzzy
-#| msgid "Next <span class=\"meta-nav\">&rarr;</span>"
-msgid "<span class=\"morecolor\" >Metagenealogia</span>"
-msgstr "Suivant <span class=\"meta-nav\">&rarr;</span>"
-
-#: page-saber-mas.php:112
-msgid ""
-"<p>The forces of repetition and creation in their endless dynamic impel us "
-"both to repeat the same and to yield to what we are authentically. "
-"Individuals, at the same time, can have a positive and a negative vision "
-"from their great-grandparents, grandparents and parents, thus converting "
-"each relative into a double entity: one luminous and the other obscure. Two "
-"energy fields that, despite opposing, are complementary. In the present "
-"time, the spirit that materializes adjoins the matter that is spiritualized, "
-"the supraconscious with the unconscious, the attempt to realize the future "
-"with the intent to repeat the past, the essential being with the socio-"
-"cultural being, the desire to create with the desire to imitate. To the "
-"study of the genealogical tree under its simultaneous and complementary "
-"aspects, treasure and trap, I have called it 'Metagenealogy'.\n"
-"      <br> Alejandro Jodorowsky (creator of Metagenalogy) <br>\n"
-"\n"
-"      Metagenealogy is a method of analyzing the genealogical tree that "
-"allows to expand the vision of its psychic dimension. This makes us "
-"understand to what extent what we think, feel, desire or live, as well as "
-"our conflicts and illnesses can be the result of a family, social, "
-"historical or patriarchal educational waste. <br> <br>\n"
-"      The metagenealogy reveals a system of repetitions of dates, illnesses, "
-"births, deaths, accidents and names. All these are maps that are traversed "
-"and transmitted from generation to generation until they reach us with the "
-"precision of a clock. We tend to identify ourselves and be faithful to our "
-"relatives, to the point that it can be painful, paralyzing and self "
-"destructive. <br>\n"
-"      At the same time, these characters - to whom we maintain loyalty - "
-"imitated other figures of the past, forming a hereditary chain of prisons. "
-"Revealing the dynamics of the clan allows us to understand what inhibits "
-"within us the possibility of living, creating, being and loving from the "
-"essential being. <br> <br>\n"
-"      On the other hand, it is essential to accept that everything is "
-"perfect and that the genealogy is a perfect spiritual process in action, "
-"that is never wrong, that has its laws and orders and that everything always "
-"has its raison d'etre, although we do not always like it or we agree One "
-"does not work to repair something that 'should not' have been, but rather to "
-"accept it as it was and integrate it from the soul.\n"
-"      <br> Very often, after a genealogical analysis, Cristobal prepares a "
-"family psychic or psychomagnetic constellation, where he invites a group to "
-"dramatize the situations seen and re-align them with the current of life.\n"
-"      </p>"
-msgstr ""
-
-#: page-saber-mas.php:126 page-savoir-plus.php:134
-#: page-ulteriori-informazioni.php:134
-#, fuzzy
-#| msgid "%s <span class=\"says\">says:</span>"
-msgid "<span class=\"morecolor\" >Therapies</span>"
-msgstr "%s <span class=\"says\">dit&nbsp;:</span>"
-
-#: page-saber-mas.php:129 page-savoir-plus.php:137
-#: page-ulteriori-informazioni.php:137
-msgid ""
-"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis "
-"doloribus nulla tempora, quas dolores mollitia iste at, ullam molestias enim!"
-"</p>"
-msgstr ""
-
-#: page-saber-mas.php:135 page-savoir-plus.php:143
-#: page-ulteriori-informazioni.php:143
-#, fuzzy
-#| msgid "%s <span class=\"says\">says:</span>"
-msgid "<span class=\"morecolor\" >Investigation</span>"
-msgstr "%s <span class=\"says\">dit&nbsp;:</span>"
-
-#: page-saber-mas.php:138 page-savoir-plus.php:146
-#: page-ulteriori-informazioni.php:146
-msgid ""
-"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex laborum "
-"sequi provident, aliquid eaque atque est dolore mollitia unde, omnis.</p>"
-msgstr ""
-
-#: page-saber-mas.php:144 page-savoir-plus.php:152
-#: page-ulteriori-informazioni.php:152
-#, fuzzy
-#| msgid "%s <span class=\"says\">says:</span>"
-msgid "<span class=\"morecolor\" >Psicomagic</span>"
-msgstr "%s <span class=\"says\">dit&nbsp;:</span>"
-
-#: page-saber-mas.php:147
-msgid ""
-"<p>Psychomagia is the therapeutic technique, initiated by Alejandro "
-"Jodorowsky, who combines shamanism, folk magic, psychology, intuition, "
-"mysticism, oriental philosophy, art, with a healing purpose. Psychomagia is "
-"a healing practice that acts through the symbol, metaphor and beauty, "
-"essentially with the language of dreams. By not considering the unconscious "
-"dimension as an enemy and losing the fear of seeing oneself, one can "
-"discover the traumas that cause suffering. However, even if one knows what "
-"happens to him and why, he is not entirely free of pain. Psychomagia does "
-"not pretend - like psychoanalysis - to heal through the word by converting "
-"the messages that the unconscious dimension sends into a rational discourse, "
-"but to teach the rational to handle unconscious language.\n"
-"      The processes of our brain are more symbolic and analogical than "
-"logical. For him, a photograph not only represents the person portrayed, but "
-"is herself. Consider a part as the whole, project people who populate their "
-"memory about real beings or things. In the psychomagy the client is proposed "
-"concrete actions, to perform a symbolic act that, in some way, will restore "
-"his memory and allow him to perform the unrealizable.\n"
-"\n"
-"      <br> However, in order for the act to give an optimal result, the "
-"consultant must first free himself from the morality imposed by his family, "
-"society and culture. If you do so, for example, without fear, you can paste "
-"a photograph of your father on two watermelons and you can blow them up. Its "
-"unconscious dimension will take for granted murder and castration. The "
-"consultant will feel more free. That which frightens us loses strength the "
-"moment we stop fighting it or moving it away from the mind to integrate it "
-"through a psychomagic act that helps us to awaken and make life a lucid "
-"dream full of consciousness. It is not enough to understand the reason for a "
-"conflict; we must act on it, give it an outlet to the impulse, to the "
-"repetitive behavior that makes our existence difficult. This is how "
-"psychomagia was created, psychochamanism and, later, the psychroritic.</p>"
-msgstr ""
-
-#: page-saber-mas.php:156 page-savoir-plus.php:161
-#: page-ulteriori-informazioni.php:161
-#, fuzzy
-#| msgid "Next <span class=\"meta-nav\">&rarr;</span>"
-msgid "<span class=\"morecolor\" >Tarot</span>"
-msgstr "Suivant <span class=\"meta-nav\">&rarr;</span>"
-
-#: page-saber-mas.php:159
-msgid ""
-"<p>For Carl Gustav Jung, the archetypes are innate energies common to all "
-"human beings, which are transmitted through myths or appear in dreams, "
-"stories, legends, rituals and works of art.\n"
-"        <br> They would be the organs of our psychological organism that, "
-"collaborating, allow our transformative alchemical process to take place. In "
-"the Tarot, the archetypes can act as patterns of behavior when the "
-"individual needs to solve an existential difficulty. The 78 arcana of the "
-"Tarot are archetypes with infinite interpretations, where each one has a "
-"multitude of aspects. However, the drawing of the letter will be only a "
-"mask. It becomes the key that, if you know how to interpret and integrate "
-"it, will activate the allied dimension of the archetype.\n"
-"        For this, Cristóbal Jodorowsky uses the arcana of the Tarot as doors "
-"to contact with universal energies in himself. These doors, when activated, "
-"allow a profound change in the psyche, so that our soul expresses itself in "
-"all freedom.\n"
-"        <br>In the ancient cultures there were 'cuts' of gods that in the "
-"background could be dimensions of our own mind. Cristóbal's work with the "
-"Tarot is to awaken the courts of gods or inner archetypes of each being, "
-"using the arcana as a therapeutic tool that allows us to get in touch with "
-"our inner world and observe our acquired patterns of behavior, in order to "
-"create an internal structure of reference.\n"
-"        <br> The Tarot allows us to interpret the human psyche and the "
-"different dimensions of our consciousness. Thanks to its symbolic nature, we "
-"can see reflected our deeper reality in the arcane, a situation that will "
-"help us focus reality from another angle, and integrate life difficulties, "
-"sorrows and pain more easily.\n"
-"        <br> The Tarot can also be a spectacular representation of our inner "
-"family, a mirror of our intimate world that reflects our knots and "
-"genealogical burdens, conflicts or complex relationships with parents, "
-"grandparents, brothers and other relatives of the present or the past. It "
-"also reflects our neurotic repetitions, the cycles in which we are trapped, "
-"the mechanisms by which we become ill ... All this, in one direction: the "
-"encounter with the deepest of our Essential Being.\n"
-"        <br> Although the Tarot is an instrument that communicates us with "
-"the unconscious dimension. Cristobal thinks that when one chooses a letter "
-"it is the supra-conscious dimension (that knows everything) that chooses it "
-"in us to help us unveil what the ego is not always willing to see for fear "
-"of changing the frame of reference and mutate.\n"
-"        </p>"
-msgstr ""
-
-#: page-saber-mas.php:172 page-savoir-plus.php:197
-#: page-ulteriori-informazioni.php:197
-#, fuzzy
-#| msgid "%s <span class=\"says\">says:</span>"
-msgid "<span class=\"morecolor\" >Press</span>"
-msgstr "%s <span class=\"says\">dit&nbsp;:</span>"
-
-#: page-saber-mas.php:175 page-savoir-plus.php:200
-#: page-ulteriori-informazioni.php:200
-msgid ""
-"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta "
-"voluptates id officiis consequatur iste magnam quibusdam eos repellat qui "
-"facilis?</p>"
-msgstr ""
-
-#: page-saber-mas.php:181 page-savoir-plus.php:206
-#: page-ulteriori-informazioni.php:206
-#, fuzzy
-#| msgid "%s <span class=\"says\">says:</span>"
-msgid "<span class=\"morecolor\" >Travels</span>"
-msgstr "%s <span class=\"says\">dit&nbsp;:</span>"
-
-#: page-saber-mas.php:184
-msgid ""
-"<p>For several years Cristóbal Jodorowsky has been organizing trips around "
-"the world, finding traditional sources of shamanism and spirituality.\n"
-"        <br>The participation in the rituals and trance sessions of the "
-"mediums in the initiatory trips is for Cristóbal Jodorowsky a possibility of "
-"research on shamanism. This means that the phenomenology is analyzed in the "
-"cults visited in order to reinterpret it in light of the knowledge of "
-"psychotherapy and the paradigms of today. These initiatory groups focus on "
-"moving from the popular forms of spiritual and magical beliefs to psycho-"
-"shamanism, where toxic and religious folkloric aspects are left aside to "
-"preserve the essence of psychic functioning. Thus, consciously and "
-"autonomously they are applied autonomously to the management of psychic "
-"potentials. In these rites, the forms of participation in worship are "
-"respected with their language and liturgies, but this does not mean that the "
-"group feels identified with their cosmology and spiritual vision.\n"
-"        <br>Over the past few years, these groups have toured the shamanic "
-"work centers of the favelas of the big cities, El Salto del Angel in "
-"Venezuela, the sacred mountain of Sorte, (center of the cult of María "
-"Lionza), the jungles of Orinoco, the Peruvian Andean mountain range, and a "
-"long etcetera. These initiatory travelers visited the Market of the Witches "
-"of Mexico City, Yucatan, the Lacandon jungles and the Mayan sites; They "
-"participated in sacred ceremonies on Mount Tepozteco and experienced "
-"indigenous temazcales.\n"
-"        In these works, travelers can work day after day with shamans and "
-"healers of different spiritual traditions, integrating a holistic vision of "
-"the traditional cosmovisions of the American continent.\n"
-"        It also proposes a Tarot itinerant seminar that includes a tour "
-"through natural scenarios specifically chosen to work in depth, guided by "
-"the hand of Cristobal Jodorowsky, in practices and introspective exercises "
-"that allow us to have an experiential access to the integration of each "
-"arcana of the Tarot of Marseille, in search of a broader experience of study "
-"about its archetypal implications in our psyche. Within the framework of the "
-"uniquely sumptuous Mayan landscapes of southeastern Mexico, a deep work of "
-"self-knowledge and inner therapeutic work is carried out, which offers us "
-"greater tools to be reborn in fullness to wider dimensions of our being. In "
-"addition, traveling expeditions are a good opportunity for work and "
-"consultations in psychomagy and Tarot, generating a personal journey from "
-"meditation and self-analysis to psycho-christian ritual.\n"
-"        </p>"
-msgstr ""
-
-#: page-saber-mas.php:195 page-savoir-plus.php:215
-#: page-ulteriori-informazioni.php:215
-#, fuzzy
-#| msgid "Next <span class=\"meta-nav\">&rarr;</span>"
-msgid "<span class=\"morecolor\" >Art</span>"
-msgstr "Suivant <span class=\"meta-nav\">&rarr;</span>"
-
-#: page-saber-mas.php:198 page-savoir-plus.php:209 page-savoir-plus.php:218
-#: page-savoir-plus.php:227 page-ulteriori-informazioni.php:209
-#: page-ulteriori-informazioni.php:218 page-ulteriori-informazioni.php:227
-msgid ""
-"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam "
-"excepturi quia sequi dicta magnam obcaecati quibusdam nobis nihil inventore "
-"reiciendis.</p>"
-msgstr ""
-
-#: page-savoir-plus.php:109 page-ulteriori-informazioni.php:109
-#, fuzzy
-#| msgid "%s <span class=\"says\">says:</span>"
-msgid "<span class=\"morecolor\" >Workshops</span>"
-msgstr "%s <span class=\"says\">dit&nbsp;:</span>"
-
-#: page-savoir-plus.php:112 page-ulteriori-informazioni.php:112
-msgid ""
-"<p>A Living Experience guided by Cristobal Jodorowsky, where he participates "
-"will learn more about his personal neurosis, family unconscious contracts, "
-"ego projections and geneological knots, as well as the consequences that all "
-"these factors cause in his current affective life.</p>"
-msgstr ""
-
-#: page-savoir-plus.php:128 page-ulteriori-informazioni.php:128
-msgid ""
-"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo optio "
-"repudiandae, a consequatur. Placeat labore dolorum perferendis cupiditate "
-"quam illo.</p>"
-msgstr ""
-
-#: page-savoir-plus.php:155 page-ulteriori-informazioni.php:155
-msgid ""
-"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis "
-"reprehenderit nostrum suscipit dolorem quam sequi quibusdam dicta "
-"accusantium, facilis repellat?</p>"
-msgstr ""
-
-#: page-savoir-plus.php:164 page-ulteriori-informazioni.php:164
-msgid ""
-"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore expedita "
-"accusantium obcaecati impedit ad, eveniet officiis debitis in illum enim.</p>"
-msgstr ""
-
-#: page-savoir-plus.php:170 page-ulteriori-informazioni.php:170
-#, fuzzy
-#| msgid "%s <span class=\"says\">says:</span>"
-msgid "<span class=\"morecolor\" >Videos</span>"
-msgstr "%s <span class=\"says\">dit&nbsp;:</span>"
-
-#: page-savoir-plus.php:173 page-ulteriori-informazioni.php:173
-msgid ""
-"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure quaerat "
-"minus delectus voluptatum praesentium dolorem facilis sit ea mollitia "
-"possimus!</p>"
-msgstr ""
-
-#: page-savoir-plus.php:179 page-ulteriori-informazioni.php:179
-#, fuzzy
-#| msgid "%s <span class=\"says\">says:</span>"
-msgid "<span class=\"morecolor\" >Studies</span>"
-msgstr "%s <span class=\"says\">dit&nbsp;:</span>"
-
-#: page-savoir-plus.php:182 page-ulteriori-informazioni.php:182
-msgid ""
-"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis "
-"architecto consectetur non provident ratione eos consequuntur a voluptas "
-"tenetur autem.</p>"
-msgstr ""
-
-#: page-savoir-plus.php:188 page-ulteriori-informazioni.php:188
-#, fuzzy
-#| msgid "%s <span class=\"says\">says:</span>"
-msgid "<span class=\"morecolor\" >Teachers</span>"
-msgstr "%s <span class=\"says\">dit&nbsp;:</span>"
-
-#: page-savoir-plus.php:191 page-ulteriori-informazioni.php:191
-msgid ""
-"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, "
-"totam, fugit. Laudantium aliquam odit voluptas fugiat, est consequatur animi "
-"adipisci?</p>"
-msgstr ""
-
-#: page-savoir-plus.php:224 page-ulteriori-informazioni.php:224
-#, fuzzy
-#| msgid "Next <span class=\"meta-nav\">&rarr;</span>"
-msgid "<span class=\"morecolor\" >N-gram</span>"
-msgstr "Suivant <span class=\"meta-nav\">&rarr;</span>"
-
-#: page-tarot.php:14 page-tarot.php:26
-msgid "Tarot!"
-msgstr ""
-
-#: page-tarot.php:16 page-tarot.php:28
-msgid "\"Cristobal will answer some queries\""
-msgstr ""
-
-#: page-workshops.php:50
-#, fuzzy
-#| msgctxt "post format archive title"
-#| msgid "Galleries"
-msgid "Talleres 2018"
-msgstr "Galeries"
-
-#: page-workshops.php:55
-msgid "Know my workshops for this year"
-msgstr ""
-
-#: search.php:18
+#: search.php:19
 #, php-format
 msgid "Search Results for: %s"
 msgstr "Résultats de recherche pour : %s"
 
-#: template-parts/content-booksblog.php:33 template-parts/content.php:31
-#, fuzzy, php-format
-#| msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
-msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
-msgstr "Continuer la lecture de %s <span class=\"meta-nav\">&rarr;</span>"
-
-#: template-parts/content-booksblog.php:44 template-parts/content-page.php:19
-#: template-parts/content.php:42
-msgid "Pages:"
-msgstr "Pages :"
-
-#: template-parts/content-none.php:11
+#: template-parts/content-none.php:14
 msgid "Nothing Found"
 msgstr "Rien n’a été trouvé"
 
-#: template-parts/content-none.php:22
+#: template-parts/content-none.php:21
 #, php-format
 msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
 "Prêt à publier votre premier article ? <a href=\"%1$s\">Commencez ici</a>."
 
-#: template-parts/content-none.php:35
+#: template-parts/content-none.php:25
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
 "different keywords."
@@ -1044,7 +163,7 @@ msgstr ""
 "Désolé, mais rien ne correspond à votre critères de recherche. Veuillez "
 "réessayer avec d&rsquo;autres mots-clefs."
 
-#: template-parts/content-none.php:41
+#: template-parts/content-none.php:31
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
@@ -1052,61 +171,44 @@ msgstr ""
 "Il semble que vous ne trouvez ce que vous cherchez. Peut-être qu'une "
 "recherche pourra vous aider."
 
-#~ msgid "Comment navigation"
-#~ msgstr "Navigation des commentaires"
+#: template-parts/content-page.php:22 template-parts/content.php:38
+msgid "Pages:"
+msgstr "Pages :"
 
-#~ msgid "Older Comments"
-#~ msgstr "Commentaires plus anciens"
+#. translators: %s: Name of current post.
+#: template-parts/content.php:33
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continuer la lecture de %s <span class=\"meta-nav\">&rarr;</span>"
 
-#~ msgid "Newer Comments"
-#~ msgstr "Commentaires plus récents"
+#. Theme Name of the plugin/theme
+msgid "_s"
+msgstr "_s"
 
-#~ msgid "https://wordpress.org/"
-#~ msgstr "https://wordpress.org/"
+#. Theme URI of the plugin/theme
+msgid "http://underscores.me/"
+msgstr "http://underscores.me/"
 
-#~ msgid "Proudly powered by %s"
-#~ msgstr "Fièrement propulsé par %s"
+#. Description of the plugin/theme
+msgid ""
+"Hi. I'm a starter theme called <code>_s</code>, or <em>underscores</em>, if "
+"you like. I'm a theme meant for hacking so don't use me as a <em>Parent "
+"Theme</em>. Instead try turning me into the next, most awesome, WordPress "
+"theme out there. That's what I'm here for."
+msgstr ""
+"Salut. Je suis un starter thème appelé <code>_s</code>, ou <em>underscores</"
+"em>, si vous préféré. Je suis un thème de base créé non pas afin d'être "
+"utilisé tel quel mais comme un<em>Thème Parent</em>. À vous de faire de moi "
+"le prochain thème le plus impressionnant pour WordPress. Je suis fait pour "
+"ça."
 
-#~ msgctxt "post date"
-#~ msgid "Posted on %s"
-#~ msgstr "Publié le : %s"
+#. Author of the plugin/theme
+msgid "Automattic"
+msgstr "Automattic"
 
-#~ msgctxt "post author"
-#~ msgid "by %s"
-#~ msgstr "par %s"
-
-#~ msgid "Leave a comment"
-#~ msgstr "Laisser un commentaire"
-
-#~ msgid "1 Comment"
-#~ msgstr "1 commentaire"
-
-#~ msgid "% Comments"
-#~ msgstr "% commentaires"
-
-#~ msgid "_s"
-#~ msgstr "_s"
-
-#~ msgid "http://underscores.me/"
-#~ msgstr "http://underscores.me/"
-
-#~ msgid ""
-#~ "Hi. I'm a starter theme called <code>_s</code>, or <em>underscores</em>, "
-#~ "if you like. I'm a theme meant for hacking so don't use me as a "
-#~ "<em>Parent Theme</em>. Instead try turning me into the next, most "
-#~ "awesome, WordPress theme out there. That's what I'm here for."
-#~ msgstr ""
-#~ "Salut. Je suis un starter thème appelé <code>_s</code>, ou "
-#~ "<em>underscores</em>, si vous préféré. Je suis un thème de base créé non "
-#~ "pas afin d'être utilisé tel quel mais comme un<em>Thème Parent</em>. À "
-#~ "vous de faire de moi le prochain thème le plus impressionnant pour "
-#~ "WordPress. Je suis fait pour ça."
-
-#~ msgid "Automattic"
-#~ msgstr "Automattic"
-
-#~ msgid "http://automattic.com/"
-#~ msgstr "http://automattic.com/"
+#. Author URI of the plugin/theme
+msgid "http://automattic.com/"
+msgstr "http://automattic.com/"
 
 #~ msgid "Edit"
 #~ msgstr "Modifier"
@@ -1161,8 +263,16 @@ msgstr ""
 #~ msgstr "En passants"
 
 #~ msgctxt "post format archive title"
+#~ msgid "Galleries"
+#~ msgstr "Galeries"
+
+#~ msgctxt "post format archive title"
 #~ msgid "Images"
 #~ msgstr "Images"
+
+#~ msgctxt "post format archive title"
+#~ msgid "Videos"
+#~ msgstr "Vidéos"
 
 #~ msgctxt "post format archive title"
 #~ msgid "Quotes"
@@ -1251,6 +361,9 @@ msgstr ""
 #~ msgid "<span class=\"meta-nav\">&larr;</span> Previous"
 #~ msgstr "<span class=\"meta-nav\">&larr;</span> Précédent"
 
+#~ msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+#~ msgstr "Suivant <span class=\"meta-nav\">&rarr;</span>"
+
 #~ msgid ""
 #~ "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post "
 #~ "a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s"
@@ -1282,6 +395,10 @@ msgstr ""
 #~ msgid "Both comments and trackbacks are currently closed."
 #~ msgstr "Les commentaires et les rétroliens sont actuellement fermés."
 
+#~ msgctxt "assistive text"
+#~ msgid "Search"
+#~ msgstr "Chercher"
+
 #~ msgid "Meta"
 #~ msgstr "Méta"
 
@@ -1301,6 +418,9 @@ msgstr ""
 
 #~ msgid "Pingback:"
 #~ msgstr "Ping&nbsp;:"
+
+#~ msgid "%s <span class=\"says\">says:</span>"
+#~ msgstr "%s <span class=\"says\">dit&nbsp;:</span>"
 
 #~ msgid "Your comment is awaiting moderation."
 #~ msgstr "Votre commentaire est en attente de modération."
@@ -1744,6 +864,9 @@ msgstr ""
 #~ "ont été publiées. Si le sujet de destination a été créé après celui-ci, "
 #~ "c'est la date la plus récente qui sera utilisée."
 
+#~ msgid "Destination"
+#~ msgstr "Destination"
+
 #~ msgid "Merge with this topic:"
 #~ msgstr "Fusionner avec ce sujet :"
 
@@ -1809,6 +932,9 @@ msgstr ""
 
 #~ msgid "Use an existing topic in this forum:"
 #~ msgstr "Utilisez un sujet existant dans ce forum :"
+
+#~ msgid "No other topics found!"
+#~ msgstr "Aucun autre sujet trouvé&nbsp;!"
 
 #~ msgid "Copy subscribers to the new topic"
 #~ msgstr "Copier les abonnés dans le nouveau sujet"
@@ -1914,6 +1040,9 @@ msgstr ""
 
 #~ msgid "Display name publicly as"
 #~ msgstr "Nom à afficher publiquement"
+
+#~ msgid "Contact Info"
+#~ msgstr "Informations de contact"
 
 #~ msgid "Website"
 #~ msgstr "Site Web"
@@ -2121,6 +1250,9 @@ msgstr ""
 
 #~ msgid "Forums Directory"
 #~ msgstr "Répertoire des forums"
+
+#~ msgid "New Topic"
+#~ msgstr "Nouveau sujet"
 
 #~ msgid "All Topics <span>%s</span>"
 #~ msgstr "Tous les sujets<span>%s</span>"
@@ -2496,6 +1628,9 @@ msgstr ""
 #~ msgid "Reviews"
 #~ msgstr "Avis"
 
+#~ msgid "Add Review"
+#~ msgstr "Ajouter Avis"
+
 #~ msgid "Add a review"
 #~ msgstr "Ajouter un avis"
 
@@ -2696,11 +1831,17 @@ msgstr ""
 #~ "Un widget avancé qui vous donne un contrôle total sur l'affichage de vos "
 #~ "signets (liens)."
 
+#~ msgid "Bookmarks"
+#~ msgstr "Favoris"
+
 #~ msgid "Count"
 #~ msgstr "Recompter"
 
 #~ msgid "Slug"
 #~ msgstr "Identifiant"
+
+#~ msgid "Description"
+#~ msgstr "Description"
 
 #~ msgid "Length"
 #~ msgstr "Longueur"
@@ -2989,6 +2130,9 @@ msgstr ""
 #~ msgid "%1$s Page %2$s"
 #~ msgstr "%1$s Page %2$s"
 
+#~ msgid "Copyright (c) %1$s"
+#~ msgstr "Copyright (c) %1$s"
+
 #~ msgid "l, F jS, Y, g:i a"
 #~ msgstr "l j F Y g:i a"
 
@@ -3032,6 +2176,9 @@ msgstr ""
 #~ msgstr ""
 #~ "Propulsé par WordPress, plate-forme de publication personnelle sémantique "
 #~ "de pointe."
+
+#~ msgid "WordPress"
+#~ msgstr "WordPress"
 
 #~ msgid "Log out"
 #~ msgstr "Déconnexion"

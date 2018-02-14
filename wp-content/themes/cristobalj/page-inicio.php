@@ -25,7 +25,9 @@ get_header(); ?>
           <h2 class="bannertitle">
             <?php printf(__('Welcome!','cristobalj')) ?>
           </h2>
-          <p class="quote"><?php printf(__('"Here you can put a phrase from Cristobal that welcomes people"','cristobalj')) ?></p>
+          <p class="quote"><?php printf(__('"Gracias por visitarnos en www.psicomagia.es , la web de Cristóbal Jodorowsky.
+          Si quieres registrarte a alguno de los eventos de Cristóbal Jodorowsky, por favor, dirígete a la sección “Eventos” y selecciona el evento que deseas en la fecha que prefieres para asistir.  Acto seguido haz click en “+ Info” y procede a llenar el formulario de contacto.   ¡Bienvenido a Bordo!
+          Si eres organizador y te interesa realizar eventos / talleres con Cristóbal en tu país, por favor escribe a:"','cristobalj')) ?></p>
           <p class="name">Cristóbal Jodorowsky</p>
         </div>
         <div class="newscontainer">
