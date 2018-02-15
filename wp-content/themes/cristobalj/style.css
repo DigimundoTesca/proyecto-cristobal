@@ -789,7 +789,7 @@ span {
   transition-timing-function: cubic-bezier(0.7,0,0.3,1);
 }
 
-.menu, 
+.menu,
 .icon-list {
   height: 100%;
 }
@@ -1072,6 +1072,15 @@ img#metabannerbig {
   background-repeat: no-repeat;
   background-size: cover;
 }
+#banner.tarot,
+#banner1.tarot {
+  position: relative;
+  background-color: #FFF;
+  background-image: url("images/tarot2.JPG");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 #banner1 .buttonLink a {
   text-decoration: none;
   color: #FFF;
@@ -1203,7 +1212,7 @@ label.es_shortcode_form_email span {
   list-style: none;
   overflow: hidden;
   width: 100%;
-  max-height: 150px; 
+  max-height: 150px;
   padding: 0;
   margin: 0;
 }
@@ -1365,6 +1374,24 @@ label.es_shortcode_form_email span {
   margin: 0;
   margin-top: 5px;
 }
+.mainbannercontent .mindHack.secnd {
+  border: 2px solid #003D7F;
+  background-color: #007bff;
+  height: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  width: 100%;
+}
+.mainbannercontent .mindHack.secnd h3 {
+  font-family: 'Gotham Rounded';
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  background-color: #007bff;
+  color: #FFFFFF;
+  line-height: 50px;
+  margin: 0;
+}
 .mainbannercontent .mindHack {
   border: 2px solid #000000;
   background-color: #000000;
@@ -1453,6 +1480,7 @@ label.es_shortcode_form_email span {
   border-top: 5px solid #37b4ee;
 }
 #mainContainer.more p {
+  text-align : justify;
   margin: 3% 0;
   word-spacing: 5px;
 }
@@ -1657,7 +1685,7 @@ div.wpcf7-mail-sent-ng {
   padding: 10px 0;
 }
 #bkttlcontainer{
-  border-bottom: 3px solid #f12a3a;  
+  border-bottom: 3px solid #f12a3a;
 }
 #dwnktitle {
   font-size: 35px;
@@ -1738,8 +1766,21 @@ input.wpcf7-form-control.wpcf7-submit {
   border-top: 2px solid #92b541;
   border-bottom: 2px solid #92b541;
 }
+/*Tarot page styles*/
+#tarot-cards {
+  height: 150px;
+}
+#wpcf7-f134-o1 p {
+  margin: 0 auto;
+  width: fit-content;
+}
 
-
+.card_value{
+  position: absolute;
+  visibility: hidden;
+  height: 132px;
+  width: 90px;
+}
 
 
 
@@ -1796,14 +1837,14 @@ input.wpcf7-form-control.wpcf7-submit {
   }
   .imgChange1{
     width: auto;
-    height: 30px; 
+    height: 30px;
     position: absolute;
     top: 7px;
     z-index: 10;
   }
   .imgChange2{
     width: auto;
-    height: auto; 
+    height: auto;
     position: absolute;
     right: 95px;
     top: 45px;
@@ -1826,7 +1867,7 @@ input.wpcf7-form-control.wpcf7-submit {
     right: -100px;
   }
   .imgChange6{
-    width: 100px; 
+    width: 100px;
     position: absolute;
     top: 280px;
     right: -75px;
@@ -1854,7 +1895,7 @@ input.wpcf7-form-control.wpcf7-submit {
     left: 70px;
   }
   .imgChange11{
-    width: 100px;  
+    width: 100px;
     position: absolute;
     top: 340px;
     left: -45px;
@@ -1876,7 +1917,7 @@ input.wpcf7-form-control.wpcf7-submit {
     left: -50px;
   }
   .imgChange15{
-    width: 200px; 
+    width: 200px;
     position: absolute;
     top: 80px;
     left: -147px;
@@ -1971,15 +2012,26 @@ input.wpcf7-form-control.wpcf7-submit {
     font-size: 17pt;
     margin: 0 5px;
   }
+
   #social a,
   #langbar a {
     color: #000;
   }
+
   #social a:hover {
     color: #154FCF !important;
   }
   #langbar li:first-child a::after {
     content: '  /  ';
+  }
+  #social .fa-instagram:before{
+    color: #D13EB6;
+  }
+  #social .fa-facebook-square:before{
+    color: 	#3b5998;
+  }
+  #social .fa-twitter:before {
+    color: #00aced;
   }
   /*show default nav bar and hide hamburguer menu*/
   /*Styles for main menu navigation*/
@@ -2369,8 +2421,8 @@ input.wpcf7-form-control.wpcf7-submit {
     flex-direction: row;
     justify-content: center;
   }
-  
-  
+
+
 }
 
 
@@ -2444,6 +2496,9 @@ input.wpcf7-form-control.wpcf7-submit {
     justify-content: center;
     align-items: left;
   }
+  .bannertext{
+    width:500px;
+  }
   p.metaquote {
     font-weight: 200;
     font-size: 28px;
@@ -2500,7 +2555,7 @@ input.wpcf7-form-control.wpcf7-submit {
     right: 20px;
     width: 25%;
   }
-  
+
 }
 
 
@@ -2548,7 +2603,7 @@ input.wpcf7-form-control.wpcf7-submit {
     font-size: 40px;
   }
   p.quote {
-    font-size: 23px;
+    font-size: 18px;
     margin: 20px 0;
   }
   #es_txt_button_pg {
@@ -2677,8 +2732,8 @@ input.wpcf7-form-control.wpcf7-submit {
     flex-direction: row;
     justify-content: center;
   }
-  
-  
+
+
 }
 
 @media screen and (min-width: 1300px) {
@@ -2967,14 +3022,14 @@ input.wpcf7-form-control.wpcf7-submit {
   }
   .imgChange1{
     width: auto;
-    height: 30px; 
+    height: 30px;
     position: absolute;
     top: 7px;
     z-index: 10;
   }
   .imgChange2{
     width: auto;
-    height: auto; 
+    height: auto;
     position: absolute;
     right: 216px;
     top: 72px;
@@ -2997,7 +3052,7 @@ input.wpcf7-form-control.wpcf7-submit {
     right: -50px;
   }
   .imgChange6{
-    width: 100px; 
+    width: 100px;
     position: absolute;
     top: 497px;
     right: -7px;
@@ -3025,7 +3080,7 @@ input.wpcf7-form-control.wpcf7-submit {
     left: 140px;
   }
   .imgChange11{
-    width: 100px;  
+    width: 100px;
     position: absolute;
     top: 608px;
     left: -50px;
@@ -3047,7 +3102,7 @@ input.wpcf7-form-control.wpcf7-submit {
     left: -25px;
   }
   .imgChange15{
-    width: 200px; 
+    width: 200px;
     position: absolute;
     top: 124px;
     left: -55px;
@@ -3131,4 +3186,61 @@ input.wpcf7-form-control.wpcf7-submit {
   .content {
     font-size: 35px;
   }
+}
+#tarot-cards div {
+  background-image: url('images/Tarot-Cards/img002.jpg');
+  background-size: 99px;
+  border: 3px solid #967996;
+  cursor: pointer;
+  height: 132px;
+  width: 90px;
+  background-position: 50% 0;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  }
+
+.muevetee{
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  -webkit-transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+  -moz-transition: 0.6s;
+  -moz-transform-style: preserve-3d;
+
+  -o-transition: 0.6s;
+  -o-transform-style: preserve-3d;
+
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+  }
+
+.destino {
+  border: none!important
+}
+.Reintentar{
+  display: none;
+  visibility: hidden;
+
+}
+.mano{
+  cursor: pointer;
+}
+
+/*go top*/
+.ir-arriba {
+	display:none;
+	padding:15px;
+  padding-top: .2em;
+	background:#024959;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
 }

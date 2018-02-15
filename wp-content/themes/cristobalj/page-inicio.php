@@ -13,7 +13,7 @@ get_header(); ?>
         <h2 class="bannertitle">
           <?php printf(__('Welcome!','cristobalj')) ?>
         </h2>
-        <p class="quote"><?php printf(__('"Here you can put a phrase from Cristobal that welcomes people"','cristobalj')) ?></p>
+        <p class="quote"><?php printf(__('"Thanks for visit us in www.psicomagia.es, the Cristobal Jodorowsky web. If you want register to some one of the Crsitobal Jodorowsky events, please, head hover to the section "Events" and select the event that wish in the date that prefer to asist. Act followed  make click en "+info" and proceed to fill in the contact form. ¡Welcome to aboard!. If you are organizator and interest you performing events/workshops with Cristobal in your country, please write to:"','cristobalj')) ?></p>
       </div>
       <div class="newscontainer">
         <?php es_subbox( $namefield = "NO", $desc = "", $group = "" ); ?>
@@ -25,7 +25,9 @@ get_header(); ?>
           <h2 class="bannertitle">
             <?php printf(__('Welcome!','cristobalj')) ?>
           </h2>
-          <p class="quote"><?php printf(__('"Here you can put a phrase from Cristobal that welcomes people"','cristobalj')) ?></p>
+          <p class="quote"><?php printf(__('"Gracias por visitarnos en www.psicomagia.es , la web de Cristóbal Jodorowsky.
+          Si quieres registrarte a alguno de los eventos de Cristóbal Jodorowsky, por favor, dirígete a la sección “Eventos” y selecciona el evento que deseas en la fecha que prefieres para asistir.  Acto seguido haz click en “+ Info” y procede a llenar el formulario de contacto.   ¡Bienvenido a Bordo!
+          Si eres organizador y te interesa realizar eventos / talleres con Cristóbal en tu país, por favor escribe a:"','cristobalj')) ?></p>
           <p class="name">Cristóbal Jodorowsky</p>
         </div>
         <div class="newscontainer">
@@ -47,8 +49,7 @@ get_header(); ?>
       <div id="datesContainer">
         <h3>
           <?php
-          printf( __( 'Agenda 20', 'cristobalj' ));
-          echo the_time('y');
+          printf( __( 'Agenda 2018', 'cristobalj' ));
           ?>
         </h3>
         <h4>
@@ -60,7 +61,7 @@ get_header(); ?>
           <?php the_content(); ?>
         <?php endwhile ?>
       </div>
-    </div> 
+    </div>
 
 
   </main><!-- #main -->

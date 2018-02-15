@@ -6,7 +6,7 @@ jQuery(document).ready(function(){
   let i = 0;
   for (; i < buttonsubmit.length; i++) {
     if (window.location.pathname == '/Cristobal/') {
-        document.getElementById('extralink').setAttribute('href', 'saber-mas');
+      document.getElementById('extralink').setAttribute('href', 'saber-mas');
       for (j = 0; j < buttonsubmit.length; j++) {
         document.getElementsByClassName('es_textbox_button es_submit_button')[j].value = 'suscribirse';
         document.getElementsByClassName('es_shortcode_form_email')[j].innerHTML = '<span>Susbribete</span> para acceder a todos los contenidos';
@@ -15,7 +15,7 @@ jQuery(document).ready(function(){
       }
     }
     else if (window.location.pathname == '/Cristobal/it/') {
-        document.getElementById('extralink').setAttribute('href', 'ulteriori-informazioni');
+      document.getElementById('extralink').setAttribute('href', 'ulteriori-informazioni');
       for (j = 0; j < buttonsubmit.length; j++) {
         document.getElementsByClassName('es_textbox_button es_submit_button')[j].value = 'abbonarsi';
         document.getElementsByClassName('es_shortcode_form_email')[j].innerHTML = '<span>Sostenere</span> per accedere a tutti i contenuti';
@@ -24,7 +24,7 @@ jQuery(document).ready(function(){
       }
     }
     else if (window.location.pathname == '/Cristobal/fr/') {
-        document.getElementById('extralink').setAttribute('href', 'savoir-plus');
+      document.getElementById('extralink').setAttribute('href', 'savoir-plus');
       for (j = 0; j < buttonsubmit.length; j++) {
         document.getElementsByClassName('es_textbox_button es_submit_button')[j].value = "S'abonner";
         document.getElementsByClassName('es_shortcode_form_email')[j].innerHTML = '<span>Suspensé</span> pour accéder à tous les contenus';
@@ -251,10 +251,10 @@ jQuery(document).ready(function(){
   // Metamundo blocks menu handler
   (function($) {
     $("#blocksContainer li a").on("click", function(e) {
-        e.preventDefault();
-        $("#blocksContainer li a").removeClass("active");
-        $(this).addClass("active");
-      });
+      e.preventDefault();
+      $("#blocksContainer li a").removeClass("active");
+      $(this).addClass("active");
+    });
   })(jQuery);
 
 

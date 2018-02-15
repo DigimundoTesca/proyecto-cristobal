@@ -12,20 +12,19 @@ get_header(); ?>
       <div id="bigkmoreContainer" class="bigkmoreContainer">
         <img id="knowmore bigmorebanner" class="bigkmore" src="<?php echo get_template_directory_uri(); ?>/images/another.png" alt="banner know more">
         <a href="#Psicoteatro" class="imgChange1 textBig"><?php printf( __( 'Psicoteatro', 'cristobalj' ));?></a>
-        <a href="#BIO" class="imgChange2 textSmall"><?php printf( __( 'BIO', 'cristobalj' ));?></a>
+        <a href="#BIO" class="imgChange2 textSmall"><?php printf( __( '', 'cristobalj' ));?></a>
         <a href="#Psicochamanismo" class="imgChange3 textBig"><?php printf( __( 'Psicochamanismo', 'cristobalj' ));?></a>
-        <a href="#Workshops" class="imgChange4 textSmall"><?php printf( __( 'Workshops', 'cristobalj' ));?></a>
         <a href="#Metagenealo" class="imgChange5 textBig"><?php printf( __( 'Metagenealogía', 'cristobalj' ));?></a>
-        <a href="#Therapies" class="imgChange6 textSmall"><?php printf( __( 'Therapies', 'cristobalj' ));?></a>
+        <a href="#Therapies" class="imgChange6 textSmall"><?php printf( __( '', 'cristobalj' ));?></a>
         <a href="#Investigation" class="imgChange7 textBig"><?php printf( __( 'Investigation', 'cristobalj' ));?></a>
-        <a href="#Psicomagic" class="imgChange8 textSmall"><?php printf( __( 'Psicomagic', 'cristobalj' ));?></a>
+        <a href="#Psicomagic" class="imgChange8 textSmall"><?php printf( __( '', 'cristobalj' ));?></a>
         <a href="#Tarot" class="imgChange9 textBig"><?php printf( __( 'Tarot', 'cristobalj' ));?></a>
-        <a href="#Videos" class="imgChange10 textSmall"><?php printf( __( 'Videos', 'cristobalj' ));?></a>
-        <a href="#Studies" class="imgChange11 textBig"><?php printf( __( 'Studies', 'cristobalj' ));?></a>
-        <a href="#Teachers" class="imgChange12 textSmall"><?php printf( __( 'Teachers', 'cristobalj' ));?></a>
+        <a href="#Videos" class="imgChange10 textSmall"><?php printf( __( '', 'cristobalj' ));?></a>
+        <a href="#Psicomagic" class="imgChange8 textBig"><?php printf( __( 'Psicomagia', 'cristobalj' ));?></a>
+        <a href="#Teachers" class="imgChange12 textSmall"><?php printf( __( '', 'cristobalj' ));?></a>
         <a href="#Travels" class="imgChange13 textBig"><?php printf( __( 'Travels', 'cristobalj' ));?></a>
         <a href="#Press" class="imgChange14 textSmall"><?php printf( __( 'Press', 'cristobalj' ));?></a>
-        <a href="#Ngram" class="imgChange15 textBig"><?php printf( __( 'N-gram', 'cristobalj' ));?></a>
+        <a href="#Ngram" class="imgChange15 textBig"><?php printf( __( '', 'cristobalj' ));?></a>
         <a href="#Art" class="imgChange16 textSmall"><?php printf( __( 'Art', 'cristobalj' ));?></a>
       </div>
       <div class="flex-column justify-content-center align-items-center" id="moreQuote">
@@ -104,37 +103,20 @@ get_header(); ?>
       </ul>
     </div>
     <div id="mainContainer" class="more">
-      <h3 id="Workshops" class="moretitle">
-        <?php
-        printf(__('<span class="morecolor" >Workshops</span>', 'cristobalj' ));
-        ?>
-      </h3>
-      <?php printf(__("<p>A Living Experience guided by Cristobal Jodorowsky, where he participates will learn more about his personal neurosis, family unconscious contracts, ego projections and geneological knots, as well as the consequences that all these factors cause in his current affective life.</p>", 'cristobalj' )); ?>
-      <ul id="theaterslides" class="">
-        <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/23.jpg" alt=""></li>
-        <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/24.jpg" alt=""></li>
-        <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/25.jpg" alt=""></li>
-        <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/26.jpg" alt=""></li>
-        <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/27.jpg" alt=""></li>
-        <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/28.jpg" alt=""></li>
-      </ul>
-    </div>
-    <div id="mainContainer" class="more">
       <h3 id="Metagenealo" class="moretitle">
         <?php
         printf(__('<span class="morecolor" >Metagenealogia</span>', 'cristobalj' ));
         ?>
       </h3>
-      <?php printf(__("<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo optio repudiandae, a consequatur. Placeat labore dolorum perferendis cupiditate quam illo.</p>", 'cristobalj' )); ?>
-      <img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt="">
-    </div>
-    <div id="mainContainer" class="more">
-      <h3 id="Therapies" class="moretitle">
-        <?php
-        printf(__('<span class="morecolor" >Therapies</span>', 'cristobalj' ));
-        ?>
-      </h3>
-      <?php printf(__("<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis doloribus nulla tempora, quas dolores mollitia iste at, ullam molestias enim!</p>", 'cristobalj' )); ?>
+      <?php printf(__("<p>“Las fuerzas de repetición y creación en su dinámica sin fin nos impulsan a la vez hacia la repetición de lo mismo y a ceder a lo que somos auténticamente. Los individuos, al mismo tiempo, pueden tener de sus bisabuelos, abuelos y padres, una visión positiva y otra negativa, convirtiéndose de este modo cada familiar en una entidad doble: una luminosa y otra oscura.  Dos campos de energía que, a pesar de oponerse, son complementarios.  En el tiempo presente, el espíritu que se materializa colinda con la materia que se espiritualiza, el supraconsciente con el inconsciente, el intento de realizar el futuro con el intento de repetir el pasado, el ser esencial con el ser socio-cultural, el deseo de crear con el deseo de imitar.  Al estudio del árbol genealógico bajo sus aspectos simultáneos y complementarios, tesoro y trampa, lo he llamado “Metagenealogía”.</p>
+      <p class='cita'>Alejandro Jodorowsky (creador la Metagenalogía)</p>
+
+      <p>La metagenealogía es un método de análisis del árbol genealógico que permite expandir la visión de su dimensión psíquica. Esto nos hace comprender hasta qué punto aquello que pensamos, sentimos, deseamos o vivimos, así como nuestros conflictos y enfermedades pueden ser el resultado de un pasado familiar, social, histórico o de residuos educativos patriarcales.
+      <br>La metagenealogía pone al descubierto un sistema de repeticiones de fechas, enfermedades, nacimientos, muertes, accidentes y nombres.  Todos éstos son mapas que se recorren y transmiten de generación en generación hasta llegar a nosotros con la precisión de un reloj.   Tendemos a identificarnos y ser fieles a nuestros familiares, hasta tal punto que puede resultarnos doloroso, paralizante y auto destructivo.
+      <br>A la vez, estos personajes – a quienes guardamos lealtad – imitaron a otras figuras del pasado, formando una cadena hereditaria de prisiones.  Revelar las dinámicas del clan permite comprender lo que inhibe dentro de nosotros la posibilidad de vivir, crear, ser y amar a partir del ser esencial.
+      Por otro lado, es fundamental aceptar que todo es perfecto y que la genealogía es un proceso espiritual perfecto en acción, que nunca se equivoca, que tiene sus leyes y órdenes y que todo siempre tiene su razón de ser, aunque no siempre nos guste o estemos de acuerdo. Uno no trabaja para reparar algo que no “debió” haber sido, sino, más bien para aceptarlo como fue e integrarlo desde el alma.
+      <br>Muy a menudo, después de un análisis genealógico Cristobal prepara un Psicoritual familiar o constelación psicomágica, en dónde invita a un grupo a teatralizar las situaciones vistas y re alinearlas con la corriente de la vida.
+      </p>", 'cristobalj' )); ?>
       <img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt="">
     </div>
     <div id="mainContainer" class="more">
@@ -152,7 +134,8 @@ get_header(); ?>
         printf(__('<span class="morecolor" >Psicomagic</span>', 'cristobalj' ));
         ?>
       </h3>
-      <?php printf(__("<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis reprehenderit nostrum suscipit dolorem quam sequi quibusdam dicta accusantium, facilis repellat?</p>", 'cristobalj' )); ?>
+      <?php printf(__("<p>Psychomagie est une technique thérapeutique, mis au point par Alejandro Jodorowsky, qui combine le chamanisme, la magie populaire, la psychologie, l'intuition, le mysticisme, la philosophie orientale, l'art, avec une intention curative. Psychomagie est une pratique de guérison qui agit par le symbole, la métaphore et la beauté essentiellement la langue des rêves. Pour cesser de considérer la dimension inconsciente comme un ennemi et de perdre leur crainte de se voir, on peut découvrir les traumatismes qui causent des souffrances. Cependant, même si l'on sait ce qui lui arrive et pourquoi, il n'est pas entièrement exempt de douleur. Psychomagie ne vise pas - comme la psychanalyse - guérison par le mot conversion des messages envoyés par la dimension inconsciente dans un discours rationnel, mais enseigner le rationnel à manipuler la langue inconsciente. Les processus de notre cerveau sont plus symboliques et analogiques que logiques. Pour lui, une photographie représente non seulement la personne représentée, mais elle-même. Considérez une partie comme un tout, projetez des gens qui peuplent leur mémoire d'êtres ou de choses réels. En psychomagie ils proposeront des actions concrètes le questionneur, faire un acte symbolique qui restaurent en quelque sorte sa mémoire et vous permettre de faire l'impossible.<brCependant, pour s'assurer que l'acte donne un résultat optimal, le consultant doit d'abord se libérer de la moralité imposée par sa famille, sa société et sa culture. Si vous le faites, par exemple, sans crainte, vous pouvez coller une photo de votre père sur deux pastèques et vous pouvez les faire exploser. Sa dimension inconsciente va prendre pour acquis le meurtre et la castration. Le consultant se sentira plus libre. Ce qui nous effraie perd de la force au moment où nous cessons de le combattre ou de l'éloigner de l'esprit pour l'intégrer à travers un acte psychomagique qui nous aide à nous réveiller et à faire de la vie un rêve lucide et plein de conscience. Il ne suffit pas de comprendre la raison d'un conflit; il faut agir sur lui, lui donner un exutoire à l'impulsion, au comportement répétitif qui rend difficile notre existence. C'est ainsi que fut créée la psychomagie, le psychochamanisme et, plus tard, le psychoréglementaire.
+</p>", 'cristobalj' )); ?>
       <img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt="">
     </div>
     <div id="mainContainer" class="more">
@@ -161,34 +144,18 @@ get_header(); ?>
         printf(__('<span class="morecolor" >Tarot</span>', 'cristobalj' ));
         ?>
       </h3>
-      <?php printf(__("<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore expedita accusantium obcaecati impedit ad, eveniet officiis debitis in illum enim.</p>", 'cristobalj' )); ?>
-      <img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt="">
-    </div>
-    <div id="mainContainer" class="more">
-      <h3 id="Videos" class="moretitle">
-        <?php
-        printf(__('<span class="morecolor" >Videos</span>', 'cristobalj' ));
-        ?>
-      </h3>
-      <?php printf(__("<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure quaerat minus delectus voluptatum praesentium dolorem facilis sit ea mollitia possimus!</p>", 'cristobalj' )); ?>
-      <img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt="">
-    </div>
-    <div id="mainContainer" class="more">
-      <h3 id="Studies" class="moretitle">
-        <?php
-        printf(__('<span class="morecolor" >Studies</span>', 'cristobalj' ));
-        ?>
-      </h3>
-      <?php printf(__("<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis architecto consectetur non provident ratione eos consequuntur a voluptas tenetur autem.</p>", 'cristobalj' )); ?>
-      <img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt="">
-    </div>
-    <div id="mainContainer" class="more">
-      <h3 id="Teachers" class="moretitle">
-        <?php
-        printf(__('<span class="morecolor" >Teachers</span>', 'cristobalj' ));
-        ?>
-      </h3>
-      <?php printf(__("<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, totam, fugit. Laudantium aliquam odit voluptas fugiat, est consequatur animi adipisci?</p>", 'cristobalj' )); ?>
+      <?php printf(__("<p>Para Carl Gustav Jung, los arquetipos son energías innatas comunes a todos los seres humanos, que se trasmiten a través de mitos o se nos aparecen en sueños, cuentos, leyendas, rituales y obras de arte.
+
+      <br>Ellos serían los órganos de nuestro organismo psicológico que, colaborando permiten que nuestro proceso alquímico transformativo se lleve a cabo. En el Tarot, los arquetipos pueden actuar como patrones de conducta cuando el individuo necesita resolver una dificultad existencial. Los 78 arcanos del Tarot son arquetipos con infinitas interpretaciones, donde cada uno tiene una multitud de aspectos. Sin embargo, el dibujo de la carta será sólo una máscara. Se convierte en la llave que, si sabes cómo interpretarla e integrarla, activará la dimensión aliada del arquetipo.
+      <br>Para ello, Cristóbal Jodorowsky utiliza los arcanos del Tarot como puertas para contactar con energías universales en sí. Estas puertas, al ser activadas, permiten un cambio profundo en el psiquismo, para que así nuestra alma se exprese en toda libertad.
+
+      <br>En las antiguas culturas existían “cortes” de dioses que en el fondo podrían ser dimensiones de nuestra propia mente. El trabajo de Cristóbal con el Tarot consiste en despertar las cortes de dioses o arquetipos interiores de cada ser, utilizando los arcanos como una herramienta terapéutica que permiten ponernos en contacto con nuestro mundo interior y observar nuestros patrones de conducta adquiridos, con el fin de crear una estructura interior de referencia.
+
+      El Tarot nos permite interpretar la psique humana y las diferentes dimensiones de nuestra conciencia. Gracias a su carácter simbólico, podemos ver reflejada nuestra realidad más profunda en los arcanos, situación que nos ayudará a enfocar la realidad desde otro ángulo, e integrar dificultades vitales, penas y dolores con más facilidad.
+
+      <br>El Tarot también puede ser una representación espectacular de nuestra familia interior, un espejo de nuestro mundo íntimo que refleja nuestros nudos y cargas genealógicas, conflictos o relaciones complejas con padres, abuelos, hermanos y otros familiares del presente o del pasado. Asimismo, refleja nuestras repeticiones neuróticas, los ciclos en los que nos vemos atrapados, los mecanismos por los cuales enfermamos… Todo ello, en una dirección: el encuentro con lo más profundo de nuestro Ser Esencial.
+       <br>A pesar de que el Tarot es un instrumento que nos comunica con la dimensión inconsciente. Cristobal piensa que cuando uno elige una carta es la dimensión supra-consiente (que sabe todo)  que la elige en nosotros para ayudarnos a desvelar lo que el ego no siempre estamos dispuestos a ver por miedo a cambiar de marco de referencia y mutar.
+      </p>", 'cristobalj' )); ?>
       <img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt="">
     </div>
     <div id="mainContainer" class="more">
@@ -206,7 +173,12 @@ get_header(); ?>
         printf(__('<span class="morecolor" >Travels</span>', 'cristobalj' ));
         ?>
       </h3>
-      <?php printf(__("<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam excepturi quia sequi dicta magnam obcaecati quibusdam nobis nihil inventore reiciendis.</p>", 'cristobalj' )); ?>
+      <?php printf(__("<p>Desde hace varios años Cristóbal Jodorowsky organiza viajes por todo el mundo encontrando las fuentes tradicionales del chamanismo y de la espiritualidad.
+      <br>La participación en los rituales y sesiones de trance de los médiums en los viajes iniciáticos es para Cristóbal Jodorowsky una posibilidad de investigación sobre el chamanismo. Esto quiere decir que se analiza en los cultos visitados toda la fenomenología con el objeto de reinterpretarla a la luz de los conocimientos de la psicoterapia y de los paradigmas de hoy. Estos grupos iniciáticos se enfocan en pasar de las formas populares de las creencias espirituales y mágicas al psicochamanismo, donde se dejan a un lado los aspectos folklóricos tóxicos y religiosos para conservar la esencia del funcionamiento psíquico. Así, conscientemente y de forma autónoma son aplicados con autonomía al manejo de los potenciales psíquicos. En estos ritos, se respetan las formas de participación al culto con su lenguaje y liturgias, pero esto no quiere decir que el grupo se sienta identificado con su cosmología y visión espiritual.
+      <br>A lo largo de los últimos años, estos grupos han recorrido los centros de trabajo chamánico de las favelas de las grandes ciudades, El Salto del Ángel en Venezuela, la montaña sagrada de Sorte, (centro del culto a María Lionza), las selvas del Orinoco, la cordillera andina peruana, y un largo etcétera. Estos viajeros iniciáticos visitaron el Mercado de las Brujas de la Ciudad de México, Yucatán, las selvas lacandonas y los sitios mayas; participaron en ceremonias sagradas en el monte Tepozteco y experimentaron temazcales indígenas.
+      <br>En estos trabajos, los viajeros pueden laborar día a día con chamanes y curanderos de diferentes tradiciones espirituales, integrando una visión holística de las cosmovisiones tradicionales del continente americano.
+      También propone un seminario itinerante de Tarot comprende un recorrido por escenarios naturales elegidos específicamente para trabajar en profundidad, guiados la mano de Cristobal Jodorowsky, en prácticas y ejercicios introspectivos que nos permiten tener acceso de modo vivencial, a la integración de cada arcano del Tarot de Marsella, en la búsqueda de una experiencia más amplia de estudio sobre sus implicaciones arquetípicas en nuestra psique. En el marco de los inigualablemente suntuosos parajes mayas del sureste de México, se realiza un profundo trabajo de auto-conocimiento y una labor terapéutica interior que nos ofrece mayores herramientas para renacer en plenitud a dimensiones más amplias de nuestro ser. Además, las expediciones viajeras resultan una buena ocasión para el trabajo y las consultas en psicomagia y Tarot, generando un recorrido personal desde la meditación y el autoanálisis hasta el ritual psicochamánico.
+      </p>", 'cristobalj' )); ?>
       <img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt="">
     </div>
     <div id="mainContainer" class="more">
@@ -218,25 +190,15 @@ get_header(); ?>
       <?php printf(__("<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam excepturi quia sequi dicta magnam obcaecati quibusdam nobis nihil inventore reiciendis.</p>", 'cristobalj' )); ?>
       <img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt="">
     </div>
-    <div id="mainContainer" class="more">
-      <h3 id="Ngram" class="moretitle">
-        <?php
-        printf(__('<span class="morecolor" >N-gram</span>', 'cristobalj' ));
-        ?>
-      </h3>
-      <?php printf(__("<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam excepturi quia sequi dicta magnam obcaecati quibusdam nobis nihil inventore reiciendis.</p>", 'cristobalj' )); ?>
-      <img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt="">
-    </div>
     <?php while (have_posts()): the_post(); ?>
       <?php the_content(); ?>
     <?php endwhile ?>
-    
+
     <?php get_template_part( 'secondarybanner' );  ?>
 
 
   </main><!-- #main -->
 </div><!-- #primary -->
-
 <?php
 get_footer();
 ?>

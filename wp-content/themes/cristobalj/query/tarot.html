@@ -1,0 +1,204 @@
+
+<!doctype html>
+<html>
+<head>
+    <title>Tarot</title>
+    <script src="js/mootools-yui-compressed.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <style type="text/css">
+    body {
+       background-image: url("Images/bck.png");
+       background-color: #cccccc;
+       background-position: 50% 0;
+       -ms-background-size: cover;
+       -o-background-size: cover;
+       -moz-background-size: cover;
+       -webkit-background-size: cover;
+       background-size: cover;
+   }
+   #tarot-cards div {
+    background-image: url(https://i.pinimg.com/originals/2a/ff/83/2aff8375c88541bf196ea0c15e08b9be.jpg);
+    background-size: 99px;
+    cursor: pointer;
+    height: 132px;
+    width: 90px;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+
+}
+.muevetee{
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    -webkit-transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 0.6s;
+    -moz-transform-style: preserve-3d;
+
+    -o-transition: 0.6s;
+    -o-transform-style: preserve-3d;
+
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.destino {
+    border: none!important
+}
+.Reintentar{
+    display: none;
+    visibility: hidden;
+
+}
+
+.mano{
+  cursor: pointer;
+}
+</style>
+
+<script async src="xtra/f.txt"></script>
+</head>
+<body>
+    <br>
+    <center><h1 style="color: white">Seleccione 4 cartas</h1></center>
+
+    <div class="container">
+        <div class="row"  id="tarot-layout" style="height: 500px;">
+            <div  class="col-md-3"><img id="imgRet" src="http://nkmediasolutions.com/images/Icon-arrow-left-white.png"  alt="" style="height: 15px;" class="Reintentar" > <label class="Reintentar mano" id="return" onClick="window.location.reload()" style="color:white; font-size: 24px; ">Reintentar</label></div>
+            <div  class="col-md-3"></div>
+            <div  class="col-md-3"></div>
+            <div  class="col-md-3"></div>
+        </div>
+        <div id="tarot-cards" class="row col-md-12">
+            <div id='070'></div>
+            <div id='151'></div>
+            <div id='041'></div>
+            <div id='180'></div>
+            <div id='170'></div>
+            <div id='011'></div>
+            <div id='200'></div>
+            <div id='030'></div>
+            <div id='080'></div>
+            <div id='220'></div>
+            <div id='160'></div>
+            <div id='130'></div>
+            <div id='191'></div>
+            <div id='021'></div>
+            <div id='110'></div>
+            <div id='100'></div>
+            <div id='091'></div>
+            <div id='210'></div>
+            <div id='050'></div>
+            <div id='120'></div>
+            <div id='140'></div>
+            <div id='060'></div>
+        </div>
+    </div>
+
+</body>
+</html>
+<script type="text/javascript">
+    window.addEvent('domready', function() {
+        var positions = $$('#tarot-layout div')
+        var cards = $$('#tarot-cards div')
+        var selected = 0;
+        var spacing = 27;
+        var cardIds = Array();
+        var posmarco = $("tarot-layout").getPosition();
+        var despcard = posmarco.x + 25;
+        var vidx = 100;
+        var colum = 0;
+        var lin = 0;
+        cards.each(function(el, key) {
+            el.set('tween', {
+                duration: 'short'
+            });
+            colum = colum + 1;
+            if (colum > 3) colum = 1;
+        // lin = (colum - 1) * 140;
+        lin=0;
+        var pos = el.getPosition();
+        var espacio = Math.floor(Math.random() * 8) + 5;
+        var vespacio = Math.floor(Math.random() * 10);
+        pos.y = pos.y ;
+        pos.x = pos.x + despcard;
+        el.setStyles({
+            'position': 'absolute',
+            'left': pos.x + (key * spacing),
+            'top': 0
+        })
+        el.addClass("rot5");
+        el.addEvent('mouseover', function() {
+            el.tween('top', - 10);
+        })
+        el.addEvent('mouseout', function() {
+            el.tween('top', 0);
+        })
+        el.addEvent('touchstart', function() {
+            el.click();
+        })
+        el.addEvent('click', function() {
+            if ((selected) >= positions.length) return false;
+            el.removeEvents('mouseout');
+            el.removeEvents('mouseover');
+            el.removeEvents('click');
+            vidx = vidx + 1;
+            el.style.zIndex = vidx;
+            var progress = new Element('img', {
+                src: 'https://www.losarcanos.com/img_oracle2/' + 't' + el.id + '.jpg',
+                style: 'height:400px;width:220'
+            });
+            var pos = positions[selected].getPosition();
+            Element.Styles.backgroundSize = '@px';
+            var elFx = new Fx.Morph(el, {
+                duration: 2800,
+                transition: Fx.Transitions.Sine.easeout,
+                onComplete: function() {
+                    el.tween('opacity', 1, 0, {
+                        duration: 'long'
+                    });
+                    el.removeClass("rot5");
+                    el.addClass("muevetee");
+                    progress.inject(el);
+                    el.tween('opacity', 0, 1, {
+                        duration: 'long'
+                    });
+
+                }
+            });
+            cardIds.push(el.id);
+            elFx.start({
+                // 'top': pos.y,
+                'top': -500,
+                'left': pos.x-42,
+                'height': [132, 400],
+                'width': [80, 220],
+                'background-size': [80, 160]
+            });
+            selected++;
+            if ((selected) >= positions.length) {
+                (function() {
+                    document.getElementById("return").removeClass("Reintentar");
+                    document.getElementById("imgRet").removeClass("Reintentar");
+
+                }).delay(4000);
+            }
+        })
+    });
+    });
+
+    function calculaAncho() {
+        if (document.layers) {
+            ancho = window.innerWidth;
+        } else {
+            ancho = document.body.clientWidth;
+        }
+        return ancho;
+    }
+</script>
