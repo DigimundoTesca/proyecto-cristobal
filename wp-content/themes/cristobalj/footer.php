@@ -64,111 +64,106 @@
 
 <?php wp_footer(); ?>
 
-<script>
-	
-
-// Tarot scripts
-window.addEvent('domready', function() {
-	var positions = $$('#tarot-layout div')
-	var cards = $$('#tarot-cards div')
-	var selected = 0;
-	var spacing = 27;
-	var cardIds = Array();
-	var posmarco = $("tarot-layout").getPosition();
-	var despcard = posmarco.x + 25;
-	var vidx = 100;
-	var colum = 0;
-	var lin = 0;
-  var load = document.getElementsByName("user-submitted-image[]");
-  var invisible = document.getElementById("user-submitted-image");
-	cards.each(function(el, key) {
-		el.set('tween', {
-			duration: 'short'
-		});
-		colum = colum + 1;
-		if (colum > 3) colum = 1;
+<script type="text/javascript">
+    window.addEvent('domready', function() {
+    var positions = $$('#tarot-layout div')
+    var cards = $$('#tarot-cards div')
+    var selected = 0;
+    var spacing = 27;
+    var cardIds = Array();
+    var posmarco = $("tarot-layout").getPosition();
+    var despcard = posmarco.x + 25;
+    var vidx = 100;
+    var colum = 0;
+    var lin = 0;
+    cards.each(function(el, key) {
+        el.set('tween', {
+            duration: 'short'
+        });
+        colum = colum + 1;
+        if (colum > 3) colum = 1;
         // lin = (colum - 1) * 140;
         lin=0;
         var pos = el.getPosition();
         var espacio = Math.floor(Math.random() * 8) + 5;
         var vespacio = Math.floor(Math.random() * 10);
-        pos.y = pos.y ;
+        pos.y = pos.y + vespacio + lin;
         pos.x = pos.x + despcard;
         el.setStyles({
-        	'position': 'absolute',
-        	'left': pos.x + (key * spacing),
-        	'top': 0
+            'position': 'absolute',
+            'left': pos.x + (key * spacing),
+            'top': pos.y
         })
         el.addClass("rot5");
         el.addEvent('mouseover', function() {
-        	el.tween('top', - 10);
+            el.tween('top', pos.y - 10);
         })
         el.addEvent('mouseout', function() {
-        	el.tween('top', 0);
+            el.tween('top', pos.y);
         })
         el.addEvent('touchstart', function() {
-        	el.click();
+            el.click();
         })
         el.addEvent('click', function() {
-        	if ((selected) >= positions.length) return false;
-        	el.removeEvents('mouseout');
-        	el.removeEvents('mouseover');
-        	el.removeEvents('click');
-        	vidx = vidx + 1;
-        	el.style.zIndex = vidx;
-        	var progress = new Element('img', {
-        		src: 'https://www.losarcanos.com/img_oracle2/' + 't' + el.id + '.jpg',
-        		style: 'height:400px;width:220'
-        	});
-          load[selected].src = 'https://www.losarcanos.com/img_oracle2/' + 't' + el.id + '.jpg';
-        	var pos = positions[selected].getPosition();
-        	Element.Styles.backgroundSize = '@px';
-        	var elFx = new Fx.Morph(el, {
-        		duration: 2800,
-        		transition: Fx.Transitions.Sine.easeout,
-        		onComplete: function() {
-        			el.tween('opacity', 1, 0, {
-        				duration: 'long'
-        			});
-        			el.removeClass("rot5");
-        			el.addClass("muevetee");
-        			progress.inject(el);
-        			el.tween('opacity', 0, 1, {
-        				duration: 'long'
-        			});
+            if ((selected) >= positions.length) return false;
+            el.removeEvents('mouseout');
+            el.removeEvents('mouseover');
+            el.removeEvents('click');
+            vidx = vidx + 1;
+            el.style.zIndex = vidx;
+            var progress = new Element('img', {
+                src: '../wp-content/themes/cristobalj/images/Tarot-Cards/img' + el.id + '.jpg',
+                style: 'height:400px;width:220'
+            });
 
-        		}
-        	});
-        	cardIds.push(el.id);
-        	elFx.start({
+            var pos = positions[selected].getPosition();
+            Element.Styles.backgroundSize = '@px';
+            var elFx = new Fx.Morph(el, {
+                duration: 2800,
+                transition: Fx.Transitions.Sine.easeOut,
+                onComplete: function() {
+                    el.tween('opacity', 1, 0, {
+                        duration: 'long'
+                    });
+                    el.removeClass("rot5");
+                    el.addClass("muevetee");
+                    progress.inject(el);
+                    el.tween('opacity', 0, 1, {
+                        duration: 'long'
+                    });
+
+                }
+            });
+            cardIds.push(el.id);
+            elFx.start({
                 // 'top': pos.y,
-                'top': -500,
-                'left': pos.x-42,
+                'top': 750,
+                'left': pos.x+70,
                 'height': [132, 400],
                 'width': [80, 220],
                 'background-size': [80, 160]
-              });
-        	selected++;
-        	if ((selected) >= positions.length) {
-        		(function() {
-        			document.getElementById("return").removeClass("Reintentar");
-        			document.getElementById("imgRet").removeClass("Reintentar");
-
-        		}).delay(4000);
-        	}
+            });
+            selected++;
+            if ((selected) >= positions.length) {
+                (function() {
+                    document.getElementById("return").removeClass("Reintentar");
+                    document.getElementById("imgRet").removeClass("Reintentar");
+                }).delay(4000);
+            }
         })
-      });
-});
+    });
+    });
 
-function calculaAncho() {
-	if (document.layers) {
-		ancho = window.innerWidth;
-	} else {
-		ancho = document.body.clientWidth;
-	}
-	return ancho;
-}
+    function calculaAncho() {
+    if (document.layers) {
+        ancho = window.innerWidth;
+    } else {
+        ancho = document.body.clientWidth;
+    }
+    return ancho;
+    }
 </script>
+
 
 </body>
 </html>

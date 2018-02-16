@@ -11,12 +11,15 @@
     initEvents();
   }
 
+  /*Clean form*/
+  function limpiarFormulario() {
+    document.getElementById("wpcf7-f124-p21-o1").reset();
+  }
   function initEvents() {
     openbtn.addEventListener( 'click', toggleMenu );
     if( closebtn ) {
       closebtn.addEventListener( 'click', toggleMenu );
     }
-
     // close the menu element if the target it´s not the menu element or one of its descendants..
     content.addEventListener( 'click', function(ev) {
       var target = ev.target;
