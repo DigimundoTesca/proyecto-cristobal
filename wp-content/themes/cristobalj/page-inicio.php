@@ -46,10 +46,10 @@ get_header(); ?>
 
         <div class="col-md-3">
           <h2>Últimos Tweets de Cristóbal</h2>
-          <a class="twitter-timeline" href="https://twitter.com/CharlixdCm?ref_src=twsrc%5Etfw">Tweets by CharlixdCm</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-          <a href="https://twitter.com/intent/tweet?screen_name=CharlixdCm&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @CharlixdCm</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-          <a href="https://twitter.com/CharlixdCm?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @CharlixdCm</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-          </div>
+          <a class="twitter-timeline" href="https://twitter.com/cris_jodow?ref_src=twsrc%5Etfw">Tweets by cris_jodow</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          <a href="https://twitter.com/cris_jodow?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @cris_jodow</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          <a href="https://twitter.com/intent/tweet?screen_name=cris_jodow&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @cris_jodow</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
         <div class="col-md-6 d-flex justify-content-center">
           <div id="datesContainer">
             <h3>

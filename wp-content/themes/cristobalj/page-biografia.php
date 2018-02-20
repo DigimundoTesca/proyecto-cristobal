@@ -16,7 +16,7 @@ get_header(); ?>
       <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/46.jpg" alt=""></li>
     </ul>
     <div class="row">
-      <div class="col-md-9">
+      <div class="col-md-8">
         <?php while (have_posts()): the_post(); ?>
           <div id="mainContainer" class="biog">
             <?php the_content(); ?>
@@ -25,12 +25,24 @@ get_header(); ?>
         <br>
         <?php get_template_part( 'secondarybanner' );  ?>
       </div>
-      <div id="sidebar_2" class="col-md-3 text-center">
+      <div id="sidebar_2" class="col-md-4 text-center">
         <h2 class="mt-4">Eventos Próximos</h2>
+        <div id="datesContainer">
+          <h3>
+            <?php
+            printf( __( 'Agenda 2018', 'cristobalj' ));
+            ?>
+          </h3>
+          <h4>
+            <?php
+            printf( __( 'Know my activities this year', 'cristobalj' ));
+            ?>
+          </h4>
+        </div>
         <h2>Últimos Tweets de Cristóbal</h2>
-        <a class="twitter-timeline" href="https://twitter.com/CharlixdCm?ref_src=twsrc%5Etfw">Tweets by CharlixdCm</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        <a href="https://twitter.com/intent/tweet?screen_name=CharlixdCm&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @CharlixdCm</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        <a href="https://twitter.com/CharlixdCm?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @CharlixdCm</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <a class="twitter-timeline" href="https://twitter.com/cris_jodow?ref_src=twsrc%5Etfw">Tweets by cris_jodow</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <a href="https://twitter.com/cris_jodow?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @cris_jodow</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <a href="https://twitter.com/intent/tweet?screen_name=cris_jodow&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @cris_jodow</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
     </div>
 

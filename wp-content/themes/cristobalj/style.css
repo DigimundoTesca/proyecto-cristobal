@@ -2909,6 +2909,9 @@ input.wpcf7-form-control.wpcf7-submit {
     width: 350px;
     margin: 10px 0;
   }
+  .event-button{
+    height: 30px;
+  }
   .buttons-container a {
     font-size: 30px;
   }
