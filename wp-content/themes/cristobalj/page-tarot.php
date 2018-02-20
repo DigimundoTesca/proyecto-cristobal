@@ -36,40 +36,37 @@ get_header(); ?>
         <div class="container">
           <div  class="row"><img id="imgRet" src="http://nkmediasolutions.com/images/Icon-arrow-left-white.png"  alt="" style="height: 15px;" class="Reintentar" > <label class="Reintentar mano" id="return" onClick="window.location.reload()" style="color:#000; font-size: 24px; ">Reintentar</label></div>
           <div class="row justify-content-center"  id="tarot-layout" style="height: 500px;">
-            <div  class="col-md-4"></div>
+            <div  class="col-md-4 text-center"></div>
             <div  class="col-md-4"></div>
             <div  class="col-md-4"></div>
           </div>
-          <div id="tarot-cards" class="row col-md-12">
-            <div id='070'></div>
-            <div id='151'></div>
-            <div id='041'></div>
-            <div id='180'></div>
-            <div id='170'></div>
+          <div id="tarot-cards" class=" container justify-content-center">
+            <div id='001'></div>
+            <div id='002'></div>
+            <div id='003'></div>
+            <div id='004'></div>
+            <div id='005'></div>
+            <div id='006'></div>
+            <div id='007'></div>
+            <div id='008'></div>
+            <div id='009'></div>
+            <div id='010'></div>
             <div id='011'></div>
-            <div id='200'></div>
-            <div id='030'></div>
-            <div id='080'></div>
-            <div id='220'></div>
-            <div id='160'></div>
-            <div id='130'></div>
-            <div id='191'></div>
+            <div id='012'></div>
+            <div id='013'></div>
+            <div id='014'></div>
+            <div id='015'></div>
+            <div id='016'></div>
+            <div id='017'></div>
+            <div id='018'></div>
+            <div id='019'></div>
+            <div id='020'></div>
             <div id='021'></div>
-            <div id='110'></div>
-            <div id='100'></div>
-            <div id='091'></div>
-            <div id='210'></div>
-            <div id='050'></div>
-            <div id='120'></div>
-            <div id='140'></div>
-            <div id='060'></div>
+            <div id='022'></div>
           </div>
         </div>
       </div>
-    </div> 
-
-
-
+    </div>
   </main><!-- #main -->
 </div><!-- #primary -->
 

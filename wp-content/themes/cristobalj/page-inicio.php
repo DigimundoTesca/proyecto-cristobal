@@ -13,7 +13,7 @@ get_header(); ?>
         <h2 class="bannertitle">
           <?php printf(__('Welcome!','cristobalj')) ?>
         </h2>
-        <p class="quote"><?php printf(__('"Here you can put a phrase from Cristobal that welcomes people"','cristobalj')) ?></p>
+        <p class="quote"><?php printf(__('"Frase Cristobal"','cristobalj')) ?></p>
       </div>
       <div class="newscontainer">
         <?php es_subbox( $namefield = "NO", $desc = "", $group = "" ); ?>
@@ -25,7 +25,7 @@ get_header(); ?>
           <h2 class="bannertitle">
             <?php printf(__('Welcome!','cristobalj')) ?>
           </h2>
-          <p class="quote"><?php printf(__('"Here you can put a phrase from Cristobal that welcomes people"','cristobalj')) ?></p>
+          <p class="quote"><?php printf(__('"Frase Cristobal"','cristobalj')) ?></p>
           <p class="name">Cristóbal Jodorowsky</p>
         </div>
         <div class="newscontainer">
@@ -41,25 +41,38 @@ get_header(); ?>
         </a>
       </div>
     </div>
-
+    <div class="row">
     <div class="mainpage" id="mainpage">
-      <?php get_template_part( 'mainbanner' );  ?>
-      <div id="datesContainer">
-        <h3>
-          <?php
-          printf( __( 'Agenda 2018', 'cristobalj' ));
-          ?>
-        </h3>
-        <h4>
-          <?php
-          printf( __( 'Know my activities this year', 'cristobalj' ));
-          ?>
-        </h4>
-        <?php while (have_posts()): the_post(); ?>
-          <?php the_content(); ?>
-        <?php endwhile ?>
+
+        <div class="col-md-3">
+          <h2>Últimos Tweets de Cristóbal</h2>
+          <a class="twitter-timeline" href="https://twitter.com/CharlixdCm?ref_src=twsrc%5Etfw">Tweets by CharlixdCm</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          <a href="https://twitter.com/intent/tweet?screen_name=CharlixdCm&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @CharlixdCm</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          <a href="https://twitter.com/CharlixdCm?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @CharlixdCm</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+        <div class="col-md-6 d-flex justify-content-center">
+          <div id="datesContainer">
+            <h3>
+              <?php
+              printf( __( 'Agenda 2018', 'cristobalj' ));
+              ?>
+            </h3>
+            <h4>
+              <?php
+              printf( __( 'Know my activities this year', 'cristobalj' ));
+              ?>
+            </h4>
+            <?php while (have_posts()): the_post(); ?>
+              <?php the_content(); ?>
+            <?php endwhile ?>
+          </div>
+        </div>
+        <div class="sidebar_1 col-md-3 d-flex justify-content-center">
+          <?php get_template_part( 'mainbanner' );  ?>
+        </div>
       </div>
-    </div> 
+
+    </div>
 
 
   </main><!-- #main -->

@@ -1,5 +1,5 @@
 <?php
-/**
+/** 
  * Configuración básica de WordPress.
  *
  * Este archivo contiene las siguientes configuraciones: ajustes de MySQL, prefijo de tablas,
@@ -16,13 +16,13 @@
 
 // ** Ajustes de MySQL. Solicita estos datos a tu proveedor de alojamiento web. ** //
 /** El nombre de tu base de datos de WordPress */
-define('DB_NAME', 'crisjodow');
+define('DB_NAME', 'basesita');
 
 /** Tu nombre de usuario de MySQL */
 define('DB_USER', 'root');
 
 /** Tu contraseña de MySQL */
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', '');
 
 /** Host de MySQL (es muy probable que no necesites cambiarlo) */
 define('DB_HOST', 'localhost');
@@ -42,14 +42,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY', 'j~uT*U?/izLCPDFR?i&ULcf42E.4s>A&]THsm(|rJyo:?mip+%Di.ZR58&:8zInD');
-define('SECURE_AUTH_KEY', ',>I$P_Q7b,WY)fzhpfBfR5V&Y}`(6v&#.Q](V3J])~sVixtzLVFS$_Ms5de?= `w');
-define('LOGGED_IN_KEY', 'mC!;-VIKJ-MvP*6&?<?D:H>R7,;@Axe<i^KhCVUdAs*.hc-{m]q-YF]oZp+I=3V:');
-define('NONCE_KEY', 'Z8wF6f2|{ q<cqYQ2`}EA{(]w[9?Q,u_EJxkLA#?[Z:#}Ql[ataniea&s(tg);-_');
-define('AUTH_SALT', '-Hw/^Fw1 cdv+adbuXEveA5dPVhFR`8}ej}(CcW[Tp`0>T@#~URCz>Oc3!_nWnFg');
-define('SECURE_AUTH_SALT', '+2|=}WZ2-s_uZ`sD%@,9n{hb^N&@uD6qPJ((it;1QCIRMpiFU~rw],xv))kzk{;w');
-define('LOGGED_IN_SALT', 'ZSsi8^(iC)l(=pLlrT{_UXlsu@[Ma=#v8Ghz*K3-+K}>i![Dc_LkD IhhMt;HiEp');
-define('NONCE_SALT', '*LhYMC5A1x8lRTz2f&_!i,DrBAcnpZ0SBW_qz7<oE Vvhny=nz7qRkSp7%t@[=VB');
+define('AUTH_KEY', 'oG;>TNT)RV)x!z`q|a>fME$:6`fo>mXY|Oq/wKZ}l3X<kh}[#`,VEM9;]{d|_*@M');
+define('SECURE_AUTH_KEY', ';43%A_,YT-kdU0^kxj&Rw%{b$m[gono;yc,g[w MjcpHv4fC*{31?EOO.J+gp@E[');
+define('LOGGED_IN_KEY', 'c!1]Sn-p<7_Evm{aylanJ#a{^X0Z%=CoB[P!!j#<:;OP!9gh~&HTTJ-KoK:S7Gn5');
+define('NONCE_KEY', '^4^_yA;c sYM9v!W~;Vw>6fDt:~V{SL}VLjP-. N?e(~3&YsXzS$Nf6#$- -),{~');
+define('AUTH_SALT', '(RYlIy;_i]XZtfX&.<%|Mi/y(a0TZ1m{.=1~1Q$k2_jjVO4P* Hr(o[F|v1=9j10');
+define('SECURE_AUTH_SALT', 'p>)EdAsxe s_<wu[%~: &W>.t_D@,w^%/MO2G#kkO?:)ciP29x;_-js&Joys41Rp');
+define('LOGGED_IN_SALT', '|5-Bg}ktO:g@fb*X0VVlmi<V/~(fw8BBox=/oR_c)IQQ@OB=*E(fQ)pyh6YePMBs');
+define('NONCE_SALT', ',Ir~,4!k!)|IaX##F!?0EPYYntsY),c.,.o -VsZCciomtP$C0PDT[K^odPIoAR[');
 
 /**#@-*/
 
@@ -71,18 +71,12 @@ $table_prefix  = 'wp_';
  */
 define('WP_DEBUG', false);
 
-define('MULTISITE', true);
-define('SUBDOMAIN_INSTALL', false);
-define('DOMAIN_CURRENT_SITE', 'localhost');
-define('PATH_CURRENT_SITE', '/Cristobal/');
-define('SITE_ID_CURRENT_SITE', 1);
-define('BLOG_ID_CURRENT_SITE', 1);
-
 /* ¡Eso es todo, deja de editar! Feliz blogging */
 
 /** WordPress absolute path to the Wordpress directory. */
 if ( !defined('ABSPATH') )
-  define('ABSPATH', dirname(__FILE__) . '/');
+	define('ABSPATH', dirname(__FILE__) . '/');
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
