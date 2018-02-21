@@ -17,17 +17,7 @@ Template Name: mainbanner
           <?php printf(__('Mexico febrero 2018','cristobalj')) ?>
           <?php printf(__('Argentina julio 2018','cristobalj')) ?>
         </p>
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/metalogonuevo.png" alt="">
-      </div>
-    </a>
-  </div>
-  <div class="mainbannercontent">
-    <a href="#" title="Tarot">
-      <div class="mindHack secnd">
-        <h3>
-          <?php printf(__('Tarot app','cristobalj')) ?>
-        </h3>
-        <img  src="<?php echo get_stylesheet_directory_uri(); ?>/images/Tarot.jpg"  alt="">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/metalogonuevo3.png" alt="">
       </div>
     </a>
   </div>

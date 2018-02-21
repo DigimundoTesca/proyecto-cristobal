@@ -1074,10 +1074,10 @@ img#metabannerbig {
 }
 #banner.tarot,
 #banner1.tarot {
-  position: relative;
+  position: absolute;
   background-color: #FFF;
-  background-image: url("images/tarotban.jpg");
-  background-position: top right;
+  background-image: url("images/tarot2.jpg");
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1251,7 +1251,7 @@ label.es_shortcode_form_email span {
 }
 #mainContainer p {
   margin: 0;
-  text-align: left;
+  text-align: justify;
 }
 #mainContainer.biog p:first-of-type {
   margin-top: 20px;
@@ -1268,11 +1268,15 @@ label.es_shortcode_form_email span {
 }
 /*Styles for agenda and banner on index page*/
 #mainpage {
+  height: auto;
   display: flex;
   flex-direction: column-reverse;
   flex-wrap: wrap;
   width: 100%;
   margin-top: 25px;
+}
+.sidebar_1{
+  margin-bottom: 1.5em;
 }
 #mainpage > * {
   display: block;
@@ -1476,8 +1480,7 @@ label.es_shortcode_form_email span {
 }
 .morevideo {
   width: 100%;
-  height: 300px;
-  border-top: 5px solid #37b4ee;
+  height: 100px;
 }
 #mainContainer.more p {
   text-align : justify;
@@ -1811,8 +1814,6 @@ input.wpcf7-form-control.wpcf7-submit {
     align-items: center;
     height: 100%;
     width: 400px;
-    margin: auto;
-    margin-left: 90px;
     position: relative;
   }
   .bigkmoreContainer a {
@@ -2263,8 +2264,7 @@ input.wpcf7-form-control.wpcf7-submit {
     margin: 0;
   }
   .morevideo {
-    height: 500px;
-    border-top: 7px solid #37b4ee;
+    height: 100px;
   }
   .events-container{
     margin-bottom: 30px;
@@ -2637,7 +2637,7 @@ input.wpcf7-form-control.wpcf7-submit {
   }
   #datesContainer {
     width: 100%;
-    max-width: 890px;
+    max-width: 600px;
     margin: 0;
   }
   #mainpage {
@@ -2652,10 +2652,9 @@ input.wpcf7-form-control.wpcf7-submit {
   }
   .morevideo {
     width: 80%;
-    height: 600px;
+    height: 200px;
     margin: 0 10%;
     margin-bottom: 50px;
-    border-top: 10px solid #37b4ee;
   }
   #moreQuote {
     width: 30%;
@@ -2758,8 +2757,6 @@ input.wpcf7-form-control.wpcf7-submit {
   .bookimg img {
     height: 300px;
   }
-  .bigkmoreContainer {
-    margin-left: 14%;
   }
 }
 
@@ -2911,6 +2908,9 @@ input.wpcf7-form-control.wpcf7-submit {
   .events-container .event-buy {
     width: 350px;
     margin: 10px 0;
+  }
+  .event-button{
+    height: 30px;
   }
   .buttons-container a {
     font-size: 30px;
@@ -3145,7 +3145,6 @@ input.wpcf7-form-control.wpcf7-submit {
     height: 900px;
     margin: 0 10%;
     margin-bottom: 50px;
-    border-top: 10px solid #37b4ee;
   }
   /*Styles for metamundo page*/
   #metabanner1 {
@@ -3191,6 +3190,7 @@ input.wpcf7-form-control.wpcf7-submit {
   background-image: url('images/Tarot-Cards/img002.jpg');
   background-size: 99px;
   border: 3px solid #967996;
+  border-top-left-radius: 10px;
   cursor: pointer;
   height: 132px;
   width: 90px;
@@ -3201,7 +3201,19 @@ input.wpcf7-form-control.wpcf7-submit {
   -webkit-background-size: cover;
   background-size: cover;
   }
+#tarot-cards div {
+  background-size: 99px;
+  cursor: pointer;
+  height: 132px;
+  width: 90px;
+  background-position: 50% 0;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
 
+          }
 .muevetee{
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
@@ -3219,6 +3231,7 @@ input.wpcf7-form-control.wpcf7-submit {
   transform-style: preserve-3d;
   position: relative;
   }
+
 
 .destino {
   border: none!important
@@ -3243,4 +3256,21 @@ input.wpcf7-form-control.wpcf7-submit {
 	position: fixed;
 	bottom:20px;
 	right:20px;
+}
+
+/*Sidebars*/
+#sidebar_2 h2 {
+  margin-top: 1.5em;
+}
+.twitter-timeline{
+
+}
+.timeline-Widget{
+  background-color: rgba(142, 68, 173, 0.5);
+}
+img{
+  margin-bottom: 1.5em;
+}
+.oculto{
+  display: none;
 }

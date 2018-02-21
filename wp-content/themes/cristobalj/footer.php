@@ -69,7 +69,7 @@
     var positions = $$('#tarot-layout div')
     var cards = $$('#tarot-cards div')
     var selected = 0;
-    var spacing = 27;
+    var spacing = 35;
     var cardIds = Array();
     var posmarco = $("tarot-layout").getPosition();
     var despcard = posmarco.x + 25;
@@ -137,7 +137,7 @@
             cardIds.push(el.id);
             elFx.start({
                 // 'top': pos.y,
-                'top': 750,
+                'top': 800,
                 'left': pos.x+70,
                 'height': [132, 400],
                 'width': [80, 220],

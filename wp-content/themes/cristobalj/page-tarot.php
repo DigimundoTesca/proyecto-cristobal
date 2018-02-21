@@ -36,11 +36,11 @@ get_header(); ?>
         <div class="container">
           <div  class="row"><img id="imgRet" src="http://nkmediasolutions.com/images/Icon-arrow-left-white.png"  alt="" style="height: 15px;" class="Reintentar" > <label class="Reintentar mano" id="return" onClick="window.location.reload()" style="color:#000; font-size: 24px; ">Reintentar</label></div>
           <div class="row justify-content-center"  id="tarot-layout" style="height: 500px;">
-            <div  class="col-md-4"></div>
+            <div  class="col-md-4 text-center"></div>
             <div  class="col-md-4"></div>
             <div  class="col-md-4"></div>
           </div>
-          <div id="tarot-cards">
+          <div id="tarot-cards" class=" container justify-content-center">
             <div id='001'></div>
             <div id='002'></div>
             <div id='003'></div>
