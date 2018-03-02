@@ -46,26 +46,14 @@ get_header(); ?>
 
         <div class="col-md-3">
           <h2>Últimos Tweets de Cristóbal</h2>
-          <a class="twitter-timeline" href="https://twitter.com/cris_jodow?ref_src=twsrc%5Etfw">Tweets by cris_jodow</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-          <a href="https://twitter.com/cris_jodow?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @cris_jodow</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-          <a href="https://twitter.com/intent/tweet?screen_name=cris_jodow&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @cris_jodow</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          <div class="Tweets">
+            <a class="twitter-timeline" height="340px" href="https://twitter.com/cris_jodow?ref_src=twsrc%5Etfw">Tweets by cris_jodow</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/cris_jodow?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @cris_jodow</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a href="https://twitter.com/intent/tweet?screen_name=cris_jodow&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @cris_jodow</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
         </div>
         <div class="col-md-6 d-flex justify-content-center">
-          <div id="datesContainer">
-            <h3>
-              <?php
-              printf( __( 'Agenda 2018', 'cristobalj' ));
-              ?>
-            </h3>
-            <h4>
-              <?php
-              printf( __( 'Know my activities this year', 'cristobalj' ));
-              ?>
-            </h4>
-            <?php while (have_posts()): the_post(); ?>
-              <?php the_content(); ?>
-            <?php endwhile ?>
-          </div>
+          <h2>News Feed</h2>
         </div>
         <div class="sidebar_1 col-md-3 d-flex justify-content-center">
           <?php get_template_part( 'mainbanner' );  ?>

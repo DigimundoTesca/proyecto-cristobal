@@ -1,4 +1,4 @@
-<?php 
+<?php
 /**
  * Template for displaying Biography page */
 
@@ -24,7 +24,7 @@ get_header(); ?>
           <h5 class="mt-3 mb-0 text-left">
             <?php printf( __( "let's be in touch!", 'cristobalj' )); ?>
           </h5>
-          <p class="mb-4 mt-1 text-justify">
+          <p class="mb-4 mt-1 text-jDe ustify">
             <?php printf( __( 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, similique nostrum fugiat voluptatibus! Quasi voluptates, deserunt unde consequuntur, eligendi, laboriosam ullam facere quidem fugit at ipsa minus sed harum omnis.', 'cristobalj' )); ?>
           </p>
         </div>

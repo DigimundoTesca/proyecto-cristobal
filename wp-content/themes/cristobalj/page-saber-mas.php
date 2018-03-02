@@ -26,7 +26,7 @@ get_header(); ?>
             <a href="#Teachers" class="imgChange12 textSmall"><?php printf( __( '', 'cristobalj' ));?></a>
             <a href="#Travels" class="imgChange13 textBig"><?php printf( __( 'Travels', 'cristobalj' ));?></a>
             <a href="#Press" class="imgChange14 textSmall"><?php printf( __( 'Press', 'cristobalj' ));?></a>
-            <a href="#Ngram" class="imgChange15 textBig"><?php printf( __( '', 'cristobalj' ));?></a>
+            <a href="#Colectiva" class="imgChange15 textBig"><?php printf( __( 'Psicomagia Colectiva', 'cristobalj' ));?></a>
             <a href="#Art" class="imgChange16 textSmall"><?php printf( __( 'Art', 'cristobalj' ));?></a>
           </div>
         </div>
@@ -135,6 +135,22 @@ get_header(); ?>
           <img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt="">
         </div>
         <div id="mainContainer" class="more">
+          <h3 id="Colectiva" class="moretitle">
+            <?php
+            printf(__('<span class="morecolor" >Psicomagia Colectiva</span>', 'cristobalj' ));
+            ?>
+          </h3>
+          <?php printf(__("<p>Todo está interconectado, cuando un individuo hace un esfuerzo transformador y progresa, esa información entra inmediatamente en el psico-campo de la humanidad y, de alguna manera afecta de forma positiva a lo colectivo participando a su inevitable proceso transformación. Es decir que, cuando un grupo de personas se sintoniza individualmente con los campos amplios de conciencia que nos mueven, la activación colectiva de esas dimensiones desde lo personal, afecta y eleva más aún la vibración de cada participante.
+
+          <br>Después de años de experiencia reuniendo a grupos numerosos en diferentes partes del mundo, relazando Psicoteatros, Psicorituales, constelaciones, psicomagia, tarot y tanto más, he podido comprobar y experimentar esos paradigmas. Vi y sentí, hasta qué punto un grupo de personas concentradas, encausando una misma intención terapéutica y espiritual, se contagiaban entre sí de energía positiva, sanadora a través de esa trama invisible: . Así que, cuando una persona solucionaba algo públicamente todos y todas vivimos esa misma sanación.   </p>
+
+          <p>Hoy con esta nueva propuesta de “Psicomagia colectiva” que para mí es, una forma de ritual contemporáneo, realizado con también mucho humor para que las personas puedan dulcemente tomar conciencia, he decidido utilizar las herramientas que están a mi disposición, para que juntos participemos al proceso de evolución de la humanidad a través de nuestra experiencia, proponiendo ejercidos colectivos, individuales, meditaciones, terapias mutuas, lecturas de tarot, teatralizaciones del Árbol genealógico, psicomagia y tantas otras vivencias.
+
+          <br>Según mi visión, hoy en día la transformación se hace también colectivamente, en grupos que obran juntos como abejas, dedicadas a producir la miel consiente, transformadora que todos necesitamos para mover a esta sociedad.
+          </p>", 'cristobalj' )); ?>
+          <img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt="">
+        </div>
+        <div id="mainContainer" class="more">
           <h3 id="Tarot" class="moretitle">
             <?php
             printf(__('<span class="morecolor" >Tarot</span>', 'cristobalj' ));
@@ -189,26 +205,7 @@ get_header(); ?>
 
   </div>
   <div id="sidebar_2" class="col-md-4 text-center">
-    <h2 class="mt-5">Eventos Próximos</h2>
-    <div id="datesContainer">
-      <h3>
-        <?php
-        printf( __( 'Agenda 2018', 'cristobalj' ));
-        ?>
-      </h3>
-      <h4>
-        <?php
-        printf( __( 'Know my activities this year', 'cristobalj' ));
-        ?>
-      </h4>
-      <?php while (have_posts()): the_post(); ?>
-        <?php the_content(); ?>
-      <?php endwhile ?>
-    </div>
-    <h2>Últimos Tweets de Cristóbal</h2>
-    <a class="twitter-timeline" href="https://twitter.com/cris_jodow?ref_src=twsrc%5Etfw">Tweets by cris_jodow</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    <a href="https://twitter.com/cris_jodow?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @cris_jodow</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    <a href="https://twitter.com/intent/tweet?screen_name=cris_jodow&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @cris_jodow</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <?php get_template_part('agenda'); ?>
     <iframe class="morevideo mt-2" width="100%" src="https://www.youtube.com/embed/F8FBxAGIlpY">
     </iframe>
     <?php get_template_part( 'mainbanner' );  ?>
