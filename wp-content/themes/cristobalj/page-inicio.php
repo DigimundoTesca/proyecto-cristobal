@@ -43,26 +43,22 @@ get_header(); ?>
     </div>
     <div class="row">
     <div class="mainpage" id="mainpage">
+        <div class="col-md-9 d-flex justify-content-center">
+          <div class="">
+            <?php the_content(); ?>
+          </div>
 
-        <div class="col-md-3">
-          <h2>Últimos Tweets de Cristóbal</h2>
+        </div>
+        <div class="sidebar_1 col-md-3 d-flex justify-content-center">
+          <?php get_template_part( 'mainbanner' ); ?>
           <div class="Tweets">
             <a class="twitter-timeline" height="340px" href="https://twitter.com/cris_jodow?ref_src=twsrc%5Etfw">Tweets by cris_jodow</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             <a href="https://twitter.com/cris_jodow?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @cris_jodow</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             <a href="https://twitter.com/intent/tweet?screen_name=cris_jodow&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @cris_jodow</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           </div>
         </div>
-        <div class="col-md-6 d-flex justify-content-center">
-          <h2>News Feed</h2>
-        </div>
-        <div class="sidebar_1 col-md-3 d-flex justify-content-center">
-          <?php get_template_part( 'mainbanner' );  ?>
-        </div>
       </div>
-
     </div>
-
-
   </main><!-- #main -->
 </div><!-- #primary -->
 

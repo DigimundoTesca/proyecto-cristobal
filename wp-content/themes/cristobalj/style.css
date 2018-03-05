@@ -1278,6 +1278,10 @@ label.es_shortcode_form_email span {
 .sidebar_1{
   margin-bottom: 1.5em;
 }
+.sidebar_1 #mainbannercontainer{
+  position: absolute;
+  bottom: -15%;
+}
 #mainpage > * {
   display: block;
 }
@@ -2758,7 +2762,7 @@ input.wpcf7-form-control.wpcf7-submit {
     height: 300px;
   }
   }
-}
+
 
 
 
@@ -3276,4 +3280,37 @@ img{
 }
 #tweet-button{
   height: 40px;
+}
+
+.news .news-thumb{
+  display: flex !important;
+}
+
+.news .grid-news-thumb{
+  height: 300px !important;
+  width: 75%;
+  text-align: center;
+  margin: 0 auto !important;
+}
+.news .news-content{
+  margin: 0 auto;
+  text-align: justify;
+}
+.news > div > div.news-content > div.post-content-text > div.news-content-excerpt .news-more-link{
+  background-color: #be0211 !important;
+}
+.news > div > div.news-content > div.post-content-text> div.news-content-excerpt .news-more-link:hover{
+  background-color: #be0211 !important;
+  transform: scale(90%);
+}
+
+.news a.visited{
+  color: #FFF !important;
+  background-color: #e22130 !important;
+}
+
+.news div > div.news-content > div.date-post > h2 > span{
+  background-color: #EA782A;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }

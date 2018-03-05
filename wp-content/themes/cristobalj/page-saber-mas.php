@@ -5,7 +5,7 @@
 get_header(); ?>
 <span style="font-size: 50px;" class="ir-arriba fa fa-angle-up"></span>
 <div class="row">
-  <div class="col-md-8">
+  <div class="col-md-9">
     <div id="primary" class="content-area">
       <main id="main" class="site-main">
         <p class="d-inline-block mt-5 mb-0 h4"><?php printf( __( 'Chose a theme', 'cristobalj' ));?></p>
@@ -204,7 +204,7 @@ get_header(); ?>
     </div><!-- #primary -->
 
   </div>
-  <div id="sidebar_2" class="col-md-4 text-center">
+  <div id="sidebar_2" class="col-md-3 text-center">
     <?php get_template_part('agenda'); ?>
     <iframe class="morevideo mt-2" width="100%" src="https://www.youtube.com/embed/F8FBxAGIlpY">
     </iframe>

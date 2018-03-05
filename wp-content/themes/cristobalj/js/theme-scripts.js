@@ -1,3 +1,5 @@
+/*banner principal*/
+
 jQuery(document).ready(function(){
 
   // Translate 'submit' for newsletter form
@@ -33,7 +35,7 @@ jQuery(document).ready(function(){
       }
     }
   }
-  // Add text to more information buttons on agenda 
+  // Add text to more information buttons on agenda
   let eventbutton = document.getElementsByClassName('event-button');
   let eventbuy = document.getElementsByClassName('event-buy');
   let k = 0;
@@ -130,7 +132,7 @@ jQuery(document).ready(function(){
 
   // Moddify footer width
   (function($) {
-    if(document.getElementById('datesContainer')){ 
+    if(document.getElementById('datesContainer')){
       let datewidth = document.getElementById('datesContainer').offsetWidth;
       let circlewidth = document.getElementById('circles');
 
@@ -154,23 +156,23 @@ jQuery(document).ready(function(){
     $(".rslides").responsiveSlides({
       auto: true,
       speed: 500,
-      timeout: 2500, 
+      timeout: 2500,
     });
     // Sliders on knowmore page
     $("#chamanslides").responsiveSlides({
       auto: true,
       speed: 500,
-      timeout: 2500, 
+      timeout: 2500,
     });
     $("#magicslides").responsiveSlides({
       auto: true,
       speed: 500,
-      timeout: 2500, 
+      timeout: 2500,
     });
     $("#theaterslides").responsiveSlides({
       auto: true,
       speed: 500,
-      timeout: 2500, 
+      timeout: 2500,
     });
   })(jQuery);
 
@@ -267,8 +269,8 @@ jQuery(document).ready(function(){
     .click(function(event) {
       // On-page links
       if (
-        location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
-        && 
+        location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+        &&
         location.hostname == this.hostname
         ) {
         // Figure out element to scroll to
@@ -292,8 +294,19 @@ jQuery(document).ready(function(){
       }
     });
   })(jQuery);
+  
+  var contenedor = $('#banner1');
+  var imagenes = ['cristobal.jpg', '10.jpg', '15.jpg', '24.jpg', '21.jpg', '28.jpg', '46.jpg'];
+  var tiempo = 2500;
+  contenedor.css({'background-image':'url(images/cristobal/cristobal.jpg)'});
 
+  function image(){
+  setTimeout(function() {
+  contenedor.fadeIn('slow', 0.3, function() {
+  $(this).css({'background-image': 'url(images/cristobal/' + imagenes[Math.floor(Math.random() * imagenes.length)] + ')'});
+  image();}).fadeIn('slow', 0.3); },tiempo); }
 
+  image();
   // Book download
   (function($) {
     $('#dnlBookBtn').click(function(event) {
@@ -318,4 +331,4 @@ jQuery(document).ready(function(){
   })(jQuery);
 
 
-}); 
+});
