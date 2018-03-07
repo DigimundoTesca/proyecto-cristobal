@@ -5,7 +5,7 @@
 get_header(); ?>
 <span style="font-size: 50px;" class="ir-arriba fa fa-angle-up"></span>
 <div class="row">
-  <div class="col-md-8">
+  <div class="col-md-9">
     <div id="primary" class="content-area">
       <main id="main" class="site-main">
         <p class="d-inline-block mt-5 mb-0 h4"><?php printf( __( 'Chose a theme', 'cristobalj' ));?></p>
@@ -22,12 +22,12 @@ get_header(); ?>
             <a href="#Psicomagic" class="imgChange8 textSmall"><?php printf( __( '', 'cristobalj' ));?></a>
             <a href="#Tarot" class="imgChange9 textBig"><?php printf( __( 'Tarot', 'cristobalj' ));?></a>
             <a href="#Videos" class="imgChange10 textSmall"><?php printf( __( '', 'cristobalj' ));?></a>
-            <a href="#Psicomagic" class="imgChange8 textBig"><?php printf( __( 'Psicomagia', 'cristobalj' ));?></a>
+            <a href="#Psicomagic" class="imgChange11 textBig"><?php printf( __( 'Psicomagia', 'cristobalj' ));?></a>
             <a href="#Teachers" class="imgChange12 textSmall"><?php printf( __( '', 'cristobalj' ));?></a>
             <a href="#Travels" class="imgChange13 textBig"><?php printf( __( 'Travels', 'cristobalj' ));?></a>
-            <a href="#Press" class="imgChange14 textSmall"><?php printf( __( 'Press', 'cristobalj' ));?></a>
-            <a href="#Ngram" class="imgChange15 textBig"><?php printf( __( '', 'cristobalj' ));?></a>
-            <a href="#Art" class="imgChange16 textSmall"><?php printf( __( 'Art', 'cristobalj' ));?></a>
+            <a href="#Press" class="imgChange14 textSmall"><?php printf( __( '', 'cristobalj' ));?></a>
+            <a href="#Colectiva" class="imgChange15 textBig"><?php printf( __( 'Psicomagia Colectiva', 'cristobalj' ));?></a>
+            <a href="#Art" class="imgChange16 textSmall"><?php printf( __( '', 'cristobalj' ));?></a>
           </div>
         </div>
         <div id="mainContainer" class="more mt-5">
@@ -135,6 +135,22 @@ get_header(); ?>
           <img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt="">
         </div>
         <div id="mainContainer" class="more">
+          <h3 id="Colectiva" class="moretitle">
+            <?php
+            printf(__('<span class="morecolor" >Psicomagia Colectiva</span>', 'cristobalj' ));
+            ?>
+          </h3>
+          <?php printf(__("<p>Todo está interconectado, cuando un individuo hace un esfuerzo transformador y progresa, esa información entra inmediatamente en el psico-campo de la humanidad y, de alguna manera afecta de forma positiva a lo colectivo participando a su inevitable proceso transformación. Es decir que, cuando un grupo de personas se sintoniza individualmente con los campos amplios de conciencia que nos mueven, la activación colectiva de esas dimensiones desde lo personal, afecta y eleva más aún la vibración de cada participante.
+
+          <br>Después de años de experiencia reuniendo a grupos numerosos en diferentes partes del mundo, relazando Psicoteatros, Psicorituales, constelaciones, psicomagia, tarot y tanto más, he podido comprobar y experimentar esos paradigmas. Vi y sentí, hasta qué punto un grupo de personas concentradas, encausando una misma intención terapéutica y espiritual, se contagiaban entre sí de energía positiva, sanadora a través de esa trama invisible: . Así que, cuando una persona solucionaba algo públicamente todos y todas vivimos esa misma sanación.   </p>
+
+          <p>Hoy con esta nueva propuesta de “Psicomagia colectiva” que para mí es, una forma de ritual contemporáneo, realizado con también mucho humor para que las personas puedan dulcemente tomar conciencia, he decidido utilizar las herramientas que están a mi disposición, para que juntos participemos al proceso de evolución de la humanidad a través de nuestra experiencia, proponiendo ejercidos colectivos, individuales, meditaciones, terapias mutuas, lecturas de tarot, teatralizaciones del Árbol genealógico, psicomagia y tantas otras vivencias.
+
+          <br>Según mi visión, hoy en día la transformación se hace también colectivamente, en grupos que obran juntos como abejas, dedicadas a producir la miel consiente, transformadora que todos necesitamos para mover a esta sociedad.
+          </p>", 'cristobalj' )); ?>
+          <img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt="">
+        </div>
+        <div id="mainContainer" class="more">
           <h3 id="Tarot" class="moretitle">
             <?php
             printf(__('<span class="morecolor" >Tarot</span>', 'cristobalj' ));
@@ -172,45 +188,15 @@ get_header(); ?>
           <br>It also proposes a Tarot itinerant seminar that includes a tour through natural scenarios specifically chosen to work in depth, guided by the hand of Cristobal Jodorowsky, in practices and introspective exercises that allow us to have an experiential access to the integration of each arcana of the Tarot. Marseille, in search of a broader experience of study about its archetypal implications in our psyche. Within the framework of the uniquely sumptuous Mayan landscapes of southeastern Mexico, a deep work of self-knowledge and inner therapeutic work is carried out, which offers us greater tools to be reborn in fullness to wider dimensions of our being. In addition, traveling expeditions are a good opportunity for work and consultations in psychomagy and Tarot, generating a personal journey from meditation and self-analysis to psycho-christian ritual.</p>", 'cristobalj' )); ?>
           <img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt="">
         </div>
-        <div id="mainContainer" class="more">
-          <h3 id="Art" class="moretitle">
-            <?php
-            printf(__('<span class="morecolor" >Art</span>', 'cristobalj' ));
-            ?>
-          </h3>
-          <?php printf(__("<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam excepturi quia sequi dicta magnam obcaecati quibusdam nobis nihil inventore reiciendis.</p>", 'cristobalj' )); ?>
-          <img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt="">
-        </div>
-        <?php while (have_posts()): the_post(); ?>
-          <?php the_content(); ?>
-        <?php endwhile ?>
       </main><!-- #main -->
     </div><!-- #primary -->
-    <?php get_template_part( 'secondarybanner' );  ?>
+
   </div>
-  <div id="sidebar_2" class="col-md-4 text-center">
-    <h2 class="mt-5">Eventos Próximos</h2>
-    <div id="datesContainer">
-      <h3>
-        <?php
-        printf( __( 'Agenda 2018', 'cristobalj' ));
-        ?>
-      </h3>
-      <h4>
-        <?php
-        printf( __( 'Know my activities this year', 'cristobalj' ));
-        ?>
-      </h4>
-      <?php while (have_posts()): the_post(); ?>
-        <?php the_content(); ?>
-      <?php endwhile ?>
-    </div>
-    <h2>Últimos Tweets de Cristóbal</h2>
-    <a class="twitter-timeline" href="https://twitter.com/cris_jodow?ref_src=twsrc%5Etfw">Tweets by cris_jodow</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    <a href="https://twitter.com/cris_jodow?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @cris_jodow</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    <a href="https://twitter.com/intent/tweet?screen_name=cris_jodow&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @cris_jodow</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <div id="sidebar_2" class="col-md-3 text-center">
+    <?php get_template_part('agenda'); ?>
     <iframe class="morevideo mt-2" width="100%" src="https://www.youtube.com/embed/F8FBxAGIlpY">
     </iframe>
+    <?php get_template_part( 'mainbanner' );  ?>
   </div>
 
 </div>

@@ -1278,6 +1278,12 @@ label.es_shortcode_form_email span {
 .sidebar_1{
   margin-bottom: 1.5em;
 }
+.sidebar_1 #mainbannercontainer{
+  display: flex;
+  margin: 0 auto;
+  margin-top: 1rem;
+
+}
 #mainpage > * {
   display: block;
 }
@@ -1898,13 +1904,13 @@ input.wpcf7-form-control.wpcf7-submit {
   .imgChange11{
     width: 100px;
     position: absolute;
-    top: 340px;
-    left: -45px;
+    top: 335px;
+    left: -85px;
   }
   .imgChange12{
     width: 100px;
     position: absolute;
-    top: 285px;
+    top: 275px;
     left: -70px;
   }
   .imgChange13{
@@ -1920,7 +1926,7 @@ input.wpcf7-form-control.wpcf7-submit {
   .imgChange15{
     width: 200px;
     position: absolute;
-    top: 80px;
+    top: 60px;
     left: -147px;
     text-align: right;
   }
@@ -2756,9 +2762,10 @@ input.wpcf7-form-control.wpcf7-submit {
   }
   .bookimg img {
     height: 300px;
+    margin-top: 4rem;
   }
   }
-}
+
 
 
 
@@ -3262,12 +3269,92 @@ input.wpcf7-form-control.wpcf7-submit {
 #sidebar_2 h2 {
   margin-top: 1.5em;
 }
-.twitter-timeline{
+
+.oculto{
+  display: none;
+}
+
+/******************
+    News Feed
+******************/
+.news .news-thumb{
+  display: flex !important;
+}
+
+.news .grid-news-thumb{
+  height: 320px !important;
+  width: 75%;
+  text-align: center;
+  margin: 0 auto !important;
+}
+.news .grid-news-thumb img{
 
 }
-.timeline-Widget{
-  background-color: rgba(142, 68, 173, 0.5);
+.news div > div.news-thumb > div > a > img{
+  width: auto !important;
 }
-img{
-  margin-bottom: 1.5em;
+.news-content{
+  float:none !important;
+}
+.news .news-content{
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+  text-align: justify;
+}
+.news > div > div.news-content > div.post-content-text > div.news-content-excerpt .news-more-link{
+  background-color: #be0211 !important;
+}
+.news > div > div.news-content > div.post-content-text> div.news-content-excerpt .news-more-link:hover{
+  background-color: #be0211 !important;
+  transform: scale(90%);
+}
+
+.news a.visited{
+  color: #FFF !important;
+  background-color: #e22130 !important;
+}
+
+.news div > div.news-content > div.date-post > h2 > span{
+  background-color: #EA782A;
+  width: 70%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: block;
+  margin: 0 auto;
+}
+
+
+/*Eventos*/
+.calendar #ai1ec-calendar-view > div.ai1ec-agenda-view > div > div > div{
+  background-color:;
+  color: #767683;
+}
+.calendar #ai1ec-calendar-view > div.ai1ec-agenda-view > div > div > div > div.ai1ec-event-header > span{
+  color: #41424ef0;
+}
+
+.calendar div.ai1ec-event-summary-footer > div > a{
+  background: #be0211;
+  color: #FFF;
+}
+.calendar div.ai1ec-event-summary-footer > div > a:hover{
+  color: #ffff !important;
+}
+.calendar div.ai1ec-event-header > div.ai1ec-event-toggle{
+  color: #5a7b9c;
+}
+.calendar  div.timely.ai1ec-calendar-toolbar.ai1ec-clearfix,
+.calendar div.ai1ec-pull-left,
+.calendar #ai1ec-calendar-view > div.ai1ec-clearfix > div.ai1ec-title-buttons.ai1ec-btn-toolbar,
+#mainContainer #ai1ec-container,
+#sidebar_2 .bio{
+  display: none;
+}
+
+.calendar div.ai1ec-agenda-view a > div.ai1ec-month{
+  background: #be0211;
+}
+.calendar #ai1ec-calendar-view{
+  height: 200px;
 }
