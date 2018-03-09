@@ -18,6 +18,10 @@ get_header(); ?>
 
 		endwhile; // End of the loop.
 		?>
+		<div class="download">
+			<a  href="<?php echo esc_url( get_permalink( get_page_by_title( 'Bookdownload' ) ) ); ?>" class="post_button text-center"><?php printf(__('Descarga gratis','cristobalj')) ?></a>
+		</div>
+
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

@@ -1351,7 +1351,7 @@ label.es_shortcode_form_email span {
 }
 .mainbannercontent .gift {
   border: 2px solid #175d39;
-  background-color: #92b541;
+  background-color: #9f010f;
   height: inherit;
   display: inline-flex;
   flex-direction: column;
@@ -1362,7 +1362,7 @@ label.es_shortcode_form_email span {
   font-weight: bold;
   font-size: 20px;
   text-align: center;
-  background-color: #175d39;
+  background-color: #433a4f;
   color: #FFFFFF;
   line-height: 50px;
   margin: 0;
@@ -1380,7 +1380,7 @@ label.es_shortcode_form_email span {
   font-family: 'Gotham Rounded';
   font-size: 15px;
   text-align: center;
-  color: #FFFFFF;
+  color: #cac811;
   margin: 0;
   margin-top: 5px;
 }
@@ -1403,8 +1403,8 @@ label.es_shortcode_form_email span {
   margin: 0;
 }
 .mainbannercontent .mindHack {
-  border: 2px solid #000000;
-  background-color: #000000;
+  border: 2px solid #37b4ee;
+  background-color: #37b4ee;
   height: 100%;
   display: inline-flex;
   flex-direction: column;
@@ -1415,7 +1415,7 @@ label.es_shortcode_form_email span {
   font-weight: bold;
   font-size: 20px;
   text-align: center;
-  background-color: #000000;
+  background-color: #37b4ee;
   color: #FFFFFF;
   line-height: 50px;
   margin: 0;
@@ -2210,8 +2210,8 @@ input.wpcf7-form-control.wpcf7-submit {
     margin-top: 0;
   }
   .mainbannercontent .gift {
-    border: 2px solid #175d39;
-    background-color: #92b541;
+    border: 2px solid #433a4f;
+    background-color: #9f010f;
     height: 100%;
     display: inline-flex;
     flex-direction: column;
@@ -2222,7 +2222,7 @@ input.wpcf7-form-control.wpcf7-submit {
     font-weight: bold;
     font-size: 25px;
     text-align: center;
-    background-color: #175d39;
+    background-color: #433a4f;
     color: #FFFFFF;
     line-height: 60px;
     margin: 0;
@@ -2240,12 +2240,12 @@ input.wpcf7-form-control.wpcf7-submit {
     font-family: 'Gotham Rounded';
     font-size: 25px;
     text-align: center;
-    color: #FFFFFF;
+    color: #cac811;
     margin: 0;
   }
   .mainbannercontent .mindHack {
-    border: 2px solid #000000;
-    background-color: #000000;
+    border: 2px solid #37b4ee;
+    background-color: #37b4ee;
     height: 100%;
     display: inline-flex;
     flex-direction: column;
@@ -2256,7 +2256,7 @@ input.wpcf7-form-control.wpcf7-submit {
     font-weight: bold;
     font-size: 20px;
     text-align: center;
-    background-color: #000000;
+    background-color: #37b4ee;
     color: #FFFFFF;
     line-height: 60px;
     margin: 0;
@@ -2616,9 +2616,6 @@ input.wpcf7-form-control.wpcf7-submit {
     width: auto;
     margin-left: 10px;
   }
-  #datesContainer h3 {
-    font-size: 48px;
-  }
   /*Social menu*/
   #social li {
     font-size: 20pt;
@@ -2872,10 +2869,10 @@ input.wpcf7-form-control.wpcf7-submit {
     font-size: 40px;
   }
   .mainbannercontent .mindHack {
-    background-color: #060606;
+    background-color: #37b4ee;
   }
   .mainbannercontent .mindHack h3 {
-    background-color: #060606;
+    background-color: #37b4ee;
     font-size: 50px;
     line-height: 85px;
   }
@@ -3282,7 +3279,7 @@ input.wpcf7-form-control.wpcf7-submit {
 }
 
 .news .grid-news-thumb{
-  height: 320px !important;
+  height: 300px !important;
   width: 75%;
   text-align: center;
   margin: 0 auto !important;
@@ -3303,11 +3300,12 @@ input.wpcf7-form-control.wpcf7-submit {
   text-align: justify;
 }
 .news > div > div.news-content > div.post-content-text > div.news-content-excerpt .news-more-link{
-  background-color: #be0211 !important;
+  background-color: #175d39 !important;
+  color: #fff;
+  border: 1px solid #175d39;
 }
 .news > div > div.news-content > div.post-content-text> div.news-content-excerpt .news-more-link:hover{
-  background-color: #be0211 !important;
-  transform: scale(90%);
+  background-color: rgba(23,93,57,0.55) !important;
 }
 
 .news a.visited{
@@ -3318,10 +3316,14 @@ input.wpcf7-form-control.wpcf7-submit {
 .news div > div.news-content > div.date-post > h2 > span{
   background-color: #EA782A;
   width: 70%;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
   display: block;
   margin: 0 auto;
+}
+.news div > div.news-content > div.post-content-text > h3 > a{
+  color: #41424E;
+  font-weight: bold;
 }
 
 
@@ -3329,6 +3331,7 @@ input.wpcf7-form-control.wpcf7-submit {
 .calendar #ai1ec-calendar-view > div.ai1ec-agenda-view > div > div > div{
   background-color:;
   color: #767683;
+  height: 85%;
 }
 .calendar #ai1ec-calendar-view > div.ai1ec-agenda-view > div > div > div > div.ai1ec-event-header > span{
   color: #41424ef0;
@@ -3339,22 +3342,63 @@ input.wpcf7-form-control.wpcf7-submit {
   color: #FFF;
 }
 .calendar div.ai1ec-event-summary-footer > div > a:hover{
-  color: #ffff !important;
+  color: #000 !important;
 }
 .calendar div.ai1ec-event-header > div.ai1ec-event-toggle{
   color: #5a7b9c;
 }
 .calendar  div.timely.ai1ec-calendar-toolbar.ai1ec-clearfix,
 .calendar div.ai1ec-pull-left,
-.calendar #ai1ec-calendar-view > div.ai1ec-clearfix > div.ai1ec-title-buttons.ai1ec-btn-toolbar,
-#mainContainer #ai1ec-container,
-#sidebar_2 .bio{
+#ai1ec-calendar-view > div.ai1ec-clearfix > div.ai1ec-title-buttons.ai1ec-btn-toolbar > div.ai1ec-agenda-buttons.ai1ec-btn-toolbar.ai1ec-pull-right,
+#mainContainer #ai1ec-container, #page > #content > #secondary,
+#ai1ec-calendar > div.ai1ec-subscribe-container.ai1ec-pull-right.ai1ec-btn-group > div > span,
+#sidebar_2 .bio,
+.news  div > div.news-content > div.date-post{
   display: none;
 }
 
 .calendar div.ai1ec-agenda-view a > div.ai1ec-month{
-  background: #be0211;
+  background: #175d39;
 }
 .calendar #ai1ec-calendar-view{
   height: 200px;
 }
+
+.calendar  > div.news-content-excerpt > a:visited{
+  color: #FFFF !important;
+}
+.calendar div.ai1ec-agenda-view > div > a{
+  width: 3em;
+  height: 4em;
+}
+#ai1ec-calendar-view > div.ai1ec-agenda-view > div > a > div.ai1ec-day{
+  padding: 0;
+  padding-top: .32em;
+  font-size: 1.5em;
+}
+
+#main .download{
+  text-align: center;
+}
+#main .download a:hover{
+  background-color: rgba(0, 0, 0, 0.15);
+}
+#main-news header > h1{
+  padding-top: 2rem;
+  text-align: center;
+}
+#main-news div{
+  padding-top: 0;
+}
+#main-news article{
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+ #main-news div > div > div > a.ssba_google_share,  #main-news div > div > div > a.ssba_linkedin_share.ssba_share_link,
+ #main-news div > div > div > span:nth-child(6){
+   display: none;
+ }
+ .calendar div.ai1ec-clearfix > div.ai1ec-title-buttons.ai1ec-btn-toolbar > div.ai1ec-pagination.ai1ec-btn-group a{
+   background-color:
+ }

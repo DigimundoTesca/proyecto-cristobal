@@ -29,12 +29,10 @@ get_header(); ?>
                     <div class="bookdescription">
                       <?php the_excerpt(); ?>
                       <div class="row mt-3">
-                        <div class="col-md-6">
+                        <div class="col-md-12 text-center">
                             <a href="<?php echo esc_url( get_permalink( get_page_by_title( 'Bookdownload' ) ) ); ?>" class="post_button"><?php printf(__('Descarga gratis','cristobalj')) ?></a>
                         </div>
-                        <div class="col-md-6">
-                          <a href="<?php the_permalink(); ?>" class="post_button"><?php printf(__('Ver más','cristobalj')) ?></a>
-                        </div>
+
 
                       </div>
 
