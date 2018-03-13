@@ -5,7 +5,7 @@
 get_header(); ?>
 <span style="font-size: 50px;" class="ir-arriba fa fa-angle-up"></span>
 <div class="row">
-  <div class="col-md-9">
+  <div class="col-md-12 col-lg-8 col-xl-9">
     <div id="primary" class="content-area">
       <main id="main" class="site-main">
         <p class="d-inline-block mt-5 mb-0 h4"><?php printf( __( 'Chose a theme', 'cristobalj' ));?></p>
@@ -34,7 +34,7 @@ get_header(); ?>
           <h3 id="Psicoteatro" class="moretitle">
             <?php
             printf( __( 'My life on ', 'cristobalj' ));
-            printf(__('<span class="morecolor" > the Psicoteatro</span>', 'cristobalj' ));
+            printf(__('<br><span class="morecolor" > the Psicoteatro</span>', 'cristobalj' ));
             ?>
           </h3>
           <?php printf(__("<p>The PsicoTeatro is an open and free space, but also very respectful and safe. A place and a time where you learn things that are very important for yourself and for others, as well as the ideal place to play and express yourself without any specific objective. It is an experience: a living centered on the here and now. But it is also pure perception and feeling. Occasion to lie down and just focus on how you feel and chance to create without brakes, build an I that you like more or draw new realities. A session where it is forbidden to judge and where no one is wrong. It comes to try, to experiment, to discover, to enjoy and with it, working with oneself, to grow !!<br> It is an opportunity to forget the problems, because they are also solved when you invest and work in your well-being, in the development of the skills, in learning of yourself, in the relationship with your emotions, in integrating all the parts of your person, in short, when you allow yourself WALK TO YOUR HAPPINESS.</p>", 'cristobalj' )); ?>
@@ -42,8 +42,8 @@ get_header(); ?>
         <div id="mainContainer" class="more">
           <h3 id="Psicochamanismo" class="moretitle">
             <?php
-            printf( __( 'My life on ', 'cristobalj' ));
-            printf(__('<span class="morecolor" > the Psicochamanismo</span>', 'cristobalj' ));
+            printf( __( 'My life on', 'cristobalj' ));
+            printf(__('<br><span class="morecolor" > the Psicochamanismo</span>', 'cristobalj' ));
             ?>
           </h3>
           <?php printf(__("<p>At an archaic level, the human being responds to an innate instinct of family conservation. He is scheduled to fight for the survival of his clan. For the archaic brain an idea, an emotional structure, a prohibition, an order or a belief, may be the metaphor of an ancestor. That is why it is so difficult for us to shed all those aspects that prevent us from growing, since this could represent the murder of a member (or of all) our species. This is how we keep alive ideas, memories, phantasms, morals, behavioral structures, and ideologies that come from the genealogical lineage.</p>", 'cristobalj' )); ?>
@@ -63,7 +63,7 @@ get_header(); ?>
           <h3 id="Psicomagic" class="moretitle">
             <?php
             printf( __( 'My life on ', 'cristobalj' ));
-            printf(__('<span class="morecolor" > the Psicomagia</span>', 'cristobalj' ));
+            printf(__('<br><span class="morecolor" > La Psicomagia</span>', 'cristobalj' ));
             ?>
           </h3>
           <?php printf(__("<p>Psychomagia is a form of ultra advanced therapy. It is a response to psychoanalysis. Psychomagia proposes to cure something by acts that speak directly to the unconscious. I use all the shamanic tradition of witchcraft and Mexican healers, but without superstition. A psychomagic act is like giving a loving kick in the ass to reality. This impulse you give her, surprisingly, makes her leave the inertia and begin to dance.</p>", 'cristobalj' )); ?>
@@ -102,17 +102,21 @@ get_header(); ?>
             printf(__('<span class="morecolor" >Metagenealogia</span>', 'cristobalj' ));
             ?>
           </h3>
-          <?php printf(__("<p>The forces of repetition and creation in their endless dynamic impel us both to repeat the same and to yield to what we are authentically. Individuals, at the same time, can have a positive and a negative vision from their great-grandparents, grandparents and parents, thus converting each relative into a double entity: one luminous and the other obscure. Two energy fields that, despite opposing, are complementary. In the present time, the spirit that materializes adjoins the matter that is spiritualized, the supraconscious with the unconscious, the attempt to realize the future with the intent to repeat the past, the essential being with the socio-cultural being, the desire to create with the desire to imitate. To the study of the genealogical tree under its simultaneous and complementary aspects, treasure and trap, I have called it Metagenealogy.</p>
-          <p>Alejandro Jodorowsky (creator of Metagenalogy)</p>
+          <?php printf(__('<p>The forces of repetition and creation in their endless dynamic impel us both to repeat the same and to yield to what we are authentically. Individuals, at the same time, can have a positive and a negative vision from their great-grandparents, grandparents and parents, thus converting each relative into a double entity: one luminous and the other obscure. Two energy fields that, despite opposing, are complementary. In the present time, the spirit that materializes adjoins the matter that is spiritualized, the supraconscious with the unconscious, the attempt to realize the future with the intent to repeat the past, the essential being with the socio-cultural being, the desire to create with the desire to imitate. To the study of the genealogical tree under its simultaneous and complementary aspects, treasure and trap, I have called it Metagenealogy.</p>
+          <p class="text-right">Alejandro Jodorowsky (creator of Metagenalogy)</p> </p>', 'cristobalj' )); ?>
 
-          <p>Metagenealogy is a method of analysis of the genealogical tree that allows to expand the vision of its psychic dimension. This makes us understand to what extent what we think, feel, desire or live, as well as our conflicts and illnesses can be the result of a family, social, historical or patriarchal educational waste. The metagenealogy reveals a system of repetitions of dates, illnesses, births, deaths, accidents and names. All these are maps that are traversed and transmitted from generation to generation until they reach us with the precision of a clock. We tend to identify ourselves and be faithful to our relatives, to the point that it can be painful, paralyzing and self destructive. At the same time, these characters - to whom we maintain loyalty - imitated other figures of the past, forming a hereditary chain of prisons. Revealing the dynamics of the clan allows us to understand what inhibits within us the possibility of living, creating, being and loving from the essential being. On the other hand, it is essential to accept that everything is perfect and that the genealogy is a perfect spiritual process in action, that is never wrong, that has its laws and orders and that everything always has its raison d'etre, although we do not always like it or we agree One does not work to repair something that 'should not' have been, but rather to accept it as it was and integrate it from the soul. Very often, after a genealogical analysis, Cristobal prepares a family psychic or psychomagnetic constellation, where he invites a group to dramatize the situations seen and re-align them with the current of life.
-          <br>Tarot For Carl Gustav Jung, the archetypes are innate energies common to all human beings, which are transmitted through myths or appear in dreams, stories, legends, rituals and works of art. They would be the organs of our psychological organism that, collaborating, allow our transformative alchemical process to take place. In the Tarot, the archetypes can act as patterns of behavior when the individual needs to solve an existential difficulty. The 78 arcana of the Tarot are archetypes with infinite interpretations, where each one has a multitude of aspects. However, the drawing of the letter will be only a mask. It becomes the key that, if you know how to interpret and integrate it, will activate the allied dimension of the archetype. For this, Cristóbal Jodorowsky uses the arcana of the Tarot as doors to contact with universal energies in himself. These doors, when activated, allow a profound change in the psyche, so that our soul expresses itself in all freedom.
+          <?php printf(__('<p class="oculto" >
+          La metagenealogía es un método de análisis del árbol genealógico que permite expandir la visión de su dimensión psíquica. Esto nos hace comprender hasta qué punto aquello que pensamos, sentimos, deseamos o vivimos, así como nuestros conflictos y enfermedades pueden ser el resultado de un pasado familiar, social, histórico o de residuos educativos patriarcales.
+          <br>La metagenealogía pone al descubierto un sistema de repeticiones de fechas, enfermedades, nacimientos, muertes, accidentes y nombres.  Todos éstos son mapas que se recorren y transmiten de generación en generación hasta llegar a nosotros con la precisión de un reloj.   Tendemos a identificarnos y ser fieles a nuestros familiares, hasta tal punto que puede resultarnos doloroso, paralizante y auto destructivo.
+          A la vez, estos personajes – a quienes guardamos lealtad – imitaron a otras figuras del pasado, formando una cadena hereditaria de prisiones.  Revelar las dinámicas del clan permite comprender lo que inhibe dentro de nosotros la posibilidad de vivir, crear, ser y amar a partir del ser esencial.
+          <br>Por otro lado, es fundamental aceptar que todo es perfecto y que la genealogía es un proceso espiritual perfecto en acción, que nunca se equivoca, que tiene sus leyes y órdenes y que todo siempre tiene su razón de ser, aunque no siempre nos guste o estemos de acuerdo. Uno no trabaja para reparar algo que no “debió” haber sido, sino, más bien para aceptarlo como fue e integrarlo desde el alma.
 
-          <br>In ancient cultures there were 'cuts' of gods that in the background could be dimensions of our own mind. Cristóbal's work with the Tarot is to awaken the courts of gods or inner archetypes of each being, using the arcana as a therapeutic tool that allows us to get in touch with our inner world and observe our acquired patterns of behavior, in order to create an internal structure of reference. The Tarot allows us to interpret the human psyche and the different dimensions of our consciousness. Thanks to its symbolic nature, we can see reflected our deeper reality in the arcane, a situation that will help us focus reality from another angle, and integrate life difficulties, sorrows and pain more easily. The Tarot can also be a spectacular representation of our inner family, a mirror of our intimate world that reflects our knots and genealogical burdens, conflicts or complex relationships with parents, grandparents, brothers and other relatives of the present or the past. It also reflects our neurotic repetitions, the cycles in which we are trapped, the mechanisms by which we become ill ... All this, in one direction: the encounter with the deepest of our Essential Being.  Even though the Tarot is an instrument that communicates us with the unconscious dimension. Cristobal thinks that when one chooses a letter it is the supra-conscious dimension (that knows everything) that chooses it in us to help us unveil what the ego is not always willing to see for fear of changing the frame of reference and mutate.
-          </p>", 'cristobalj' )); ?>
-          <img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt="">
+          Muy a menudo, después de un análisis genealógico Cristobal prepara un Psicoritual familiar o constelación psicomágica, en dónde invita a un grupo a teatralizar las situaciones vistas y re alinearlas con la corriente de la vida.
+          </p>', 'cristobalj' )); ?>
+          <button class="btn btn-danger text-left">Leer más</button>
+          <img class="mt-3"src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt="">
         </div>
-        <div id="mainContainer" class="more">
+        <div id="mainContainer" class="more"><br>
           <h3 id="Investigation" class="moretitle">
             <?php
             printf(__('<span class="morecolor" >Investigation</span>', 'cristobalj' ));
@@ -169,15 +173,6 @@ get_header(); ?>
           <img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt="">
         </div>
         <div id="mainContainer" class="more">
-          <h3 id="Press" class="moretitle">
-            <?php
-            printf(__('<span class="morecolor" >Press</span>', 'cristobalj' ));
-            ?>
-          </h3>
-          <?php printf(__("<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta voluptates id officiis consequatur iste magnam quibusdam eos repellat qui facilis?</p>", 'cristobalj' )); ?>
-          <img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt="">
-        </div>
-        <div id="mainContainer" class="more">
           <h3 id="Travels" class="moretitle">
             <?php
             printf(__('<span class="morecolor" >Travels</span>', 'cristobalj' ));
@@ -190,9 +185,8 @@ get_header(); ?>
         </div>
       </main><!-- #main -->
     </div><!-- #primary -->
-
   </div>
-  <div id="sidebar_2" class="col-md-3 text-center">
+  <div id="sidebar_2" class="col-md-12 col-lg-4 col-xl-3 text-center">
     <?php get_template_part('agenda'); ?>
     <iframe class="morevideo mt-2" width="100%" src="https://www.youtube.com/embed/F8FBxAGIlpY">
     </iframe>

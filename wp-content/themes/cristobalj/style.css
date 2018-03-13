@@ -1486,7 +1486,7 @@ label.es_shortcode_form_email span {
 }
 .morevideo {
   width: 100%;
-  height: 100px;
+  height: 200px;
 }
 #mainContainer.more p {
   text-align : justify;
@@ -2654,9 +2654,9 @@ input.wpcf7-form-control.wpcf7-submit {
     margin: 0 3%;
   }
   .morevideo {
-    width: 80%;
+    width: 100%;
     height: 200px;
-    margin: 0 10%;
+    margin: 0 auto;
     margin-bottom: 50px;
   }
   #moreQuote {
@@ -2878,6 +2878,10 @@ input.wpcf7-form-control.wpcf7-submit {
   }
   .mainbannercontent .mindHack p {
     font-size: 50px;
+  }
+  /*News Feed*/
+  .news .grid-news-thumb{
+    height: 450px !important;
   }
   /*Dates container styles*/
   #datesContainer {
@@ -3145,9 +3149,10 @@ input.wpcf7-form-control.wpcf7-submit {
     margin: 0 3%;
   }
   .morevideo {
-    width: 80%;
-    height: 900px;
-    margin: 0 10%;
+    width: 100%;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
     margin-bottom: 50px;
   }
   /*Styles for metamundo page*/
@@ -3279,7 +3284,7 @@ input.wpcf7-form-control.wpcf7-submit {
 }
 
 .news .grid-news-thumb{
-  height: 300px !important;
+  height: 150px;
   width: 75%;
   text-align: center;
   margin: 0 auto !important;
@@ -3325,9 +3330,34 @@ input.wpcf7-form-control.wpcf7-submit {
   color: #41424E;
   font-weight: bold;
 }
+/*template post news*/
+#main-news header > h1{
+  text-align: center;
+  color: #37b4ee;
+}
+#main-news div{
+  padding-top: 0;
+}
+#main-news #post_new{
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+ #main-news div > div > div > a.ssba_google_share,  #main-news div > div > div > a.ssba_linkedin_share.ssba_share_link,
+ #main-news div > div > div > span, #comments{
+   display: none;
+ }
+#post_new {
+  padding: 3em;
+  background: #f3f3f3;
+}
+#post_new article p{
+  color: #727888;
+}
 
-
-/*Eventos*/
+/**************
+    Eventos
+**************/
 .calendar #ai1ec-calendar-view > div.ai1ec-agenda-view > div > div > div{
   background-color:;
   color: #767683;
@@ -3352,8 +3382,7 @@ input.wpcf7-form-control.wpcf7-submit {
 #ai1ec-calendar-view > div.ai1ec-clearfix > div.ai1ec-title-buttons.ai1ec-btn-toolbar > div.ai1ec-agenda-buttons.ai1ec-btn-toolbar.ai1ec-pull-right,
 #mainContainer #ai1ec-container, #page > #content > #secondary,
 #ai1ec-calendar > div.ai1ec-subscribe-container.ai1ec-pull-right.ai1ec-btn-group > div > span,
-#sidebar_2 .bio,
-.news  div > div.news-content > div.date-post{
+#sidebar_2 .bio, div.date-post{
   display: none;
 }
 
@@ -3376,29 +3405,67 @@ input.wpcf7-form-control.wpcf7-submit {
   padding-top: .32em;
   font-size: 1.5em;
 }
+.calendar div.ai1ec-clearfix > div.ai1ec-title-buttons.ai1ec-btn-toolbar > div.ai1ec-pagination.ai1ec-btn-group a{
+   background-color:
+ }
+.thumbnail img{
+  margin-top: 2rem;
+  width: 60%;
+}
 
-#main .download{
-  text-align: center;
-}
-#main .download a:hover{
-  background-color: rgba(0, 0, 0, 0.15);
-}
-#main-news header > h1{
-  padding-top: 2rem;
-  text-align: center;
-}
-#main-news div{
-  padding-top: 0;
-}
-#main-news article{
-  width: 80%;
+#main article > div{
+  width: 90%;
+  padding: 3em;
+  background: #f1f1f1;
   display: block;
   margin: 0 auto;
 }
- #main-news div > div > div > a.ssba_google_share,  #main-news div > div > div > a.ssba_linkedin_share.ssba_share_link,
- #main-news div > div > div > span:nth-child(6){
-   display: none;
+#main article > div > div{
+  padding: 2em;
+  background: #f9f9f9;
+}
+#main article > div > p{
+  color: #727888;
+  padding: 1em;
+}
+#main h1{
+  text-align: center;
+  margin-top: .5em;
+  color: #767583;
+  font-weight: 700;
+}
+/*saber más */
+#mainContainer h3 span{
+  text-align: center;
+}
+/*videos*/
+.video_container video{
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+.video_container #metamundo{
+  width: 100%;
+}
+@media (min-width: 1025px) and (max-width: 1366px){
+  .thumbnail img{
+    margin-top: 2rem;
+    width: 40%;
+  }
+  .news .grid-news-thumb{
+    height: 300px !important;
+  }
+}
+ @media screen and (min-width: 768px) and (max-width: 1023px){
+   .morevideo {
+     width: 80%;
+     height: 400px;
+   }
  }
- .calendar div.ai1ec-clearfix > div.ai1ec-title-buttons.ai1ec-btn-toolbar > div.ai1ec-pagination.ai1ec-btn-group a{
-   background-color:
+ @media screen and (min-width: 768px) and (max-width: 1024px){
+   .morevideo{
+     width: 100%;
+     height: 200px;
+   }
  }

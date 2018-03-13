@@ -4,7 +4,7 @@
 
 get_header(); ?>
 <div class="row">
-  <div class="col-md-9">
+  <div class="col-md-12 col-lg-8 col-xl-9">
     <div id="primary" class="content-area">
       <main id="main" class="site-main">
         <?php while (have_posts()): the_post(); ?>
@@ -32,11 +32,7 @@ get_header(); ?>
                         <div class="col-md-12 text-center">
                             <a href="<?php echo esc_url( get_permalink( get_page_by_title( 'Bookdownload' ) ) ); ?>" class="post_button"><?php printf(__('Descarga gratis','cristobalj')) ?></a>
                         </div>
-
-
                       </div>
-
-
                     </div>
                   </div>
                 </div>
@@ -49,7 +45,7 @@ get_header(); ?>
       </main><!-- #main -->
     </div><!-- #primary -->
   </div>
-  <div id="sidebar_2" class="col-md-3 text-center">
+  <div id="sidebar_2" class="col-md-12 col-lg-4 col-xl-3 text-center">
     <?php get_template_part('agenda');  ?>
   </div>
 
