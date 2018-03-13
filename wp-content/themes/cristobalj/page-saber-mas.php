@@ -59,7 +59,7 @@ get_header(); ?>
             <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/9.jpg" alt=""></li>
           </ul>
         </div>
-        <div id="mainContainer" class="more">
+        <div id="mainContainer" class="more"><br>
           <h3 id="Psicomagic" class="moretitle">
             <?php
             printf( __( 'My life on ', 'cristobalj' ));
@@ -138,7 +138,7 @@ get_header(); ?>
           </p>", 'cristobalj' )); ?>
           <img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt="">
         </div>
-        <div id="mainContainer" class="more">
+        <div id="mainContainer" class="more"><br>
           <h3 id="Colectiva" class="moretitle">
             <?php
             printf(__('<span class="morecolor" >Psicomagia Colectiva</span>', 'cristobalj' ));

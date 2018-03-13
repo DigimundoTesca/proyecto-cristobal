@@ -43,7 +43,7 @@ get_header(); ?>
     <div class="row">
       <div class="col-md-8 col-lg-9 order-first d-flex justify-content-center">
         <div class="">
-          <h1 class="text-center">Ultimas Noticias</h1>
+          <h1 class="text-center">Últimas Noticias</h1>
           <?php while (have_posts()): the_post(); ?>
             <?php the_content(); ?>
           <?php endwhile ?>
