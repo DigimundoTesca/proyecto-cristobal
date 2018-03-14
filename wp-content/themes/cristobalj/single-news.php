@@ -14,7 +14,7 @@ get_header(); ?>
           the_post_thumbnail();
            ?>
         </div>
-        <div class="text-center">
+        <div class="text-center" id="date">
           <?php echo the_time('d'); ?>
           <span><?php the_time('M'); ?></span>
           <?php echo the_time('g:i a'); ?>

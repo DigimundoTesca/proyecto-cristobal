@@ -37,6 +37,14 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
+@font-face {
+  font-family: "ACaslonPro-regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url('tipografia');
+}
+
+
 body,
 button,
 input,
@@ -2431,9 +2439,6 @@ input.wpcf7-form-control.wpcf7-submit {
 
 }
 
-
-
-
 @media screen and (min-width: 1024px) {
   /*Main page styles*/
   #mainpage {
@@ -2561,7 +2566,6 @@ input.wpcf7-form-control.wpcf7-submit {
     right: 20px;
     width: 25%;
   }
-
 }
 /*Desktop styles*/
 @media screen and (min-width: 1200px) {
@@ -2758,13 +2762,28 @@ input.wpcf7-form-control.wpcf7-submit {
   }
   }
 
-
-
-
 /*4k styles*/
 @media screen and (min-width: 2000px) {
   #page {
     max-width: 2500px;
+  }
+  .post-content-text{
+    font-size: 25px;
+  }
+  .news .news-title a{
+    font-size: 30px;
+  }
+  .entry-content p {
+    font-size: 25px;
+  }
+  #date {
+    font-size: 2rem;
+  }
+  #datesContainer {
+      height: 450px;
+  }
+  .moretitle {
+    text-align: center;
   }
   .site-title {
     font-size: 50px;
@@ -2941,6 +2960,7 @@ input.wpcf7-form-control.wpcf7-submit {
     max-width: 2300px;
   }
   #mainContainer h3 {
+    text-align: center;
     max-width: 2000px;
     font-size: 60px;
     line-height: 80px;
@@ -2992,10 +3012,7 @@ input.wpcf7-form-control.wpcf7-submit {
   .rslides {
     max-height: 800px;
   }
-  /*Prezi embed styles*/
-  #prezi-viewer {
-    margin: auto;
-  }
+
   #iframe_container {
     width: 80%;
     height: 1000px;
@@ -3142,7 +3159,7 @@ input.wpcf7-form-control.wpcf7-submit {
   }
   .morevideo {
     width: 100%;
-    height: 300px;
+    height: 360px;
     display: block;
     margin: 0 auto;
     margin-bottom: 50px;

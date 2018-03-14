@@ -33,8 +33,7 @@ get_header(); ?>
         <div id="mainContainer" class="more mt-5">
           <h3 id="Psicoteatro" class="moretitle">
             <?php
-            printf( __( 'My life on ', 'cristobalj' ));
-            printf(__('<br><span class="morecolor" > the Psicoteatro</span>', 'cristobalj' ));
+            printf(__('<span class="morecolor" >Psicoteatro</span>', 'cristobalj' ));
             ?>
           </h3>
           <?php printf(__("<p>The PsicoTeatro is an open and free space, but also very respectful and safe. A place and a time where you learn things that are very important for yourself and for others, as well as the ideal place to play and express yourself without any specific objective. It is an experience: a living centered on the here and now. But it is also pure perception and feeling. Occasion to lie down and just focus on how you feel and chance to create without brakes, build an I that you like more or draw new realities. A session where it is forbidden to judge and where no one is wrong. It comes to try, to experiment, to discover, to enjoy and with it, working with oneself, to grow !!<br> It is an opportunity to forget the problems, because they are also solved when you invest and work in your well-being, in the development of the skills, in learning of yourself, in the relationship with your emotions, in integrating all the parts of your person, in short, when you allow yourself WALK TO YOUR HAPPINESS.</p>", 'cristobalj' )); ?>
@@ -42,8 +41,7 @@ get_header(); ?>
         <div id="mainContainer" class="more">
           <h3 id="Psicochamanismo" class="moretitle">
             <?php
-            printf( __( 'My life on', 'cristobalj' ));
-            printf(__('<br><span class="morecolor" > the Psicochamanismo</span>', 'cristobalj' ));
+            printf(__('<span class="morecolor"> Psicochamanismo</span>', 'cristobalj' ));
             ?>
           </h3>
           <?php printf(__("<p>At an archaic level, the human being responds to an innate instinct of family conservation. He is scheduled to fight for the survival of his clan. For the archaic brain an idea, an emotional structure, a prohibition, an order or a belief, may be the metaphor of an ancestor. That is why it is so difficult for us to shed all those aspects that prevent us from growing, since this could represent the murder of a member (or of all) our species. This is how we keep alive ideas, memories, phantasms, morals, behavioral structures, and ideologies that come from the genealogical lineage.</p>", 'cristobalj' )); ?>
@@ -62,8 +60,7 @@ get_header(); ?>
         <div id="mainContainer" class="more"><br>
           <h3 id="Psicomagic" class="moretitle">
             <?php
-            printf( __( 'My life on ', 'cristobalj' ));
-            printf(__('<br><span class="morecolor" > La Psicomagia</span>', 'cristobalj' ));
+            printf(__('<span class="morecolor" > Psicomagia</span>', 'cristobalj' ));
             ?>
           </h3>
           <?php printf(__("<p>Psychomagia is a form of ultra advanced therapy. It is a response to psychoanalysis. Psychomagia proposes to cure something by acts that speak directly to the unconscious. I use all the shamanic tradition of witchcraft and Mexican healers, but without superstition. A psychomagic act is like giving a loving kick in the ass to reality. This impulse you give her, surprisingly, makes her leave the inertia and begin to dance.</p>", 'cristobalj' )); ?>
@@ -123,19 +120,6 @@ get_header(); ?>
             ?>
           </h3>
           <?php printf(__("<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex laborum sequi provident, aliquid eaque atque est dolore mollitia unde, omnis.</p>", 'cristobalj' )); ?>
-          <img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt="">
-        </div>
-        <div id="mainContainer" class="more">
-          <h3 id="Psicomagic" class="moretitle">
-            <?php
-            printf(__('<span class="morecolor" >Psicomagic</span>', 'cristobalj' ));
-            ?>
-          </h3>
-          <?php printf(__("<p>Psychomagic is the therapeutic technique, initiated by Alejandro Jodorowsky, who combines shamanism, folk magic, psychology, intuition, mysticism, oriental philosophy, art, with a healing purpose. Psychomagia is a healing practice that acts through the symbol, metaphor and beauty, essentially with the language of dreams. By not considering the unconscious dimension as an enemy and losing the fear of seeing oneself, one can discover the traumas that cause suffering. However, even if one knows what happens to him and why, he is not entirely free of pain. Psychomagia does not pretend - like psychoanalysis - to heal through the word by converting the messages that the unconscious dimension sends into a rational discourse, but to teach the rational to handle unconscious language.
-          <br>The processes of our brain are more symbolic and analogical than logical. For him, a photograph not only represents the person portrayed, but is herself. Consider a part as the whole, project people who populate their memory about real beings or things. In the psychomagy the client is proposed concrete actions, to perform a symbolic act that, in some way, will restore his memory and allow him to perform the unrealizable.
-
-          <br>However, to ensure that the act gives an optimal result, the consultant must first free himself from the morality imposed by his family, society and culture. If you do so, for example, without fear, you can paste a photograph of your father on two watermelons and you can blow them up. Its unconscious dimension will take for granted murder and castration. The consultant will feel more free. That which frightens us loses strength the moment we stop fighting it or moving it away from the mind to integrate it through a psychomagic act that helps us to awaken and make life a lucid dream full of consciousness. It is not enough to understand the reason for a conflict; we must act on it, give it an outlet to the impulse, to the repetitive behavior that makes our existence difficult. This is how psychomagia was created, psychochamanism and, later, the psychroritual.
-          </p>", 'cristobalj' )); ?>
           <img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt="">
         </div>
         <div id="mainContainer" class="more"><br>
