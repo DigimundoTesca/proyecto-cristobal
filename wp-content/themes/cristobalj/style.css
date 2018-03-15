@@ -1323,10 +1323,9 @@ label.es_shortcode_form_email span {
   background-color: #d39b00;
 }
 #datesContainer h4 {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: normal;
-  padding-left: 10px;
-  margin: 0;
+  margin: 0 auto;
 }
 .mainbannercontent a,
 .mainbannercontent a:hover {
@@ -2779,11 +2778,14 @@ input.wpcf7-form-control.wpcf7-submit {
   .entry-content p {
     font-size: 25px;
   }
+  .calendar div.ai1ec-event-time{
+    font-size: 18px !important;
+  }
   #date {
     font-size: 2rem;
   }
   #datesContainer {
-      height: 450px;
+      height: 850px;
   }
   .moretitle {
     text-align: center;
@@ -3488,6 +3490,18 @@ input.wpcf7-form-control.wpcf7-submit {
   .news .grid-news-thumb{
     height: 300px !important;
   }
+  .calendar .ai1ec-event-title {
+    font-size: 12px !important;
+  }
+  #datesContainer {
+    height: 600px;
+  }
+  .calendar div.ai1ec-event-time{
+    font-size: 11px !important;
+  }
+  .bookdescription p{
+    font-size: 18px;
+  }
 }
  @media screen and (min-width: 768px) and (max-width: 1023px){
    .morevideo {
@@ -3530,4 +3544,8 @@ input.wpcf7-form-control.wpcf7-submit {
      width: 100%;
      margin: 0;
    }
+ }
+
+ p {
+   font-family: "ACaslonPro-regular" !important;
  }
