@@ -57,7 +57,7 @@ get_header(); ?>
             <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/9.jpg" alt=""></li>
           </ul>
         </div>
-        <div id="mainContainer" class="more"><br>
+        <div id="mainContainer" class="more">
           <h3 id="Psicomagic" class="moretitle">
             <?php
             printf(__('<span class="morecolor" > Psicomagia</span>', 'cristobalj' ));
@@ -138,7 +138,7 @@ get_header(); ?>
           </p>", 'cristobalj' )); ?>
           <img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt="">
         </div>
-        <div id="mainContainer" class="more">
+        <div id="mainContainer" class="more"><br>
           <h3 id="Tarot" class="moretitle">
             <?php
             printf(__('<span class="morecolor" >Tarot</span>', 'cristobalj' ));
@@ -156,7 +156,7 @@ get_header(); ?>
            <br>Even though the Tarot is an instrument that communicates us with the unconscious dimension. Cristobal thinks that when one chooses a letter it is the supra-conscious dimension (that knows everything) that chooses it in us to help us unveil what the ego is not always willing to see for fear of changing the frame of reference and mutate.</p>", 'cristobalj' )); ?>
           <img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt="">
         </div>
-        <div id="mainContainer" class="more">
+        <div id="mainContainer" class="more"><br>
           <h3 id="Travels" class="moretitle">
             <?php
             printf(__('<span class="morecolor" >Travels</span>', 'cristobalj' ));

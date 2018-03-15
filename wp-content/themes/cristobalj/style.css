@@ -38,7 +38,7 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
 # Typography
 --------------------------------------------------------------*/
 @font-face {
-  font-family: "ACaslonPro-regular";
+  font-family: "ACaslonPro-Semibold";
   font-style: normal;
   font-weight: normal;
   src: url('tipografia');
@@ -1251,6 +1251,7 @@ label.es_shortcode_form_email span {
   text-align: center;
 }
 #mainContainer h3 {
+  font-family: "ACaslonPro-Semibold";
   font-size: 23px;
   margin: 0;
   padding: 0;
@@ -1497,6 +1498,7 @@ label.es_shortcode_form_email span {
   height: 200px;
 }
 #mainContainer.more p {
+  font-family: "ACaslonPro-regular";
   text-align : justify;
   margin: 3% 0;
   word-spacing: 5px;
@@ -2452,6 +2454,7 @@ input.wpcf7-form-control.wpcf7-submit {
     width: min-content;
   }
   #mainContainer h3 {
+    font-family: "ACaslonPro-Semibold";
     max-width: 1000px;
     margin: 0;
     font-size: 50px;
@@ -2785,6 +2788,12 @@ input.wpcf7-form-control.wpcf7-submit {
   .moretitle {
     text-align: center;
   }
+  .calendar .ai1ec-event-title {
+    font-size: 25px !important;
+  }
+  .timely p {
+    font-size: 20px !important;
+  }
   .site-title {
     font-size: 50px;
     line-height: 65px;
@@ -2895,7 +2904,7 @@ input.wpcf7-form-control.wpcf7-submit {
   }
   /*News Feed*/
   .news .grid-news-thumb{
-    height: 450px !important;
+    height: 550px !important;
   }
   /*Dates container styles*/
   #datesContainer {
@@ -2960,6 +2969,7 @@ input.wpcf7-form-control.wpcf7-submit {
     max-width: 2300px;
   }
   #mainContainer h3 {
+    font-family: "ACaslonPro-Semibold";
     text-align: center;
     max-width: 2000px;
     font-size: 60px;
@@ -3140,6 +3150,7 @@ input.wpcf7-form-control.wpcf7-submit {
     font-size: 35px;
   }
   #mainContainer.more p {
+    font-family: "ACaslonPro-regular";
     font-size: 30px;
     text-align: justify;
   }
@@ -3514,5 +3525,9 @@ input.wpcf7-form-control.wpcf7-submit {
    #main article > div {
      width: 100%;
      padding: 1rem;
+   }
+   .post-content-text{
+     width: 100%;
+     margin: 0;
    }
  }

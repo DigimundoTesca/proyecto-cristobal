@@ -33,7 +33,7 @@ jQuery(document).ready(function(){
       }
     }
   }
-  // Add text to more information buttons on agenda 
+  // Add text to more information buttons on agenda
   let eventbutton = document.getElementsByClassName('event-button');
   let eventbuy = document.getElementsByClassName('event-buy');
   let k = 0;
@@ -130,7 +130,7 @@ jQuery(document).ready(function(){
 
   // Moddify footer width
   (function($) {
-    if(document.getElementById('datesContainer')){ 
+    if(document.getElementById('datesContainer')){
       let datewidth = document.getElementById('datesContainer').offsetWidth;
       let circlewidth = document.getElementById('circles');
 
@@ -154,23 +154,23 @@ jQuery(document).ready(function(){
     $(".rslides").responsiveSlides({
       auto: true,
       speed: 500,
-      timeout: 2500, 
+      timeout: 2500,
     });
     // Sliders on knowmore page
     $("#chamanslides").responsiveSlides({
       auto: true,
       speed: 500,
-      timeout: 2500, 
+      timeout: 2500,
     });
     $("#magicslides").responsiveSlides({
       auto: true,
       speed: 500,
-      timeout: 2500, 
+      timeout: 2500,
     });
     $("#theaterslides").responsiveSlides({
       auto: true,
       speed: 500,
-      timeout: 2500, 
+      timeout: 2500,
     });
   })(jQuery);
 
@@ -267,8 +267,8 @@ jQuery(document).ready(function(){
     .click(function(event) {
       // On-page links
       if (
-        location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
-        && 
+        location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+        &&
         location.hostname == this.hostname
         ) {
         // Figure out element to scroll to
@@ -318,4 +318,4 @@ jQuery(document).ready(function(){
   })(jQuery);
 
 
-}); 
+});
