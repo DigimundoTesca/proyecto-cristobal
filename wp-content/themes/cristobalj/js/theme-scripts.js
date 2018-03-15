@@ -33,6 +33,12 @@ jQuery(document).ready(function(){
       }
     }
   }
+  //Change-link
+
+  if (window.location.pathname == '/Cristobal/it/libros/') {
+    history.pushState(null, "", "/Cristobal/it/libri/");
+  }
+
   // Add text to more information buttons on agenda
   let eventbutton = document.getElementsByClassName('event-button');
   let eventbuy = document.getElementsByClassName('event-buy');
