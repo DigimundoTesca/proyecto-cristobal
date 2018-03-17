@@ -2752,6 +2752,13 @@ input.wpcf7-form-control.wpcf7-submit {
     text-decoration: none;
     color: #FFF;
     padding: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-size: 30px;
+  }
+  .post-content-text {
+    width: 100%;
+    margin: 0 auto !important;
   }
   /*Hide language menu*/
   #langbar {
@@ -2781,6 +2788,9 @@ input.wpcf7-form-control.wpcf7-submit {
   .calendar div.ai1ec-event-time{
     font-size: 18px !important;
   }
+  #mainContainer > div.bio {
+    font-size: 2rem;
+  }
   #date {
     font-size: 2rem;
   }
@@ -2791,7 +2801,7 @@ input.wpcf7-form-control.wpcf7-submit {
     text-align: center;
   }
   .calendar .ai1ec-event-title {
-    font-size: 25px !important;
+    font-size: 22px !important;
   }
   .timely p {
     font-size: 20px !important;
@@ -3546,6 +3556,10 @@ input.wpcf7-form-control.wpcf7-submit {
    }
  }
 
- p {
+ p, .news-short-content {
    font-family: "ACaslonPro-regular" !important;
  }
+.bigkmoreContainer a,
+#main h1, .news .news-title a {
+  font-family: "ACaslon-Pro-Bold";
+}

@@ -38,6 +38,10 @@ jQuery(document).ready(function(){
   if (window.location.pathname == '/Cristobal/it/libros/') {
     history.pushState(null, "", "/Cristobal/it/libri/");
   }
+  else if(window.location.pathname == '/Cristobal/it/saber-mas/') {
+    history.pushState(null, "", "/Cristobal/it/ulteriori-informazioni/");
+  }
+  
 
   // Add text to more information buttons on agenda
   let eventbutton = document.getElementsByClassName('event-button');

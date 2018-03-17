@@ -13,7 +13,7 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title><?php bloginfo(name); ?></title>
+  <title><?php bloginfo('name'); ?></title>
   <!-- Icons -->
   <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" type="icon/x-icon" />
   <link rel="apple-touch-icon" href="icon/apple-touch-icon.png" />
@@ -33,6 +33,7 @@
   <meta name="author" content="Digimundo Technologies" />
 
 	<?php wp_head(); ?>
+
 </head>
 
 <body <?php body_class(); ?>>
