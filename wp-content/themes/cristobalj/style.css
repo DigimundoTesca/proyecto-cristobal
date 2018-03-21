@@ -3560,6 +3560,6 @@ input.wpcf7-form-control.wpcf7-submit {
    font-family: "ACaslonPro-regular" !important;
  }
 .bigkmoreContainer a,
-#main h1, .news .news-title a {
+#main h1, .news .news-title a,  header > h1 {
   font-family: "ACaslon-Pro-Bold";
 }
