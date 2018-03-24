@@ -11,7 +11,7 @@
 <html <?php language_attributes(); ?>>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title><?php bloginfo('name'); ?></title>
   <!-- Icons -->
@@ -28,7 +28,7 @@
   <!-- Settings -->
 	<link rel="stylesheet" href="https://platform.twitter.com/css/timeline.b7949fc5ae6443c45d48eb17624f02ee.light.ltr.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-  <meta name="description" content="<?php bloginfo(description); ?>" />
+  <meta name="description" content="<?php bloginfo('description'); ?>" />
   <meta name="keywords" content="Cristobal Jodorowsky, metamundo, psicochamanismo, metagenealogia,agenda" />
   <meta name="author" content="Digimundo Technologies" />
 

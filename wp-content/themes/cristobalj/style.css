@@ -2773,14 +2773,47 @@ input.wpcf7-form-control.wpcf7-submit {
 
 /*4k styles*/
 @media screen and (min-width: 2000px) {
+  /*event calendar */
+  .ai1ec-single-event .ai1ec-event-avatar img {
+    max-width: 800px !important;
+    max-height: 800px !important;
+    top: 0;
+    left: -66%;
+    position: absolute;
+
+  }
+  /*calendar*/
+  .calendar .ai1ec-agenda-view .ai1ec-event-avatar {
+    width: 60%;
+    float: none;
+  }
+  .ai1ec-agenda-view .ai1ec-month {
+    font-size: 1em;
+  }
+  #ai1ec-calendar-view > div.ai1ec-agenda-view > div > a > div.ai1ec-day {
+    font-size: 2em !important;
+    padding: .4em !important;
+  }
+  .ai1ec-agenda-view .ai1ec-weekday {
+    font-size: 1.5em !important;
+  }
+  .calendar div.ai1ec-agenda-view > div > a {
+    width: 4.5em !important;
+    height: 5.5em !important;
+  }
+  #main article > div > p{
+    width: 60% !important;
+    margin-left: 35em !important;
+  }
+
   #page {
     max-width: 2500px;
   }
   .post-content-text{
-    font-size: 25px;
+    font-size: 35px;
   }
   .news .news-title a{
-    font-size: 30px;
+    font-size: 40px;
   }
   .entry-content p {
     font-size: 25px;
@@ -2802,9 +2835,6 @@ input.wpcf7-form-control.wpcf7-submit {
   }
   .calendar .ai1ec-event-title {
     font-size: 22px !important;
-  }
-  .timely p {
-    font-size: 20px !important;
   }
   .site-title {
     font-size: 50px;
@@ -2916,7 +2946,7 @@ input.wpcf7-form-control.wpcf7-submit {
   }
   /*News Feed*/
   .news .grid-news-thumb{
-    height: 550px !important;
+    height: 700px !important;
   }
   /*Dates container styles*/
   #datesContainer {
@@ -3321,9 +3351,6 @@ input.wpcf7-form-control.wpcf7-submit {
   text-align: center;
   margin: 0 auto !important;
 }
-.news .grid-news-thumb img{
-
-}
 .news div > div.news-thumb > div > a > img{
   width: auto !important;
 }
@@ -3465,17 +3492,20 @@ input.wpcf7-form-control.wpcf7-submit {
   margin: 0 auto;
 }
 #main article > div > div{
+  width: 60%;
+  float: right;
   padding: 2em;
   background: #f9f9f9;
 }
 #main article > div > p{
+  width: 100%;
   color: #727888;
   padding: 1em;
 }
 #main h1{
   text-align: center;
   margin-top: .5em;
-  color: #767583;
+  color: #37b4ee;
   font-weight: 700;
 }
 /*saber más */
@@ -3498,7 +3528,7 @@ input.wpcf7-form-control.wpcf7-submit {
     width: 40%;
   }
   .news .grid-news-thumb{
-    height: 300px !important;
+    height: 400px !important;
   }
   .calendar .ai1ec-event-title {
     font-size: 12px !important;
@@ -3522,11 +3552,17 @@ input.wpcf7-form-control.wpcf7-submit {
      width: 90%;
      padding: 1.5rem;
    }
+   .news .grid-news-thumb {
+     height: 200px;
+   }
  }
  @media screen and (min-width:1023px) and (max-width: 1024px){
    .morevideo{
      width: 100%;
      height: 200px;
+   }
+   .news .grid-news-thumb {
+     height: 300px;
    }
    #main-news #post_new{
      width: 85%;
@@ -3554,12 +3590,59 @@ input.wpcf7-form-control.wpcf7-submit {
      width: 100%;
      margin: 0;
    }
+   #event-container {
+     padding: 0 !important;
+     width: 100% !important;
+   }
  }
 
- p, .news-short-content {
+ p, .news-short-content, label, .menu li a  {
    font-family: "ACaslonPro-regular" !important;
  }
 .bigkmoreContainer a,
-#main h1, .news .news-title a,  header > h1 {
-  font-family: "ACaslon-Pro-Bold";
+#main h1, .news .news-title a,  header > h1, h2, h3, h4, h5, h6, span {
+  font-family: "ACaslon-Pro-Bold" !important;
+}
+/*imagen agenda evento*/
+.calendar .ai1ec-agenda-view .ai1ec-event-avatar {
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+.timely p {
+  display: none;
+}
+.ai1ec-single-event .ai1ec-event-avatar img {
+  display: none;
+}
+
+
+/*template events calendar*/
+
+#event-container {
+  width: 95%;
+  display: flex;
+  margin: 0 auto;
+  padding: 2.5em;
+  padding-top: 1em;
+  margin-top: 1rem;
+  background-color: #f1f1f1;
+}
+.calendar-content > div {
+  background: #f9f9f9;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 1rem;
+}
+.calendar-content div img {
+  height: 80%;
+  width: 80%;
+}
+.calendar-content > p {
+  padding: 1rem;
+  font-weight: 500;
+}
+#event-container h1 {
+  margin-top: 0;
+  color: #37b4ee;
+  margin-bottom: 2rem;
 }
