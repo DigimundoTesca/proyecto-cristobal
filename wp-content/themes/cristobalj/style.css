@@ -2782,6 +2782,7 @@ input.wpcf7-form-control.wpcf7-submit {
     position: absolute;
 
   }
+
   /*calendar*/
   .calendar .ai1ec-agenda-view .ai1ec-event-avatar {
     width: 60%;
@@ -2805,7 +2806,22 @@ input.wpcf7-form-control.wpcf7-submit {
     width: 60% !important;
     margin-left: 35em !important;
   }
-
+  .calendar-content .ai1ec-single-event {
+    line-height: 47.5px;
+  }
+  .calendar-content .ai1ec-single-event .ai1ec-event-details {
+      font-size: 1.5em;
+  }
+  .calendar-content .ai1ec-field-label {
+    font-size: 1.3em !important;
+  }
+  .calendar-content .ai1ec-single-event .ai1ec-time .ai1ec-field-value {
+    font-size: 1.5em;
+  }
+  .calendar-content > p {
+    font-size: 30px;
+    padding: 3rem !important;
+  }
   #page {
     max-width: 2500px;
   }
@@ -2946,7 +2962,7 @@ input.wpcf7-form-control.wpcf7-submit {
   }
   /*News Feed*/
   .news .grid-news-thumb{
-    height: 700px !important;
+    height: 640px !important;
   }
   /*Dates container styles*/
   #datesContainer {
@@ -3593,6 +3609,9 @@ input.wpcf7-form-control.wpcf7-submit {
    #event-container {
      padding: 0 !important;
      width: 100% !important;
+   }
+   #event-container h1 {
+     font-size: 1.5rem !important;
    }
  }
 
