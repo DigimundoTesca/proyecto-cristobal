@@ -50,6 +50,19 @@ get_header(); ?>
         </div>
       </div>
       <div class="sidebar_1 col-md-4 col-lg-3 order-sm-last  justify-content-center">
+        <div id="datesContainer" class="mt-5 text-center" >
+          <h3>
+            <?php
+            printf( __( 'Agenda 2018', 'cristobalj' ));
+            ?>
+          </h3>
+          <h4>
+            <?php
+            printf( __( 'Know my activities this year', 'cristobalj' ));
+            ?>
+          </h4>
+          <div class="calendar"><?php echo do_shortcode('[ai1ec view="agenda"]'); ?></div>
+        </div>
         <div class="Tweets mt-md-5">
           <a class="twitter-timeline" height="340px" href="https://twitter.com/cris_jodow?ref_src=twsrc%5Etfw">Tweets by cris_jodow</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           <a href="https://twitter.com/cris_jodow?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @cris_jodow</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
