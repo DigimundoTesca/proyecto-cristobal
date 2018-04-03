@@ -13,7 +13,7 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title><?php bloginfo(blogname); ?></title>
+  <title><?php bloginfo("blogname"); ?></title>
   <!-- Icons -->
   <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" type="icon/x-icon" />
   <link rel="apple-touch-icon" href="icon/apple-touch-icon.png" />
