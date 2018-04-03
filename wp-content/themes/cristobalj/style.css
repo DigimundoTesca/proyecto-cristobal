@@ -1305,7 +1305,7 @@ label.es_shortcode_form_email span {
   align-items: center;
 }
 #datesContainer {
-  min-width: 250px;
+
   width: 100%;
   margin: 0 auto;
   background-color: #eeebe5;
@@ -1323,6 +1323,7 @@ label.es_shortcode_form_email span {
   background-color: #d39b00;
 }
 #datesContainer h4 {
+  text-align: center;
   font-size: 16px;
   font-weight: normal;
   margin: 0 auto;
@@ -3564,6 +3565,9 @@ input.wpcf7-form-control.wpcf7-submit {
      width: 80%;
      height: 400px;
    }
+   #datesContainer {
+     height: 600px;
+   }
    #main-news #post_new{
      width: 90%;
      padding: 1.5rem;
@@ -3594,6 +3598,9 @@ input.wpcf7-form-control.wpcf7-submit {
    #main-news #post_new{
      width: 100%;
      padding: 1rem;
+   }
+   #datesContainer {
+     height: 400px;
    }
    #main-news header > h1{
      font-size: 1.9rem;
@@ -3664,4 +3671,10 @@ input.wpcf7-form-control.wpcf7-submit {
   margin-top: 0;
   color: #37b4ee;
   margin-bottom: 2rem;
+}
+.grid-news-thumb {
+  background-color: #FFF !important;
+}
+.news-col-1 .news-inner-wrap-view {
+    margin-bottom: 2.5em !important;
 }

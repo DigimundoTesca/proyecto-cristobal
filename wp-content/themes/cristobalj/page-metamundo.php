@@ -49,7 +49,7 @@ get_header(); ?>
       </div>
     </div>
     <div class="row d-flex flex-row mt-4">
-      <div class="col-sm-12 col-md-8">
+      <div class="col-sm-12 col-md-8 ">
         <div class="titleContainer">
           <h2>
             <?php printf(__('Study plan','cristobalj')) ?>
@@ -83,7 +83,7 @@ get_header(); ?>
   </div>
 </div>
     <div class="row">
-      <div class="col-md-9">
+      <div class="col-md-8 col-lg-9">
         <div id="block1">
           <div class="blockTitle">
             <h3><span><?php printf(__('Block 1. ','cristobalj')) ?></span><?php printf(__(' Evolutionary tarot','cristobalj')) ?></h3>
@@ -124,7 +124,7 @@ get_header(); ?>
               </p>
             </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-4 col-lg-3">
         <div class="video_container">
           <video id="metamundo" controls>
             <source src="https://s3-us-west-2.amazonaws.com/cristobalbucket/law/01/Metamundo+La+Escuela.mp4">
