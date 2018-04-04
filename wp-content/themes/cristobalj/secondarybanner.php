@@ -35,7 +35,7 @@ Template Name: secondarybanner
     </a>
   </div>
   <div class="mainbannercontent">
-    <a href="<?php echo esc_url( get_permalink( get_page_by_title( 'Tarot' ) ) ); ?>" title="Tarot">
+    <a href="http://metamundo.cristobal-jodorowsky.com/start" title="Tarot">
       <div class="mindHack">
         <h3>
           <?php printf(__('Tarot queries','cristobalj')) ?>
