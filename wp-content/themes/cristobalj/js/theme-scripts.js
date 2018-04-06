@@ -41,7 +41,7 @@ jQuery(document).ready(function(){
   else if(window.location.pathname == '/Cristobal/it/saber-mas/') {
     history.pushState(null, "", "/Cristobal/it/ulteriori-informazioni/");
   }
-  
+
 
   // Add text to more information buttons on agenda
   let eventbutton = document.getElementsByClassName('event-button');
@@ -101,6 +101,20 @@ jQuery(document).ready(function(){
   }
   else if (window.location.pathname == '/Cristobal/it/biografia/') {
     document.getElementById('site-navigation').style.backgroundColor = "#d39b00";
+    for(i, len=coll.length; i<len; i++)
+    {
+      coll[i].className += ' biohover';
+    }
+  }
+  else if (window.location.pathname == '/Cristobal/libros/') {
+    document.getElementById('site-navigation').style.backgroundColor = "#d39b00";
+    for(i, len=coll.length; i<len; i++)
+    {
+      coll[i].className += ' biohover';
+    }
+  }
+  else if (window.location.pathname == '/Cristobal/contacto/') {
+    document.getElementById('site-navigation').style.backgroundColor = "#6b8335";
     for(i, len=coll.length; i<len; i++)
     {
       coll[i].className += ' biohover';
@@ -302,8 +316,6 @@ jQuery(document).ready(function(){
       }
     });
   })(jQuery);
-
-
   // Book download
   (function($) {
     $('#dnlBookBtn').click(function(event) {
