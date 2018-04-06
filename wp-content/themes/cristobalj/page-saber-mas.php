@@ -13,20 +13,20 @@ get_header(); ?>
           <img id="knowmore" class="mobilekmore" src="<?php echo get_template_directory_uri(); ?>/images/kmore.jpg" alt="banner know more">
           <div id="bigkmoreContainer" class="bigkmoreContainer ">
             <img id="knowmore bigmorebanner" class="bigkmore" src="<?php echo get_template_directory_uri(); ?>/images/another.png" alt="banner know more">
-            <a href="#Psicoteatro" class="imgChange1 textBig"><?php printf( __( 'Psicoteatro', 'cristobalj' ));?></a>
+            <a href="#Psicomagic" class="imgChange1 textBig"><?php printf( __( 'Psicomagia', 'cristobalj' ));?></a>
             <a href="#BIO" class="imgChange2 textSmall"><?php printf( __( '', 'cristobalj' ));?></a>
             <a href="#Psicochamanismo" class="imgChange3 textBig"><?php printf( __( 'Psicochamanismo', 'cristobalj' ));?></a>
             <a href="#Metagenealo" class="imgChange5 textBig"><?php printf( __( 'Metagenealogía', 'cristobalj' ));?></a>
             <a href="#Therapies" class="imgChange6 textSmall"><?php printf( __( '', 'cristobalj' ));?></a>
-            <a href="#metaforico" class="imgChange7 textBig"><?php printf( __( 'Acto Metafórico', 'cristobalj' ));?></a>
+            <a href="#Travels" class="imgChange7 textBig"><?php printf( __( 'Viajes Iniciáticos', 'cristobalj' ));?></a>
             <a href="#Psicomagic" class="imgChange8 textSmall"><?php printf( __( '', 'cristobalj' ));?></a>
-            <a href="#Tarot" class="imgChange9 textBig"><?php printf( __( 'Tarot', 'cristobalj' ));?></a>
+            <a href="#Tarot" class="imgChange9 textBig"><?php printf( __( '', 'cristobalj' ));?></a>
             <a href="#Videos" class="imgChange10 textSmall"><?php printf( __( '', 'cristobalj' ));?></a>
-            <a href="#Psicomagic" class="imgChange11 textBig"><?php printf( __( 'Psicomagia', 'cristobalj' ));?></a>
+            <a href="#Colectiva" class="imgChange11 textBig"><?php printf( __( 'Psicomagia Colectiva', 'cristobalj' ));?></a>
             <a href="#Teachers" class="imgChange12 textSmall"><?php printf( __( '', 'cristobalj' ));?></a>
-            <a href="#Travels" class="imgChange13 textBig"><?php printf( __( 'Travels', 'cristobalj' ));?></a>
+            <a href="#Psicoteatro" class="imgChange13 textBig"><?php printf( __( 'Psicoteatro', 'cristobalj' ));?></a>
             <a href="#Press" class="imgChange14 textSmall"><?php printf( __( '', 'cristobalj' ));?></a>
-            <a href="#Colectiva" class="imgChange15 textBig"><?php printf( __( 'Psicomagia Colectiva', 'cristobalj' ));?></a>
+            <a href="#Tarot" class="imgChange15 textBig"><?php printf( __( 'Tarot', 'cristobalj' ));?></a>
             <a href="#Art" class="imgChange16 textSmall"><?php printf( __( '', 'cristobalj' ));?></a>
           </div>
         </div>
@@ -130,7 +130,7 @@ get_header(); ?>
           <?php printf(__('<p>The forces of repetition and creation in their endless dynamic impel us both to repeat the same and to yield to what we are authentically. Individuals, at the same time, can have a positive and a negative vision from their great-grandparents, grandparents and parents, thus converting each relative into a double entity: one luminous and the other obscure. Two energy fields that, despite opposing, are complementary. In the present time, the spirit that materializes adjoins the matter that is spiritualized, the supraconscious with the unconscious, the attempt to realize the future with the intent to repeat the past, the essential being with the socio-cultural being, the desire to create with the desire to imitate. To the study of the genealogical tree under its simultaneous and complementary aspects, treasure and trap, I have called it Metagenealogy.</p>
           <p class="text-right">Alejandro Jodorowsky (creator of Metagenalogy)</p> </p>', 'cristobalj' )); ?>
 
-          <?php printf(__('<p class="oculto" >
+          <?php printf(__('<p class="" >
           La metagenealogía es un método de análisis del árbol genealógico que permite expandir la visión de su dimensión psíquica. Esto nos hace comprender hasta qué punto aquello que pensamos, sentimos, deseamos o vivimos, así como nuestros conflictos y enfermedades pueden ser el resultado de un pasado familiar, social, histórico o de residuos educativos patriarcales.
           <br>La metagenealogía pone al descubierto un sistema de repeticiones de fechas, enfermedades, nacimientos, muertes, accidentes y nombres.  Todos éstos son mapas que se recorren y transmiten de generación en generación hasta llegar a nosotros con la precisión de un reloj.   Tendemos a identificarnos y ser fieles a nuestros familiares, hasta tal punto que puede resultarnos doloroso, paralizante y auto destructivo.
           A la vez, estos personajes – a quienes guardamos lealtad – imitaron a otras figuras del pasado, formando una cadena hereditaria de prisiones.  Revelar las dinámicas del clan permite comprender lo que inhibe dentro de nosotros la posibilidad de vivir, crear, ser y amar a partir del ser esencial.
@@ -138,7 +138,7 @@ get_header(); ?>
 
           Muy a menudo, después de un análisis genealógico Cristobal prepara un Psicoritual familiar o constelación psicomágica, en dónde invita a un grupo a teatralizar las situaciones vistas y re alinearlas con la corriente de la vida.
           </p>', 'cristobalj' )); ?>
-          <button class="btn btn-danger text-left">Leer más</button>
+
           <img class="mt-3"src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt="">
         </div>
         <div id="mainContainer" class="more"><br>
@@ -175,8 +175,32 @@ get_header(); ?>
           </p><p>El Tarot también puede ser una representación espectacular de nuestra familia interior, un espejo de nuestro mundo íntimo que refleja nuestros nudos y cargas genealógicas, conflictos o relaciones complejas con padres, abuelos, hermanos y otros familiares del presente o del pasado. Asimismo, refleja nuestras repeticiones neuróticas, los ciclos en los que nos vemos atrapados, los mecanismos por los cuales enfermamos… Todo ello, en una dirección: el encuentro con lo más profundo de nuestro Ser Esencial.
            A pesar de que el Tarot es un instrumento que nos comunica con la dimensión inconsciente. Cristobal piensa que cuando uno elige una carta es la dimensión supra-consiente (que sabe todo)  que la elige en nosotros para ayudarnos a desvelar lo que el ego no siempre estamos dispuestos a ver por miedo a cambiar de marco de referencia y mutar.
           </p>", 'cristobalj' )); ?>
-          <img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt="">
+
+          <div class="cont-princ-slider">
+          <div id="slide_cliente" class="slier-prin">
+            <div class="our_customer"><img class="img-fluid rounded mx-auto d-block logo_cliente" src="<?php echo get_template_directory_uri(); ?>/images/Tarot-Cards/img01.jpg" alt=""> </div>
+            <div class="our_customer"><img class="img-fluid rounded mx-auto d-block logo_cliente" src="<?php echo get_template_directory_uri(); ?>/images/Tarot-Cards/img02.jpg" alt=""> </div>
+            <div class="our_customer"><img class="img-fluid rounded mx-auto d-block logo_cliente" src="<?php echo get_template_directory_uri(); ?>/images/Tarot-Cards/img03.jpg" alt=""> </div>
+            <div class="our_customer"><img class="img-fluid rounded mx-auto d-block logo_cliente" src="<?php echo get_template_directory_uri(); ?>/images/Tarot-Cards/img04.jpg" alt=""> </div>
+            <div class="our_customer"><img class="img-fluid rounded mx-auto d-block logo_cliente" src="<?php echo get_template_directory_uri(); ?>/images/Tarot-Cards/img05.jpg" alt=""> </div>
+            <div class="our_customer"><img class="img-fluid rounded mx-auto d-block logo_cliente" src="<?php echo get_template_directory_uri(); ?>/images/Tarot-Cards/img06.jpg" alt=""> </div>
+            <div class="our_customer"><img class="img-fluid rounded mx-auto d-block logo_cliente" src="<?php echo get_template_directory_uri(); ?>/images/Tarot-Cards/img07.jpg" alt=""> </div>
+            <div class="our_customer"><img class="img-fluid rounded mx-auto d-block logo_cliente" src="<?php echo get_template_directory_uri(); ?>/images/Tarot-Cards/img08.jpg" alt=""> </div>
+            <div class="our_customer"><img class="img-fluid rounded mx-auto d-block logo_cliente" src="<?php echo get_template_directory_uri(); ?>/images/Tarot-Cards/img09.jpg" alt=""> </div>
+            <div class="our_customer"><img class="img-fluid rounded mx-auto d-block logo_cliente" src="<?php echo get_template_directory_uri(); ?>/images/Tarot-Cards/img10.jpg" alt=""> </div>
+            <div class="our_customer"><img class="img-fluid rounded mx-auto d-block logo_cliente" src="<?php echo get_template_directory_uri(); ?>/images/Tarot-Cards/img11.jpg" alt=""> </div>
+            <div class="our_customer"><img class="img-fluid rounded mx-auto d-block logo_cliente" src="<?php echo get_template_directory_uri(); ?>/images/Tarot-Cards/img12.jpg" alt=""> </div>
+            <div class="our_customer"><img class="img-fluid rounded mx-auto d-block logo_cliente" src="<?php echo get_template_directory_uri(); ?>/images/Tarot-Cards/img13.jpg" alt=""> </div>
+            <div class="our_customer"><img class="img-fluid rounded mx-auto d-block logo_cliente" src="<?php echo get_template_directory_uri(); ?>/images/Tarot-Cards/img14.jpg" alt=""> </div>
+            <div class="our_customer"><img class="img-fluid rounded mx-auto d-block logo_cliente" src="<?php echo get_template_directory_uri(); ?>/images/Tarot-Cards/img15.jpg" alt=""> </div>
+            <div class="our_customer"><img class="img-fluid rounded mx-auto d-block logo_cliente" src="<?php echo get_template_directory_uri(); ?>/images/Tarot-Cards/img16.jpg" alt=""> </div>
+            <div class="our_customer"><img class="img-fluid rounded mx-auto d-block logo_cliente" src="<?php echo get_template_directory_uri(); ?>/images/Tarot-Cards/img17.jpg" alt=""> </div>
+            <div class="our_customer"><img class="img-fluid rounded mx-auto d-block logo_cliente" src="<?php echo get_template_directory_uri(); ?>/images/Tarot-Cards/img18.jpg" alt=""> </div>
+            <div class="our_customer"><img class="img-fluid rounded mx-auto d-block logo_cliente" src="<?php echo get_template_directory_uri(); ?>/images/Tarot-Cards/img19.jpg" alt=""> </div>
+            <div class="our_customer"><img class="img-fluid rounded mx-auto d-block logo_cliente" src="<?php echo get_template_directory_uri(); ?>/images/Tarot-Cards/img20.jpg" alt=""> </div>
+          </div>
         </div>
+      </div>
         <div id="mainContainer" class="more"><br>
           <h3 id="Travels" class="moretitle">
             <?php

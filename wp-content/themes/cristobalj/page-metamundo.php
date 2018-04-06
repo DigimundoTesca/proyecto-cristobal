@@ -11,7 +11,7 @@ get_header(); ?>
         <h2 class="bannertitle">
           <?php printf(__('Welcome!','cristobalj')) ?>
         </h2>
-        <p class="quote metaquote"><?php printf(__('To our integrative school of expansion and development of being','cristobalj')) ?></p>
+        <p class="quote metaquote"><?php printf(__('a nuestra escuela integrativa de desarrollo psicoespiritual','cristobalj')) ?></p>
       </div>
     </div>
     <div id="metabanner1" class="metabannerbig">
@@ -21,7 +21,7 @@ get_header(); ?>
           <h2 class="bannertitle">
             <?php printf(__('Welcome!','cristobalj')) ?>
           </h2>
-          <p class="quote metaquote"><?php printf(__('To our integrative school of expansion and development of being','cristobalj')) ?></p>
+          <p class="quote metaquote"><?php printf(__('a nuestra escuela integrativa de desarrollo psicoespiritual','cristobalj')) ?></p>
         </div>
       </div>
     </div>
@@ -31,7 +31,7 @@ get_header(); ?>
       <div class="mobilecontainerwelcome">
         <div class="bannertext">
           <h2 class="bannertitle second">
-            <?php printf(__('"Here you can put a phrase from Cristobal"','cristobalj')) ?>
+            <?php printf(__('"Sanarse uno mismo es sanar al mundo"','cristobalj')) ?>
           </h2>
           <p class="quote metaquote name"><?php printf(__('Cristobal Jodorowsky','cristobalj')) ?></p>
         </div>
@@ -42,7 +42,7 @@ get_header(); ?>
       <div class="bannercontainer metacontainer">
         <div class="metabannertext">
           <h2 class="bannertitle second">
-            <?php printf(__('"Here you can put a phrase from Cristobal"','cristobalj')) ?>
+            <?php printf(__('"Sanarse uno mismo es sanar al mundo"','cristobalj')) ?>
           </h2>
           <p class="quote metaquote name"><?php printf(__('Cristobal Jodorowsky','cristobalj')) ?></p>
         </div>

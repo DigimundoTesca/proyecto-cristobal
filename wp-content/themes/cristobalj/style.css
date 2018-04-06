@@ -1775,7 +1775,7 @@ input.wpcf7-form-control.wpcf7-submit {
 }
 #wpcf7-f124-p21-o1 p input,
 #wpcf7-f124-p21-o1 p textarea {
-  background-color: #e2dfdf;
+  background-color: #f2f2f2;
 }
 #contactBtn {
   margin: 0 !important;
@@ -2252,6 +2252,7 @@ input.wpcf7-form-control.wpcf7-submit {
     text-align: center;
     color: #cac811;
     margin: 0;
+    margin-top: -.3em;
   }
   .mainbannercontent .mindHack {
     border: 2px solid #37b4ee;
@@ -2774,6 +2775,13 @@ input.wpcf7-form-control.wpcf7-submit {
 
 /*4k styles*/
 @media screen and (min-width: 2000px) {
+  /*metamundo banner*/
+  .metmundo p {
+    font-size: 30px !important;
+  }
+  .metmundo img {
+    padding-top: 1em !important;
+  }
   /*event calendar */
   .ai1ec-single-event .ai1ec-event-avatar img {
     max-width: 800px !important;
@@ -2783,7 +2791,6 @@ input.wpcf7-form-control.wpcf7-submit {
     position: absolute;
 
   }
-
   /*calendar*/
   .calendar .ai1ec-agenda-view .ai1ec-event-avatar {
     width: 60%;
@@ -2949,6 +2956,7 @@ input.wpcf7-form-control.wpcf7-submit {
   }
   .mainbannercontent .gift p {
     font-size: 40px;
+    margin-top: -.5em;
   }
   .mainbannercontent .mindHack {
     background-color: #37b4ee;
@@ -3368,8 +3376,8 @@ input.wpcf7-form-control.wpcf7-submit {
   text-align: center;
   margin: 0 auto !important;
 }
-.news div > div.news-thumb > div > a > img{
-  width: auto !important;
+.grid-news-thumb img {
+  object-position: center !important;
 }
 .news-content{
   float:none !important;
@@ -3539,6 +3547,39 @@ input.wpcf7-form-control.wpcf7-submit {
 .video_container #metamundo{
   width: 100%;
 }
+/*tarot-cards slide*/
+.cont-princ-slider {
+	position: relative;
+	overflow: hidden;
+}
+.slier-prin {
+	display: inline-flex;
+	-moz-animation: slider 40s infinite linear;
+	-webkit-animation: slider 40s infinite linear;
+	animation: slider 40s infinite linear;
+	height: 100%;
+	width: auto;
+}
+.our_customer{
+  border: 1px solid #FFF;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #FFF;
+	font-family: Arial;
+	font-size: 16px;
+	height: 100%;
+	flex: 0 0 auto;
+	text-align: center;
+	width: 220px;
+}
+@keyframes slider {
+	to {
+		-moz-transform: translateX(-80%);
+		-webkit-transform: translateX(-80%);
+		transform: translateX(-80%);
+
+	}
+}
 @media (min-width: 1025px) and (max-width: 1366px){
   .thumbnail img{
     margin-top: 2rem;
@@ -3548,7 +3589,7 @@ input.wpcf7-form-control.wpcf7-submit {
     height: 400px !important;
   }
   .calendar .ai1ec-event-title {
-    font-size: 12px !important;
+    font-size: 15px !important;
   }
   #datesContainer {
     height: 600px;

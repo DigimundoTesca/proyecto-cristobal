@@ -10,7 +10,7 @@ get_header(); ?>
     <div class="mobilecontainer">
       <div class="bannertext">
         <h2 class="bannertitle">
-          <?php printf(__('Welcome!','cristobalj')) ?>
+          <?php printf(__('¡Bienvenidos y Bienvenidas!','cristobalj')) ?>
         </h2>
         <p class="quote"><?php printf(__('"Frase Cristobal"','cristobalj')) ?></p>
       </div>
@@ -22,7 +22,7 @@ get_header(); ?>
       <div class="bannercontainer">
         <div class="bannertext">
           <h2 class="bannertitle">
-            <?php printf(__('Welcome!','cristobalj')) ?>
+            <?php printf(__('¡Bienvenidos y Bienvenidas!','cristobalj')) ?>
           </h2>
           <p class="quote"><?php printf(__('"Frase Cristobal"','cristobalj')) ?></p>
           <p class="name">Cristóbal Jodorowsky</p>
