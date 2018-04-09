@@ -16,7 +16,7 @@ get_header(); ?>
       <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/46.jpg" alt=""></li>
     </ul>
     <div class="row">
-      <div class="col-xl-9 col-md-12">
+      <div class="col-xl-9 col-md-12 content-text">
         <?php while (have_posts()): the_post(); ?>
           <div id="mainContainer" class="biog">
             <?php the_content(); ?>

@@ -2776,6 +2776,9 @@ input.wpcf7-form-control.wpcf7-submit {
 /*4k styles*/
 @media screen and (min-width: 2000px) {
   /*metamundo banner*/
+  .content-text {
+    padding-right: 6em !important;
+  }
   .metmundo p {
     font-size: 30px !important;
   }
@@ -3282,64 +3285,7 @@ input.wpcf7-form-control.wpcf7-submit {
     font-size: 35px;
   }
 }
-#tarot-cards div {
-  background-image: url('images/Tarot-Cards/img002.jpg');
-  background-size: 99px;
-  border: 3px solid #967996;
-  border-top-left-radius: 10px;
-  cursor: pointer;
-  height: 132px;
-  width: 90px;
-  background-position: 50% 0;
-  -ms-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
-  }
-#tarot-cards div {
-  background-size: 99px;
-  cursor: pointer;
-  height: 132px;
-  width: 90px;
-  background-position: 50% 0;
-  -ms-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
 
-          }
-.muevetee{
-  -webkit-transform: rotateY(180deg);
-  -moz-transform: rotateY(180deg);
-  -o-transform: rotateY(180deg);
-  transform: rotateY(180deg);
-  -webkit-transition: 0.6s;
-  -webkit-transform-style: preserve-3d;
-  -moz-transition: 0.6s;
-  -moz-transform-style: preserve-3d;
-
-  -o-transition: 0.6s;
-  -o-transform-style: preserve-3d;
-
-  transition: 0.6s;
-  transform-style: preserve-3d;
-  position: relative;
-  }
-
-
-.destino {
-  border: none!important
-}
-.Reintentar{
-  display: none;
-  visibility: hidden;
-
-}
-.mano{
-  cursor: pointer;
-}
 
 /*go top*/
 .ir-arriba {
@@ -3572,6 +3518,10 @@ input.wpcf7-form-control.wpcf7-submit {
 	text-align: center;
 	width: 220px;
 }
+.our_customer img{
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1rem;
+}
 @keyframes slider {
 	to {
 		-moz-transform: translateX(-80%);
@@ -3633,6 +3583,9 @@ input.wpcf7-form-control.wpcf7-submit {
  @media screen and (min-width: 1367px) {
    .news .grid-news-thumb{
      height: 400px;
+   }
+   .content-text {
+     padding-right: 3em;
    }
  }
  @media screen and (max-width: 767px) {
