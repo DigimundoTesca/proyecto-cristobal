@@ -107,17 +107,17 @@ jQuery(document).ready(function(){
     }
   }
   else if (window.location.pathname == '/Cristobal/libros/') {
-    document.getElementById('site-navigation').style.backgroundColor = "#d39b00";
+    document.getElementById('site-navigation').style.backgroundColor = "#eee52f";
     for(i, len=coll.length; i<len; i++)
     {
       coll[i].className += ' biohover';
     }
   }
   else if (window.location.pathname == '/Cristobal/contacto/') {
-    document.getElementById('site-navigation').style.backgroundColor = "#6b8335";
+    document.getElementById('site-navigation').style.backgroundColor = "#17692a";
     for(i, len=coll.length; i<len; i++)
     {
-      coll[i].className += ' biohover';
+      coll[i].className += 'metahover';
     }
   }
   else if (window.location.pathname == '/Cristobal/fr/biographie/') {

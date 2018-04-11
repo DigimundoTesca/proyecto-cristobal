@@ -28,7 +28,7 @@
   <!-- Settings -->
 	<link rel="stylesheet" href="https://platform.twitter.com/css/timeline.b7949fc5ae6443c45d48eb17624f02ee.light.ltr.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-  <meta name="description" content="<?php bloginfo(blogdescription); ?>" />
+  <meta name="description" content="<?php bloginfo('blogdescription'); ?>" />
   <meta name="keywords" content="Cristobal Jodorowsky, metamundo, psicochamanismo, metagenealogia,agenda" />
   <meta name="author" content="Digimundo Technologies" />
 
