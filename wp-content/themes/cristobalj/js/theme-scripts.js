@@ -191,6 +191,13 @@ jQuery(document).ready(function(){
       speed: 500,
       timeout: 2500,
     });
+    $("#begin-slide").cycle({
+		fx : 'fade',
+		timeout: 3000,
+		speed: 1500,
+		slides: '.slide'
+    });
+
     $("#theaterslides").responsiveSlides({
       auto: true,
       speed: 500,
@@ -271,6 +278,7 @@ jQuery(document).ready(function(){
     });
   })(jQuery);
 
+  /**/
 
   // Metamundo blocks menu handler
   (function($) {

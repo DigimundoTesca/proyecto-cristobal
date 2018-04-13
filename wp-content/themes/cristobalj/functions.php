@@ -141,6 +141,8 @@ function cristobalj_scripts() {
 	wp_enqueue_script( 'textjs', get_template_directory_uri() . '/js/f.txt', array(), '', true );
 	wp_enqueue_script( 'classie', get_template_directory_uri() . '/js/classie.js', array(), '', true );
 	wp_enqueue_script( 'slide', get_template_directory_uri() . '/js/responsiveslides.min.js', array(), '', true );
+	wp_enqueue_script( 'cycle', get_template_directory_uri() . '/js/jquery.cycle.min.js', array(), '', true );
+	wp_enqueue_script( 'supersized', get_template_directory_uri() . '/js/supersized.min.js', array(), '', true );
 	wp_enqueue_script( 'themejs', get_template_directory_uri() . '/js/theme-scripts.js', array(), '', true );
   $translation_array = array( 'templateUrl' => get_template_directory_uri() );
   $redirect_array = array( 'redirectUrl' => get_permalink( get_page_by_title( 'downloadcompleted' ) ) );

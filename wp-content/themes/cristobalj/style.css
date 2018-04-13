@@ -1071,15 +1071,37 @@ img#metabannerbig {
   border: 2px solid #be0211;
 }
 /*Styles for Main-banner*/
+#begin-slide {
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
+.slide {
+  margin-top: 3em !important;
+}
 #banner,
 #banner1 {
-  position: relative;
+  position: relative !important;
   background-color: #FFF;
-  background-image: url("images/cristobal.jpg");
+  background-image: url("images/cristobal.jpg") !important;
   background-position: top right;
   background-repeat: no-repeat;
   background-size: cover;
+  animation: 16s changeback infinite;
 }
+@keyframes changeback {
+ 0%, 25% {
+   background-image: url("images/crsitobal/14.jpg");
+ }
+
+}
+
+.slide .frase {
+  margin-top: 6em;
+  margin-left: 8em;
+}
+
+
 #banner.tarot,
 #banner1.tarot {
   position: absolute;
