@@ -38,6 +38,22 @@ get_header(); ?>
           </h3>
           <?php printf(__("<p>Veo al teatro como una gran fuente ancestral de crecimiento personal y colectivo, donde todas las filosofías, las artes, las ciencias, la psicología, la terapia, el chamanismo y las religiones (en el sentido de unión con el campo divino) se reúnen para encausar un mismo espíritu con una misma intención sanadora y transformadora. Entones, cuando me encuentro en escena vivo conscientemente procesos transformativos psicoespirituales universales, permitiendo que el espectador (identificado a mí a través de sus neuronas espejo) los viva conmigo. Es así como intento poner a mi ego “al servicio” de lo transpersonal y transmito imágenes de las sensaciones que vivo dándole forma teatral a situaciones que habitan en todos nosotros. El Psicoteatro es un espacio donde se comparte energía positiva y de sanación, es una forma de ritual contemporáneo hecho con amor y mucho humor para que las personas riendo puedan dulcemente tomar conciencia y tocar temas delicados y profundos, sin angustiarse. Poder verse a uno mismo caricaturizado y reír tomando menos en serio los aspectos rigidizados es una llave fundamental para crecer. En el Psicoteatro se hacen prácticas colectivas para soltar emociones contenidas, meditaciones, lecturas de tarot, se dan consejos psicomágicos y lo que vaya naciendo en el momento creativo. El Psicoteatro es una velada educativa y divertida que da esperanza. Es una ocasión para generar y “contagiar” energía sana. El Psicoteatro es un espacio creativo donde las personas incorporan energía como gasolina para la expansión de las dimensiones más amplias del ser.</p>
           <p>Finalmente el Psicoteatro es el fruto de lo que he sembrado a través de mi proceso y trabajo personal. Es donde me permito compartir todo lo que voy aprendiendo y experimentando con la intención de ayudarnos a vivir más plenos, integrados psicoespiritualmente y presentes. Es mi contribución a que este mundo sane y se despierte cada día más.</p>", 'cristobalj' )); ?>
+          <ul id="" class="psicoteatro-slide">
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/01-min.jpg" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/02-min.jpg" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/03-min.jpg" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/04-min.jpg" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/05-min.JPG" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/06-min.JPG" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/07-min.jpg" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/08-min.jpg" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/09-min.jpg" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/10-min.jpg" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/11-min.jpg" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/12-min.jpg" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/13-min.jpg" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/14.png" alt=""></li>
+          </ul>
         </div>
         <div id="mainContainer" class="more">
           <h3 id="Psicochamanismo" class="moretitle">
@@ -52,16 +68,17 @@ get_header(); ?>
           </p><p>Los demonios son inhibiciones sexuales y creativas. Se expresan a través de pulsiones o represiones que impiden la expresión creativa natural del ser y el contacto con su fuerza innata.
           <br>Las entidades son restricciones espaciales que acaban metaforizándose en el cuerpo (anorexia, bulimia, obesidad, jorobas, deformidades…) Cuando no hay suficiente espacio para desarrollarse en familias con muchos hijos, cuando uno nace sin ser deseado, del sexo opuesto al esperado, etcétera, es posible que el cerebro animal encuentre estrategias de supervivencia que utilicen una entidad para integrarse en el clan. El Psicochamán identificado a la dimensión unificada de su ser desarrolla la capacidad de dejarse guiar por esa dimensión, por ese gran espíritu divino que le permite despojar, limpiar, destrancar o/y realinear a la persona con su autenticad, su alma, re-situándolo en su camino ya despojado de energía innecesarias.
           </p>", 'cristobalj' )); ?>
-          <ul id="chamanslides" class="">
-            <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/1.jpg" alt=""></li>
-            <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/2.jpg" alt=""></li>
-            <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/3.jpg" alt=""></li>
-            <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/4.jpg" alt=""></li>
-            <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/5.jpg" alt=""></li>
-            <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/6.jpg" alt=""></li>
-            <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/7.jpg" alt=""></li>
-            <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/8.jpg" alt=""></li>
-            <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/9.jpg" alt=""></li>
+          <ul  class="psicoteatro-slide">
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/01-min.jpg" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/02-min.jpg" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/03-min.jpg" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/04-min.jpg" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/05-min.JPG" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/06-min.JPG" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/07-min.jpg" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/08-min.jpg" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/09-min.jpg" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/10-min.jpg" alt=""></li>
           </ul>
         </div>
         <div id="mainContainer" class="more">
@@ -74,33 +91,15 @@ get_header(); ?>
           <p>Los procesos de nuestro cerebro son más simbólicos y analógicos que lógicos. Para éste, una fotografía no sólo representa a la persona retratada, sino que es ella misma. Considera a una parte como el todo, proyecta las personas que pueblan su memoria sobre seres reales o cosas. En la psicomagia se le proponen al consultante acciones concretas, efectuar un acto simbólico que, de alguna manera, restaurará su memoria y le permitirá realizar lo irrealizable.
           </p><p>No obstante, para lograr que el acto dé un óptimo resultado, el consultante antes debe liberarse de la moral impuesta por su familia, su sociedad y su cultura. Si lo hace podrá por ejemplo, sin temor, pegar una fotografía de su padre sobre dos sandías y las podrá hacer estallar a batacazos. Su dimensión inconsciente dará por realizado el asesinato y la castración. El consultante se sentirá así más libre. Aquello que nos atemoriza pierde fuerza en el momento en que dejamos de combatirlo o de alejarlo de la mente para integrarlo a través de un acto psicomágico que nos ayude a despertar y hacer de la vida un sueño lúcido lleno de conciencia. No basta con comprender el porqué de un conflicto; hay que actuarlo, darle una salida al impulso, al comportamiento repetitivo que nos dificulta la existencia. Así fue como se creó la psicomagia, el psicochamanismo y, más adelante, el psicorritual.
           </p>", 'cristobalj' )); ?>
-          <ul id="magicslides" class="">
-            <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/29.jpg" alt=""></li>
-            <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/30.jpg" alt=""></li>
-            <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/31.jpg" alt=""></li>
-            <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/32.jpg" alt=""></li>
-            <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/33.jpg" alt=""></li>
-            <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/34.jpg" alt=""></li>
-            <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/35.jpg" alt=""></li>
-            <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/36.jpg" alt=""></li>
-            <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/37.jpg" alt=""></li>
-            <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/38.jpg" alt=""></li>
-            <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/39.jpg" alt=""></li>
-            <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/40.jpg" alt=""></li>
-            <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/41.jpg" alt=""></li>
-            <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/42.jpg" alt=""></li>
-            <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/43.jpg" alt=""></li>
-            <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/44.jpg" alt=""></li>
-            <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/45.jpg" alt=""></li>
-            <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/46.jpg" alt=""></li>
-            <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/47.jpg" alt=""></li>
-            <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/48.jpg" alt=""></li>
-            <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/49.jpg" alt=""></li>
-            <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/50.jpg" alt=""></li>
-            <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/51.jpg" alt=""></li>
-            <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/52.jpg" alt=""></li>
-            <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/53.jpg" alt=""></li>
-            <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/54.jpg" alt=""></li>
+          <ul id="" class="psicoteatro-slide">
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia/01.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia/02.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia/03.jpg" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia/04.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia/05.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia/06.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia/07.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia/08.jpg" alt=""></li>
           </ul>
         </div>
         <div id="mainContainer" class="more"><br>
@@ -119,7 +118,8 @@ get_header(); ?>
 
           <br>Durante los últimos treinta años Cristóbal ha realizado cientos de actos psicomágicos sobre él mismo (y aconsejado miles) experimentando hasta qué punto con esa práctica, era posible solucionar tantas dificultades psicológicas, genealógicas permitiendo que la persona que vive el acto se re-alinee con su alma, la vida, el espíritu divino.
           </p>', 'cristobalj' )); ?>
-          <img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt="">
+
+
         </div>
         <div id="mainContainer" class="more">
           <h3 id="Metagenealo" class="moretitle">
@@ -155,7 +155,20 @@ get_header(); ?>
 
           <br>Según mi visión, hoy en día la transformación se hace también colectivamente, en grupos que obran juntos como abejas, dedicadas a producir la miel consiente, transformadora que todos necesitamos para mover a esta sociedad.
           </p>", 'cristobalj' )); ?>
-          <img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt="">
+          <ul  class="psicoteatro-slide">
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia-colectiva/01-min.jpg" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia-colectiva/02-min.jpg" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia-colectiva/03-min.jpg" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia-colectiva/04-min.jpg" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia-colectiva/05-min.JPG" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia-colectiva/06-min.JPG" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia-colectiva/07-min.jpg" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia-colectiva/08-min.jpg" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia-colectiva/09-min.jpg" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia-colectiva/10-min.jpg" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia-colectiva/11-min.jpg" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia-colectiva/12-min.jpg" alt=""></li>
+          </ul>
         </div>
         <div id="mainContainer" class="more"><br>
           <h3 id="Tarot" class="moretitle">
@@ -213,7 +226,28 @@ get_header(); ?>
           <br>En estos trabajos, los viajeros pueden laborar día a día con chamanes y curanderos de diferentes tradiciones espirituales, integrando una visión holística de las cosmovisiones tradicionales del continente americano.
           <br>También propone un seminario itinerante de Tarot comprende un recorrido por escenarios naturales elegidos específicamente para trabajar en profundidad, guiados la mano de Cristobal Jodorowsky, en prácticas y ejercicios introspectivos que nos permiten tener acceso de modo vivencial, a la integración de cada arcano del Tarot de Marsella, en la búsqueda de una experiencia más amplia de estudio sobre sus implicaciones arquetípicas en nuestra psique. En el marco de los inigualablemente suntuosos parajes mayas del sureste de México, se realiza un profundo trabajo de auto-conocimiento y una labor terapéutica interior que nos ofrece mayores herramientas para renacer en plenitud a dimensiones más amplias de nuestro ser. Además, las expediciones viajeras resultan una buena ocasión para el trabajo y las consultas en psicomagia y Tarot, generando un recorrido personal desde la meditación y el autoanálisis hasta el ritual psicochamánico.
           </p>", 'cristobalj' )); ?>
-          <img src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt="">
+          <ul  class="psicoteatro-slide">
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/01-min.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/02-min.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/03-min.jpg" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/04-min.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/05-min.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/06-min.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/07-min.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/08-min.jpg" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/09-min.jpg" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/10-min.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/11-min.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/12-min.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/13-min.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/14-min.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/15-min.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/16-min.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/17-min.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/18-min.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/19-min.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/20-min.JPG" alt=""></li>
+          </ul>
         </div>
       </main><!-- #main -->
     </div><!-- #primary -->

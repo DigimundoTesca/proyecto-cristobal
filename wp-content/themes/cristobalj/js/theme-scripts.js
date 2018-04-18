@@ -180,6 +180,26 @@ jQuery(document).ready(function(){
       speed: 500,
       timeout: 2500,
     });
+
+    /*background aleatorio*/
+    do {
+      $(document).ready(function() {
+
+      var contenedor = $('#banner1');
+      var imagenes = ['01.jpeg', '02.jpeg'];
+      var tiempo = 3500;
+      contenedor.css({'background-image':'url(images/cristobal/inicio/01.jpeg);'});
+
+      function image(){
+      setTimeout(function() {
+      contenedor.fadeIn('slow', 0.3, function() {
+      $(this).css({'background-image': 'url(wp-content/themes/cristobalj/images/cristobal/inicio/' + imagenes[Math.floor(Math.random() * imagenes.length)] + ')'});
+      image();}).fadeIn('slow', 0.3); },tiempo); }
+
+      image();
+      });
+    } while (false);
+
     // Sliders on knowmore page
     $("#chamanslides").responsiveSlides({
       auto: true,
@@ -194,8 +214,14 @@ jQuery(document).ready(function(){
     $("#begin-slide").cycle({
 		fx : 'fade',
 		timeout: 3000,
-		speed: 1500,
+		speed: 2000,
 		slides: '.slide'
+    });
+    $(".psicoteatro-slide").cycle({
+		fx : 'fade',
+		timeout: 3000,
+		speed: 2000,
+		slides: '.pslide'
     });
 
     $("#theaterslides").responsiveSlides({

@@ -5,15 +5,19 @@
 get_header(); ?>
 <div id="primary" class="content-area">
   <main id="main" class="site-main">
-    <ul class="rslides">
-      <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/6.jpg" alt=""></li>
-      <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/11.jpg" alt=""></li>
-      <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/28.jpg" alt=""></li>
-      <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/13.jpg" alt=""></li>
-      <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/1.JPG" alt=""></li>
-      <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/24.jpg" alt=""></li>
-      <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/25.jpg" alt=""></li>
-      <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/46.jpg" alt=""></li>
+    <ul class="psicoteatro-slide">
+      <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/biografia/01-min.jpg" alt=""></li>
+      <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/biografia/02-min.jpg" alt=""></li>
+      <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/biografia/03-min.jpg" alt=""></li>
+      <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/biografia/04-min.JPG" alt=""></li>
+      <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/biografia/05-min.jpg" alt=""></li>
+      <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/biografia/06-min.jpg" alt=""></li>
+      <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/biografia/07-min.jpg" alt=""></li>
+      <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/biografia/08-min.jpg" alt=""></li>
+      <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/biografia/09-min.jpg" alt=""></li>
+      <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/biografia/10-min.JPG" alt=""></li>
+      <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/biografia/11-min.JPG" alt=""></li>
+      <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/biografia/12.png" alt=""></li>
     </ul>
     <div class="row">
       <div class="col-xl-9 col-md-12 content-text">

@@ -17,7 +17,7 @@ get_header(); ?>
             <?php echo do_shortcode('[contact-form-7 id="124" title="Contacto"]'); ?>
           </div>
           <div class="col-sm-12 col-md-4">
-            <img class="img-fluid"  src="<?php echo get_template_directory_uri(); ?>/images/contact.jpg" alt="METAMUNDO image">
+            <img class="img-fluid"  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/contacto/contacto.jpg" alt="METAMUNDO image">
           </div>
         </div>
         <div id="contactText" class="container my-5">

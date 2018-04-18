@@ -10,9 +10,9 @@ get_header(); ?>
     <div class="mobilecontainer">
       <div class="bannertext">
         <h2 class="bannertitle">
-          <?php printf(__('¡Bienvenidos y Bienvenidas!','cristobalj')) ?>
+          <?php printf(__('¡Bienvenidos!','cristobalj')) ?>
         </h2>
-        <p class="quote"><?php printf(__('"Frase Cristobal"','cristobalj')) ?></p>
+        <p class="quote"><?php printf(__('"El oro interior que produces quedará como huella en el alma de la humanidad"','cristobalj')) ?></p>
       </div>
       <div class="newscontainer">
         <?php es_subbox( $namefield = "NO", $desc = "", $group = "" ); ?>
@@ -22,10 +22,23 @@ get_header(); ?>
       <div class="bannercontainer">
         <div class="bannertext">
           <h2 class="bannertitle">
-            <?php printf(__('¡Bienvenidos y Bienvenidas!','cristobalj')) ?>
+            <?php printf(__('¡Bienvenidos!','cristobalj')) ?>
           </h2>
-          <p class="quote"><?php printf(__('"Frase Cristobal"','cristobalj')) ?></p>
-          <p class="name">Cristóbal Jodorowsky</p>
+          <div id="begin-slide">
+            <div class="slide clearfix">
+              <p class="quote"><?php printf(__('"El oro interior que produces quedará como huella en el alma de la humanidad"','cristobalj')) ?></p>
+              <p class="name">Cristóbal Jodorowsky</p>
+            </div>
+            <div class="slide clearfix">
+              <p class="quote"><?php printf(__('"No hay más valioso que el instante presente, eso es lo único que hay. El resto: es incierto."','cristobalj')) ?></p>
+              <p class="name">Cristóbal Jodorowsky</p>
+            </div>
+            <div class="slide clearfix">
+              <p class="quote"><?php printf(__('"A veces es necesario un derrumbe para volver a nacer"','cristobalj')) ?></p>
+              <p class="name">Cristóbal Jodorowsky</p>
+            </div>
+          </div>
+
         </div>
         <div class="newscontainer">
           <?php es_subbox( $namefield = "NO", $desc = "", $group = "Maingroup" ); ?>

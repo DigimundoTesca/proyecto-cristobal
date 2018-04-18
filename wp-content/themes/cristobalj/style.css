@@ -1,4 +1,4 @@
-/*
+.psicoteatro-slide/*
 Theme Name: CristobalJ
 Theme URI: http://digimundo.com.mx/
 Author: Digimundo
@@ -1076,31 +1076,21 @@ img#metabannerbig {
   position: absolute;
   left: 0;
 }
-.slide {
-  margin-top: 3em !important;
-}
+
 #banner,
 #banner1 {
   position: relative !important;
   background-color: #FFF;
-  background-image: url("images/cristobal.jpg") !important;
-  background-position: top right;
+  background-image: url("images/cristobal/inicio/01.jpeg");
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  animation: 16s changeback infinite;
-}
-@keyframes changeback {
- 0%, 25% {
-   background-image: url("images/crsitobal/14.jpg");
- }
+  -webkit-transition: background-image 3s ease-out;
+  -moz-transition: background-image 3s ease-out;
+  -o-transition: background-image 3s ease-out;
+  transition: background-image 3s ease-out;
 
 }
-
-.slide .frase {
-  margin-top: 6em;
-  margin-left: 8em;
-}
-
 
 #banner.tarot,
 #banner1.tarot {
@@ -1111,6 +1101,8 @@ img#metabannerbig {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
 #banner1 .buttonLink a {
   text-decoration: none;
   color: #FFF;
@@ -1237,7 +1229,7 @@ label.es_shortcode_form_email span {
   display: inline;
 }
 /*Bio page slider styles*/
-.rslides {
+.rslides, .psicoteatro-slide {
   position: relative;
   list-style: none;
   overflow: hidden;
@@ -1246,7 +1238,8 @@ label.es_shortcode_form_email span {
   padding: 0;
   margin: 0;
 }
-.rslides li {
+.rslides li,
+.psicoteatro-slide li {
   -webkit-backface-visibility: hidden;
   position: absolute;
   display: none;
@@ -1254,12 +1247,14 @@ label.es_shortcode_form_email span {
   left: 0;
   top: 0;
 }
-.rslides li:first-child {
+.rslides li:first-child,
+.psicoteatro-slide li:first-child {
   position: relative;
   display: block;
   float: left;
 }
-.rslides img {
+.rslides img,
+.psicoteatro-slide img {
   display: block;
   height: auto;
   float: left;
@@ -2212,7 +2207,8 @@ input.wpcf7-form-control.wpcf7-submit {
     margin-top: 5px;
   }
   /*Bio page slider styles*/
-  .rslides {
+  .rslides,
+  .psicoteatro-slide {
     max-height: 350px;
   }
   /*Prezi embed styles*/
@@ -2504,7 +2500,7 @@ input.wpcf7-form-control.wpcf7-submit {
     font-size: 25px;
   }
   /*Bio page slider styles*/
-  .rslides {
+  .rslides, .psicoteatro-slide {
     max-height: 500px;
     margin-bottom: 50px;
   }
@@ -2646,7 +2642,7 @@ input.wpcf7-form-control.wpcf7-submit {
     font-size: 20pt;
   }
   /*Bio page slider styles*/
-  .rslides {
+  .rslides, .psicoteatro-slide {
     max-height: 600px;
   }
   /*Prezi embed styles*/
@@ -3111,7 +3107,7 @@ input.wpcf7-form-control.wpcf7-submit {
     font-size: 35px;
   }
   /*Bio page slider styles*/
-  .rslides {
+  .rslides, .psicoteatro-slide {
     max-height: 800px;
   }
 

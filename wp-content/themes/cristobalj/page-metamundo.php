@@ -9,7 +9,7 @@ get_header(); ?>
     <div class="mobilecontainer">
       <div class="bannertext">
         <h2 class="bannertitle">
-          <?php printf(__('Welcome!','cristobalj')) ?>
+          <?php printf(__('¡Bienvenido!','cristobalj')) ?>
         </h2>
         <p class="quote metaquote"><?php printf(__('a nuestra escuela integrativa de desarrollo psicoespiritual','cristobalj')) ?></p>
       </div>
@@ -19,7 +19,7 @@ get_header(); ?>
       <div class="bannercontainer metacontainer">
         <div class="metabannertext">
           <h2 class="bannertitle">
-            <?php printf(__('Welcome!','cristobalj')) ?>
+            <?php printf(__('¡Bienvenido!','cristobalj')) ?>
           </h2>
           <p class="quote metaquote"><?php printf(__('a nuestra escuela integrativa de desarrollo psicoespiritual','cristobalj')) ?></p>
         </div>
@@ -38,7 +38,7 @@ get_header(); ?>
       </div>
     </div>
     <div id="metabanner1welcome" class="metabannerbig">
-      <img id="metabannerbig"  src="<?php echo get_template_directory_uri(); ?>/images/metabanner.jpg" alt="METAMUNDO image">
+      <img id="metabannerbig"  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/metamundo/metamundo.jpg" alt="METAMUNDO image">
       <div class="bannercontainer metacontainer">
         <div class="metabannertext">
           <h2 class="bannertitle second">
@@ -89,57 +89,18 @@ get_header(); ?>
           <div class="blockTitle">
             <h3><span><?php printf(__('Módulo 1. ','cristobalj')) ?></span><?php printf(__(' Tarot y psicología profunda','cristobalj')) ?></h3>
           </div>
-          <div id="blocksContainer">
-            <ul>
-              <li class="metaBlock"><a class="" href="#block1"><?php printf(__('Tema 1','cristobalj')) ?></a></li>
-              <li class="metaBlock"><a href="#block2"><?php printf(__('Tema 2','cristobalj')) ?></a></li>
-            </ul>
+          <div class="blockTitle">
+            <h4><span><?php printf(__('Tema 1. ','cristobalj')) ?></span><?php printf(__(' Tarot 1','cristobalj')) ?></h4>
           </div>
-            <div class="blockTitle">
-              <h3><span><?php printf(__('Tema 1. ','cristobalj')) ?></span><?php printf(__(' Tarot 1','cristobalj')) ?></h3>
-            </div>
           <p class="content">
-            <?php printf(__('"El Tarot es una vía, un camino, que puede transformarte profundamente, es un arte que une la parte intuitiva con la racional". Te muestra los pasos para llevar un orden psíquico-espiritual. El Tarot es un maestro que ayuda a transformarnos y le da forma al alma. </p>
-            <p class = "content"> Antes de leer el Tarot, es necesario conectarse de un modo imaginario y orgánico con él, con  el cuerpo, mente y alma,  e  imaginarlo libre, convertirlo en sangre de tu sangre, alma de tu alma. (Cristobal J.)</p>
 
-            <p class = "content">En este módulo, Cristóbal Jodorowsky, a través de diversas prácticas tanto de meditación cómo dinámicas corporales-creativas, guiará al grupo para entrar en contacto con los arquetipos, es decir: con la energía a que apuntan las cartas, porque todos nosotros somos energía. Y las cuatro energías fundamentales que trabajaremos en este módulo son: <br>
-            <ul class = "content">
-            <li> - Corporal / material representado por los Oros (cuerpo): tierra </li>
-            <li>- Creativa / sexual representado por los Bastos (cerebro reptiliano): fuego </li>
-            <li>- Emocional representado por las Copas (cerebro mamífero): agua </li>
-            <li>- Intelectual representado por las Espadas (cerebro alto: córtex): aire </li></ul> </p>
-            "','cristobalj')) ?>
           </p>
           <div class="blockTitle">
-            <h3><span><?php printf(__('Tema 2. ','cristobalj')) ?></span><?php printf(__(' Estructura de la psicología madura','cristobalj')) ?></h3>
+            <h4><span><?php printf(__('Tema 2. ','cristobalj')) ?></span><?php printf(__(' Estructura de la psicología madura','cristobalj')) ?></h4>
           </div>
           <p class="content">
-            <?php printf(__('"Este proceso lleva tiempo, les daré las claves para aprender, claves que les serán útiles durante toda vuestra vida ". <br>
-            Ser adultos no significa ser maduros y generar energía madura, madurar requiere voluntad, trabajo constante. </p>
-            <p class = "content">He combinado diferentes fuentes, lo que he aprendido de otras personas y lo que ha sido mi experiencia personal.
-            Puedo ayudarlos, pero para que funcione, depende de ustedes y su trabajo personal. Es necesario hacer un pacto con uno mismo. <br>
-            Les puedo dar un mapa que muestre toda tu psicología, pero te tocará a ti recorrerlo y realizarlo,  guiarte y construirte internamente. <br>
-            Estamos hablando de mapas y, por lo tanto, no del territorio; para estos mapas, utilizo símbolos que el cerebro puede comprender con facilidad". <br>
-             (Cristobal Jodorowsky)','cristobalj')) ?>
-          </p>
-          <h3 class="Content"> <b>Teoría </b> </h3>
-          <ul class="content">
-            <li>- Analizaremos la anatomía de un problema y cuáles son los traumas fundamentales que forman la personalidad cómo adultos.</li>
-            <lI>- Pruebas para identificar dónde nos encontramos. </li>
-            <li>- Ejercicios y prácticas de meditación y corporales.</li>
-            <li>- Cómo implementar el proceso alquímico desde el plomo hasta el oro psicológico.</li>
-            <li>- Cómo aprender a tomar decisiones y definir tus propios límites.</li>
-            <li>- Cuáles son las heridas fundamentas y que energía generan.</li>
-            <li>- Qué es “energía emocional positiva” y cómo se genera.</li>
-            <li>- Qué es estar en amor y qué no.</li>
-            <li>-dependencia e interdependencia. </li>
-            <li>- Qué es el “YO testigo”</li>
-            <li>- Qué es el “éxito” </li>
-            <li>- Qué es “la fuerza interior”.</li>
-            <li>- Personalidad, carácter y temperamento.</li>
-            <li>- Mapa de las emociones.</li>
 
-          </ul>
+          </p>
         </div>
         <div id="block2">
           <div class="blockTitle">
