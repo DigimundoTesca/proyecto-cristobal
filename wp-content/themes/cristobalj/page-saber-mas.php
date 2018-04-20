@@ -69,16 +69,16 @@ get_header(); ?>
           <br>Las entidades son restricciones espaciales que acaban metaforizándose en el cuerpo (anorexia, bulimia, obesidad, jorobas, deformidades…) Cuando no hay suficiente espacio para desarrollarse en familias con muchos hijos, cuando uno nace sin ser deseado, del sexo opuesto al esperado, etcétera, es posible que el cerebro animal encuentre estrategias de supervivencia que utilicen una entidad para integrarse en el clan. El Psicochamán identificado a la dimensión unificada de su ser desarrolla la capacidad de dejarse guiar por esa dimensión, por ese gran espíritu divino que le permite despojar, limpiar, destrancar o/y realinear a la persona con su autenticad, su alma, re-situándolo en su camino ya despojado de energía innecesarias.
           </p>", 'cristobalj' )); ?>
           <ul  class="psicoteatro-slide">
-            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/01-min.jpg" alt=""></li>
-            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/02-min.jpg" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/01-min.JPG" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/02-min.JPG" alt=""></li>
             <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/03-min.jpg" alt=""></li>
             <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/04-min.jpg" alt=""></li>
             <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/05-min.JPG" alt=""></li>
             <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/06-min.JPG" alt=""></li>
-            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/07-min.jpg" alt=""></li>
-            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/08-min.jpg" alt=""></li>
-            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/09-min.jpg" alt=""></li>
-            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/10-min.jpg" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/07-min.JPG" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/08-min.JPG" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/09-min.JPG" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/10-min.JPG" alt=""></li>
           </ul>
         </div>
         <div id="mainContainer" class="more">
