@@ -2820,6 +2820,10 @@ input.wpcf7-form-control.wpcf7-submit {
   .ai1ec-agenda-view .ai1ec-month {
     font-size: 1em;
   }
+  .timely a{
+    margin-top: 1rem !important;
+    font-size: 16px !important;
+  }
   #ai1ec-calendar-view > div.ai1ec-agenda-view > div > a > div.ai1ec-day {
     font-size: 2em !important;
     padding: .4em !important;
@@ -3108,7 +3112,13 @@ input.wpcf7-form-control.wpcf7-submit {
   }
   /*Bio page slider styles*/
   .rslides, .psicoteatro-slide {
-    max-height: 800px;
+    max-height: 880px;
+  }
+  .biografia .psicoteatro-slide {
+    max-height: 1100px;
+  }
+  .site-info {
+    font-size: 30px;
   }
 
   #iframe_container {
@@ -3208,7 +3218,7 @@ input.wpcf7-form-control.wpcf7-submit {
   }
   .imgChange13{
     position: absolute;
-    left: -83px;
+    left: -163px;
   }
   .imgChange14{
     width: 100px;

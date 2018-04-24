@@ -3,7 +3,7 @@
  * Template for displaying Biography page */
 
 get_header(); ?>
-<div id="primary" class="content-area">
+<div id="primary" class="biografia content-area">
   <main id="main" class="site-main">
     <ul class="psicoteatro-slide">
       <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/biografia/01-min.jpg" alt=""></li>
