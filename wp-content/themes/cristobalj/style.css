@@ -755,30 +755,7 @@ span {
 }
 
 /* Close Button */
-.close-button {
-  width: 1em;
-  height: 1em;
-  position: absolute;
-  right: 1em;
-  top: 1em;
-  overflow: hidden;
-  text-indent: 1em;
-  font-size: 0.75em;
-  border: none;
-  background: transparent;
-  color: transparent;
-}
 
-.close-button::before,
-.close-button::after {
-  content: '';
-  position: absolute;
-  width: 3px;
-  height: 100%;
-  top: 0;
-  left: 50%;
-  background: #bdc3c7;
-}
 
 .close::before {
   -webkit-transform: rotate(45deg);
@@ -907,7 +884,7 @@ span {
   margin: 10px 0;
 }
 #circles .circlecontent .circle {
-  font-family: 'Gotham Rounded';
+
   display: inline-flex;
   width: 60px;
   height: 60px;
@@ -1528,7 +1505,7 @@ label.es_shortcode_form_email span {
 #mainContainer.more p {
   font-family: "ACaslonPro-regular";
   text-align : justify;
-  margin: 3% 0;
+  margin: 1% 0;
   word-spacing: 5px;
 }
 /*Styles for events on main page*/
@@ -1866,7 +1843,7 @@ input.wpcf7-form-control.wpcf7-submit {
   .bigkmoreContainer img {
     height: 85%;
     width: auto;
-    background-image: url(images/cristobal/12.jpg);
+    background-image: url(images/cristobal/psicomagia/03.jpg);
     background-size: cover;
     background-position: center center;
   }
@@ -2789,7 +2766,6 @@ input.wpcf7-form-control.wpcf7-submit {
   }
   .bookimg img {
     height: 300px;
-    margin-top: 4rem;
   }
   }
 
@@ -3692,6 +3668,9 @@ text-align: center !important;
    .content-text {
      padding-right: 3em;
    }
+   #datesContainer {
+     height: 600px;
+   }
  }
  @media screen and (max-width: 767px) {
    #main-news #post_new{
@@ -3820,7 +3799,7 @@ text-align: center !important;
     font-size: 1.72em;
   }
   #navigation .menu {
-     height: 60vh !important;
+     height: auto !important;
    }
   #navigation ul {
     padding: 0px 10px;

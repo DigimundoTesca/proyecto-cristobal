@@ -116,7 +116,6 @@ get_header(); ?>
 
 
       </div>
-    </div>
   </main><!-- #main -->
 </div><!-- #primary -->
 

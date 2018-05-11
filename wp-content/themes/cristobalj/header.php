@@ -44,7 +44,7 @@
 			<div class="site-branding">
 				<div class="containerMobile">
 					<div id="navigation" class="">
-					<span id="close" class="text-right"><i class="fa fa-times"></i></span>
+					<span id="close" class="text-right"><i class="close fa fa-times"></i></span>
 					<h1 class="site-title text-center"><a href="http://ec2-52-34-233-203.us-west-2.compute.amazonaws.com/Cristobal/" rel="home"><span class="title-caps">C</span>ristóbal <span class="title-caps">J</span>odorowsky</a></h1>
 					<img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/inicio/movil-menu.jpeg" class="img-fluid" alt="">
 					<nav id="menu" class="menu">
@@ -56,10 +56,10 @@
 									?>
 							</nav>
 					<div class="share">
-						<a href="https://www.facebook.com"><i id="facebook" class="text-center fa fa-facebook-square"></i></a>
-						<a href="http://www.instagram.com"><i class="fa fa-instagram"></i></a>
-						<a href="http://www.twitter.com"><i class="fa fa-twitter"></i></a>
-						<a href="http://www.youtube.com"><i class="fa fa-youtube-play"></i></a>
+						<a href="https://www.facebook.com/cristobal.jodorowsky"><i id="facebook" class="text-center fa fa-facebook-square"></i></a>
+						<a href="https://www.instagram.com/explore/tags/cristobaljodorowsky/"><i class="fa fa-instagram"></i></a>
+						<a href="https://twitter.com/cristobaljod?lang=es"><i class="fa fa-twitter"></i></a>
+						<a href="https://www.youtube.com/channel/UCb3iaGZ7ll3Mbt3IvMYbqHg"><i class="fa fa-youtube-play"></i></a>
 					</div>
 				</div>
 					<button class="menu-button" id="open-button">Open Menu</button>
@@ -89,14 +89,13 @@
 				<div id="social" class="mr-3">
 					<nav>
 						<ul>
-							<li><a href="http://www.instagram.com" style="font-size: 36px;" target="_blank" title="" class="fa fa-instagram" aria-hidden="true"></a></li>
-							<li><a href="" style="font-size: 36px;" target="_blank" title="" class="fa fa-facebook-square" aria-hidden="true"></a></li>
-							<li><a href="" style="font-size: 36px;" target="_blank" title="" class="fa fa-twitter" aria-hidden="true"></a></li>
-							<li><a href="" style="font-size: 36px;" target="_blank" title="" class="fa fa-youtube-play" aria-hidden="true"></a></li>
+							<li><a href="https://www.instagram.com/explore/tags/cristobaljodorowsky/" style="font-size: 36px;" target="_blank" title="" class="fa fa-instagram" aria-hidden="true"></a></li>
+							<li><a href="https://www.facebook.com/cristobal.jodorowsky/" style="font-size: 36px;" target="_blank" title="" class="fa fa-facebook-square" aria-hidden="true"></a></li>
+							<li><a href="https://twitter.com/cristobaljod?lang=e" style="font-size: 36px;" target="_blank" title="" class="fa fa-twitter" aria-hidden="true"></a></li>
+							<li><a href="https://www.youtube.com/channel/UCb3iaGZ7ll3Mbt3IvMYbqHg" style="font-size: 36px;" target="_blank" title="" class="fa fa-youtube-play" aria-hidden="true"></a></li>
 						</ul>
 					</nav>
 				</div>
-
 				<img class="brand-logo" src="<?php echo get_template_directory_uri() ?>/images/comm.png" alt="Community logo">
 			</div><!-- .site-branding -->
 

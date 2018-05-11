@@ -90,13 +90,13 @@ get_header(); ?>
             <h3><span><?php printf(__('Módulo 1. ','cristobalj')) ?></span><?php printf(__(' Tarot y psicología profunda','cristobalj')) ?></h3>
           </div>
           <div class="blockTitle">
-            <h4><span><?php printf(__('Tema 1. ','cristobalj')) ?></span><?php printf(__(' Tarot 1','cristobalj')) ?></h4>
+            <h4><span><?php printf(__(' 1.1- ','cristobalj')) ?></span><?php printf(__(' Tarot 1','cristobalj')) ?></h4>
           </div>
           <p class="content">
 
           </p>
           <div class="blockTitle">
-            <h4><span><?php printf(__('Tema 2. ','cristobalj')) ?></span><?php printf(__(' Estructura de la psicología madura','cristobalj')) ?></h4>
+            <h4><span><?php printf(__(' 1.2- ','cristobalj')) ?></span><?php printf(__(' Estructura de la psicología madura','cristobalj')) ?></h4>
           </div>
           <p class="content">
 
@@ -104,36 +104,77 @@ get_header(); ?>
         </div>
         <div id="block2">
           <div class="blockTitle">
-            <h3><span><?php printf(__('Módulo 2. ','cristobalj')) ?></span><?php printf(__(' Metagenealogy','cristobalj')) ?></h3>
+            <h3><span><?php printf(__('Módulo 2. ','cristobalj')) ?></span><?php printf(__(' Metagenealogia','cristobalj')) ?></h3>
+          </div>
+          <div class="blockTitle">
+            <h4><span><?php printf(__(' 2.1- ','cristobalj')) ?></span><?php printf(__('El estudio del Árbol Genealógico','cristobalj')) ?></h4>
           </div>
           <p class="content">
-            <?php printf(__('Metagenealogy is a method of analysis of the genealogical tree that allows to expand the vision of its psychic dimension. This makes us understand to what extent what we think, feel, desire or live, just as our conflicts and diseases can be the result of a family, social, historical past or educational waste.','cristobalj')) ?>
+
+          </p>
+          <div class="blockTitle">
+            <h4><span><?php printf(__(' 2.2- ','cristobalj')) ?></span><?php printf(__(' Identificación de nudos y núcleos en el Árbol Genealógico','cristobalj')) ?></h4>
+          </div>
+          <p class="content">
           </p>
         </div>
         <div id="block3">
           <div class="blockTitle">
-            <h3><span><?php printf(__('Módulo 3. ','cristobalj')) ?></span><?php printf(__(' Psicochamanismo','cristobalj')) ?></h3>
+            <div class="blockTitle">
+              <h3><span><?php printf(__('Módulo 3. ','cristobalj')) ?></span><?php printf(__(' Psicochamanismo','cristobalj')) ?></h3>
+            </div>
+            <div class="blockTitle">
+              <h4><span><?php printf(__(' 3.1- ','cristobalj')) ?></span><?php printf(__(' Creatividad y Psicochamanismo ','cristobalj')) ?></h4>
+            </div>
+            <p class="content">
+
+            </p>
+            <div class="blockTitle">
+              <h4><span><?php printf(__(' 3.2- ','cristobalj')) ?></span><?php printf(__(' Rituales de Curación ','cristobalj')) ?></h4>
+            </div>
+            <p class="content">
+
+            </p>
           </div>
-          <p class="content">
-            <?php printf(__('"Psychomagia is a healing practice that acts through metaphor and beauty, essentially with the language of dreams. Psychomagia consists of symbolic acts that allow the realization of the unrealizable, restoring the memory to finally trigger the energy that was blocked in the consultant. By failing to consider the unconscious dimension as an enemy and losing the fear of seeing oneself, one can discover the traumas that cause suffering. However, although one knows what happens to him and why, he is not at all free from pain."','cristobalj')) ?>
-          </p></div>
           <div id="block4">
             <div class="blockTitle">
               <h3><span><?php printf(__('Módulo 4. ','cristobalj')) ?></span><?php printf(__(' Psicomagia 1','cristobalj')) ?></h3>
             </div>
+            <div class="blockTitle">
+              <h4><span><?php printf(__('4.1- ','cristobalj')) ?></span><?php printf(__(' Elaboración de Actos Psicomágicos Individuales ','cristobalj')) ?></h4>
+            </div>
             <p class="content">
-              <?php printf(__('At an archaic level, the human being responds to an innate instinct of family conservation. He is scheduled to fight for the survival of his clan. For the archaic brain an idea, an emotional structure, a prohibition, an order or a belief may be the metaphor of an ancestor. That is why it is so difficult for us to shed all those aspects that prevent us from growing, since this could represent the murder of a member (or of all) our species. This is how we keep alive ideas, memories, phantasms, morals, behavioral structures, and ideologies that come from the genealogical lineage.','cristobalj')) ?>
-            </p></div>
+
+            </p>
+            <p class="content">
+
+            </p>
+          </div>
             <div id="block5">
               <div class="blockTitle">
                 <h3><span><?php printf(__('Módulo 5. ','cristobalj')) ?></span><?php printf(__(' Retiro','cristobalj')) ?></h3>
               </div>
+              <div class="blockTitle">
+                <h4><span><?php printf(__(' 5.1- ','cristobalj')) ?></span><?php printf(__(' Sanación de las relaciones parentales ','cristobalj')) ?></h4>
+              </div>
               <p class="content">
-                <?php printf(__('This Módulo is intended to address in depth the science of courtship. During his study, Cristobal Jodorowsky will provide the participants with the keys to live harmonious and healthy personal relationships.<br>
-                The study of this block involves the analysis of temperaments (emotions), personality (intellect) and masculinity / femininity (instinct / reptile). It is essential to achieve in ourselves an adaptation to the structure of the nature of relationships, based on the fact that all existence is put into operation for couples to exist, and according to our vision live in harmony.','cristobalj')) ?>
+
+              </p>
+              <div class="blockTitle">
+                <h4><span><?php printf(__(' 5.2- ','cristobalj')) ?></span><?php printf(__(' Rituales de Nacimiento ','cristobalj')) ?></h4>
+              </div>
+              <p class="content">
+
+              </p>
+              <div class="blockTitle">
+                <h4><span><?php printf(__(' 5.3- ','cristobalj')) ?></span><?php printf(__(' Viaje Iniciático: Psicochamanismo ','cristobalj')) ?></h4>
+              </div>
+              <p class="content">
+
               </p>
             </div>
       </div>
+    </div>
       <div class="col-md-4 col-lg-3">
         <div class="video_container">
           <video id="metamundo" controls>
