@@ -38,7 +38,7 @@ Template Name: mainbanner
     <a href="http://metamundo.cristobal-jodorowsky.com/start" title="Tarot">
       <div class="mindHack">
         <h3>
-          <?php printf(__('Tarot queries','cristobalj')) ?>
+          <?php printf(__('Tu tarot virtual','cristobalj')) ?>
         </h3>
         <img  src="<?php echo get_stylesheet_directory_uri(); ?>/images/Tarot.jpg"  alt="">
       </div>

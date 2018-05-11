@@ -12,7 +12,6 @@ get_header(); ?>
       <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/biografia/04-min.JPG" alt=""></li>
       <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/biografia/05-min.jpg" alt=""></li>
       <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/biografia/06-min.jpg" alt=""></li>
-      <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/biografia/07-min.jpg" alt=""></li>
       <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/biografia/08-min.jpg" alt=""></li>
       <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/biografia/09-min.jpg" alt=""></li>
       <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/biografia/10-min.JPG" alt=""></li>

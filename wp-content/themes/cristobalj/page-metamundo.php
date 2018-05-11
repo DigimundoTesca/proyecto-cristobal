@@ -42,7 +42,7 @@ get_header(); ?>
       <div class="bannercontainer metacontainer">
         <div class="metabannertext">
           <h2 class="bannertitle second">
-            <?php printf(__('"Sanarse uno mismo es sanar al mundo"','cristobalj')) ?>
+            <?php printf(__('"Sanarse uno mismo es también sanar al mundo"','cristobalj')) ?>
           </h2>
           <p class="quote metaquote name"><?php printf(__('Cristobal Jodorowsky','cristobalj')) ?></p>
         </div>

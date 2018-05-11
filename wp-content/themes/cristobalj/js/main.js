@@ -1,37 +1,17 @@
+
 // Function to manage menu
 (function() {
 
   var bodyEl = document.body,
-  content = document.querySelector( '.content-wrap' ),
+  content = document.querySelector( 'navigation' ),
   openbtn = document.getElementById( 'open-button' ),
-  closebtn = document.getElementById( 'close-button' ),
+  closebtn = document.getElementById( 'close' ),
   isOpen = false;
 
   function init() {
     initEvents();
   }
-/*phrases random 
-function aleatorio(){
-  frases= new Array();
 
-  frases[0] = "Primera Frase";
-  frases[1] = "Segunda Frase";
-  frases[2] = "tercera Frase";
-  frases[4] = "cuarta frase";
-
-  cambia = Math.floor(Math.random()*4);
-  return frases[cambia];
-}
-onload=function(){
-    document.getElementById('bannertext').innerHTML=aleatorio();
-    setInterval(function(){document.getElementById('bannertext').innerHTML=aleatorio();},5000)
-}
-*/
-
-  /*Clean form*/
-  function limpiarFormulario() {
-    document.getElementById("wpcf7-f124-p21-o1").reset();
-  }
   function initEvents() {
     openbtn.addEventListener( 'click', toggleMenu );
     if( closebtn ) {
@@ -49,6 +29,7 @@ onload=function(){
   function toggleMenu() {
     if( isOpen ) {
       classie.remove( bodyEl, 'show-menu' );
+
     }
     else {
       classie.add( bodyEl, 'show-menu' );

@@ -3,7 +3,7 @@
 Template Name: secondarybanner
 */
 ?>
-<div id="secondarybannercontainer">
+<div id="secondarybannercontainer" >
   <div class="mainbannercontent">
     <a href="<?php echo esc_url( get_permalink( get_page_by_title( 'Metamundo' ) ) ); ?>" title="Metamundo">
       <div class="metmundo">
@@ -38,9 +38,12 @@ Template Name: secondarybanner
     <a href="http://metamundo.cristobal-jodorowsky.com/start" title="Tarot">
       <div class="mindHack">
         <h3>
-          <?php printf(__('Tarot queries','cristobalj')) ?>
+          <?php printf(__('Tu tarot virtual','cristobalj')) ?>
         </h3>
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/Tarot.jpg" alt="">
+        <p class="consulta">
+          <?php printf(__('Consultas gratis','cristobalj')) ?>
+        </p>
       </div>
     </a>
   </div>

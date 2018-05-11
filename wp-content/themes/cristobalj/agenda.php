@@ -6,7 +6,7 @@ Template Name: mainbanner
 
 
 <div id="datesContainer" class="mt-5" >
-  <h3>
+  <h3 class="text-center">
     <?php
     printf( __( 'Agenda 2018', 'cristobalj' ));
     ?>

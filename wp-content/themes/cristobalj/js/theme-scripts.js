@@ -169,7 +169,6 @@ jQuery(document).ready(function(){
   })(jQuery);
 
 
-
   // Moving images for banners
   (function($) {
     $('.mobilekmore').addClass('animated zoomIn');
@@ -180,25 +179,6 @@ jQuery(document).ready(function(){
       speed: 500,
       timeout: 2500,
     });
-
-    /*background aleatorio*/
-    do {
-      $(document).ready(function() {
-
-      var contenedor = $('#banner1');
-      var imagenes = ['01.jpeg', '02.jpeg'];
-      var tiempo = 3500;
-      contenedor.css({'background-image':'url(images/cristobal/inicio/01.jpeg);'});
-
-      function image(){
-      setTimeout(function() {
-      contenedor.fadeIn('slow', 0.3, function() {
-      $(this).css({'background-image': 'url(wp-content/themes/cristobalj/images/cristobal/inicio/' + imagenes[Math.floor(Math.random() * imagenes.length)] + ')'});
-      image();}).fadeIn('slow', 0.3); },tiempo); }
-
-      image();
-      });
-    } while (false);
 
     // Sliders on knowmore page
     $("#chamanslides").responsiveSlides({
@@ -211,11 +191,18 @@ jQuery(document).ready(function(){
       speed: 500,
       timeout: 2500,
     });
+
     $("#begin-slide").cycle({
 		fx : 'fade',
-		timeout: 3000,
+		timeout: 4000,
 		speed: 2000,
 		slides: '.slide'
+    });
+    $(".begin-slide").cycle({
+		fx : 'fade',
+		timeout: 4000,
+		speed: 2000,
+		slides: '.mslide'
     });
     $(".psicoteatro-slide").cycle({
 		fx : 'fade',
@@ -229,6 +216,9 @@ jQuery(document).ready(function(){
       speed: 500,
       timeout: 2500,
     });
+    /*slider tarot*/
+    var slider = document.querySelector(".slier-prin");
+    slider.innerHTML += slider.innerHTML;
   })(jQuery);
 
   // Change books header color

@@ -43,8 +43,11 @@
 		<header id="masthead" class="site-header">
 			<div class="site-branding">
 				<div class="containerMobile">
-					<div class="menu-wrap">
-						<nav id="menu" class="menu">
+					<div id="navigation" class="">
+					<span id="close" class="text-right"><i class="fa fa-times"></i></span>
+					<h1 class="site-title text-center"><a href="http://ec2-52-34-233-203.us-west-2.compute.amazonaws.com/Cristobal/" rel="home"><span class="title-caps">C</span>ristóbal <span class="title-caps">J</span>odorowsky</a></h1>
+					<img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/inicio/movil-menu.jpeg" class="img-fluid" alt="">
+					<nav id="menu" class="menu">
 								<?php
 								wp_nav_menu( array(
 									'theme_location' => 'menu-1',
@@ -52,8 +55,13 @@
 									) );
 									?>
 							</nav>
-						<button class="close-button" id="close-button">Close Menu</button>
+					<div class="share">
+						<a href="https://www.facebook.com"><i id="facebook" class="text-center fa fa-facebook-square"></i></a>
+						<a href="http://www.instagram.com"><i class="fa fa-instagram"></i></a>
+						<a href="http://www.twitter.com"><i class="fa fa-twitter"></i></a>
+						<a href="http://www.youtube.com"><i class="fa fa-youtube-play"></i></a>
 					</div>
+				</div>
 					<button class="menu-button" id="open-button">Open Menu</button>
 					<div class="content-wrap">
 						<div class="content">
@@ -78,12 +86,13 @@
 				<div  id="langbar" class="widget-area">
 					<?php dynamic_sidebar( 'langbar-1' ); ?>
 				</div><!-- #secondary -->
-				<div id="social">
+				<div id="social" class="mr-3">
 					<nav>
 						<ul>
-							<li><a href="" style="font-size: 36px;" target="_blank" title="" class="fa fa-instagram" aria-hidden="true"></a></li>
+							<li><a href="http://www.instagram.com" style="font-size: 36px;" target="_blank" title="" class="fa fa-instagram" aria-hidden="true"></a></li>
 							<li><a href="" style="font-size: 36px;" target="_blank" title="" class="fa fa-facebook-square" aria-hidden="true"></a></li>
 							<li><a href="" style="font-size: 36px;" target="_blank" title="" class="fa fa-twitter" aria-hidden="true"></a></li>
+							<li><a href="" style="font-size: 36px;" target="_blank" title="" class="fa fa-youtube-play" aria-hidden="true"></a></li>
 						</ul>
 					</nav>
 				</div>

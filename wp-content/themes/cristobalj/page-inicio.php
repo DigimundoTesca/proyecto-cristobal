@@ -12,7 +12,28 @@ get_header(); ?>
         <h2 class="bannertitle">
           <?php printf(__('¡Bienvenidos!','cristobalj')) ?>
         </h2>
-        <p class="quote"><?php printf(__('"El oro interior que produces quedará como huella en el alma de la humanidad"','cristobalj')) ?></p>
+        <div class="begin-slide">
+          <div class="mslide clearfix">
+            <p class="quote text-center"><?php printf(__('"El oro interior que produces quedará como huella en el alma de la humanidad"','cristobalj')) ?></p>
+            <p class="name text-right">Cristóbal Jodorowsky</p>
+          </div>
+          <div class="mslide clearfix">
+            <p class="quote text-center"><?php printf(__('"Si tú no eres capaz de verte a ti mism@ ¿Cómo se lo vas a exigir al mundo? ."','cristobalj')) ?></p>
+            <p class="name text-right">Cristóbal Jodorowsky</p>
+          </div>
+          <div class="mslide clearfix">
+            <p class="quote text-center"><?php printf(__('"La mente militar es un atentado a la profunda naturaleza humana."','cristobalj')) ?></p>
+            <p class="name text-right">Cristóbal Jodorowsky</p>
+          </div>
+          <div class="mslide clearfix">
+            <p class="quote text-center"><?php printf(__('"La tecnología (si se abusa de ella) puede atentar al profundo contacto sensorial con la naturaleza que nos humaniza. No lo abandonemos por gratificaciones sintéticas y virtuales."','cristobalj')) ?></p>
+            <p class="name text-right">Cristóbal Jodorowsky</p>
+          </div>
+          <div class="mslide clearfix">
+            <p class="quote text-center"><?php printf(__('"Tu cuerpo no es "el mal", "el pecado", no eres una cabeza separada del cuerpo, no eres un ego individual, el lenguaje no es el territorio. Cambia tus paradigmas y adáptate a la vida, no le pidas que ella se adapte a tu arrogancia."','cristobalj')) ?></p>
+            <p class="name text-right">Cristóbal Jodorowsky</p>
+          </div>
+        </div>
       </div>
       <div class="newscontainer">
         <?php es_subbox( $namefield = "NO", $desc = "", $group = "" ); ?>
@@ -26,16 +47,24 @@ get_header(); ?>
           </h2>
           <div id="begin-slide">
             <div class="slide clearfix">
-              <p class="quote"><?php printf(__('"El oro interior que produces quedará como huella en el alma de la humanidad"','cristobalj')) ?></p>
-              <p class="name">Cristóbal Jodorowsky</p>
+              <p class="quote text-center"><?php printf(__('"El oro interior que produces quedará como huella en el alma de la humanidad"','cristobalj')) ?></p>
+              <p class="name text-right">Cristóbal Jodorowsky</p>
             </div>
             <div class="slide clearfix">
-              <p class="quote"><?php printf(__('"No hay más valioso que el instante presente, eso es lo único que hay. El resto: es incierto."','cristobalj')) ?></p>
-              <p class="name">Cristóbal Jodorowsky</p>
+              <p class="quote text-center"><?php printf(__('"Si tú no eres capaz de verte a ti mism@ ¿Cómo se lo vas a exigir al mundo? ."','cristobalj')) ?></p>
+              <p class="name text-right">Cristóbal Jodorowsky</p>
             </div>
             <div class="slide clearfix">
-              <p class="quote"><?php printf(__('"A veces es necesario un derrumbe para volver a nacer"','cristobalj')) ?></p>
-              <p class="name">Cristóbal Jodorowsky</p>
+              <p class="quote text-center"><?php printf(__('"La mente militar es un atentado a la profunda naturaleza humana."','cristobalj')) ?></p>
+              <p class="name text-right">Cristóbal Jodorowsky</p>
+            </div>
+            <div class="slide clearfix">
+              <p class="quote text-center"><?php printf(__('"La tecnología (si se abusa de ella) puede atentar al profundo contacto sensorial con la naturaleza que nos humaniza. No lo abandonemos por gratificaciones sintéticas y virtuales."','cristobalj')) ?></p>
+              <p class="name text-right">Cristóbal Jodorowsky</p>
+            </div>
+            <div class="slide clearfix">
+              <p class="quote text-center"><?php printf(__('"Tu cuerpo no es "el mal", "el pecado", no eres una cabeza separada del cuerpo, no eres un ego individual, el lenguaje no es el territorio. Cambia tus paradigmas y adáptate a la vida, no le pidas que ella se adapte a tu arrogancia."','cristobalj')) ?></p>
+              <p class="name text-right">Cristóbal Jodorowsky</p>
             </div>
           </div>
 
@@ -54,15 +83,7 @@ get_header(); ?>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-8 col-lg-9 order-first d-flex justify-content-center">
-        <div class="">
-          <h1 class="text-center">Últimas Noticias</h1>
-          <?php while (have_posts()): the_post(); ?>
-            <?php the_content(); ?>
-          <?php endwhile ?>
-        </div>
-      </div>
-      <div class="sidebar_1 col-md-4 col-lg-3 order-sm-last  justify-content-center">
+      <div class="sidebar_1 col-md-4 col-lg-3 order-lg-last  justify-content-center">
         <div id="datesContainer" class="mt-5 text-center" >
           <h3>
             <?php
@@ -83,6 +104,15 @@ get_header(); ?>
         </div>
         <?php get_template_part( 'mainbanner' ); ?>
       </div>
+      <div class="col-md-8 col-lg-9 order-lg-first d-flex justify-content-center">
+        <div class="">
+          <h1 class="text-center">Últimas Noticias</h1>
+          <?php while (have_posts()): the_post(); ?>
+            <?php the_content(); ?>
+          <?php endwhile ?>
+        </div>
+      </div>
+
 
 
       </div>

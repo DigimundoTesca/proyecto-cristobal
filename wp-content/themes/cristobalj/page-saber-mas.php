@@ -14,19 +14,19 @@ get_header(); ?>
           <div id="bigkmoreContainer" class="bigkmoreContainer ">
             <img id="knowmore bigmorebanner" class="bigkmore" src="<?php echo get_template_directory_uri(); ?>/images/another.png" alt="banner know more">
             <a href="#Psicomagic" class="imgChange1 textBig"><?php printf( __( 'Psicomagia', 'cristobalj' ));?></a>
-            <a href="#BIO" class="imgChange2 textSmall"><?php printf( __( '', 'cristobalj' ));?></a>
-            <a href="#Psicochamanismo" class="imgChange3 textBig"><?php printf( __( 'Psicochamanismo', 'cristobalj' ));?></a>
-            <a href="#Metagenealo" class="imgChange5 textBig"><?php printf( __( 'Metagenealogía', 'cristobalj' ));?></a>
+            <a href="#BIO" class="imgChange5 textBig"><?php printf( __( 'Constelaciones <br> Psicochamanicas', 'cristobalj' ));?></a>
+            <a href="#Psicochamanismo" class="imgChange15 textBig"><?php printf( __( 'Psicochamanismo', 'cristobalj' ));?></a>
+            <a href="#Metagenealo" class="imgChange13 textBig"><?php printf( __( 'Metagenealogía', 'cristobalj' ));?></a>
             <a href="#Therapies" class="imgChange6 textSmall"><?php printf( __( '', 'cristobalj' ));?></a>
-            <a href="#Travels" class="imgChange7 textBig"><?php printf( __( 'Viajes Iniciáticos', 'cristobalj' ));?></a>
+            <a href="#Travels" class="imgChange9 textBig"><?php printf( __( 'Viajes Iniciáticos', 'cristobalj' ));?></a>
             <a href="#Psicomagic" class="imgChange8 textSmall"><?php printf( __( '', 'cristobalj' ));?></a>
             <a href="#Tarot" class="imgChange9 textBig"><?php printf( __( '', 'cristobalj' ));?></a>
             <a href="#Videos" class="imgChange10 textSmall"><?php printf( __( '', 'cristobalj' ));?></a>
-            <a href="#Colectiva" class="imgChange11 textBig"><?php printf( __( 'Psicomagia Colectiva', 'cristobalj' ));?></a>
+            <a href="#Colectiva" class="imgChange7 textBig"><?php printf( __( 'Psicomagia Colectiva', 'cristobalj' ));?></a>
             <a href="#Teachers" class="imgChange12 textSmall"><?php printf( __( '', 'cristobalj' ));?></a>
-            <a href="#Psicoteatro" class="imgChange13 textBig"><?php printf( __( 'Psicoteatro', 'cristobalj' ));?></a>
+            <a href="#Psicoteatro" class="imgChange11 textBig"><?php printf( __( 'Psicoteatro', 'cristobalj' ));?></a>
             <a href="#Press" class="imgChange14 textSmall"><?php printf( __( '', 'cristobalj' ));?></a>
-            <a href="#Tarot" class="imgChange15 textBig"><?php printf( __( 'Tarot', 'cristobalj' ));?></a>
+            <a href="#Tarot" class="imgChange3 textBig"><?php printf( __( 'Tarot', 'cristobalj' ));?></a>
             <a href="#Art" class="imgChange16 textSmall"><?php printf( __( '', 'cristobalj' ));?></a>
           </div>
         </div>
@@ -44,7 +44,6 @@ get_header(); ?>
             <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/03-min.jpg" alt=""></li>
             <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/04-min.jpg" alt=""></li>
             <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/05-min.JPG" alt=""></li>
-            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/06-min.JPG" alt=""></li>
             <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/07-min.jpg" alt=""></li>
             <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/08-min.jpg" alt=""></li>
             <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/09-min.jpg" alt=""></li>
@@ -70,15 +69,12 @@ get_header(); ?>
           </p>", 'cristobalj' )); ?>
           <ul  class="psicoteatro-slide">
             <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/01-min.JPG" alt=""></li>
-            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/02-min.JPG" alt=""></li>
-            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/03-min.jpg" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/02-min.jpg" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/03-min.JPG" alt=""></li>
             <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/04-min.jpg" alt=""></li>
             <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/05-min.JPG" alt=""></li>
             <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/06-min.JPG" alt=""></li>
             <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/07-min.JPG" alt=""></li>
-            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/08-min.JPG" alt=""></li>
-            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/09-min.JPG" alt=""></li>
-            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/10-min.JPG" alt=""></li>
           </ul>
         </div>
         <div id="mainContainer" class="more">
@@ -90,6 +86,10 @@ get_header(); ?>
           <?php printf(__("<p>La psicomagia es la técnica terapéutica, iniciada por Alejandro Jodorowsky, quien aúna el chamanismo, la magia popular, la psicología, , el misticismo, la filosofía oriental, el arte, la intuición con una finalidad curativa. La psicomagia es una práctica sanadora que actúa a través del símbolo, la metáfora y la belleza, esencialmente con el lenguaje de los sueños. Al dejar de considerar a la dimensión inconsciente como un enemigo y perder el miedo a verse a uno mismo, uno puede descubrir los traumas que provocan sufrimiento. Sin embargo, aunque uno sepa lo que le sucede y el porqué, no es del todo libre del dolor. La psicomagia no pretende – como el psicoanálisis – curar a través de la palabra convirtiendo los mensajes que envía la dimensión inconsciente en un discurso racional, sino enseñarle al racional a manejar el lenguaje inconsciente.</p>
           <p>Los procesos de nuestro cerebro son más simbólicos y analógicos que lógicos. Para éste, una fotografía no sólo representa a la persona retratada, sino que es ella misma. Considera a una parte como el todo, proyecta las personas que pueblan su memoria sobre seres reales o cosas. En la psicomagia se le proponen al consultante acciones concretas, efectuar un acto simbólico que, de alguna manera, restaurará su memoria y le permitirá realizar lo irrealizable.
           </p><p>No obstante, para lograr que el acto dé un óptimo resultado, el consultante antes debe liberarse de la moral impuesta por su familia, su sociedad y su cultura. Si lo hace podrá por ejemplo, sin temor, pegar una fotografía de su padre sobre dos sandías y las podrá hacer estallar a batacazos. Su dimensión inconsciente dará por realizado el asesinato y la castración. El consultante se sentirá así más libre. Aquello que nos atemoriza pierde fuerza en el momento en que dejamos de combatirlo o de alejarlo de la mente para integrarlo a través de un acto psicomágico que nos ayude a despertar y hacer de la vida un sueño lúcido lleno de conciencia. No basta con comprender el porqué de un conflicto; hay que actuarlo, darle una salida al impulso, al comportamiento repetitivo que nos dificulta la existencia. Así fue como se creó la psicomagia, el psicochamanismo y, más adelante, el psicorritual.
+          </p>
+          </p><p>La psicomagia también se puede explicar desde la ecuación descubierta por Einstein (E=mc2) que cuantificó y permitió que se le diera forma a la energía atómica. La psicomagia hace lo mismo con la energía psíquica: es decir que, a través de una metáfora se le da forma al conflicto del consultante que, antes del acto, es totalmente abstracto para su cerebro, pero cuando a través de símbolos precisos su cerebro percibe a través de los sentidos a su problemática fuera,  creyendo que todo está pasando dentro de él, al fin lo puede reconocerlo. Así convirtiéndose en actor consiente de su propio sueño, puede transitar y moldear la materia misma de su psicología. Es decir que, el consultante puede al fin intervenir en su conflicto y de alguna manera re-direccionarlo y transformarlo: darle una nueva salida.
+
+          <br>Durante los últimos treinta años Cristóbal ha realizado cientos de actos psicomágicos sobre él mismo (y aconsejado miles) experimentando hasta qué punto con esa práctica, era posible solucionar tantas dificultades psicológicas, genealógicas permitiendo que la persona que vive el acto se re-alinee con su alma, la vida, el espíritu divino.
           </p>", 'cristobalj' )); ?>
           <ul id="" class="psicoteatro-slide">
             <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia/01.JPG" alt=""></li>
@@ -97,29 +97,8 @@ get_header(); ?>
             <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia/03.jpg" alt=""></li>
             <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia/04.JPG" alt=""></li>
             <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia/05.JPG" alt=""></li>
-            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia/06.JPG" alt=""></li>
-            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia/07.JPG" alt=""></li>
-            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia/08.jpg" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia/06.jpg" alt=""></li>
           </ul>
-        </div>
-        <div id="mainContainer" class="more"><br>
-          <h3 id="metaforico" class="moretitle">
-            <?php
-            printf(__('<span class="morecolor" >Acto Metafórico</span>', 'cristobalj' ));
-            ?>
-          </h3>
-          <?php printf(__('<p>“El cerebro obedece generalmente a un lenguaje metafórico y es más analógico que lógico, no distingue entre el mundo interior y el mundo exterior donde se proyecta. Mediante actos psicomágicos y operaciones metafóricas sobre el cuerpo físico, se hace posible liberar a la persona de ciertos bloqueos y traumas, heredados generalmente de la historia familiar. Trabajar con el árbol genealógico de cada caso particular permite descodificar las estructuras inhibidoras de nuestro inconsciente (o dimensión irracional) y, mediante el acto, reorientarlas con el propósito de permitirle que nuestro ser esencial respire libre en nosotros”.
-            </p><p class="text-right"> (Cristóbal Jodorowsky) </p>
-          <p>Para nuestro cerebro no existe el tiempo. Si estás vestido como un niño, puede que toda tu infancia aflore a tu piel. Por eso lloramos ante los recuerdos dolorosos, como si todavía estuviéramos viviendo el pasado en el momento presente. Aprovechando esta facultad, la psicomagia y el psicochamanismo combinan símbolos y crean metáforas que reorientan los códigos de conducta más arraigados en nuestras mentes, permitiéndonos así convertirnos en los alquimistas de nuestra propia existencia.</p>
-          <p>Estas prácticas sanadoras no son sólo teorías presuntamente científicas. La psicomagia no es una ciencia, pues contiene elementos mistéricos, inaprensibles, que la convierten en puro acto creativo, en el sentido de que cada ser es diferente y su mente vive según una lógica única. No se puede tratar igual a todos y, si lo hacemos, sólo proyectamos nuestro propio ego. Por ello, un acto psicomágico debe brotar de una dimensión que está más allá de lo racional; y eso no se aprende ni se enseña, como no se puede enseñar a ser artista.
-          Los actos psicomágicos están relacionados, en su mayor parte, con la familia y sus dificultades, pues es el principal terreno de creación de nuestros mapas mentales, de cómo percibimos la vida y nuestra realización personal. Por eso, no está de más recordar que, como escribió Amado Nervo, “el cuerpo no es más que un medio de volverse temporalmente visible. Todo nacimiento es una aparición”. Laborar en el terreno de nuestra invisibilidad, es ayudar a que nuestra temporal aparición en el mundo se reoriente hacia la intrínseca unidad de la existencia El acto psicomágico es siempre un consejo – no una imposición – que sitúa al consultante en una encrucijada donde él deberá decidir si se convierte en su propio curandero o no..
-
-          </p><p>La psicomagia también se puede explicar desde la ecuación descubierta por Einstein (E=mc2) que cuantificó y permitió que se le diera forma a la energía atómica. La psicomagia hace lo mismo con la energía psíquica: es decir que, a través de una metáfora se le da forma al conflicto del consultante que, antes del acto, es totalmente abstracto para su cerebro, pero cuando a través de símbolos precisos su cerebro percibe a través de los sentidos a su problemática fuera,  creyendo que todo está pasando dentro de él, al fin lo puede reconocerlo. Así convirtiéndose en actor consiente de su propio sueño, puede transitar y moldear la materia misma de su psicología. Es decir que, el consultante puede al fin intervenir en su conflicto y de alguna manera re-direccionarlo y transformarlo: darle una nueva salida.
-
-          <br>Durante los últimos treinta años Cristóbal ha realizado cientos de actos psicomágicos sobre él mismo (y aconsejado miles) experimentando hasta qué punto con esa práctica, era posible solucionar tantas dificultades psicológicas, genealógicas permitiendo que la persona que vive el acto se re-alinee con su alma, la vida, el espíritu divino.
-          </p>', 'cristobalj' )); ?>
-
-
         </div>
         <div id="mainContainer" class="more">
           <h3 id="Metagenealo" class="moretitle">
@@ -139,7 +118,7 @@ get_header(); ?>
           Muy a menudo, después de un análisis genealógico Cristobal prepara un Psicoritual familiar o constelación psicomágica, en dónde invita a un grupo a teatralizar las situaciones vistas y re alinearlas con la corriente de la vida.
           </p>', 'cristobalj' )); ?>
 
-          <img class="mt-3"src="<?php echo get_template_directory_uri(); ?>/images/test.jpg" alt="">
+          <img class="mt-3"src="<?php echo get_template_directory_uri(); ?>/images/cristobal/arbol.jpg" alt="">
         </div>
         <div id="mainContainer" class="more"><br>
           <h3 id="Colectiva" class="moretitle">
@@ -156,18 +135,17 @@ get_header(); ?>
           <br>Según mi visión, hoy en día la transformación se hace también colectivamente, en grupos que obran juntos como abejas, dedicadas a producir la miel consiente, transformadora que todos necesitamos para mover a esta sociedad.
           </p>", 'cristobalj' )); ?>
           <ul  class="psicoteatro-slide">
-            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia-colectiva/01-min.jpg" alt=""></li>
-            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia-colectiva/02-min.jpg" alt=""></li>
-            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia-colectiva/03-min.jpg" alt=""></li>
-            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia-colectiva/04-min.jpg" alt=""></li>
-            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia-colectiva/05-min.JPG" alt=""></li>
-            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia-colectiva/06-min.JPG" alt=""></li>
-            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia-colectiva/07-min.jpg" alt=""></li>
-            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia-colectiva/08-min.jpg" alt=""></li>
-            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia-colectiva/09-min.jpg" alt=""></li>
-            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia-colectiva/10-min.jpg" alt=""></li>
-            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia-colectiva/11-min.jpg" alt=""></li>
-            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia-colectiva/12-min.jpg" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia-colectiva/001-min.jpg" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia-colectiva/002-min.jpg" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia-colectiva/003-min.jpg" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia-colectiva/004-min.jpg" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia-colectiva/005-min.jpg" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia-colectiva/006-min.jpg" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia-colectiva/007-min.jpg" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia-colectiva/008-min.JPG" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia-colectiva/009-min.jpg" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia-colectiva/010-min.jpg" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia-colectiva/011-min.jpg" alt=""></li>
           </ul>
         </div>
         <div id="mainContainer" class="more"><br>

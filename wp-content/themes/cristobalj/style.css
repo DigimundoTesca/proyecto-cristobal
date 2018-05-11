@@ -260,7 +260,11 @@ textarea {
   border-radius: 3px;
   padding: 3px;
 }
+.newscontainer {
+  margin-top: 2em;
+  margin-bottom: -2em;
 
+}
 select {
   border: 1px solid #ccc;
 }
@@ -702,6 +706,9 @@ span {
   max-width: 500px;
   margin: 0 auto;
 }
+.bannertext {
+  margin-left: 2em;
+}
 .btn-success {
   color: #fff !important;
   background-color: #28a745 !important;
@@ -773,25 +780,22 @@ span {
   background: #bdc3c7;
 }
 
-.close-button::before {
+.close::before {
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
-.close-button::after {
+.close::after {
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
 
 /* Menu */
-.menu-wrap {
+#navigation{
   position: absolute;
   z-index: 1001;
-  width: 300px;
   height: 100%;
-  background: #373a47;
-  padding: 2.5em 1.5em 0;
-  font-size: 1.15em;
+  font-size: .45em;
   transform: translate3d(-500px,0,0);
   transition: transform 0.4s;
   transition-timing-function: cubic-bezier(0.7,0,0.3,1);
@@ -853,7 +857,7 @@ span {
 }
 
 /* Shown menu */
-.show-menu .menu-wrap {
+.show-menu #navigation{
   transform: translate3d(3px,3px,3px);
   transition: transform 0.8s;
   transition-timing-function: cubic-bezier(0.7,0,0.3,1);
@@ -948,7 +952,9 @@ span {
 /*Adding fontawesome icons*/
 #menu div ul li a:before {
   font-family: 'FontAwesome';
-  font-size: inherit;
+  font-size: 1.1em;
+  margin-left: -.65em;
+  margin-right: .4em;
   content: '\f015   ';
   -webkit-font-smoothing:antialiased;
 }
@@ -956,22 +962,27 @@ span {
   content: '\f015   ';
 }
 #menu div ul li:nth-child(2) a::before {
-  content: '\f02d   ';
+  content: '\f2bd   ';
+
 }
 #menu div ul li:nth-child(3) a::before {
-  content: '\f2bd   ';
+content: '\f059     ';
 }
 #menu div ul li:nth-child(4) a::before {
-  content: '\f06e    ';
+
+    content: '\f02d   ';
 }
 #menu div ul li:nth-child(5) a::before {
-  content: '\f003   ';
+    content: '\f185   ';
 }
 #menu div ul li:nth-child(6) a::before {
-  content: '\f0ac    ';
+  content: '\f073     ';
 }
 #menu div ul li:nth-child(7) a::before {
-  content: '\f003   ';
+  content: '\f086   ';
+}
+#menu div ul li:nth-child(8) a::before {
+  content: '\f0ac   ';
 }
 /*Styles for mobile brand logo*/
 .brand-logo {
@@ -1081,10 +1092,10 @@ img#metabannerbig {
 #banner1 {
   position: relative !important;
   background-color: #FFF;
-  background-image: url("images/cristobal/inicio/01.jpeg");
-  background-position: center center;
+  background-image: url("images/cristobal/inicio/001.jpg");
+  background-position: right;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 85% 140%;
   -webkit-transition: background-image 3s ease-out;
   -moz-transition: background-image 3s ease-out;
   -o-transition: background-image 3s ease-out;
@@ -1110,8 +1121,8 @@ img#metabannerbig {
 #banner1 .buttonLink {
   text-align: center;
   position: absolute;
-  right: 85px;
-  bottom: 70px;
+  right: 30px;
+  bottom: 44px;
   background-color: #37b4ee;
   color: #FFF;
 }
@@ -1147,7 +1158,7 @@ img#metabannerbig {
 }
 .bannermobile {
   display: flex;
-  min-height: 150px;
+  min-height: 200px;
   border-top: 4px solid #a156e0;
 }
 .bannerbig {
@@ -1942,7 +1953,7 @@ input.wpcf7-form-control.wpcf7-submit {
   }
   .imgChange13{
     position: absolute;
-    left: -70px;
+    left: -160px;
   }
   .imgChange14{
     width: 100px;
@@ -2058,15 +2069,7 @@ input.wpcf7-form-control.wpcf7-submit {
   #langbar li:first-child a::after {
     content: '  /  ';
   }
-  #social .fa-instagram:before{
-    color: #D13EB6;
-  }
-  #social .fa-facebook-square:before{
-    color: 	#3b5998;
-  }
-  #social .fa-twitter:before {
-    color: #00aced;
-  }
+
   /*show default nav bar and hide hamburguer menu*/
   /*Styles for main menu navigation*/
   .menu-menu-1-container {
@@ -2197,7 +2200,6 @@ input.wpcf7-form-control.wpcf7-submit {
     text-align: left;
   }
   p.name {
-    max-width: 300px;
     text-align: center;
   }
   #es_txt_button_pg {
@@ -2467,7 +2469,7 @@ input.wpcf7-form-control.wpcf7-submit {
     flex-wrap: nowrap;
   }
   .bannercontainer {
-    max-width: 380px;
+    max-width: 450px;
   }
   #mainbannercontainer {
     width: min-content;
@@ -2630,7 +2632,7 @@ input.wpcf7-form-control.wpcf7-submit {
     font-size: 40px;
   }
   p.quote {
-    font-size: 18px;
+    font-size: 1.3em;
     margin: 20px 0;
   }
   #es_txt_button_pg {
@@ -2793,9 +2795,19 @@ input.wpcf7-form-control.wpcf7-submit {
 
 /*4k styles*/
 @media screen and (min-width: 2000px) {
+  /*Agenda template*/
+  #cal #ai1ec-calendar-view > table {
+    height: 900px !important;
+  }
   /*metamundo banner*/
   .content-text {
     padding-right: 6em !important;
+  }
+  p.quote {
+    font-size: 2em;
+  }
+  p.name {
+    font-size: 1.75em;
   }
   .metmundo p {
     font-size: 30px !important;
@@ -2803,6 +2815,8 @@ input.wpcf7-form-control.wpcf7-submit {
   .metmundo img {
     padding-top: 1em !important;
   }
+  /**/
+
   /*event calendar */
   .ai1ec-single-event .ai1ec-event-avatar img {
     max-width: 800px !important;
@@ -2879,6 +2893,9 @@ input.wpcf7-form-control.wpcf7-submit {
   #datesContainer {
       height: 850px;
   }
+  #agenda_container_page #datesContainer {
+    height: 1150px;
+  }
   .moretitle {
     text-align: center;
   }
@@ -2923,7 +2940,7 @@ input.wpcf7-form-control.wpcf7-submit {
   }
   /*Styles for banner*/
   .bannerbig {
-    min-height: 800px;
+    min-height: 900px;
   }
   .bannercontainer {
     height: 800px;
@@ -3208,7 +3225,7 @@ input.wpcf7-form-control.wpcf7-submit {
     width: 100px;
     position: absolute;
     top: 608px;
-    left: -50px;
+    left: -72px;
   }
   .imgChange12{
     width: 100px;
@@ -3218,7 +3235,7 @@ input.wpcf7-form-control.wpcf7-submit {
   }
   .imgChange13{
     position: absolute;
-    left: -163px;
+    left: -257px;
   }
   .imgChange14{
     width: 100px;
@@ -3230,7 +3247,7 @@ input.wpcf7-form-control.wpcf7-submit {
     width: 200px;
     position: absolute;
     top: 124px;
-    left: -55px;
+    left: -206px;
     text-align: right;
   }
   .imgChange16{
@@ -3525,6 +3542,8 @@ input.wpcf7-form-control.wpcf7-submit {
 .cont-princ-slider {
 	position: relative;
 	overflow: hidden;
+  width: 100%;
+  height: 100%;
 }
 .slier-prin {
 	display: inline-flex;
@@ -3547,16 +3566,69 @@ input.wpcf7-form-control.wpcf7-submit {
 	width: 220px;
 }
 .our_customer img{
-    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
     padding: 1rem;
 }
 @keyframes slider {
 	to {
-		-moz-transform: translateX(-80%);
-		-webkit-transform: translateX(-80%);
-		transform: translateX(-80%);
+		-moz-transform: translateX(-20%);
+		-webkit-transform: translateX(-20%);
+		transform: translateX(-50%);
 
 	}
+}
+
+/*Agenda Template*/
+
+#cal .ai1ec-event {
+  padding: .5em !important;
+    height: auto !important;
+    border-radius: 10px !important;
+    background: #175d39 !important;
+}
+#cal table > tbody > tr > td > div.ai1ec-day > a {
+  height: auto !important;
+}
+#cal .ai1ec-month-view .ai1ec-multiday-arrow2 {
+    border: 0px solid #3d6b99 !important;
+}
+#cal div.ai1ec-date {
+  background: #9f010f !important;
+  padding: .3em !important;
+  height: auto !important;
+}
+#cal div.ai1ec-date a {
+  color: #FFF !important;
+}
+.ai1ec-popover.ai1ec-popup {
+  width: 250px;
+  border: 4px solid #d39b00 !important;
+}
+.ai1ec-event-avatar img {
+
+}
+.ai1ec-popover.ai1ec-popup .ai1ec-event-time {
+  background-color: #d39b00 !important;
+  margin: 2px -5px 0 !important;
+  padding: 1em !important;
+font-size: 1em !important;
+text-align: center !important;
+}
+
+.ai1ec-popup-excerpt {
+  padding: .8em !important;
+  text-align: justify;
+}
+.ai1ec-popover.ai1ec-popup .ai1ec-event-avatar {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+}
+.ai1ec-popover.ai1ec-popup .ai1ec-popover-content {
+  padding: 5px 0px !important;
+}
+#cal div.ai1ec-event-time {
+  background: #d39b00 !important;
 }
 @media (min-width: 1025px) and (max-width: 1366px){
   .thumbnail img{
@@ -3594,6 +3666,11 @@ input.wpcf7-form-control.wpcf7-submit {
    .news .grid-news-thumb {
      height: 200px;
    }
+   .calendar {
+     height: auto;
+   }
+
+
  }
  @media screen and (min-width:1023px) and (max-width: 1024px){
    .morevideo{
@@ -3641,6 +3718,15 @@ input.wpcf7-form-control.wpcf7-submit {
    }
    #event-container h1 {
      font-size: 1.5rem !important;
+   }
+   /*Agenda*/
+   #cal {
+     display: block;
+     height: 590px;
+   }
+   /*inico page*/
+   #banner {
+     background-size: auto 112%!important;
    }
  }
 
@@ -3700,3 +3786,105 @@ input.wpcf7-form-control.wpcf7-submit {
 .news-col-1 .news-inner-wrap-view {
     margin-bottom: 2.5em !important;
 }
+.agenda #datesContainer {
+  max-width: 100%;
+  overflow: hidden;
+  padding: 1em;
+  height: auto;
+  }
+.agenda #datesContainer #ag {
+  overflow-y: scroll;
+  height: 650px;
+}
+
+/*new nav movil */
+#navigation {
+  left: -85%;
+  overflow-y: scroll;
+  position: fixed;
+  -webkit-transition: left .5s ease;
+  -moz-transition: left .5s ease;
+  -o-transition: left .5s ease;
+  transition: left .5s ease;
+  background-color: #fff;
+  height: 100%;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 85%; }
+  #navigation .site-title {
+    margin: 0;
+    margin-top: 1.35em;
+    margin-bottom: .11em;
+    font-size: 2.1em !important;
+  }
+  #navigation .title-caps {
+    font-size: 1.72em;
+  }
+  #navigation .menu {
+     height: 60vh !important;
+   }
+  #navigation ul {
+    padding: 0px 10px;
+    list-style: none;
+    margin: 0;
+  }
+  #navigation li {
+    border-bottom: 2px solid #92b54142;
+    padding: .3em;
+  }
+  #navigation a {
+    display: block;
+    align-items: center;
+    font-size: 1.2em;
+
+    text-decoration: none;
+
+
+   }
+   #navigation li a {
+     font-size: 2.8em;
+     margin-top: .4em;
+     margin-bottom: .2em;
+     color: #000;
+   }
+    #navigation .share {
+      margin-top: 4em;
+      margin-bottom: 4em;
+    }
+    #navigation .share a {
+      font-size: 4.65em;
+      display: inline-grid;
+      margin: 0 auto;
+      padding: 10px .3em;
+    }
+    .share a:first-child {
+      margin-left: 1.5em !important;
+    }
+    #navigation a i#Facebook {
+      color: #3b5998; }
+  #navigation h1 {
+    font-family: "ACaslonPro-regular";
+    color: #000;
+    font-weight: 1000;
+    margin-top: 1.2em; }
+  #navigation img {
+    margin-bottom: 0rem; }
+
+  #close {
+    font-size: 2.8em !important;
+    color: #9f010f;
+    position: absolute;
+    right: 1em;
+    top: 0;
+  }
+  .fa-instagram:before, .fa-instagram{
+    color: #D13EB6;
+  }
+  .fa-facebook-square:before, .fa-facebook-square{
+    color: 	#3b5998;
+  }
+  .fa-twitter:before, .fa-twitter {
+    color: #00aced;
+  }
+  .fa-youtube-play:before, .fa-youtube-play {
+    color: #c4302b;
+  }
