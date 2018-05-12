@@ -24,7 +24,7 @@ get_header(); ?>
 
         get_template_part( 'template-parts/content', get_post_type() );
         ?>
-        <?php echo do_shortcode("[ssba-buttons]"); ?>
+        <?php echo do_shortcode("[Sassy_Social_Share]"); ?>
       </article>
 
       <!-- <center><div style="font-family: 'Gotham Rounded';

@@ -14,7 +14,7 @@ get_header(); ?>
           <div id="bigkmoreContainer" class="bigkmoreContainer ">
             <img id="knowmore bigmorebanner" class="bigkmore" src="<?php echo get_template_directory_uri(); ?>/images/another.png" alt="banner know more">
             <a href="#Psicomagic" class="imgChange1 textBig"><?php printf( __( 'Psicomagia', 'cristobalj' ));?></a>
-            <a href="#BIO" class="imgChange5 textBig"><?php printf( __( 'Constelaciones <br> Psicochamanicas', 'cristobalj' ));?></a>
+            <a href="#Constelaciones" class="imgChange5 textBig"><?php printf( __( 'Constelaciones <br> Psicochamanicas', 'cristobalj' ));?></a>
             <a href="#Psicochamanismo" class="imgChange15 textBig"><?php printf( __( 'Psicochamanismo', 'cristobalj' ));?></a>
             <a href="#Metagenealo" class="imgChange13 textBig"><?php printf( __( 'Metagenealogía', 'cristobalj' ));?></a>
             <a href="#Therapies" class="imgChange6 textSmall"><?php printf( __( '', 'cristobalj' ));?></a>
@@ -51,7 +51,7 @@ get_header(); ?>
             <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia/03.jpg" alt=""></li>
             <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia/04.JPG" alt=""></li>
             <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia/05.JPG" alt=""></li>
-            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia/06.jpg" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia/06-min.jpg" alt=""></li>
           </ul>
         </div>
         <div id="mainContainer" class="more"><br>
@@ -69,8 +69,8 @@ get_header(); ?>
           </p>", 'cristobalj' )); ?>
           <ul  class="psicoteatro-slide">
             <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/01-min.JPG" alt=""></li>
-            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/02-min.jpg" alt=""></li>
-            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/03-min.JPG" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/02.jpg" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/03.JPG" alt=""></li>
             <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/04-min.jpg" alt=""></li>
             <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/05-min.JPG" alt=""></li>
             <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicochamanismo/06-min.JPG" alt=""></li>
@@ -129,8 +129,8 @@ get_header(); ?>
             printf(__('<span class="morecolor" >Metagenealogia</span>', 'cristobalj' ));
             ?>
           </h3>
-          <?php printf(__('<p>The forces of repetition and creation in their endless dynamic impel us both to repeat the same and to yield to what we are authentically. Individuals, at the same time, can have a positive and a negative vision from their great-grandparents, grandparents and parents, thus converting each relative into a double entity: one luminous and the other obscure. Two energy fields that, despite opposing, are complementary. In the present time, the spirit that materializes adjoins the matter that is spiritualized, the supraconscious with the unconscious, the attempt to realize the future with the intent to repeat the past, the essential being with the socio-cultural being, the desire to create with the desire to imitate. To the study of the genealogical tree under its simultaneous and complementary aspects, treasure and trap, I have called it Metagenealogy.</p>
-          <p class="text-right">Alejandro Jodorowsky (creator of Metagenalogy)</p> </p>', 'cristobalj' )); ?>
+          <?php printf(__('<p>“Las fuerzas de repetición y creación en su dinámica sin fin nos impulsan a la vez hacia la repetición de lo mismo y a ceder a lo que somos auténticamente. Los individuos, al mismo tiempo, pueden tener de sus bisabuelos, abuelos y padres, una visión positiva y otra negativa, convirtiéndose de este modo cada familiar en una entidad doble: una luminosa y otra oscura.  Dos campos de energía que, a pesar de oponerse, son complementarios.  En el tiempo presente, el espíritu que se materializa colinda con la materia que se espiritualiza, el supraconsciente con el inconsciente, el intento de realizar el futuro con el intento de repetir el pasado, el ser esencial con el ser socio-cultural, el deseo de crear con el deseo de imitar.  Al estudio del árbol genealógico bajo sus aspectos simultáneos y complementarios, tesoro y trampa, lo he llamado “Metagenealogía”.</p>
+          <p class="text-right">Alejandro Jodorowsky (creador de la Metagenalogía)</p></p>', 'cristobalj' )); ?>
 
           <?php printf(__('<p class="" >
           La metagenealogía es un método de análisis del árbol genealógico que permite expandir la visión de su dimensión psíquica. Esto nos hace comprender hasta qué punto aquello que pensamos, sentimos, deseamos o vivimos, así como nuestros conflictos y enfermedades pueden ser el resultado de un pasado familiar, social, histórico o de residuos educativos patriarcales.
@@ -142,6 +142,41 @@ get_header(); ?>
           </p>', 'cristobalj' )); ?>
 
           <img class="mt-3"src="<?php echo get_template_directory_uri(); ?>/images/cristobal/arbol.Jpg" alt="">
+        </div>
+
+        <div id="mainContainer" class="more"><br>
+          <h3 id="Constelaciones" class="moretitle">
+            <?php
+            printf(__('<span class="morecolor" >Constelaciones Psicochamánicas</span>', 'cristobalj' ));
+            ?>
+          </h3>
+          <?php printf(__("<p> Las constelaciones psicochamánicas son la integración del ritual psicochamánico, la psicomagia y la metagenealogía dentro de la constelación que se escenifica. Esta técnica, de gran alcance, fue estudiada y experimentada con personas durante más de veinticinco años de trabajo a través de la investigación de dinámicas familiares, genealógicas y del poder de la metáfora en la psicomagia, unido a la experiencia de diversos viajes en contacto con las culturas chamánicas donde el ritual se convierte en un medio de sanación psíquico-espiritual.<p>
+          <p>¿Qué es entonces una constelación?  Es una técnica que acepta la existencia de un campo, también llamado “campo morfogenético” o “campo familiar de información” mantenido intacto en el tiempo y el espacio y que contiene todos los eventos de una familia, la historia del cosmos y muchos misterios más. A través de la puesta en escena de la constelación y los movimientos de las personas que representan los diversos componentes del sistema familiar y de la vida, con todos sus aspectos, es posible acceder a este campo y reordenarse, realinearse con el fluir de la vida, del alma y del gran espíritu.<br>
+          No se trata sólo de respetar una técnica o estructura al pie de la letra, si no de ayudar profundamente por eso, este trabajo es sincrético, holístico, muy abierto e inspirado.</p><p>
+          Una vez que el consultante haya expuesto su tema, conduzco la constelación siguiendo mis intuiciones y apoyado por el campo que se forma. Puedo intervenir, de vez en cuando, proponiendo actos psicomágicos, en vivo. Así experimentamos la vivencia de un ritual psicochamánico actuando mediante el uso de objetos simbólicos. <p>
+          <p>Estas intensas prácticas se desarrollan con la ayuda de una parte del grupo o con todo el grupo completo permitiendo tomar conciencia de nuestras dinámicas, liberarnos de conflictos y recuperar  energía vital. </p>", 'cristobalj' )); ?>
+          <ul  class="psicoteatro-slide">
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/01-min.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/02-min.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/03-min.jpg" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/04-min.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/05-min.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/06-min.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/07-min.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/08-min.jpg" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/09-min.jpg" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/10-min.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/11-min.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/12-min.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/13-min.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/14-min.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/15-min.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/16-min.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/17-min.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/18-min.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/19-min.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/20-min.JPG" alt=""></li>
+          </ul>
         </div>
 
         <div id="mainContainer" class="more mt-5"><br>
@@ -238,8 +273,7 @@ get_header(); ?>
   </div>
   <div id="sidebar_2" class="col-md-12 col-lg-4 col-xl-3 text-center">
     <?php get_template_part('agenda'); ?>
-    <iframe class="morevideo mt-2" width="100%" src="https://www.youtube.com/embed/F8FBxAGIlpY">
-    </iframe>
+    <iframe class="morevideo mt-2" width="100%" src="https://www.youtube.com/embed/VI-IngJEK4s"></iframe>
     <?php get_template_part( 'mainbanner' );  ?>
   </div>
 

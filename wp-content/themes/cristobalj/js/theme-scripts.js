@@ -327,7 +327,7 @@ jQuery(document).ready(function(){
       $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/7.jpg)');
     });
     $('.imgChange5').mouseover(function() {
-      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/11.jpg)');
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/constelaciones/constelaciones.jpg)');
     });
     $('.imgChange6').mouseover(function() {
       $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/13.jpg)');
@@ -345,13 +345,13 @@ jQuery(document).ready(function(){
       $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/37.jpg)');
     });
     $('.imgChange11').mouseover(function() {
-      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/psicoteatro/02-min.jpg)');
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/psicoteatro/psico.jpg)');
     });
     $('.imgChange12').mouseover(function() {
       $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/53.jpg)');
     });
     $('.imgChange13').mouseover(function() {
-      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/arbol.jpg)');
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/arbol.Jpg)');
     });
     $('.imgChange14').mouseover(function() {
       $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/23.jpg)');

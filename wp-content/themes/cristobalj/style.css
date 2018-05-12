@@ -1072,7 +1072,7 @@ img#metabannerbig {
   background-image: url("images/cristobal/inicio/001.jpg");
   background-position: right;
   background-repeat: no-repeat;
-  background-size: 85% 140%;
+  background-size: 80% auto;
   -webkit-transition: background-image 3s ease-out;
   -moz-transition: background-image 3s ease-out;
   -o-transition: background-image 3s ease-out;
@@ -2462,7 +2462,6 @@ input.wpcf7-form-control.wpcf7-submit {
   }
   #mainContainer h3 {
     font-family: "ACaslonPro-Semibold";
-    max-width: 1000px;
     margin: 0;
     font-size: 50px;
     line-height: 60px;
@@ -2779,7 +2778,16 @@ input.wpcf7-form-control.wpcf7-submit {
     height: 300px;
   }
   }
-
+@media screen and (min-width: 1500px) {
+  .psicoteatro-slide {
+      max-height: 620px;
+  }
+}
+@media screen and (min-width: 1800px) {
+  .psicoteatro-slide {
+      max-height: 660px;
+  }
+}
 /*4k styles*/
 @media screen and (min-width: 2000px) {
   /*Agenda template*/
@@ -3078,7 +3086,6 @@ input.wpcf7-form-control.wpcf7-submit {
   #mainContainer h3 {
     font-family: "ACaslonPro-Semibold";
     text-align: center;
-    max-width: 2000px;
     font-size: 60px;
     line-height: 80px;
   }
@@ -3127,7 +3134,7 @@ input.wpcf7-form-control.wpcf7-submit {
   }
   /*Bio page slider styles*/
   .rslides, .psicoteatro-slide {
-    max-height: 880px;
+    max-height: 940px;
   }
   .biografia .psicoteatro-slide {
     max-height: 1100px;
