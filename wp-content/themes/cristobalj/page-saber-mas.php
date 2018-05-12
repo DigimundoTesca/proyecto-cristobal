@@ -141,7 +141,7 @@ get_header(); ?>
           Muy a menudo, después de un análisis genealógico Cristobal prepara un Psicoritual familiar o constelación psicomágica, en dónde invita a un grupo a teatralizar las situaciones vistas y re alinearlas con la corriente de la vida.
           </p>', 'cristobalj' )); ?>
 
-          <img class="mt-3"src="<?php echo get_template_directory_uri(); ?>/images/cristobal/arbol.jpg" alt="">
+          <img class="mt-3"src="<?php echo get_template_directory_uri(); ?>/images/cristobal/arbol.Jpg" alt="">
         </div>
 
         <div id="mainContainer" class="more mt-5"><br>

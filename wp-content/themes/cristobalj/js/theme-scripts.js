@@ -1,3 +1,4 @@
+
 jQuery(document).ready(function(){
 
   // Translate 'submit' for newsletter form
@@ -151,6 +152,75 @@ jQuery(document).ready(function(){
       coll[i].className += ' morehover';
     }
   }
+  // Metamundo blocks menu handler
+  (function($) {
+    $("#blocksContainer ul li a").on("click", function(e) {
+      e.preventDefault();
+      $("#blocksContainer ul li a").removeClass("active");
+      $(this).addClass("active");
+    });
+  })(jQuery);
+
+
+
+  (function($) {
+    $('a[href*="#"]')
+    // Remove links that don't actually link to anything
+    .not('[href="#"]')
+    .not('[href="#0"]')
+    .click(function(event) {
+      // On-page links
+      if (
+        location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+        &&
+        location.hostname == this.hostname
+        ) {
+        // Figure out element to scroll to
+      var target = $(this.hash);
+      var navHeight = $('#mainNav').height();
+      var scrollToPosition = target.offset().top - (navHeight);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        // Does a scroll target exist?
+        if (target.length) {
+          // Only prevent default if animation is actually gonna happen
+          event.preventDefault();
+          $('html, body').animate({
+            scrollTop: scrollToPosition
+          }, 1500, function() {
+            // Callback after animation
+            // Must change focus!
+            var $target = $(target);
+            $target.focus();
+          });
+        }
+      }
+    });
+  })(jQuery);
+  // Book download
+  (function($) {
+    $('#dnlBookBtn').click(function(event) {
+      var wpcf7Elm = document.querySelector( '.wpcf7' );
+      var redirectUrl = object_name.redirectUrl;
+      wpcf7Elm.addEventListener( 'wpcf7mailfailed', function( event ) {
+        $('#downloadThis')[0].click();
+        $('#downloadBook').modal('hide');
+        swal({
+          title: "Descarga en proceso.",
+          text: "Disfrute su libro",
+          type: "success",
+          showCancelButton: false,
+          confirmButtonText: "¡Vamos!",
+          confirmButtonClass: 'btn btn-success'
+        }).then(function () {
+          window.location.href = redirectUrl;
+        });
+      });
+    });
+
+  })(jQuery);
+
+
+  });
 
   // Moddify footer width
   (function($) {
@@ -293,75 +363,3 @@ jQuery(document).ready(function(){
       $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/20.jpg)');
     });
   })(jQuery);
-
-  /**/
-
-  // Metamundo blocks menu handler
-  (function($) {
-    $("#blocksContainer li a").on("click", function(e) {
-      e.preventDefault();
-      $("#blocksContainer li a").removeClass("active");
-      $(this).addClass("active");
-    });
-  })(jQuery);
-
-
-
-  (function($) {
-    $('a[href*="#"]')
-    // Remove links that don't actually link to anything
-    .not('[href="#"]')
-    .not('[href="#0"]')
-    .click(function(event) {
-      // On-page links
-      if (
-        location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
-        &&
-        location.hostname == this.hostname
-        ) {
-        // Figure out element to scroll to
-      var target = $(this.hash);
-      var navHeight = $('#mainNav').height();
-      var scrollToPosition = target.offset().top - (navHeight);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-        // Does a scroll target exist?
-        if (target.length) {
-          // Only prevent default if animation is actually gonna happen
-          event.preventDefault();
-          $('html, body').animate({
-            scrollTop: scrollToPosition
-          }, 1500, function() {
-            // Callback after animation
-            // Must change focus!
-            var $target = $(target);
-            $target.focus();
-          });
-        }
-      }
-    });
-  })(jQuery);
-  // Book download
-  (function($) {
-    $('#dnlBookBtn').click(function(event) {
-      var wpcf7Elm = document.querySelector( '.wpcf7' );
-      var redirectUrl = object_name.redirectUrl;
-      wpcf7Elm.addEventListener( 'wpcf7mailfailed', function( event ) {
-        $('#downloadThis')[0].click();
-        $('#downloadBook').modal('hide');
-        swal({
-          title: "Descarga en proceso.",
-          text: "Disfrute su libro",
-          type: "success",
-          showCancelButton: false,
-          confirmButtonText: "¡Vamos!",
-          confirmButtonClass: 'btn btn-success'
-        }).then(function () {
-          window.location.href = redirectUrl;
-        });
-      });
-    });
-
-  })(jQuery);
-
-
-});

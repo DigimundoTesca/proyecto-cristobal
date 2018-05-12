@@ -1090,7 +1090,6 @@ img#metabannerbig {
   background-size: cover;
 }
 
-
 #banner1 .buttonLink a {
   text-decoration: none;
   color: #FFF;
@@ -1433,11 +1432,6 @@ label.es_shortcode_form_email span {
   color: #FFFFFF;
   line-height: 50px;
   margin: 0;
-}
-.mainbannercontent .mindHack img {
-  width: 100%;
-  align-self: center;
-  margin: auto;
 }
 .mainbannercontent .mindHack p {
   position: relative;
@@ -2252,6 +2246,7 @@ input.wpcf7-form-control.wpcf7-submit {
     margin-top: -.3em;
   }
   .mainbannercontent .mindHack {
+    position: relative;
     border: 2px solid #37b4ee;
     background-color: #37b4ee;
     height: 100%;
@@ -2259,6 +2254,17 @@ input.wpcf7-form-control.wpcf7-submit {
     flex-direction: column;
     width: 100%;
   }
+
+  .mindHack #consulta {
+    top: -.20em;
+    font-size: 25px;
+  }
+  .mainbannercontent .mindHack img {
+    width: 85%;
+    margin: auto;
+    margin-top: -.26em;
+  }
+
   .mainbannercontent .mindHack h3 {
     font-family: 'Gotham Rounded';
     font-weight: bold;
@@ -2441,6 +2447,9 @@ input.wpcf7-form-control.wpcf7-submit {
 
 @media screen and (min-width: 1024px) {
   /*Main page styles*/
+  .wg-list {
+    left: -80px !important;
+  }
   #mainpage {
     flex-direction: row;
     flex-wrap: nowrap;
@@ -2568,8 +2577,10 @@ input.wpcf7-form-control.wpcf7-submit {
     width: 25%;
   }
 }
+
 /*Desktop styles*/
 @media screen and (min-width: 1200px) {
+
   #page {
     max-width: 1700px;
   }
@@ -2792,7 +2803,18 @@ input.wpcf7-form-control.wpcf7-submit {
     padding-top: 1em !important;
   }
   /**/
-
+  .mindHack #consulta {
+    color: #fff;
+    position: relative;
+    z-index: 100;
+    top: -0.25em;
+    font-size: 40px;
+  }
+  .mainbannercontent .mindHack img {
+    width: 96%;
+    align-self: center;
+    margin: auto;
+  }
   /*event calendar */
   .ai1ec-single-event .ai1ec-event-avatar img {
     max-width: 800px !important;
@@ -3435,7 +3457,7 @@ input.wpcf7-form-control.wpcf7-submit {
 #ai1ec-calendar-view > div.ai1ec-clearfix > div.ai1ec-title-buttons.ai1ec-btn-toolbar > div.ai1ec-agenda-buttons.ai1ec-btn-toolbar.ai1ec-pull-right,
 #mainContainer #ai1ec-container, #page > #content > #secondary,
 #ai1ec-calendar > div.ai1ec-subscribe-container.ai1ec-pull-right.ai1ec-btn-group > div > span,
-#sidebar_2 .bio, div.date-post{
+#sidebar_2 .bio, div.date-post, .ai1ec-actions, .news-cat{
   display: none;
 }
 

@@ -32,7 +32,7 @@ get_header(); ?>
       <div class="col-md-8 col-lg-9 order-lg-first">
         <div class="">
           <br><h2 class="text-center">Consultas de Tarot con Cristobal Jodorowsky</h2>
-          <?php echo do_shortcode('[sp_news limit = "10" category="8"] '); ?>
+          <?php echo do_shortcode('[sp_news limit = "10" category="16"] '); ?>
         </div>
       </div>
 

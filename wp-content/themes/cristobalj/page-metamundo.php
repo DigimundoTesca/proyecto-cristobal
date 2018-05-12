@@ -38,7 +38,7 @@ get_header(); ?>
       </div>
     </div>
     <div id="metabanner1welcome" class="metabannerbig">
-      <img id="metabannerbig"  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/metamundo/metamundo.jpg" alt="METAMUNDO image">
+      <img id="metabannerbig"  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/metamundo/metamundo.JPG" alt="METAMUNDO image">
       <div class="bannercontainer metacontainer">
         <div class="metabannertext">
           <h2 class="bannertitle second">

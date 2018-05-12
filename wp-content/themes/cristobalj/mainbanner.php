@@ -41,6 +41,9 @@ Template Name: mainbanner
           <?php printf(__('Tu tarot virtual','cristobalj')) ?>
         </h3>
         <img  src="<?php echo get_stylesheet_directory_uri(); ?>/images/Tarot.jpg"  alt="">
+        <p id="consulta">
+          <?php printf(__('Consultas gratis','cristobalj')) ?>
+        </p>
       </div>
     </a>
   </div>
