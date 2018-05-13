@@ -75,10 +75,10 @@ get_header(); ?>
         <?php printf(__('"Next generations"','cristobalj')) ?>
       </h3>
       <p class="text-center text-dark mb-0">
-        <?php printf(__('Mexico - febrero 2018','cristobalj')) ?>
+        <?php printf(__('Mexico - febrero','cristobalj')) ?>
       </p>
       <p class="text-center text-dark mb-0">
-        <?php printf(__('Uruguay - junio 2018','cristobalj')) ?>
+        <?php printf(__('Uruguay - junio','cristobalj')) ?>
       </p>
     </div>
   </div>

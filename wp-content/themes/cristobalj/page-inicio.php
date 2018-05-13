@@ -14,15 +14,15 @@ get_header(); ?>
         </h2>
         <div class="begin-slide">
           <div class="mslide clearfix">
-            <p class="quote text-center"><?php printf(__('"El oro interior que produces quedará como huella en el alma de la humanidad"','cristobalj')) ?></p>
+            <p class="quote text-center mt-4"><?php printf(__('"El oro interior que produces quedará como huella en el alma de la humanidad"','cristobalj')) ?></p>
             <p class="name text-right">Cristóbal Jodorowsky</p>
           </div>
           <div class="mslide clearfix">
-            <p class="quote text-center"><?php printf(__('"Si tú no eres capaz de verte a ti mism@ ¿Cómo se lo vas a exigir al mundo? ."','cristobalj')) ?></p>
+            <p class="quote text-center mt-4"><?php printf(__('"Si tú no eres capaz de verte a ti mism@ ¿Cómo se lo vas a exigir al mundo? ."','cristobalj')) ?></p>
             <p class="name text-right">Cristóbal Jodorowsky</p>
           </div>
           <div class="mslide clearfix">
-            <p class="quote text-center"><?php printf(__('"La mente militar es un atentado a la profunda naturaleza humana."','cristobalj')) ?></p>
+            <p class="quote text-center mt-4"><?php printf(__('"La mente militar es un atentado a la profunda naturaleza humana."','cristobalj')) ?></p>
             <p class="name text-right">Cristóbal Jodorowsky</p>
           </div>
           <div class="mslide clearfix">
@@ -83,7 +83,7 @@ get_header(); ?>
       </div>
     </div>
     <div class="row">
-      <div class="sidebar_1 col-md-4 col-lg-3 order-lg-last  justify-content-center">
+      <div class="sidebar_1 col-md-4 col-lg-3 order-md-last  justify-content-center">
         <div id="datesContainer" class="mt-5 text-center" >
           <h3>
             <?php

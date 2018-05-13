@@ -2794,6 +2794,9 @@ input.wpcf7-form-control.wpcf7-submit {
   #cal #ai1ec-calendar-view > table {
     height: 900px !important;
   }
+  #social a {
+    font-size: 75px !important;
+  }
   /*metamundo banner*/
   .content-text {
     padding-right: 6em !important;
@@ -3590,6 +3593,7 @@ input.wpcf7-form-control.wpcf7-submit {
   padding: .5em !important;
     height: auto !important;
     border-radius: 10px !important;
+    color: #FFF !important;
     background: #175d39 !important;
 }
 #cal table > tbody > tr > td > div.ai1ec-day > a {
@@ -3706,6 +3710,9 @@ text-align: center !important;
    #main-news #post_new{
      width: 100%;
      padding: 1rem;
+   }
+   .es_lablebox {
+     margin-top: 4em;
    }
    #datesContainer {
      height: 400px;

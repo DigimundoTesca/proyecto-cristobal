@@ -5,10 +5,8 @@
 get_header(); ?>
 <div id="primary" class="content-area">
   <main id="main" class="site-main">
-    <div id="banner" class="bannermobile">
-    </div>
     <div class="row">
-      <div class="sidebar_1 col-md-4 col-lg-3 order-lg-last  justify-content-center">
+      <div class="sidebar_1 col-md-4 col-lg-3 order-md-last  justify-content-center">
         <div id="datesContainer" class="mt-5 text-center" >
           <h3>
             <?php
@@ -31,7 +29,7 @@ get_header(); ?>
       </div>
       <div class="col-md-8 col-lg-9 order-lg-first">
         <div class="">
-          <br><h2 class="text-center">Consultas de Tarot con Cristobal Jodorowsky</h2>
+          <br><h1 class="text-center">Consultas de Tarot con Cristobal Jodorowsky</h1>
           <?php echo do_shortcode('[sp_news limit = "10" category="16"] '); ?>
         </div>
       </div>
