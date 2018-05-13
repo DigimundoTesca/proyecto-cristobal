@@ -17,7 +17,7 @@ Template Name: secondarybanner
           <?php printf(__('Mexico febrero 2018','cristobalj')) ?>
           <?php printf(__('Argentina julio 2018','cristobalj')) ?>
         </p>
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/metalogonuevo3.png" alt="">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/metalogonuevo3.jpg" alt="">
       </div>
     </a>
   </div>

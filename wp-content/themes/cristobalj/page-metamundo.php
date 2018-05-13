@@ -5,7 +5,7 @@
 get_header(); ?>
 <div id="primary" class="content-area">
   <main id="main" class="site-main">
-    <img id="metabanner"  src="<?php echo get_template_directory_uri(); ?>/images/metalogonuevo3.png" alt="METAMUNDO image">
+    <img id="metabanner"  src="<?php echo get_template_directory_uri(); ?>/images/metalogonuevo3.jpg" alt="METAMUNDO image">
     <div class="mobilecontainer">
       <div class="bannertext">
         <h2 class="bannertitle">
@@ -15,7 +15,7 @@ get_header(); ?>
       </div>
     </div>
     <div id="metabanner1" class="metabannerbig">
-      <img id="metabannerbig"  src="<?php echo get_template_directory_uri(); ?>/images/metalogonuevo3.png" alt="METAMUNDO image">
+      <img id="metabannerbig"  src="<?php echo get_template_directory_uri(); ?>/images/metalogonuevo3.jpg" alt="METAMUNDO image">
       <div class="bannercontainer metacontainer">
         <div class="metabannertext">
           <h2 class="bannertitle">

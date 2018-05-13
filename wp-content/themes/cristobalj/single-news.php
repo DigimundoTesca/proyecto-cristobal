@@ -24,7 +24,9 @@ get_header(); ?>
 
         get_template_part( 'template-parts/content', get_post_type() );
         ?>
-        <?php echo do_shortcode("[Sassy_Social_Share]"); ?>
+        <div id="share-buttons" class="justify-content-center">
+           <?php echo do_shortcode("[Sassy_Social_Share]"); ?>
+        </div>
       </article>
 
       <!-- <center><div style="font-family: 'Gotham Rounded';

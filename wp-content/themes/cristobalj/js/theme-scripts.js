@@ -286,10 +286,12 @@ jQuery(document).ready(function(){
       speed: 500,
       timeout: 2500,
     });
+
     /*slider tarot*/
     var slider = document.querySelector(".slier-prin");
     slider.innerHTML += slider.innerHTML;
   })(jQuery);
+
 
   // Change books header color
   var booktitle = document.getElementsByClassName('booktitle');

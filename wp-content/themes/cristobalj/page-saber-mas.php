@@ -144,7 +144,7 @@ get_header(); ?>
           <img class="mt-3"src="<?php echo get_template_directory_uri(); ?>/images/cristobal/arbol.Jpg" alt="">
         </div>
 
-        <div id="mainContainer" class="more"><br>
+        <div id="mainContainer" class="more"><br><br>
           <h3 id="Constelaciones" class="moretitle">
             <?php
             printf(__('<span class="morecolor" >Constelaciones Psicochamánicas</span>', 'cristobalj' ));
@@ -231,6 +231,17 @@ get_header(); ?>
             <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia-colectiva/010-min.jpg" alt=""></li>
             <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicomagia-colectiva/011-min.jpg" alt=""></li>
           </ul>
+          <div class="row">
+            <div class="col-md-4">
+              <iframe class="morevideo" width="100%" src="https://www.youtube.com/embed/4corsiIawa8?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-4">
+              <iframe class="morevideo" width="100%" src="https://www.youtube.com/embed/RAeGeZ5k5ng?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-4">
+              <iframe class="morevideo" width="100%" src="https://www.youtube.com/embed/BeB9_6qmomo?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+          </div>
         </div>
 
         <div id="mainContainer" class="more"><br>

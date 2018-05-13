@@ -2919,6 +2919,7 @@ input.wpcf7-form-control.wpcf7-submit {
   .title-caps {
     font-size: 65px;
   }
+
   #social a, #langbar a {
     font-size: 35px;
   }
@@ -3464,7 +3465,7 @@ input.wpcf7-form-control.wpcf7-submit {
 #ai1ec-calendar-view > div.ai1ec-clearfix > div.ai1ec-title-buttons.ai1ec-btn-toolbar > div.ai1ec-agenda-buttons.ai1ec-btn-toolbar.ai1ec-pull-right,
 #mainContainer #ai1ec-container, #page > #content > #secondary,
 #ai1ec-calendar > div.ai1ec-subscribe-container.ai1ec-pull-right.ai1ec-btn-group > div > span,
-#sidebar_2 .bio, div.date-post, .ai1ec-actions, .news-cat{
+#sidebar_2 .bio, div.date-post, #event-container .ai1ec-action, .news-cat {
   display: none;
 }
 
