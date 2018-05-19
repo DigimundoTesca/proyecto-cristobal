@@ -5,12 +5,12 @@
 get_header(); ?>
 <div id="primary" class="agenda content-area">
   <main id="main" class="site-main">
-    <div class="row">
-      <div class="col-xl-12 col-md-12 content-text mb-4" id="agenda_container_page">
-        <div id="datesContainer" class="mt-5" >
-          <h3 class="text-center">
+    <div class="row" id="new_agenda">
+      <div class="sidebar_1 col-md-8 col-lg-9 justify-content-center">
+        <div id="datesContainer" class="mt-5 text-center" >
+          <h3>
             <?php
-            printf( __( 'Agenda 2018-2019', 'cristobalj' ));
+            printf( __( 'Agenda 2018', 'cristobalj' ));
             ?>
           </h3>
           <h4>
@@ -18,16 +18,16 @@ get_header(); ?>
             printf( __( 'Know my activities this year', 'cristobalj' ));
             ?>
           </h4>
-          <div class="row calendar">
-            <div class="col-lg-9 col-md-8" id="cal"><?php echo do_shortcode('[ai1ec view="monthly"]'); ?></div>
-            <div class="col-lg-3 col-md-4" id="ag"><?php echo do_shortcode('[ai1ec view="agenda"]'); ?></div>
-          </div>
-
+          <div id="ag"class="calendar"><?php echo do_shortcode('[ai1ec view="agenda"]'); ?></div>
         </div>
       </div>
-
-      <div id="sidebar_2" class="col-xl-12 col-md-12  text-center">
-        <?php get_template_part( 'secondarybanner' );  ?>
+      <div id="sidebar_2" class="col-lg-3 text-center">
+        <div class="Tweets mt-md-5">
+          <a class="twitter-timeline" height="340px" href="https://twitter.com/cris_jodow?ref_src=twsrc%5Etfw">Tweets by cris_jodow</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          <a href="https://twitter.com/cris_jodow?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @cris_jodow</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          <a href="https://twitter.com/intent/tweet?screen_name=cris_jodow&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @cris_jodow</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        <?php get_template_part( 'mainbanner' );  ?>
       </div>
     </div>
 

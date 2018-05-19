@@ -174,7 +174,127 @@ get_header(); ?>
               </p>
             </div>
       </div>
+      <div class="titleContainer mt-5">
+        <h3>Segundo año (2019)</h3>
+        <div id="blocksContainer">
+          <ul>
+            <li class="metaBlock"><a class="active" href="#block21"><?php printf(__('Módulo 1','cristobalj')) ?></a></li>
+            <li class="metaBlock"><a href="#block22"><?php printf(__('Módulo 2','cristobalj')) ?></a></li>
+            <li class="metaBlock"><a href="#block23"><?php printf(__('Módulo 3','cristobalj')) ?></a></li>
+            <li class="metaBlock"><a href="#block24"><?php printf(__('Módulo 4','cristobalj')) ?></a></li>
+            <li class="metaBlock"><a href="#block25"><?php printf(__('Módulo 5','cristobalj')) ?></a></li>
+          </ul>
+      <!-- <div id="certificate">
+        <h4><?php printf(__('Certification','cristobalj')) ?></h4>
+      </div> -->
     </div>
+  </div>
+  <div id="block21">
+    <div class="blockTitle">
+      <h3><span><?php printf(__('Módulo 1. ','cristobalj')) ?></span><?php printf(__(' Teatralidad Arquetípica','cristobalj')) ?></h3>
+    </div>
+    <div class="blockTitle">
+      <h4><span><?php printf(__(' 1.1- ','cristobalj')) ?></span><?php printf(__(' Teatralidad Arquetípica','cristobalj')) ?></h4>
+    </div>
+    <p class="content">
+
+    </p>
+    <div class="blockTitle">
+      <h4><span><?php printf(__(' 1.2- ','cristobalj')) ?></span><?php printf(__(' Prácticas','cristobalj')) ?></h4>
+    </div>
+    <p class="content">
+
+    </p>
+  </div>
+  <div id="block22">
+    <div class="blockTitle">
+      <h3><span><?php printf(__('Módulo 2. ','cristobalj')) ?></span><?php printf(__(' Metagenealogia y Metadinero','cristobalj')) ?></h3>
+    </div>
+    <div class="blockTitle">
+      <h4><span><?php printf(__(' 2.1- ','cristobalj')) ?></span><?php printf(__(' Metagenealogia 2','cristobalj')) ?></h4>
+    </div>
+    <p class="content">
+
+    </p>
+    <div class="blockTitle">
+      <h4><span><?php printf(__(' 2.2- ','cristobalj')) ?></span><?php printf(__(' Metadinero','cristobalj')) ?></h4>
+    </div>
+    <p class="content">
+    </p>
+  </div>
+  <div id="block23">
+    <div class="blockTitle">
+      <div class="blockTitle">
+        <h3><span><?php printf(__('Módulo 3. ','cristobalj')) ?></span><?php printf(__(' Tarot Evolutivo 2','cristobalj')) ?></h3>
+      </div>
+      <div class="blockTitle">
+        <h4><span><?php printf(__(' 3.1- ','cristobalj')) ?></span><?php printf(__(' Tarot Evolutivo 2','cristobalj')) ?></h4>
+      </div>
+      <p class="content">
+
+      </p>
+      <div class="blockTitle">
+        <h4><span><?php printf(__(' 3.2- ','cristobalj')) ?></span><?php printf(__(' Rito y etica del Tarot según el método Jodorowsky','cristobalj')) ?></h4>
+      </div>
+      <p class="content">
+
+      </p>
+      <div class="blockTitle">
+        <h4><span><?php printf(__(' 3.2- ','cristobalj')) ?></span><?php printf(__(' Rituales','cristobalj')) ?></h4>
+      </div>
+      <p class="content">
+
+      </p>
+    </div>
+    <div id="block24">
+      <div class="blockTitle">
+        <h3><span><?php printf(__('Módulo 4. ','cristobalj')) ?></span><?php printf(__(' Psicomagia II- Actos Psicomágicos Individuales','cristobalj')) ?></h3>
+      </div>
+      <div class="blockTitle">
+        <h4><span><?php printf(__('4.1- ','cristobalj')) ?></span><?php printf(__(' Psicomagia II','cristobalj')) ?></h4>
+      </div>
+      <p class="content">
+
+      </p>
+      <div class="blockTitle">
+        <h4><span><?php printf(__('4.2- ','cristobalj')) ?></span><?php printf(__(' Actos Psicomagicos individuales y transgenerazional','cristobalj')) ?></h4>
+      </div>
+      <p class="content">
+
+      </p>
+      <div class="blockTitle">
+        <h4><span><?php printf(__('4.3- ','cristobalj')) ?></span><?php printf(__(' Costellazioni psicochamanicas ','cristobalj')) ?></h4>
+      </div>
+      <p class="content">
+
+      </p>
+    </div>
+      <div id="block25">
+        <div class="blockTitle">
+          <h3><span><?php printf(__('Módulo 5. ','cristobalj')) ?></span><?php printf(__(' Retiro y Viaje Iniciático','cristobalj')) ?></h3>
+        </div>
+        <div class="blockTitle">
+          <h4><span><?php printf(__(' 5.1- ','cristobalj')) ?></span><?php printf(__(' Profundización della psicología madura ','cristobalj')) ?></h4>
+        </div>
+        <p class="content">
+
+        </p>
+        <div class="blockTitle">
+          <h4><span><?php printf(__(' 5.2- ','cristobalj')) ?></span><?php printf(__(' Masaje iniciático ','cristobalj')) ?></h4>
+        </div>
+        <p class="content">
+
+        </p>
+        <div class="blockTitle">
+          <h4><span><?php printf(__(' 5.3- ','cristobalj')) ?></span><?php printf(__(' Amor y sexualidad ','cristobalj')) ?></h4>
+        </div>
+        <p class="content">
+
+        </p>
+        <h4>VIAJE INICIÁTICO de 10 dias (viaje a Brasil- Abertura de la via del corazón)</h4>
+      </div>
+    </div>
+  </div>
       <div class="col-md-4 col-lg-3">
         <div class="video_container">
           <video id="metamundo" controls>

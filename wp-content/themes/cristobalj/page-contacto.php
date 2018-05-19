@@ -11,7 +11,7 @@ get_header(); ?>
         <div class="row mt-5 justify-content-center">
           <div class="col-sm-12 col-md-7">
             <h4 class="font-weight-bold text-left">
-              <?php printf( __( 'Contact me!', 'cristobalj' )); ?>
+              <?php printf( __( '¡Contáctame!', 'cristobalj' )); ?>
             </h4>
             <hr class="my-1">
             <?php echo do_shortcode('[contact-form-7 id="124" title="Contacto"]'); ?>

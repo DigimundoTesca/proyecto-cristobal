@@ -173,17 +173,14 @@ get_header(); ?>
           <p>Finalmente el Psicoteatro es el fruto de lo que he sembrado a través de mi proceso y trabajo personal. Es donde me permito compartir todo lo que voy aprendiendo y experimentando con la intención de ayudarnos a vivir más plenos, integrados psicoespiritualmente y presentes. Es mi contribución a que este mundo sane y se despierte cada día más.</p>", 'cristobalj' )); ?>
           <ul id="" class="psicoteatro-slide">
             <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/01-min.jpg" alt=""></li>
-            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/02-min.jpg" alt=""></li>
             <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/03-min.jpg" alt=""></li>
             <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/04-min.jpg" alt=""></li>
             <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/05-min.JPG" alt=""></li>
             <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/07-min.jpg" alt=""></li>
             <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/08-min.jpg" alt=""></li>
             <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/09-min.jpg" alt=""></li>
-            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/10-min.jpg" alt=""></li>
             <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/11-min.jpg" alt=""></li>
             <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/12-min.jpg" alt=""></li>
-            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/13-min.jpg" alt=""></li>
             <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/14.png" alt=""></li>
           </ul>
         </div>

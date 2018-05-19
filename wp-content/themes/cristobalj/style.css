@@ -3108,6 +3108,7 @@ input.wpcf7-form-control.wpcf7-submit {
     perspective: 1000px;
   }
   .bookimg img {
+    margin-top: 2.7em;
     height: inherit;
   }
   .bookdescription {
@@ -3463,13 +3464,16 @@ input.wpcf7-form-control.wpcf7-submit {
 .calendar div.ai1ec-event-header > div.ai1ec-event-toggle{
   color: #5a7b9c;
 }
-.calendar  div.timely.ai1ec-calendar-toolbar.ai1ec-clearfix,
 .calendar div.ai1ec-pull-left,
 #ai1ec-calendar-view > div.ai1ec-clearfix > div.ai1ec-title-buttons.ai1ec-btn-toolbar > div.ai1ec-agenda-buttons.ai1ec-btn-toolbar.ai1ec-pull-right,
 #mainContainer #ai1ec-container, #page > #content > #secondary,
 #ai1ec-calendar > div.ai1ec-subscribe-container.ai1ec-pull-right.ai1ec-btn-group > div > span,
 #sidebar_2 .bio, div.date-post, #event-container .ai1ec-action, .news-cat {
   display: none;
+}
+.calendar .ai1ec-calendar-toolbar, .timely .ai1ec-btn-default {
+  background-color: inherit;
+  border: 0px;
 }
 
 .calendar div.ai1ec-agenda-view a > div.ai1ec-month{
@@ -3805,7 +3809,6 @@ text-align: center !important;
 .agenda #datesContainer {
   max-width: 100%;
   overflow: hidden;
-  padding: 1em;
   height: auto;
   }
 .agenda #datesContainer #ag {
