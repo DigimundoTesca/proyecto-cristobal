@@ -5,7 +5,16 @@
 get_header(); ?>
 <div id="primary" class="content-area">
   <main id="main" class="site-main">
-    <div class="row">
+
+    <div id="dock-container">
+     <div id="dock">
+     <ul>
+      <li title="Consultar"><a href="http://metamundo.cristobal-jodorowsky.com/start/"><img class="rounded-circle" src="<?php echo get_template_directory_uri(); ?>/images/consulta.jpg"></a></li>
+     </ul>
+     </div>
+    </div>
+
+    <div class="row" id="consult-template">
       <div class="sidebar_1 col-md-4 col-lg-3 order-md-last  justify-content-center">
         <div id="datesContainer" class="mt-5 text-center" >
           <h3>
@@ -20,25 +29,37 @@ get_header(); ?>
           </h4>
           <div class="calendar"><?php echo do_shortcode('[ai1ec view="agenda"]'); ?></div>
         </div>
-        <div class="Tweets mt-md-5">
-          <a class="twitter-timeline" height="340px" href="https://twitter.com/cris_jodow?ref_src=twsrc%5Etfw">Tweets by cris_jodow</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-          <a href="https://twitter.com/cris_jodow?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @cris_jodow</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-          <a href="https://twitter.com/intent/tweet?screen_name=cris_jodow&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @cris_jodow</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </div>
-        <?php get_template_part( 'mainbanner' ); ?>
+        <?php get_template_part( 'twitter' ); ?>
       </div>
       <div class="col-md-8 col-lg-9 order-lg-first">
         <div class="">
           <br><h1 class="text-center">Consultas de Tarot con Cristobal Jodorowsky</h1>
-          <?php echo do_shortcode('[sp_news limit = "10" category="16"] '); ?>
+          <?php echo do_shortcode('[sp_news limit = "1" category="8"] '); ?>
+        </div>
+        <div class="consult_secondarybanner">
+          <?php get_template_part( 'secondarybanner' ); ?>
         </div>
       </div>
-
-
-
       </div>
   </main><!-- #main -->
 </div><!-- #primary -->
-
+<script type="text/javascript">
+  function addPrevClass (e) {
+  var target = e.target;
+    if(target.getAttribute('src')) { // check if it is img
+      var li = target.parentNode.parentNode;
+      var prevLi = li.previousElementSibling;
+      if(prevLi) {
+        prevLi.className = 'prev';
+      }
+      target.addEventListener('mouseout', function() {
+        prevLi.removeAttribute('class');
+      }, false);
+    }
+  }
+  if (window.addEventListener) {
+    document.getElementById("dock").addEventListener('mouseover', addPrevClass, false);
+  }
+</script>
 <?php
 get_footer();

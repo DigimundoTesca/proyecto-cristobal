@@ -2450,6 +2450,9 @@ input.wpcf7-form-control.wpcf7-submit {
   .wg-list {
     left: -80px !important;
   }
+  .agenda #datesContainer #ag {
+    height: 850px;
+  }
   .n2-ow {
     max-height: 300px;
   }
@@ -2797,9 +2800,10 @@ input.wpcf7-form-control.wpcf7-submit {
 /*4k styles*/
 @media screen and (min-width: 2000px) {
   /*Agenda template*/
-  .agenda #datesContainer #ag {
-    height: 850px !important;
-  }
+  #dock li img {
+    width: 120px !important;
+    height: 120px !important;
+    }
   #new_agenda .ai1ec-event-avatar img {
     max-height: 500px !important;
   }
@@ -3827,11 +3831,11 @@ text-align: center !important;
   display: block;
   margin: 0 auto;
   overflow: hidden;
+  height: 1250px;
   height: auto;
   }
 .agenda #datesContainer #ag {
   overflow-y: scroll;
-  height: 650px;
   padding: 1em;
   display: block;
   margin: 0 auto;
@@ -3944,3 +3948,97 @@ text-align: center !important;
   .fa-youtube-play:before, .fa-youtube-play {
     color: #c4302b;
   }
+
+  .consult_secondarybanner #secondarybannercontainer {
+    margin-top: 2em;
+  }
+
+  #dock-container {
+    position: fixed;
+    top: 35%;
+    z-index: 100;
+  }
+  #dock ul {
+    list-style: none;
+    padding:0;
+    margin: .5em;
+  }
+
+  #dock li img {
+    width: 68px;
+    height: 68px;
+    -webkit-box-reflect: below 2px
+    -webkit-gradient(linear, left top, left bottom, from(transparent),
+    color-stop(0.7, transparent), to(rgba(255,255,255,.5))); /* reflection is supported by webkit only */
+    -webkit-transition: all 0.3s;
+    -webkit-transform-origin: 50% 100%;
+  }
+
+  #dock li:hover img {
+    -webkit-transform: scale(2.15);
+    margin: 0 2em;
+  }
+
+  #dock li:hover + li img,
+  #dock li.prev img {
+    -webkit-transform: scale(1.4);
+    margin: 0 1.5em;
+  }
+
+  #consult-template .grid-news-thumb {
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.page-numbers, .next {
+  background: #175d39 !important;
+  border-radius: 10px;
+  transition: background-color .35s ease-out;
+  color: #FFF !important;
+}
+
+.page-numbers:hover, .next:hover {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  color: #FFF !important;
+}
+
+.current {
+  background: gray !important;
+  color: #FFF;
+  padding: .5em;
+}
+.current:hover {
+  color: #000 !important;
+}
+#page .timeline-Header-title u-inlineBlock {
+    text-align: center !important;
+    color: red !important;
+}
+.Tweets, .Tweets_big {
+    background: #f5f5f5;
+    border-radius: 10px;
+    padding: .5em;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media screen and (min-width: 100px){
+  .Tweets_big {
+      display: none;
+  }
+}
+@media screen and (min-width: 2000px){
+  .Tweets {
+      display: none !important;
+  }
+  .Tweets_big {
+      display: block;
+      margin-top: 3.8em !important;
+  }
+  #datesContainer {
+    height: 1000px;
+  }
+  .agenda #datesContainer {
+    height: 1250px !important;
+  }
+}
+
+.ai1ec-dropdown-menu {
+  padding: 1em !important;
+}

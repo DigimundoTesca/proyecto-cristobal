@@ -175,9 +175,8 @@ get_header(); ?>
             <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/01-min.jpg" alt=""></li>
             <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/03-min.jpg" alt=""></li>
             <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/04-min.jpg" alt=""></li>
-            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/05-min.JPG" alt=""></li>
             <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/07-min.jpg" alt=""></li>
-            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/08-min.jpg" alt=""></li>
+            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/05-min.JPG" alt=""></li>
             <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/09-min.jpg" alt=""></li>
             <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/11-min.jpg" alt=""></li>
             <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/12-min.jpg" alt=""></li>
@@ -265,10 +264,9 @@ get_header(); ?>
   </div>
   <div id="sidebar_2" class="col-md-12 col-lg-4 col-xl-3 text-center">
     <?php get_template_part('agenda'); ?>
-    <iframe class="morevideo mt-2" width="100%" src="https://www.youtube.com/embed/VI-IngJEK4s"></iframe>
+    <iframe class="morevideo mt-5" width="100%" src="https://www.youtube.com/embed/VI-IngJEK4s"></iframe>
     <?php get_template_part( 'mainbanner' );  ?>
   </div>
-
 </div>
 
 <?php

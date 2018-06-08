@@ -97,11 +97,7 @@ get_header(); ?>
           </h4>
           <div class="calendar"><?php echo do_shortcode('[ai1ec view="agenda"]'); ?></div>
         </div>
-        <div class="Tweets mt-md-5">
-          <a class="twitter-timeline" height="340px" href="https://twitter.com/cris_jodow?ref_src=twsrc%5Etfw">Tweets by cris_jodow</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-          <a href="https://twitter.com/cris_jodow?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @cris_jodow</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-          <a href="https://twitter.com/intent/tweet?screen_name=cris_jodow&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @cris_jodow</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </div>
+        <?php get_template_part( 'twitter' ); ?>
         <?php get_template_part( 'mainbanner' ); ?>
       </div>
       <div class="col-md-8 col-lg-9 order-lg-first d-flex justify-content-center">

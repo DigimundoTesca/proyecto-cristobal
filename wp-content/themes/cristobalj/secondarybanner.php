@@ -8,7 +8,7 @@ Template Name: secondarybanner
     <a href="<?php echo esc_url( get_permalink( get_page_by_title( 'Metamundo' ) ) ); ?>" title="Metamundo">
       <div class="metmundo">
         <h3>
-          <?php printf(__('Live the experience!','cristobalj')) ?>
+          <?php printf(__('¡Vive la experiencia!','cristobalj')) ?>
         </h3>
         <p class="text-center text-dark my-0">
           <?php printf(__('"Next generations"','cristobalj')) ?>

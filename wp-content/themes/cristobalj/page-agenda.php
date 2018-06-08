@@ -30,11 +30,7 @@ get_header(); ?>
           <h3 class="text-uppercase ">¡Próximos Eventos!</h3>
           <?php echo do_shortcode('[smartslider3 slider=3]'); ?>
         </div>
-        <div class="Tweets mt-md-2 col-11">
-          <a class="twitter-timeline" height="340px" href="https://twitter.com/cris_jodow?ref_src=twsrc%5Etfw">Tweets by cris_jodow</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-          <a href="https://twitter.com/cris_jodow?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @cris_jodow</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-          <a href="https://twitter.com/intent/tweet?screen_name=cris_jodow&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @cris_jodow</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </div>
+          <?php get_template_part( 'twitter' );?>
       </div>
     </div>
     <div class="container-fluid mt-4">
