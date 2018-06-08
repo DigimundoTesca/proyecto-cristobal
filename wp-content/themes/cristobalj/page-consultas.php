@@ -34,7 +34,7 @@ get_header(); ?>
       <div class="col-md-8 col-lg-9 order-lg-first">
         <div class="">
           <br><h1 class="text-center">Consultas de Tarot con Cristobal Jodorowsky</h1>
-          <?php echo do_shortcode('[sp_news limit = "1" category="8"] '); ?>
+          <?php echo do_shortcode('[sp_news limit = "1" category="16"] '); ?>
         </div>
         <div class="consult_secondarybanner">
           <?php get_template_part( 'secondarybanner' ); ?>
