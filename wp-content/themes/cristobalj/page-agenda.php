@@ -20,10 +20,7 @@ get_header(); ?>
             ?>
           </h4>
           <div id="ag" class="calendar"><?php echo do_shortcode('[ai1ec view="agenda"]'); ?></div>
-
         </div>
-
-
       </div>
       <div id="sidebar_2" class="col-lg-4 text-center">
         <div id="prox_events" class="container mt-3 mb-5">

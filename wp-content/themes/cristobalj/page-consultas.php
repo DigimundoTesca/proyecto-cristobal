@@ -5,15 +5,6 @@
 get_header(); ?>
 <div id="primary" class="content-area">
   <main id="main" class="site-main">
-
-    <div id="dock-container">
-     <div id="dock">
-     <ul>
-      <li title="Consultar"><a href="http://metamundo.cristobal-jodorowsky.com/start/"><img class="rounded-circle" src="<?php echo get_template_directory_uri(); ?>/images/consulta.jpg"></a></li>
-     </ul>
-     </div>
-    </div>
-
     <div class="row" id="consult-template">
       <div class="sidebar_1 col-md-4 col-lg-3 order-md-last  justify-content-center">
         <div id="datesContainer" class="mt-5 text-center" >

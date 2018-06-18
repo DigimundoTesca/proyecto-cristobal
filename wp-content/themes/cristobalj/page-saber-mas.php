@@ -156,10 +156,19 @@ get_header(); ?>
           Una vez que el consultante haya expuesto su tema, conduzco la constelación siguiendo mis intuiciones y apoyado por el campo que se forma. Puedo intervenir, de vez en cuando, proponiendo actos psicomágicos, en vivo. Así experimentamos la vivencia de un ritual psicochamánico actuando mediante el uso de objetos simbólicos. <p>
           <p>Estas intensas prácticas se desarrollan con la ayuda de una parte del grupo o con todo el grupo completo permitiendo tomar conciencia de nuestras dinámicas, liberarnos de conflictos y recuperar  energía vital. </p>", 'cristobalj' )); ?>
           <ul  class="psicoteatro-slide">
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/constelaciones/001.jpg" alt=""></li>
             <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/constelaciones/01.jpeg" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/constelaciones/06.JPG" alt=""></li>
             <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/constelaciones/02.jpeg" alt=""></li>
             <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/constelaciones/03.JPG" alt=""></li>
-            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/constelaciones/constelaciones.jpg" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/constelaciones/04.jpg" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/constelaciones/05.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/constelaciones/07.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/constelaciones/11.jpg" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/constelaciones/09.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/constelaciones/10.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/constelaciones/08.jpg" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/constelaciones/12.jpg" alt=""></li>
           </ul>
         </div>
 
@@ -237,26 +246,26 @@ get_header(); ?>
           <br>También propone un seminario itinerante de Tarot comprende un recorrido por escenarios naturales elegidos específicamente para trabajar en profundidad, guiados la mano de Cristobal Jodorowsky, en prácticas y ejercicios introspectivos que nos permiten tener acceso de modo vivencial, a la integración de cada arcano del Tarot de Marsella, en la búsqueda de una experiencia más amplia de estudio sobre sus implicaciones arquetípicas en nuestra psique. En el marco de los inigualablemente suntuosos parajes mayas del sureste de México, se realiza un profundo trabajo de auto-conocimiento y una labor terapéutica interior que nos ofrece mayores herramientas para renacer en plenitud a dimensiones más amplias de nuestro ser. Además, las expediciones viajeras resultan una buena ocasión para el trabajo y las consultas en psicomagia y Tarot, generando un recorrido personal desde la meditación y el autoanálisis hasta el ritual psicochamánico.
           </p>", 'cristobalj' )); ?>
           <ul  class="psicoteatro-slide">
-            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/01-min.JPG" alt=""></li>
-            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/02-min.JPG" alt=""></li>
-            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/03-min.jpg" alt=""></li>
-            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/04-min.JPG" alt=""></li>
-            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/05-min.JPG" alt=""></li>
-            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/06-min.JPG" alt=""></li>
-            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/07-min.JPG" alt=""></li>
-            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/08-min.jpg" alt=""></li>
-            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/09-min.jpg" alt=""></li>
-            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/10-min.JPG" alt=""></li>
-            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/11-min.JPG" alt=""></li>
-            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/12-min.JPG" alt=""></li>
-            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/13-min.JPG" alt=""></li>
-            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/14-min.JPG" alt=""></li>
-            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/15-min.JPG" alt=""></li>
-            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/16-min.JPG" alt=""></li>
-            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/17-min.JPG" alt=""></li>
-            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/18-min.JPG" alt=""></li>
-            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/19-min.JPG" alt=""></li>
-            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/20-min.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/01.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/02.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/03.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/04.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/05.jpg" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/06.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/07.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/08.jpg" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/09.jpg" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/10.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/11.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/12.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/13.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/14.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/15.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/16.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/17.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/18.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/19.JPG" alt=""></li>
+            <li class="pslide"><img  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/viajes/20.JPG" alt=""></li>
           </ul>
         </div>
       </main><!-- #main -->

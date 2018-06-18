@@ -98,20 +98,20 @@ get_header(); ?>
           <div class="calendar"><?php echo do_shortcode('[ai1ec view="agenda"]'); ?></div>
         </div>
         <?php get_template_part( 'twitter' ); ?>
-        <?php get_template_part( 'mainbanner' ); ?>
+        <div class="inicio">
+            <?php get_template_part( 'mainbanner' ); ?>
+        </div>
+
       </div>
       <div class="col-md-8 col-lg-9 order-lg-first d-flex justify-content-center">
-        <div class="">
+        <div class="container-fluid">
           <h1 class="text-center">Últimas Noticias</h1>
           <?php while (have_posts()): the_post(); ?>
             <?php the_content(); ?>
           <?php endwhile ?>
         </div>
       </div>
-
-
-
-      </div>
+    </div>
   </main><!-- #main -->
 </div><!-- #primary -->
 
