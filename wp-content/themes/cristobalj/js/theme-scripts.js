@@ -68,18 +68,22 @@ jQuery(document).ready(function(){
   }
   var paises = document.getElementsByClassName("ai1ec-dropdown-toggle")
   var leer = document.getElementsByClassName("news-more-link")
+  var next = document.getElementsByClassName("next")
+  var prev = document.getElementsByClassName("prev")
+
+  for(let j =0; j < next.length; j++) {
+    next[0].innerHTML = "Siguiente »"
+  }
+  prev[0].innerHTML = "« Anterior "
 //change buttons text
   for(let i = 0; i < leer.length; i++){
     leer[i].innerHTML = 'ver más'
   }
-  console.log(paises)
   for(let i = 0; i<paises.length; i++) {
     if(paises[i].text == "     Categorías  ") {
-      console.log("si")
       paises[i].innerHTML = '<i class="fa fa-globe" aria-hidden="true"></i> Países'
     }
     else if (paises[i].text == "     Etiquetas:  ") {
-      console.log("tmbiem")
       paises[i].innerHTML = '<i class="fa fa-archive" aria-hidden="true"></i> Talleres de estudio'
     }
     else if (paises[i].text == "   Agenda   ") {
