@@ -66,6 +66,29 @@ jQuery(document).ready(function(){
       }
     }
   }
+  var paises = document.getElementsByClassName("ai1ec-dropdown-toggle")
+  var leer = document.getElementsByClassName("news-more-link")
+//change buttons text
+  for(let i = 0; i < leer.length; i++){
+    leer[i].innerHTML = 'ver más'
+  }
+  console.log(paises)
+  for(let i = 0; i<paises.length; i++) {
+    if(paises[i].text == "     Categorías  ") {
+      console.log("si")
+      paises[i].innerHTML = '<i class="fa fa-globe" aria-hidden="true"></i> Países'
+    }
+    else if (paises[i].text == "     Etiquetas:  ") {
+      console.log("tmbiem")
+      paises[i].innerHTML = '<i class="fa fa-archive" aria-hidden="true"></i> Talleres de estudio'
+    }
+    else if (paises[i].text == "   Agenda   ") {
+      paises[i].style.display = "none"
+    }
+  }
+
+
+
 
   // Change menu color for metamundo page
   var coll = document.getElementsByClassName('menu-item');

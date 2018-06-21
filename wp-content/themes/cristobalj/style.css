@@ -4042,3 +4042,11 @@ text-align: center !important;
 .ai1ec-dropdown-menu {
   padding: 1em !important;
 }
+.ai1ec-event-summary-footer .ai1ec-field-label {
+  display: none;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .inicio #mainbannercontainer .mainbannercontent a  div {
+    width: 230px !important;
+  }
+}
