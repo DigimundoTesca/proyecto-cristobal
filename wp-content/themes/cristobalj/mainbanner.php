@@ -8,7 +8,7 @@ Template Name: mainbanner
     <a href="<?php echo esc_url( get_permalink( get_page_by_title( 'Metamundo' ) ) ); ?>" title="Metamundo">
       <div class="metmundo">
         <h3>
-          <?php printf(__('Live the experience!','cristobalj')) ?>
+          <?php printf(__('¡Vive la experiencia!','cristobalj')) ?>
         </h3>
         <p class="text-center text-dark my-0">
           <?php printf(__('"Next generations"','cristobalj')) ?>
@@ -17,7 +17,7 @@ Template Name: mainbanner
           <?php printf(__('Mexico febrero 2018','cristobalj')) ?>
           <?php printf(__('Argentina julio 2018','cristobalj')) ?>
         </p>
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/metalogonuevo.png" alt="">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/metalogonuevo3.jpg" alt="">
       </div>
     </a>
   </div>
@@ -35,12 +35,15 @@ Template Name: mainbanner
     </a>
   </div>
   <div class="mainbannercontent">
-    <a href="#" title="Tarot">
+    <a href="http://metamundo.cristobal-jodorowsky.com/start" title="Tarot">
       <div class="mindHack">
         <h3>
-          <?php printf(__('Tarot queries','cristobalj')) ?>
+          <?php printf(__('Tu tarot virtual','cristobalj')) ?>
         </h3>
         <img  src="<?php echo get_stylesheet_directory_uri(); ?>/images/Tarot.jpg"  alt="">
+        <p id="consulta">
+          <?php printf(__('Consultas gratis','cristobalj')) ?>
+        </p>
       </div>
     </a>
   </div>

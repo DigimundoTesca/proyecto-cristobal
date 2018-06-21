@@ -1,10 +1,11 @@
+
 // Function to manage menu
 (function() {
 
   var bodyEl = document.body,
-  content = document.querySelector( '.content-wrap' ),
+  content = document.querySelector( 'navigation' ),
   openbtn = document.getElementById( 'open-button' ),
-  closebtn = document.getElementById( 'close-button' ),
+  closebtn = document.getElementById( 'close' ),
   isOpen = false;
 
   function init() {
@@ -16,7 +17,6 @@
     if( closebtn ) {
       closebtn.addEventListener( 'click', toggleMenu );
     }
-
     // close the menu element if the target it´s not the menu element or one of its descendants..
     content.addEventListener( 'click', function(ev) {
       var target = ev.target;
@@ -29,6 +29,7 @@
   function toggleMenu() {
     if( isOpen ) {
       classie.remove( bodyEl, 'show-menu' );
+
     }
     else {
       classie.add( bodyEl, 'show-menu' );

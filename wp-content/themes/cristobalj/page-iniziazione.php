@@ -1,7 +1,6 @@
 <?php
 /**
  * Template for displaying welcome page */
-
 get_header(); ?>
 
 <div id="primary" class="content-area">
@@ -13,7 +12,7 @@ get_header(); ?>
         <h2 class="bannertitle">
           <?php printf(__('Welcome!','cristobalj')) ?>
         </h2>
-        <p class="quote"><?php printf(__('"Here you can put a phrase from Cristobal that welcomes people"','cristobalj')) ?></p>
+        <p class="quote"><?php printf(__('"Frase Cristobal"','cristobalj')) ?></p>
       </div>
       <div class="newscontainer">
         <?php es_subbox( $namefield = "NO", $desc = "", $group = "" ); ?>
@@ -25,7 +24,7 @@ get_header(); ?>
           <h2 class="bannertitle">
             <?php printf(__('Welcome!','cristobalj')) ?>
           </h2>
-          <p class="quote"><?php printf(__('"Here you can put a phrase from Cristobal that welcomes people"','cristobalj')) ?></p>
+          <p class="quote"><?php printf(__('"Frase Cristobal"','cristobalj')) ?></p>
           <p class="name">Cristóbal Jodorowsky</p>
         </div>
         <div class="newscontainer">
@@ -41,28 +40,25 @@ get_header(); ?>
         </a>
       </div>
     </div>
-
-    <div class="mainpage" id="mainpage">
-      <?php get_template_part( 'mainbanner' );  ?>
-      <div id="datesContainer">
-        <h3>
-          <?php
-          printf( __( 'Agenda 20', 'cristobalj' ));
-          echo the_time('y');
-          ?>
-        </h3>
-        <h4>
-          <?php
-          printf( __( 'Know my activities this year', 'cristobalj' ));
-          ?>
-        </h4>
-        <?php while (have_posts()): the_post(); ?>
-          <?php the_content(); ?>
-        <?php endwhile ?>
+    <div class="row">
+      <div class="col-md-9 order-first d-flex justify-content-center">
+        <div class="">
+          <h1 class="text-center">Ultimas Noticias</h1>
+          <?php while (have_posts()): the_post(); ?>
+            <?php the_content(); ?>
+          <?php endwhile ?>
+        </div>
       </div>
-    </div> 
-
-
+      <div class="sidebar_1 col-md-3 order-sm-last  justify-content-center">
+        <div class="Tweets">
+          <a class="twitter-timeline" height="340px" href="https://twitter.com/cris_jodow?ref_src=twsrc%5Etfw">Tweets by cris_jodow</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          <a href="https://twitter.com/cris_jodow?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @cris_jodow</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          <a href="https://twitter.com/intent/tweet?screen_name=cris_jodow&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @cris_jodow</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        <?php get_template_part( 'mainbanner' ); ?>
+      </div>
+      </div>
+    </div>
   </main><!-- #main -->
 </div><!-- #primary -->
 

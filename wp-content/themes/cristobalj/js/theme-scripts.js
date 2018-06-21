@@ -1,3 +1,4 @@
+
 jQuery(document).ready(function(){
 
   // Translate 'submit' for newsletter form
@@ -6,7 +7,7 @@ jQuery(document).ready(function(){
   let i = 0;
   for (; i < buttonsubmit.length; i++) {
     if (window.location.pathname == '/Cristobal/') {
-        document.getElementById('extralink').setAttribute('href', 'saber-mas');
+      document.getElementById('extralink').setAttribute('href', 'saber-mas');
       for (j = 0; j < buttonsubmit.length; j++) {
         document.getElementsByClassName('es_textbox_button es_submit_button')[j].value = 'suscribirse';
         document.getElementsByClassName('es_shortcode_form_email')[j].innerHTML = '<span>Susbribete</span> para acceder a todos los contenidos';
@@ -15,7 +16,7 @@ jQuery(document).ready(function(){
       }
     }
     else if (window.location.pathname == '/Cristobal/it/') {
-        document.getElementById('extralink').setAttribute('href', 'ulteriori-informazioni');
+      document.getElementById('extralink').setAttribute('href', 'ulteriori-informazioni');
       for (j = 0; j < buttonsubmit.length; j++) {
         document.getElementsByClassName('es_textbox_button es_submit_button')[j].value = 'abbonarsi';
         document.getElementsByClassName('es_shortcode_form_email')[j].innerHTML = '<span>Sostenere</span> per accedere a tutti i contenuti';
@@ -24,7 +25,7 @@ jQuery(document).ready(function(){
       }
     }
     else if (window.location.pathname == '/Cristobal/fr/') {
-        document.getElementById('extralink').setAttribute('href', 'savoir-plus');
+      document.getElementById('extralink').setAttribute('href', 'savoir-plus');
       for (j = 0; j < buttonsubmit.length; j++) {
         document.getElementsByClassName('es_textbox_button es_submit_button')[j].value = "S'abonner";
         document.getElementsByClassName('es_shortcode_form_email')[j].innerHTML = '<span>Suspensé</span> pour accéder à tous les contenus';
@@ -33,7 +34,17 @@ jQuery(document).ready(function(){
       }
     }
   }
-  // Add text to more information buttons on agenda 
+  //Change-link
+
+  if (window.location.pathname == '/Cristobal/it/libros/') {
+    history.pushState(null, "", "/Cristobal/it/libri/");
+  }
+  else if(window.location.pathname == '/Cristobal/it/saber-mas/') {
+    history.pushState(null, "", "/Cristobal/it/ulteriori-informazioni/");
+  }
+
+
+  // Add text to more information buttons on agenda
   let eventbutton = document.getElementsByClassName('event-button');
   let eventbuy = document.getElementsByClassName('event-buy');
   let k = 0;
@@ -55,6 +66,29 @@ jQuery(document).ready(function(){
       }
     }
   }
+  var paises = document.getElementsByClassName("ai1ec-dropdown-toggle")
+  var leer = document.getElementsByClassName("news-more-link")
+//change buttons text
+  for(let i = 0; i < leer.length; i++){
+    leer[i].innerHTML = 'ver más'
+  }
+  console.log(paises)
+  for(let i = 0; i<paises.length; i++) {
+    if(paises[i].text == "     Categorías  ") {
+      console.log("si")
+      paises[i].innerHTML = '<i class="fa fa-globe" aria-hidden="true"></i> Países'
+    }
+    else if (paises[i].text == "     Etiquetas:  ") {
+      console.log("tmbiem")
+      paises[i].innerHTML = '<i class="fa fa-archive" aria-hidden="true"></i> Talleres de estudio'
+    }
+    else if (paises[i].text == "   Agenda   ") {
+      paises[i].style.display = "none"
+    }
+  }
+
+
+
 
   // Change menu color for metamundo page
   var coll = document.getElementsByClassName('menu-item');
@@ -96,6 +130,20 @@ jQuery(document).ready(function(){
       coll[i].className += ' biohover';
     }
   }
+  else if (window.location.pathname == '/Cristobal/libros/') {
+    document.getElementById('site-navigation').style.backgroundColor = "#eee52f";
+    for(i, len=coll.length; i<len; i++)
+    {
+      coll[i].className += ' biohover';
+    }
+  }
+  else if (window.location.pathname == '/Cristobal/contacto/') {
+    document.getElementById('site-navigation').style.backgroundColor = "#17692a";
+    for(i, len=coll.length; i<len; i++)
+    {
+      coll[i].className += 'metahover';
+    }
+  }
   else if (window.location.pathname == '/Cristobal/fr/biographie/') {
     document.getElementById('site-navigation').style.backgroundColor = "#d39b00";
     for(i, len=coll.length; i<len; i++)
@@ -127,10 +175,79 @@ jQuery(document).ready(function(){
       coll[i].className += ' morehover';
     }
   }
+  // Metamundo blocks menu handler
+  (function($) {
+    $("#blocksContainer ul li a").on("click", function(e) {
+      e.preventDefault();
+      $("#blocksContainer ul li a").removeClass("active");
+      $(this).addClass("active");
+    });
+  })(jQuery);
+
+
+
+  (function($) {
+    $('a[href*="#"]')
+    // Remove links that don't actually link to anything
+    .not('[href="#"]')
+    .not('[href="#0"]')
+    .click(function(event) {
+      // On-page links
+      if (
+        location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+        &&
+        location.hostname == this.hostname
+        ) {
+        // Figure out element to scroll to
+      var target = $(this.hash);
+      var navHeight = $('#mainNav').height();
+      var scrollToPosition = target.offset().top - (navHeight);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        // Does a scroll target exist?
+        if (target.length) {
+          // Only prevent default if animation is actually gonna happen
+          event.preventDefault();
+          $('html, body').animate({
+            scrollTop: scrollToPosition
+          }, 1500, function() {
+            // Callback after animation
+            // Must change focus!
+            var $target = $(target);
+            $target.focus();
+          });
+        }
+      }
+    });
+  })(jQuery);
+  // Book download
+  (function($) {
+    $('#dnlBookBtn').click(function(event) {
+      var wpcf7Elm = document.querySelector( '.wpcf7' );
+      var redirectUrl = object_name.redirectUrl;
+      wpcf7Elm.addEventListener( 'wpcf7mailfailed', function( event ) {
+        $('#downloadThis')[0].click();
+        $('#downloadBook').modal('hide');
+        swal({
+          title: "Descarga en proceso.",
+          text: "Disfrute su libro",
+          type: "success",
+          showCancelButton: false,
+          confirmButtonText: "¡Vamos!",
+          confirmButtonClass: 'btn btn-success'
+        }).then(function () {
+          window.location.href = redirectUrl;
+        });
+      });
+    });
+
+  })(jQuery);
+
+
+  });
 
   // Moddify footer width
   (function($) {
-    if(document.getElementById('datesContainer')){ 
+    if(document.getElementById('datesContainer')){
       let datewidth = document.getElementById('datesContainer').offsetWidth;
       let circlewidth = document.getElementById('circles');
 
@@ -145,7 +262,6 @@ jQuery(document).ready(function(){
   })(jQuery);
 
 
-
   // Moving images for banners
   (function($) {
     $('.mobilekmore').addClass('animated zoomIn');
@@ -154,25 +270,51 @@ jQuery(document).ready(function(){
     $(".rslides").responsiveSlides({
       auto: true,
       speed: 500,
-      timeout: 2500, 
+      timeout: 2500,
     });
+
     // Sliders on knowmore page
     $("#chamanslides").responsiveSlides({
       auto: true,
       speed: 500,
-      timeout: 2500, 
+      timeout: 2500,
     });
     $("#magicslides").responsiveSlides({
       auto: true,
       speed: 500,
-      timeout: 2500, 
+      timeout: 2500,
     });
+
+    $("#begin-slide").cycle({
+		fx : 'fade',
+		timeout: 4000,
+		speed: 2000,
+		slides: '.slide'
+    });
+    $(".begin-slide").cycle({
+		fx : 'fade',
+		timeout: 4000,
+		speed: 2000,
+		slides: '.mslide'
+    });
+    $(".psicoteatro-slide").cycle({
+		fx : 'fade',
+		timeout: 3000,
+		speed: 2000,
+		slides: '.pslide'
+    });
+
     $("#theaterslides").responsiveSlides({
       auto: true,
       speed: 500,
-      timeout: 2500, 
+      timeout: 2500,
     });
+
+    /*slider tarot*/
+    var slider = document.querySelector(".slier-prin");
+    slider.innerHTML += slider.innerHTML;
   })(jQuery);
+
 
   // Change books header color
   var booktitle = document.getElementsByClassName('booktitle');
@@ -198,124 +340,51 @@ jQuery(document).ready(function(){
     });
     var templateUr = object_uri.templateUrl;
     $('.imgChange1').mouseover(function() {
-      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/12.jpg)');
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/psicomagia/03.jpg)');
     });
     $('.imgChange2').mouseover(function() {
       $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/3.jpg)');
     });
     $('.imgChange3').mouseover(function() {
-      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/5.jpg)');
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/tarot.jpeg)');
     });
     $('.imgChange4').mouseover(function() {
       $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/7.jpg)');
     });
     $('.imgChange5').mouseover(function() {
-      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/11.jpg)');
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/constelaciones/constelaciones.jpg)');
     });
     $('.imgChange6').mouseover(function() {
       $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/13.jpg)');
     });
     $('.imgChange7').mouseover(function() {
-      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/23.jpg)');
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/psicomagia-colectiva/003-min.jpg)');
     });
     $('.imgChange8').mouseover(function() {
       $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/33.jpg)');
     });
     $('.imgChange9').mouseover(function() {
-      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/42.jpg)');
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/viajes/01-min.JPG)');
     });
     $('.imgChange10').mouseover(function() {
       $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/37.jpg)');
     });
     $('.imgChange11').mouseover(function() {
-      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/50.jpg)');
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/psicoteatro/psico.jpg)');
     });
     $('.imgChange12').mouseover(function() {
       $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/53.jpg)');
     });
     $('.imgChange13').mouseover(function() {
-      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/10.jpg)');
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/arbol.Jpg)');
     });
     $('.imgChange14').mouseover(function() {
       $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/23.jpg)');
     });
     $('.imgChange15').mouseover(function() {
-      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/27.jpg)');
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/psicochamanismo/06-min.JPG)');
     });
     $('.imgChange16').mouseover(function() {
       $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/20.jpg)');
     });
   })(jQuery);
-
-
-  // Metamundo blocks menu handler
-  (function($) {
-    $("#blocksContainer li a").on("click", function(e) {
-        e.preventDefault();
-        $("#blocksContainer li a").removeClass("active");
-        $(this).addClass("active");
-      });
-  })(jQuery);
-
-
-
-  (function($) {
-    $('a[href*="#"]')
-    // Remove links that don't actually link to anything
-    .not('[href="#"]')
-    .not('[href="#0"]')
-    .click(function(event) {
-      // On-page links
-      if (
-        location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
-        && 
-        location.hostname == this.hostname
-        ) {
-        // Figure out element to scroll to
-      var target = $(this.hash);
-      var navHeight = $('#mainNav').height();
-      var scrollToPosition = target.offset().top - (navHeight);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-        // Does a scroll target exist?
-        if (target.length) {
-          // Only prevent default if animation is actually gonna happen
-          event.preventDefault();
-          $('html, body').animate({
-            scrollTop: scrollToPosition
-          }, 1500, function() {
-            // Callback after animation
-            // Must change focus!
-            var $target = $(target);
-            $target.focus();
-          });
-        }
-      }
-    });
-  })(jQuery);
-
-
-  // Book download
-  (function($) {
-    $('#dnlBookBtn').click(function(event) {
-      var wpcf7Elm = document.querySelector( '.wpcf7' );
-      var redirectUrl = object_name.redirectUrl;
-      wpcf7Elm.addEventListener( 'wpcf7mailfailed', function( event ) {
-        $('#downloadThis')[0].click();
-        $('#downloadBook').modal('hide');
-        swal({
-          title: "Descarga en proceso.",
-          text: "Disfrute su libro",
-          type: "success",
-          showCancelButton: false,
-          confirmButtonText: "¡Vamos!",
-          confirmButtonClass: 'btn btn-success'
-        }).then(function () {
-          window.location.href = redirectUrl;
-        });
-      });
-    });
-
-  })(jQuery);
-
-
-}); 

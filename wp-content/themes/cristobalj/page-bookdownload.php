@@ -3,8 +3,9 @@
  * Template for displaying book download form */
 
 get_template_part( 'header_book' );  ?>
-
 <div id="primary" class="content-area">
+  <p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><span class="title-caps">C</span>ristóbal <span class="title-caps">J</span>odorowsky</a></p>
+
   <main id="main" class="site-main d-flex flex-column align-items-center bookdownloadContainer">
     <div id="bkttlcontainer" class="row d-flex justify-content-center w-100 mb-5">
       <h2 id="dwnktitle" class="bannertitle py-2">

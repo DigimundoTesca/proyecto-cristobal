@@ -1,39 +1,45 @@
-<?php 
+<?php
 /**
  * Template for displaying Biography page */
 
 get_header(); ?>
-
-<div id="primary" class="content-area">
+<div id="primary" class="biografia content-area">
   <main id="main" class="site-main">
-    <ul class="rslides">
-      <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/2.jpg" alt=""></li>
-      <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/3.jpg" alt=""></li>
-      <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/6.jpg" alt=""></li>
-      <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/11.jpg" alt=""></li>
-      <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/12.jpg" alt=""></li>
-      <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/13.jpg" alt=""></li>
-      <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/23.jpg" alt=""></li>
-      <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/24.jpg" alt=""></li>
-      <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/25.jpg" alt=""></li>
-      <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/42.jpg" alt=""></li>
-      <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/45.jpg" alt=""></li>
-      <li><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/46.jpg" alt=""></li>
+    <ul class="psicoteatro-slide">
+      <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/biografia/01-min.jpg" alt=""></li>
+      <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/biografia/02-min.JPG" alt=""></li>
+      <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/biografia/09-min.jpg" alt=""></li>
+      <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/biografia/12.png" alt=""></li>
+      <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/biografia/04-min.JPG" alt=""></li>
+      <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/biografia/05-min.jpg" alt=""></li>
+      <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/biografia/06-min.jpg" alt=""></li>
+      <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/biografia/10-min.jpg" alt=""></li>
+      <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/biografia/03-min.jpg" alt=""></li>
+      <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/biografia/11-min.JPG" alt=""></li>
     </ul>
-    <?php while (have_posts()): the_post(); ?>
-      <div id="mainContainer" class="biog">
-        <h3 class="biotitle">
-          <?php
-          /* translators: 1: Theme name, 2: Theme author. */
-          printf( __( 'The history ', 'cristobalj' ));
-          printf(__('<span class="biocolor" > of Cristobal</span>', 'cristobalj' ));
-          ?>
-        </h3>
-        <iframe id="iframe_container" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" width="550" height="400" src="https://prezi.com/embed/a9uaaiibi-8f/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI0VHhrSDJpTnEyc2pIZXFqWnlIVFA3bUJnPT0&amp;landing_sign=HtkqpC6ZbEG5NWnt2Usz46V7ji4fbfkbXz-jrRrTWRk"></iframe>
-        <?php the_content(); ?>
+    <div class="row">
+      <div class="col-xl-9 col-md-12 content-text">
+        <?php while (have_posts()): the_post(); ?>
+          <div id="mainContainer" class="biog">
+            <?php the_content(); ?>
+          </div>
+        <?php endwhile ?>
+        <br>
+        <div class="video_container">
+          <video controls>
+            <source src="https://s3-us-west-2.amazonaws.com/cristobalbucket/law/01/Mi+Historia+personal+con+el+Tarot+2.mp4">
+          </video>
+        </div>
       </div>
-    <?php endwhile ?>
-    <?php get_template_part( 'secondarybanner' );  ?>
+      <div id="sidebar_2" class="col-xl-3 col-md-12  text-center">
+        <?php get_template_part('agenda') ?>
+      </div>
+    </div>
+    <div class="mt-5">
+      <?php get_template_part( 'secondarybanner' );  ?>
+    </div>
+
+
 
   </main><!-- #main -->
 </div><!-- #primary -->

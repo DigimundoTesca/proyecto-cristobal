@@ -1,4 +1,4 @@
-<?php 
+<?php
 /**
  * Template for displaying Biography page */
 
@@ -11,21 +11,21 @@ get_header(); ?>
         <div class="row mt-5 justify-content-center">
           <div class="col-sm-12 col-md-7">
             <h4 class="font-weight-bold text-left">
-              <?php printf( __( 'Contact me!', 'cristobalj' )); ?>
+              <?php printf( __( '¡Contáctame!', 'cristobalj' )); ?>
             </h4>
             <hr class="my-1">
             <?php echo do_shortcode('[contact-form-7 id="124" title="Contacto"]'); ?>
           </div>
           <div class="col-sm-12 col-md-4">
-            <img class="img-fluid"  src="<?php echo get_template_directory_uri(); ?>/images/contact.jpg" alt="METAMUNDO image">
+            <img class="img-fluid"  src="<?php echo get_template_directory_uri(); ?>/images/cristobal/contacto/contacto.jpg" alt="METAMUNDO image">
           </div>
         </div>
-        <div id="contactText" class="container my-5">
-          <h5 class="mt-3 mb-0 text-left">
+        <div id="contactText" class="container my-5 text-center">
+          <h5 class="mt-3 mb-0 text-left text-center">
             <?php printf( __( "let's be in touch!", 'cristobalj' )); ?>
           </h5>
-          <p class="mb-4 mt-1 text-justify">
-            <?php printf( __( 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, similique nostrum fugiat voluptatibus! Quasi voluptates, deserunt unde consequuntur, eligendi, laboriosam ullam facere quidem fugit at ipsa minus sed harum omnis.', 'cristobalj' )); ?>
+          <p class="mb-4 mt-1 text-jDe ustify text-center">
+            <?php printf( __( 'No importa donde te encuentres siempre podras crear.', 'cristobalj' )); ?>
           </p>
         </div>
         <?php the_content(); ?>

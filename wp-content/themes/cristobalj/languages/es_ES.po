@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CristobalJ\n"
-"POT-Creation-Date: 2017-11-29 13:01-0600\n"
-"PO-Revision-Date: 2017-11-29 13:04-0600\n"
+"POT-Creation-Date: 2018-03-20 07:58-0600\n"
+"PO-Revision-Date: 2018-03-20 08:05-0600\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.2\n"
+"X-Generator: Poedit 1.8.13\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
@@ -37,19 +37,24 @@ msgstr ""
 msgid "Most Used Categories"
 msgstr "Categorías más usadas"
 
-#. translators: %1$s: smiley
 #: 404.php:44
 #, php-format
 msgid "Try looking in the monthly archives. %1$s"
 msgstr "Intente buscar en el archivo por mes. %1$s"
 
-#. translators: 1: title.
+#: agenda.php:11 page-accueil.php:50
+msgid "Agenda 2018"
+msgstr "Agenda 2018"
+
+#: agenda.php:16 page-accueil.php:55
+msgid "Know my activities this year"
+msgstr "Conoce mis actividades de este año."
+
 #: comments.php:31
 #, php-format
 msgid "One thought on &ldquo;%1$s&rdquo;"
 msgstr "Un comentario en &ldquo;%1$s&rdquo;"
 
-#. translators: 1: comment count number, 2: title.
 #: comments.php:37
 #, php-format
 msgctxt "comments title"
@@ -82,13 +87,11 @@ msgstr "Leer"
 msgid "Weekly articles and inspirations."
 msgstr "Artículos e inspiraciones semanales."
 
-#. translators: %s: CMS name, i.e. WordPress.
 #: footer.php:54
 #, php-format
 msgid "Copyright &copy; %s"
 msgstr "Copyright &copy; %s"
 
-#. translators: 1: Theme name, 2: Theme author.
 #: footer.php:59
 #, php-format
 msgid "Theme: %1$s by %2$s."
@@ -110,123 +113,115 @@ msgstr "Agrega widgets aquí."
 msgid "LanBar"
 msgstr ""
 
-#: functions.php:168
+#: functions.php:170
 msgctxt "blog"
 msgid "Books"
 msgstr "Libros"
 
-#: functions.php:169
+#: functions.php:171
 msgctxt "post type singular name"
 msgid "Book"
 msgstr "Libro"
 
-#: functions.php:170
+#: functions.php:172
 msgctxt "admin menu"
 msgid "Books"
 msgstr "Libros"
 
-#: functions.php:171
+#: functions.php:173
 msgctxt "add new on admin bar"
 msgid "Books"
 msgstr "Libros"
 
-#: functions.php:172
+#: functions.php:174
 msgctxt "book"
 msgid "Add New"
 msgstr "Agregar nuevo"
 
-#: functions.php:173
+#: functions.php:175
 msgid "Add New Project"
 msgstr "Agregar nuevo proyecto"
 
-#: functions.php:174
+#: functions.php:176
 msgid "New Project"
 msgstr "Nuevo proyecto"
 
-#: functions.php:175
+#: functions.php:177
 msgid "Edit Books"
 msgstr "Editar libros"
 
-#: functions.php:176
+#: functions.php:178
 msgid "View Books"
 msgstr "Ver libros"
 
-#: functions.php:177
+#: functions.php:179
 msgid "All Books"
 msgstr "Todos los libros"
 
-#: functions.php:178
+#: functions.php:180
 msgid "Search Books"
 msgstr "Buscar libros"
 
-#: functions.php:179
+#: functions.php:181
 msgid "Parent Books:"
 msgstr "Libros relacionados:"
 
-#: functions.php:180
+#: functions.php:182
 msgid "No Projects found."
 msgstr "No se encontraron proyectos."
 
-#: functions.php:181
+#: functions.php:183
 msgid "No Projects found in Trash."
 msgstr "No se encontraron proyectos en la basura."
 
-#: functions.php:186
+#: functions.php:188
 msgid "Description."
 msgstr "Descripción."
 
-#: header.php:39
+#: header.php:41
 msgid "Skip to content"
 msgstr "Saltar al contenido"
 
-#: header.php:93
+#: header.php:95
 msgid "Primary Menu"
 msgstr "Menú Principal"
 
-#. translators: %s: post date.
 #: inc/template-tags.php:29
 #, php-format
 msgctxt "post date"
 msgid "Posted on %s"
 msgstr "Publicado el %s"
 
-#. translators: %s: post author.
 #: inc/template-tags.php:35
 #, php-format
 msgctxt "post author"
 msgid "by %s"
 msgstr "por %s"
 
-#. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:52
 msgid ", "
 msgstr ", "
 
-#. translators: 1: list of categories.
 #: inc/template-tags.php:55
 #, php-format
 msgid "Posted in %1$s"
 msgstr "Clasificado en %1$s"
 
-#. translators: used between list items, there is a space after the comma
 #: inc/template-tags.php:59
 msgctxt "list item separator"
 msgid ", "
 msgstr ", "
 
-#. translators: 1: list of tags.
 #: inc/template-tags.php:62
 #, php-format
 msgid "Tagged %1$s"
 msgstr "Etiquetado como %1$s"
 
-#. translators: %s: post title
 #: inc/template-tags.php:72
 #, php-format
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr "Deja un comentario<span class=\"screen-reader-text\"> en %s</span>"
 
-#. translators: %s: Name of current post. Only visible to screen readers
 #: inc/template-tags.php:89 template-parts/content-page.php:32
 #, php-format
 msgid "Edit <span class=\"screen-reader-text\">%s</span>"
@@ -236,7 +231,7 @@ msgstr "Editar <span class=\"screen-reader-text\">%s</span>"
 msgid "Live the experience!"
 msgstr "Vive la experiencia !"
 
-#: mainbanner.php:14 page-metamundo.php:75 secondarybanner.php:14
+#: mainbanner.php:14 page-metamundo.php:74 secondarybanner.php:14
 msgid "\"Next generations\""
 msgstr "\"Próximas generaciones\""
 
@@ -260,41 +255,42 @@ msgstr "Descarga gratis"
 msgid "Tarot queries"
 msgstr "Consultas de tarot"
 
-#: page-accueil.php:14 page-accueil.php:26 page-inicio.php:14
-#: page-inicio.php:26 page-iniziazione.php:14 page-iniziazione.php:26
+#: page-accueil.php:14 page-accueil.php:26 page-inicio.php:13
+#: page-inicio.php:25 page-iniziazione.php:13 page-iniziazione.php:25
 #: page-metamundo.php:12 page-metamundo.php:22
 msgid "Welcome!"
 msgstr "Bienvenido!"
 
-#: page-accueil.php:16 page-accueil.php:28 page-inicio.php:16
-#: page-inicio.php:28 page-iniziazione.php:16 page-iniziazione.php:28
+#: page-accueil.php:16
 msgid "\"Here you can put a phrase from Cristobal that welcomes people\""
 msgstr ""
 "\"Aquí se puede poner una frase de Cristobal que da la bienvenida a la gente"
 "\""
 
-#: page-accueil.php:37 page-inicio.php:37 page-iniziazione.php:37
+#: page-accueil.php:28
+msgid ""
+"\"Thanks for visiting us in www.psicomagia.es, the Cristobal Jodorowsky web. "
+"If you want register to some one of the Crsitobal Jodorowsky events, please, "
+"head hover to the section \"Events\" and select the event that wish in the "
+"date that prefer to asist. Act followed make click en \"+info\" and proceed "
+"to fill in the contact form. ¡Welcome to aboard. If you are organizator and "
+"interest you performing events/workshops with Cristobal in your country, "
+"please write to:\""
+msgstr ""
+
+#: page-accueil.php:37 page-inicio.php:36 page-iniziazione.php:36
 msgid "Know more"
 msgstr "saber más"
 
-#: page-accueil.php:50 page-inicio.php:50 page-iniziazione.php:50
-msgid "Agenda 20"
-msgstr "Agenda 20"
-
-#: page-accueil.php:56 page-inicio.php:56 page-iniziazione.php:56
-msgid "Know my activities this year"
-msgstr "Conoce mis actividades de este año."
-
-#. translators: 1: Theme name, 2: Theme author.
-#: page-biografia.php:28 page-biographie.php:28
+#: page-biographie.php:28
 msgid "The history "
 msgstr "La historia "
 
-#: page-biografia.php:29 page-biographie.php:29
+#: page-biographie.php:29
 msgid "<span class=\"biocolor\" > of Cristobal</span>"
 msgstr "<span class=\"biocolor\" > de Cristóbal</span>"
 
-#: page-bookdownload.php:11
+#: page-bookdownload.php:12
 msgid "A gift for you!"
 msgstr "¡Un regalo para ti!"
 
@@ -321,7 +317,16 @@ msgstr "¡Usted ha descargado \"El collar del tigre\"!"
 msgid "See you soon"
 msgstr "¡Hasta muy pronto!"
 
-#: page-libri.php:32 page-libros.php:32 page-livres.php:32
+#: page-inicio.php:15 page-inicio.php:27 page-iniziazione.php:15
+#: page-iniziazione.php:27
+msgid "\"Frase Cristobal\""
+msgstr ""
+
+#: page-libri.php:33 page-libros.php:33 single-booksblog.php:22
+msgid "Descarga gratis"
+msgstr ""
+
+#: page-livres.php:32
 msgid "Buy"
 msgstr "Compra"
 
@@ -337,53 +342,53 @@ msgstr "\"Aquí se puede poner una frase de Cristobal\""
 msgid "Cristobal Jodorowsky"
 msgstr "Cristóbal Jodorowsky"
 
-#: page-metamundo.php:56
+#: page-metamundo.php:55
 msgid "Study plan"
 msgstr "Plan de estudio"
 
-#: page-metamundo.php:60
+#: page-metamundo.php:59
 msgid "Block 1"
 msgstr "Bloque 1"
 
-#: page-metamundo.php:61
+#: page-metamundo.php:60
 msgid "Block 2"
 msgstr "Bloque 2"
 
-#: page-metamundo.php:62
+#: page-metamundo.php:61
 msgid "Block 3"
 msgstr "Bloque 3"
 
-#: page-metamundo.php:63
+#: page-metamundo.php:62
 msgid "Block 4"
 msgstr "Bloque 4"
 
-#: page-metamundo.php:64
+#: page-metamundo.php:63
 msgid "Block 5"
 msgstr "Bloque 5"
 
-#: page-metamundo.php:67
+#: page-metamundo.php:66
 msgid "Certification"
 msgstr "Certificación"
 
-#: page-metamundo.php:78
+#: page-metamundo.php:77
 msgid "Mexico - febrero 2018"
 msgstr "Mexico - febrero 2018"
 
-#: page-metamundo.php:81
+#: page-metamundo.php:80
 msgid "Argentina - julio 2018"
 msgstr "Argentina - julio 2018"
 
-#: page-metamundo.php:88
+#: page-metamundo.php:89
 msgid "Block 1. "
 msgstr "Bloque 1. "
 
-#: page-metamundo.php:88
+#: page-metamundo.php:89
 msgid " Evolutionary tarot"
 msgstr "Tarot evolutivo"
 
-#: page-metamundo.php:91
+#: page-metamundo.php:92
 msgid ""
-"For Carl Gustav Jung, archetypes are innate energies common to all human "
+"\"For Carl Gustav Jung, archetypes are innate energies common to all human "
 "beings, which are transmitted through myths or appear in dreams, tales, "
 "legends, rituals and works of art. In the Tarot, archetypes can act as "
 "patterns of behavior when the individual needs to resolve an existential "
@@ -394,55 +399,80 @@ msgid ""
 "of the archetype. To do this, Cristobal Jodorowsky uses the Tarot arcane as "
 "a gateway to contact universal energies per se. These doors, when activated, "
 "allow a profound change in the psyche, so that our soul may express itself "
-"in all freedom."
+"in all freedom.\""
 msgstr ""
+"\"Para Carl Gustav Jung, los arquetipos son energías innatas comunes a todos "
+"los seres humanos, que se transmiten a través de mitos o aparecen en sueños, "
+"cuentos, leyendas, rituales y obras de arte. En el Tarot, los arquetipos "
+"pueden actuar como patrones de conducta cuando el individuo necesita "
+"resolver una dificultad existencial. Los 78 arcanos del Tarot son arquetipos "
+"con infinitas interpretaciones, donde cada uno tiene una multitud de "
+"aspectos. Sin embargo, el dibujo de la carta será solo una máscara. Se "
+"convierte en la clave que, si sabes cómo interpretarlo e integrarlo, "
+"activará la dimensión aliada del arquetipo. Para ello, Cristóbal Jodorowsky "
+"utiliza el Tarot Arcano como una puerta de entrada para contactar energías "
+"universales per se. Estas puertas, cuando se activan, permiten un cambio "
+"profundo en la psique, para que nuestra alma se exprese en toda libertad \"."
 
-#: page-metamundo.php:96
+#: page-metamundo.php:97
 msgid "Block 2. "
 msgstr "Bloque 2. "
 
-#: page-metamundo.php:96
+#: page-metamundo.php:97
 msgid " Metagenealogy"
 msgstr " Metagenealogía"
 
-#: page-metamundo.php:99
+#: page-metamundo.php:100
 msgid ""
-"\"Metagenealogy is a method of analysis of the genealogical tree that allows "
+"Metagenealogy is a method of analysis of the genealogical tree that allows "
 "to expand the vision of its psychic dimension. This makes us understand to "
 "what extent what we think, feel, desire or live, just as our conflicts and "
 "diseases can be the result of a family, social, historical past or "
-"educational waste.\""
+"educational waste."
 msgstr ""
+"La Metagenealogía es un método de análisis del árbol genealógico que permite "
+"ampliar la visión de su dimensión psíquica. Esto nos hace entender en qué "
+"medida lo que pensamos, sentimos, deseamos o vivimos, así como nuestros "
+"conflictos y enfermedades pueden ser el resultado de un pasado familiar, "
+"social, histórico o educativo."
 
-#: page-metamundo.php:104
+#: page-metamundo.php:105
 msgid "Block 3. "
 msgstr "Bloque 3. "
 
-#: page-metamundo.php:104
+#: page-metamundo.php:105
 msgid " Psychomagic Therapy"
 msgstr "Terapia psicomágica"
 
-#: page-metamundo.php:107
+#: page-metamundo.php:108
 msgid ""
-"Psychomagia is a healing practice that acts through metaphor and beauty, "
+"\"Psychomagia is a healing practice that acts through metaphor and beauty, "
 "essentially with the language of dreams. Psychomagia consists of symbolic "
 "acts that allow the realization of the unrealizable, restoring the memory to "
 "finally trigger the energy that was blocked in the consultant. By failing to "
 "consider the unconscious dimension as an enemy and losing the fear of seeing "
 "oneself, one can discover the traumas that cause suffering. However, "
 "although one knows what happens to him and why, he is not at all free from "
-"pain."
+"pain.\""
 msgstr ""
+"\"La psicomagia es una práctica curativa que actúa a través de la metáfora y "
+"la belleza, esencialmente con el lenguaje de los sueños. La psicomagia "
+"consiste en actos simbólicos que permiten la realización de lo irrealizable, "
+"restaurando la memoria para finalmente activar la energía que se bloqueó en "
+"el consultor. para considerar la dimensión inconsciente como un enemigo y "
+"perder el miedo de verse a sí mismo, uno puede descubrir los traumas que "
+"causan el sufrimiento. Sin embargo, aunque uno sabe lo que le sucede y por "
+"qué, no está del todo libre de dolor \"."
 
-#: page-metamundo.php:111
+#: page-metamundo.php:112
 msgid "Block 4. "
 msgstr "Bloque 4. "
 
-#: page-metamundo.php:111
+#: page-metamundo.php:112
 msgid " Psychoanalysis and Parental Healing / Initiative Massage"
-msgstr ""
+msgstr "Psicoanálisis y Sanación para padres / Iniciativa de masaje"
 
-#: page-metamundo.php:114
+#: page-metamundo.php:115
 msgid ""
 "At an archaic level, the human being responds to an innate instinct of "
 "family conservation. He is scheduled to fight for the survival of his clan. "
@@ -463,134 +493,85 @@ msgstr ""
 "recuerdos, fantasmas, morales, estructuras de comportamiento, e ideologías "
 "que proceden del linaje genealógico."
 
-#: page-metamundo.php:118
+#: page-metamundo.php:119
 msgid "Block 5. "
 msgstr "Bloque 5. "
 
-#: page-metamundo.php:118
+#: page-metamundo.php:119
 msgid " The Art of Relationships of Couple, Friendship and Collaboration"
-msgstr ""
+msgstr "El arte de las relaciones de pareja, amistad y colaboración"
 
-#: page-metamundo.php:121
+#: page-metamundo.php:122
 msgid ""
 "This block is intended to address in depth the science of courtship. During "
 "his study, Cristobal Jodorowsky will provide the participants with the keys "
 "to live harmonious and healthy personal relationships.<br>\n"
-"          The study of this block involves the analysis of temperaments "
-"(emotions), personality (intellect) and masculinity / femininity (instinct / "
-"reptile). It is essential to achieve in ourselves an adaptation to the "
-"structure of the nature of relationships, based on the fact that all "
-"existence is put into operation for couples to exist, and according to our "
-"vision live in harmony."
+"                The study of this block involves the analysis of "
+"temperaments (emotions), personality (intellect) and masculinity / "
+"femininity (instinct / reptile). It is essential to achieve in ourselves an "
+"adaptation to the structure of the nature of relationships, based on the "
+"fact that all existence is put into operation for couples to exist, and "
+"according to our vision live in harmony."
 msgstr ""
+"Este bloque pretende abordar en profundidad la ciencia del cortejo. Durante "
+"su estudio, Cristóbal Jodorowsky proporcionará a los participantes las "
+"claves para vivir relaciones personales armoniosas y saludables. <br>\n"
+"                 El estudio de este bloque implica el análisis de "
+"temperamentos (emociones), personalidad (intelecto) y masculinidad / "
+"feminidad (instinto / reptil). Es esencial lograr en nosotros mismos una "
+"adaptación a la estructura de la naturaleza de las relaciones, basada en el "
+"hecho de que toda la existencia se pone en funcionamiento para que las "
+"parejas existan y, de acuerdo con nuestra visión, vivan en armonía."
 
-#: page-saber-mas.php:9 page-savoir-plus.php:9
-#: page-ulteriori-informazioni.php:9
+#: page-saber-mas.php:11 page-savoir-plus.php:9
+#: page-ulteriori-informazioni.php:11
 msgid "Chose a theme"
 msgstr "Escoge un tema"
 
-#: page-saber-mas.php:14 page-savoir-plus.php:14
-#: page-ulteriori-informazioni.php:14
+#: page-saber-mas.php:16 page-savoir-plus.php:14
+#: page-ulteriori-informazioni.php:16
 msgid "Psicoteatro"
 msgstr "Psicoteatro"
 
-#: page-saber-mas.php:15 page-savoir-plus.php:15
-#: page-ulteriori-informazioni.php:15
-msgid "BIO"
-msgstr "BIO"
-
-#: page-saber-mas.php:16 page-savoir-plus.php:16
-#: page-ulteriori-informazioni.php:16
+#: page-saber-mas.php:18 page-savoir-plus.php:16
+#: page-ulteriori-informazioni.php:18
 msgid "Psicochamanismo"
 msgstr "Psicochamanismo"
 
-#: page-saber-mas.php:17 page-savoir-plus.php:17
-#: page-ulteriori-informazioni.php:17
-msgid "Workshops"
-msgstr "Talleres"
-
-#: page-saber-mas.php:18 page-savoir-plus.php:18
-#: page-ulteriori-informazioni.php:18
+#: page-saber-mas.php:19 page-savoir-plus.php:17
+#: page-ulteriori-informazioni.php:19
 msgid "Metagenealogía"
 msgstr "Metagenealogía"
 
-#: page-saber-mas.php:19 page-savoir-plus.php:19
-#: page-ulteriori-informazioni.php:19
-msgid "Therapies"
-msgstr "Terapias"
+#: page-saber-mas.php:21 page-ulteriori-informazioni.php:21
+msgid "Acto Metafórico"
+msgstr "Acto Metafórico "
 
-#: page-saber-mas.php:20 page-savoir-plus.php:20
-#: page-ulteriori-informazioni.php:20
-msgid "Investigation"
-msgstr "Investigación"
-
-#: page-saber-mas.php:21 page-savoir-plus.php:21
-#: page-ulteriori-informazioni.php:21
-msgid "Psicomagic"
-msgstr "Psicochamanismo"
-
-#: page-saber-mas.php:22 page-savoir-plus.php:22
-#: page-ulteriori-informazioni.php:22
+#: page-saber-mas.php:23 page-savoir-plus.php:21
+#: page-ulteriori-informazioni.php:23
 msgid "Tarot"
 msgstr "Tarot"
 
-#: page-saber-mas.php:23 page-savoir-plus.php:23
-#: page-ulteriori-informazioni.php:23
-msgid "Videos"
-msgstr "Videos"
-
-#: page-saber-mas.php:24 page-savoir-plus.php:24
-#: page-ulteriori-informazioni.php:24
-msgid "Studies"
-msgstr "Estudios"
-
-#: page-saber-mas.php:25 page-savoir-plus.php:25
+#: page-saber-mas.php:25 page-savoir-plus.php:23
 #: page-ulteriori-informazioni.php:25
-msgid "Teachers"
-msgstr "Maestros"
+msgid "Psicomagia"
+msgstr "Psicomagia"
 
-#: page-saber-mas.php:26 page-savoir-plus.php:26
-#: page-ulteriori-informazioni.php:26
+#: page-saber-mas.php:27 page-savoir-plus.php:25
+#: page-ulteriori-informazioni.php:27
 msgid "Travels"
 msgstr "Viajes"
 
-#: page-saber-mas.php:27 page-savoir-plus.php:27
-#: page-ulteriori-informazioni.php:27
-msgid "Press"
-msgstr "Prensa"
+#: page-saber-mas.php:29 page-ulteriori-informazioni.php:29
+msgid "Psicomagia Colectiva"
+msgstr "Psicomagia Colectiva"
 
-#: page-saber-mas.php:28 page-savoir-plus.php:28
-#: page-ulteriori-informazioni.php:28
-msgid "N-gram"
-msgstr "N-grama"
+#: page-saber-mas.php:36 page-ulteriori-informazioni.php:36
+msgid "<span class=\"morecolor\" >Psicoteatro</span>"
+msgstr "<span class=\"morecolor\" >Psicoteatro</span>"
 
-#: page-saber-mas.php:29 page-savoir-plus.php:29
-#: page-ulteriori-informazioni.php:29
-msgid "Art"
-msgstr "Arte"
-
-#: page-saber-mas.php:32 page-savoir-plus.php:32
-#: page-ulteriori-informazioni.php:32
-msgid ""
-"The integration of aspects and keys are fundamental for personal development"
-msgstr ""
-"La integración de aspectos y llaves son fundamentales para el desarrollo "
-"personal"
-
-#: page-saber-mas.php:40 page-saber-mas.php:51 page-saber-mas.php:71
-#: page-savoir-plus.php:40 page-savoir-plus.php:51 page-savoir-plus.php:71
-#: page-ulteriori-informazioni.php:40 page-ulteriori-informazioni.php:51
-#: page-ulteriori-informazioni.php:71
-msgid "My life on "
-msgstr "Mi vida en "
-
-#: page-saber-mas.php:41 page-savoir-plus.php:41
-#: page-ulteriori-informazioni.php:41
-msgid "<span class=\"morecolor\" > the Psicoteatro</span>"
-msgstr "<span class=\"morecolor\" > el Psicoteatro</span>"
-
-#: page-saber-mas.php:44 page-savoir-plus.php:44
-#: page-ulteriori-informazioni.php:44
+#: page-saber-mas.php:39 page-savoir-plus.php:44
+#: page-ulteriori-informazioni.php:39
 msgid ""
 "<p>The PsicoTeatro is an open and free space, but also very respectful and "
 "safe. A place and a time where you learn things that are very important for "
@@ -622,13 +603,444 @@ msgstr ""
 "con tus emociones, en integrar todas las partes de tu persona, en "
 "definitiva, cuando te permites CAMINAR HACIA TU FELICIDAD.</p>"
 
-#: page-saber-mas.php:52 page-savoir-plus.php:52
-#: page-ulteriori-informazioni.php:52
+#: page-saber-mas.php:44 page-ulteriori-informazioni.php:44
+msgid "<span class=\"morecolor\"> Psicochamanismo</span>"
+msgstr ""
+
+#: page-saber-mas.php:47 page-ulteriori-informazioni.php:47
+msgid ""
+"<p>A un nivel arcaico, el ser humano responde a un innato instinto de "
+"conservación familiar. Está programado para luchar por la supervivencia de "
+"su clan. Para el cerebro arcaico una idea, una estructura emocional, una "
+"prohibición, una orden o una creencia, pueden ser la metáfora de un "
+"ancestro. Por eso nos cuesta tanto despojarnos de todos esos aspectos que "
+"nos impiden crecer, ya que ello podría representar el asesinato de un "
+"miembro (o de toda) nuestra especie. Es así como mantenemos en vida ideas, "
+"recuerdos, fantasmas, morales, estructuras de comportamiento, e ideologías "
+"que proceden del linaje genealógico.\n"
+"          </p><p>Cristóbal llama a los anteriores sistemas de representación "
+"interna cuerpos inhibidores y cuerpos liberadores. Ellos se concretizan en "
+"nuestro modus vivendi impidiendo nuestro crecimiento psicológico, y el "
+"contacto con nuestro verdadero ser. Uno de los trabajos de Cristóbal "
+"consiste en reinterpretar el mundo sobrenatural mágico y supersticioso a la "
+"luz del psiquismo, en un sentido en el que los fantasmas, espíritus, "
+"entidades y demonios serían dimensiones de nuestra mente (códigos de nuestra "
+"memoria). Si aceptamos el nuevo paradigma de la unificación de la materia, "
+"nada entra en nosotros y nada sale de nosotros. Todo es generado por nuestro "
+"propio ser.\n"
+"          <br>Son espíritus los cuerpos inhibidores intelectuales, las ideas "
+"que absorbemos en la familia, como: “el amor no existe”, “el dinero es "
+"sucio”, “el sexo es el demonio”, “las mujeres son idiotas”, etcétera, y que, "
+"en nuestro presente, limitan el contacto con nuestra lucidez y genio.\n"
+"          </p><p>Los fantasmas representan inhibiciones emocionales que "
+"invaden el Ser Esencial y crean una pauta de comportamiento repetitivo, una "
+"parálisis existencial que va en contra de las leyes universales. Este "
+"comportamiento repetitivo puede ser literal, por ejemplo, cuando nos "
+"bautizan con el nombre de un abuelo, “ordenándonos” una identificación con "
+"él; o subliminal: nacer en la misma fecha de un difunto o, simplemente, "
+"puede darse una repetición de estructuras de comportamiento del árbol, que "
+"hacen que no florezca la gracia en el corazón.\n"
+"          </p><p>Los demonios son inhibiciones sexuales y creativas. Se "
+"expresan a través de pulsiones o represiones que impiden la expresión "
+"creativa natural del ser y el contacto con su fuerza innata.\n"
+"          <br>Las entidades son restricciones espaciales que acaban "
+"metaforizándose en el cuerpo (anorexia, bulimia, obesidad, jorobas, "
+"deformidades…) Cuando no hay suficiente espacio para desarrollarse en "
+"familias con muchos hijos, cuando uno nace sin ser deseado, del sexo opuesto "
+"al esperado, etcétera, es posible que el cerebro animal encuentre "
+"estrategias de supervivencia que utilicen una entidad para integrarse en el "
+"clan. El Psicochamán identificado a la dimensión unificada de su ser "
+"desarrolla la capacidad de dejarse guiar por esa dimensión, por ese gran "
+"espíritu divino que le permite despojar, limpiar, destrancar o/y realinear a "
+"la persona con su autenticad, su alma, re-situándolo en su camino ya "
+"despojado de energía innecesarias.\n"
+"          </p>"
+msgstr ""
+"<p>A un nivel arcaico, el ser humano responde a un innato instinto de "
+"conservación familiar. Está programado para luchar por la supervivencia de "
+"su clan. Para el cerebro arcaico una idea, una estructura emocional, una "
+"prohibición, una orden o una creencia, pueden ser la metáfora de un "
+"ancestro. Por eso nos cuesta tanto despojarnos de todos esos aspectos que "
+"nos impiden crecer, ya que ello podría representar el asesinato de un "
+"miembro (o de toda) nuestra especie. Es así como mantenemos en vida ideas, "
+"recuerdos, fantasmas, morales, estructuras de comportamiento, e ideologías "
+"que proceden del linaje genealógico.\n"
+"          </p><p>Cristóbal llama a los anteriores sistemas de representación "
+"interna cuerpos inhibidores y cuerpos liberadores. Ellos se concretizan en "
+"nuestro modus vivendi impidiendo nuestro crecimiento psicológico, y el "
+"contacto con nuestro verdadero ser. Uno de los trabajos de Cristóbal "
+"consiste en reinterpretar el mundo sobrenatural mágico y supersticioso a la "
+"luz del psiquismo, en un sentido en el que los fantasmas, espíritus, "
+"entidades y demonios serían dimensiones de nuestra mente (códigos de nuestra "
+"memoria). Si aceptamos el nuevo paradigma de la unificación de la materia, "
+"nada entra en nosotros y nada sale de nosotros. Todo es generado por nuestro "
+"propio ser.\n"
+"          <br>Son espíritus los cuerpos inhibidores intelectuales, las ideas "
+"que absorbemos en la familia, como: “el amor no existe”, “el dinero es "
+"sucio”, “el sexo es el demonio”, “las mujeres son idiotas”, etcétera, y que, "
+"en nuestro presente, limitan el contacto con nuestra lucidez y genio.\n"
+"          </p><p>Los fantasmas representan inhibiciones emocionales que "
+"invaden el Ser Esencial y crean una pauta de comportamiento repetitivo, una "
+"parálisis existencial que va en contra de las leyes universales. Este "
+"comportamiento repetitivo puede ser literal, por ejemplo, cuando nos "
+"bautizan con el nombre de un abuelo, “ordenándonos” una identificación con "
+"él; o subliminal: nacer en la misma fecha de un difunto o, simplemente, "
+"puede darse una repetición de estructuras de comportamiento del árbol, que "
+"hacen que no florezca la gracia en el corazón.\n"
+"          </p><p>Los demonios son inhibiciones sexuales y creativas. Se "
+"expresan a través de pulsiones o represiones que impiden la expresión "
+"creativa natural del ser y el contacto con su fuerza innata.\n"
+"          <br>Las entidades son restricciones espaciales que acaban "
+"metaforizándose en el cuerpo (anorexia, bulimia, obesidad, jorobas, "
+"deformidades…) Cuando no hay suficiente espacio para desarrollarse en "
+"familias con muchos hijos, cuando uno nace sin ser deseado, del sexo opuesto "
+"al esperado, etcétera, es posible que el cerebro animal encuentre "
+"estrategias de supervivencia que utilicen una entidad para integrarse en el "
+"clan. El Psicochamán identificado a la dimensión unificada de su ser "
+"desarrolla la capacidad de dejarse guiar por esa dimensión, por ese gran "
+"espíritu divino que le permite despojar, limpiar, destrancar o/y realinear a "
+"la persona con su autenticad, su alma, re-situándolo en su camino ya "
+"despojado de energía innecesarias.\n"
+"          </p>"
+
+#: page-saber-mas.php:69 page-ulteriori-informazioni.php:69
+msgid "<span class=\"morecolor\" > Psicomagia</span>"
+msgstr ""
+
+#: page-saber-mas.php:72 page-ulteriori-informazioni.php:72
+msgid ""
+"<p>La psicomagia es la técnica terapéutica, iniciada por Alejandro "
+"Jodorowsky, quien aúna el chamanismo, la magia popular, la psicología, , el "
+"misticismo, la filosofía oriental, el arte, la intuición con una finalidad "
+"curativa. La psicomagia es una práctica sanadora que actúa a través del "
+"símbolo, la metáfora y la belleza, esencialmente con el lenguaje de los "
+"sueños. Al dejar de considerar a la dimensión inconsciente como un enemigo y "
+"perder el miedo a verse a uno mismo, uno puede descubrir los traumas que "
+"provocan sufrimiento. Sin embargo, aunque uno sepa lo que le sucede y el "
+"porqué, no es del todo libre del dolor. La psicomagia no pretende – como el "
+"psicoanálisis – curar a través de la palabra convirtiendo los mensajes que "
+"envía la dimensión inconsciente en un discurso racional, sino enseñarle al "
+"racional a manejar el lenguaje inconsciente.</p>\n"
+"          <p>Los procesos de nuestro cerebro son más simbólicos y analógicos "
+"que lógicos. Para éste, una fotografía no sólo representa a la persona "
+"retratada, sino que es ella misma. Considera a una parte como el todo, "
+"proyecta las personas que pueblan su memoria sobre seres reales o cosas. En "
+"la psicomagia se le proponen al consultante acciones concretas, efectuar un "
+"acto simbólico que, de alguna manera, restaurará su memoria y le permitirá "
+"realizar lo irrealizable.\n"
+"          </p><p>No obstante, para lograr que el acto dé un óptimo "
+"resultado, el consultante antes debe liberarse de la moral impuesta por su "
+"familia, su sociedad y su cultura. Si lo hace podrá por ejemplo, sin temor, "
+"pegar una fotografía de su padre sobre dos sandías y las podrá hacer "
+"estallar a batacazos. Su dimensión inconsciente dará por realizado el "
+"asesinato y la castración. El consultante se sentirá así más libre. Aquello "
+"que nos atemoriza pierde fuerza en el momento en que dejamos de combatirlo o "
+"de alejarlo de la mente para integrarlo a través de un acto psicomágico que "
+"nos ayude a despertar y hacer de la vida un sueño lúcido lleno de "
+"conciencia. No basta con comprender el porqué de un conflicto; hay que "
+"actuarlo, darle una salida al impulso, al comportamiento repetitivo que nos "
+"dificulta la existencia. Así fue como se creó la psicomagia, el "
+"psicochamanismo y, más adelante, el psicorritual.\n"
+"          </p>"
+msgstr ""
+
+#: page-saber-mas.php:108 page-ulteriori-informazioni.php:108
+msgid "<span class=\"morecolor\" >Acto Metafórico</span>"
+msgstr ""
+
+#: page-saber-mas.php:111 page-ulteriori-informazioni.php:111
+msgid ""
+"<p>“El cerebro obedece generalmente a un lenguaje metafórico y es más "
+"analógico que lógico, no distingue entre el mundo interior y el mundo "
+"exterior donde se proyecta. Mediante actos psicomágicos y operaciones "
+"metafóricas sobre el cuerpo físico, se hace posible liberar a la persona de "
+"ciertos bloqueos y traumas, heredados generalmente de la historia familiar. "
+"Trabajar con el árbol genealógico de cada caso particular permite "
+"descodificar las estructuras inhibidoras de nuestro inconsciente (o "
+"dimensión irracional) y, mediante el acto, reorientarlas con el propósito de "
+"permitirle que nuestro ser esencial respire libre en nosotros”.\n"
+"            </p><p class=\"text-right\"> (Cristóbal Jodorowsky) </p>\n"
+"          <p>Para nuestro cerebro no existe el tiempo. Si estás vestido como "
+"un niño, puede que toda tu infancia aflore a tu piel. Por eso lloramos ante "
+"los recuerdos dolorosos, como si todavía estuviéramos viviendo el pasado en "
+"el momento presente. Aprovechando esta facultad, la psicomagia y el "
+"psicochamanismo combinan símbolos y crean metáforas que reorientan los "
+"códigos de conducta más arraigados en nuestras mentes, permitiéndonos así "
+"convertirnos en los alquimistas de nuestra propia existencia.</p>\n"
+"          <p>Estas prácticas sanadoras no son sólo teorías presuntamente "
+"científicas. La psicomagia no es una ciencia, pues contiene elementos "
+"mistéricos, inaprensibles, que la convierten en puro acto creativo, en el "
+"sentido de que cada ser es diferente y su mente vive según una lógica única. "
+"No se puede tratar igual a todos y, si lo hacemos, sólo proyectamos nuestro "
+"propio ego. Por ello, un acto psicomágico debe brotar de una dimensión que "
+"está más allá de lo racional; y eso no se aprende ni se enseña, como no se "
+"puede enseñar a ser artista.\n"
+"          Los actos psicomágicos están relacionados, en su mayor parte, con "
+"la familia y sus dificultades, pues es el principal terreno de creación de "
+"nuestros mapas mentales, de cómo percibimos la vida y nuestra realización "
+"personal. Por eso, no está de más recordar que, como escribió Amado Nervo, "
+"“el cuerpo no es más que un medio de volverse temporalmente visible. Todo "
+"nacimiento es una aparición”. Laborar en el terreno de nuestra "
+"invisibilidad, es ayudar a que nuestra temporal aparición en el mundo se "
+"reoriente hacia la intrínseca unidad de la existencia El acto psicomágico es "
+"siempre un consejo – no una imposición – que sitúa al consultante en una "
+"encrucijada donde él deberá decidir si se convierte en su propio curandero o "
+"no..\n"
+"\n"
+"          </p><p>La psicomagia también se puede explicar desde la ecuación "
+"descubierta por Einstein (E=mc2) que cuantificó y permitió que se le diera "
+"forma a la energía atómica. La psicomagia hace lo mismo con la energía "
+"psíquica: es decir que, a través de una metáfora se le da forma al conflicto "
+"del consultante que, antes del acto, es totalmente abstracto para su "
+"cerebro, pero cuando a través de símbolos precisos su cerebro percibe a "
+"través de los sentidos a su problemática fuera,  creyendo que todo está "
+"pasando dentro de él, al fin lo puede reconocerlo. Así convirtiéndose en "
+"actor consiente de su propio sueño, puede transitar y moldear la materia "
+"misma de su psicología. Es decir que, el consultante puede al fin intervenir "
+"en su conflicto y de alguna manera re-direccionarlo y transformarlo: darle "
+"una nueva salida.\n"
+"\n"
+"          <br>Durante los últimos treinta años Cristóbal ha realizado "
+"cientos de actos psicomágicos sobre él mismo (y aconsejado miles) "
+"experimentando hasta qué punto con esa práctica, era posible solucionar "
+"tantas dificultades psicológicas, genealógicas permitiendo que la persona "
+"que vive el acto se re-alinee con su alma, la vida, el espíritu divino.\n"
+"          </p>"
+msgstr ""
+
+#: page-saber-mas.php:126 page-savoir-plus.php:108
+#: page-ulteriori-informazioni.php:126
+msgid "<span class=\"morecolor\" >Metagenealogia</span>"
+msgstr "<span class=\"morecolor\" >Metagenealogía</span>"
+
+#: page-saber-mas.php:129 page-ulteriori-informazioni.php:129
+msgid ""
+"<p>The forces of repetition and creation in their endless dynamic impel us "
+"both to repeat the same and to yield to what we are authentically. "
+"Individuals, at the same time, can have a positive and a negative vision "
+"from their great-grandparents, grandparents and parents, thus converting "
+"each relative into a double entity: one luminous and the other obscure. Two "
+"energy fields that, despite opposing, are complementary. In the present "
+"time, the spirit that materializes adjoins the matter that is spiritualized, "
+"the supraconscious with the unconscious, the attempt to realize the future "
+"with the intent to repeat the past, the essential being with the socio-"
+"cultural being, the desire to create with the desire to imitate. To the "
+"study of the genealogical tree under its simultaneous and complementary "
+"aspects, treasure and trap, I have called it Metagenealogy.</p>\n"
+"          <p class=\"text-right\">Alejandro Jodorowsky (creator of "
+"Metagenalogy)</p> </p>"
+msgstr ""
+
+#: page-saber-mas.php:132 page-ulteriori-informazioni.php:132
+msgid ""
+"<p class=\"oculto\" >\n"
+"          La metagenealogía es un método de análisis del árbol genealógico "
+"que permite expandir la visión de su dimensión psíquica. Esto nos hace "
+"comprender hasta qué punto aquello que pensamos, sentimos, deseamos o "
+"vivimos, así como nuestros conflictos y enfermedades pueden ser el resultado "
+"de un pasado familiar, social, histórico o de residuos educativos "
+"patriarcales.\n"
+"          <br>La metagenealogía pone al descubierto un sistema de "
+"repeticiones de fechas, enfermedades, nacimientos, muertes, accidentes y "
+"nombres.  Todos éstos son mapas que se recorren y transmiten de generación "
+"en generación hasta llegar a nosotros con la precisión de un reloj.   "
+"Tendemos a identificarnos y ser fieles a nuestros familiares, hasta tal "
+"punto que puede resultarnos doloroso, paralizante y auto destructivo.\n"
+"          A la vez, estos personajes – a quienes guardamos lealtad – "
+"imitaron a otras figuras del pasado, formando una cadena hereditaria de "
+"prisiones.  Revelar las dinámicas del clan permite comprender lo que inhibe "
+"dentro de nosotros la posibilidad de vivir, crear, ser y amar a partir del "
+"ser esencial.\n"
+"          <br>Por otro lado, es fundamental aceptar que todo es perfecto y "
+"que la genealogía es un proceso espiritual perfecto en acción, que nunca se "
+"equivoca, que tiene sus leyes y órdenes y que todo siempre tiene su razón de "
+"ser, aunque no siempre nos guste o estemos de acuerdo. Uno no trabaja para "
+"reparar algo que no “debió” haber sido, sino, más bien para aceptarlo como "
+"fue e integrarlo desde el alma.\n"
+"\n"
+"          Muy a menudo, después de un análisis genealógico Cristobal prepara "
+"un Psicoritual familiar o constelación psicomágica, en dónde invita a un "
+"grupo a teatralizar las situaciones vistas y re alinearlas con la corriente "
+"de la vida.\n"
+"          </p>"
+msgstr ""
+
+#: page-saber-mas.php:146 page-ulteriori-informazioni.php:146
+msgid "<span class=\"morecolor\" >Psicomagia Colectiva</span>"
+msgstr ""
+
+#: page-saber-mas.php:149 page-ulteriori-informazioni.php:149
+msgid ""
+"<p>Todo está interconectado, cuando un individuo hace un esfuerzo "
+"transformador y progresa, esa información entra inmediatamente en el psico-"
+"campo de la humanidad y, de alguna manera afecta de forma positiva a lo "
+"colectivo participando a su inevitable proceso transformación. Es decir que, "
+"cuando un grupo de personas se sintoniza individualmente con los campos "
+"amplios de conciencia que nos mueven, la activación colectiva de esas "
+"dimensiones desde lo personal, afecta y eleva más aún la vibración de cada "
+"participante.\n"
+"\n"
+"          <br>Después de años de experiencia reuniendo a grupos numerosos en "
+"diferentes partes del mundo, relazando Psicoteatros, Psicorituales, "
+"constelaciones, psicomagia, tarot y tanto más, he podido comprobar y "
+"experimentar esos paradigmas. Vi y sentí, hasta qué punto un grupo de "
+"personas concentradas, encausando una misma intención terapéutica y "
+"espiritual, se contagiaban entre sí de energía positiva, sanadora a través "
+"de esa trama invisible: . Así que, cuando una persona solucionaba algo "
+"públicamente todos y todas vivimos esa misma sanación.   </p>\n"
+"\n"
+"          <p>Hoy con esta nueva propuesta de “Psicomagia colectiva” que para "
+"mí es, una forma de ritual contemporáneo, realizado con también mucho humor "
+"para que las personas puedan dulcemente tomar conciencia, he decidido "
+"utilizar las herramientas que están a mi disposición, para que juntos "
+"participemos al proceso de evolución de la humanidad a través de nuestra "
+"experiencia, proponiendo ejercidos colectivos, individuales, meditaciones, "
+"terapias mutuas, lecturas de tarot, teatralizaciones del Árbol genealógico, "
+"psicomagia y tantas otras vivencias.\n"
+"\n"
+"          <br>Según mi visión, hoy en día la transformación se hace también "
+"colectivamente, en grupos que obran juntos como abejas, dedicadas a producir "
+"la miel consiente, transformadora que todos necesitamos para mover a esta "
+"sociedad.\n"
+"          </p>"
+msgstr ""
+
+#: page-saber-mas.php:162 page-savoir-plus.php:146
+#: page-ulteriori-informazioni.php:162
+msgid "<span class=\"morecolor\" >Tarot</span>"
+msgstr "<span class=\"morecolor\" >Tarot</span>"
+
+#: page-saber-mas.php:165 page-ulteriori-informazioni.php:165
+msgid ""
+"<p>Para Carl Gustav Jung, los arquetipos son energías innatas comunes a "
+"todos los seres humanos, que se trasmiten a través de mitos o se nos "
+"aparecen en sueños, cuentos, leyendas, rituales y obras de arte.\n"
+"\n"
+"          </p><p>Ellos serían los órganos de nuestro organismo psicológico "
+"que, colaborando permiten que nuestro proceso alquímico transformativo se "
+"lleve a cabo. En el Tarot, los arquetipos pueden actuar como patrones de "
+"conducta cuando el individuo necesita resolver una dificultad existencial. "
+"Los 78 arcanos del Tarot son arquetipos con infinitas interpretaciones, "
+"donde cada uno tiene una multitud de aspectos. Sin embargo, el dibujo de la "
+"carta será sólo una máscara. Se convierte en la llave que, si sabes cómo "
+"interpretarla e integrarla, activará la dimensión aliada del arquetipo.\n"
+"          Para ello, Cristóbal Jodorowsky utiliza los arcanos del Tarot como "
+"puertas para contactar con energías universales en sí. Estas puertas, al ser "
+"activadas, permiten un cambio profundo en el psiquismo, para que así nuestra "
+"alma se exprese en toda libertad.</p>\n"
+"\n"
+"          <p>En las antiguas culturas existían “cortes” de dioses que en el "
+"fondo podrían ser dimensiones de nuestra propia mente. El trabajo de "
+"Cristóbal con el Tarot consiste en despertar las cortes de dioses o "
+"arquetipos interiores de cada ser, utilizando los arcanos como una "
+"herramienta terapéutica que permiten ponernos en contacto con nuestro mundo "
+"interior y observar nuestros patrones de conducta adquiridos, con el fin de "
+"crear una estructura interior de referencia.\n"
+"\n"
+"          </p><p>El Tarot nos permite interpretar la psique humana y las "
+"diferentes dimensiones de nuestra conciencia. Gracias a su carácter "
+"simbólico, podemos ver reflejada nuestra realidad más profunda en los "
+"arcanos, situación que nos ayudará a enfocar la realidad desde otro ángulo, "
+"e integrar dificultades vitales, penas y dolores con más facilidad.\n"
+"\n"
+"          </p><p>El Tarot también puede ser una representación espectacular "
+"de nuestra familia interior, un espejo de nuestro mundo íntimo que refleja "
+"nuestros nudos y cargas genealógicas, conflictos o relaciones complejas con "
+"padres, abuelos, hermanos y otros familiares del presente o del pasado. "
+"Asimismo, refleja nuestras repeticiones neuróticas, los ciclos en los que "
+"nos vemos atrapados, los mecanismos por los cuales enfermamos… Todo ello, en "
+"una dirección: el encuentro con lo más profundo de nuestro Ser Esencial.\n"
+"           A pesar de que el Tarot es un instrumento que nos comunica con la "
+"dimensión inconsciente. Cristobal piensa que cuando uno elige una carta es "
+"la dimensión supra-consiente (que sabe todo)  que la elige en nosotros para "
+"ayudarnos a desvelar lo que el ego no siempre estamos dispuestos a ver por "
+"miedo a cambiar de marco de referencia y mutar.\n"
+"          </p>"
+msgstr ""
+
+#: page-saber-mas.php:182 page-ulteriori-informazioni.php:182
+msgid "<span class=\"morecolor\" >Viajes Iniciáticos</span>"
+msgstr ""
+
+#: page-saber-mas.php:185 page-ulteriori-informazioni.php:185
+msgid ""
+"<p>Desde hace varios años Cristóbal Jodorowsky organiza viajes por todo el "
+"mundo encontrando las fuentes tradicionales del chamanismo y de la "
+"espiritualidad.\n"
+"          <br>La participación en los rituales y sesiones de trance de los "
+"médiums en los viajes iniciáticos es para Cristóbal Jodorowsky una "
+"posibilidad de investigación sobre el chamanismo. Esto quiere decir que se "
+"analiza en los cultos visitados toda la fenomenología con el objeto de "
+"reinterpretarla a la luz de los conocimientos de la psicoterapia y de los "
+"paradigmas de hoy. Estos grupos iniciáticos se enfocan en pasar de las "
+"formas populares de las creencias espirituales y mágicas al psicochamanismo, "
+"donde se dejan a un lado los aspectos folklóricos tóxicos y religiosos para "
+"conservar la esencia del funcionamiento psíquico. Así, conscientemente y de "
+"forma autónoma son aplicados con autonomía al manejo de los potenciales "
+"psíquicos. En estos ritos, se respetan las formas de participación al culto "
+"con su lenguaje y liturgias, pero esto no quiere decir que el grupo se "
+"sienta identificado con su cosmología y visión espiritual.\n"
+"          <br>A lo largo de los últimos años, estos grupos han recorrido los "
+"centros de trabajo chamánico de las favelas de las grandes ciudades, El "
+"Salto del Ángel en Venezuela, la montaña sagrada de Sorte, (centro del culto "
+"a María Lionza), las selvas del Orinoco, la cordillera andina peruana, y un "
+"largo etcétera. Estos viajeros iniciáticos visitaron el Mercado de las "
+"Brujas de la Ciudad de México, Yucatán, las selvas lacandonas y los sitios "
+"mayas; participaron en ceremonias sagradas en el monte </p><p>Tepozteco y "
+"experimentaron temazcales indígenas.\n"
+"          <br>En estos trabajos, los viajeros pueden laborar día a día con "
+"chamanes y curanderos de diferentes tradiciones espirituales, integrando una "
+"visión holística de las cosmovisiones tradicionales del continente "
+"americano.\n"
+"          <br>También propone un seminario itinerante de Tarot comprende un "
+"recorrido por escenarios naturales elegidos específicamente para trabajar en "
+"profundidad, guiados la mano de Cristobal Jodorowsky, en prácticas y "
+"ejercicios introspectivos que nos permiten tener acceso de modo vivencial, a "
+"la integración de cada arcano del Tarot de Marsella, en la búsqueda de una "
+"experiencia más amplia de estudio sobre sus implicaciones arquetípicas en "
+"nuestra psique. En el marco de los inigualablemente suntuosos parajes mayas "
+"del sureste de México, se realiza un profundo trabajo de auto-conocimiento y "
+"una labor terapéutica interior que nos ofrece mayores herramientas para "
+"renacer en plenitud a dimensiones más amplias de nuestro ser. Además, las "
+"expediciones viajeras resultan una buena ocasión para el trabajo y las "
+"consultas en psicomagia y Tarot, generando un recorrido personal desde la "
+"meditación y el autoanálisis hasta el ritual psicochamánico.\n"
+"          </p>"
+msgstr ""
+
+#: page-savoir-plus.php:19
+msgid "Investigation"
+msgstr "Investigación"
+
+#: page-savoir-plus.php:26
+msgid "Press"
+msgstr "Prensa"
+
+#: page-savoir-plus.php:28
+msgid "Art"
+msgstr "Arte"
+
+#: page-savoir-plus.php:31
+msgid "\"\"The integration of aspects and keys for personal development\"\""
+msgstr ""
+
+#: page-savoir-plus.php:32
+msgid "- Cristobal Jodorowsky"
+msgstr ""
+
+#: page-savoir-plus.php:40 page-savoir-plus.php:51 page-savoir-plus.php:71
+msgid "My life on "
+msgstr "Mi vida en "
+
+#: page-savoir-plus.php:41
+msgid "<span class=\"morecolor\" > the Psicoteatro</span>"
+msgstr "<span class=\"morecolor\" > el Psicoteatro</span>"
+
+#: page-savoir-plus.php:52
 msgid "<span class=\"morecolor\" > the Psicochamanismo</span>"
 msgstr "<span class=\"morecolor\" > el Psico-Chamanismo</span>"
 
-#: page-saber-mas.php:55 page-savoir-plus.php:55
-#: page-ulteriori-informazioni.php:55
+#: page-savoir-plus.php:55
 msgid ""
 "<p>At an archaic level, the human being responds to an innate instinct of "
 "family conservation. He is scheduled to fight for the survival of his clan. "
@@ -649,13 +1061,11 @@ msgstr ""
 "recuerdos, fantasmas, morales, estructuras de comportamiento, e ideologías "
 "que proceden del linaje genealógico.</p>"
 
-#: page-saber-mas.php:72 page-savoir-plus.php:72
-#: page-ulteriori-informazioni.php:72
+#: page-savoir-plus.php:72
 msgid "<span class=\"morecolor\" > the Psicomagia</span>"
 msgstr "<span class=\"morecolor\" > la Psicomagia</span>"
 
-#: page-saber-mas.php:75 page-savoir-plus.php:75
-#: page-ulteriori-informazioni.php:75
+#: page-savoir-plus.php:75
 msgid ""
 "<p>Psychomagia is a form of ultra advanced therapy. It is a response to "
 "psychoanalysis. Psychomagia proposes to cure something by acts that speak "
@@ -671,172 +1081,259 @@ msgstr ""
 "darle una amorosa patada en el culo a la realidad. Este impulso que le das, "
 "sorpresivo, la hace salir de la inercia y ponerse a danzar..</p>"
 
-#: page-saber-mas.php:108 page-savoir-plus.php:108
-#: page-ulteriori-informazioni.php:108
-msgid "<span class=\"morecolor\" >Workshops</span>"
-msgstr "<span class=\"morecolor\" >Talleres</span>"
-
-#: page-saber-mas.php:111 page-savoir-plus.php:111
-#: page-ulteriori-informazioni.php:111
+#: page-savoir-plus.php:111
 msgid ""
-"<p>A Living Experience guided by Cristobal Jodorowsky, where he participates "
-"will learn more about his personal neurosis, family unconscious contracts, "
-"ego projections and geneological knots, as well as the consequences that all "
-"these factors cause in his current affective life.</p>"
+"<p>The forces of repetition and creation in their endless dynamic impel us "
+"both to repeat the same and to yield to what we are authentically. "
+"Individuals, at the same time, can have a positive and a negative vision "
+"from their great-grandparents, grandparents and parents, thus converting "
+"each relative into a double entity: one luminous and the other obscure. Two "
+"energy fields that, despite opposing, are complementary. In the present "
+"time, the spirit that materializes adjoins the matter that is spiritualized, "
+"the supraconscious with the unconscious, the attempt to realize the future "
+"with the intent to repeat the past, the essential being with the socio-"
+"cultural being, the desire to create with the desire to imitate. To the "
+"study of the genealogical tree under its simultaneous and complementary "
+"aspects, treasure and trap, I have called it Metagenealogy.</p>\n"
+"      <p>Alejandro Jodorowsky (creator of Metagenalogy)</p>\n"
+"\n"
+"      <p>Metagenealogy is a method of analysis of the genealogical tree that "
+"allows to expand the vision of its psychic dimension. This makes us "
+"understand to what extent what we think, feel, desire or live, as well as "
+"our conflicts and illnesses can be the result of a family, social, "
+"historical or patriarchal educational waste. The metagenealogy reveals a "
+"system of repetitions of dates, illnesses, births, deaths, accidents and "
+"names. All these are maps that are traversed and transmitted from generation "
+"to generation until they reach us with the precision of a clock. We tend to "
+"identify ourselves and be faithful to our relatives, to the point that it "
+"can be painful, paralyzing and self destructive. At the same time, these "
+"characters - to whom we maintain loyalty - imitated other figures of the "
+"past, forming a hereditary chain of prisons. Revealing the dynamics of the "
+"clan allows us to understand what inhibits within us the possibility of "
+"living, creating, being and loving from the essential being. On the other "
+"hand, it is essential to accept that everything is perfect and that the "
+"genealogy is a perfect spiritual process in action, that is never wrong, "
+"that has its laws and orders and that everything always has its raison "
+"d'etre, although we do not always like it or we agree One does not work to "
+"repair something that 'should not' have been, but rather to accept it as it "
+"was and integrate it from the soul. Very often, after a genealogical "
+"analysis, Cristobal prepares a family psychic or psychomagnetic "
+"constellation, where he invites a group to dramatize the situations seen and "
+"re-align them with the current of life.\n"
+"      <br>Tarot For Carl Gustav Jung, the archetypes are innate energies "
+"common to all human beings, which are transmitted through myths or appear in "
+"dreams, stories, legends, rituals and works of art. They would be the organs "
+"of our psychological organism that, collaborating, allow our transformative "
+"alchemical process to take place. In the Tarot, the archetypes can act as "
+"patterns of behavior when the individual needs to solve an existential "
+"difficulty. The 78 arcana of the Tarot are archetypes with infinite "
+"interpretations, where each one has a multitude of aspects. However, the "
+"drawing of the letter will be only a mask. It becomes the key that, if you "
+"know how to interpret and integrate it, will activate the allied dimension "
+"of the archetype. For this, Cristóbal Jodorowsky uses the arcana of the "
+"Tarot as doors to contact with universal energies in himself. These doors, "
+"when activated, allow a profound change in the psyche, so that our soul "
+"expresses itself in all freedom.\n"
+"\n"
+"      <br>In ancient cultures there were 'cuts' of gods that in the "
+"background could be dimensions of our own mind. Cristóbal's work with the "
+"Tarot is to awaken the courts of gods or inner archetypes of each being, "
+"using the arcana as a therapeutic tool that allows us to get in touch with "
+"our inner world and observe our acquired patterns of behavior, in order to "
+"create an internal structure of reference. The Tarot allows us to interpret "
+"the human psyche and the different dimensions of our consciousness. Thanks "
+"to its symbolic nature, we can see reflected our deeper reality in the "
+"arcane, a situation that will help us focus reality from another angle, and "
+"integrate life difficulties, sorrows and pain more easily. The Tarot can "
+"also be a spectacular representation of our inner family, a mirror of our "
+"intimate world that reflects our knots and genealogical burdens, conflicts "
+"or complex relationships with parents, grandparents, brothers and other "
+"relatives of the present or the past. It also reflects our neurotic "
+"repetitions, the cycles in which we are trapped, the mechanisms by which we "
+"become ill ... All this, in one direction: the encounter with the deepest of "
+"our Essential Being.  Even though the Tarot is an instrument that "
+"communicates us with the unconscious dimension. Cristobal thinks that when "
+"one chooses a letter it is the supra-conscious dimension (that knows "
+"everything) that chooses it in us to help us unveil what the ego is not "
+"always willing to see for fear of changing the frame of reference and "
+"mutate.\n"
+"      </p>"
 msgstr ""
-"<p>Una experiencia Vivencial guiada por Cristobal Jodorowsky, donde e "
-"participante aprenderá más sobre su neurosis personal, contratos "
-"inconscientes familiares, proyecciones del ego y nudos genealoógicos, así "
-"como las consecuencias que todos estos factores provocan en su vida afectiva "
-"actual.</p>"
 
-#: page-saber-mas.php:124 page-savoir-plus.php:124
-#: page-ulteriori-informazioni.php:124
-msgid "<span class=\"morecolor\" >Metagenealogia</span>"
-msgstr "<span class=\"morecolor\" >Metagenealogía</span>"
-
-#: page-saber-mas.php:127 page-savoir-plus.php:127
-#: page-ulteriori-informazioni.php:127
-msgid ""
-"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo optio "
-"repudiandae, a consequatur. Placeat labore dolorum perferendis cupiditate "
-"quam illo.</p>"
-msgstr ""
-
-#: page-saber-mas.php:133 page-savoir-plus.php:133
-#: page-ulteriori-informazioni.php:133
-msgid "<span class=\"morecolor\" >Therapies</span>"
-msgstr "<span class=\"morecolor\" >Terapias</span>"
-
-#: page-saber-mas.php:136 page-savoir-plus.php:136
-#: page-ulteriori-informazioni.php:136
-msgid ""
-"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis "
-"doloribus nulla tempora, quas dolores mollitia iste at, ullam molestias enim!"
-"</p>"
-msgstr ""
-
-#: page-saber-mas.php:142 page-savoir-plus.php:142
-#: page-ulteriori-informazioni.php:142
+#: page-savoir-plus.php:124
 msgid "<span class=\"morecolor\" >Investigation</span>"
 msgstr "<span class=\"morecolor\" >Investigación</span>"
 
-#: page-saber-mas.php:145 page-savoir-plus.php:145
-#: page-ulteriori-informazioni.php:145
+#: page-savoir-plus.php:127
 msgid ""
 "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex laborum "
 "sequi provident, aliquid eaque atque est dolore mollitia unde, omnis.</p>"
 msgstr ""
 
-#: page-saber-mas.php:151 page-savoir-plus.php:151
-#: page-ulteriori-informazioni.php:151
+#: page-savoir-plus.php:133
 msgid "<span class=\"morecolor\" >Psicomagic</span>"
 msgstr "<span class=\"morecolor\" > Psicomágia</span>"
 
-#: page-saber-mas.php:154 page-savoir-plus.php:154
-#: page-ulteriori-informazioni.php:154
+#: page-savoir-plus.php:136
 msgid ""
-"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis "
-"reprehenderit nostrum suscipit dolorem quam sequi quibusdam dicta "
-"accusantium, facilis repellat?</p>"
+"<p>Psychomagic is the therapeutic technique, initiated by Alejandro "
+"Jodorowsky, who combines shamanism, folk magic, psychology, intuition, "
+"mysticism, oriental philosophy, art, with a healing purpose. Psychomagia is "
+"a healing practice that acts through the symbol, metaphor and beauty, "
+"essentially with the language of dreams. By not considering the unconscious "
+"dimension as an enemy and losing the fear of seeing oneself, one can "
+"discover the traumas that cause suffering. However, even if one knows what "
+"happens to him and why, he is not entirely free of pain. Psychomagia does "
+"not pretend - like psychoanalysis - to heal through the word by converting "
+"the messages that the unconscious dimension sends into a rational discourse, "
+"but to teach the rational to handle unconscious language.\n"
+"      <br>The processes of our brain are more symbolic and analogical than "
+"logical. For him, a photograph not only represents the person portrayed, but "
+"is herself. Consider a part as the whole, project people who populate their "
+"memory about real beings or things. In the psychomagy the client is proposed "
+"concrete actions, to perform a symbolic act that, in some way, will restore "
+"his memory and allow him to perform the unrealizable.\n"
+"\n"
+"      <br>However, to ensure that the act gives an optimal result, the "
+"consultant must first free himself from the morality imposed by his family, "
+"society and culture. If you do so, for example, without fear, you can paste "
+"a photograph of your father on two watermelons and you can blow them up. Its "
+"unconscious dimension will take for granted murder and castration. The "
+"consultant will feel more free. That which frightens us loses strength the "
+"moment we stop fighting it or moving it away from the mind to integrate it "
+"through a psychomagic act that helps us to awaken and make life a lucid "
+"dream full of consciousness. It is not enough to understand the reason for a "
+"conflict; we must act on it, give it an outlet to the impulse, to the "
+"repetitive behavior that makes our existence difficult. This is how "
+"psychomagia was created, psychochamanism and, later, the psychroritual.\n"
+"      </p>"
 msgstr ""
 
-#: page-saber-mas.php:160 page-savoir-plus.php:160
-#: page-ulteriori-informazioni.php:160
-msgid "<span class=\"morecolor\" >Tarot</span>"
-msgstr "<span class=\"morecolor\" >Tarot</span>"
-
-#: page-saber-mas.php:163 page-savoir-plus.php:163
-#: page-ulteriori-informazioni.php:163
+#: page-savoir-plus.php:149
 msgid ""
-"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore expedita "
-"accusantium obcaecati impedit ad, eveniet officiis debitis in illum enim.</p>"
+"<p>For Carl Gustav Jung, children are innate energy common to all human "
+"beings, which are transmitted through myths or that appear in dreams, "
+"stories, legends, rituals and works of art.\n"
+"      They have the organs of our psychological organism that collaborate in "
+"our transformative Alchemical process. They are carried out. In the Tarot, "
+"the archetypes can act as patterns of behavior when the individual needs to "
+"solve an existential difficulty. The 78 arcana of the Tarot are "
+"interpretations with infinite interpretations, where each one has a "
+"multitude of aspects. However, the drawing of the letter is only a mask. It "
+"becomes the key that, if you know how to interpret and integrate it, will "
+"activate the allied dimension of the archetype.\n"
+"      For this, Cristóbal Jodorowsky uses the arcana of the Tarot as doors "
+"to contact the universal energies themselves. These doors, when activated, "
+"allow a profound change in the psyche, so that our soul can express itself "
+"in all freedom.\n"
+"\n"
+"      <br>In ancient cultures there were 'cuts' of gods that in the "
+"background could be dimensions of our own mind. Cristóbal's work with the "
+"Tarot is to awaken the courts of gods or inner archetypes of each being, "
+"using the arcana as a therapeutic tool that allows us to get in touch with "
+"our inner world and observe our acquired patterns of behavior, in order to "
+"create an internal structure of reference.\n"
+"\n"
+"      <br>The Tarot allows us to interpret the human psyche and the "
+"different dimensions of our consciousness. Thanks to its symbolic nature, we "
+"can see reflected our deeper reality in the arcane, a situation that will "
+"help us focus reality from another angle, and integrate life difficulties, "
+"sorrows and pain more easily.\n"
+"\n"
+"      <br>The Tarot can also be a spectacular representation of our inner "
+"family, a mirror of our intimate world that reflects our knots and "
+"genealogical burdens, conflicts or complex relationships with parents, "
+"grandparents, brothers and other relatives of the present or the past. It "
+"also reflects our neurotic repetitions, the cycles in which we are trapped, "
+"the mechanisms by which we become ill ... All this, in one direction: the "
+"encounter with the deepest of our Essential Being.\n"
+"       <br>Even though the Tarot is an instrument that communicates us with "
+"the unconscious dimension. Cristobal thinks that when one chooses a letter "
+"it is the supra-conscious dimension (that knows everything) that chooses it "
+"in us to help us unveil what the ego is not always willing to see for fear "
+"of changing the frame of reference and mutate.</p>"
 msgstr ""
 
-#: page-saber-mas.php:169 page-savoir-plus.php:169
-#: page-ulteriori-informazioni.php:169
-msgid "<span class=\"morecolor\" >Videos</span>"
-msgstr "<span class=\"morecolor\" >Videos</span>"
-
-#: page-saber-mas.php:172 page-savoir-plus.php:172
-#: page-ulteriori-informazioni.php:172
-msgid ""
-"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure quaerat "
-"minus delectus voluptatum praesentium dolorem facilis sit ea mollitia "
-"possimus!</p>"
-msgstr ""
-
-#: page-saber-mas.php:178 page-savoir-plus.php:178
-#: page-ulteriori-informazioni.php:178
-msgid "<span class=\"morecolor\" >Studies</span>"
-msgstr "<span class=\"morecolor\" >Estudios</span>"
-
-#: page-saber-mas.php:181 page-savoir-plus.php:181
-#: page-ulteriori-informazioni.php:181
-msgid ""
-"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis "
-"architecto consectetur non provident ratione eos consequuntur a voluptas "
-"tenetur autem.</p>"
-msgstr ""
-
-#: page-saber-mas.php:187 page-savoir-plus.php:187
-#: page-ulteriori-informazioni.php:187
-msgid "<span class=\"morecolor\" >Teachers</span>"
-msgstr "<span class=\"morecolor\" >Maestros</span>"
-
-#: page-saber-mas.php:190 page-savoir-plus.php:190
-#: page-ulteriori-informazioni.php:190
-msgid ""
-"<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, "
-"totam, fugit. Laudantium aliquam odit voluptas fugiat, est consequatur animi "
-"adipisci?</p>"
-msgstr ""
-
-#: page-saber-mas.php:196 page-savoir-plus.php:196
-#: page-ulteriori-informazioni.php:196
+#: page-savoir-plus.php:164
 msgid "<span class=\"morecolor\" >Press</span>"
 msgstr "<span class=\"morecolor\" >Prensa</span>"
 
-#: page-saber-mas.php:199 page-savoir-plus.php:199
-#: page-ulteriori-informazioni.php:199
+#: page-savoir-plus.php:167
 msgid ""
 "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta "
 "voluptates id officiis consequatur iste magnam quibusdam eos repellat qui "
 "facilis?</p>"
 msgstr ""
 
-#: page-saber-mas.php:205 page-savoir-plus.php:205
-#: page-ulteriori-informazioni.php:205
+#: page-savoir-plus.php:173
 msgid "<span class=\"morecolor\" >Travels</span>"
 msgstr "<span class=\"morecolor\" >Viajes</span>"
 
-#: page-saber-mas.php:208 page-saber-mas.php:217 page-saber-mas.php:226
-#: page-savoir-plus.php:208 page-savoir-plus.php:217 page-savoir-plus.php:226
-#: page-ulteriori-informazioni.php:208 page-ulteriori-informazioni.php:217
-#: page-ulteriori-informazioni.php:226
+#: page-savoir-plus.php:176
+msgid ""
+"<p>For several years Cristóbal Jodorowsky has been organizing trips around "
+"the world, finding traditional sources of shamanism and spirituality. The "
+"participation in the rituals and trance sessions of the mediums in the "
+"initiatory trips is for Cristóbal Jodorowsky a possibility of research on "
+"shamanism. This means that the phenomenology is analyzed in the cults "
+"visited in order to reinterpret it in the light of the knowledge of "
+"psychotherapy and the paradigms of today. These initiatory groups focus on "
+"moving from the popular forms of spiritual and magical beliefs to psycho-"
+"shamanism, where toxic and religious folkloric aspects are left aside to "
+"preserve the essence of psychic functioning. Thus, consciously and "
+"autonomously they are applied autonomously to the management of psychic "
+"potentials. In these rites, the forms of participation in worship are "
+"respected with their language and liturgies, but this does not mean that the "
+"group feels identified with their cosmology and spiritual vision. Over the "
+"past few years, these groups have toured the shamanic work centers of the "
+"favelas of the big cities, El Salto del Angel in Venezuela, the sacred "
+"mountain of Sorte, (center of the cult of María Lionza), the jungles of "
+"Orinoco, the Peruvian Andean mountain range, and a long etcetera. These "
+"initiatic travelers visited the Market of the Witches of Mexico City, "
+"Yucatan, the Lacandon jungles and the Mayan sites; They participated in "
+"sacred ceremonies on Mount Tepozteco and experienced indigenous temazcales.</"
+"p>\n"
+"      <p>In these works, travelers can work day after day with shamans and "
+"healers of different spiritual traditions, integrating a holistic view of "
+"the traditional cosmovisions of the American continent.\n"
+"      <br>It also proposes a Tarot itinerant seminar that includes a tour "
+"through natural scenarios specifically chosen to work in depth, guided by "
+"the hand of Cristobal Jodorowsky, in practices and introspective exercises "
+"that allow us to have an experiential access to the integration of each "
+"arcana of the Tarot. Marseille, in search of a broader experience of study "
+"about its archetypal implications in our psyche. Within the framework of the "
+"uniquely sumptuous Mayan landscapes of southeastern Mexico, a deep work of "
+"self-knowledge and inner therapeutic work is carried out, which offers us "
+"greater tools to be reborn in fullness to wider dimensions of our being. In "
+"addition, traveling expeditions are a good opportunity for work and "
+"consultations in psychomagy and Tarot, generating a personal journey from "
+"meditation and self-analysis to psycho-christian ritual.</p>"
+msgstr ""
+
+#: page-savoir-plus.php:184
+msgid "<span class=\"morecolor\" >Art</span>"
+msgstr "<span class=\"morecolor\" >Arte</span>"
+
+#: page-savoir-plus.php:187
 msgid ""
 "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam "
 "excepturi quia sequi dicta magnam obcaecati quibusdam nobis nihil inventore "
 "reiciendis.</p>"
 msgstr ""
 
-#: page-saber-mas.php:214 page-savoir-plus.php:214
-#: page-ulteriori-informazioni.php:214
-msgid "<span class=\"morecolor\" >Art</span>"
-msgstr "<span class=\"morecolor\" >Arte</span>"
+#: page-tarot.php:14 page-tarot.php:26
+msgid "Tarot!"
+msgstr ""
 
-#: page-saber-mas.php:223 page-savoir-plus.php:223
-#: page-ulteriori-informazioni.php:223
-msgid "<span class=\"morecolor\" >N-gram</span>"
-msgstr "<span class=\"morecolor\" >N-grama</span>"
+#: page-tarot.php:16 page-tarot.php:28
+msgid "\"Cristobal will answer some queries\""
+msgstr ""
 
-#. translators: %s: search query.
 #: search.php:18
 #, php-format
 msgid "Search Results for: %s"
 msgstr "Resultados de Búsqueda para: %s"
 
-#. translators: %s: Name of current post. Only visible to screen readers
 #: template-parts/content-booksblog.php:33 template-parts/content.php:31
 #, php-format
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
@@ -851,7 +1348,6 @@ msgstr "Páginas:"
 msgid "Nothing Found"
 msgstr "No encontramos nada aquí..."
 
-#. translators: 1: link to WP admin new post page.
 #: template-parts/content-none.php:22
 #, php-format
 msgid ""
@@ -890,6 +1386,71 @@ msgstr "Descripción"
 #. Author of the plugin/theme
 msgid "Digimundo"
 msgstr "Digimundo"
+
+#~ msgid "Agenda 20"
+#~ msgstr "Agenda 20"
+
+#~ msgid "BIO"
+#~ msgstr "BIO"
+
+#~ msgid "Workshops"
+#~ msgstr "Talleres"
+
+#~ msgid "Therapies"
+#~ msgstr "Terapias"
+
+#~ msgid "Psicomagic"
+#~ msgstr "Psicochamanismo"
+
+#~ msgid "Videos"
+#~ msgstr "Videos"
+
+#~ msgid "Studies"
+#~ msgstr "Estudios"
+
+#~ msgid "Teachers"
+#~ msgstr "Maestros"
+
+#~ msgid "N-gram"
+#~ msgstr "N-grama"
+
+#~ msgid ""
+#~ "The integration of aspects and keys are fundamental for personal "
+#~ "development"
+#~ msgstr ""
+#~ "La integración de aspectos y llaves son fundamentales para el desarrollo "
+#~ "personal"
+
+#~ msgid "<span class=\"morecolor\" >Workshops</span>"
+#~ msgstr "<span class=\"morecolor\" >Talleres</span>"
+
+#~ msgid ""
+#~ "<p>A Living Experience guided by Cristobal Jodorowsky, where he "
+#~ "participates will learn more about his personal neurosis, family "
+#~ "unconscious contracts, ego projections and geneological knots, as well as "
+#~ "the consequences that all these factors cause in his current affective "
+#~ "life.</p>"
+#~ msgstr ""
+#~ "<p>Una experiencia Vivencial guiada por Cristobal Jodorowsky, donde e "
+#~ "participante aprenderá más sobre su neurosis personal, contratos "
+#~ "inconscientes familiares, proyecciones del ego y nudos genealoógicos, así "
+#~ "como las consecuencias que todos estos factores provocan en su vida "
+#~ "afectiva actual.</p>"
+
+#~ msgid "<span class=\"morecolor\" >Therapies</span>"
+#~ msgstr "<span class=\"morecolor\" >Terapias</span>"
+
+#~ msgid "<span class=\"morecolor\" >Videos</span>"
+#~ msgstr "<span class=\"morecolor\" >Videos</span>"
+
+#~ msgid "<span class=\"morecolor\" >Studies</span>"
+#~ msgstr "<span class=\"morecolor\" >Estudios</span>"
+
+#~ msgid "<span class=\"morecolor\" >Teachers</span>"
+#~ msgstr "<span class=\"morecolor\" >Maestros</span>"
+
+#~ msgid "<span class=\"morecolor\" >N-gram</span>"
+#~ msgstr "<span class=\"morecolor\" >N-grama</span>"
 
 #, fuzzy
 #~| msgid "<span class=\"morecolor\" >Workshops</span>"
