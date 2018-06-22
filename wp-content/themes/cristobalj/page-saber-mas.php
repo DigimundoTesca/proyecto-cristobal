@@ -10,7 +10,7 @@ get_header(); ?>
       <main id="main" class="site-main">
         <p class="d-inline-block mt-5 mb-0 h4"><?php printf( __( 'Chose a theme', 'cristobalj' ));?></p>
         <div id="kmorebannercontainer">
-          <img id="knowmore" class="mobilekmore" src="<?php echo get_template_directory_uri(); ?>/images/kmore.png" alt="banner know more">
+          <img id="knowmore" class="mobilekmore" src="<?php echo get_template_directory_uri(); ?>/images/kmore.PNG" alt="banner know more">
           <div id="bigkmoreContainer" class="bigkmoreContainer ">
             <img id="knowmore bigmorebanner" class="bigkmore changeB" src="<?php echo get_template_directory_uri(); ?>/images/another.png" alt="banner know more">
             <a href="#Psicomagic" class="cambia imgChange1 textBig"><?php printf( __( 'Psicomagia', 'cristobalj' ));?></a>
