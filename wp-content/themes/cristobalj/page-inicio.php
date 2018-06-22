@@ -105,7 +105,7 @@ get_header(); ?>
       </div>
       <div class="col-md-8 col-lg-9 order-lg-first d-flex justify-content-center">
         <div class="container-fluid">
-          <h1 class="text-center">Últimas Noticias</h1>
+          <h1 id="news-title" class="text-center">Últimas Noticias</h1>
           <?php while (have_posts()): the_post(); ?>
             <?php the_content(); ?>
           <?php endwhile ?>

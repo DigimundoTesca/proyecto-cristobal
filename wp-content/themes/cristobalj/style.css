@@ -3737,6 +3737,10 @@ text-align: center !important;
    .es_lablebox {
      margin-top: 4em;
    }
+   /********Agenda*********/
+   .ai1ec-dropdown-toggle {
+      padding-right: 0 !important;
+   }
    #datesContainer {
      height: 400px;
    }
@@ -3766,6 +3770,12 @@ text-align: center !important;
    /*inico page*/
    #banner {
      background-size: auto 112%!important;
+   }
+   #new_agenda .ai1ec-agenda-view {
+     padding: 0 !important;
+   }
+   .n2-ss-swipe-element {
+     height: 400px !important;
    }
  }
 
@@ -4024,6 +4034,9 @@ text-align: center !important;
   }
 }
 @media screen and (min-width: 2000px){
+  #news-title {
+    font-size: 5em;
+  }
   .Tweets {
       display: none !important;
   }
@@ -4034,8 +4047,11 @@ text-align: center !important;
   #datesContainer {
     height: 1000px;
   }
+  #prox_events {
+    height: 700px !important;
+  }
   .agenda #datesContainer {
-    height: 1250px !important;
+    height: 1300px !important;
   }
 }
 
@@ -4048,5 +4064,10 @@ text-align: center !important;
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .inicio #mainbannercontainer .mainbannercontent a  div {
     width: 230px !important;
+  }
+}
+@media screen and (min-width: 300px) {
+  .ai1ec-tag-filter .ai1ec-dropdown-menu {
+   min-width: 132px !important;
   }
 }
