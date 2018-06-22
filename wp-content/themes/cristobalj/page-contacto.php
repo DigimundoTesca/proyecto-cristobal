@@ -21,12 +21,10 @@ get_header(); ?>
           </div>
         </div>
         <div id="contactText" class="container my-5 text-center">
-          <h5 class="mt-3 mb-0 text-left text-center">
-            <?php printf( __( "let's be in touch!", 'cristobalj' )); ?>
-          </h5>
-          <p class="mb-4 mt-1 text-jDe ustify text-center">
-            <?php printf( __( 'No importa donde te encuentres siempre podras crear.', 'cristobalj' )); ?>
+          <p id="fraseContacto" class=" pt-3 h5 text-jDe ustify text-center">
+            <?php printf( __( '"No importa donde te encuentres siempre podras crear"', 'cristobalj' )); ?>
           </p>
+          <p class="text-right mb-2"><b>Cristobal Jodorowsky</b></p>
         </div>
         <?php the_content(); ?>
       </div>
