@@ -66,33 +66,31 @@ jQuery(document).ready(function(){
       }
     }
   }
+
+
+
   var paises = document.getElementsByClassName("ai1ec-dropdown-toggle")
   var leer = document.getElementsByClassName("news-more-link")
-  var next = document.getElementsByClassName("next")
-  var prev = document.getElementsByClassName("prev")
-
-  for(let j =0; j < next.length; j++) {
-    next[0].innerHTML = "Siguiente »"
-  }
-  prev[0].innerHTML = "« Anterior "
+  var agendaT = document.getElementsByClassName("ai1ec-calendar-toolbar")
+  var agendaHead = document.getElementsByClassName("ai1ec-filters")
 //change buttons text
   for(let i = 0; i < leer.length; i++){
     leer[i].innerHTML = 'ver más'
   }
+  console.log(paises)
   for(let i = 0; i<paises.length; i++) {
     if(paises[i].text == "     Categorías  ") {
-      paises[i].innerHTML = '<i class="fa fa-globe" aria-hidden="true"></i> Países'
+      console.log("si")
+      paises[i].innerHTML = '<i class="fa fa-globe" aria-hidden="true"></i> Selecciona tu país'
     }
     else if (paises[i].text == "     Etiquetas:  ") {
+      console.log("tmbiem")
       paises[i].innerHTML = '<i class="fa fa-archive" aria-hidden="true"></i> Talleres de estudio'
     }
-    else if (paises[i].text == "   Agenda   ") {
+    else if (paises[i].text == "   Mes   ") {
       paises[i].style.display = "none"
     }
   }
-
-
-
 
   // Change menu color for metamundo page
   var coll = document.getElementsByClassName('menu-item');
@@ -303,8 +301,8 @@ jQuery(document).ready(function(){
     });
     $(".psicoteatro-slide").cycle({
 		fx : 'fade',
-		timeout: 3000,
-		speed: 2000,
+		timeout: 2200,
+		speed: 2200,
 		slides: '.pslide'
     });
 
@@ -338,6 +336,10 @@ jQuery(document).ready(function(){
 
   // Change images on Know more banner
   (function($) {
+
+    $("ai1ec-clearfix div").addClass("d-flex");
+
+    // Prevent know more 'a' tags to redirect
 
     var contenedor = $('.changeB');
     var imagenes = ['03.jpg', 'tarot.jpeg', 'constelaciones.jpg', '003-min.jpg', '01-min.JPG', 'psico.jpg', 'arbol.jpg', '06-min.JPG'];

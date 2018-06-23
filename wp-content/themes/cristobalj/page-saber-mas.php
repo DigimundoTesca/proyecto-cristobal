@@ -8,7 +8,7 @@ get_header(); ?>
   <div class="col-md-12 col-lg-8 col-xl-9">
     <div id="primary" class="content-area">
       <main id="main" class="site-main">
-        <p class="d-inline-block mt-5 mb-0 h4"><?php printf( __( 'Chose a theme', 'cristobalj' ));?></p>
+        <p class="h1 d-inline-block mt-5 mb-0"><b><?php printf( __( '¡Escoje un Tema!', 'cristobalj' ));?></b></p>
         <div id="kmorebannercontainer">
           <img id="knowmore" class="mobilekmore" src="<?php echo get_template_directory_uri(); ?>/images/kmore.PNG" alt="banner know more">
           <div id="bigkmoreContainer" class="bigkmoreContainer ">
