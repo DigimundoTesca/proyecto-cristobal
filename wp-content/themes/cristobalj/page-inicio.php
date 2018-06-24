@@ -26,11 +26,11 @@ get_header(); ?>
             <p class="name text-right">Cristóbal Jodorowsky</p>
           </div>
           <div class="mslide clearfix">
-            <p class="quote text-center"><?php printf(__('"La tecnología (si se abusa de ella) puede atentar al profundo contacto sensorial con la naturaleza que nos humaniza. No lo abandonemos por gratificaciones sintéticas y virtuales."','cristobalj')) ?></p>
+            <p class="quote text-center"><?php printf(__('"Aprender lo que es opuesto a ti favorece a tu integración psico-espiritual."','cristobalj')) ?></p>
             <p class="name text-right">Cristóbal Jodorowsky</p>
           </div>
           <div class="mslide clearfix">
-            <p class="quote text-center"><?php printf(__('"Tu cuerpo no es "el mal", "el pecado", no eres una cabeza separada del cuerpo, no eres un ego individual, el lenguaje no es el territorio. Cambia tus paradigmas y adáptate a la vida, no le pidas que ella se adapte a tu arrogancia."','cristobalj')) ?></p>
+            <p class="quote text-center"><?php printf(__('"Tu eres la llave de tu propio misterio."','cristobalj')) ?></p>
             <p class="name text-right">Cristóbal Jodorowsky</p>
           </div>
         </div>
@@ -59,11 +59,11 @@ get_header(); ?>
               <p class="name text-right">Cristóbal Jodorowsky</p>
             </div>
             <div class="slide clearfix">
-              <p class="quote text-center"><?php printf(__('"La tecnología (si se abusa de ella) puede atentar al profundo contacto sensorial con la naturaleza que nos humaniza. No lo abandonemos por gratificaciones sintéticas y virtuales."','cristobalj')) ?></p>
+              <p class="quote text-center"><?php printf(__('"Aprender lo que es opuesto a ti favorece a tu integración psico-espiritual."','cristobalj')) ?></p>
               <p class="name text-right">Cristóbal Jodorowsky</p>
             </div>
             <div class="slide clearfix">
-              <p class="quote text-center"><?php printf(__('"Tu cuerpo no es "el mal", "el pecado", no eres una cabeza separada del cuerpo, no eres un ego individual, el lenguaje no es el territorio. Cambia tus paradigmas y adáptate a la vida, no le pidas que ella se adapte a tu arrogancia."','cristobalj')) ?></p>
+              <p class="quote text-center"><?php printf(__('"Tu eres la llave de tu propio misterio."','cristobalj')) ?></p>
               <p class="name text-right">Cristóbal Jodorowsky</p>
             </div>
           </div>

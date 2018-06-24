@@ -13,7 +13,7 @@ get_header(); ?>
       <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/biografia/04-min.JPG" alt=""></li>
       <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/biografia/05-min.jpg" alt=""></li>
       <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/biografia/06-min.jpg" alt=""></li>
-      <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/biografia/10-min.jpg" alt=""></li>
+      <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/biografia/10.jpg" alt=""></li>
       <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/biografia/03-min.jpg" alt=""></li>
       <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/biografia/11-min.JPG" alt=""></li>
     </ul>

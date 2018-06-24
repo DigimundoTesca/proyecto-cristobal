@@ -8,26 +8,26 @@ get_header(); ?>
   <div class="col-md-12 col-lg-8 col-xl-9">
     <div id="primary" class="content-area">
       <main id="main" class="site-main">
-        <p class="d-inline-block mt-5 mb-0 h4"><?php printf( __( 'Chose a theme', 'cristobalj' ));?></p>
+        <p class="h1 d-inline-block mt-5 mb-0"><b><?php printf( __( '¡Escoje un Tema!', 'cristobalj' ));?></b></p>
         <div id="kmorebannercontainer">
-          <img id="knowmore" class="mobilekmore" src="<?php echo get_template_directory_uri(); ?>/images/kmore.png" alt="banner know more">
+          <img id="knowmore" class="mobilekmore" src="<?php echo get_template_directory_uri(); ?>/images/kmore.PNG" alt="banner know more">
           <div id="bigkmoreContainer" class="bigkmoreContainer ">
-            <img id="knowmore bigmorebanner" class="bigkmore" src="<?php echo get_template_directory_uri(); ?>/images/another.png" alt="banner know more">
-            <a href="#Psicomagic" class="imgChange1 textBig"><?php printf( __( 'Psicomagia', 'cristobalj' ));?></a>
-            <a href="#Constelaciones" class="imgChange5 textBig"><?php printf( __( 'Constelaciones <br> Psicochamanicas', 'cristobalj' ));?></a>
-            <a href="#Psicochamanismo" class="imgChange15 textBig"><?php printf( __( 'Psicochamanismo', 'cristobalj' ));?></a>
-            <a href="#Metagenealo" class="imgChange13 textBig"><?php printf( __( 'Metagenealogía', 'cristobalj' ));?></a>
-            <a href="#Therapies" class="imgChange6 textSmall"><?php printf( __( '', 'cristobalj' ));?></a>
-            <a href="#Travels" class="imgChange9 textBig"><?php printf( __( 'Viajes Iniciáticos', 'cristobalj' ));?></a>
-            <a href="#Psicomagic" class="imgChange8 textSmall"><?php printf( __( '', 'cristobalj' ));?></a>
-            <a href="#Tarot" class="imgChange9 textBig"><?php printf( __( '', 'cristobalj' ));?></a>
-            <a href="#Videos" class="imgChange10 textSmall"><?php printf( __( '', 'cristobalj' ));?></a>
-            <a href="#Colectiva" class="imgChange7 textBig"><?php printf( __( 'Psicomagia Colectiva', 'cristobalj' ));?></a>
-            <a href="#Teachers" class="imgChange12 textSmall"><?php printf( __( '', 'cristobalj' ));?></a>
-            <a href="#Psicoteatro" class="imgChange11 textBig"><?php printf( __( 'Psicoteatro', 'cristobalj' ));?></a>
-            <a href="#Press" class="imgChange14 textSmall"><?php printf( __( '', 'cristobalj' ));?></a>
-            <a href="#Tarot" class="imgChange3 textBig"><?php printf( __( 'Tarot', 'cristobalj' ));?></a>
-            <a href="#Art" class="imgChange16 textSmall"><?php printf( __( '', 'cristobalj' ));?></a>
+            <img id="knowmore bigmorebanner" class="bigkmore changeB" src="<?php echo get_template_directory_uri(); ?>/images/another.png" alt="banner know more">
+            <a href="#Psicomagic" class="cambia imgChange1 textBig"><?php printf( __( 'Psicomagia', 'cristobalj' ));?></a>
+            <a href="#Constelaciones" class="cambia imgChange5 textBig"><?php printf( __( 'Constelaciones <br> Psicochamanicas', 'cristobalj' ));?></a>
+            <a href="#Psicochamanismo" class="cambia imgChange15 textBig"><?php printf( __( 'Psicochamanismo', 'cristobalj' ));?></a>
+            <a href="#Metagenealo" class="cambia imgChange13 textBig"><?php printf( __( 'Metagenealogía', 'cristobalj' ));?></a>
+            <a href="#Therapies" class="cambia imgChange6 textSmall"><?php printf( __( '', 'cristobalj' ));?></a>
+            <a href="#Travels" class="cambia imgChange9 textBig"><?php printf( __( 'Viajes Iniciáticos', 'cristobalj' ));?></a>
+            <a href="#Psicomagic" class="cambia imgChange8 textSmall"><?php printf( __( '', 'cristobalj' ));?></a>
+            <a href="#Tarot" class="cambia imgChange9 textBig"><?php printf( __( '', 'cristobalj' ));?></a>
+            <a href="#Videos" class="cambia imgChange10 textSmall"><?php printf( __( '', 'cristobalj' ));?></a>
+            <a href="#Colectiva" class="cambia imgChange7 textBig"><?php printf( __( 'Psicomagia Colectiva', 'cristobalj' ));?></a>
+            <a href="#Teachers" class="cambia imgChange12 textSmall"><?php printf( __( '', 'cristobalj' ));?></a>
+            <a href="#Psicoteatro" class="cambia imgChange11 textBig"><?php printf( __( 'Psicoteatro', 'cristobalj' ));?></a>
+            <a href="#Press" class="cambia imgChange14 textSmall"><?php printf( __( '', 'cristobalj' ));?></a>
+            <a href="#Tarot" class="cambia imgChange3 textBig"><?php printf( __( 'Tarot', 'cristobalj' ));?></a>
+            <a href="#Art" class="cambia imgChange16 textSmall"><?php printf( __( '', 'cristobalj' ));?></a>
           </div>
         </div>
 
