@@ -18,7 +18,6 @@ get_header(); ?>
         </div>
       </div>
       <div id="sidebar_2" class="col-lg-4 text-center">
-          <?php echo $resultados ?>
         <div id="prox_events" class="container mt-3 mb-5">
           <h3 class="text-uppercase ">¡Próximos Eventos!</h3>
           <?php echo do_shortcode('[smartslider3 slider=3]'); ?>

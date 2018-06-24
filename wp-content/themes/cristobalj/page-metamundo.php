@@ -55,6 +55,7 @@ get_header(); ?>
             <?php printf(__('Study plan','cristobalj')) ?>
           </h2>
           <h3>Primer año (2018)</h3>
+          <p class="h4">De click sobre algún módulo para ir a la descripción del mismo</p>
           <div id="blocksContainer">
             <ul>
               <li class="metaBlock"><a class="active" href="#block1"><?php printf(__('Módulo 1','cristobalj')) ?></a></li>
@@ -74,11 +75,14 @@ get_header(); ?>
       <h3>
         <?php printf(__('"Next generations"','cristobalj')) ?>
       </h3>
-      <p class="text-center text-dark mb-0">
+      <p class="h5 text-center text-uppercase text-dark mb-0">
         <?php printf(__('Mexico - febrero','cristobalj')) ?>
       </p>
-      <p class="text-center text-dark mb-0">
+      <p class="h5 text-center text-uppercase text-dark mb-0">
         <?php printf(__('Uruguay - junio','cristobalj')) ?>
+      </p>
+      <p class="h5 text-center text-dark mb-0">
+        <?php printf(__('ITALIA – SEPTIEMBRE','cristobalj')) ?>
       </p>
     </div>
   </div>

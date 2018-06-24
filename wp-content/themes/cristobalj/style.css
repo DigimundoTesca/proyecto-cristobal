@@ -3756,6 +3756,11 @@ text-align: center !important;
      width: 100%;
      padding: 1rem;
    }
+   #tarotImgMovil {
+     max-width: 87%;
+    display: block;
+    margin: 0 auto;
+   }
    .es_lablebox {
      margin-top: 4em;
    }

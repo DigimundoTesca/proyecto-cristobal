@@ -22,7 +22,7 @@ get_header(); ?>
         </div>
         <div id="contactText" class="container my-5 text-center">
           <p id="fraseContacto" class=" pt-3 h5 text-jDe ustify text-center">
-            <?php printf( __( '"No importa donde te encuentres siempre podras crear"', 'cristobalj' )); ?>
+            <?php printf( __( '“EL MUNDO ES UNA RED, ESTAMOS CONECTADOS"', 'cristobalj' )); ?>
           </p>
           <p class="text-right mb-2"><b>Cristobal Jodorowsky</b></p>
         </div>
