@@ -87,7 +87,7 @@ jQuery(document).ready(function(){
       console.log("tmbiem")
       paises[i].innerHTML = '<i class="fa fa-archive" aria-hidden="true"></i> Talleres de estudio'
     }
-    else if (paises[i].text == "   Mes   ") {
+    else if (paises[i].text == "   Agenda   ") {
       paises[i].style.display = "none"
     }
   }

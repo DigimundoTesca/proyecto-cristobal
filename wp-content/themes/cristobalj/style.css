@@ -1316,6 +1316,9 @@ label.es_shortcode_form_email span {
   overflow-y: scroll;
   margin-bottom: 30px;
   max-height: 1000px;
+  background: #f5f5f5;
+
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .tituloAgenda {
   font-size: 30px;
@@ -1325,6 +1328,14 @@ label.es_shortcode_form_email span {
   margin: 0;
   padding-left: 21%;
   border-bottom: 1px solid #f8b101;
+}
+#datesContainer h3 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  padding-left: 10px;
+  margin: 0;
+  background: #f8b101;
 }
 #datesContainer h4 {
   text-align: center;
@@ -3059,6 +3070,11 @@ input.wpcf7-form-control.wpcf7-submit {
     line-height: 100px;
     padding-left: 22%;
   }
+  #datesContainer h3 {
+    font-size: 50px;
+    line-height: 100px;
+    padding-left: 22%;
+  }
   #datesContainer h4 {
     font-size: 30px;
   }
@@ -3315,7 +3331,8 @@ input.wpcf7-form-control.wpcf7-submit {
     max-width: 800px;
   }
   .more {
-    margin: 0 3%;
+    margin: 0 3.35%;
+    margin-left: 1.35%;
   }
   .morevideo {
     width: 100%;
@@ -4041,6 +4058,9 @@ text-align: center !important;
   #news-title {
     font-size: 5em;
   }
+  #main > p {
+    font-size: 4em;
+  }
   .Tweets {
       display: none !important;
   }
@@ -4076,10 +4096,10 @@ text-align: center !important;
   }
 }
 .changeB {
-  -webkit-transition: background-image 2s ease-out;
-  -moz-transition: background-image 2s ease-out;
-  -o-transition: background-image 2s ease-out;
-  transition: background-image 2s ease-out;
+  -webkit-transition: background-image .25s ease-out;
+  -moz-transition: background-image .25s ease-out;
+  -o-transition: background-image .25s ease-out;
+  transition: background-image .25s ease-out;
 }
 #new_agenda .ai1ec-month-view th {
   font-family: "ACaslonPro-regular" !important;
@@ -4111,6 +4131,7 @@ text-align: center !important;
   background: #e89a02 !important;
   margin-bottom: 0 !important;
    text-shadow: 2px 2px 8px rgba(0,0,0,0.5) !important;
+   border-radius: 0!important;
 }
  #new_agenda .ai1ec-btn-toolbar {
    padding-top: 0 !important;
@@ -4148,4 +4169,8 @@ text-align: center !important;
 #new_agenda #datesContainer {
   box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
   overflow-y: none;
+}
+
+#new_agenda .ai1ec-clearfix .ai1ec-pull-right {
+  display: none !important;
 }
