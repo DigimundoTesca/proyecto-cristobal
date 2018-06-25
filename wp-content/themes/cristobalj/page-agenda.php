@@ -12,8 +12,7 @@ get_header(); ?>
     </h3>
     <div class="row" id="new_agenda">
       <div class="sidebar_1 col-md-12 col-lg-8 justify-content-center">
-        <div id="datesContainer" class="mt-3 text-center" >
-
+        <div id="datesContainer" class="mt-5 text-center" >
           <div id="ag" class="calendar"><?php echo do_shortcode('[ai1ec view="month"]'); ?></div>
         </div>
       </div>

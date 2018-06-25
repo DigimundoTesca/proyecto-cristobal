@@ -369,7 +369,7 @@ a:active {
 }
 
 .main-navigation ul ul a {
-  width: 200px;
+  width: 171px;
 }
 
 .main-navigation ul ul li {
@@ -1821,6 +1821,10 @@ input.wpcf7-form-control.wpcf7-submit {
   body {
     margin: 2.5%;
   }
+  .main-navigation ul ul a {
+    width: 171px;
+
+  }
   /*Div selector for change images on Know more section banner*/
   #kmorebannercontainer {
     display: flex;
@@ -2811,10 +2815,26 @@ input.wpcf7-form-control.wpcf7-submit {
 /*4k styles*/
 @media screen and (min-width: 2000px) {
   /*Agenda template*/
-  #dock li img {
-    width: 120px !important;
-    height: 120px !important;
-    }
+.main-navigation ul ul a {
+  width: 318px !important;
+}
+#new_agenda .ai1ec-next-year {
+  right: -7.5em !important;
+}
+#new_agenda .ai1ec-prev-year {
+  left: -8em !important;
+}
+#new_agenda .ai1ec-month-view th {
+  font-size: 25px !important;
+}
+#new_agenda .calendar div.ai1ec-clearfix a.ai1ec-minical-trigger.ai1ec-btn.ai1ec-btn-sm.ai1ec-btn-default.ai1ec-tooltip-trigger span {
+  font-size: 46px !important;
+  margin-top: -.05em !important;
+}
+#new_agenda .ai1ec-pagination a {
+  font-size: 30px !important;
+  padding: 5px 20px; 
+}
   #new_agenda .ai1ec-event-avatar img {
     max-height: 500px !important;
   }
@@ -2822,7 +2842,7 @@ input.wpcf7-form-control.wpcf7-submit {
     max-height: 600px !important;
   }
   .agenda #datesContainer #ag {
-    height: 678px !important;
+    height: 1154px !important;
 
   }
   #cal #ai1ec-calendar-view > table {
@@ -2879,7 +2899,10 @@ input.wpcf7-form-control.wpcf7-submit {
   }
   .timely a{
     margin-top: 1rem !important;
-    font-size: 16px !important;
+    font-size: 16px;
+  }
+  #ag .timely a {
+    font-size: 25px;
   }
   #ai1ec-calendar-view > div.ai1ec-agenda-view > div > a > div.ai1ec-day {
     font-size: 2em !important;
@@ -2943,7 +2966,13 @@ input.wpcf7-form-control.wpcf7-submit {
     text-align: center;
   }
   .calendar .ai1ec-event-title {
-    font-size: 22px !important;
+    font-size: 22px;
+  }
+  #new_agenda .ai1ec-month-view td {
+    height: 180px !important;
+  }
+  #ag .calendar .ai1ec-event-title {
+    font-size: 30px !important;
   }
   .site-title {
     font-size: 50px;
@@ -3868,9 +3897,9 @@ text-align: center !important;
   display: block;
   margin: 0 auto;
   overflow: hidden;
-  height: 1250px;
   height: auto;
   }
+
 .agenda #datesContainer #ag {
   padding: 1em;
   display: block;
@@ -4080,7 +4109,8 @@ text-align: center !important;
     height: 700px !important;
   }
   .agenda #datesContainer {
-    height: 1300px !important;
+    height: 1155px !important;
+    margin-top: 6em !important;
   }
 }
 
@@ -4111,7 +4141,7 @@ text-align: center !important;
   background: #f8b101 !important;
   font-weight: lighter !important;
   color: #fff !important;
-  font-size: 17px !important;
+  font-size: 17px;
 }
 #new_agenda .ai1ec-month-view td {
   border: 1px solid #f8b101 !important;
@@ -4154,7 +4184,7 @@ text-align: center !important;
 #new_agenda .ai1ec-pagination a {
   color: #FFF !important;
   text-shadow:2px 2px 8px rgba(0,0,0,0.65);
-  font-size: 20px !important;
+  font-size: 20px;
 }
 #new_agenda .ai1ec-prev-year {
   left: -4em;
@@ -4162,7 +4192,7 @@ text-align: center !important;
 #new_agenda .ai1ec-next-year {
   position: relative !important;
   display: block !important;
-  right: -3.5em !important;
+  right: -3.5em;
 }
 #new_agenda .calendar div.ai1ec-clearfix a.ai1ec-minical-trigger.ai1ec-btn.ai1ec-btn-sm.ai1ec-btn-default.ai1ec-tooltip-trigger {
   background: none !important;
@@ -4178,4 +4208,14 @@ text-align: center !important;
 
 #new_agenda .ai1ec-clearfix .ai1ec-pull-right {
   display: none !important;
+}
+.main-navigation ul ul a {
+  background: #002983;
+}
+
+@media screen and (min-width: 768px) {
+  #new_agenda #datesContainer {
+    margin-top: 6em !important;
+  }
+
 }

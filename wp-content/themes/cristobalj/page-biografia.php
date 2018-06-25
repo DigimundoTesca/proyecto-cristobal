@@ -27,7 +27,7 @@ get_header(); ?>
         <br>
         <div class="video_container">
           <video controls>
-            <source src="https://s3-us-west-2.amazonaws.com/cristobalbucket/law/01/Mi+Historia+personal+con+el+Tarot+2.mp4">
+            <source src="https://s3-us-west-2.amazonaws.com/cristobalbucket/law/05/Introduccion/Mi+historia+personal+1.mp4">
           </video>
         </div>
       </div>
