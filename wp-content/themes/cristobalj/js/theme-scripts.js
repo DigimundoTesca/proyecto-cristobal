@@ -336,71 +336,81 @@ jQuery(document).ready(function(){
 
   // Change images on Know more banner
   (function($) {
+    $(document).ready(function() {
+  // Instrucciones a ejecutar al terminar la carga
+      var templateUr = object_uri.templateUrl;
 
-    $("ai1ec-clearfix div").addClass("d-flex");
+      // Prevent know more 'a' tags to redirect
 
-    // Prevent know more 'a' tags to redirect
+      var contenedor = $('.changeB');
+      var imagenes = ['03.jpg', 'tarot.jpeg', 'constelaciones.jpg', '003-min.jpg', '01.JPG', 'psico.jpg', 'arbol.Jpg', '06-min.JPG'];
+      var tiempo = 2600;
+      contenedor.css({'background-image':'url(../wp-content/themes/cristobalj/images/cristobal/03.jpg)'});
 
-    var contenedor = $('.changeB');
-    var imagenes = ['03.jpg', 'tarot.jpeg', 'constelaciones.jpg', '003-min.jpg', '01-min.JPG', 'psico.jpg', 'arbol.jpg', '06-min.JPG'];
-    var tiempo = 2600;
-    contenedor.css({'background-image':'url(../wp-content/themes/cristobalj/images/cristobal/03.jpg)'});
+      function image(){
+      setTimeout(function() {
+      contenedor.fadeIn('slow', 0.5, function() {
+      $(this).css('background-image', 'url('+templateUr+'/images/cristobal/'+ imagenes[Math.floor(Math.random() * imagenes.length)] + ')');
+      image();}).fadeIn('slow', 0.5); },tiempo); }
 
-    function image(){
-    setTimeout(function() {
-    contenedor.fadeIn('slow', 0.5, function() {
-    $(this).css('background-image', 'url('+templateUr+'/images/cristobal/'+ imagenes[Math.floor(Math.random() * imagenes.length)] + ')');
-    image();}).fadeIn('slow', 0.5); },tiempo); }
+    imagen = true;
 
-    image().delay(500);
     // Prevent know more 'a' tags to redirect
     $("#bigkmoreContainer a").click(function(event){
       event.preventDefault();
     });
-    var templateUr = object_uri.templateUrl;
+
     $('.imgChange1').mouseover(function() {
       $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/psicomagia/03.jpg)');
         tiempo = 5000;
-        $('.bigkmoreContainer img').removeClass("changeB");
+        imagen = false;
     });
     $('.imgChange3').mouseover(function() {
       $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/tarot.jpeg)');
       tiempo = 5000;
-      $('.bigkmoreContainer img').removeClass("changeB");
+      imagen = false;
     });
     $('.imgChange5').mouseover(function() {
       $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/constelaciones/constelaciones.jpg)');
       tiempo = 5000;
-      $('.bigkmoreContainer img').removeClass("changeB");
+      imagen = false;
     });
     $('.imgChange7').mouseover(function() {
       $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/psicomagia-colectiva/003-min.jpg)');
       tiempo = 5000;
-      $('.bigkmoreContainer img').removeClass("changeB");
+      imagen = false;
     });
     $('.imgChange9').mouseover(function() {
-      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/viajes/01-min.jpg)');
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/viajes/01.JPG)');
       tiempo = 5000;
-      $('.bigkmoreContainer img').removeClass("changeB");
+      imagen = false;
     });
     $('.imgChange11').mouseover(function() {
       $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/psico.jpg)');
       tiempo = 5000;
-      $('.bigkmoreContainer img').removeClass("changeB");
+      imagen = false;
     });
     $('.imgChange13').mouseover(function() {
-      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/arbo.Jpg)');
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/arbol.Jpg)');
       tiempo = 5000;
-      $('.bigkmoreContainer img').removeClass("changeB");
+      imagen = false;
     });
     $('.imgChange15').mouseover(function() {
       $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/psicochamanismo/06-min.JPG)');
       tiempo = 5000;
-      $('.bigkmoreContainer img').removeClass("changeB");
+      imagen = false;
     });
     $('.cambia').mouseout(function(){
       tiempo = 2600;
       $('.bigkmoreContainer img').addClass("changeB");
-
-    })
+      imagen = true;
+      })
+      if(imagen == true){
+        image();
+        console.log("True");
+      }else{
+        
+        console.log("stop");
+      }
+    });
   })(jQuery);
