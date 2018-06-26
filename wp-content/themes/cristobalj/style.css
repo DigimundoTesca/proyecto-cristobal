@@ -2818,6 +2818,7 @@ input.wpcf7-form-control.wpcf7-submit {
 .main-navigation ul ul a {
   width: 318px !important;
 }
+
 #new_agenda .ai1ec-next-year {
   right: -7.5em !important;
 }
@@ -2833,7 +2834,7 @@ input.wpcf7-form-control.wpcf7-submit {
 }
 #new_agenda .ai1ec-pagination a {
   font-size: 30px !important;
-  padding: 5px 20px; 
+  padding: 5px 20px;
 }
   #new_agenda .ai1ec-event-avatar img {
     max-height: 500px !important;
@@ -4218,4 +4219,28 @@ text-align: center !important;
     margin-top: 6em !important;
   }
 
+}
+.sub-menu {
+  margin-top: 2px !important;
+}
+.sub-menu li {
+  background: #002983 !important;
+  padding-right: 0;
+}
+.sub-menu li a {
+  text-align: center;
+    background: #002983;
+}
+.sub-menu li a:hover{
+  width: 171px !important;
+  background: #154FCF;
+  padding-right: 0;
+  padding-left: 0;
+  color: #fff;
+  font-weight: normal;
+}
+@media screen and (min-width: 2000px) {
+  .sub-menu li a:hover{
+    width: 318px !important;
+    }
 }
