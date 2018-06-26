@@ -352,7 +352,7 @@ jQuery(document).ready(function(){
     $(this).css('background-image', 'url('+templateUr+'/images/cristobal/'+ imagenes[Math.floor(Math.random() * imagenes.length)] + ')');
     image();}).fadeIn('slow', 0.5); },tiempo); }
 
-    image();
+    image().delay(500);
     // Prevent know more 'a' tags to redirect
     $("#bigkmoreContainer a").click(function(event){
       event.preventDefault();
@@ -379,7 +379,7 @@ jQuery(document).ready(function(){
       $('.bigkmoreContainer img').removeClass("changeB");
     });
     $('.imgChange9').mouseover(function() {
-      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/viajes/01-min.JPG)');
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/viajes/01-min.jpg)');
       tiempo = 5000;
       $('.bigkmoreContainer img').removeClass("changeB");
     });
@@ -389,7 +389,7 @@ jQuery(document).ready(function(){
       $('.bigkmoreContainer img').removeClass("changeB");
     });
     $('.imgChange13').mouseover(function() {
-      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/arbol.Jpg)');
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/arbo.Jpg)');
       tiempo = 5000;
       $('.bigkmoreContainer img').removeClass("changeB");
     });

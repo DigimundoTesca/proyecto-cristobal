@@ -12,13 +12,11 @@ get_header(); ?>
     </h3>
     <div class="row" id="new_agenda">
       <div class="sidebar_1 col-md-12 col-lg-8 justify-content-center">
-        <div id="datesContainer" class="mt-3 text-center" >
-
+        <div id="datesContainer" class="mt-5 text-center" >
           <div id="ag" class="calendar"><?php echo do_shortcode('[ai1ec view="month"]'); ?></div>
         </div>
       </div>
       <div id="sidebar_2" class="col-lg-4 text-center">
-          <?php echo $resultados ?>
         <div id="prox_events" class="container mt-3 mb-5">
           <h3 class="text-uppercase ">¡Próximos Eventos!</h3>
           <?php echo do_shortcode('[smartslider3 slider=3]'); ?>
