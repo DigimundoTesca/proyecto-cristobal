@@ -344,7 +344,7 @@ jQuery(document).ready(function(){
 
       var contenedor = $('.changeB');
       var imagenes = ['03.jpg', 'tarot.jpg', 'constelaciones.jpg', '003-min.jpg', '01.JPG', 'psico.jpg', 'arbol.Jpg', '06-min.JPG'];
-      var tiempo = 2800;
+      var tiempo = 4000;
       contenedor.css({'background-image':'url(../wp-content/themes/cristobalj/images/cristobal/03.jpg)'});
 
       function image(){
