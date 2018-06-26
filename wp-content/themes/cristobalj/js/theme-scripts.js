@@ -343,15 +343,15 @@ jQuery(document).ready(function(){
       // Prevent know more 'a' tags to redirect
 
       var contenedor = $('.changeB');
-      var imagenes = ['03.jpg', 'tarot.jpeg', 'constelaciones.jpg', '003-min.jpg', '01.JPG', 'psico.jpg', 'arbol.Jpg', '06-min.JPG'];
-      var tiempo = 2600;
+      var imagenes = ['03.jpg', 'tarot.jpg', 'constelaciones.jpg', '003-min.jpg', '01.JPG', 'psico.jpg', 'arbol.Jpg', '06-min.JPG'];
+      var tiempo = 2800;
       contenedor.css({'background-image':'url(../wp-content/themes/cristobalj/images/cristobal/03.jpg)'});
 
       function image(){
       setTimeout(function() {
-      contenedor.fadeIn('slow', 0.5, function() {
+      contenedor.fadeIn('slow', function() {
       $(this).css('background-image', 'url('+templateUr+'/images/cristobal/'+ imagenes[Math.floor(Math.random() * imagenes.length)] + ')');
-      image();}).fadeIn('slow', 0.5); },tiempo); }
+      image();}).fadeIn('slow'); },tiempo); }
 
     imagen = true;
 
@@ -366,7 +366,7 @@ jQuery(document).ready(function(){
         imagen = false;
     });
     $('.imgChange3').mouseover(function() {
-      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/tarot.jpeg)');
+      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/tarot.jpg)');
       tiempo = 5000;
       imagen = false;
     });
@@ -409,8 +409,20 @@ jQuery(document).ready(function(){
         image();
         console.log("True");
       }else{
-        
+
         console.log("stop");
       }
     });
-  })(jQuery);
+    jQuery(document).ready(function() {
+    jQuery(function () {
+    jQuery(window).scroll(function () {
+    if (jQuery(this).scrollTop() > 200) {
+    jQuery('#IrArriba').fadeIn();
+    } else {
+    jQuery('#IrArriba').fadeOut();
+    }
+    });
+    });
+
+    });
+})(jQuery);

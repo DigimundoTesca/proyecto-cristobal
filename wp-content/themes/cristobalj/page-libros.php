@@ -44,6 +44,9 @@ get_header(); ?>
 
       </main><!-- #main -->
     </div><!-- #primary -->
+    <div id="bannerBook" class="container-fluid ">
+      <?php get_template_part( 'secondarybanner' );  ?>
+    </div>
   </div>
   <div id="sidebar_2" class="col-md-12 col-lg-4 col-xl-3 text-center">
     <?php get_template_part('agenda');  ?>
