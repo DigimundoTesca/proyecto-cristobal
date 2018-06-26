@@ -3,12 +3,14 @@
  * Template for displaying Know More page */
 
 get_header(); ?>
-<span style="font-size: 50px;" class="ir-arriba fa fa-angle-up"></span>
+<div id='IrArriba'>
+<a href='#top'><span/></a>
+</div>
 <div class="row">
   <div class="col-md-12 col-lg-8 col-xl-9">
     <div id="primary" class="content-area">
       <main id="main" class="site-main">
-        <p class="h1 d-inline-block mt-5 mb-0"><b><?php printf( __( '¡Escoja un Tema!', 'cristobalj' ));?></b></p>
+        <p id="top" class="h1 d-inline-block mt-5 mb-0"><b><?php printf( __( '¡Escoja un Tema!', 'cristobalj' ));?></b></p>
         <p class="h4">Solo de click sobre el tema de su interés</p>
         <div id="kmorebannercontainer">
           <img id="knowmore" class="mobilekmore" src="<?php echo get_template_directory_uri(); ?>/images/kmore.PNG" alt="banner know more">
