@@ -85,7 +85,7 @@ jQuery(document).ready(function(){
     }
     else if (paises[i].text == "     Etiquetas:  ") {
       console.log("tmbiem")
-      paises[i].innerHTML = '<i class="fa fa-archive" aria-hidden="true"></i> Talleres de estudio'
+      paises[i].innerHTML = '<i class="fa fa-archive" aria-hidden="true"></i> Temas'
     }
     else if (paises[i].text == "   Agenda   ") {
       paises[i].style.display = "none"
@@ -425,4 +425,9 @@ jQuery(document).ready(function(){
     });
 
     });
+    
+    if (window.matchMedia('(max-width: 767px)').matches) {
+      $('#primary').removeClass("agenda");
+      console.log("No mames ");
+    }
 })(jQuery);

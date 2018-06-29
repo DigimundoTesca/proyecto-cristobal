@@ -6,7 +6,7 @@ get_header(); ?>
 <div id="primary" class="biografia content-area">
   <main id="main" class="site-main">
     <ul class="psicoteatro-slide">
-      <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/biografia/01.jpg" alt=""></li>
+      <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/biografia/01.jpeg" alt=""></li>
       <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/biografia/02.JPG" alt=""></li>
       <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/biografia/09.jpg" alt=""></li>
       <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/biografia/12.png" alt=""></li>
