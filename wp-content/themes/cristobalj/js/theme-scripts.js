@@ -344,10 +344,9 @@ jQuery(document).ready(function(){
 
       var contenedor = $('.changeB');
       var imagenes = ['03.jpg', 'tarot.jpg', 'constelaciones.jpg', '003-min.jpg', '01.JPG', 'psico.jpg', 'arbol.Jpg', '06-min.JPG'];
-      var tiempo = 4000;
-      contenedor.css({'background-image':'url(../wp-content/themes/cristobalj/images/cristobal/03.jpg)'});
+      var tiempo = 3500;
 
-      function image(){
+      var cambia = function image(){
       setTimeout(function() {
       contenedor.fadeIn('slow', function() {
       $(this).css('background-image', 'url('+templateUr+'/images/cristobal/'+ imagenes[Math.floor(Math.random() * imagenes.length)] + ')');
@@ -405,18 +404,12 @@ jQuery(document).ready(function(){
       $('.bigkmoreContainer img').addClass("changeB");
       imagen = true;
       })
-      if(imagen == true){
-        image();
-        console.log("True");
-      }else{
-
-        console.log("stop");
-      }
+      cambia.delay(2800);
     });
     jQuery(document).ready(function() {
     jQuery(function () {
     jQuery(window).scroll(function () {
-    if (jQuery(this).scrollTop() > 200) {
+    if (jQuery(this).scrollTop() > 250) {
     jQuery('#IrArriba').fadeIn();
     } else {
     jQuery('#IrArriba').fadeOut();
@@ -425,9 +418,4 @@ jQuery(document).ready(function(){
     });
 
     });
-    
-    if (window.matchMedia('(max-width: 767px)').matches) {
-      $('#primary').removeClass("agenda");
-      console.log("No mames ");
-    }
 })(jQuery);

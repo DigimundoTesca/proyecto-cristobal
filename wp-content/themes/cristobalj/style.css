@@ -4155,38 +4155,6 @@ text-align: center !important;
   #new_agenda #datesContainer {
     margin-top: 6em !important;
   }
-  #new_agenda .ai1ec-month-view th {
-    font-family: "ACaslonPro-regular" !important;
-    background: #f8b101 !important;
-    font-weight: lighter !important;
-    color: #fff !important;
-    font-size: 17px;
-  }
-  #new_agenda .ai1ec-month-view td {
-    border: 1px solid #f8b101 !important;
-  }
-  #new_agenda .ai1ec-date {
-    text-align: left !important;
-    font-size: 1.32em !important;
-    color: #f8b101 !important;
-    margin-top: 16px !important;
-    background-color: transparent !important;
-  }
-  #new_agenda .ai1ec-date > .ai1ec-load-view {
-      color: #f8b101 !important;
-      font-weight: 900 !important;
-  }
-  #new_agenda #ag , #new_agenda .calendar .ai1ec-calendar-toolbar{
-    border: 4px solid #e89a02;
-    border-bottom: 24px solid #e89a02;
-    padding: 0 !important
-  }
-  #new_agenda .calendar .ai1ec-calendar-toolbar , #new_agenda .ai1ec-btn-toolbar{
-    background: #e89a02 !important;
-    margin-bottom: 0 !important;
-     text-shadow: 2px 2px 8px rgba(0,0,0,0.5) !important;
-     border-radius: 0!important;
-  }
    #new_agenda .ai1ec-btn-toolbar {
      padding-top: 0 !important;
 
@@ -4201,8 +4169,6 @@ text-align: center !important;
     display: flex;
   }
   #new_agenda .ai1ec-pagination a {
-    color: #FFF !important;
-    text-shadow:2px 2px 8px rgba(0,0,0,0.65);
     font-size: 20px;
   }
   #new_agenda .ai1ec-prev-year {
@@ -4223,10 +4189,6 @@ text-align: center !important;
   #new_agenda #datesContainer {
     box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
     overflow-y: none;
-  }
-
-  #new_agenda .ai1ec-clearfix .ai1ec-pull-right {
-    display: none !important;
   }
 
 }
@@ -4294,7 +4256,68 @@ background: url(http://lh5.googleusercontent.com/-luDGEoQ_WZE/T1Ak-gta5MI/AAAAAA
    .sub-menu li:last-child a::before {
      content: '\f03d' !important;
    }
+   #primary h3 {
+     text-align: center;
+     padding: 0;
+     border-bottom: none;
+   }
+   #new_agenda #datesContainer {
+     max-width: 100%;
+     height: 645px !important;
+     overflow: inherit;
+   }
+   div.ai1ec-clearfix > .ai1ec-btn-toolbar {
+     display: flex !important;
+     justify-content: center !important;
+     text-align: center !important;
+   }
+   #ag {
+     height: 645px !important;
+     border-radius: 10px;
+   }
 }
 #datesContainer {
-  border-radius: 10px; 
+  border-radius: 10px;
+
 }
+#new_agenda .calendar .ai1ec-calendar-toolbar , #new_agenda .ai1ec-btn-toolbar{
+  background: #e89a02 !important;
+  margin-bottom: 0 !important;
+   text-shadow: 2px 2px 8px rgba(0,0,0,0.5) !important;
+   border-radius: 0!important;
+}
+#new_agenda .ai1ec-date > .ai1ec-load-view {
+    color: #f8b101 !important;
+    font-weight: 900 !important;
+}
+#new_agenda .ai1ec-date {
+  text-align: left !important;
+  font-size: 1.32em !important;
+  color: #f8b101 !important;
+  margin-top: 16px !important;
+  background-color: transparent !important;
+}
+#new_agenda .ai1ec-pagination a {
+  color: #FFF !important;
+  text-shadow:2px 2px 8px rgba(0,0,0,0.65);
+  font-size: 18px;
+}
+#new_agenda .ai1ec-month-view th {
+  font-family: "ACaslonPro-regular" !important;
+  background: #f8b101 !important;
+  font-weight: lighter !important;
+  color: #fff !important;
+  font-size: 17px;
+}
+#new_agenda #ag , #new_agenda .calendar .ai1ec-calendar-toolbar{
+  border: 4px solid #e89a02;
+  border-bottom: 24px solid #e89a02;
+  padding: 0 !important
+}
+#new_agenda .ai1ec-month-view td {
+  border: 1px solid #f8b101 !important;
+}
+
+  #new_agenda .ai1ec-clearfix .ai1ec-pull-right {
+    display: none !important;
+  }

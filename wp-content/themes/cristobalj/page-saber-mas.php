@@ -192,8 +192,21 @@ get_header(); ?>
             <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/09-min.jpg" alt=""></li>
             <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/11-min.jpg" alt=""></li>
             <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/12-min.jpg" alt=""></li>
-            <li class="pslide"><img src="<?php echo get_template_directory_uri(); ?>/images/cristobal/psicoteatro/14.png" alt=""></li>
           </ul>
+          <div class="row">
+            <div class="col-md-3">
+              <iframe class="morevideo" width="100%" src="https://www.youtube.com/embed/mcyvjekIsmg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-3">
+              <iframe class="morevideo" width="100%" src="https://www.youtube.com/embed/Jh2dezVP3f0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-3">
+              <iframe class="morevideo" width="100%" src="https://www.youtube.com/embed/KEanng62uhA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-3">
+              <iframe class="morevideo" width="100%" src="https://www.youtube.com/embed/-O979HiZi-s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+          </div>
         </div>
 
         <div id="mainContainer" class="more"><br>
