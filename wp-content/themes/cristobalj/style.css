@@ -3104,10 +3104,14 @@ input.wpcf7-form-control.wpcf7-submit {
     line-height: 100px;
     padding-left: 22%;
   }
-  #datesContainer h3 {
+  #new_agenda #datesContainer h3 {
     font-size: 50px;
     line-height: 100px;
     padding-left: 22%;
+  }
+  #datesContainer h3 {
+    font-size: 50px;
+    line-height: 100px;
   }
   #datesContainer h4 {
     font-size: 30px;
@@ -4119,7 +4123,7 @@ text-align: center !important;
     height: 700px !important;
   }
   .agenda #datesContainer {
-    height: 1155px !important;
+    height: 1156px !important;
     margin-top: 6em !important;
   }
 }
