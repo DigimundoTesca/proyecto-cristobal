@@ -18,7 +18,7 @@ get_header(); ?>
       </div>
       <div id="sidebar_2" class="col-lg-4 text-center">
         <div id="prox_events" class="container mt-3 mb-5">
-          <h3 class="text-uppercase ">¡Próximos Eventos!</h3>
+          <h3 class="text-uppercase mb-4 mt-4">¡Próximos Eventos!</h3>
           <?php echo do_shortcode('[smartslider3 slider=3]'); ?>
         </div>
           <?php get_template_part( 'twitter' );?>

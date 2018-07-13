@@ -344,7 +344,7 @@ jQuery(document).ready(function(){
       var cambiar = []
       var imagen = new Image();
       for (var i=0; i < imagenes.length; i++) {
-        imagen.src = templateUr+ "/images/cristobal/" + imagenes[i];+ "'"
+        imagen.src = templateUr + "/images/cristobal/" + imagenes[i];+ "'"
         cambiar.push(imagen.src);
       }
       var tiempo = 3500;
@@ -352,7 +352,8 @@ jQuery(document).ready(function(){
       setTimeout(function() {
         contenedor.fadeIn('slow', function() {
           $(this).css('background-image', 'url(' + cambiar[Math.floor(Math.random() * cambiar.length)] + ')');
-          image();}).fadeIn('slow'); },tiempo); }
+          image();}).fadeIn('slow'); },tiempo);
+        }
 
     // Prevent know more 'a' tags to redirect
     $("#bigkmoreContainer a").click(function(event){
@@ -396,7 +397,10 @@ jQuery(document).ready(function(){
       $('.bigkmoreContainer img').addClass("changeB");
       imagen = true;
       })
-      cambia.delay(3000);
+      $( window ).load(function() {
+        cambia.delay(500);
+      });
+
     });
     jQuery(document).ready(function() {
     jQuery(function () {

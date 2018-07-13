@@ -2467,7 +2467,7 @@ input.wpcf7-form-control.wpcf7-submit {
     left: -80px !important;
   }
   .agenda #datesContainer #ag {
-    height: 620px;
+    height: 643px;
   }
   .n2-ow {
     max-height: 300px;
@@ -3794,6 +3794,10 @@ text-align: center !important;
      width: 100%;
      padding: 1rem;
    }
+
+ .agenda #datesContainer #ag {
+   overflow-y: scroll;
+ }
    #tarotImgMovil {
      max-width: 87%;
     display: block;
@@ -3832,10 +3836,7 @@ text-align: center !important;
      display: block;
      height: 590px;
    }
-   /*inico page*/
-   #banner {
-     background-size: auto 112%!important;
-   }
+
    #new_agenda .ai1ec-agenda-view {
      padding: 0 !important;
    }
@@ -3844,6 +3845,12 @@ text-align: center !important;
    }
    .agenda #datesContainer {
      max-width: 100%;
+   }
+   #banner, #banner1 {
+     background-size: cover !important;
+   }
+   .bannermobile {
+     min-height: 230px;
    }
  }
 
@@ -3932,7 +3939,9 @@ text-align: center !important;
 }
 #prox_events {
   background-color: #f5f5f5;
-  padding-top: .5em;
+  padding: .5em;
+  padding-bottom: 1em;
+  border-radius: 10px;
   box-shadow:0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -4032,38 +4041,6 @@ text-align: center !important;
     margin-top: 2em;
   }
 
-  #dock-container {
-    position: fixed;
-    top: 35%;
-    z-index: 100;
-  }
-  #dock ul {
-    list-style: none;
-    padding:0;
-    margin: .5em;
-  }
-
-  #dock li img {
-    width: 68px;
-    height: 68px;
-    -webkit-box-reflect: below 2px
-    -webkit-gradient(linear, left top, left bottom, from(transparent),
-    color-stop(0.7, transparent), to(rgba(255,255,255,.5))); /* reflection is supported by webkit only */
-    -webkit-transition: all 0.3s;
-    -webkit-transform-origin: 50% 100%;
-  }
-
-  #dock li:hover img {
-    -webkit-transform: scale(2.15);
-    margin: 0 2em;
-  }
-
-  #dock li:hover + li img,
-  #dock li.prev img {
-    -webkit-transform: scale(1.4);
-    margin: 0 1.5em;
-  }
-
   #consult-template .grid-news-thumb {
   box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -4143,6 +4120,7 @@ text-align: center !important;
   .ai1ec-tag-filter .ai1ec-dropdown-menu {
    min-width: 132px !important;
   }
+
 }
 .changeB {
   -webkit-transition: background-image .65s ease-out;
@@ -4325,3 +4303,37 @@ background: url(http://lh5.googleusercontent.com/-luDGEoQ_WZE/T1Ak-gta5MI/AAAAAA
   #new_agenda .ai1ec-clearfix .ai1ec-pull-right {
     display: none !important;
   }
+  div#n2-ss-3 .n2-ss-slider-3 {
+    height: 90% !important;
+  }
+  .contentEvents {
+    height: 350px;
+    padding: .2em;
+  }
+  #lateralAgenda h2 {
+    padding: .25em;
+    color: #f8b101;
+    border-bottom: 2px solid #f8b101;
+  }
+  #lateralAgenda #prox_events h3 {
+    font-size: 1.5em;
+    margin-top: 1rem;
+  }
+  @media screen and (max-width: 767px) {
+    #lateralAgenda #prox_events {
+      padding-bottom: 3em;
+    }
+  }
+  @media screen and (min-width: 2000px) {
+    #prox_events h3 {
+      font-size: 2em;
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem !important;
+    }
+    #lateralAgenda h2 {
+      font-size: 3rem;
+    }
+  }
+.grid-news-thumb {
+  box-shadow:0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
+}
