@@ -333,26 +333,27 @@ jQuery(document).ready(function(){
     }
   }
 
-
   // Change images on Know more banner
   (function($) {
     $(document).ready(function() {
   // Instrucciones a ejecutar al terminar la carga
       var templateUr = object_uri.templateUrl;
-
       // Prevent know more 'a' tags to redirect
-
       var contenedor = $('.changeB');
       var imagenes = ['03.jpg', 'tarot.jpg', 'constelaciones.jpg', '003-min.jpg', '01.JPG', 'psico.jpg', 'arbol.Jpg', '06-min.JPG'];
+      var cambiar = []
+      var imagen = new Image();
+      for (var i=0; i < imagenes.length; i++) {
+        imagen.src = templateUr + "/images/cristobal/" + imagenes[i];+ "'"
+        cambiar.push(imagen.src);
+      }
       var tiempo = 3500;
-
       var cambia = function image(){
       setTimeout(function() {
-      contenedor.fadeIn('slow', function() {
-      $(this).css('background-image', 'url('+templateUr+'/images/cristobal/'+ imagenes[Math.floor(Math.random() * imagenes.length)] + ')');
-      image();}).fadeIn('slow'); },tiempo); }
-
-    imagen = true;
+        contenedor.fadeIn('slow', function() {
+          $(this).css('background-image', 'url(' + cambiar[Math.floor(Math.random() * cambiar.length)] + ')');
+          image();}).fadeIn('slow'); },tiempo);
+        }
 
     // Prevent know more 'a' tags to redirect
     $("#bigkmoreContainer a").click(function(event){
@@ -360,51 +361,46 @@ jQuery(document).ready(function(){
     });
 
     $('.imgChange1').mouseover(function() {
-      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/psicomagia/03.jpg)');
+      $('.bigkmoreContainer img').css('background-image', 'url('+cambiar[0]+')');
         tiempo = 5000;
-        imagen = false;
     });
     $('.imgChange3').mouseover(function() {
-      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/tarot.jpg)');
+      $('.bigkmoreContainer img').css('background-image', 'url('+cambiar[1]+')');
       tiempo = 5000;
-      imagen = false;
     });
     $('.imgChange5').mouseover(function() {
-      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/constelaciones/constelaciones.jpg)');
+      $('.bigkmoreContainer img').css('background-image', 'url('+cambiar[2]+')');
       tiempo = 5000;
-      imagen = false;
     });
     $('.imgChange7').mouseover(function() {
-      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/psicomagia-colectiva/003-min.jpg)');
+      $('.bigkmoreContainer img').css('background-image', 'url('+cambiar[3]+')');
       tiempo = 5000;
-      imagen = false;
     });
     $('.imgChange9').mouseover(function() {
-      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/viajes/01.JPG)');
+      $('.bigkmoreContainer img').css('background-image', 'url('+cambiar[4]+')');
       tiempo = 5000;
-      imagen = false;
     });
     $('.imgChange11').mouseover(function() {
-      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/psico.jpg)');
+      $('.bigkmoreContainer img').css('background-image', 'url('+cambiar[5]+')');
       tiempo = 5000;
-      imagen = false;
     });
     $('.imgChange13').mouseover(function() {
-      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/arbol.Jpg)');
+      $('.bigkmoreContainer img').css('background-image', 'url('+cambiar[6]+')');
       tiempo = 5000;
-      imagen = false;
     });
     $('.imgChange15').mouseover(function() {
-      $('.bigkmoreContainer img').css('background-image', 'url('+templateUr+'/images/cristobal/psicochamanismo/06-min.JPG)');
+      $('.bigkmoreContainer img').css('background-image', 'url('+cambiar[7]+')');
       tiempo = 5000;
-      imagen = false;
     });
     $('.cambia').mouseout(function(){
       tiempo = 2600;
       $('.bigkmoreContainer img').addClass("changeB");
       imagen = true;
       })
-      cambia.delay(2800);
+      $( window ).load(function() {
+        cambia.delay(500);
+      });
+
     });
     jQuery(document).ready(function() {
     jQuery(function () {

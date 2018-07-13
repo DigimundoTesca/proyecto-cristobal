@@ -84,18 +84,18 @@ get_header(); ?>
     </div>
     <div class="row">
       <div class="sidebar_1 col-md-4 col-lg-3 order-md-last  justify-content-center">
-        <div id="datesContainer" class="mt-5 text-center" >
-          <h3>
+        <div id="lateralAgenda" class="mt-5 text-center" >
+          <h2>
             <?php
             printf( __( 'Agenda 2018', 'cristobalj' ));
             ?>
-          </h3>
-          <h4>
-            <?php
-            printf( __( 'Know my activities this year', 'cristobalj' ));
-            ?>
-          </h4>
-          <div class="calendar"><?php echo do_shortcode('[ai1ec view="agenda"]'); ?></div>
+          </h2>
+          <div id="prox_events" class="container mt-3 mb-5">
+            <h3 class="text-uppercase mb-2">¡Próximos Eventos!</h3>
+            <div class="contentEvents">
+                <?php echo do_shortcode('[smartslider3 slider=3]'); ?>
+            </div>
+          </div>
         </div>
         <?php get_template_part( 'twitter' ); ?>
         <div class="inicio">
